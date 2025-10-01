@@ -1,0 +1,417 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;\f2\fnil\fcharset0 LucidaGrande;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww24480\viewh16620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="description" content="Four Paws Inn White Glove Concierge - South Florida's #1 rated luxury pet boarding with private door-to-door transport">\
+    <title>Four Paws Inn - White Glove Concierge Service</title>\
+    <script src="https://cdn.tailwindcss.com"></script>\
+    <style>\
+        body \{ margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif; \}\
+        .animate-bounce \{ animation: bounce 2s infinite; \}\
+        @keyframes bounce \{\
+            0%, 100% \{ transform: translateY(0); \}\
+            50% \{ transform: translateY(-10px); \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+    <div id="root"></div>\
+    \
+    <script>\
+        // Simple vanilla JS version - no React needed\
+        const root = document.getElementById('root');\
+        \
+        const benefits = [\
+            \{ text: "Private luxury door-to-door transport", icon: "
+\f1 \uc0\u55357 \u56983 
+\f0 " \},\
+            \{ text: "Guaranteed last-minute booking", icon: "
+\f1 \uc0\u55357 \u56401 
+\f0 " \},\
+            \{ text: "Daily photos & videos", icon: "
+\f1 \uc0\u55357 \u56568 
+\f0 " \},\
+            \{ text: "Home environment, no kennels", icon: "
+\f1 \uc0\u55356 \u57312 
+\f0 " \}\
+        ];\
+\
+        const proofPoints = [\
+            \{ number: "105+", label: "5-Star Reviews" \},\
+            \{ number: "4.9", label: "Rating" \},\
+            \{ number: "#1", label: "South Florida" \}\
+        ];\
+\
+        const realReviews = [\
+            \{\
+                name: "Sean P.",\
+                location: "Pembroke Pines",\
+                text: "My dog loves staying here. I get daily videos during her stay and I can see her having the time of her life. Amanda does a great job making the dogs feel at home and safe.",\
+                rating: 5\
+            \},\
+            \{\
+                name: "Nilba H.",\
+                location: "Pembroke Pines",\
+                text: "Snoopy seemed very happy upon pick up. It gave him social time he needed. Amanda is very attentive and sends videos periodically. All an owner needs is a peaceful home and excellent care.",\
+                rating: 5\
+            \},\
+            \{\
+                name: "John Green",\
+                location: "Pembroke Pines",\
+                text: "Four paws inn is a very nice daycare took very good care of my daughter Hazel. They are very nice people and very reliable people book with them anytime 100 stars",\
+                rating: 5\
+            \}\
+        ];\
+\
+        const faqs = [\
+            \{\
+                q: "How is this different from your regular boarding?",\
+                a: "Everything about your stay remains the same luxury experience\'97cage-free home environment, pool time, personalized care. White Glove adds private door-to-door transport in a luxury vehicle and guaranteed last-minute availability, even during peak holidays."\
+            \},\
+            \{\
+                q: "What makes Four Paws Inn different from other boarders?",\
+                a: "We're South Florida's highest-rated pet boarding (4.9 stars, 105+ reviews) offering an intimate boutique home experience. No kennels, no warehouse facility with 100+ dogs. Just a family home where your pet gets personal attention, free roam, and pool access."\
+            \},\
+            \{\
+                q: "How does pickup and drop-off work?",\
+                a: "Our specialist arrives at your door in a climate-controlled luxury vehicle. Your pet travels privately (never with other animals) directly to our home. At pickup, we deliver them back to your doorstep\'97completely stress-free."\
+            \},\
+            \{\
+                q: "What if I need to book last minute?",\
+                a: "White Glove members get guaranteed space\'97even during Thanksgiving, Christmas, or Art Basel when we're otherwise fully booked. We reserve capacity specifically for our concierge clients."\
+            \},\
+            \{\
+                q: "How much does it cost?",\
+                a: "Our regular boarding rates remain the same competitive pricing ($50-75/night based on size). White Glove adds $200-350 for round-trip luxury transport and guaranteed availability. We also offer annual unlimited memberships for frequent travelers."\
+            \}\
+        ];\
+\
+        root.innerHTML = `\
+            <div class="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white">\
+                <!-- Hero Section -->\
+                <div class="relative min-h-screen flex flex-col">\
+                    <div class="absolute inset-0 bg-gradient-to-br from-rose-900/20 via-slate-900 to-slate-900"></div>\
+                    \
+                    <div class="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center">\
+                        <!-- Logo -->\
+                        <div class="mb-6">\
+                            <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-rose-400 via-pink-300 to-rose-300 p-1 shadow-2xl">\
+                                <div class="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">\
+                                    <div class="text-center">\
+                                        <div class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-rose-300 to-pink-200" style="font-family: Georgia, serif;">\
+                                            Four Paws Inn\
+                                        </div>\
+                                        <div class="text-xs text-rose-200/80 tracking-widest uppercase mt-1">\
+                                            Pet Boarding\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        \
+                        <!-- Trust Badge -->\
+                        <div class="mb-6 flex flex-col items-center gap-3">\
+                            <div class="inline-flex items-center gap-2 px-4 py-2 bg-rose-500/20 border border-rose-400/40 rounded-full backdrop-blur-sm">\
+                                <span class="text-rose-300">
+\f1 \uc0\u55357 \u56401 
+\f0 </span>\
+                                <span class="text-rose-200 text-sm font-medium">White Glove Concierge</span>\
+                            </div>\
+                            <div class="flex items-center gap-2 text-sm">\
+                                <div class="flex">\
+                                    <span class="text-rose-400">
+\f1 \uc0\u11088 \u11088 \u11088 \u11088 \u11088 
+\f0 </span>\
+                                </div>\
+                                <span class="text-rose-300 font-semibold">4.9</span>\
+                                <span class="text-slate-400">\'95</span>\
+                                <span class="text-slate-300">105+ Reviews</span>\
+                            </div>\
+                        </div>\
+                        \
+                        <h1 class="text-4xl md:text-5xl font-bold mb-3 leading-tight">\
+                            Four Paws Inn<br />White Glove Service\
+                        </h1>\
+                        \
+                        <p class="text-lg text-slate-300 mb-2 max-w-lg">\
+                            South Florida's #1 Rated Luxury Pet Boarding\
+                        </p>\
+                        <p class="text-base text-rose-300 mb-8 max-w-md">\
+                            Now with private door-to-door transport & guaranteed availability\
+                        </p>\
+\
+                        <!-- Proof Points -->\
+                        <div class="grid grid-cols-3 gap-4 w-full max-w-md mb-8">\
+                            $\{proofPoints.map(point => `\
+                                <div class="bg-slate-800/60 backdrop-blur-sm rounded-lg border border-rose-500/30 p-4 text-center">\
+                                    <div class="text-2xl font-bold text-rose-400 mb-1">$\{point.number\}</div>\
+                                    <div class="text-xs text-slate-300">$\{point.label\}</div>\
+                                </div>\
+                            `).join('')\}\
+                        </div>\
+\
+                        <!-- Benefits -->\
+                        <div class="grid grid-cols-1 gap-3 w-full max-w-md mb-12">\
+                            $\{benefits.map(benefit => `\
+                                <div class="flex items-center gap-3 bg-slate-800/60 backdrop-blur-sm px-4 py-3 rounded-lg border border-rose-500/30">\
+                                    <span class="text-2xl">$\{benefit.icon\}</span>\
+                                    <span class="text-left text-sm">$\{benefit.text\}</span>\
+                                </div>\
+                            `).join('')\}\
+                        </div>\
+\
+                        <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">\
+                            <a href="sms:+17549710792&body=I'm interested in the White Glove Concierge Package" \
+                               class="flex-1 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-semibold py-4 px-6 rounded-lg flex items-center justify-center gap-2 transition shadow-lg">\
+                                
+\f1 \uc0\u55357 \u56492 
+\f0  Text Alexander\
+                            </a>\
+                            <a href="tel:+17549710792" \
+                               class="flex-1 bg-slate-700/80 hover:bg-slate-700 text-white font-semibold py-4 px-6 rounded-lg flex items-center justify-center gap-2 border border-rose-500/30 transition">\
+                                
+\f1 \uc0\u55357 \u56542 
+\f0  Call Now\
+                            </a>\
+                        </div>\
+                    </div>\
+\
+                    <div class="relative z-10 pb-8 flex justify-center">\
+                        <div class="animate-bounce text-rose-400 text-4xl">\
+                            
+\f2 \uc0\u8595 
+\f0 \
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- Why Four Paws Inn -->\
+                <div class="px-6 py-16 bg-slate-900/80">\
+                    <div class="max-w-2xl mx-auto">\
+                        <h2 class="text-3xl font-bold text-center mb-4">Why Four Paws Inn?</h2>\
+                        <p class="text-center text-slate-400 mb-12">South Florida's most trusted luxury pet boarding</p>\
+                        \
+                        <div class="space-y-6">\
+                            <div class="bg-slate-800/60 border border-rose-500/20 rounded-xl p-6">\
+                                <div class="flex items-start gap-4">\
+                                    <div class="text-4xl">
+\f1 \uc0\u55356 \u57312 
+\f0 </div>\
+                                    <div>\
+                                        <h3 class="text-xl font-semibold mb-2 text-rose-300">Intimate Boutique Experience</h3>\
+                                        <p class="text-slate-300">\
+                                            Not a warehouse with 100+ dogs barking in kennels. Your pet stays in our family home with free roam, pool access, and personalized attention. Limited capacity ensures every pet gets individual care.\
+                                        </p>\
+                                    </div>\
+                                </div>\
+                            </div>\
+\
+                            <div class="bg-slate-800/60 border border-rose-500/20 rounded-xl p-6">\
+                                <div class="flex items-start gap-4">\
+                                    <div class="text-4xl">
+\f1 \uc0\u11088 
+\f0 </div>\
+                                    <div>\
+                                        <h3 class="text-xl font-semibold mb-2 text-rose-300">Highest Rated in South Florida</h3>\
+                                        <p class="text-slate-300">\
+                                            4.9 stars with 105+ five-star reviews. We're not just good\'97we're the gold standard for luxury pet care in the region. Our reputation speaks for itself.\
+                                        </p>\
+                                    </div>\
+                                </div>\
+                            </div>\
+\
+                            <div class="bg-slate-800/60 border border-rose-500/20 rounded-xl p-6">\
+                                <div class="flex items-start gap-4">\
+                                    <div class="text-4xl">
+\f1 \uc0\u55357 \u56496 
+\f0 </div>\
+                                    <div>\
+                                        <h3 class="text-xl font-semibold mb-2 text-rose-300">Competitive Luxury Pricing</h3>\
+                                        <p class="text-slate-300">\
+                                            Premium experience at fair rates ($50-75/night). White Glove adds private transport and guaranteed availability\'97perfect for busy professionals and frequent travelers.\
+                                        </p>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- How It Works -->\
+                <div class="px-6 py-16 bg-slate-800/50">\
+                    <div class="max-w-2xl mx-auto">\
+                        <h2 class="text-3xl font-bold text-center mb-4">How White Glove Works</h2>\
+                        <p class="text-center text-slate-400 mb-12">The same luxury experience, elevated with concierge service</p>\
+                        \
+                        <div class="space-y-8">\
+                            <div class="flex gap-4">\
+                                <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">\
+                                    1\
+                                </div>\
+                                <div>\
+                                    <h3 class="text-xl font-semibold mb-2 text-rose-300">Book Anytime (Even Last Minute)</h3>\
+                                    <p class="text-slate-300">\
+                                        Text or call Alexander directly. White Glove members get guaranteed space\'97even during peak holidays when standard bookings are full.\
+                                    </p>\
+                                </div>\
+                            </div>\
+\
+                            <div class="flex gap-4">\
+                                <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">\
+                                    2\
+                                </div>\
+                                <div>\
+                                    <h3 class="text-xl font-semibold mb-2 text-rose-300">Private Luxury Transport</h3>\
+                                    <p class="text-slate-300">\
+                                        We arrive at your door. Your pet travels in a climate-controlled luxury vehicle\'97privately, never with other animals. No stress, no rushing.\
+                                    </p>\
+                                </div>\
+                            </div>\
+\
+                            <div class="flex gap-4">\
+                                <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">\
+                                    3\
+                                </div>\
+                                <div>\
+                                    <h3 class="text-xl font-semibold mb-2 text-rose-300">Boutique Home Experience</h3>\
+                                    <p class="text-slate-300">\
+                                        Your pet enjoys cage-free luxury in our family home. Pool time, personal attention, gourmet meals, and daily photo/video updates to your phone.\
+                                    </p>\
+                                </div>\
+                            </div>\
+\
+                            <div class="flex gap-4">\
+                                <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">\
+                                    4\
+                                </div>\
+                                <div>\
+                                    <h3 class="text-xl font-semibold mb-2 text-rose-300">Door-to-Door Return</h3>\
+                                    <p class="text-slate-300">\
+                                        We deliver your happy, well-rested companion back to your doorstep. Completely seamless from start to finish.\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- Reviews -->\
+                <div class="px-6 py-16 bg-gradient-to-b from-slate-900 to-slate-800">\
+                    <div class="max-w-2xl mx-auto">\
+                        <h2 class="text-3xl font-bold text-center mb-4">Real Reviews from Real Clients</h2>\
+                        <div class="flex items-center justify-center gap-2 mb-12">\
+                            <span class="text-rose-400 text-xl">
+\f1 \uc0\u11088 \u11088 \u11088 \u11088 \u11088 
+\f0 </span>\
+                            <span class="text-rose-300 font-semibold text-lg">4.9 out of 5</span>\
+                            <span class="text-slate-400">\'95</span>\
+                            <span class="text-slate-300">105+ reviews</span>\
+                        </div>\
+                        \
+                        <div class="space-y-6">\
+                            $\{realReviews.map(review => `\
+                                <div class="bg-slate-800/60 border border-rose-500/20 rounded-xl p-6">\
+                                    <div class="mb-3">\
+                                        <span class="text-rose-400">
+\f1 \uc0\u11088 \u11088 \u11088 \u11088 \u11088 
+\f0 </span>\
+                                    </div>\
+                                    <p class="text-slate-300 mb-4">"$\{review.text\}"</p>\
+                                    <p class="text-sm text-rose-300/80">\'97 $\{review.name\}, $\{review.location\}</p>\
+                                </div>\
+                            `).join('')\}\
+                        </div>\
+\
+                        <div class="text-center mt-8">\
+                            <a href="https://www.google.com/maps/place/Four+Paws+Inn" \
+                               target="_blank"\
+                               class="inline-flex items-center gap-2 text-rose-400 hover:text-rose-300 transition">\
+                                <span>Read all 105+ reviews on Google 
+\f2 \uc0\u8594 
+\f0 </span>\
+                            </a>\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- FAQs -->\
+                <div class="px-6 py-16 bg-slate-800/50">\
+                    <div class="max-w-2xl mx-auto">\
+                        <h2 class="text-3xl font-bold text-center mb-12">Common Questions</h2>\
+                        \
+                        <div class="space-y-4">\
+                            $\{faqs.map((faq, idx) => `\
+                                <details class="bg-slate-900/60 border border-rose-500/20 rounded-lg overflow-hidden group">\
+                                    <summary class="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-800/50 transition list-none flex items-center justify-between">\
+                                        <span class="pr-4">$\{faq.q\}</span>\
+                                        <span class="text-rose-400 group-open:rotate-180 transition-transform">
+\f2 \uc0\u9660 
+\f0 </span>\
+                                    </summary>\
+                                    <div class="px-6 pb-4 text-slate-300">\
+                                        $\{faq.a\}\
+                                    </div>\
+                                </details>\
+                            `).join('')\}\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- Final CTA -->\
+                <div class="px-6 py-16 bg-gradient-to-b from-slate-800 via-rose-950/20 to-slate-900">\
+                    <div class="max-w-2xl mx-auto text-center">\
+                        <div class="text-6xl mb-6">
+\f1 \uc0\u55357 \u56401 
+\f0 </div>\
+                        <h2 class="text-3xl font-bold mb-4">Experience White Glove Service</h2>\
+                        <p class="text-xl text-slate-300 mb-8">\
+                            South Florida's #1 rated luxury boarding + concierge convenience\
+                        </p>\
+                        \
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">\
+                            <a href="sms:+17549710792&body=I'm interested in the White Glove Concierge Package" \
+                               class="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-lg flex items-center justify-center gap-2 transition text-lg shadow-lg">\
+                                
+\f1 \uc0\u55357 \u56492 
+\f0  Text Alexander Now\
+                            </a>\
+                            <a href="tel:+17549710792" \
+                               class="bg-slate-700/80 hover:bg-slate-700 text-white font-bold py-4 px-8 rounded-lg flex items-center justify-center gap-2 border border-rose-500/30 transition text-lg">\
+                                
+\f1 \uc0\u55357 \u56542 
+\f0  754-971-0792\
+                            </a>\
+                        </div>\
+\
+                        <div class="flex items-center justify-center gap-2 text-sm text-slate-400">\
+                            <span>
+\f1 \uc0\u55357 \u57057 \u65039 
+\f0 </span>\
+                            <span>Licensed \'95 Insured \'95 Family-Owned Since 2020</span>\
+                        </div>\
+                    </div>\
+                </div>\
+\
+                <!-- Sticky Bottom Bar (mobile) -->\
+                <div class="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur-md border-t border-rose-500/30 px-6 py-4 sm:hidden z-50">\
+                    <a href="sms:+17549710792&body=I'm interested in the White Glove Concierge Package" \
+                       class="w-full bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-bold py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition shadow-lg">\
+                        
+\f1 \uc0\u55357 \u56492 
+\f0  Text to Reserve\
+                    </a>\
+                </div>\
+            </div>\
+        `;\
+    </script>\
+</body>\
+</html>}
