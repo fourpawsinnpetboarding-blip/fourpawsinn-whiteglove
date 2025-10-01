@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Paws Inn - White Glove</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+    .cta {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .cta:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Four Paws Inn White Glove Service</h1>
+  <p>Luxury care and boarding for your pets — coming soon!</p>
+  <a href="https://www.fourpawsinn.co" class="cta">Visit Our Main Site</a>
+</body>
+</html>
