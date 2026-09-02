@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weekly strategy — {{DATE}}</title>
+    <style>
+      /* Weekly Strategist memo. One accent (green = market signal). Keep this
+     design as-is: fill the slots, repeat the marked blocks, change nothing
+     else. Light theme by default, dark via prefers-color-scheme. */
+      :root {
+        --bg: #fafaf8;
+        --card: #ffffff;
+        --ink: #1a1a18;
+        --ink-2: #55554f;
+        --ink-3: #8a8a82;
+        --line: rgba(0, 0, 0, 0.09);
+        --accent: #09321f;
+        --accent-soft: rgba(9, 50, 31, 0.07);
+        --accent-line: rgba(9, 50, 31, 0.25);
+        --amber: #92600a;
+        --rose: #9c3a3a;
+        --sky: #2b5d8a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121211;
+          --card: #1b1b1a;
+          --ink: #f0efe9;
+          --ink-2: #b5b4ac;
+          --ink-3: #7d7c74;
+          --line: rgba(255, 255, 255, 0.1);
+          --accent: #73b490;
+          --accent-soft: rgba(115, 180, 144, 0.1);
+          --accent-line: rgba(115, 180, 144, 0.35);
+          --amber: #d9a44a;
+          --rose: #d98282;
+          --sky: #7fb0d8;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 10px;
+      }
+      .intro {
+        font-size: 17px;
+        color: var(--ink-2);
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        margin: 44px 0 16px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 14px;
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+      }
+      .chip.amber {
+        color: var(--amber);
+        background: rgba(146, 96, 10, 0.08);
+        border-color: rgba(146, 96, 10, 0.3);
+      }
+      .meta {
+        font-size: 12px;
+        color: var(--ink-3);
+        margin-left: 6px;
+      }
+      .claim {
+        font-size: 18px;
+        font-weight: 650;
+        letter-spacing: -0.015em;
+        margin: 10px 0 6px;
+      }
+      .detail {
+        margin: 0 0 10px;
+        color: var(--ink-2);
+      }
+      .foryou {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 8px 14px;
+        margin: 0 0 12px;
+        font-weight: 550;
+      }
+      .receipt {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 7px 0;
+        border-top: 1px dashed var(--line);
+        font-size: 13.5px;
+      }
+      .receipt .who {
+        font-weight: 650;
+        white-space: nowrap;
+      }
+      .receipt .stat {
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .receipt .note {
+        color: var(--ink-2);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13.5px;
+      }
+      th {
+        text-align: left;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        padding: 6px 10px 6px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      td {
+        padding: 8px 10px 8px 0;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      td.r-over {
+        color: var(--accent);
+        font-weight: 600;
+      }
+      td.r-under {
+        color: var(--rose);
+      }
+      td.r-inline {
+        color: var(--ink-2);
+      }
+      .bet {
+        background: var(--accent-soft);
+        border: 1px solid var(--accent-line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 14px;
+      }
+      .bet .label {
+        font-size: 11px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .bet p {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 6px 0 0;
+      }
+      .play {
+        counter-increment: play;
+      }
+      .play .claim::before {
+        content: counter(play) ". ";
+        color: var(--ink-3);
+      }
+      .kv {
+        font-size: 13.5px;
+        margin: 4px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      ul.openers {
+        margin: 6px 0 0;
+        padding-left: 18px;
+        font-size: 13.5px;
+        color: var(--ink-2);
+      }
+      .quiet {
+        color: var(--ink-3);
+        font-size: 13px;
+      }
+      .foot {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Weekly strategy</div>
+      <h1>{{DATE_HUMAN}}</h1>
+      <p class="intro">{{INTRO}}</p>
+
+      <h2>Signal — what's moving in your market</h2>
+      <!-- REPEAT per finding -->
+      <div class="card">
+        <span class="chip">{{new | building | saturating}}</span>
+        <span class="meta">first seen {{FIRST_SEEN}}</span>
+        <!-- add <span class="chip amber">early signal</span> when unconfirmed -->
+        <div class="claim">{{FINDING_CLAIM}}</div>
+        <p class="detail">{{FINDING_DETAIL}}</p>
+        <div class="foryou">For you: {{TRANSFER_NOTE}}</div>
+        <!-- REPEAT per receipt -->
+        <div class="receipt">
+          <span class="who">@{{HANDLE}}</span>
+          <span class="stat">{{X.X}}x baseline · {{REACH}}</span>
+          <span class="note">{{RECEIPT_NOTE}}</span>
+        </div>
+        <!-- /REPEAT -->
+      </div>
+      <!-- /REPEAT -->
+
+      <h2>Your scoreboard</h2>
+      <p class="detail">{{SCOREBOARD_SUMMARY}}</p>
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Post</th>
+              <th>Result</th>
+              <th>Read</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- REPEAT per post; class = r-over | r-inline | r-under -->
+            <tr>
+              <td>{{POST}}</td>
+              <td>{{X.X}}x · {{REACH}}</td>
+              <td class="r-over">{{VERDICT_NOTE}}</td>
+            </tr>
+            <!-- /REPEAT -->
+          </tbody>
+        </table>
+      </div>
+      <p class="kv"><b>Worth a second life:</b> {{REVISIT_LINES_OR_OMIT}}</p>
+
+      <h2>The strategy</h2>
+      <p class="kv"><b>Last week's call:</b> {{LAST_WEEKS_CALL}}</p>
+      <div class="bet">
+        <div class="label">The bet</div>
+        <p>{{BET_ONE_SENTENCE_STARTING_WITH_A_VERB}}</p>
+      </div>
+      <!-- REPEAT per play (2-4) -->
+      <div class="card play">
+        <div class="claim">{{PLAY_TITLE_LITERAL_CLAIM}}</div>
+        <p class="kv"><b>Make this:</b> {{EXECUTION_LINE}}</p>
+        <p class="kv">
+          <b>Borrow the structure from:</b> @{{HANDLE}} ({{STRUCTURE_IN_PLAIN_WORDS}})
+        </p>
+        <ul class="openers">
+          <li>{{OPENER_1}}</li>
+          <li>{{OPENER_2}}</li>
+        </ul>
+      </div>
+      <!-- /REPEAT -->
+      <div class="card">
+        <p class="kv"><b>Experiment:</b> {{EXPERIMENT_AND_SUCCESS_CONDITION}}</p>
+        <p class="kv"><b>Stop doing:</b> {{STOP_DOING_OR_REMOVE_THIS_LINE}}</p>
+      </div>
+
+      <h2>Watchlist</h2>
+      <div class="card">
+        <!-- REPEAT per entry (2-4) -->
+        <p class="kv">
+          <b>{{LABEL}}</b> <span class="quiet">({{creator | pattern | topic}})</span> — {{REASON}}
+        </p>
+        <!-- /REPEAT -->
+      </div>
+
+      <div class="foot">
+        Swept {{N_SEARCHES}} searches · read {{N_READS}} posts in full · saved to your Eden “Weekly
+        strategy” board
+      </div>
+    </div>
+  </body>
+</html>
