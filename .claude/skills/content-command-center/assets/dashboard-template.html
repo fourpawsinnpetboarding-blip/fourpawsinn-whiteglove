@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Command center — {{DATE}}</title>
+    <style>
+      /* Content Command Center dashboard. One accent (green = your signal).
+     Keep this design as-is: fill the slots, repeat the marked blocks, delete
+     optional rows rather than inventing content, change nothing else. Light
+     theme by default, dark via prefers-color-scheme. No JS; the station cards
+     anchor-link to their detail sections. */
+      :root {
+        --bg: #fafaf8;
+        --card: #ffffff;
+        --ink: #1a1a18;
+        --ink-2: #55554f;
+        --ink-3: #8a8a82;
+        --line: rgba(0, 0, 0, 0.09);
+        --accent: #09321f;
+        --accent-soft: rgba(9, 50, 31, 0.07);
+        --accent-line: rgba(9, 50, 31, 0.25);
+        --up: #1c7a4a;
+        --down: #9c3a3a;
+        --amber: #92600a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121211;
+          --card: #1b1b1a;
+          --ink: #f0efe9;
+          --ink-2: #b5b4ac;
+          --ink-3: #7d7c74;
+          --line: rgba(255, 255, 255, 0.1);
+          --accent: #73b490;
+          --accent-soft: rgba(115, 180, 144, 0.1);
+          --accent-line: rgba(115, 180, 144, 0.35);
+          --up: #73b490;
+          --down: #d98282;
+          --amber: #d9a44a;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          15px/1.6 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      a {
+        color: inherit;
+      }
+      .page {
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 44px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 4px;
+      }
+      .sub {
+        color: var(--ink-2);
+        margin: 0 0 6px;
+      }
+      .goal-chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 3px 10px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+      }
+
+      /* Hero stat tiles */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin: 22px 0 30px;
+      }
+      @media (max-width: 760px) {
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .stat {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px 16px;
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+      .stat .label {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      .stat .value {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin: 2px 0 2px;
+        font-variant-numeric: tabular-nums;
+      }
+      .stat .value.small {
+        font-size: 15px;
+        line-height: 1.35;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+      .delta {
+        font-size: 12px;
+        font-weight: 650;
+        font-variant-numeric: tabular-nums;
+      }
+      .delta.up {
+        color: var(--up);
+      }
+      .delta.down {
+        color: var(--down);
+      }
+      .delta.flat {
+        color: var(--ink-3);
+      }
+
+      /* Station cards */
+      .stations {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin: 0 0 40px;
+      }
+      @media (max-width: 980px) {
+        .stations {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 560px) {
+        .stations {
+          grid-template-columns: 1fr;
+        }
+      }
+      .station {
+        display: block;
+        text-decoration: none;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 15px 16px 13px;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        transition:
+          border-color 0.15s ease,
+          transform 0.1s ease;
+      }
+      .station:hover {
+        border-color: var(--accent-line);
+        transform: translateY(-1px);
+      }
+      .station .head {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        margin-bottom: 8px;
+      }
+      .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--up);
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+      .dot.idle {
+        background: var(--ink-3);
+        animation: none;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.35;
+        }
+      }
+      .station .name {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .station .status {
+        font-size: 13px;
+        color: var(--ink-2);
+        min-height: 3.2em;
+        margin: 0 0 10px;
+      }
+      .station .mini {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 4px 0 0;
+        border-top: 1px dashed var(--line);
+        color: var(--ink-3);
+      }
+      .station .mini b {
+        color: var(--ink);
+        font-weight: 650;
+        font-variant-numeric: tabular-nums;
+      }
+      .station .more {
+        display: block;
+        margin-top: 10px;
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      /* Detail sections */
+      h2 {
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        margin: 44px 0 14px;
+        padding-top: 26px;
+        border-top: 1px solid var(--line);
+      }
+      h2 .tag {
+        color: var(--accent);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px 18px;
+        margin: 0 0 12px;
+      }
+      .row {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 8px 0;
+        border-top: 1px dashed var(--line);
+        font-size: 13.5px;
+      }
+      .row:first-child {
+        border-top: 0;
+        padding-top: 0;
+      }
+      .row .who {
+        font-weight: 650;
+        white-space: nowrap;
+      }
+      .row .stat-inline {
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .row .note {
+        color: var(--ink-2);
+      }
+      .row .when {
+        color: var(--ink-3);
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .bet {
+        background: var(--accent-soft);
+        border: 1px solid var(--accent-line);
+        border-radius: 14px;
+        padding: 16px 18px;
+        margin: 0 0 12px;
+      }
+      .bet .label {
+        font-size: 11px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .bet p {
+        font-size: 16.5px;
+        font-weight: 600;
+        margin: 6px 0 0;
+      }
+      .kv {
+        font-size: 13.5px;
+        margin: 4px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .quiet {
+        color: var(--ink-3);
+        font-size: 13px;
+      }
+      .warn {
+        color: var(--amber);
+        font-size: 13px;
+      }
+      .foot {
+        margin-top: 44px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Content command center</div>
+      <h1>{{USER_NAME_OR_HANDLE}}</h1>
+      <p class="sub">
+        {{DATE_HUMAN}} · last {{WINDOW_DAYS}} days
+        <span class="goal-chip">Goal: {{GOAL_METRIC}}</span>
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="label">Followers</div>
+          <div class="value">{{FOLLOWERS_TOTAL}}</div>
+          <span class="delta up">{{FOLLOWERS_DELTA}}</span>
+        </div>
+        <div class="stat">
+          <div class="label">Views</div>
+          <div class="value">{{VIEWS_TOTAL}}</div>
+          <span class="delta up">{{VIEWS_DELTA_VS_PREVIOUS}}</span>
+        </div>
+        <div class="stat">
+          <div class="label">Engagements</div>
+          <div class="value">{{ENGAGEMENTS_TOTAL}}</div>
+          <span class="delta up">{{ENGAGEMENTS_DELTA}}</span>
+        </div>
+        <div class="stat">
+          <div class="label">Top post</div>
+          <div class="value small">{{TOP_POST_PREVIEW_SHORT}}</div>
+          <span class="delta flat">{{TOP_POST_STAT}}</span>
+        </div>
+      </div>
+
+      <!-- Five stations. dot = live data this refresh; dot idle = the station
+           had nothing to work with (empty queue is NOT idle, it's a finding). -->
+      <div class="stations">
+        <a class="station" href="#analyst">
+          <span class="head"><span class="dot"></span><span class="name">Analyst</span></span>
+          <p class="status">{{ANALYST_STATUS_LINE}}</p>
+          <span class="mini"><span>{{ANALYST_M1_LABEL}}</span><b>{{ANALYST_M1}}</b></span>
+          <span class="mini"><span>{{ANALYST_M2_LABEL}}</span><b>{{ANALYST_M2}}</b></span>
+          <span class="mini"><span>{{ANALYST_M3_LABEL}}</span><b>{{ANALYST_M3}}</b></span>
+          <span class="more">View details ↓</span>
+        </a>
+        <a class="station" href="#scout">
+          <span class="head"><span class="dot"></span><span class="name">Scout</span></span>
+          <p class="status">{{SCOUT_STATUS_LINE}}</p>
+          <span class="mini"><span>Breakouts found</span><b>{{SCOUT_BREAKOUTS}}</b></span>
+          <span class="mini"><span>Hottest outlier</span><b>{{SCOUT_TOP_MULTIPLE}}</b></span>
+          <span class="mini"><span>Competitors checked</span><b>{{SCOUT_COMPETITORS}}</b></span>
+          <span class="more">View details ↓</span>
+        </a>
+        <a class="station" href="#strategist">
+          <span class="head"><span class="dot"></span><span class="name">Strategist</span></span>
+          <p class="status">{{STRATEGIST_STATUS_LINE}}</p>
+          <span class="mini"><span>Best topic</span><b>{{BEST_TOPIC_AND_MULTIPLE}}</b></span>
+          <span class="mini"><span>Best format</span><b>{{BEST_FORMAT}}</b></span>
+          <span class="mini"><span>Posts behind it</span><b>{{TOPIC_POST_COUNT}}</b></span>
+          <span class="more">View details ↓</span>
+        </a>
+        <a class="station" href="#planner">
+          <span class="head"><span class="dot"></span><span class="name">Planner</span></span>
+          <p class="status">{{PLANNER_STATUS_LINE}}</p>
+          <span class="mini"><span>Queued</span><b>{{QUEUED_COUNT}}</b></span>
+          <span class="mini"><span>Days covered</span><b>{{DAYS_COVERED}}</b></span>
+          <span class="mini"><span>Next open slot</span><b>{{NEXT_OPEN_SLOT}}</b></span>
+          <span class="more">View details ↓</span>
+        </a>
+        <a class="station" href="#repurposer">
+          <span class="head"><span class="dot"></span><span class="name">Repurposer</span></span>
+          <p class="status">{{REPURPOSER_STATUS_LINE}}</p>
+          <span class="mini"><span>Candidates</span><b>{{REPURPOSE_COUNT}}</b></span>
+          <span class="mini"><span>Best multiple</span><b>{{REPURPOSE_TOP_MULTIPLE}}</b></span>
+          <span class="mini"><span>Oldest theme working</span><b>{{OLDEST_THEME}}</b></span>
+          <span class="more">View details ↓</span>
+        </a>
+      </div>
+
+      <h2 id="analyst"><span class="tag">Analyst</span> — how you're doing</h2>
+      <div class="card">
+        <!-- REPEAT per account -->
+        <div class="row">
+          <span class="who">{{PLATFORM}}</span>
+          <span class="stat-inline">{{FOLLOWERS}}</span>
+          <span class="note">{{ACCOUNT_NOTE_OR_DELTA}}</span>
+        </div>
+        <!-- /REPEAT -->
+      </div>
+      <!-- OMIT this card when benchmarks are null -->
+      <div class="card">
+        <!-- REPEAT per benchmark platform -->
+        <p class="kv"><b>{{PLATFORM}}:</b> {{BENCHMARK_LINE_IN_PLAIN_WORDS}}</p>
+        <!-- /REPEAT -->
+      </div>
+
+      <h2 id="scout"><span class="tag">Scout</span> — what's moving in your market</h2>
+      <div class="card">
+        <!-- REPEAT per receipt (up to 6) -->
+        <div class="row">
+          <span class="who"><a href="{{POST_URL}}">@{{HANDLE}}</a></span>
+          <span class="stat-inline">{{X.X}}x baseline · {{REACH}}</span>
+          <span class="note">{{WHY_IT_WORKED_ONE_LINE}}</span>
+        </div>
+        <!-- /REPEAT -->
+        <!-- Include when the sweep was cut short: -->
+        <p class="warn">{{PARTIAL_SWEEP_NOTE_OR_REMOVE}}</p>
+      </div>
+
+      <h2 id="strategist"><span class="tag">Strategist</span> — what to do about it</h2>
+      <div class="bet">
+        <div class="label">The bet</div>
+        <p>{{BET_ONE_SENTENCE_STARTING_WITH_A_VERB}}</p>
+      </div>
+      <div class="card">
+        <p class="kv"><b>Last run's call:</b> {{LAST_BET_GRADED_OR_FIRST_BUILD}}</p>
+        <!-- REPEAT per play (2-3) -->
+        <p class="kv">
+          <b>{{PLAY_TITLE}}:</b> {{MAKE_THIS_LINE}}
+          <span class="quiet">(borrows from @{{HANDLE}})</span>
+        </p>
+        <!-- /REPEAT -->
+      </div>
+
+      <h2 id="planner"><span class="tag">Planner</span> — what's actually queued</h2>
+      <div class="card">
+        <!-- REPEAT per queued post (up to 5); or ONE row saying the queue is empty -->
+        <div class="row">
+          <span class="when">{{DAY_AND_TIME}}</span>
+          <span class="who">{{PLATFORM}}</span>
+          <span class="note">{{POST_FIRST_LINE}}</span>
+        </div>
+        <!-- /REPEAT -->
+      </div>
+
+      <h2 id="repurposer"><span class="tag">Repurposer</span> — old winners worth a second life</h2>
+      <div class="card">
+        <!-- REPEAT per candidate (up to 5) -->
+        <div class="row">
+          <span class="who"><a href="{{POST_URL}}">{{POST_PREVIEW_SHORT}}</a></span>
+          <span class="stat-inline">{{X.X}}x · {{REACH}}</span>
+          <span class="note">{{HOW_TO_RERUN_IT}}</span>
+        </div>
+        <!-- /REPEAT -->
+      </div>
+
+      <div class="foot">
+        Refreshed {{DATE_HUMAN}} · {{N_CALLS}} data pulls · {{SKIPPED_NOTE_OR_ALL_STATIONS_RAN}} ·
+        snapshot saved to your Eden “Command center” board
+      </div>
+    </div>
+  </body>
+</html>
