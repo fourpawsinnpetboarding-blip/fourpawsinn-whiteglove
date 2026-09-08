@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ideas — {{DATE}}</title>
+    <style>
+      /* Idea Engine cards. One accent (green = go make it). Keep this design
+     as-is: fill the slots, repeat the marked card block, change nothing
+     else. Light theme by default, dark via prefers-color-scheme. */
+      :root {
+        --bg: #fafaf8;
+        --card: #ffffff;
+        --ink: #1a1a18;
+        --ink-2: #55554f;
+        --ink-3: #8a8a82;
+        --line: rgba(0, 0, 0, 0.09);
+        --accent: #09321f;
+        --accent-soft: rgba(9, 50, 31, 0.07);
+        --accent-line: rgba(9, 50, 31, 0.25);
+        --amber: #92600a;
+        --sky: #2b5d8a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121211;
+          --card: #1b1b1a;
+          --ink: #f0efe9;
+          --ink-2: #b5b4ac;
+          --ink-3: #7d7c74;
+          --line: rgba(255, 255, 255, 0.1);
+          --accent: #73b490;
+          --accent-soft: rgba(115, 180, 144, 0.1);
+          --accent-line: rgba(115, 180, 144, 0.35);
+          --amber: #d9a44a;
+          --sky: #7fb0d8;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 10px;
+      }
+      .intro {
+        font-size: 17px;
+        color: var(--ink-2);
+        margin: 0 0 28px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 16px;
+        counter-increment: idea;
+      }
+      .card .idea {
+        font-size: 18px;
+        font-weight: 650;
+        letter-spacing: -0.015em;
+        margin: 0 0 10px;
+      }
+      .card .idea::before {
+        content: counter(idea) ". ";
+        color: var(--ink-3);
+      }
+      .chips {
+        margin: 0 0 12px;
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+        margin-right: 6px;
+      }
+      .chip.amber {
+        color: var(--amber);
+        background: rgba(146, 96, 10, 0.08);
+        border-color: rgba(146, 96, 10, 0.3);
+      }
+      .hook {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 10px 14px;
+        margin: 0 0 12px;
+        font-weight: 550;
+        white-space: pre-line;
+      }
+      .kv {
+        font-size: 13.5px;
+        margin: 5px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .receipt {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 8px 0 2px;
+        margin-top: 10px;
+        border-top: 1px dashed var(--line);
+        font-size: 13.5px;
+      }
+      .receipt .who {
+        font-weight: 650;
+        white-space: nowrap;
+      }
+      .receipt .stat {
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .receipt .note {
+        color: var(--ink-2);
+      }
+      .today {
+        font-size: 13px;
+        color: var(--sky);
+        margin: 8px 0 0;
+        font-weight: 550;
+      }
+      .foot {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Idea engine</div>
+      <h1>{{DATE_HUMAN}}</h1>
+      <p class="intro">{{INTRO_TODAYS_READ}}</p>
+
+      <!-- REPEAT per card (5-8) -->
+      <div class="card">
+        <div class="idea">{{THE_IDEA_ONE_LITERAL_CLAIM}}</div>
+        <div class="chips">
+          <span class="chip">{{FORMAT_SHORT e.g. 60s reel}}</span>
+          <span class="chip">{{PLATFORM}}</span>
+          <!-- add when a tangent card: <span class="chip amber">borrowed format</span> -->
+        </div>
+        <div class="hook">{{HOOK_LINES_IN_THE_USERS_VOICE}}</div>
+        <p class="kv"><b>Make:</b> {{FORMAT_AND_PLATFORM_ONE_LINE}}</p>
+        <p class="kv"><b>Your material:</b> {{SAVED_ITEM_TITLE}} — {{WHAT_TO_PULL_FROM_IT}}</p>
+        <div class="receipt">
+          <span class="who">@{{HANDLE}}</span>
+          <span class="stat">{{X.X}}x baseline · {{REACH}}</span>
+          <span class="note">{{WHAT_THIS_POST_PROVES}}</span>
+        </div>
+        <p class="today">Why today: {{ONE_LINE_LIVE_SIGNAL}}</p>
+      </div>
+      <!-- /REPEAT -->
+
+      <div class="foot">
+        {{N_SEARCHES}} searches · {{N_READS}} full reads · lanes: {{LANES_THAT_FED_TODAY}} · saved
+        to your Eden “Idea engine” board
+      </div>
+    </div>
+  </body>
+</html>

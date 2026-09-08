@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Content week — {{DATE}}</title>
+    <style>
+      /* Head of Content week report. One accent (blue = the plan). Keep this
+     design as-is: fill the slots, repeat the marked blocks, change nothing
+     else. Light theme by default, dark via prefers-color-scheme. */
+      :root {
+        --bg: #fafaf8;
+        --card: #ffffff;
+        --ink: #1a1a18;
+        --ink-2: #55554f;
+        --ink-3: #8a8a82;
+        --line: rgba(0, 0, 0, 0.09);
+        --accent: #1f3a5f;
+        --accent-soft: rgba(31, 58, 95, 0.07);
+        --accent-line: rgba(31, 58, 95, 0.25);
+        --good: #09321f;
+        --amber: #92600a;
+        --bad: #8a2b22;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121211;
+          --card: #1b1b1a;
+          --ink: #f0efe9;
+          --ink-2: #b5b4ac;
+          --ink-3: #7d7c74;
+          --line: rgba(255, 255, 255, 0.1);
+          --accent: #8db4e2;
+          --accent-soft: rgba(141, 180, 226, 0.1);
+          --accent-line: rgba(141, 180, 226, 0.35);
+          --good: #73b490;
+          --amber: #d9a44a;
+          --bad: #d98a80;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 10px;
+      }
+      h2 {
+        font-size: 13px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        margin: 36px 0 12px;
+      }
+      .grade {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 6px 16px;
+      }
+      .grade p {
+        font-size: 14.5px;
+        margin: 10px 0;
+        color: var(--ink-2);
+      }
+      .grade b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .grade .tag {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 650;
+        letter-spacing: 0.04em;
+        padding: 1px 8px;
+        border-radius: 999px;
+        margin-right: 6px;
+        background: rgba(9, 50, 31, 0.08);
+        color: var(--good);
+      }
+      .grade .tag.miss {
+        background: rgba(138, 43, 34, 0.08);
+        color: var(--bad);
+      }
+      .grade .tag.hold {
+        background: rgba(146, 96, 10, 0.08);
+        color: var(--amber);
+      }
+      .lesson {
+        font-size: 14px;
+        color: var(--ink-2);
+        font-style: italic;
+        margin: 10px 2px 0;
+      }
+      .read {
+        font-size: 14.5px;
+        color: var(--ink-2);
+        margin: 6px 0;
+      }
+      .read .who {
+        font-weight: 650;
+        color: var(--ink);
+      }
+      .read .stat {
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+      }
+      .bet {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 12px 16px;
+        margin: 14px 0 0;
+        font-weight: 600;
+        font-size: 16.5px;
+      }
+      .bet .label {
+        display: block;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 4px;
+        font-weight: 650;
+      }
+      .slot {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 14px;
+      }
+      .slot .when {
+        font-size: 12px;
+        font-weight: 650;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin: 0 0 6px;
+      }
+      .slot .idea {
+        font-size: 18px;
+        font-weight: 650;
+        letter-spacing: -0.015em;
+        margin: 0 0 10px;
+      }
+      .chips {
+        margin: 0 0 10px;
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+        margin-right: 6px;
+      }
+      .chip.amber {
+        color: var(--amber);
+        background: rgba(146, 96, 10, 0.08);
+        border-color: rgba(146, 96, 10, 0.3);
+      }
+      .kv {
+        font-size: 13.5px;
+        margin: 5px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .evidence {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 8px 0 2px;
+        margin-top: 10px;
+        border-top: 1px dashed var(--line);
+        font-size: 13.5px;
+      }
+      .evidence .who {
+        font-weight: 650;
+        white-space: nowrap;
+      }
+      .evidence .stat {
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .evidence .note {
+        color: var(--ink-2);
+      }
+      .watch {
+        font-size: 14.5px;
+        color: var(--ink-2);
+        margin: 6px 0;
+      }
+      .foot {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Head of content</div>
+      <h1>Content week — {{DATE_HUMAN}}</h1>
+
+      <h2>Last week</h2>
+      <div class="grade">
+        <!-- REPEAT per graded slot; tag class: default = posted+good, "miss" = skipped/below, "hold" = still in drafts -->
+        <p>
+          <span class="tag">{{GRADE e.g. posted · 2.1x}}</span>
+          <b>{{SLOT_SHORT}}</b> — {{ONE_LINE_GRADE_DETAIL}}
+        </p>
+        <!-- /REPEAT -->
+      </div>
+      <p class="lesson">{{THE_LESSON_ONE_LINE}}</p>
+
+      <h2>The read</h2>
+      <!-- REPEAT per finding (2-4) -->
+      <p class="read">
+        {{FINDING_ONE_LINE}} — <span class="who">@{{HANDLE}}</span> ({{PLATFORM}}) ·
+        <span class="stat">{{X.X}}x · {{REACH}}</span>
+      </p>
+      <!-- /REPEAT -->
+      <div class="bet"><span class="label">The bet</span>{{THE_BET_ONE_VERB_FIRST_SENTENCE}}</div>
+
+      <h2>This week</h2>
+      <!-- REPEAT per slot -->
+      <div class="slot">
+        <p class="when">{{DAY}} · {{PLATFORM}}</p>
+        <div class="idea">{{THE_IDEA_ONE_LITERAL_CLAIM}}</div>
+        <div class="chips">
+          <span class="chip">{{FORMAT_SHORT}}</span>
+          <span class="chip">{{STATUS e.g. drafted, in your queue}}</span>
+          <!-- add when an experiment or repost: <span class="chip amber">experiment</span> -->
+        </div>
+        <p class="kv"><b>Make:</b> {{FORMAT_ONE_LINE}}</p>
+        <div class="evidence">
+          <span class="who">@{{HANDLE}}</span>
+          <span class="stat">{{X.X}}x baseline · {{REACH}}</span>
+          <span class="note">{{WHAT_THE_EVIDENCE_PROVES}}</span>
+        </div>
+      </div>
+      <!-- /REPEAT -->
+
+      <h2>Watch</h2>
+      <!-- REPEAT per line (1-3) -->
+      <p class="watch">{{WATCH_LINE}}</p>
+      <!-- /REPEAT -->
+
+      <div class="foot">
+        {{N_RESEARCH_CALLS}} research calls · {{MEMO_REUSED_OR_FRESH_SWEEP}} · drafts in your Eden
+        queue · saved to your Eden “Head of content” board
+      </div>
+    </div>
+  </body>
+</html>
