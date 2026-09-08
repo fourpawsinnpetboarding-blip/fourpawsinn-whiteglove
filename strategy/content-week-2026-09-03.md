@@ -1,6 +1,6 @@
 # Content week — 2026-09-03
 
-**Note: Eden's connection went stale this run, so these seven drafts are NOT yet in your scheduler queue. Full text is below and in the appendix. Reconnect Eden and say "be my head of content" and I'll push all seven in as drafts.**
+**Status:** Day 1 is queued as a draft (Facebook only — Instagram/TikTok/YouTube need the actual video file attached once filmed). Days 2-7 are scripted and held, not queued, per Alex's instruction. This version corrects driveway drop-off, Tuesday meet-and-greets, and the standing CTA across all seven days.
 
 ## Last week
 
@@ -12,124 +12,139 @@ First week. Nothing to grade yet.
 - Character-narrative format works for pet content: a cultural-reference hook casts the dog as the protagonist, casual "found this footage" setup, escalating payoff — Bowie the Golden Retriever (Instagram) · saved breakdown, board receipt
 - Luxury dog boarding is being named as an underserved, profitable niche wealthy people will pay for — @realcodiesanchez (TikTok) · 87.5x baseline · 910K views
 
-**The bet:** Show the real process behind Four Paws Inn's home-style model daily, so "why us over a kennel" gets answered before anyone has to ask it.
+**The bet:** Show the real process behind Four Paws Inn's home-style model daily, so trust gets built before anyone has to ask a question.
+
+**Standing CTA for this week (current default, replaces any prior version):** "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
 
 ## This week
 
 ### Day 1 (today) · IG/TikTok/YouTube/FB — Two friendly dogs can still be a terrible match
 
-Talking-head + process B-roll · drafted, ready to queue (Eden reconnect needed)
-Evidence: experiment — no direct format receipt, built from your own confirmed intake process
+Talking-head + process B-roll, 5 shots max, no staged footage · drafted, queued to Facebook, awaiting video for other platforms
+Evidence: experiment, no direct format receipt, built from your own confirmed post-drop-off evaluation process
 
-### Day 2 · IG/TikTok/YouTube/FB — Drop-off day is a real process, not a drop-and-run
+### Day 2 · IG/TikTok/YouTube/FB — Here's what actually happens at drop-off
 
-Talking-head + real drop-off sequence B-roll · drafted, ready to queue (Eden reconnect needed)
-Evidence: your stated cadence and process, no invented detail
+Talking-head + real driveway handoff B-roll · scripted, held, not queued
+Evidence: your stated driveway drop-off process, no invented detail
 
-### Day 3 · IG/TikTok/YouTube/FB — Every dog is checked before they're ever grouped with another
+### Day 3 · IG/TikTok/YouTube/FB — Every dog is evaluated before they're ever introduced to the group
 
-Talking-head + intake assessment B-roll · drafted, ready to queue (Eden reconnect needed)
-Evidence: trust follow-up to Day 1's matching claim, same intake process
+Talking-head + evaluation/settling B-roll · scripted, held, not queued
+Evidence: trust follow-up to Day 1, same post-drop-off evaluation process
 
 ### Day 4 · IG/TikTok/YouTube/FB — Your dog isn't sitting in a kennel all day here
 
-Home walkthrough B-roll · drafted, ready to queue (Eden reconnect needed)
+Home B-roll (shown in the video, not offered as an in-person tour) · scripted, held, not queued
 Evidence: objection-handling follow-up to Day 1 and Day 3
 
 ### Day 5 · IG/TikTok/YouTube/FB — We built this as a home, not a facility
 
-Founder talking-head in the actual space · drafted, ready to queue (Eden reconnect needed)
+Founder talking-head in the actual space · scripted, held, not queued
 Evidence: @isobel_perl absurdity-confession structure (specific fact up front, reframed as care) · board receipt
 
 ### Day 6 · IG/TikTok/YouTube/FB — How we keep dogs comfortable in South Florida heat
 
-Talking-head + cooling/water-station B-roll · drafted, ready to queue (Eden reconnect needed)
+Talking-head + cooling/water-station B-roll · scripted, held, not queued
 Evidence: your own confirmed seasonal practice, no invented detail
 
 ### Day 7 · IG/TikTok/YouTube/FB — How to actually book your dog's first stay
 
-Screen-recording / phone-in-hand walkthrough · drafted, ready to queue (Eden reconnect needed)
+Screen-recording / phone-in-hand walkthrough · scripted, held, not queued
 Evidence: booking-stage funnel close, removes friction on the CTA every prior day pointed to
 
 ## Watch
 
-- Watch Day 1 against every other day this week — it's the flagship, fully specified concept, and the clearest read on whether the "we actually evaluate before grouping" message lands.
-- Watch whether Instagram's indexing for @fourpawsinnpetboarding finishes this week — once it does, next week's plan gets your own baseline data instead of market-only evidence.
-- Watch for any real, confirmed guest story you're willing to hand over — Days 3-5 especially would get stronger with one dropped in, but nothing here depends on it.
+- Watch Day 1 against every other day this week. It's the flagship, fully specified concept, and the clearest read on whether "we evaluate before introducing" lands.
+- Watch whether Instagram's indexing for @fourpawsinnpetboarding finishes this week. Once it does, next week's plan gets your own baseline data instead of market-only evidence.
+- Watch for any real, confirmed guest story you're willing to hand over. Days 3-5 especially would get stronger with one, but nothing here depends on it.
 
 ---
 
-11 research calls used this run (workspace/board reads outside budget) · fresh sweep, no strategy memo found · Eden write access unavailable this run (connection expired mid-run) · full draft text below, not yet queued
+11 research calls used this run (workspace/board reads outside budget) · fresh sweep, no strategy memo found · corrected for driveway drop-off, Tuesday meet-and-greets, and the standing CTA on 2026-09-08
 
 ---
 
 ## Appendix — full drafts, ready to publish as-is
 
-Written in Four Paws Inn's voice: plain, direct, no filler. Trim slightly per platform's caption length if needed; the spoken script stays the same everywhere.
+Written in Four Paws Inn's voice: plain, direct, no filler. No dashes. Trim slightly per platform's caption length if needed; the spoken script stays the same everywhere. Uses only ordinary footage already on hand, nothing staged.
 
 ### Day 1 — "Two friendly dogs can still be a terrible match"
 
 **Speaker:** Alex
 **Awareness stage:** Objection handling / trust
 
-**Spoken script:**
+**Spoken script (30 to 45 seconds):**
 "Two friendly dogs can still be a terrible match.
 
-Here's why we never just throw dogs together because they're both 'nice.'
+That's why we don't just put dogs together because they're both 'nice.' We look at size, energy, temperament, and behavior before any dog joins the group.
 
-Before any dogs are grouped here, we look at four things. Size. Energy. Temperament. Behavior. A calm ten-pound dog and a bouncy eighty-pound dog can both be the sweetest dogs in the world and still be a bad pairing.
+After drop-off, your dog settles in on their own first. Introductions happen slowly, and only when we're confident it's a good fit.
 
-So here's what we actually do. We start on neutral ground, on leash, at a distance. We watch the body language. Loose and wiggly is good. Stiff and frozen is not. If it's going well, we let them get closer, still supervised. If it's not, they don't get forced together, period.
+The goal isn't to create the biggest group. It's to create the safest, most comfortable group for each dog."
 
-That's the difference between a stay your dog dreads and one they run back to."
+**5 shots, all ordinary footage already on hand:**
+1. Talking-head, Alex: hook, then names the four factors (size, energy, temperament, behavior)
+2. B-roll: a dog settling into its own space after drop-off, alone, no other dogs
+3. B-roll: dogs already relaxed together in the yard, normal supervised time
+4. Talking-head, Alex: closing line plus CTA
+5. End card, text only, CTA restated, no video needed
 
-**Caption:** Two friendly dogs can still be a terrible match. Here's how we actually decide who gets grouped with who at Four Paws Inn.
+**On-screen text:**
+- Shot 1: "Two friendly dogs can still be a terrible match."
+- Shot 1, second beat: "Size. Energy. Temperament. Behavior."
+- Shot 4: "The safest, most comfortable group. Not the biggest."
+- Shot 5, end card: "Near Miramar or Pembroke Pines? Send us your dates and tell us about your dog."
 
-**CTA:** If you're boarding in South Florida, ask any facility how they match dogs before you book. We'll walk you through exactly how we do it. Book a free meet and greet, link in bio.
+**Caption:** Two friendly dogs can still be a terrible match. Here's how we decide who joins the group at Four Paws Inn.
 
-**Footage needed:** talking-head open; real on-site greeting at distance, leashed, neutral territory; close-up naming body language cues (loose wag vs. stiff body); a size-mismatch pair kept in separate supervised zones. No guest identity needed, this is standard intake protocol.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
+
+**Filming checklist:** Alex on camera, driveway or indoor spot, good light, phone vertical (9:16). Record two talking-head takes only, open and close. Pull today's existing clips, one dog settled alone and one normal supervised yard moment. No new setup, no staged introduction.
+
+**Editing checklist:** Order is talking-head open, settling-alone B-roll, yard B-roll, talking-head close, end card. Burn in the four on-screen text lines above. Add captions for sound-off viewing. Keep it under 45 seconds. Export vertical.
 
 ---
 
-### Day 2 — "Drop-off day is a real process, not a drop-and-run"
+### Day 2 — "Here's what actually happens at drop-off"
 
 **Speaker:** Amanda
 **Awareness stage:** Cold awareness
 
 **Spoken script:**
-"Here's exactly what happens the moment you hand us the leash.
+"Here's exactly what happens when you drop your dog off.
 
-First, we check in at the door. Then we go through the intake form together, so nothing about your dog's routine gets guessed at. Food, meds, habits, all of it, written down.
+We meet you in the driveway. We confirm any food or medication instructions right there, so nothing gets missed.
 
-Then we walk your dog through the space before you leave, so the first thing they learn about this place is calm, not chaos.
+Then you head out, and your dog settles in on their own, calm and unrushed.
 
-That's it. No rush, no drop and run."
+Once they're settled, we send you an update so you know they made it in okay."
 
-**Caption:** Drop-off day at Four Paws Inn, start to finish. This is what actually happens before you leave.
+**Caption:** Drop-off at Four Paws Inn is simple. Here's exactly how it works.
 
-**CTA:** See the full process before you book. Link in bio.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
-**Footage needed:** real drop-off sequence, check-in desk, intake form being filled out, first walkthrough of the space with the dog.
+**Footage needed:** real driveway handoff, confirming food or medication instructions, the owner driving off, the dog settling into its own space alone, a phone screen showing the arrival update sent to the owner.
 
 ---
 
-### Day 3 — "Every dog is checked before they're ever grouped with another"
+### Day 3 — "Every dog is evaluated before they're ever introduced to the group"
 
 **Speaker:** Alex
 **Awareness stage:** Trust
 
 **Spoken script:**
-"Before your dog meets another dog here, they go through this.
+"After drop-off, your dog doesn't just get put in with the group.
 
-We check vet records and vaccination history first, every time, no exceptions. Then we do a solo temperament read, just your dog and one of us, in the yard, no other dogs around.
+They settle into their own space first. Then we evaluate them on size, energy, temperament, and behavior.
 
-This is the step that happens before the matching you saw in an earlier video. You don't get grouped until you've been checked."
+Introductions happen slowly after that, one step at a time, under supervision. This isn't the meet and greet, and it doesn't happen with owners watching. This happens on our time, at our pace."
 
-**Caption:** This happens before your dog ever meets another dog at Four Paws Inn. Every single time.
+**Caption:** Here's what happens after drop-off, before your dog is ever introduced to the group.
 
-**CTA:** Book a meet and greet and we'll show you the same assessment your dog would get.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
-**Footage needed:** real intake assessment, staff reviewing vet and vaccination records, a solo temperament check in the yard.
+**Footage needed:** a dog settling into its own space alone, a solo evaluation or temperament read, a slow supervised introduction happening later, all normal existing footage.
 
 ---
 
@@ -141,15 +156,13 @@ This is the step that happens before the matching you saw in an earlier video. Y
 **Spoken script:**
 "If you're picturing a kennel, picture this instead.
 
-No cage stacks. No concrete runs. This is a real home, with real furniture and a real yard, and this is where your dog actually spends the day.
-
-Come see it in person before you decide."
+No cage stacks. No concrete runs. This is a real home, with real furniture and a real yard, and this is where your dog actually spends the day."
 
 **Caption:** If "boarding" makes you picture a kennel, this is what Four Paws Inn actually looks like.
 
-**CTA:** Come see the difference in person. Book a tour, link in bio.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
-**Footage needed:** real walkthrough of the home environment, living space, yard, the actual spots dogs spend the day.
+**Footage needed:** real footage of the home environment, living space, yard, the actual spots dogs spend the day. This is footage shown in the video, not an invitation to visit in person.
 
 ---
 
@@ -167,7 +180,7 @@ That was the whole point from day one."
 
 **Caption:** We didn't build a facility. We built a home, and your dog stays in it.
 
-**CTA:** If that's the kind of place you want for your dog, book below.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
 **Footage needed:** Alex talking directly to camera in the actual home and space.
 
@@ -187,7 +200,7 @@ Your dog's comfort isn't a guess here."
 
 **Caption:** South Florida heat is no joke for dogs. Here's exactly how we manage it at Four Paws Inn.
 
-**CTA:** Questions about how we handle your dog's specific needs? Message us, link in bio.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
 **Footage needed:** real cooling and shade setup, water stations, the actual storm routine.
 
@@ -201,10 +214,10 @@ Your dog's comfort isn't a guess here."
 **Spoken script:**
 "Here's the whole booking process, start to finish, in under a minute.
 
-Tap the link. Pick your dates. Fill in your dog's info. Done. Your first stay includes a free meet and greet, so nothing about this is a blind booking."
+Tap the link. Pick your dates. Tell us about your dog. Done."
 
 **Caption:** Booking your dog's first stay at Four Paws Inn, start to finish, in under a minute.
 
-**CTA:** Link in bio. Book today, first stay includes a free meet and greet.
+**CTA:** If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.
 
 **Footage needed:** screen recording or phone-in-hand walkthrough of the actual booking flow.
