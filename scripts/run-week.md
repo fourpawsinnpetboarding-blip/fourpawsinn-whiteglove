@@ -4,7 +4,7 @@ You are running the Four Paws Inn weekly content machine as a scheduled, unatten
 
 Run: `node scripts/weekly-pipeline.js scan`
 
-This reads `config/slate.json` and `content/inbox/` (plus `content/copy/`, `content/reviews/`, `content/founder-reference/`), matches raw material to each of the 7 days by the convention in `content/README.md`, composites what it mechanically can (the Tuesday carousel, the Saturday review card), and writes `content/generated/week-manifest.json`. It does not write captions and does not touch Eden.
+This reads `config/slate.json` and `content/inbox/` (plus `content/copy/`, `content/reviews/`), matches raw material to each of the 7 days by the convention in `content/README.md`, composites what it mechanically can (the Tuesday carousel, the Saturday review card), and writes `content/generated/week-manifest.json`. It does not write captions and does not touch Eden.
 
 ## 2. For each day in the manifest
 
@@ -12,8 +12,7 @@ Read `content/generated/week-manifest.json`. For each day, act on its `status`:
 
 - **`missing`** → skip this day. Do not invent the raw material. Record it as skipped, by name, with the exact `reason` from the manifest.
 - **`ready-needs-hook`** (Mon house-yard-reel, Wed dog-moment-reel) → write one on-screen hook line or one-line caption text per `config/formats/<format>.json`, in Four Paws Inn's voice from `CLAUDE.md`. Run `node scripts/weekly-pipeline.js overlay <Day> "<the line>"` to burn it onto the video. If that command errors because ffmpeg is not installed, record this day as skipped with that exact reason, do not fake a result.
-- **`ready-needs-caption`** (Tue carousel, Thu funny static, Fri transformation, Sat review card) → write the full caption for the platform using `CLAUDE.md` voice rules. For Thursday, the caption carries the joke, the image is plain. Do not invent a guest name, a health claim, or a safety guarantee (`CLAUDE.md` section 10, rule 5).
-- **`reference-ready-avatar-unconfirmed`** (Sun founder talking head) → do not attempt Higgsfield generation until a human has confirmed the talking-head capability per `config/formats/founder-talking-head.json`. Record this day as skipped with that reason. If a human has separately confirmed it works and updated that config file, follow the confirmed workflow there instead.
+- **`ready-needs-caption`** (Tue carousel, Thu funny static, Fri transformation, Sat review card, Sun founder talking head) → write the full caption for the platform using `CLAUDE.md` voice rules. For Thursday, the caption carries the joke, the image is plain. Sunday is real footage Alex filmed himself, monthly not weekly, most weeks this day has no file and is correctly skipped. Do not invent a guest name, a health claim, or a safety guarantee (`CLAUDE.md` section 10, rule 5).
 
 ## 3. Upload and schedule each day that produced an asset
 

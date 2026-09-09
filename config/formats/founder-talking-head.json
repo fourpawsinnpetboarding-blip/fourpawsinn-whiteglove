@@ -5,15 +5,13 @@
   "durationSecTarget": [30, 60],
   "script": "written by Claude Code from CLAUDE.md voice rules, one idea per script",
   "avatarPipeline": {
-    "referenceClip": "content/founder-reference/alex-reference.mp4, one clean clip Alex films once, good light, plain background, neutral delivery",
-    "engine": "Higgsfield, likely via `higgsfield soul-id create` for a character reference plus a talking/lip-sync generation job",
-    "status": "unconfirmed. soul-id create trains a character reference from still images for consistent image generation. No talking-head or lip-sync video job type has been confirmed in this CLI's documented model list. Alex needs to run `higgsfield model list --video` after `higgsfield workspace set <id>` and check for an avatar, talking-photo, or lip-sync job type, or check Higgsfield's own dashboard.",
-    "fallback": "if unconfirmed or unsupported, this format is manual: Alex films real talking-head video and it moves from weekly to a monthly batch."
+    "engine": "Higgsfield",
+    "status": "closed, confirmed unsupported. Alex ran `higgsfield model list --video` on his own authenticated workspace: 30 video models, none of them avatar or lip-sync. Cross-checked independently: Marketing Studio's `avatars` command only registers a still-image reference (name + image), and the only generator that consumes it, `dtc-ads generate`, produces still ad images (quality/resolution/batch-size params, no duration or lip-sync param). Neither path in the CLI produces a talking, lip-synced video from a script. Do not re-open this without a new Higgsfield feature release."
   },
   "rules": [
     "Keep every script claim to something Alex would actually say and stand behind. It is his face and reputation.",
-    "Real footage of Alex still outperforms synthetic when he has time to film. Use the avatar for volume only."
+    "Real footage of Alex is the only path for this format now."
   ],
-  "automatable": "unconfirmed, pending the check above",
-  "humanStep": "film the one reference clip. Confirm or rule out Higgsfield's talking-head capability. Until both are done, this format is real footage only."
+  "automatable": "no",
+  "humanStep": "Alex films this one, real footage only. Per the original spec's own fallback rule, this format moves from a weekly slot to a monthly batch rather than staying on the weekly slate unfilled every week."
 }

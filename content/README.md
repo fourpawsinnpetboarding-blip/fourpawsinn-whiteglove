@@ -10,7 +10,7 @@ This is how `scripts/weekly-pipeline.js` finds the right raw file for the right 
 | Thu | Funny static | `thu-<anything>.jpg` (or `.jpeg`, `.png`, `.heic`) |
 | Fri | Transformation | Two files, same slug: `fri-<slug>-day1.jpg` and `fri-<slug>-day5.jpg` (images or `.mp4`) |
 | Sat | Review card | Not from inbox. Pulled from `content/reviews/google-business-reviews.csv`. Optional matching dog photo: `content/inbox/sat-<reviewer-or-dog-name>.jpg` |
-| Sun | Founder talking head | One-time reference clip at `content/founder-reference/alex-reference.mp4`. The script text itself is written by the Claude Code orchestration step, not dropped as a file. |
+| Sun | Founder talking head | `sun-<anything>.mp4` (or `.mov`). Real footage only, no avatar path exists. Monthly, not weekly, so this is expected to be missing most weeks. |
 
 ## content/reviews/google-business-reviews.csv
 
@@ -30,5 +30,4 @@ reviewer_name,dog_name,rating,review_text,review_date
 - `content/generated/` — composited output (carousels, review cards) waiting for the Eden upload step. Gitignored.
 - `content/copy/` — carousel slide text source files. Tracked in git, this is copy, not a photo.
 - `content/reviews/` — the CSV export and the used-reviews tracker. The CSV itself should be gitignored if it ever contains a real client's name; `used.json` is fine to track.
-- `content/founder-reference/` — Alex's one-time reference clip for the avatar track. Gitignored, this is a real video of him.
 - `content/weeks/YYYY-MM-DD.json` — one file per week run, logging every post: format, time, asset, caption, Eden draft id, or the reason a slot was skipped. Tracked in git, this is the record.

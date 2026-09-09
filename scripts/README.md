@@ -13,12 +13,33 @@ claude
 /mcp                          # sign in to Eden once, interactively
 ```
 
-Higgsfield, if the founder-talking-head track ever gets confirmed and turned on:
+Higgsfield, for the image-to-video test below (founder-talking-head is closed, no avatar path exists, see `config/formats/founder-talking-head.json`):
 ```
 npm install -g @higgsfield/cli
 higgsfield auth login         # browser login, once
 higgsfield workspace set <your workspace id>
 ```
+
+## Testing image-to-video (Mon/Wed without filming)
+
+Not built into the weekly pipeline yet, this is a one-off test to see if it's worth building in. Never run this without a credit ceiling, `scripts/lib/higgsfield-budget.js` enforces one (20 credits by default) by previewing every job's cost first and refusing to create anything if the total is over.
+
+1. Find candidates: `higgsfield model list --video --json`, then `higgsfield model get <name> --json` on ones that look promising, any model accepting an `--image` or `--start-image` param is a candidate. Pick 2 to 4, not all 30.
+2. Run:
+   ```
+   node scripts/test-image-to-video.js /path/to/a/real/dog/photo.jpg model1 model2
+   ```
+3. It previews cost for every model first, refuses to run anything if the total is over 20 credits, then generates and downloads each result to `content/generated/image-to-video-test/`. Look at them and judge quality yourself, or send me the folder and I'll pull frames and give you a read.
+4. If one earns a place in the weekly slate, that's a new format definition in `config/formats/` and a new resolver in `scripts/weekly-pipeline.js`, not a hand-run script. Ask for that once you've picked a model.
+
+## Investigating ad_multiplier
+
+Not confirmed to exist as a named command or workflow yet. `higgsfield marketing-studio dtc-ads generate` looks similar in shape (one prompt plus a format, `--batch-size` up to 20 variations in one call) but that is a guess, not a confirmation. To get a real answer:
+```
+higgsfield workflow list --json
+higgsfield workflow get ad_multiplier --json
+```
+Paste the output back and I'll tell you plainly what it does and whether it fits.
 
 ## Single photo pipeline (daily)
 

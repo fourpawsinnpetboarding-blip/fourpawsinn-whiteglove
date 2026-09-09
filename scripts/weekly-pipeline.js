@@ -34,7 +34,6 @@ const INBOX = path.join(ROOT, "content", "inbox");
 const COPY = path.join(ROOT, "content", "copy");
 const REVIEWS_CSV = path.join(ROOT, "content", "reviews", "google-business-reviews.csv");
 const REVIEWS_USED = path.join(ROOT, "content", "reviews", "used.json");
-const FOUNDER_REF = path.join(ROOT, "content", "founder-reference", "alex-reference.mp4");
 const GENERATED = path.join(ROOT, "content", "generated");
 const MANIFEST_PATH = path.join(GENERATED, "week-manifest.json");
 
@@ -42,7 +41,7 @@ const VIDEO_EXT = /\.(mp4|mov)$/i;
 const IMAGE_EXT = /\.(jpe?g|png|heic|heif|webp)$/i;
 
 function ensureDirs() {
-  for (const d of [INBOX, COPY, path.dirname(REVIEWS_CSV), path.dirname(FOUNDER_REF), GENERATED]) {
+  for (const d of [INBOX, COPY, path.dirname(REVIEWS_CSV), GENERATED]) {
     fs.mkdirSync(d, { recursive: true });
   }
 }
@@ -210,18 +209,18 @@ async function composeReviewCard(review, dogPhotoPath) {
   return outPath;
 }
 
-function resolveFounderTalkingHead() {
-  if (!fs.existsSync(FOUNDER_REF)) {
+function resolveFounderTalkingHead(files) {
+  // No avatar/lip-sync path exists (confirmed, see config/formats/founder-
+  // talking-head.json). This is real footage only, filmed by Alex, monthly
+  // rather than weekly. Same naming convention as the other video formats.
+  const matches = findByPrefix(files, "sun-", VIDEO_EXT);
+  if (matches.length === 0) {
     return {
       status: "missing",
-      reason: "content/founder-reference/alex-reference.mp4 does not exist. Alex needs to film one clean reference clip, good light, plain background, neutral delivery, once.",
+      reason: "no file named sun-*.mp4 or sun-*.mov in content/inbox/. Real footage only, filmed by Alex. This is a monthly format, not every week, so missing most weeks is expected.",
     };
   }
-  return {
-    status: "reference-ready-avatar-unconfirmed",
-    rawPath: FOUNDER_REF,
-    reason: "reference clip exists, but Higgsfield's talking-head/lip-sync capability from a reference video is unconfirmed (see config/formats/founder-talking-head.json). Until confirmed, this is real footage only, filmed by Alex.",
-  };
+  return { status: "ready-needs-caption", rawPath: path.join(INBOX, matches[0]) };
 }
 
 // --- scan --------------------------------------------------------------
@@ -266,7 +265,7 @@ async function scan() {
         break;
       }
       case "founder-talking-head":
-        result = resolveFounderTalkingHead();
+        result = resolveFounderTalkingHead(files);
         break;
       default:
         result = { status: "missing", reason: `no resolver for format "${slot.format}"` };

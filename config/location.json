@@ -14,6 +14,5 @@
   },
   "cta": "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.",
   "voiceFile": "CLAUDE.md",
-  "reviewsExportPath": "content/reviews/google-business-reviews.csv",
-  "founderReferenceClip": "content/founder-reference/alex-reference.mp4"
+  "reviewsExportPath": "content/reviews/google-business-reviews.csv"
 }

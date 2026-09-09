@@ -3,7 +3,6 @@ content/done/
 content/rejected/
 content/generated/
 content/reviews/*.csv
-content/founder-reference/
 node_modules/
 .env
 *.log
