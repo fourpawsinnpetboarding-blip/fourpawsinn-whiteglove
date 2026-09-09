@@ -27,7 +27,7 @@ const fs = require("fs");
 const path = require("path");
 const { execFileSync } = require("child_process");
 const { loadSlate, loadFormat, ROOT } = require("./lib/config");
-const { compositeTextSlide } = require("./lib/compose");
+const { compositeTextSlide, wrapText } = require("./lib/compose");
 const { parseCsv } = require("./lib/csv");
 
 const INBOX = path.join(ROOT, "content", "inbox");
@@ -315,8 +315,14 @@ function overlay(day, hookText) {
   fs.mkdirSync(outDir, { recursive: true });
   const outPath = path.join(outDir, "overlaid.mp4");
 
-  const escaped = hookText.replace(/:/g, "\\:").replace(/'/g, "\\'");
-  const drawtext = `drawtext=text='${escaped}':fontcolor=white:fontsize=64:box=1:boxcolor=black@0.5:boxborderw=20:x=(w-text_w)/2:y=120:enable='between(t,0,4)'`;
+  // Wrap first: a long hook at a fixed font size will run off both edges of
+  // frame one otherwise (found by testing this against a real 1080-wide
+  // clip, not a hypothetical). ~18 chars/line keeps it inside frame at
+  // fontsize 56 on a 1080px-wide vertical video.
+  const lines = wrapText(hookText, 18);
+  const escapedLines = lines.map((l) => l.replace(/\\/g, "\\\\").replace(/:/g, "\\:").replace(/'/g, "\u2019").replace(/%/g, "\\%"));
+  const text = escapedLines.join("\n");
+  const drawtext = `drawtext=text='${text}':fontcolor=white:fontsize=56:line_spacing=8:box=1:boxcolor=black@0.5:boxborderw=20:x=(w-text_w)/2:y=100:enable='between(t,0,4)'`;
 
   execFileSync("ffmpeg", ["-y", "-i", entry.rawPath, "-vf", drawtext, "-codec:a", "copy", outPath], { stdio: "inherit" });
 

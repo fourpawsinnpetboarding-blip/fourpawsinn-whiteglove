@@ -75,4 +75,4 @@ async function compositeTextSlide({ backgroundImagePath, backgroundColor, text, 
   return outPath;
 }
 
-module.exports = { compositeTextSlide, WIDTH, HEIGHT };
+module.exports = { compositeTextSlide, wrapText, WIDTH, HEIGHT };
