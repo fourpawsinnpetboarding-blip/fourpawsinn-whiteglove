@@ -85,10 +85,31 @@ function main() {
       continue;
     }
 
-    const resultUrl = parsed.url || parsed.resultUrl || (parsed.outputs && parsed.outputs[0] && parsed.outputs[0].url);
+    // Confirmed real shape from a live run: `--wait --json` returns an
+    // array of job objects, each carrying result_url at the top level,
+    // e.g. [{ id, job_type, status: "completed", result_url, min_result_url }].
+    // Kept the older guesses as a fallback in case a different job_type or
+    // a future CLI version shapes it differently.
+    const job = Array.isArray(parsed) ? parsed[0] : parsed;
+    if (!job) {
+      console.error(`${model}: empty response`);
+      results.push({ model, status: "failed", error: "empty response", raw: parsed });
+      continue;
+    }
+    if (job.status && !["completed", "succeeded", "success"].includes(job.status)) {
+      console.error(`${model}: job did not complete, status was "${job.status}":\n${JSON.stringify(job, null, 2)}`);
+      results.push({ model, status: "failed", error: `status: ${job.status}`, raw: job });
+      continue;
+    }
+
+    const resultUrl =
+      job.result_url ||
+      job.url ||
+      job.resultUrl ||
+      (job.outputs && job.outputs[0] && job.outputs[0].url);
     if (!resultUrl) {
-      console.error(`${model}: no result URL found in response:\n${JSON.stringify(parsed, null, 2)}`);
-      results.push({ model, status: "failed", error: "no result URL in response", raw: parsed });
+      console.error(`${model}: no result URL found in response:\n${JSON.stringify(job, null, 2)}`);
+      results.push({ model, status: "failed", error: "no result URL in response", raw: job });
       continue;
     }
 

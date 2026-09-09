@@ -1,23 +1,40 @@
 /*
  * Hard credit ceiling for any automated Higgsfield run. Nothing gets
- * created until every planned job's cost has been previewed with
- * `higgsfield generate cost` and the total is confirmed under the ceiling.
+ * created until every planned job's cost is known and the total is
+ * confirmed under the ceiling.
  *
- * This has NOT been run against a real authenticated Higgsfield account
- * (this sandbox has no login for one). The command shape is confirmed
- * correct from `higgsfield generate cost --help`. The exact field name
- * the JSON response uses for the credit number is NOT confirmed, so this
- * checks several plausible names and fails loudly, printing the raw
- * response, rather than silently reading a wrong field as 0 credits and
- * letting a run through it should have blocked. Alex: the first time this
- * runs for real, check the printed raw JSON once and tell me which field
- * it actually used, so this can drop the guesswork.
+ * Two models have real, confirmed costs from an actual run (see
+ * KNOWN_MODEL_COSTS below) and use those directly, no network call, no
+ * field-guessing. Any other model falls back to a live
+ * `higgsfield generate cost` call. That fallback's response shape is
+ * still not confirmed for models outside the known table, so it checks
+ * several plausible field names and fails loudly rather than silently
+ * reading a wrong field as 0 credits. First real run against a new
+ * model: check the printed raw JSON once, tell me the real cost, and it
+ * gets added to KNOWN_MODEL_COSTS.
  */
 
 const { execFileSync } = require("child_process");
 
 const DEFAULT_CEILING = 20;
 const PLAUSIBLE_CREDIT_FIELDS = ["credits", "cost", "estimatedCredits", "creditCost", "price"];
+
+// Confirmed from a real run against Alex's account, not estimated.
+const KNOWN_MODEL_COSTS = {
+  kling2_6: { credits: 10 }, // flat per generation
+  seedance_2_0_mini: { credits: 12.5, perSeconds: 5 }, // per 5 second generation, scales with --duration
+};
+
+function knownCost(job) {
+  const known = KNOWN_MODEL_COSTS[job.jobType];
+  if (!known) return null;
+  if (known.perSeconds && job.params && job.params.duration) {
+    const duration = Number(job.params.duration);
+    if (!Number.isFinite(duration)) return null; // fall back to a live check rather than guess
+    return (known.credits * duration) / known.perSeconds;
+  }
+  return known.credits;
+}
 
 function extractCredits(json) {
   for (const field of PLAUSIBLE_CREDIT_FIELDS) {
@@ -40,6 +57,11 @@ function extractCredits(json) {
  * known credit field is found.
  */
 function previewJobCost(job) {
+  const known = knownCost(job);
+  if (known !== null) {
+    return { jobType: job.jobType, credits: known, raw: { source: "known-confirmed", ...KNOWN_MODEL_COSTS[job.jobType] } };
+  }
+
   const args = ["generate", "cost"];
   if (job.isWorkflow) args.push("workflow", job.jobType);
   else args.push(job.jobType);
@@ -86,4 +108,4 @@ function enforceCreditCeiling(jobs, ceiling = DEFAULT_CEILING) {
   return { items, total, ceiling };
 }
 
-module.exports = { enforceCreditCeiling, previewJobCost, DEFAULT_CEILING };
+module.exports = { enforceCreditCeiling, previewJobCost, DEFAULT_CEILING, KNOWN_MODEL_COSTS };
