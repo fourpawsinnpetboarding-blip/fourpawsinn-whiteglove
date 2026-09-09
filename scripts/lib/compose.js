@@ -30,18 +30,18 @@ function wrapText(text, maxCharsPerLine) {
   return lines;
 }
 
-function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, startY = null }) {
+function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, startY = null, width = WIDTH, height = HEIGHT }) {
   const lines = wrapText(text, maxCharsPerLine);
   const lineHeight = fontSize * 1.25;
   const totalHeight = lines.length * lineHeight;
-  const y0 = startY !== null ? startY : (HEIGHT - totalHeight) / 2 + fontSize;
+  const y0 = startY !== null ? startY : (height - totalHeight) / 2 + fontSize;
 
   const tspans = lines
-    .map((line, i) => `<tspan x="${WIDTH / 2}" y="${y0 + i * lineHeight}">${escapeXml(line)}</tspan>`)
+    .map((line, i) => `<tspan x="${width / 2}" y="${y0 + i * lineHeight}">${escapeXml(line)}</tspan>`)
     .join("");
 
   return Buffer.from(`
-    <svg width="${WIDTH}" height="${HEIGHT}">
+    <svg width="${width}" height="${height}">
       <style>
         .t { font-family: 'Helvetica', 'Arial', sans-serif; font-weight: 700; font-size: ${fontSize}px; fill: ${fill}; text-anchor: middle; }
       </style>
@@ -52,20 +52,20 @@ function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, 
 
 // Solid branded background plate. Swap for a real designed background image
 // by pointing backgroundImagePath at a file instead of using this default.
-async function brandBackground({ color = "#1f3a5f" } = {}) {
+async function brandBackground({ color = "#1f3a5f", width = WIDTH, height = HEIGHT } = {}) {
   return sharp({
-    create: { width: WIDTH, height: HEIGHT, channels: 3, background: color },
+    create: { width, height, channels: 3, background: color },
   })
     .jpeg()
     .toBuffer();
 }
 
-async function compositeTextSlide({ backgroundImagePath, backgroundColor, text, outPath, fontSize, fill, maxCharsPerLine, startY }) {
+async function compositeTextSlide({ backgroundImagePath, backgroundColor, text, outPath, fontSize, fill, maxCharsPerLine, startY, width = WIDTH, height = HEIGHT }) {
   const base = backgroundImagePath
-    ? sharp(backgroundImagePath).resize(WIDTH, HEIGHT, { fit: "cover" })
-    : sharp(await brandBackground({ color: backgroundColor }));
+    ? sharp(backgroundImagePath).resize(width, height, { fit: "cover" })
+    : sharp(await brandBackground({ color: backgroundColor, width, height }));
 
-  const overlay = textSvg({ text, fontSize, fill, maxCharsPerLine, startY });
+  const overlay = textSvg({ text, fontSize, fill, maxCharsPerLine, startY, width, height });
 
   await base
     .composite([{ input: overlay, top: 0, left: 0 }])

@@ -1,0 +1,33 @@
+{
+  "id": "case-study-reel",
+  "label": "Case study reel",
+  "replaces": "review-card",
+  "mediaType": "video",
+  "durationSecTarget": [30, 45],
+  "aspectRatio": "9:16",
+  "structure": [
+    "1. The problem: the dog's name and what was hard, spoken over opening B-roll",
+    "2. The stay: B-roll of that dog at the house",
+    "3. The proof: the client's actual review text on screen, composited card",
+    "4. The result: what changed, plus the CTA, spoken over closing B-roll"
+  ],
+  "assembly": "ffmpeg concat: opening B-roll (problem + stay, on-screen text for the problem line) -> review card (composited image held as a video segment) -> closing B-roll (result + CTA text)",
+  "sourcing": {
+    "reviewSource": "content/reviews/google-business-reviews.csv",
+    "permissionGate": "Only a row where the permission column is signed/true is eligible. Every review without it is skipped and reported by reviewer name and dog name, never silently dropped and never built anyway.",
+    "brollSource": "content/reviews/dogs/<dog-name>/, matched by the review's dog_name column. A review with no matching folder, or an empty one, is also skipped and reported, not substituted with a different dog's footage.",
+    "usedTracking": "content/reviews/used.json, same as the retired review-card format, so a used review does not repeat until the export runs out."
+  },
+  "script": {
+    "voiceover": "written by Claude Code from CLAUDE.md voice rules, 30 to 45 seconds, covering all 4 structure beats",
+    "onScreenText": "the problem line (dog's name and what was hard) burned onto the opening B-roll, the result line and CTA burned onto the closing B-roll",
+    "caveat": "there is no text-to-speech or lip-sync path in this stack (see config/formats/founder-talking-head.json), so 'voiceover script' produces a script and on-screen text, not finished spoken audio. Either Alex or Amanda reads it and the audio gets added in editing, or the reel ships as on-screen text only with no voice track. Decide which per case study, don't assume."
+  },
+  "compositing": "the review-text card reuses scripts/lib/compose.js, the same compositor as the retired review-card format and the Tuesday carousel, rendered at 1080x1920 to match reel aspect ratio",
+  "rules": [
+    "Never invent a review, a dog's name, or a client detail. Every word of the review text on screen is the client's own, verbatim from the CSV.",
+    "Never build a case study for a client without a signed permission flag in the CSV. No exceptions, no verbal-permission workarounds."
+  ],
+  "automatable": "partially",
+  "humanStep": "get written permission from the client and mark it in the CSV. Have B-roll on hand for that specific dog in content/reviews/dogs/<dog-name>/. Decide whether to record real voiceover audio over the assembled video."
+}

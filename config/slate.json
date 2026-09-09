@@ -6,7 +6,7 @@
     { "day": "Wed", "format": "dog-moment-reel", "job": "Reach. Pure joy, no message.", "time": "18:30", "platforms": ["instagram", "facebook"] },
     { "day": "Thu", "format": "funny-static", "job": "Engagement. Personality.", "time": "12:30", "platforms": ["instagram", "facebook"] },
     { "day": "Fri", "format": "transformation", "job": "Proof. Shy dog to confident dog.", "time": "18:30", "platforms": ["instagram", "facebook"] },
-    { "day": "Sat", "format": "review-card", "job": "Trust. Real client words.", "time": "10:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Sat", "format": "case-study-reel", "job": "Trust. Real client words.", "time": "10:30", "platforms": ["instagram", "facebook"] },
     { "day": "Sun", "format": "founder-talking-head", "job": "Authority. Alex on camera.", "time": "18:30", "platforms": ["instagram", "facebook", "linkedin"], "automated": false, "cadence": "monthly", "note": "Confirmed no Higgsfield avatar/lip-sync path exists. Real footage only, so this stays a monthly batch Alex films himself rather than an every-week automated slot. See config/formats/founder-talking-head.json." }
   ],
   "stories": {
