@@ -1,0 +1,21 @@
+{
+  "runDate": "2026-09-09",
+  "note": "Build/proof run for the weekly content machine, not a full automated week. Tuesday drafted for real as end-to-end proof; the other six days correctly reported missing raw material rather than inventing content.",
+  "days": {
+    "Mon": { "format": "house-yard-reel", "status": "skipped", "reason": "no file named mon-*.mp4 or mon-*.mov in content/inbox/. Alex needs to film or supply a house/yard clip." },
+    "Tue": {
+      "format": "pain-point-carousel",
+      "status": "drafted",
+      "draftId": "42e604b2-5887-4463-a27d-29829dc2fac9",
+      "platforms": ["instagram", "facebook", "linkedin"],
+      "caption": "You don't have to guess whether boarding will be hard on your dog. Every dog gets a real evaluation first...",
+      "note": "Proof draft uses only slide 1 of 6 at reduced resolution to keep the test cheap. The full 1080x1350 six-slide carousel is composited in content/generated/carousels/tue/, ready to re-upload at full size and replace this draft before it ever goes near real scheduling."
+    },
+    "Wed": { "format": "dog-moment-reel", "status": "skipped", "reason": "no file named wed-*.mp4 or wed-*.mov in content/inbox/. Alex needs to film or supply a raw dog clip." },
+    "Thu": { "format": "funny-static", "status": "skipped", "reason": "no file named thu-*.jpg (or .png/.heic) in content/inbox/. Any ordinary photo works, the caption does the joke." },
+    "Fri": { "format": "transformation", "status": "skipped", "reason": "need both fri-<slug>-day1.* and fri-<slug>-day5.* in content/inbox/, same dog, days apart." },
+    "Sat": { "format": "review-card", "status": "skipped", "reason": "content/reviews/google-business-reviews.csv does not exist. Alex needs to export reviews from the Google Business Profile dashboard." },
+    "Sun": { "format": "founder-talking-head", "status": "skipped", "reason": "content/founder-reference/alex-reference.mp4 does not exist, and Higgsfield's talking-head/lip-sync capability is unconfirmed regardless." }
+  },
+  "stories": { "status": "not attempted", "reason": "Eden's MCP tools have no Stories post type, confirmed. Posted by hand." }
+}

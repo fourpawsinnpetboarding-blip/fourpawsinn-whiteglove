@@ -1,0 +1,18 @@
+{
+  "id": "pain-point-carousel",
+  "label": "Pain point carousel",
+  "mediaType": "image-carousel",
+  "slideCount": 6,
+  "slideStructure": [
+    "Slide 1: names the fear, one line",
+    "Slide 2: answers it, part 1",
+    "Slide 3: answers it, part 2",
+    "Slide 4: answers it, part 3",
+    "Slide 5: answers it, part 4",
+    "Slide 6: the ask (CTA)"
+  ],
+  "builtBy": "scripts/slide-pipeline.js, sharp plus an SVG text layer, never Canva",
+  "rawMaterial": "none required beyond a topic and a branded background plate",
+  "automatable": "fully",
+  "humanStep": "none once the background plate and brand colors are set once"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "transformation",
+  "label": "Transformation",
+  "mediaType": "image-pair-or-video-pair",
+  "structure": "day one versus day five, same dog, real before and after",
+  "rawMaterial": "two images or two clips of the same dog, days apart, from content/inbox/",
+  "automatable": "partially",
+  "humanStep": "film or photograph the same dog at two points in their stay. This is the hardest raw material to have on hand because it needs a plan across days, not a single moment."
+}

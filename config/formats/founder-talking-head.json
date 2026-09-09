@@ -1,0 +1,19 @@
+{
+  "id": "founder-talking-head",
+  "label": "Founder talking head",
+  "mediaType": "video",
+  "durationSecTarget": [30, 60],
+  "script": "written by Claude Code from CLAUDE.md voice rules, one idea per script",
+  "avatarPipeline": {
+    "referenceClip": "content/founder-reference/alex-reference.mp4, one clean clip Alex films once, good light, plain background, neutral delivery",
+    "engine": "Higgsfield, likely via `higgsfield soul-id create` for a character reference plus a talking/lip-sync generation job",
+    "status": "unconfirmed. soul-id create trains a character reference from still images for consistent image generation. No talking-head or lip-sync video job type has been confirmed in this CLI's documented model list. Alex needs to run `higgsfield model list --video` after `higgsfield workspace set <id>` and check for an avatar, talking-photo, or lip-sync job type, or check Higgsfield's own dashboard.",
+    "fallback": "if unconfirmed or unsupported, this format is manual: Alex films real talking-head video and it moves from weekly to a monthly batch."
+  },
+  "rules": [
+    "Keep every script claim to something Alex would actually say and stand behind. It is his face and reputation.",
+    "Real footage of Alex still outperforms synthetic when he has time to film. Use the avatar for volume only."
+  ],
+  "automatable": "unconfirmed, pending the check above",
+  "humanStep": "film the one reference clip. Confirm or rule out Higgsfield's talking-head capability. Until both are done, this format is real footage only."
+}

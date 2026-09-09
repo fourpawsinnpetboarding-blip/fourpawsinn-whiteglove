@@ -1,0 +1,9 @@
+{
+  "id": "story-raw",
+  "label": "Story, raw footage",
+  "mediaType": "image-or-video",
+  "production": "none, posted as shot",
+  "rawMaterial": "any normal-operations photo or clip from content/inbox/",
+  "automatable": "no, confirmed blocked",
+  "humanStep": "post these by hand. Confirmed: Eden's MCP tool set has no Stories post type at all, only feed posts (twitter, threads, linkedin, substack, instagram, tiktok, facebook, youtube). There is no eden_schedule_post option for a Story and no separate Stories tool. The 3 daily Stories slots in the slate cannot be drafted or scheduled through Eden in any form. They are not in this system until Eden adds that capability or a different tool is added for it."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "review-card",
+  "label": "Review card",
+  "mediaType": "image",
+  "textSource": "content/reviews/google-business-reviews.csv, a manual export from the Google Business Profile dashboard",
+  "photoSource": "real photo of that reviewer's dog if one exists in content/inbox/ or content/done/, otherwise a branded background alone",
+  "builtBy": "scripts/slide-pipeline.js compositing the review text onto a branded background",
+  "automatable": "fully once the export file exists",
+  "humanStep": "export reviews from the Google Business Profile dashboard as CSV, save to content/reviews/google-business-reviews.csv, repeat monthly to keep it fresh. Google does not currently offer a live API pull for a business this size, so this is a real recurring manual step, not a one-time setup."
+}

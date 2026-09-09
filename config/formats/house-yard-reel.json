@@ -1,0 +1,12 @@
+{
+  "id": "house-yard-reel",
+  "label": "House and yard reel",
+  "mediaType": "video",
+  "durationSecTarget": [15, 25],
+  "rawMaterial": "real video clip of the house or yard, from content/inbox/",
+  "textOverlay": "hook on frame one, burned in",
+  "music": "fixed approved track list, no per-post decision",
+  "cta": false,
+  "automatable": "partially",
+  "humanStep": "film or supply the raw clip. Music track selection from the approved list is a one-time setup, not a per-run decision, but the approved track list itself needs Alex to name 2 or 3 tracks once."
+}

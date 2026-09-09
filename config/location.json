@@ -1,0 +1,19 @@
+{
+  "name": "Four Paws Inn",
+  "city": "Miramar, FL",
+  "timezone": "America/New_York",
+  "eden": {
+    "workspaceId": "1c2438f9-e773-4786-a8cb-121504399872",
+    "scheduleId": "6a07d7c7-8da0-4018-9b7f-6db1e423f3cd",
+    "shortFormScheduleId": "d6007514-1da6-4505-8ec8-f248aa030bc8",
+    "accounts": {
+      "instagram": "304fc6aa-5fb4-4212-baa2-e8e467931b1d",
+      "facebook": "0c524455-50a0-465d-86a8-38e22c536914",
+      "linkedin": "0f03eb5a-ab92-4f32-9a19-aa49a4612b3e"
+    }
+  },
+  "cta": "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.",
+  "voiceFile": "CLAUDE.md",
+  "reviewsExportPath": "content/reviews/google-business-reviews.csv",
+  "founderReferenceClip": "content/founder-reference/alex-reference.mp4"
+}

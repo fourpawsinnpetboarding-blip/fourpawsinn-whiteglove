@@ -1,0 +1,15 @@
+{
+  "name": "fourpawsinn-content-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deterministic raw-material prep for the Four Paws Inn content pipeline. Caption/hook writing and Eden scheduling happen in the Claude Code orchestration step (scripts/run-photo-pipeline.md, scripts/run-week.md), not here.",
+  "type": "commonjs",
+  "scripts": {
+    "photo-pipeline": "node scripts/photo-pipeline.js",
+    "week": "node scripts/weekly-pipeline.js scan"
+  },
+  "dependencies": {
+    "heic-convert": "^2.1.0",
+    "sharp": "^0.35.4"
+  }
+}

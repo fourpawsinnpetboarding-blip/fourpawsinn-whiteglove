@@ -1,0 +1,9 @@
+{
+  "id": "dog-moment-reel",
+  "label": "Dog moment reel",
+  "mediaType": "video",
+  "textOverlay": "one line, no CTA",
+  "rawMaterial": "raw dog clip from content/inbox/, unedited beyond one text line",
+  "automatable": "partially",
+  "humanStep": "film or supply the raw clip. Nothing else."
+}

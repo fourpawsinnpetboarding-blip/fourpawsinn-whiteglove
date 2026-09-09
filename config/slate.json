@@ -1,0 +1,20 @@
+{
+  "timezone": "America/New_York",
+  "feedPosts": [
+    { "day": "Mon", "format": "house-yard-reel", "job": "Reach. Show the place.", "time": "18:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Tue", "format": "pain-point-carousel", "job": "Convert. Name the fear.", "time": "12:30", "platforms": ["instagram", "facebook", "linkedin"] },
+    { "day": "Wed", "format": "dog-moment-reel", "job": "Reach. Pure joy, no message.", "time": "18:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Thu", "format": "funny-static", "job": "Engagement. Personality.", "time": "12:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Fri", "format": "transformation", "job": "Proof. Shy dog to confident dog.", "time": "18:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Sat", "format": "review-card", "job": "Trust. Real client words.", "time": "10:30", "platforms": ["instagram", "facebook"] },
+    { "day": "Sun", "format": "founder-talking-head", "job": "Authority. Alex on camera.", "time": "18:30", "platforms": ["instagram", "facebook", "linkedin"] }
+  ],
+  "stories": {
+    "perDay": 3,
+    "times": ["08:00", "13:00", "19:00"],
+    "format": "story-raw",
+    "platforms": ["instagram", "facebook"],
+    "automated": false,
+    "note": "Confirmed: Eden's MCP tools have no Stories post type. These 3 daily slots are posted by hand, not by this pipeline. See config/formats/story-raw.json."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "funny-static",
+  "label": "Funny static",
+  "mediaType": "image",
+  "textOverlay": false,
+  "captionCarriesTheJoke": true,
+  "rawMaterial": "one ordinary photo from content/inbox/, the caption does the work",
+  "automatable": "fully once a photo exists",
+  "humanStep": "supply an ordinary photo. No special shot needed, any real photo works."
+}
