@@ -8,19 +8,26 @@
  * the single-photo build: there is no portable Eden credential a bare
  * script can hold.
  *
- * Two subcommands:
+ * Three subcommands:
  *   node scripts/weekly-pipeline.js scan
  *     Reads content/inbox/ + content/copy/ + content/reviews/, matches raw
  *     material to each day in config/slate.json by the naming convention
  *     in content/README.md, composites what it can composite without a
- *     model call (carousel, review card, funny static, transformation-if-
- *     images), and writes content/generated/week-manifest.json.
+ *     model call (the Tuesday carousel, the Saturday case study review
+ *     card, funny static, transformation-if-images), and writes
+ *     content/generated/week-manifest.json.
  *
  *   node scripts/weekly-pipeline.js overlay <day> "<hook text>"
  *     For video days (Mon house-yard-reel, Wed dog-moment-reel) that need
  *     a text overlay Claude just wrote: burns it onto frame one via
  *     ffmpeg. Requires ffmpeg installed locally (`brew install ffmpeg` on
  *     the Mac). Updates the manifest entry for that day.
+ *
+ *   node scripts/weekly-pipeline.js casestudy <day> "<problem text>" "<result text>"
+ *     For Saturday's case study reel: assembles opening B-roll, the
+ *     composited review card, and closing B-roll into one video via
+ *     ffmpeg, burning the problem line onto the opening and the result
+ *     plus CTA onto the closing. See config/formats/case-study-reel.json.
  */
 
 const fs = require("fs");
@@ -34,6 +41,7 @@ const INBOX = path.join(ROOT, "content", "inbox");
 const COPY = path.join(ROOT, "content", "copy");
 const REVIEWS_CSV = path.join(ROOT, "content", "reviews", "google-business-reviews.csv");
 const REVIEWS_USED = path.join(ROOT, "content", "reviews", "used.json");
+const REVIEWS_DOGS_DIR = path.join(ROOT, "content", "reviews", "dogs");
 const GENERATED = path.join(ROOT, "content", "generated");
 const MANIFEST_PATH = path.join(GENERATED, "week-manifest.json");
 
@@ -175,36 +183,92 @@ function saveUsedReviews(list) {
   fs.writeFileSync(REVIEWS_USED, JSON.stringify(list, null, 2) + "\n");
 }
 
-async function resolveReviewCard(files) {
+function isPermissionSigned(row) {
+  const v = (row.permission_signed || "").trim().toLowerCase();
+  return v === "true" || v === "yes";
+}
+
+function findBrollFiles(dogName) {
+  const dir = fs.readdirSync(REVIEWS_DOGS_DIR, { withFileTypes: true }).find(
+    (d) => d.isDirectory() && d.name.toLowerCase() === dogName.toLowerCase()
+  );
+  if (!dir) return [];
+  const dogDir = path.join(REVIEWS_DOGS_DIR, dir.name);
+  return fs
+    .readdirSync(dogDir)
+    .filter((f) => !f.startsWith(".") && (VIDEO_EXT.test(f) || IMAGE_EXT.test(f)))
+    .sort()
+    .map((f) => path.join(dogDir, f));
+}
+
+// Replaces the retired review-card resolver. Only ever builds from a
+// permission-signed row with real B-roll on file for that specific dog.
+// Every row that does not qualify is reported by name, not silently
+// dropped and never substituted.
+function resolveCaseStudyReel() {
   if (!fs.existsSync(REVIEWS_CSV)) {
     return {
       status: "missing",
-      reason: "content/reviews/google-business-reviews.csv does not exist. Alex needs to export reviews from the Google Business Profile dashboard and save it there. Real recurring manual step, Google has no live API pull for a business this size.",
+      reason: "content/reviews/google-business-reviews.csv does not exist. Alex needs to export reviews from the Google Business Profile dashboard and save it there.",
     };
   }
+  fs.mkdirSync(REVIEWS_DOGS_DIR, { recursive: true });
+
   const rows = parseCsv(fs.readFileSync(REVIEWS_CSV, "utf8"));
   const used = loadUsedReviews();
-  const next = rows.find((r) => !used.includes(r.review_text));
-  if (!next) {
-    return { status: "missing", reason: `content/reviews/google-business-reviews.csv has ${rows.length} review(s), all already used. Export fresh reviews from Google Business Profile.` };
+
+  // Full pass first: classify every unused row, so a review skipped for
+  // lacking permission or B-roll is reported even when it sits after the
+  // one row that does qualify. Order in the CSV should never hide a gap.
+  const skipped = [];
+  let candidate = null;
+
+  for (const row of rows) {
+    if (used.includes(row.review_text)) continue;
+
+    if (!isPermissionSigned(row)) {
+      skipped.push({ reviewer: row.reviewer_name, dog: row.dog_name, reason: "no signed permission flag in the CSV" });
+      continue;
+    }
+    if (!row.dog_name) {
+      skipped.push({ reviewer: row.reviewer_name, dog: row.dog_name, reason: "no dog_name in the CSV row, cannot match a B-roll folder" });
+      continue;
+    }
+    const broll = findBrollFiles(row.dog_name);
+    if (broll.length === 0) {
+      skipped.push({ reviewer: row.reviewer_name, dog: row.dog_name, reason: `no B-roll found in content/reviews/dogs/${row.dog_name}/` });
+      continue;
+    }
+
+    if (!candidate) candidate = { review: row, brollFiles: broll };
   }
-  const dogPhoto = next.dog_name
-    ? files.find((f) => f.toLowerCase().includes(next.dog_name.toLowerCase()) && IMAGE_EXT.test(f))
-    : null;
-  return { status: "ready-to-compose", review: next, dogPhotoPath: dogPhoto ? path.join(INBOX, dogPhoto) : null };
+
+  if (candidate) {
+    return { status: "ready-to-compose", review: candidate.review, brollFiles: candidate.brollFiles, skipped };
+  }
+
+  const reasons = skipped.map((s) => `${s.reviewer} (${s.dog || "no dog name"}): ${s.reason}`).join("; ");
+  return {
+    status: "missing",
+    reason: skipped.length
+      ? `no eligible review this week. Skipped: ${reasons}`
+      : `content/reviews/google-business-reviews.csv has ${rows.length} review(s), all already used.`,
+    skipped,
+  };
 }
 
-async function composeReviewCard(review, dogPhotoPath) {
-  const outDir = path.join(GENERATED, "review-cards");
+async function composeCaseStudyCard(review) {
+  const outDir = path.join(GENERATED, "case-study", "card");
   fs.mkdirSync(outDir, { recursive: true });
-  const outPath = path.join(outDir, "sat-review.jpg");
-  const text = `"${review.review_text}"\n— ${review.reviewer_name}${review.dog_name ? " and " + review.dog_name : ""}`;
+  const outPath = path.join(outDir, "review-card.jpg");
+  const text = `"${review.review_text}"\n— ${review.reviewer_name} and ${review.dog_name}`;
   await compositeTextSlide({
     text,
     outPath,
-    backgroundImagePath: dogPhotoPath || undefined,
-    fontSize: 48,
-    maxCharsPerLine: 30,
+    fontSize: 44,
+    maxCharsPerLine: 28,
+    width: 1080,
+    height: 1920,
   });
   return outPath;
 }
@@ -255,11 +319,11 @@ async function scan() {
         result = r;
         break;
       }
-      case "review-card": {
-        const r = await resolveReviewCard(files);
+      case "case-study-reel": {
+        const r = resolveCaseStudyReel();
         if (r.status === "ready-to-compose") {
-          r.assetPath = await composeReviewCard(r.review, r.dogPhotoPath);
-          r.status = "ready-needs-caption";
+          r.cardImagePath = await composeCaseStudyCard(r.review);
+          r.status = "ready-needs-script";
         }
         result = r;
         break;
@@ -332,6 +396,120 @@ function overlay(day, hookText) {
   console.log(`Overlaid video written to ${outPath}`);
 }
 
+// --- casestudy (case study reel assembly) -------------------------------
+
+function ffprobeValue(filePath, args) {
+  const raw = execFileSync("ffprobe", args.concat([filePath]), { encoding: "utf8" }).trim();
+  return raw;
+}
+
+function hasAudioStream(filePath) {
+  const out = ffprobeValue(filePath, ["-v", "error", "-select_streams", "a", "-show_entries", "stream=index", "-of", "csv=p=0"]);
+  return out.length > 0;
+}
+
+function getDurationSeconds(filePath) {
+  const out = ffprobeValue(filePath, ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0"]);
+  const seconds = parseFloat(out);
+  return Number.isFinite(seconds) ? seconds : 5;
+}
+
+function drawtextArg(text, opts = {}) {
+  const lines = wrapText(text, opts.maxCharsPerLine || 20);
+  const escaped = lines.map((l) => l.replace(/\\/g, "\\\\").replace(/:/g, "\\:").replace(/'/g, "\u2019").replace(/%/g, "\\%")).join("\n");
+  const y = opts.y || "100";
+  const enable = opts.enable ? `:enable='${opts.enable}'` : "";
+  return `drawtext=text='${escaped}':fontcolor=white:fontsize=${opts.fontSize || 52}:line_spacing=8:box=1:boxcolor=black@0.5:boxborderw=20:x=(w-text_w)/2:y=${y}${enable}`;
+}
+
+// Assembles opening B-roll -> review card -> closing B-roll into one reel.
+// Normalizes every segment to 1080x1920/30fps/44.1kHz stereo before concat,
+// synthesizing silent audio for any video segment that has none, so the
+// concat filter never chokes on a channel-layout mismatch mid-run.
+function casestudy(day, problemText, resultText) {
+  ensureDirs();
+  if (!fs.existsSync(MANIFEST_PATH)) {
+    console.error("No manifest found. Run `node scripts/weekly-pipeline.js scan` first.");
+    process.exit(1);
+  }
+  const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
+  const entry = manifest.days[day];
+  if (!entry || !entry.brollFiles || !entry.cardImagePath) {
+    console.error(`No case study material on file for ${day}. Run scan first.`);
+    process.exit(1);
+  }
+  if (!hasFfmpeg()) {
+    console.error("ffmpeg not found. Install it once with `brew install ffmpeg` on the Mac, then re-run this command.");
+    process.exit(1);
+  }
+
+  const openBroll = entry.brollFiles[0];
+  const closeBroll = entry.brollFiles[1] || entry.brollFiles[0];
+  const cardDuration = 5;
+
+  const outDir = path.join(GENERATED, "case-study", day);
+  fs.mkdirSync(outDir, { recursive: true });
+  const outPath = path.join(outDir, "case-study-reel.mp4");
+
+  const inputs = ["-i", openBroll, "-loop", "1", "-t", String(cardDuration), "-i", entry.cardImagePath, "-i", closeBroll];
+
+  const openHasAudio = hasAudioStream(openBroll);
+  const closeHasAudio = hasAudioStream(closeBroll);
+  const openDuration = getDurationSeconds(openBroll);
+  const closeDuration = getDurationSeconds(closeBroll);
+
+  // A looped still image (input 1, the review card) NEVER has an audio
+  // stream of its own, ffmpeg's image2 path is video-only. Found this by
+  // actually running the assembly, not by inspecting the filter graph:
+  // referencing [1:a] failed with "matches no streams". So the card
+  // always gets a synthesized silent track, on top of the open/close
+  // segments getting one only when they lack real audio.
+  let nextInputIndex = 3;
+  inputs.push("-f", "lavfi", "-t", String(cardDuration), "-i", "anullsrc=r=44100:cl=stereo");
+  const cardSilentIdx = nextInputIndex++;
+
+  let openSilentIdx = null;
+  if (!openHasAudio) {
+    inputs.push("-f", "lavfi", "-t", String(openDuration), "-i", "anullsrc=r=44100:cl=stereo");
+    openSilentIdx = nextInputIndex++;
+  }
+  let closeSilentIdx = null;
+  if (!closeHasAudio) {
+    inputs.push("-f", "lavfi", "-t", String(closeDuration), "-i", "anullsrc=r=44100:cl=stereo");
+    closeSilentIdx = nextInputIndex++;
+  }
+
+  const filters = [];
+  filters.push(
+    `[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,${drawtextArg(problemText, { y: 140, enable: "between(t,0,4)" })}[v0]`
+  );
+  filters.push(`[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1[v1]`);
+  filters.push(
+    `[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,${drawtextArg(resultText, { y: "h-260", enable: "between(t,0,5)" })}[v2]`
+  );
+
+  filters.push(openHasAudio ? `[0:a]aformat=sample_rates=44100:channel_layouts=stereo[a0]` : `[${openSilentIdx}:a]aformat=sample_rates=44100:channel_layouts=stereo[a0]`);
+  filters.push(`[${cardSilentIdx}:a]aformat=sample_rates=44100:channel_layouts=stereo[a1]`);
+  filters.push(closeHasAudio ? `[2:a]aformat=sample_rates=44100:channel_layouts=stereo[a2]` : `[${closeSilentIdx}:a]aformat=sample_rates=44100:channel_layouts=stereo[a2]`);
+
+  filters.push(`[v0][a0][v1][a1][v2][a2]concat=n=3:v=1:a=1[outv][outa]`);
+
+  const filterComplex = filters.join(";");
+
+  execFileSync(
+    "ffmpeg",
+    ["-y", ...inputs, "-filter_complex", filterComplex, "-map", "[outv]", "-map", "[outa]", "-c:v", "libx264", "-c:a", "aac", outPath],
+    { stdio: "inherit" }
+  );
+
+  entry.assetPath = outPath;
+  entry.status = "ready-needs-final-review";
+  entry.problemText = problemText;
+  entry.resultText = resultText;
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n");
+  console.log(`Case study reel assembled: ${outPath}`);
+}
+
 // --- entry ---------------------------------------------------------------
 
 const [, , cmd, ...args] = process.argv;
@@ -346,8 +524,15 @@ const [, , cmd, ...args] = process.argv;
       process.exit(1);
     }
     overlay(day, hookText);
+  } else if (cmd === "casestudy") {
+    const [day, problemText, resultText] = args;
+    if (!day || !problemText || !resultText) {
+      console.error('Usage: node scripts/weekly-pipeline.js casestudy <day> "<problem text>" "<result text>"');
+      process.exit(1);
+    }
+    casestudy(day, problemText, resultText);
   } else {
-    console.error(`Unknown command "${cmd}". Use "scan" or "overlay".`);
+    console.error(`Unknown command "${cmd}". Use "scan", "overlay", or "casestudy".`);
     process.exit(1);
   }
 })().catch((err) => {
