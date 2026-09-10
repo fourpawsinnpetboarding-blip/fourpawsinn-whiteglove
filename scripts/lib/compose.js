@@ -30,7 +30,7 @@ function wrapText(text, maxCharsPerLine) {
   return lines;
 }
 
-function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, startY = null, width = WIDTH, height = HEIGHT }) {
+function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, startY = null, width = WIDTH, height = HEIGHT, boxColor = null }) {
   const lines = wrapText(text, maxCharsPerLine);
   const lineHeight = fontSize * 1.25;
   const totalHeight = lines.length * lineHeight;
@@ -40,11 +40,20 @@ function textSvg({ text, fontSize = 64, fill = "#ffffff", maxCharsPerLine = 24, 
     .map((line, i) => `<tspan x="${width / 2}" y="${y0 + i * lineHeight}">${escapeXml(line)}</tspan>`)
     .join("");
 
+  // Semi-transparent box behind the text, for contrast on top of a real
+  // photo. Skip it (boxColor: null) for plain solid-color cards, where
+  // white-on-color is already high contrast on its own.
+  const boxPadding = fontSize * 0.5;
+  const box = boxColor
+    ? `<rect x="0" y="${y0 - fontSize - boxPadding / 2}" width="${width}" height="${totalHeight + boxPadding}" fill="${boxColor}" />`
+    : "";
+
   return Buffer.from(`
     <svg width="${width}" height="${height}">
       <style>
         .t { font-family: 'Helvetica', 'Arial', sans-serif; font-weight: 700; font-size: ${fontSize}px; fill: ${fill}; text-anchor: middle; }
       </style>
+      ${box}
       <text class="t">${tspans}</text>
     </svg>
   `);
@@ -60,12 +69,16 @@ async function brandBackground({ color = "#1f3a5f", width = WIDTH, height = HEIG
     .toBuffer();
 }
 
-async function compositeTextSlide({ backgroundImagePath, backgroundColor, text, outPath, fontSize, fill, maxCharsPerLine, startY, width = WIDTH, height = HEIGHT }) {
+async function compositeTextSlide({ backgroundImagePath, backgroundColor, text, outPath, fontSize, fill, maxCharsPerLine, startY, width = WIDTH, height = HEIGHT, boxColor }) {
   const base = backgroundImagePath
     ? sharp(backgroundImagePath).resize(width, height, { fit: "cover" })
     : sharp(await brandBackground({ color: backgroundColor, width, height }));
 
-  const overlay = textSvg({ text, fontSize, fill, maxCharsPerLine, startY, width, height });
+  // Default to a contrast box automatically when compositing over a real
+  // photo (not needed on a plain solid-color card unless asked for).
+  const effectiveBoxColor = boxColor !== undefined ? boxColor : backgroundImagePath ? "rgba(0,0,0,0.55)" : null;
+
+  const overlay = textSvg({ text, fontSize, fill, maxCharsPerLine, startY, width, height, boxColor: effectiveBoxColor });
 
   await base
     .composite([{ input: overlay, top: 0, left: 0 }])
