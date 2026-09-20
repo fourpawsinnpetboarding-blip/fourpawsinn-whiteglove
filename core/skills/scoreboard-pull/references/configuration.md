@@ -22,7 +22,7 @@ Google names the Ads scope `adwords`, but this collector calls only the reportin
 
 ## Google Ads
 
-Required: `GOOGLE_ADS_DEVELOPER_TOKEN` and `GOOGLE_ADS_CUSTOMER_ID`, digits only. `GOOGLE_ADS_LOGIN_CUSTOMER_ID` is optional for a manager account. `GOOGLE_ADS_API_VERSION` defaults to `v25`. Set `GOOGLE_ADS_LEAD_ACTION_PATTERN` and `GOOGLE_ADS_CUSTOMER_ACTION_PATTERN` as case-insensitive regular expressions matching conversion-action names. Unmatched conversions are reported but never forced into CPL or CAC.
+Required: `GOOGLE_ADS_CUSTOMER_ID`, digits only, plus an OAuth client whose Google Cloud project has Google Ads API access. Google sunset developer tokens on September 9, 2026, so `GOOGLE_ADS_DEVELOPER_TOKEN` is optional and retained only for legacy compatibility. `GOOGLE_ADS_LOGIN_CUSTOMER_ID` is optional for a manager account. `GOOGLE_ADS_API_VERSION` defaults to `v25`. Set `GOOGLE_ADS_LEAD_ACTION_PATTERN` and `GOOGLE_ADS_CUSTOMER_ACTION_PATTERN` as case-insensitive regular expressions matching conversion-action names. Unmatched conversions are reported but never forced into CPL or CAC.
 
 ## GA4
 

@@ -161,11 +161,14 @@ def google_access_token() -> str:
 
 
 def google_ads_search(token: str, query: str) -> list[dict[str, Any]]:
-    absent = missing(["GOOGLE_ADS_DEVELOPER_TOKEN", "GOOGLE_ADS_CUSTOMER_ID"])
+    absent = missing(["GOOGLE_ADS_CUSTOMER_ID"])
     if absent:
         raise ApiError("Google Ads: missing " + ", ".join(absent))
     customer = re.sub(r"\D", "", os.environ["GOOGLE_ADS_CUSTOMER_ID"])
-    headers = {"Authorization": f"Bearer {token}", "developer-token": os.environ["GOOGLE_ADS_DEVELOPER_TOKEN"]}
+    headers = {"Authorization": f"Bearer {token}"}
+    legacy_developer_token = os.getenv("GOOGLE_ADS_DEVELOPER_TOKEN")
+    if legacy_developer_token:
+        headers["developer-token"] = legacy_developer_token
     login = re.sub(r"\D", "", os.getenv("GOOGLE_ADS_LOGIN_CUSTOMER_ID", ""))
     if login:
         headers["login-customer-id"] = login
