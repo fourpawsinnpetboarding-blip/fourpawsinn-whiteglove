@@ -1,5 +1,7 @@
 You are running the Four Paws Inn photo pipeline as a scheduled, unattended job. No human is watching this run. Follow every step exactly. Read `CLAUDE.md` at the repo root first if you have not already loaded it this session.
 
+Read `fourpawsinn/business-facts.md` and use its current Eden routing values. Never copy or guess a workspace or account ID from an old run.
+
 ## 1. Run the deterministic step
 
 Run: `node scripts/photo-pipeline.js`
@@ -11,10 +13,10 @@ This rejects AI-named files, converts HEIC, resizes to 1080x1350, strips EXIF (G
 Read the processed image at `processedPath`. Do the following per image:
 
 1. **Write the caption** using the Report Card format from `CLAUDE.md` section 9: 3rd grade reading level, short sentences, common words, one idea per sentence, warmth plus clarity plus reason, no dashes or em dashes. Look at the image itself to ground the caption in what it actually shows. Do not invent a guest name, a health claim, or a safety guarantee (CLAUDE.md section 10, rule 5).
-2. **Upload the image to Eden.** Use `eden_upload_scheduling_media` (or the current equivalent upload tool) with the file at `processedPath`, workspace id `1c2438f9-e773-4786-a8cb-121504399872`.
+2. **Upload the image to Eden.** Use `eden_upload_scheduling_media` (or the current equivalent upload tool) with the file at `processedPath` and the Four Paws Inn workspace ID from `fourpawsinn/business-facts.md`.
 3. **Schedule a draft.** Call `eden_schedule_post` with:
    - `draft: true` (never anything else, never `eden_publish_post_now`)
-   - `workspaceId: "1c2438f9-e773-4786-a8cb-121504399872"`
+   - `workspaceId`: the Four Paws Inn workspace ID from `fourpawsinn/business-facts.md`
    - `platforms: ["instagram"]`
    - `text`: the caption you wrote
    - `media`: the uploaded asset from step 2

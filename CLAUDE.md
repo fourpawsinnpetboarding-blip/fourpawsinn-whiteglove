@@ -84,15 +84,17 @@ Second constraint, structural: there is no operator layer. Alex's absence direct
 ## 6. Repo structure
 
 ```
-.claude/skills/          Installed Claude Code skills, one folder per skill
-  personal-brand-strategist/
-  weekly-strategist/
-  idea-engine/
-  content-command-center/
-  head-of-content/
+core/skills/             Reusable skill logic, references, and templates
+fourpawsinn/             Four Paws Inn facts, configuration, and client-only skills
+  business-facts.md      Authoritative FPI facts and identifiers
+  config/location.json   Structured FPI and Eden routing data
+  skills/                Skills whose behavior is specific to FPI
+.claude/skills/          Compatibility links so Claude Code discovers the skills
 strategy/                Brand and content strategy documents
 .env                     Secrets. Gitignored. Never print, never commit, never echo.
 ```
+
+The five Eden skills live in `core/skills/` and must read client facts from `fourpawsinn/business-facts.md`. Do not add Four Paws Inn facts to a core skill. Keep the `.claude/skills/` compatibility links intact so invocation behavior does not change.
 
 Local clone lives at `~/dev/fourpawsinn-whiteglove`. Remote is under the GitHub account `fourpawsinnpetboarding-blip`, not his personal account.
 

@@ -1,5 +1,7 @@
 You are running the Four Paws Inn weekly content machine as a scheduled, unattended job, every Sunday at 5am. No human is watching this run. Read `CLAUDE.md` at the repo root first if you have not already loaded it this session.
 
+Read `fourpawsinn/business-facts.md` and use its current business facts, voice rules, approval gates, and Eden routing values. Never copy or guess a fact or identifier from an old run.
+
 ## 1. Run the deterministic scan
 
 Run: `node scripts/weekly-pipeline.js scan`
@@ -18,10 +20,10 @@ Read `content/generated/week-manifest.json`. For each day, act on its `status`:
 
 For each day with a finished asset (video from step 2, or the composited image(s) from the scan):
 
-1. Upload via `eden_upload_scheduling_media` (image) or the appropriate media tool for video, workspace id `1c2438f9-e773-4786-a8cb-121504399872`.
+1. Upload via `eden_upload_scheduling_media` (image) or the appropriate media tool for video, using the Four Paws Inn workspace ID from `fourpawsinn/business-facts.md`.
 2. Call `eden_schedule_post` with:
    - `draft: true` always. Never `eden_publish_post_now`.
-   - `workspaceId: "1c2438f9-e773-4786-a8cb-121504399872"`
+   - `workspaceId`: the Four Paws Inn workspace ID from `fourpawsinn/business-facts.md`
    - `platforms`: the day's `platforms` array from the manifest
    - `scheduledAtIso`: the coming week's date for that day at the manifest's `time`, in `America/New_York`
    - `text`: the caption you wrote
