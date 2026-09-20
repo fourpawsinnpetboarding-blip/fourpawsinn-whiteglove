@@ -21,47 +21,34 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Service area | Miramar, Pembroke Pines, and Broward County, South Florida |
 | Timezone | America/New_York |
 | Website | https://fourpawsinn.co |
-| Street address | Not recorded in this repository. Because this is a home-based business, never invent or disclose a street address. Say you will check. |
+| Street address | 1700 SW 137th Way, Miramar, FL 33027 |
 
 ## Current operating hours
 
-- Earliest drop-off: 9:00 AM.
-- Latest drop-off: 8:00 PM.
-- Pick-up before 10:00 AM does not add another calendar day.
-- Pick-up at or after 10:00 AM counts as another calendar day.
-- Meet and greets are Tuesdays only, 9:00 AM to 1:30 PM and 6:00 PM to 9:00 PM.
-- A meet and greet does not happen on the same day as drop-off.
-- Availability is never assumed. Check the live calendar before confirming a date or time.
+- Drop-off and pick-up: 9:00 AM to 8:00 PM, seven days a week.
+- Meet and greets: Tuesdays, 9:00 AM to 1:30 PM and 6:30 PM to 8:00 PM.
 
 ## Current pricing
 
 | Service | Price |
 | --- | --- |
-| Dog under 50 lb | $60 per calendar day |
-| Dog 50 lb or more | $75 per calendar day |
-| Puppy under 12 months | $80 per calendar day |
-| Sibling discount | $5 off per dog, per day |
-| Private suite | $100 per calendar day |
-| Cat, regular stay | $30 per calendar day |
-| Cat, published holiday windows | $40 per calendar day |
-| Small pet | $25 per calendar day |
-| Exit bath | $35 |
-| Tooth brushing | $5 per day |
-| 21-day Board and Train | $3,500 |
+| Dog under 50 lb | $60 per day |
+| Dog over 50 lb | $75 per day |
+| Second dog | $5 per day off |
+| Last day | Free if picked up before 10:00 AM |
+| Cats | Pricing depends on the number of cats and length of stay. Never quote a cat price; say the team will confirm. |
+| Private suite | Costs more. Never quote a private-suite price; say the team will confirm. |
 
-Do not offer long-stay discounts. Legacy client rates are private exceptions and are not quoted to new leads.
+Four Paws Inn charges by day, never by night.
 
 ## Booking and care policies
 
-- A 25% deposit reserves the stay. It is non-refundable and non-transferable. One emergency credit may be approved as an exception.
-- The remaining balance is due before arrival.
-- Boarding is billed by calendar day under the pick-up rule above.
-- One-night stays are not offered. A Friday drop-off requires a Monday pick-up.
-- Drop-off and pick-up use driveway hand-off. Owners do not enter the home at drop-off because calm entry protects the pack environment.
-- New dogs settle first, then receive slow, supervised introductions in small groups matched by size and temperament.
-- Dogs receive one daily photo or video update plus an arrival clip.
-- Food must be pre-portioned. Every dog is fed separately.
-- Do not promise health outcomes, safety guarantees, or medical results.
+- A 25% deposit reserves the dates.
+- The balance is due at drop-off.
+- Vaccines must be current.
+- Owners bring food pre-portioned in Ziploc bags.
+- Four Paws Inn provides beds and supplies.
+- Daily photo and video updates are included.
 
 ## Brand and copy rules
 
@@ -91,8 +78,10 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 
 - Conversation AI agent: `Four Paws Inn Booking Assistant`.
 - The agent must remain off unless Alex explicitly approves a change.
-- Published workflow names last confirmed: `FPI Future Travel Conversion`, `FPI 7-Day Lead Conversion`, and `FPI 30-Day Lead Conversion`.
-- Workflow IDs are not recorded in the repository. Resolve them from GoHighLevel before any operation and never guess.
+- `FPI 30-Day Lead Conversion`: `5a79c778-715c-439b-8453-5983e7b9105b`
+- `FPI 7-Day Lead Conversion`: `557eb140-f183-4a13-9ad6-98bff8db626f`
+- `FPI Future Travel - ChatGPT Reply Drafts`: `231374de-11c4-473e-9ba1-41abb48c38b7`
+- No other workflow ID is known. Resolve any other ID from GoHighLevel before an operation and never guess.
 - The conversion workflows may send prewritten, approved follow-up messages. They must not contain an AI action that generates or sends customer-facing copy without human approval.
 
 ## Creative-generation guardrails
