@@ -5,5 +5,7 @@ content/generated/
 content/reviews/*.csv
 content/reviews/dogs/
 node_modules/
+__pycache__/
 .env
+scoreboard-output/
 *.log
