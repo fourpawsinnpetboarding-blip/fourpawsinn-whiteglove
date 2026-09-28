@@ -1,0 +1,329 @@
+{
+  "week": "2026-09-28",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-09-28",
+      "scheduledAtIso": "2026-09-28T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "Drop off feels like the first day of school. Long goodbyes make it harder.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "dark",
+          "kicker": "Pet parent psychology",
+          "title": "Drop off feels like the *first day* of school.",
+          "sub": "For you, too. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Every parent learns this one.",
+          "body": "The long goodbye at the classroom door makes it harder. Not easier."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Your dog reads the room.",
+          "body": "Keep hellos and goodbyes calm and low key. A big, sad goodbye can turn up the stress.",
+          "source": "ASPCA"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "So keep drop off simple.",
+          "body": "One hug. Hand over the leash. Go enjoy your trip. Photo and video updates come every day."
+        },
+        {
+          "type": "quote",
+          "theme": "dark",
+          "quote": "This was our first time ever boarding our puppers and we were a little nervous, but with the video/photo updates, we quickly realized that we made the right choice!",
+          "name": "Ashly N."
+        },
+        {
+          "type": "cta",
+          "theme": "gold",
+          "kicker": "First stay coming up?",
+          "title": "Tell us about your dog.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Drop off feels like the first day of school. For you, too.\n\nEvery parent learns it fast. The long goodbye makes it harder.\n\nYour dog reads the room. So keep it calm and quick. One hug. Hand over the leash. Go.\n\nThen watch the daily videos from your trip.\n\nFirst stay coming up? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenPostId": "b71f4e6f-c8f1-4387-a47f-917ef21a88f9",
+      "status": "scheduled"
+    },
+    {
+      "day": "Tue",
+      "date": "2026-09-29",
+      "scheduledAtIso": "2026-09-29T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Fun fact / dog science",
+      "angle": "Scent receptors. A new place is big news for a dog's nose. Tie to Tuesday meet and greets.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "dark",
+          "kicker": "Fun fact",
+          "stat": "300 million",
+          "label": "scent receptors in your dog's *nose.*",
+          "vs": {
+            "value": "6 million",
+            "label": "That is about how many you have."
+          },
+          "source": "PBS NOVA"
+        }
+      ],
+      "caption": "Your dog's nose has up to 300 million scent receptors. Yours has about 6 million.\n\nSo a new place is big news for them. There is so much to smell.\n\nThat is one reason we take introductions slowly. New guests get time to sniff and settle in.\n\nWant to see our home first? Meet and greets are on Tuesdays. Send us a message to set one up.\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "280535c9-ef67-4382-9856-b7698f20479d",
+      "status": "scheduled"
+    },
+    {
+      "day": "Wed",
+      "date": "2026-09-30",
+      "scheduledAtIso": "2026-09-30T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Review / proof",
+      "angle": "Senior dog owner who hated kennels. Home vs cage.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "cream",
+          "head": "A home, not a *kennel.*",
+          "quote": "I have a very senior dog and I hate boarding him at a traditional kennel where they just keep them locked in a cage. 4 Paws Inn provides a lovely home atmosphere with plenty of breaks for sunshine and lounging.",
+          "name": "Tamara T."
+        }
+      ],
+      "caption": "Tamara has a senior dog. She did not want him locked in a cage all day.\n\nHere is what she wrote after his stay.\n\nFour Paws Inn is cage free home boarding in Miramar. Your dog stays in a real home, not a kennel.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #SeniorDogs #DogBoarding",
+      "files": [
+        "png/wed-01.png"
+      ],
+      "edenPostId": "21baaed9-1d3e-4629-8174-c92907dc93af",
+      "status": "scheduled"
+    },
+    {
+      "day": "Thu",
+      "date": "2026-10-01",
+      "scheduledAtIso": "2026-10-01T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Dog behavior science / authority",
+      "angle": "Body language cheat sheet. Save and share bait. Shows we read dogs for a living.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "dark",
+          "kicker": "Dog behavior 101",
+          "title": "Your dog is talking *all day.*",
+          "sub": "Here is how to listen. Save this one."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "The play bow",
+          "body": "Front legs down. Rear end up. It means: let's play.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "The yawn",
+          "body": "Not always sleepy. A yawn can be a sign your dog feels stressed.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "The wag",
+          "body": "A wagging tail does not always mean happy. Look at the whole body.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "04",
+          "title": "Whale eye",
+          "body": "You can see the white of the eye. Your dog may feel uneasy. Give them space.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "05",
+          "title": "The wiggle",
+          "body": "Loose body. Soft face. Wiggly walk. That is a relaxed dog.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "cta",
+          "theme": "gold",
+          "kicker": "Why we care",
+          "title": "Reading dogs is our *job.*",
+          "body": "It is how we match dogs for group play. Share this with everyone who cares for your dog.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Your dog talks all day. Just not with words.\n\nA play bow means let's play.\nA yawn can mean stress, not sleep.\nA wag does not always mean happy.\nWhale eye means give some space.\nA loose, wiggly body means relaxed.\n\nReading these signs is our job. It is how we match dogs for group play.\n\nSave this. Share it with everyone who cares for your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogBehavior #DogBodyLanguage #MiramarDogs",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png",
+        "png/thu-06.png",
+        "png/thu-07.png"
+      ],
+      "edenPostId": "8b9b1d29-3cec-4ecd-973c-203a7f7ba864",
+      "status": "scheduled"
+    },
+    {
+      "day": "Fri",
+      "date": "2026-10-02",
+      "scheduledAtIso": "2026-10-02T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Parent psychology / guilt",
+      "angle": "Permission to enjoy the trip. Travel weekend timing.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "gold",
+          "kicker": "For the guilty pet parent",
+          "title": "You are allowed to *enjoy* your trip.",
+          "sub": "\"I got daily videos all week which kept my mind at ease so I could enjoy my vacation.\" Mini M., Google review"
+        }
+      ],
+      "caption": "Leaving your dog can feel like leaving your kid. The guilt shows up at the airport.\n\nBut a good trip is not selfish. You come home rested. Your dog gets a better you.\n\nMini M. said it best: \"I got daily videos all week which kept my mind at ease so I could enjoy my vacation.\"\n\nGoing away soon? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #TravelWithPeaceOfMind",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "81d83059-bb6d-4999-ba08-93e6892e8bbc",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-03",
+      "scheduledAtIso": "2026-10-03T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "Weekend share bait. Four facts that sound fake.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "dark",
+          "kicker": "Fun facts",
+          "title": "4 dog facts that sound *fake.*",
+          "sub": "All true. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Nose prints are like fingerprints.",
+          "body": "No two dogs have the same nose print.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Dogs sweat through their paws.",
+          "body": "Their paw pads have sweat glands. Most cooling comes from panting.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Dogs see color.",
+          "body": "Just not like us. They see mostly blue and yellow. Red looks dull.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "04",
+          "title": "Dogs likely dream.",
+          "body": "Twitching paws during sleep? Experts think they may be dreaming.",
+          "source": "American Kennel Club"
+        },
+        {
+          "type": "cta",
+          "theme": "gold",
+          "kicker": "One more fact",
+          "title": "225 families reviewed us on *Google.*",
+          "body": "Read what they say. Then tell us about your dog.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "4 dog facts that sound fake. All true.\n\n1. No two dogs have the same nose print.\n2. Dogs sweat through their paw pads.\n3. Dogs see mostly blue and yellow.\n4. Dogs likely dream.\n\nWhich one surprised you? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png",
+        "png/sat-06.png"
+      ],
+      "edenPostId": "d9ff27fa-6176-4da4-9ddc-e3a133c0c413",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sun",
+      "date": "2026-10-04",
+      "scheduledAtIso": "2026-10-04T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Review wall / proof",
+      "angle": "First stay nerves. Three short quotes. Holiday planning CTA.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "dark",
+          "title": "After the *first* stay:",
+          "quotes": [
+            {
+              "text": "I was nervous about leaving my 8yo cockapoo for a trip... Four Paws Inn made us feel comfortable and confident.",
+              "name": "Molly P."
+            },
+            {
+              "text": "It was my first time leaving my dog this week and the whole process was very organized.",
+              "name": "Freddy C."
+            },
+            {
+              "text": "Both of my dogs warmed up right away.",
+              "name": "Gipsy V."
+            }
+          ]
+        }
+      ],
+      "caption": "The first stay is the hardest. Mostly for you.\n\nHere is what pet parents told us after theirs.\n\nPlanning holiday travel? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "6e3dac3e-e45c-4162-af2c-068aab8045b4",
+      "status": "scheduled"
+    }
+  ]
+}
