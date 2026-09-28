@@ -17,7 +17,7 @@
       "slides": [
         {
           "type": "hook",
-          "theme": "dark",
+          "theme": "cream",
           "kicker": "Pet parent psychology",
           "title": "Drop off feels like the *first day* of school.",
           "sub": "For you, too. Swipe."
@@ -46,13 +46,13 @@
         },
         {
           "type": "quote",
-          "theme": "dark",
+          "theme": "charcoal",
           "quote": "This was our first time ever boarding our puppers and we were a little nervous, but with the video/photo updates, we quickly realized that we made the right choice!",
           "name": "Ashly N."
         },
         {
           "type": "cta",
-          "theme": "gold",
+          "theme": "pink",
           "kicker": "First stay coming up?",
           "title": "Tell us about your dog.",
           "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
@@ -60,6 +60,8 @@
         }
       ],
       "caption": "Drop off feels like the first day of school. For you, too.\n\nEvery parent learns it fast. The long goodbye makes it harder.\n\nYour dog reads the room. So keep it calm and quick. One hug. Hand over the leash. Go.\n\nThen watch the daily videos from your trip.\n\nFirst stay coming up? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "b71f4e6f-c8f1-4387-a47f-917ef21a88f9",
+      "status": "scheduled",
       "files": [
         "png/mon-01.png",
         "png/mon-02.png",
@@ -68,8 +70,14 @@
         "png/mon-05.png",
         "png/mon-06.png"
       ],
-      "edenPostId": "b71f4e6f-c8f1-4387-a47f-917ef21a88f9",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/5012ae26-906f-449e-b41a-f11347a28749.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/f2cacd5f-bbc7-4f7d-b6de-97c9752ae3d8.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/1f266586-0441-49f1-8344-4fa59a1a2ef5.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/4de4265e-a39f-49f6-854d-520a2665c75a.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/faa87780-c1ca-45e3-a430-d43403c6875e.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/6c2b7c3a-d914-414c-af22-94364eda0083.png"
+      ]
     },
     {
       "day": "Tue",
@@ -81,7 +89,7 @@
       "slides": [
         {
           "type": "stat",
-          "theme": "dark",
+          "theme": "cream",
           "kicker": "Fun fact",
           "stat": "300 million",
           "label": "scent receptors in your dog's *nose.*",
@@ -93,11 +101,14 @@
         }
       ],
       "caption": "Your dog's nose has up to 300 million scent receptors. Yours has about 6 million.\n\nSo a new place is big news for them. There is so much to smell.\n\nThat is one reason we take introductions slowly. New guests get time to sniff and settle in.\n\nWant to see our home first? Meet and greets are on Tuesdays. Send us a message to set one up.\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "edenPostId": "280535c9-ef67-4382-9856-b7698f20479d",
+      "status": "scheduled",
       "files": [
         "png/tue-01.png"
       ],
-      "edenPostId": "280535c9-ef67-4382-9856-b7698f20479d",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/4620a102-6c06-4d12-b7ae-98c8b4234100.png"
+      ]
     },
     {
       "day": "Wed",
@@ -109,18 +120,21 @@
       "slides": [
         {
           "type": "quote",
-          "theme": "cream",
+          "theme": "pink",
           "head": "A home, not a *kennel.*",
           "quote": "I have a very senior dog and I hate boarding him at a traditional kennel where they just keep them locked in a cage. 4 Paws Inn provides a lovely home atmosphere with plenty of breaks for sunshine and lounging.",
           "name": "Tamara T."
         }
       ],
       "caption": "Tamara has a senior dog. She did not want him locked in a cage all day.\n\nHere is what she wrote after his stay.\n\nFour Paws Inn is cage free home boarding in Miramar. Your dog stays in a real home, not a kennel.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #SeniorDogs #DogBoarding",
+      "edenPostId": "21baaed9-1d3e-4629-8174-c92907dc93af",
+      "status": "scheduled",
       "files": [
         "png/wed-01.png"
       ],
-      "edenPostId": "21baaed9-1d3e-4629-8174-c92907dc93af",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/773b1de5-389a-412f-a9d3-4ff95911d8d6.png"
+      ]
     },
     {
       "day": "Thu",
@@ -132,7 +146,7 @@
       "slides": [
         {
           "type": "hook",
-          "theme": "dark",
+          "theme": "charcoal",
           "kicker": "Dog behavior 101",
           "title": "Your dog is talking *all day.*",
           "sub": "Here is how to listen. Save this one."
@@ -179,7 +193,7 @@
         },
         {
           "type": "cta",
-          "theme": "gold",
+          "theme": "pink",
           "kicker": "Why we care",
           "title": "Reading dogs is our *job.*",
           "body": "It is how we match dogs for group play. Share this with everyone who cares for your dog.",
@@ -187,6 +201,8 @@
         }
       ],
       "caption": "Your dog talks all day. Just not with words.\n\nA play bow means let's play.\nA yawn can mean stress, not sleep.\nA wag does not always mean happy.\nWhale eye means give some space.\nA loose, wiggly body means relaxed.\n\nReading these signs is our job. It is how we match dogs for group play.\n\nSave this. Share it with everyone who cares for your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogBehavior #DogBodyLanguage #MiramarDogs",
+      "edenPostId": "8b9b1d29-3cec-4ecd-973c-203a7f7ba864",
+      "status": "scheduled",
       "files": [
         "png/thu-01.png",
         "png/thu-02.png",
@@ -196,8 +212,15 @@
         "png/thu-06.png",
         "png/thu-07.png"
       ],
-      "edenPostId": "8b9b1d29-3cec-4ecd-973c-203a7f7ba864",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/3005e4a7-c5c2-4825-98b5-3b36ab16ce5f.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/9e159a89-d0f1-4ab4-a61b-2fe0ffb8dde0.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/ef6de663-fcfa-47e3-bc2a-59873773122b.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/73fc929d-b959-4cf9-8684-c32f3ee27be0.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/4a85d12e-63bf-4d60-aae4-a073bdfd1831.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/3ddb2ff0-4d16-468e-b48e-0bf513746aa8.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/3538807d-ba37-45a0-81aa-64f10f22d393.png"
+      ]
     },
     {
       "day": "Fri",
@@ -209,18 +232,21 @@
       "slides": [
         {
           "type": "hook",
-          "theme": "gold",
+          "theme": "charcoal",
           "kicker": "For the guilty pet parent",
           "title": "You are allowed to *enjoy* your trip.",
           "sub": "\"I got daily videos all week which kept my mind at ease so I could enjoy my vacation.\" Mini M., Google review"
         }
       ],
       "caption": "Leaving your dog can feel like leaving your kid. The guilt shows up at the airport.\n\nBut a good trip is not selfish. You come home rested. Your dog gets a better you.\n\nMini M. said it best: \"I got daily videos all week which kept my mind at ease so I could enjoy my vacation.\"\n\nGoing away soon? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #TravelWithPeaceOfMind",
+      "edenPostId": "81d83059-bb6d-4999-ba08-93e6892e8bbc",
+      "status": "scheduled",
       "files": [
         "png/fri-01.png"
       ],
-      "edenPostId": "81d83059-bb6d-4999-ba08-93e6892e8bbc",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/e1098c07-1ded-4890-b21d-3ca0a9c55c3b.png"
+      ]
     },
     {
       "day": "Sat",
@@ -232,7 +258,7 @@
       "slides": [
         {
           "type": "hook",
-          "theme": "dark",
+          "theme": "pink",
           "kicker": "Fun facts",
           "title": "4 dog facts that sound *fake.*",
           "sub": "All true. Swipe."
@@ -271,7 +297,7 @@
         },
         {
           "type": "cta",
-          "theme": "gold",
+          "theme": "charcoal",
           "kicker": "One more fact",
           "title": "225 families reviewed us on *Google.*",
           "body": "Read what they say. Then tell us about your dog.",
@@ -279,6 +305,8 @@
         }
       ],
       "caption": "4 dog facts that sound fake. All true.\n\n1. No two dogs have the same nose print.\n2. Dogs sweat through their paw pads.\n3. Dogs see mostly blue and yellow.\n4. Dogs likely dream.\n\nWhich one surprised you? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "edenPostId": "d9ff27fa-6176-4da4-9ddc-e3a133c0c413",
+      "status": "scheduled",
       "files": [
         "png/sat-01.png",
         "png/sat-02.png",
@@ -287,8 +315,14 @@
         "png/sat-05.png",
         "png/sat-06.png"
       ],
-      "edenPostId": "d9ff27fa-6176-4da4-9ddc-e3a133c0c413",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/88336e26-5058-4e40-9561-b59927c37bfc.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/8fcc1d53-96e6-411b-8edd-acf3cf48cb4d.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/348a4eb8-f5db-41c9-9d6a-8ea2c15a3fd6.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/433baa61-7f74-4237-82fd-db14a67575ce.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/c8e15944-daeb-420b-8072-a95b14054713.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/f83fa10d-ee7e-4d3f-97bd-e468b5297bc8.png"
+      ]
     },
     {
       "day": "Sun",
@@ -300,7 +334,7 @@
       "slides": [
         {
           "type": "wall",
-          "theme": "dark",
+          "theme": "cream",
           "title": "After the *first* stay:",
           "quotes": [
             {
@@ -319,11 +353,15 @@
         }
       ],
       "caption": "The first stay is the hardest. Mostly for you.\n\nHere is what pet parents told us after theirs.\n\nPlanning holiday travel? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "6e3dac3e-e45c-4162-af2c-068aab8045b4",
+      "status": "scheduled",
       "files": [
         "png/sun-01.png"
       ],
-      "edenPostId": "6e3dac3e-e45c-4162-af2c-068aab8045b4",
-      "status": "scheduled"
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/9ddf842c-3894-48d7-8820-3f5a55e289d0.png"
+      ]
     }
-  ]
+  ],
+  "design": "brand v1: cream #FAF7F3, pink #E6A0A3, charcoal #353532. Images replaced in place 2026-09-27 23:30 ET."
 }

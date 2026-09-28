@@ -9,8 +9,9 @@
  * Usage:
  *   NODE_PATH=$(npm root -g) node scripts/morning-posts/render.js 2026-09-28
  *
- * Slide types: hook, point, stat, quote, wall, cta. Wrap a word in
- * *asterisks* inside a title to set it in the accent serif.
+ * Slide types: hook, point, stat, quote, wall, cta. Themes: cream, pink,
+ * charcoal. Optional per slide "layout": a, b or c to vary the accent shapes.
+ * Wrap a word in *asterisks* to italicize it with a highlight bar.
  */
 const fs = require("fs");
 const path = require("path");
@@ -19,18 +20,24 @@ const { chromium } = require("playwright");
 const W = 1080;
 const H = 1350;
 
+// Four Paws Inn brand palette (approved 2026-09-28): cream #FAF7F3, pink #E6A0A3, charcoal #353532.
+// Pink is for shapes, highlights and accents. Text is always charcoal or cream so it stays readable.
+const BRAND = { cream: "#FAF7F3", pink: "#E6A0A3", charcoal: "#353532" };
 const THEMES = {
-  dark: { bg: "#15342B", fg: "#F3ECDF", accent: "#F4A63A", soft: "rgba(243,236,223,0.72)", card: "rgba(243,236,223,0.07)", line: "rgba(243,236,223,0.18)" },
-  cream: { bg: "#F3ECDF", fg: "#15342B", accent: "#C8691C", soft: "rgba(21,52,43,0.72)", card: "#FFFFFF", line: "rgba(21,52,43,0.16)" },
-  gold: { bg: "#F4A63A", fg: "#15342B", accent: "#15342B", soft: "rgba(21,52,43,0.8)", card: "rgba(255,255,255,0.35)", line: "rgba(21,52,43,0.22)" },
+  cream: { bg: BRAND.cream, fg: BRAND.charcoal, accent: BRAND.pink, ink: BRAND.charcoal, mark: BRAND.pink, soft: "rgba(53,53,50,0.78)", card: "#FFFFFF", line: "rgba(53,53,50,0.14)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink },
+  pink: { bg: BRAND.pink, fg: BRAND.charcoal, accent: BRAND.charcoal, ink: BRAND.charcoal, mark: BRAND.cream, soft: "rgba(53,53,50,0.85)", card: "rgba(250,247,243,0.6)", line: "rgba(53,53,50,0.2)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.cream, kickFg: BRAND.charcoal, shape: BRAND.cream },
+  charcoal: { bg: BRAND.charcoal, fg: BRAND.cream, accent: BRAND.pink, ink: BRAND.pink, mark: "transparent", soft: "rgba(250,247,243,0.78)", card: "rgba(250,247,243,0.07)", line: "rgba(250,247,243,0.18)", btnBg: BRAND.pink, btnFg: BRAND.charcoal, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink },
 };
+// Older week files used these names.
+THEMES.dark = THEMES.charcoal;
+THEMES.gold = THEMES.pink;
 
 // Fonts are embedded as base64 so rendering never depends on network access.
 const fontData = (f) => fs.readFileSync(path.join(__dirname, "fonts", f)).toString("base64");
 const FONT_CSS = [
-  ["Bricolage Grotesque", "normal", "200 800", "BricolageGrotesque-normal.woff2"],
-  ["Instrument Serif", "normal", "400", "InstrumentSerif-normal.woff2"],
-  ["Instrument Serif", "italic", "400", "InstrumentSerif-italic.woff2"],
+  ["Source Serif 4", "normal", "200 900", "SourceSerif4-normal.woff2"],
+  ["Source Serif 4", "italic", "200 900", "SourceSerif4-italic.woff2"],
+  ["DM Sans", "normal", "100 1000", "DMSans-normal.woff2"],
 ]
   .map(([fam, style, weight, file]) => `@font-face{font-family:"${fam}";font-style:${style};font-weight:${weight};src:url(data:font/woff2;base64,${fontData(file)}) format("woff2")}`)
   .join("");
@@ -40,58 +47,64 @@ const rich = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, "
 
 const PAW = `<svg viewBox="0 0 64 64" width="100%" height="100%" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="42" rx="14" ry="12"/><ellipse cx="14" cy="26" rx="6" ry="8"/><ellipse cx="26" cy="15" rx="6" ry="8"/><ellipse cx="38" cy="15" rx="6" ry="8"/><ellipse cx="50" cy="26" rx="6" ry="8"/></g></svg>`;
 
-function frame(t, inner, { counter, source, pawClass = "" }) {
+function frame(t, inner, { counter, source, layout = "a" }) {
   return `<!doctype html><html><head><meta charset="utf-8">
 <style>${FONT_CSS}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:${W}px;height:${H}px}
-body{background:${t.bg};color:${t.fg};font-family:"Bricolage Grotesque",sans-serif;position:relative;overflow:hidden}
-.grain{position:absolute;inset:0;opacity:.07;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
-.top{position:absolute;top:72px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+body{background:${t.bg};color:${t.fg};font-family:"DM Sans",sans-serif;position:relative;overflow:hidden}
+.serif{font-family:"Source Serif 4",serif}
+.blob{position:absolute;border-radius:50%;background:${t.shape}}
+.blob.b1{width:300px;height:300px;right:-90px;top:-90px}
+.blob.b2{width:170px;height:170px;left:-60px;bottom:210px;opacity:.55}
+.arc{position:absolute;left:-220px;bottom:-260px;width:620px;height:620px;border-radius:50%;border:3px solid ${t.shape};opacity:.8}
+.top{position:absolute;top:72px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;z-index:2}
 .top .brand{display:flex;align-items:center;gap:14px}
-.top .brand i{display:block;width:30px;height:30px;color:${t.accent}}
-.top .count{font-weight:500;letter-spacing:.12em;color:${t.soft}}
-.bottom{position:absolute;bottom:64px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:22px;color:${t.soft};border-top:2px solid ${t.line};padding-top:22px}
-.stage{position:absolute;top:170px;bottom:150px;left:88px;right:88px;display:flex;flex-direction:column;justify-content:center}
-em{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;color:${t.accent};letter-spacing:-.01em}
-.kicker{display:inline-block;align-self:flex-start;font-size:24px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:12px 22px;border:2px solid ${t.accent};color:${t.accent};border-radius:999px;margin-bottom:44px}
-.h1{font-size:118px;line-height:.98;font-weight:800;letter-spacing:-.035em}
-.h1 em{font-size:1.08em}
-.sub{font-size:46px;line-height:1.25;margin-top:44px;color:${t.soft};font-weight:500;max-width:880px}
-.num{font-family:"Instrument Serif",serif;font-style:italic;font-size:250px;line-height:.8;color:${t.accent};margin-bottom:36px}
-.h2{font-size:92px;line-height:1.02;font-weight:800;letter-spacing:-.03em}
-.body{font-size:48px;line-height:1.3;margin-top:40px;font-weight:500;color:${t.soft};max-width:900px}
-.stat{font-size:210px;line-height:.9;font-weight:800;letter-spacing:-.05em;color:${t.accent}}
-.statlabel{font-size:64px;line-height:1.08;font-weight:700;letter-spacing:-.02em;margin-top:26px}
-.vs{margin-top:56px;display:flex;align-items:baseline;gap:26px;padding:34px 40px;background:${t.card};border-radius:28px;font-size:42px;line-height:1.25;font-weight:500}
-.vs b{font-size:74px;font-weight:800;letter-spacing:-.03em;white-space:nowrap}
-.qmark{font-family:"Instrument Serif",serif;font-size:360px;line-height:.55;color:${t.accent};height:150px}
-.qhead{font-size:78px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin-bottom:90px}
-.qtext{font-family:"Instrument Serif",serif;font-size:62px;line-height:1.16}
-.stars{color:${t.accent};font-size:44px;letter-spacing:.14em;margin-top:48px}
-.who{font-size:36px;font-weight:700;margin-top:14px}
+.top .brand i{display:block;width:30px;height:30px;color:${t.ink}}
+.bottom .count{margin-left:28px;padding-left:28px;border-left:2px solid ${t.line};font-weight:700;letter-spacing:.1em;color:${t.fg}}
+.bottom{position:absolute;bottom:64px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:22px;color:${t.soft};border-top:2px solid ${t.line};padding-top:22px;z-index:2}
+.stage{position:absolute;top:170px;bottom:150px;left:88px;right:88px;display:flex;flex-direction:column;justify-content:center;z-index:2}
+h1,h2,.h1,.h2,.stat,.qhead,.wtitle,.statlabel{font-family:"Source Serif 4",serif}
+em{font-style:italic;color:${t.fg};background:linear-gradient(transparent 62%, ${t.mark} 62%, ${t.mark} 92%, transparent 92%);padding:0 .06em}
+.kicker{display:inline-block;align-self:flex-start;font-size:24px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;background:${t.kickBg};color:${t.kickFg};border-radius:999px;margin-bottom:44px}
+.h1{font-size:112px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
+.sub{font-size:44px;line-height:1.3;margin-top:44px;color:${t.soft};font-weight:500;max-width:880px}
+.num{font-family:"Source Serif 4",serif;font-style:italic;font-weight:700;font-size:200px;line-height:.85;color:${t.ink};margin-bottom:30px;display:flex;align-items:center;gap:30px}
+.num::after{content:"";flex:1;height:4px;background:${t.shape};border-radius:4px;max-width:360px}
+.h2{font-size:88px;line-height:1.04;font-weight:800;letter-spacing:-.02em}
+.body{font-size:46px;line-height:1.35;margin-top:40px;font-weight:500;color:${t.soft};max-width:900px}
+.stat{font-size:200px;line-height:.92;font-weight:800;letter-spacing:-.03em;color:${t.ink}}
+.statlabel{font-size:64px;line-height:1.1;font-weight:700;margin-top:26px}
+.vs{margin-top:56px;display:flex;align-items:baseline;gap:26px;padding:34px 40px;background:${t.card};border-radius:28px;font-size:40px;line-height:1.3;font-weight:500;border:2px solid ${t.line}}
+.vs b{font-family:"Source Serif 4",serif;font-size:72px;font-weight:800;white-space:nowrap}
+.qmark{font-family:"Source Serif 4",serif;font-weight:800;font-size:320px;line-height:.55;color:${t.ink === "#353532" ? t.shape : t.ink};height:140px}
+.qhead{font-size:80px;line-height:1.04;font-weight:800;letter-spacing:-.02em;margin-bottom:80px}
+.qtext{font-family:"Source Serif 4",serif;font-style:italic;font-weight:600;font-size:54px;line-height:1.3}
+.qcard{background:${t.card};border-radius:36px;padding:56px 56px 50px;border:2px solid ${t.line}}
+.stars{color:${t.ink === "#353532" ? t.shape : t.ink};font-size:44px;letter-spacing:.14em;margin-top:40px}
+.who{font-size:34px;font-weight:700;margin-top:12px}
 .who span{font-weight:500;color:${t.soft}}
-.wall{display:flex;flex-direction:column;gap:26px;margin-top:40px}
-.wcard{background:${t.card};border-radius:28px;padding:34px 40px;border:2px solid ${t.line}}
-.wcard p{font-family:"Instrument Serif",serif;font-size:42px;line-height:1.18}
+.wall{display:flex;flex-direction:column;gap:24px;margin-top:44px}
+.wcard{background:${t.card};border-radius:28px;padding:32px 40px;border:2px solid ${t.line}}
+.wcard p{font-family:"Source Serif 4",serif;font-style:italic;font-weight:600;font-size:40px;line-height:1.28}
 .wcard div{margin-top:16px;font-size:26px;font-weight:700;letter-spacing:.06em}
-.wcard div b{color:${t.accent};letter-spacing:.1em;margin-right:10px}
-.wtitle{font-size:84px;line-height:1;font-weight:800;letter-spacing:-.03em}
-.btn{margin-top:60px;align-self:flex-start;display:flex;align-items:center;gap:20px;background:${t.fg};color:${t.bg};font-size:40px;font-weight:700;padding:30px 46px;border-radius:999px}
+.wcard div b{color:${t.ink === "#353532" ? t.shape : t.ink};letter-spacing:.1em;margin-right:10px}
+.wtitle{font-size:88px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
+.btn{margin-top:60px;align-self:flex-start;display:flex;align-items:center;gap:20px;background:${t.btnBg};color:${t.btnFg};font-size:38px;font-weight:700;padding:28px 46px;border-radius:999px}
 .fine{margin-top:34px;font-size:34px;font-weight:500;color:${t.soft}}
-.bigpaw{position:absolute;right:-120px;bottom:120px;width:520px;height:520px;color:${t.fg};opacity:.06;transform:rotate(-18deg)}
-.bigpaw.hide{display:none}
+.hide{display:none}
 </style></head><body>
-<div class="grain"></div>
-<div class="bigpaw ${pawClass}">${PAW}</div>
-<div class="top"><div class="brand"><i>${PAW}</i>Four Paws Inn</div><div class="count">${esc(counter || "Miramar, FL")}</div></div>
+<div class="blob b1"></div>
+<div class="blob b2 ${layout === "a" ? "" : "hide"}"></div>
+<div class="arc ${layout === "c" ? "" : "hide"}"></div>
+<div class="top"><div class="brand"><i>${PAW}</i>Four Paws Inn</div></div>
 <div class="stage">${inner}</div>
-<div class="bottom"><div>@fourpawsinnpetboarding</div><div>${source ? "Source: " + esc(source) : "fourpawsinn.co"}</div></div>
+<div class="bottom"><div>@fourpawsinnpetboarding</div><div>${source ? "Source: " + esc(source) : "fourpawsinn.co"}${counter ? `<span class="count">${esc(counter)}</span>` : ""}</div></div>
 </body></html>`;
 }
 
 function slideHtml(s, counter) {
-  const t = THEMES[s.theme] || THEMES.dark;
+  const t = THEMES[s.theme] || THEMES.cream;
   let inner = "";
   switch (s.type) {
     case "hook":
@@ -104,7 +117,7 @@ function slideHtml(s, counter) {
       inner = `${s.kicker ? `<div class="kicker">${esc(s.kicker)}</div>` : ""}<div class="stat">${esc(s.stat)}</div><div class="statlabel">${rich(s.label)}</div>${s.vs ? `<div class="vs"><b>${esc(s.vs.value)}</b><span>${rich(s.vs.label)}</span></div>` : ""}${s.sub ? `<div class="sub">${rich(s.sub)}</div>` : ""}`;
       break;
     case "quote":
-      inner = `${s.head ? `<div class="qhead">${rich(s.head)}</div>` : ""}<div class="qmark">&ldquo;</div><div class="qtext">${rich(s.quote)}</div><div class="stars">★★★★★</div><div class="who">${esc(s.name)} <span>· Google review</span></div>`;
+      inner = `${s.head ? `<div class="qhead">${rich(s.head)}</div>` : ""}<div class="qcard"><div class="qmark">&ldquo;</div><div class="qtext">${rich(s.quote)}</div><div class="stars">★★★★★</div><div class="who">${esc(s.name)} <span>· Google review</span></div></div>`;
       break;
     case "wall":
       inner = `<div class="wtitle">${rich(s.title)}</div><div class="wall">${s.quotes
@@ -117,7 +130,7 @@ function slideHtml(s, counter) {
     default:
       throw new Error(`Unknown slide type: ${s.type}`);
   }
-  return frame(t, inner, { counter, source: s.source, pawClass: ["wall", "quote", "stat"].includes(s.type) ? "hide" : "" });
+  return frame(t, inner, { counter, source: s.source, layout: s.layout || { hook: "a", point: "c", stat: "b", quote: "b", wall: "b", cta: "a" }[s.type] });
 }
 
 async function main() {
