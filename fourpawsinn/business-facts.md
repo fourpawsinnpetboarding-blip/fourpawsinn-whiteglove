@@ -61,6 +61,23 @@ Four Paws Inn charges by day, never by night.
 - Never send an email or SMS to a live GoHighLevel contact or list without explicit approval for that exact send.
 - No AI-generated customer-facing SMS may be sent automatically. A human writes or approves the final message.
 
+## Visual identity
+
+Approved by Alex on 2026-09-28. This is the default for every Four Paws Inn graphic, carousel, static post, thumbnail, and slide, no matter who or what makes it (Claude, Codex, Canva, Higgsfield, a designer).
+
+| Role | Color | Hex |
+| --- | --- | --- |
+| Base background | Cream | `#FAF7F3` |
+| Accent (shapes, highlights, stars, buttons on dark) | Pink | `#E6A0A3` |
+| Text and dark backgrounds | Charcoal | `#353532` |
+
+- Headings: bold serif (Source Serif 4, weight 700 to 800). Emphasis words in bold serif italic.
+- Body text: clean sans serif (DM Sans, weight 400 to 500), large enough to read on a phone.
+- Text is always charcoal on cream or pink, or cream on charcoal. Never put pink text on cream: it is too light to read.
+- Every graphic carries the Four Paws Inn wordmark with the paw mark and the @fourpawsinnpetboarding handle.
+- Keep the identity fixed. Vary the layouts, hooks, formats, and which of the three backgrounds leads, so the feed does not look like one repeated template.
+- The reference implementation is `scripts/morning-posts/render.js`.
+
 ## Eden routing
 
 | Field | ID |

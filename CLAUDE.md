@@ -146,6 +146,9 @@ Hook, numbers, one win, one failure, SOP lesson, forward looking cliffhanger.
 **Production cadence**
 Films Sunday, posts Monday. Volume over polish during expansion. Ship it.
 
+**Visual identity**
+Cream `#FAF7F3`, pink `#E6A0A3`, charcoal `#353532`. Bold serif headings, clean sans body. Full rules in `fourpawsinn/business-facts.md`. Default for all Four Paws Inn content.
+
 **File naming**
 `AD[##]-[HOOK-ID]-Cut[A/B]`
 

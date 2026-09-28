@@ -26,14 +26,14 @@ Aim for 3 carousels and 4 statics. Rotate through these pillars:
 - Default CTA: "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
 - Before planning, pull every Four Paws Inn post from Eden (`eden_list_scheduled_posts`, statuses `scheduled` and `posted`, limit 100). That covers Codex's 6:30 PM queue for the coming week and everything either of us published in the last 8 weeks. Do not repeat a topic, fact, or reviewer from that list.
 - Read `content/morning/ledger.json`. Do not repeat a topic, fact or reviewer used in the last 8 weeks. Append the new week when done.
-- Design: the evergreen, cream and marigold system in `render.js`. Do not copy the Codex pink and cream look.
+- Design: the approved brand identity in `fourpawsinn/business-facts.md` (Visual identity): cream `#FAF7F3`, pink `#E6A0A3`, charcoal `#353532`, bold serif headings, clean sans body. `render.js` implements it. Keep the identity fixed and vary the rest: rotate themes (`cream`, `pink`, `charcoal`), slide types, accent layouts (`layout`: `a`, `b`, `c`), hooks and formats across the week.
 
 ## Steps
 
 1. **Reviews.** The CSV is gitignored. Restore it if missing:
    `git show 2c6194c:content/reviews/google-business-reviews.csv > content/reviews/google-business-reviews.csv`
    (Refresh from a new Google Business export when Alex provides one.)
-2. **Plan and write** `content/morning/<monday-date>/week.json`. Copy the shape of `content/morning/2026-09-28/week.json`. Slide types: `hook`, `point`, `stat`, `quote`, `wall`, `cta`. Themes: `dark`, `cream`, `gold`. Wrap one word in `*asterisks*` for the accent serif.
+2. **Plan and write** `content/morning/<monday-date>/week.json`. Copy the shape of `content/morning/2026-09-28/week.json`. Slide types: `hook`, `point`, `stat`, `quote`, `wall`, `cta`. Themes: `cream`, `pink`, `charcoal` (cream should lead most weeks). Wrap one word in `*asterisks*` for the accent serif.
 3. **Render.**
    `NODE_PATH=$(npm root -g) node scripts/morning-posts/render.js <monday-date>`
    Then open `content/morning/<monday-date>/contact-sheet.png` and look at every slide at full size. Fix overflow or collisions before uploading.
