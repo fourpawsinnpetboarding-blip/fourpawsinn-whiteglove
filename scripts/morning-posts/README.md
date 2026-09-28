@@ -37,6 +37,7 @@ Aim for 3 carousels and 4 statics. Rotate through these pillars:
 3. **Render.**
    `NODE_PATH=$(npm root -g) node scripts/morning-posts/render.js <monday-date>`
    Then open `content/morning/<monday-date>/contact-sheet.png` and look at every slide at full size. Fix overflow or collisions before uploading.
+   Also check every slide at phone size (about 390 pixels wide, a third of the file). Any text under 32px in the 1080px file reads under 11px on a phone, so the renderer keeps footers, tags and reviewer names at 32px or larger. Stars and pink accents must stay visible on their card color.
 4. **Upload.** For each PNG, call `eden_prepare_scheduling_media_upload` (image/png, exact byte size), then PUT the file to the returned `uploadUrl` with curl and `Content-Type: image/png`. Signed URLs expire in 15 minutes, so upload in batches of about 7.
 5. **Schedule.** `eden_schedule_post` in workspace `1c2438f9-e773-4786-a8cb-121504399872`, schedule `6a07d7c7-8da0-4018-9b7f-6db1e423f3cd`, platforms instagram and facebook, `scheduledAtIso` = `<date>T07:30:00-04:00` (use `-05:00` after daylight saving ends on the first Sunday of November), idempotency key `fpi-morning-<date>`.
 6. **Record.** Write each `edenPostId` into `week.json`, append the week to `ledger.json`, commit, push.

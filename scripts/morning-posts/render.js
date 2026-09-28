@@ -24,9 +24,9 @@ const H = 1350;
 // Pink is for shapes, highlights and accents. Text is always charcoal or cream so it stays readable.
 const BRAND = { cream: "#FAF7F3", pink: "#E6A0A3", charcoal: "#353532" };
 const THEMES = {
-  cream: { bg: BRAND.cream, fg: BRAND.charcoal, accent: BRAND.pink, ink: BRAND.charcoal, mark: BRAND.pink, soft: "rgba(53,53,50,0.78)", card: "#FFFFFF", line: "rgba(53,53,50,0.14)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink },
-  pink: { bg: BRAND.pink, fg: BRAND.charcoal, accent: BRAND.charcoal, ink: BRAND.charcoal, mark: BRAND.cream, soft: "rgba(53,53,50,0.85)", card: "rgba(250,247,243,0.6)", line: "rgba(53,53,50,0.2)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.cream, kickFg: BRAND.charcoal, shape: BRAND.cream },
-  charcoal: { bg: BRAND.charcoal, fg: BRAND.cream, accent: BRAND.pink, ink: BRAND.pink, mark: "transparent", soft: "rgba(250,247,243,0.78)", card: "rgba(250,247,243,0.07)", line: "rgba(250,247,243,0.18)", btnBg: BRAND.pink, btnFg: BRAND.charcoal, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink },
+  cream: { bg: BRAND.cream, fg: BRAND.charcoal, accent: BRAND.pink, ink: BRAND.charcoal, mark: BRAND.pink, soft: "rgba(53,53,50,0.78)", card: "#FFFFFF", line: "rgba(53,53,50,0.14)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink, star: BRAND.pink },
+  pink: { bg: BRAND.pink, fg: BRAND.charcoal, accent: BRAND.charcoal, ink: BRAND.charcoal, mark: BRAND.cream, soft: "rgba(53,53,50,0.85)", card: "rgba(250,247,243,0.6)", line: "rgba(53,53,50,0.2)", btnBg: BRAND.charcoal, btnFg: BRAND.cream, kickBg: BRAND.cream, kickFg: BRAND.charcoal, shape: BRAND.cream, star: BRAND.charcoal },
+  charcoal: { bg: BRAND.charcoal, fg: BRAND.cream, accent: BRAND.pink, ink: BRAND.pink, mark: "transparent", soft: "rgba(250,247,243,0.78)", card: "rgba(250,247,243,0.07)", line: "rgba(250,247,243,0.18)", btnBg: BRAND.pink, btnFg: BRAND.charcoal, kickBg: BRAND.pink, kickFg: BRAND.charcoal, shape: BRAND.pink, star: BRAND.pink },
 };
 // Older week files used these names.
 THEMES.dark = THEMES.charcoal;
@@ -58,15 +58,15 @@ body{background:${t.bg};color:${t.fg};font-family:"DM Sans",sans-serif;position:
 .blob.b1{width:300px;height:300px;right:-90px;top:-90px}
 .blob.b2{width:170px;height:170px;left:-60px;bottom:210px;opacity:.55}
 .arc{position:absolute;left:-220px;bottom:-260px;width:620px;height:620px;border-radius:50%;border:3px solid ${t.shape};opacity:.8}
-.top{position:absolute;top:72px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;z-index:2}
+.top{position:absolute;top:66px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:32px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;z-index:2}
 .top .brand{display:flex;align-items:center;gap:14px}
-.top .brand i{display:block;width:30px;height:30px;color:${t.ink}}
-.bottom .count{margin-left:28px;padding-left:28px;border-left:2px solid ${t.line};font-weight:700;letter-spacing:.1em;color:${t.fg}}
-.bottom{position:absolute;bottom:64px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:22px;color:${t.soft};border-top:2px solid ${t.line};padding-top:22px;z-index:2}
-.stage{position:absolute;top:170px;bottom:150px;left:88px;right:88px;display:flex;flex-direction:column;justify-content:center;z-index:2}
+.top .brand i{display:block;width:38px;height:38px;color:${t.ink}}
+.bottom .count{margin-left:24px;padding-left:24px;border-left:2px solid ${t.line};font-weight:700;letter-spacing:.1em;color:${t.fg}}
+.bottom{position:absolute;bottom:64px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:center;font-size:32px;font-weight:500;color:${t.soft};border-top:2px solid ${t.line};padding-top:24px;z-index:2}
+.stage{position:absolute;top:160px;bottom:160px;left:88px;right:88px;display:flex;flex-direction:column;justify-content:center;z-index:2}
 h1,h2,.h1,.h2,.stat,.qhead,.wtitle,.statlabel{font-family:"Source Serif 4",serif}
 em{font-style:italic;color:${t.fg};background:linear-gradient(transparent 62%, ${t.mark} 62%, ${t.mark} 92%, transparent 92%);padding:0 .06em}
-.kicker{display:inline-block;align-self:flex-start;font-size:24px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;background:${t.kickBg};color:${t.kickFg};border-radius:999px;margin-bottom:44px}
+.kicker{display:inline-block;align-self:flex-start;font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:14px 24px;background:${t.kickBg};color:${t.kickFg};border-radius:999px;margin-bottom:44px}
 .h1{font-size:112px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
 .sub{font-size:44px;line-height:1.3;margin-top:44px;color:${t.soft};font-weight:500;max-width:880px}
 .num{font-family:"Source Serif 4",serif;font-style:italic;font-weight:700;font-size:200px;line-height:.85;color:${t.ink};margin-bottom:30px;display:flex;align-items:center;gap:30px}
@@ -75,20 +75,20 @@ em{font-style:italic;color:${t.fg};background:linear-gradient(transparent 62%, $
 .body{font-size:46px;line-height:1.35;margin-top:40px;font-weight:500;color:${t.soft};max-width:900px}
 .stat{font-size:200px;line-height:.92;font-weight:800;letter-spacing:-.03em;color:${t.ink}}
 .statlabel{font-size:64px;line-height:1.1;font-weight:700;margin-top:26px}
-.vs{margin-top:56px;display:flex;align-items:baseline;gap:26px;padding:34px 40px;background:${t.card};border-radius:28px;font-size:40px;line-height:1.3;font-weight:500;border:2px solid ${t.line}}
+.vs{margin-top:56px;display:flex;align-items:baseline;gap:26px;padding:34px 40px;background:${t.card};border-radius:28px;font-size:44px;line-height:1.3;font-weight:500;border:2px solid ${t.line}}
 .vs b{font-family:"Source Serif 4",serif;font-size:72px;font-weight:800;white-space:nowrap}
-.qmark{font-family:"Source Serif 4",serif;font-weight:800;font-size:320px;line-height:.55;color:${t.ink === "#353532" ? t.shape : t.ink};height:140px}
-.qhead{font-size:80px;line-height:1.04;font-weight:800;letter-spacing:-.02em;margin-bottom:80px}
+.qmark{font-family:"Source Serif 4",serif;font-weight:800;font-size:280px;line-height:.55;color:${t.ink === "#353532" ? t.shape : t.ink};height:110px}
+.qhead{font-size:80px;line-height:1.04;font-weight:800;letter-spacing:-.02em;margin-bottom:44px}
 .qtext{font-family:"Source Serif 4",serif;font-style:italic;font-weight:600;font-size:54px;line-height:1.3}
-.qcard{background:${t.card};border-radius:36px;padding:56px 56px 50px;border:2px solid ${t.line}}
-.stars{color:${t.ink === "#353532" ? t.shape : t.ink};font-size:44px;letter-spacing:.14em;margin-top:40px}
-.who{font-size:34px;font-weight:700;margin-top:12px}
+.qcard{background:${t.card};border-radius:36px;padding:48px 52px 44px;border:2px solid ${t.line}}
+.stars{color:${t.star};font-size:52px;letter-spacing:.14em;margin-top:40px}
+.who{font-size:40px;font-weight:700;margin-top:12px}
 .who span{font-weight:500;color:${t.soft}}
 .wall{display:flex;flex-direction:column;gap:24px;margin-top:44px}
 .wcard{background:${t.card};border-radius:28px;padding:32px 40px;border:2px solid ${t.line}}
-.wcard p{font-family:"Source Serif 4",serif;font-style:italic;font-weight:600;font-size:40px;line-height:1.28}
-.wcard div{margin-top:16px;font-size:26px;font-weight:700;letter-spacing:.06em}
-.wcard div b{color:${t.ink === "#353532" ? t.shape : t.ink};letter-spacing:.1em;margin-right:10px}
+.wcard p{font-family:"Source Serif 4",serif;font-style:italic;font-weight:600;font-size:46px;line-height:1.28}
+.wcard div{margin-top:16px;font-size:34px;font-weight:700;letter-spacing:.06em}
+.wcard div b{color:${t.star};letter-spacing:.1em;margin-right:10px}
 .wtitle{font-size:88px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
 .btn{margin-top:60px;align-self:flex-start;display:flex;align-items:center;gap:20px;background:${t.btnBg};color:${t.btnFg};font-size:38px;font-weight:700;padding:28px 46px;border-radius:999px}
 .fine{margin-top:34px;font-size:34px;font-weight:500;color:${t.soft}}
