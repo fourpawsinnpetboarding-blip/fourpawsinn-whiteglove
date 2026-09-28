@@ -1,0 +1,25 @@
+{
+  "batch": "September 28 Video Batch",
+  "videos": [
+    {
+      "id": "v1-travel-peace-of-mind",
+      "project": "Travel Peace of Mind",
+      "hook": "Will I know how my *dog* is doing?",
+      "script": "You shouldn't have to spend your trip wondering how your dog is doing. Before you choose pet care, ask how updates work. Who sends them? How often? Who do you contact with a question? Get those answers before you book. Message us your dates and tell us about your pet.",
+      "endTitle": "Message us your *dates.*",
+      "endSub": "Tell us about your pet. Home boarding in Miramar.",
+      "coverTitle": "Will I know how my *dog* is doing?",
+      "coverKicker": "Before you book"
+    },
+    {
+      "id": "v2-friendly-is-not-enough",
+      "project": "Friendly Is Not Enough",
+      "hook": "Friendly doesn't mean a good *match.*",
+      "script": "Two friendly dogs can still be a terrible match. Friendly is only one part of it. Size, energy and play style matter too. Some dogs want to play. Others need more space. Ask how a caregiver decides what's right for your dog. Tell us what your dog is like.",
+      "endTitle": "Tell us what your dog is *like.*",
+      "endSub": "Home boarding in Miramar. Send us your dates.",
+      "coverTitle": "Friendly doesn't mean a good *match.*",
+      "coverKicker": "Dog behavior"
+    }
+  ]
+}
