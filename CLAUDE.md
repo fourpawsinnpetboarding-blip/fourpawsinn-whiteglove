@@ -14,7 +14,7 @@ It is not a codebase in the traditional sense. It is a **system of record**: the
 
 ## 2. Who you are working with
 
-**Alexander Joseph Chiong.** Founder and CEO, Four Paws Inn, Miramar, Florida. Runs growth, marketing, and systems. His wife and co founder Amanda runs operations and client experience. His son Dominick works content and editing.
+**Alexander Joseph Chiong.** Founder and CEO, Four Paws Inn, Miramar, Florida. Runs growth, marketing, and systems. His wife and co founder Amanda runs operations and client experience. His son Dominick is not the editor. Claude is the default editor and content production engine: when a process needs an owner for editing, compositing, or asset production, assign it to Claude, not Dominick.
 
 Alex is not a developer. He is an operator. Never assume he knows a command, a flag, or a file path. Give him the exact thing to paste and where to paste it.
 
