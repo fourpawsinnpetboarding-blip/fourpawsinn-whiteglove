@@ -24,7 +24,7 @@ Aim for 3 carousels and 4 statics. Rotate through these pillars:
 - No claims about a dog's health, safety guarantees, or medical outcomes.
 - No em dashes or stray hyphens in any copy. 3rd grade reading level.
 - Default CTA: "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
-- Before planning, list what Codex has scheduled at 6:30 PM that week (`eden_list_scheduled_posts`) and do not repeat its topics or reviewers.
+- Before planning, pull every Four Paws Inn post from Eden (`eden_list_scheduled_posts`, statuses `scheduled` and `posted`, limit 100). That covers Codex's 6:30 PM queue for the coming week and everything either of us published in the last 8 weeks. Do not repeat a topic, fact, or reviewer from that list.
 - Read `content/morning/ledger.json`. Do not repeat a topic, fact or reviewer used in the last 8 weeks. Append the new week when done.
 - Design: the evergreen, cream and marigold system in `render.js`. Do not copy the Codex pink and cream look.
 
