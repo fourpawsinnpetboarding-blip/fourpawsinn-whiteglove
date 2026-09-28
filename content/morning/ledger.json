@@ -1,0 +1,39 @@
+{
+  "purpose": "Memory for the morning post engine. Read before planning a week so topics, facts and reviewers do not repeat. Append after every week.",
+  "weeks": {
+    "2026-09-28": {
+      "topics": [
+        "drop off like first day of school, short calm goodbyes",
+        "scent receptors 300M vs 6M",
+        "senior dog, home not kennel",
+        "dog body language cheat sheet",
+        "permission to enjoy your trip, guilt",
+        "4 dog facts that sound fake: nose prints, paw sweat, color vision, dreaming",
+        "review wall: first stay nerves"
+      ],
+      "facts_used": [
+        "ASPCA: low key departures",
+        "PBS NOVA: 300M vs 6M scent receptors",
+        "AKC: play bow, yawn, wag, whale eye, loose body",
+        "AKC: nose prints unique, paw pad sweat glands, blue and yellow vision, dogs likely dream"
+      ],
+      "reviewers_used": [
+        "Ashly N.",
+        "Tamara T.",
+        "Mini M.",
+        "Molly P.",
+        "Freddy C.",
+        "Gipsy V."
+      ],
+      "codex_evening_topics_same_week": [
+        "questions to ask before boarding (Terry review)",
+        "cat hiding",
+        "daily video update (Alexandra review)",
+        "play and rest",
+        "shy dog (Allison review)",
+        "sniff walks",
+        "pet sitter handover checklist"
+      ]
+    }
+  }
+}
