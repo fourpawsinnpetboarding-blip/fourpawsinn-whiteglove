@@ -56,3 +56,19 @@ Ads Manager, then the three lines menu, then **All tools**, then under **Adverti
 ## What the video suggests about our account
 
 Meta's creative insights favor human connection and trust signals over flat, designed statics. That is a signal our review graphic ad may fatigue faster than real footage. That is why the September 28 test adds real video ads next to it.
+
+## Review log
+
+### 2026-09-29 (day 1 of the video test)
+
+| Week | Spend | Leads | CPL |
+| --- | --- | --- | --- |
+| Aug 31 to Sep 6 | $277 | 14 | $19.77 |
+| Sep 7 to Sep 13 | $283 | 13 | $21.79 |
+| Sep 14 to Sep 20 | $282 | 11 | $25.59 |
+| Sep 21 to Sep 27 | $268 | 8 | $33.56 |
+
+- Static Reviews, last 7 days: $221.89, 5 leads, $44.38 CPL, frequency 1.50, CTR 2.59%. CPL up 70% in four weeks: fatigue.
+- Video ads launched Sep 28: Repeat clients $32.22, 1,181 impressions, CTR 2.71%, 0 leads. Day in the life $1.33. Introductions $2.71. Too early to judge.
+- Lead form still says "Summer Boarding." Seasonal mismatch may be adding to the decline.
+- Decision: hands off until Oct 5. Then keep any video under $33.56 CPL and pause the rest.
