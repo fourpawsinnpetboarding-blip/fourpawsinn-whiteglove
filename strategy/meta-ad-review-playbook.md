@@ -72,3 +72,20 @@ Meta's creative insights favor human connection and trust signals over flat, des
 - Video ads launched Sep 28: Repeat clients $32.22, 1,181 impressions, CTR 2.71%, 0 leads. Day in the life $1.33. Introductions $2.71. Too early to judge.
 - Lead form still says "Summer Boarding." Seasonal mismatch may be adding to the decline.
 - Decision: hands off until Oct 5. Then keep any video under $33.56 CPL and pause the rest.
+
+### 2026-09-30 (day 3 of the video test, today partial)
+
+| Ad | Spend | Clicks | Leads | CPL |
+| --- | --- | --- | --- | --- |
+| Static Reviews | $51.51 | 45 | 3 | $17.17 |
+| Video - Repeat clients | $42.64 | 43 | 0 | none |
+| Video - Introductions | $5.64 | 5 | 0 | none |
+| Video - Day in the life | $2.61 | 0 | 0 | none |
+| Video - older post | $0.17 | 1 | 0 | none |
+| **Total** | **$102.57** | | **3** | **$34.19** |
+
+- Static Reviews rebounded: 3 leads at $17.17, best CPL in 5 weeks. Likely helped by the new ads taking some of its frequency load.
+- Repeat clients: 43 clicks, 0 leads. People click, open the form, and leave. Spend is already past the $33.56 kill line. Meta is pulling budget off it on its own ($23 to $14 to $5 a day).
+- Day in the life and Introductions are barely delivering. Not enough data.
+- "Video - older post" is a new ad not in the Sep 29 log. Confirm with Alex what it is.
+- Recommendation: pause Repeat clients now. Everything else holds until Oct 5.
