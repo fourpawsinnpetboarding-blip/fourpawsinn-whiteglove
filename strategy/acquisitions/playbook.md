@@ -97,6 +97,36 @@ If maybe: move to discovery questions. Never talk price on the first call.
 13. Any code, zoning, noise or neighbor issues? Any open violations?
 14. Any bite incidents, injuries or claims in the last five years? What insurance do you carry?
 
+## Deal math: no money down or no money left
+
+Source prompt: "No Money Down? Or No Money Left? The Math & Logic of Deal Making" (YouTube, O8w3zKqGB_M). The rule below is ours, run on our numbers.
+
+**The rule:** a deal is only good if the business can pay the loan, pay a manager to replace the owner, and still survive a bad year. "No money down" does not make a deal cheap. It moves the whole price onto monthly payments.
+
+**Always subtract a manager first.** SDE assumes the owner works for free. We will not run a second location ourselves, so take out a manager's pay (plan on $50,000 a year) before you count anything.
+
+### Worked example: Miami lead ($198,000 asking, $150,000 listed SDE)
+
+| | SBA 7(a), 10% down | 100% seller note, no money down |
+| --- | --- | --- |
+| Cash at closing | about $20,000 | $0 |
+| Loan | $178,000, 10 years, about 10.5% | $198,000, 5 years, 7% |
+| Yearly payments | about $29,000 | about $47,000 |
+| SDE minus $50,000 manager | $100,000 | $100,000 |
+| Left after payments | about $71,000 | about $53,000 |
+| DSCR (cash flow divided by loan payments) | about 3.4 | about 2.1 |
+| **Bad case:** real SDE is $100,000, not $150,000 | $21,000 left | **$3,000 left** |
+
+The bad case is common. It happens when the add backs don't survive due diligence. At $3,000 a year, one slow summer or one repair puts us underwater. That is the "no money left" deal.
+
+### How we structure offers
+
+1. Base: SBA 7(a) with about 10% down. Longer term means lower payments.
+2. Ask for a seller note of 10 to 20% of the price, paid after the SBA loan. It keeps the seller invested in the transition, and lenders like it.
+3. Run the bad case every time: cut SDE by a third, subtract the manager, subtract the payments. If less than $25,000 a year is left, the price is too high.
+4. Keep 3 months of operating costs in cash after closing (working capital). Never spend the reserve on the down payment.
+5. Walk away from any deal that only works at 100% financing.
+
 ## Red flags
 
 - Numbers on the listing do not match the tax returns.
