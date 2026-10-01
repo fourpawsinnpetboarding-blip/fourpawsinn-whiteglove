@@ -31,7 +31,7 @@ The single map for how Alex's Things 3 is organized. Claude Code and Codex both 
 - Get bankable: books, SBA lender, down payment
 
 ### Personal Brand
-- Substack: writing cadence, subscriber growth
+- Substack (hobby, lower priority): daily 9 PM post via Codex and Eden. Goal: grow subscribers
 - X and personal YouTube
 
 ### Personal
