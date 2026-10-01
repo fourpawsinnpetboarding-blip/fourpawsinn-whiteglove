@@ -1,0 +1,20 @@
+{
+  "id": "photo-reel",
+  "label": "Photo reel (Ken Burns fallback)",
+  "mediaType": "video",
+  "notAStandaloneSlot": "This is not its own day in config/slate.json. It is a fallback the house-yard-reel and dog-moment-reel resolvers reach for automatically when no raw video clip is on file but real B-roll stills are. Same reel slot, same posting time, same platforms, just built from photos instead of a filmed clip when that's what's on hand.",
+  "why": "Reels get pushed harder than static feed posts by the algorithm, even when the source is still photos in motion rather than filmed video. This exists so a week with no new video doesn't lose its reel slot and fall back to silence or a repeat.",
+  "mechanism": "Each still gets a slow Ken Burns zoom (ffmpeg zoompan, 1.0x to 1.15x over the clip), 3 seconds per photo by default, stitched into one vertical reel. Motion only, nothing added to the frame: no AI-generated content, no stock footage.",
+  "sourcing": {
+    "rawMaterial": "2 or more real B-roll photos, named mon-<slug>-01.jpg, mon-<slug>-02.jpg, etc. (or wed- for dog-moment-reel), zero-padded so they sort in the order they should appear. Dropped in content/inbox/ same as every other raw file.",
+    "minimumPhotos": "1 works mechanically, but 2+ is what actually reads as a reel instead of a single zoomed photo. Flag to Alex if only 1 is on file.",
+    "fallbackOrder": "a real video clip (mon-*.mp4/.mov or wed-*.mp4/.mov) always wins if one is on file. The photo set is only used when no video exists for that day."
+  },
+  "assembly": "scripts/weekly-pipeline.js's composePhotoReelFromStills, reused by both resolveHouseYardReel and resolveDogMomentReel. Output feeds into the exact same `overlay <day> \"<hook>\"` step the video path uses, so nothing downstream (hook writing, Eden upload, run-week.md) needs to know whether the source was video or photos.",
+  "rules": [
+    "Never generate or stand in a photo for a dog, the facility, or a person. Every still is real footage Alex or Amanda took.",
+    "Quality ceiling is the photo itself. A low-res or badly cropped still looks worse in motion than static. Flag weak source photos rather than building around them silently."
+  ],
+  "automatable": "yes, once photos are on file",
+  "humanStep": "upload 2+ real B-roll photos for that day, zero-padded and prefixed to match the day (mon- or wed-). Nothing else; the hook-writing and Eden steps are unchanged from the video path."
+}

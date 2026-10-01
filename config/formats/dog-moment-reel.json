@@ -4,6 +4,7 @@
   "mediaType": "video",
   "textOverlay": "one line, no CTA",
   "rawMaterial": "raw dog clip from content/inbox/, unedited beyond one text line",
+  "rawMaterialFallback": "no video on file? 2+ real B-roll photos named wed-<slug>-01.jpg etc. get assembled into a Ken Burns motion reel instead. See config/formats/photo-reel.json.",
   "automatable": "partially",
-  "humanStep": "film or supply the raw clip. Nothing else."
+  "humanStep": "film or supply the raw clip, or upload 2+ B-roll photos if no video is on hand. Nothing else."
 }

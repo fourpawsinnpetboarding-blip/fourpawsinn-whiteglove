@@ -82,20 +82,91 @@ function hasFfmpeg() {
 
 // --- per-day resolvers -----------------------------------------------
 
+// Ken Burns photo-reel fallback for a video reel slot (Mon house-yard-reel,
+// Wed dog-moment-reel) when no filmed clip is on file but real B-roll stills
+// are. See config/formats/photo-reel.json. Returns null (not "missing") when
+// no photos exist either, so the caller falls through to its own message.
+function resolvePhotoReelFallback(files, dayPrefix) {
+  const photos = findByPrefix(files, dayPrefix, IMAGE_EXT).sort();
+  if (photos.length === 0) return null;
+  if (!hasFfmpeg()) {
+    return {
+      status: "missing",
+      reason: `${photos.length} photo(s) found for ${dayPrefix}* but ffmpeg is not installed in this environment, cannot assemble the motion reel. Install ffmpeg and re-run scan.`,
+    };
+  }
+  const outDir = path.join(GENERATED, "photo-reel", dayPrefix.replace(/-$/, ""));
+  const assembledPath = composePhotoReelFromStills(photos.map((f) => path.join(INBOX, f)), outDir);
+  const countNote = photos.length === 1 ? "1 photo (flag to Alex: 2+ reads better as a reel)" : `${photos.length} photos`;
+  return {
+    status: "ready-needs-hook",
+    rawPath: assembledPath,
+    note: `assembled from ${countNote} with Ken Burns motion, no video clip was on file. Waiting for hook text then \`overlay ${dayPrefix.replace(/-$/, "")} "<hook>"\``,
+  };
+}
+
 function resolveHouseYardReel(files) {
   const matches = findByPrefix(files, "mon-", VIDEO_EXT);
-  if (matches.length === 0) {
-    return { status: "missing", reason: "no file named mon-*.mp4 or mon-*.mov in content/inbox/. Alex needs to film or supply a house/yard clip." };
+  if (matches.length > 0) {
+    return { status: "ready-needs-hook", rawPath: path.join(INBOX, matches[0]), note: "video found, waiting for hook text then `overlay mon \"<hook>\"`" };
   }
-  return { status: "ready-needs-hook", rawPath: path.join(INBOX, matches[0]), note: "video found, waiting for hook text then `overlay mon \"<hook>\"`" };
+  const photoFallback = resolvePhotoReelFallback(files, "mon-");
+  if (photoFallback) return photoFallback;
+  return {
+    status: "missing",
+    reason: "no file named mon-*.mp4 or mon-*.mov in content/inbox/, and no mon-<slug>-01.jpg-style photo set either. Alex needs to film a clip or upload 2+ B-roll photos for a Ken Burns motion reel.",
+  };
 }
 
 function resolveDogMomentReel(files) {
   const matches = findByPrefix(files, "wed-", VIDEO_EXT);
-  if (matches.length === 0) {
-    return { status: "missing", reason: "no file named wed-*.mp4 or wed-*.mov in content/inbox/. Alex needs to film or supply a raw dog clip." };
+  if (matches.length > 0) {
+    return { status: "ready-needs-hook", rawPath: path.join(INBOX, matches[0]), note: "video found, waiting for one-line text then `overlay wed \"<line>\"`" };
   }
-  return { status: "ready-needs-hook", rawPath: path.join(INBOX, matches[0]), note: "video found, waiting for one-line text then `overlay wed \"<line>\"`" };
+  const photoFallback = resolvePhotoReelFallback(files, "wed-");
+  if (photoFallback) return photoFallback;
+  return {
+    status: "missing",
+    reason: "no file named wed-*.mp4 or wed-*.mov in content/inbox/, and no wed-<slug>-01.jpg-style photo set either. Alex needs to film a clip or upload 2+ B-roll photos for a Ken Burns motion reel.",
+  };
+}
+
+// Builds one vertical reel from a sequence of real stills: each gets a slow
+// Ken Burns zoom (ffmpeg zoompan), then all segments concat into one video.
+// The zoompan "d" option must equal the segment's total frame count, not 1 -
+// with d=1 the filter re-resets its zoom accumulator every output frame on a
+// looped single-image input and nothing visibly moves (verified by actually
+// extracting and comparing first/last frames, not by reading the docs).
+function composePhotoReelSegment(stillPath, outPath, seconds) {
+  const frames = seconds * 30;
+  const vf = `scale=8000:-2,zoompan=z='min(zoom+0.0015,1.15)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=30,format=yuv420p`;
+  execFileSync(
+    "ffmpeg",
+    [
+      "-y",
+      "-framerate", "30", "-loop", "1", "-t", String(seconds), "-i", stillPath,
+      "-f", "lavfi", "-t", String(seconds), "-i", "anullsrc=r=44100:cl=stereo",
+      "-vf", vf,
+      "-t", String(seconds),
+      "-c:v", "libx264", "-c:a", "aac", "-shortest",
+      outPath,
+    ],
+    { stdio: "inherit" }
+  );
+}
+
+function composePhotoReelFromStills(stillPaths, outDir, { secondsPerPhoto = 3 } = {}) {
+  fs.mkdirSync(outDir, { recursive: true });
+  const segmentPaths = stillPaths.map((stillPath, i) => {
+    const segPath = path.join(outDir, `photo-${i + 1}.mp4`);
+    composePhotoReelSegment(stillPath, segPath, secondsPerPhoto);
+    return segPath;
+  });
+  const listPath = path.join(outDir, "concat-list.txt");
+  fs.writeFileSync(listPath, segmentPaths.map((p) => `file '${p}'`).join("\n") + "\n");
+  const outPath = path.join(outDir, "photo-reel.mp4");
+  execFileSync("ffmpeg", ["-y", "-f", "concat", "-safe", "0", "-i", listPath, "-c", "copy", outPath], { stdio: "inherit" });
+  return outPath;
 }
 
 function resolveFunnyStatic(files) {

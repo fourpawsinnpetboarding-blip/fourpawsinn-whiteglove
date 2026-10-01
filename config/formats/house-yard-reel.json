@@ -4,9 +4,10 @@
   "mediaType": "video",
   "durationSecTarget": [15, 25],
   "rawMaterial": "real video clip of the house or yard, from content/inbox/",
+  "rawMaterialFallback": "no video on file? 2+ real B-roll photos named mon-<slug>-01.jpg etc. get assembled into a Ken Burns motion reel instead. See config/formats/photo-reel.json.",
   "textOverlay": "hook on frame one, burned in",
   "music": "fixed approved track list, no per-post decision",
   "cta": false,
   "automatable": "partially",
-  "humanStep": "film or supply the raw clip. Music track selection from the approved list is a one-time setup, not a per-run decision, but the approved track list itself needs Alex to name 2 or 3 tracks once."
+  "humanStep": "film or supply the raw clip, or upload 2+ B-roll photos if no video is on hand. Music track selection from the approved list is a one-time setup, not a per-run decision, but the approved track list itself needs Alex to name 2 or 3 tracks once."
 }

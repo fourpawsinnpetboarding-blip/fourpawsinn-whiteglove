@@ -4,9 +4,9 @@ This is how `scripts/weekly-pipeline.js` finds the right raw file for the right 
 
 | Day | Format | Drop this in content/inbox/ |
 |---|---|---|
-| Mon | House and yard reel | `mon-<anything>.mp4` (or `.mov`) |
+| Mon | House and yard reel | `mon-<anything>.mp4` (or `.mov`). No video on hand? Drop 2+ photos named `mon-<slug>-01.jpg`, `mon-<slug>-02.jpg`, ... (zero-padded, that's the order they'll appear) and the pipeline assembles a Ken Burns motion reel from them instead. |
 | Tue | Pain point carousel | Not a photo. Write the six slide lines in `content/copy/tue-<slug>.md`, one line per slide. |
-| Wed | Dog moment reel | `wed-<anything>.mp4` (or `.mov`) |
+| Wed | Dog moment reel | `wed-<anything>.mp4` (or `.mov`). Same photo fallback as Monday: `wed-<slug>-01.jpg`, `wed-<slug>-02.jpg`, ... |
 | Thu | Funny static | `thu-<anything>.jpg` (or `.jpeg`, `.png`, `.heic`) |
 | Fri | Transformation | Two files, same slug: `fri-<slug>-day1.jpg` and `fri-<slug>-day5.jpg` (images or `.mp4`) |
 | Sat | Case study reel | Not from inbox. Pulled from `content/reviews/google-business-reviews.csv`, needs `permission_signed` true and B-roll in `content/reviews/dogs/<dog-name>/` for that review's dog. |
