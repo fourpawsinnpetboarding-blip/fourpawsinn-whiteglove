@@ -34,6 +34,29 @@
         "sniff walks",
         "pet sitter handover checklist"
       ]
+    },
+    "2026-10-05": {
+      "topics": [
+        "first sleepover is harder on the parent, daily updates",
+        "dog hearing range 45,000 Hz vs 20,000 Hz",
+        "review: mini vacation, home away from home",
+        "zoomies and FRAPs",
+        "pack the lunchbox, pack meals in Ziploc bags",
+        "why a dog's nose is wet",
+        "review wall: why they come back"
+      ],
+      "facts_used": [
+        "AKC: dogs hear up to about 45,000 Hz, people near 20,000 Hz",
+        "AKC: zoomies are FRAPs, normal, often after bath, rest or morning",
+        "AKC: wet nose helps scent stick, glands and licking keep it moist, Jacobson's organ"
+      ],
+      "reviewers_used": [
+        "Megan M.",
+        "Jessica T.",
+        "Marietta M.",
+        "Mariana B.",
+        "Whismick C."
+      ]
     }
   }
 }
