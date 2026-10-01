@@ -36,6 +36,7 @@ const { execFileSync } = require("child_process");
 const { loadSlate, loadFormat, ROOT } = require("./lib/config");
 const { compositeTextSlide, wrapText } = require("./lib/compose");
 const { parseCsv } = require("./lib/csv");
+const { composePhotoReelFromStills } = require("./lib/photo-reel");
 
 const INBOX = path.join(ROOT, "content", "inbox");
 const COPY = path.join(ROOT, "content", "copy");
@@ -129,44 +130,6 @@ function resolveDogMomentReel(files) {
     status: "missing",
     reason: "no file named wed-*.mp4 or wed-*.mov in content/inbox/, and no wed-<slug>-01.jpg-style photo set either. Alex needs to film a clip or upload 2+ B-roll photos for a Ken Burns motion reel.",
   };
-}
-
-// Builds one vertical reel from a sequence of real stills: each gets a slow
-// Ken Burns zoom (ffmpeg zoompan), then all segments concat into one video.
-// The zoompan "d" option must equal the segment's total frame count, not 1 -
-// with d=1 the filter re-resets its zoom accumulator every output frame on a
-// looped single-image input and nothing visibly moves (verified by actually
-// extracting and comparing first/last frames, not by reading the docs).
-function composePhotoReelSegment(stillPath, outPath, seconds) {
-  const frames = seconds * 30;
-  const vf = `scale=8000:-2,zoompan=z='min(zoom+0.0015,1.15)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=30,format=yuv420p`;
-  execFileSync(
-    "ffmpeg",
-    [
-      "-y",
-      "-framerate", "30", "-loop", "1", "-t", String(seconds), "-i", stillPath,
-      "-f", "lavfi", "-t", String(seconds), "-i", "anullsrc=r=44100:cl=stereo",
-      "-vf", vf,
-      "-t", String(seconds),
-      "-c:v", "libx264", "-c:a", "aac", "-shortest",
-      outPath,
-    ],
-    { stdio: "inherit" }
-  );
-}
-
-function composePhotoReelFromStills(stillPaths, outDir, { secondsPerPhoto = 3 } = {}) {
-  fs.mkdirSync(outDir, { recursive: true });
-  const segmentPaths = stillPaths.map((stillPath, i) => {
-    const segPath = path.join(outDir, `photo-${i + 1}.mp4`);
-    composePhotoReelSegment(stillPath, segPath, secondsPerPhoto);
-    return segPath;
-  });
-  const listPath = path.join(outDir, "concat-list.txt");
-  fs.writeFileSync(listPath, segmentPaths.map((p) => `file '${p}'`).join("\n") + "\n");
-  const outPath = path.join(outDir, "photo-reel.mp4");
-  execFileSync("ffmpeg", ["-y", "-f", "concat", "-safe", "0", "-i", listPath, "-c", "copy", outPath], { stdio: "inherit" });
-  return outPath;
 }
 
 function resolveFunnyStatic(files) {
