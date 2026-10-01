@@ -17,7 +17,8 @@ function drawtextArg(text, opts = {}) {
     .map((l) => l.replace(/\\/g, "\\\\").replace(/:/g, "\\:").replace(/'/g, "\u2019").replace(/%/g, "\\%"))
     .join("\n");
   const y = opts.y || "(h-text_h)/2";
-  return `drawtext=text='${escaped}':fontcolor=white:fontsize=${opts.fontSize || 60}:line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:x=(w-text_w)/2:y=${y}`;
+  const enable = opts.enable ? `:enable='${opts.enable}'` : "";
+  return `drawtext=text='${escaped}':fontcolor=white:fontsize=${opts.fontSize || 60}:line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:x=(w-text_w)/2:y=${y}${enable}`;
 }
 
 // One still, one Ken Burns segment. The zoompan "d" option must equal the
