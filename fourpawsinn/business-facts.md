@@ -98,6 +98,7 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 - `FPI 30-Day Lead Conversion`: `5a79c778-715c-439b-8453-5983e7b9105b`
 - `FPI 7-Day Lead Conversion`: `557eb140-f183-4a13-9ad6-98bff8db626f`
 - `FPI Future Travel - ChatGPT Reply Drafts`: `231374de-11c4-473e-9ba1-41abb48c38b7`
+- Meta instant forms: `Fall and Holiday Boarding 2026` (live on ads from Sep 30, 2026). Previous main form: `FB_Leads_May2026-copy-copy` (186 leads). Any workflow trigger filtered by form must include the live form.
 - No other workflow ID is known. Resolve any other ID from GoHighLevel before an operation and never guess.
 - The conversion workflows may send prewritten, approved follow-up messages. They must not contain an AI action that generates or sends customer-facing copy without human approval.
 
