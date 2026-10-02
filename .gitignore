@@ -10,3 +10,4 @@ __pycache__/
 scoreboard-output/
 *.log
 content/morning/*/png/
+content/video/*/out/

@@ -85,7 +85,7 @@ function srt(script) {
       await p.evaluate(() => document.fonts.ready);
       await p.screenshot({ path: path.join(out, `${v.id}-${kind}.png`), omitBackground: transparent });
     }
-    fs.writeFileSync(path.join(out, `${v.id}.srt`), srt(v.script));
+    if (v.script) fs.writeFileSync(path.join(out, `${v.id}.srt`), srt(v.script));
   }
   await b.close();
   console.log(fs.readdirSync(out).join("\n"));

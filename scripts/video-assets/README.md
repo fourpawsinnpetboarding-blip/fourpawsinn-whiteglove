@@ -13,3 +13,12 @@ Graphics and captions for Four Paws Inn vertical videos. Claude builds these so 
 5. Captions are timed to the script, not the recording. Alex nudges them to match the final audio in his editor.
 
 Brand rules: `fourpawsinn/business-facts.md` (Visual identity).
+
+## Multiply a finished video into hook variants
+
+Real footage only. The code adds text hooks and end cards; it never generates dogs, people or the home.
+
+1. Write `content/video/<date>/videos.json` with one entry per text hook (leave `script` empty).
+2. Render the cards: `NODE_PATH=$(npm root -g) node scripts/video-assets/render.js <date>`
+3. Build the videos: `scripts/video-assets/multiply.sh <date> <body.mov> [original-hook.mov]`
+4. Output lands in `content/video/<date>/out/` (gitignored). Upload to Drive READY TO POST, then into Meta as one flexible ad per concept.

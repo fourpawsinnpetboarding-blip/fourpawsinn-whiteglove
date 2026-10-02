@@ -1,0 +1,35 @@
+{
+  "batch": "Concept 3 Multiplier",
+  "videos": [
+    {
+      "id": "c3-h2-big-group",
+      "project": "Concept 3: text hook 2",
+      "hook": "Not every dog belongs in a *big* group.",
+      "script": "",
+      "endTitle": "Send us your *dates.*",
+      "endSub": "Tell us about your dog. Home boarding in Miramar.",
+      "coverTitle": "Not every dog belongs in a *big* group.",
+      "coverKicker": "How we match dogs"
+    },
+    {
+      "id": "c3-h3-shy-or-party",
+      "project": "Concept 3: text hook 3",
+      "hook": "Is your dog shy or a *party* animal?",
+      "script": "",
+      "endTitle": "Send us your *dates.*",
+      "endSub": "Tell us about your dog. Home boarding in Miramar.",
+      "coverTitle": "Is your dog shy or a *party* animal?",
+      "coverKicker": "How we match dogs"
+    },
+    {
+      "id": "c3-h4-playmates",
+      "project": "Concept 3: text hook 4",
+      "hook": "How we pick your dog's *playmates.*",
+      "script": "",
+      "endTitle": "Send us your *dates.*",
+      "endSub": "Tell us about your dog. Home boarding in Miramar.",
+      "coverTitle": "How we pick your dog's *playmates.*",
+      "coverKicker": "How we match dogs"
+    }
+  ]
+}
