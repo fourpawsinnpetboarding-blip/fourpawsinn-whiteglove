@@ -51,3 +51,24 @@ Once real numbers replace the drafts, this tells us exactly how much ad spend an
 1. Monday: Claude pulls ads, content and lead numbers. Codex pulls GHL numbers. Both update this scoreboard.
 2. Each road gets a status: on pace, slow, or stalled.
 3. The slowest road gets one action in Things 3 for the week.
+
+## Data we track (full list)
+
+| # | Metric | Why it matters | Source |
+| --- | --- | --- | --- |
+| 1 | Leads per day, by channel | Top of the funnel | GHL Inbound pipeline |
+| 2 | Qualified vs unqualified, with reason | Lead quality and ad targeting | CallRail tag, GHL |
+| 3 | Booked (deposit paid), days to book | Close rate and sales speed | Deposit file, GHL |
+| 4 | Speed to first contact | Faster replies book more | GHL |
+| 5 | Average booking value (days x daily rate) | Turns bookings into dollars | Deposit file |
+| 6 | Occupancy: dogs per night vs 60 | Where the room to grow is | Booking software |
+| 7 | Repeat rate and visits per client per year | Lifetime value | Booking software |
+| 8 | Cancellations and no shows | Leak after the sale | Booking software |
+| 9 | Ad spend and cost per booking, by channel | What a client costs | Meta and Google via Windsor |
+| 10 | Referrals and new reviews | Free growth | GHL, Google |
+| 11 | Board and Train consults, sales | The $3,000 offer | GHL |
+
+## The math to $100K
+
+Revenue = new clients x average booking value + repeat clients x average booking value + Board and Train sales x $3,000.
+Once items 1 to 7 are real, this tells us exactly how many leads, and how much ad spend, each month needs.
