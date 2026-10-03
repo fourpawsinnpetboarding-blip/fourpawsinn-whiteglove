@@ -25,7 +25,7 @@ Amanda's work per booking: confirm the rate, type the deposit. About 20 seconds.
 
 ## Live now (chosen by Alex, 2026-10-03)
 
-- Google Sheet "Amanda Intake Quick Copy" (id 1ApQlXa0RxKrCvH-uqm_LNH6z58aTGnGDCelAIvsEuFY). One read only formula pulls Owner, Dog, Check In, Check Out, Form Date, Phone from the intake responses (tab NEW ENGLISH FORMS), newest first. Updates by itself on every form submission. Writes nothing anywhere. Amanda copies what she needs into the Daily Tracker by hand.
+- Google Sheet "Amanda Intake Quick Copy" (id 112th-I4KFIJEY5_19H4zAeglMAEI0ZQ5ztHKtk_YPf4). Two read only tabs. "Pending": upcoming or current stays (check in or check out today or later) whose dog first name plus check in date is NOT already in the Daily Tracker Bookings tab, form duplicates removed (latest kept), soonest check in first. "All Forms": every submission. Both pull Owner, Dog, Check In, Check Out, Form Date, Phone from the intake responses (tab NEW ENGLISH FORMS), newest first. Updates by itself on every form submission. Writes nothing anywhere. Amanda copies what she needs into the Daily Tracker by hand.
 - The Apps Script below is NOT installed. Alex chose the read only copy to protect the existing system.
 
 ## Built, not installed
