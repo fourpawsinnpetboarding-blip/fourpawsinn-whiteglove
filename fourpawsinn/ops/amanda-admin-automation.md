@@ -23,7 +23,12 @@ The Bookings tab already has sync columns (Source, GHL Sync Status, GHL Contact 
 
 Amanda's work per booking: confirm the rate, type the deposit. About 20 seconds.
 
-## Built
+## Live now (chosen by Alex, 2026-10-03)
+
+- Google Sheet "Amanda Intake Quick Copy" (id 1ApQlXa0RxKrCvH-uqm_LNH6z58aTGnGDCelAIvsEuFY). One read only formula pulls Owner, Dog, Check In, Check Out, Form Date, Phone from the intake responses (tab NEW ENGLISH FORMS), newest first. Updates by itself on every form submission. Writes nothing anywhere. Amanda copies what she needs into the Daily Tracker by hand.
+- The Apps Script below is NOT installed. Alex chose the read only copy to protect the existing system.
+
+## Built, not installed
 
 - Intake form: Google Form, responses in "Updated Client Intake Form (Responses)" (id 1XcK5fcBq2-jPJSDwbagVDhrpt-nhnsiEDzsYhPB8GBI), tab NEW ENGLISH FORMS. Phone is already captured there.
 - `scripts/apps-script/intake-to-bookings.gs`: on every form submit, adds the Bookings row (dog, dates, phone, owner, email, source, key). `backfillPhones()` fills missing phones on existing rows, dry run first.
