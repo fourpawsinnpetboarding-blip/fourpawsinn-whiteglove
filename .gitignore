@@ -11,3 +11,4 @@ scoreboard-output/
 *.log
 content/morning/*/png/
 content/video/*/out/
+data/

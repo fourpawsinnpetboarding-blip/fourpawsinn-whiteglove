@@ -40,12 +40,19 @@ Opportunity fields: Channel (Google Ads call, Google organic call, Meta form, Me
 | Website and GHL forms | Form Submitted trigger |
 | Text, Instagram, Facebook DMs, email | Customer Replied or Inbound Message trigger, first message only (skip if the contact already has an open opportunity) |
 
-## 4. The two human clicks
+## 4. Human input: one click, one file
 
-1. **After every call:** in CallRail, tag the call Qualified or Not Qualified (with reason). 5 seconds. Amanda or Alex.
-2. **When a deposit is paid:** move the card to Booked in GHL. 5 seconds.
+1. **After every call:** in CallRail, tag it Qualified or Not Qualified (with reason). That is the only click.
+2. **Deposits:** nobody moves cards. Alex drops a deposit export file once a week. Codex reads it and updates GHL (see section 4a).
+   If deposits are ever taken through GHL invoices or payment links, a Payment Received workflow moves the card automatically and the file is no longer needed.
 
-Everything else is automatic.
+### 4a. Deposit file import
+
+- Drop the file in `data/deposits/` on Alex's Mac (gitignored: client data never goes into git), or attach it in the Codex chat.
+- Any CSV or Excel export works. Codex needs at least: client name, phone or email, deposit date, deposit amount. Stay dates help.
+- Codex, for each row: find the contact by phone, then email, then name. Find their open Inbound opportunity. Move it to Booked, set Booked Date and the deposit as the opportunity value. If no opportunity exists, create one in Booked with Channel "Unknown".
+- Codex never sends a message, never changes tags used by the conversion workflows, and never deletes anything.
+- Codex ends with a short report: rows matched and updated, rows created, rows it could not match (name and reason). Alex answers only the unmatched rows.
 
 ## 5. Reporting
 
@@ -70,5 +77,6 @@ Plus: top 3 unqualified reasons, leads still open, and one change for next month
 | --- | --- |
 | Build the Inbound pipeline, fields and workflows in GHL | Codex (it built the existing workflows). Alex approves before publish |
 | CallRail webhooks and the Qualified tag | Alex sets up in CallRail, Codex wires the GHL side |
+| Weekly deposit file import | Alex drops the file, Codex updates GHL |
 | Connect GoHighLevel and CallRail in Windsor | Alex (OAuth, 5 minutes) |
 | Weekly and monthly report | Claude, Codex checks |
