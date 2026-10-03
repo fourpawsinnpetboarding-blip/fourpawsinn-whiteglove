@@ -23,10 +23,11 @@ The Bookings tab already has sync columns (Source, GHL Sync Status, GHL Contact 
 
 Amanda's work per booking: confirm the rate, type the deposit. About 20 seconds.
 
-## Open questions
+## Built
 
-1. Where does the guest intake form live (GHL form, Google Form, Jotform)? Need the link.
-2. Who added the GHL sync columns, and is there an Apps Script already attached (Extensions menu)?
+- Intake form: Google Form, responses in "Updated Client Intake Form (Responses)" (id 1XcK5fcBq2-jPJSDwbagVDhrpt-nhnsiEDzsYhPB8GBI), tab NEW ENGLISH FORMS. Phone is already captured there.
+- `scripts/apps-script/intake-to-bookings.gs`: on every form submit, adds the Bookings row (dog, dates, phone, owner, email, source, key). `backfillPhones()` fills missing phones on existing rows, dry run first.
+- Not yet: Spanish form, Daily Revenue tab expansion, GHL card move on deposit.
 
 ## Data quality notes
 
