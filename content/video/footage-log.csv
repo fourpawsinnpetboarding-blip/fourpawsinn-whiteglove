@@ -1,1 +1,1 @@
-file,date_shot,subjects,shot_type,usable_seconds,times_used,last_used,drive_folder,notes
+clip_id,drive_file_id,file,date_shot,subjects,shot_type,usable_seconds,rights_consent_evidence,times_used,last_used,drive_folder,notes
