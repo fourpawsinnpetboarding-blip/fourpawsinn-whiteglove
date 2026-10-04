@@ -49,6 +49,26 @@ Both post to the Four Paws Inn Eden workspace `1c2438f9-e773-4786-a8cb-121504399
 - Real dogs, people and home only. Higgsfield for hook text frames, thumbnails and motion graphics, never generated dogs, people or rooms.
 - Captions: 3rd grade reading level, no dashes, default CTA, no health or safety guarantees. Read `fourpawsinn/business-facts.md` first.
 
+## Quality check before anything is scheduled (from Codex's plan, adopted 2026-10-04)
+
+- Watch the full master with sound: sharpness, pacing, captions, crop, music rights (licensed or platform library only), every business claim matches `fourpawsinn/business-facts.md`.
+- Never invent a testimonial. Never present generated scenes as real Four Paws care. Flag anything that cannot be verified in the row's Notes and do not schedule it.
+- Finished master + caption go into the row (Status "Edited") before scheduling.
+- Check the live Eden queue again right before scheduling. After scheduling, record the post id and confirm each platform's result before retrying anything.
+- Output folders are separate per agent: `READY TO POST/Claude` and `READY TO POST/Codex`. The original footage library is shared.
+
+## Measuring (weekly)
+
+- Compare reels at the same age (for example 72 hours) and separately for Instagram and Facebook.
+- Rank by retention where available, then shares and saves divided by reach, then identifiable qualified inquiries (DMs or form leads that mention the reel). Likes alone never decide.
+- No winner from tiny samples. Under about 500 reach, call it "not enough data".
+- Write what worked in the row's Notes. Next week's scripts start from those lessons.
+
+## Launch
+
+- Week 1 is a pilot: each agent makes ONE reel, Alex reviews both. The rest of the week follows once the process passes.
+- Codex may call itself Lex. Same agent.
+
 ## Approval
 
 Alex approved the 12 PM reel slot schedule for Claude on 2026-10-04 (video engine plan). Codex follows the same rule for its 4 PM slot. Anything outside these slots is draft only.
