@@ -51,3 +51,28 @@ Phase 2 only after Alex says go: apply the fixes, then mark one test opportunity
 - The workflow log shows success for every Won in the last 7 days.
 - Google Ads shows "Recording conversions" for the booking action (Google-sourced leads only).
 - Claude re-checks Windsor weekly: CRM/offline purchases above 0.
+
+## Update 2026-10-04 evening: Meta only (GHL now connected through Windsor)
+
+Real test case: opportunity `3LtfgZxQCSqwxeUDxrCT`, $360, marked Won Oct 4 4:16 PM ET. Alex confirmed it is a genuine booking. Lead came in Sep 17 from a Facebook lead form.
+
+What the GHL records show for this week's 4 real Won bookings:
+
+1. Contact source is `external_form`, not GHL's native Facebook lead integration. The leads arrive through a pass through form, so **no Facebook lead ID is stored**.
+2. `meta_fbc` (click ID) and `meta_fbp` (browser ID) are empty on all 4. Ad attribution fields are empty on all 4.
+3. Email and phone are present on all 4. That is the only thing Meta can match on today.
+4. Meta Ads (last 90 days, through today): 0 purchases from every source (offline, website, CAPI, omni).
+
+Why Meta shows nothing even if events arrive:
+
+1. **No lead ID.** Meta's Conversion Leads setup (CRM events tied to the instant form lead) needs the Facebook lead ID. Without it, Meta has to guess from email and phone, and match rates on hashed email and phone alone are low.
+2. **Attribution window.** A plain Purchase event is only credited to an ad inside the account window (default 7 day click, 1 day view). The $360 booking took 17 days from lead to Won. Even a perfect event would land in Events Manager but show 0 in Ads Manager. Conversion Leads ties the event to the lead itself, so the long sales cycle still counts.
+
+## Fix, in order (for the contractor)
+
+1. **Prove receipt.** Events Manager, the dataset the GHL workflow sends to, Overview: is there a Purchase (or CRM event) received around Oct 4 4:16 PM ET? If not, the GHL workflow is not sending. Check its execution log for opportunity `3LtfgZxQCSqwxeUDxrCT`.
+2. **Capture the lead ID.** Connect the instant forms through GHL's native Facebook lead integration (or map `leadgen_id` into a GHL custom field in whatever tool passes the form today).
+3. **Send Conversion Leads events.** On Won, send the CRM event to the same dataset with lead ID, email, phone, value, USD, and event time = the real Won time.
+4. **Turn on Conversion Leads** for the dataset in Events Manager (CRM integration), so the funnel stages show and the lead ads can later optimize for booked customers instead of form fills.
+
+Done when: one genuine Won shows in Events Manager within 1 hour with lead ID matched, and the dataset's CRM funnel shows it as converted.
