@@ -13,3 +13,5 @@ Scheduled in Eden at Alex's request, Instagram and Facebook, 12:00 PM ET, Defaul
 
 Source files: `out/concept#-hook#.mp4` (all 30 stitched by `scripts/video-assets/stitch-hooks.sh`).
 Pricing card: C1 and C4 show "One nightly rate", private room $80 and cats $40. Alex approved keeping the card as is on 2026-10-04 for the organic noon reels.
+
+Quality fix, 2026-10-04: Mon to Fri videos were replaced with sharp re-renders made straight from Rachel's originals (CRF 16, 10 to 20 Mbps). The first versions had been shrunk to about 20 MB to fit chat uploads and looked soft once Instagram compressed them again. Sun C2 posted with the soft version. Rule going forward: never shrink a video for upload; Eden takes large files in parts.
