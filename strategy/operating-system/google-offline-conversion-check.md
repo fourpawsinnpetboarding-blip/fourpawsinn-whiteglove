@@ -18,10 +18,28 @@ The sheet has exactly 2 data rows, both tests. Last edit: 2026-10-04 11:05 AM ET
 3. Currency USD and the time zone format are correct on row 2.
 4. Only one tab exists, so Google can only be reading `Conversions`.
 
-## What Claude could not verify (no access)
+## GHL cross check (Windsor GHL connector, location X6z5pwEuIxkAbcCUQ0Nv, same day)
 
-1. **Google Ads 733-336-4600.** Not connected to Windsor (only Meta is). The import result lives in Google Ads under Goals, Conversions, Uploads. Claude cannot see it.
-2. **GHL.** No GHL connection in this session. Claude cannot tell whether a real Won happened since 11:05 AM and failed to write, or no real Won has happened yet.
+Every opportunity in status Won touched in the last 7 days (pipeline `HYmWEgevcbIqhpqoX5xE`). Sheet created 10:27 AM ET, last written 11:05 AM ET.
+
+| Opportunity | Won at (ET) | Value | Source | Recon flag | In sheet | Correct? |
+| --- | --- | --- | --- | --- | --- | --- |
+| CQGpbFm4uqwQ5vpiyErv (test) | Oct 4 10:58 AM, re-won 4:09 PM | 0 | none | 2026-10-04 | once | Yes. Re-win did not add a second row. |
+| 63Tr3rYQrA3SLSM2KeDQ (test) | Oct 4 11:05 AM | 0 | none | none | once | Yes. Pre fix format error. |
+| 3LtfgZxQCSqwxeUDxrCT (real) | Oct 4 4:16 PM | 360 | Facebook Lead Form | 2026-10-04 | no | Yes IF this is a historical correction, not a new booking today. Confirm with Amanda. |
+| Bhz4JD1f9L4Dom93P2XN (real) | Sep 28 | 160 | Facebook Lead Form | none | no | Yes. Won before the sheet existed. |
+| 9NNPEOMZDFBkLGtLSd2F (real) | Sep 30 | **0** | Facebook Lead Form | none | no | Yes, but the Won has no value. |
+| RKBMR5i4oImClFrBUfZa (real) | Aug 21 | 420 | Meta | none | no | Yes. Old booking. |
+
+Findings:
+1. **No genuine new Won has happened since the sheet went live.** So the end to end path is still unproven. Nothing is broken that Claude can see.
+2. **The duplicate and replay guard works.** Two Wons today carried the reconciliation flag and neither wrote a row. No old booking was replayed with today's date.
+3. **All real bookings this week came from Meta lead forms.** None has a GCLID. Google can only credit bookings that started from a Google ad, so Meta leads will not count in Google. Expected, not a bug.
+4. **A real Won was saved with value 0** (Sep 30). If staff mark Won before entering the amount, Google gets 0. Fix in process: enter the booking amount before moving to Won.
+
+## What Claude still cannot verify
+
+1. **Google Ads 733-336-4600 import result.** Not connected to Windsor, and the Uploads screen is not in any API Claude has. Needs a screenshot of Goals, Conversions, Uploads.
 
 ## Risks to fix once a real row lands
 
