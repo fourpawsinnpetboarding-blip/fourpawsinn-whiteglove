@@ -12,4 +12,4 @@ Scheduled in Eden at Alex's request, Instagram and Facebook, 12:00 PM ET, Defaul
 | Fri Oct 9 | C4 Drop off rules | cbcca856-e4cb-4194-ad2a-ae83cb22014b |
 
 Source files: `out/concept#-hook#.mp4` (all 30 stitched by `scripts/video-assets/stitch-hooks.sh`).
-Open issue: C1 and C4 show a pricing card with "One nightly rate", private room $80 and cats $40. business-facts.md says pricing is per day and private suite and cat prices are never quoted. Confirm with Alex before using C1 or C4 in paid ads.
+Pricing card: C1 and C4 show "One nightly rate", private room $80 and cats $40. Alex approved keeping the card as is on 2026-10-04 for the organic noon reels.
