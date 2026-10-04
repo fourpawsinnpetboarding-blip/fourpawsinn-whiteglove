@@ -12,3 +12,4 @@ scoreboard-output/
 content/morning/*/png/
 content/video/*/out/
 data/
+content/video/*.mp4

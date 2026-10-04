@@ -37,7 +37,14 @@ Both post to the Four Paws Inn Eden workspace `1c2438f9-e773-4786-a8cb-121504399
 
 ## Footage library
 
-- Drive folders: `RAW` (new uploads), `LIBRARY` (logged clips), `READY TO POST` (finished reels).
+Tools: `scripts/video-assets/stitch-hooks.sh` (hook + main video) and `scripts/video-engine/text-reel.py` (text on screen reel from b roll clips + brand end card).
+
+
+- Shared Drive library: `Content / FPI-VIdeos` (folder id `1G5rc8X7lnWZNBxTH8RPlNdTq3g7dkySJ`, https://drive.google.com/drive/folders/1G5rc8X7lnWZNBxTH8RPlNdTq3g7dkySJ). Inside it:
+  - `RAW` (`1E0-BKNIw1KzvKg8jnyqiv6dytMLV6Qmc`): new phone uploads, originals only.
+  - `wetransfer_concept1-mov_2026-10-01_2142`: Rachel's concept files. The `*_nomusicnocaptions.MOV` files are clean 4K masters and are the best b roll source.
+  - `READY TO POST - Claude` (`1wAUWuDtkV052JgEu7H4VZ1Ptm08PS6__`) and `READY TO POST - Codex` (`1DXPSDT3VIBQRLACWIQsGk18RZjw1z34Y`): finished masters per agent.
+- The older `Content / Raw Footage` folder is empty. Do not use it.
 - Every clip gets a line in `content/video/footage-log.csv`: file name, date shot, who/what is in it, shot type (talking head, b roll, dog close up, yard, drop off, review card), usable seconds, times used, last used date.
 - Before asking for new footage, search the log. Reuse first.
 - When the log has 150+ usable clips across every pillar, move filming from weekly to monthly.
