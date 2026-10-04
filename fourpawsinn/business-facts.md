@@ -57,7 +57,7 @@ Four Paws Inn charges by day, never by night.
 - Do not use em dashes or stray hyphens in copy the customer will receive.
 - Do not invent pet names, client details, availability, testimonials, performance numbers, or care claims.
 - Default CTA: "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
-- Nothing publishes without Alex's approval. Draft and queue only.
+- Nothing publishes without Alex's approval. Draft and queue only. Exception: Alex's 2026-10-04 instruction authorizes Lex/Codex's own organic video work under the staged rollout, ownership and quality rules in `scripts/video-engine/README.md` without waiting for his approval. This does not expand Claude's authority or apply to unrelated publishing, ads, budgets, workflows or credentials.
 - Never send an email or SMS to a live GoHighLevel contact or list without explicit approval for that exact send.
 - No AI-generated customer-facing SMS may be sent automatically. A human writes or approves the final message.
 
