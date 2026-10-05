@@ -51,33 +51,51 @@ def wrap(draw, text, ft, maxw):
     return lines
 
 
+HANDLE = "@fourpawsinnpetboarding"
+
+
+def paw(d, cx, cy, r, fill):
+    d.ellipse([cx - r, cy - r * 0.55, cx + r, cy + r * 1.05], fill=fill)
+    for dx, dy, k in ((-1.15, -0.75, 0.42), (-0.4, -1.35, 0.42), (0.4, -1.35, 0.42), (1.15, -0.75, 0.42)):
+        x, y, rr = cx + dx * r, cy + dy * r, r * k
+        d.ellipse([x - rr, y - rr * 1.25, x + rr, y + rr * 1.25], fill=fill)
+
+
 def caption_png(text, path):
+    """Lower caption card with pink accent, plus a brand bar with the handle (house style since 2026-10-05)."""
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    ft = font("SourceSerif4-normal", 76, 700)
-    lines = wrap(d, text, ft, W - 200)
-    lh = 96; boxh = lh * len(lines) + 60; top = 300
-    widest = max(d.textlength(l, font=ft) for l in lines)
-    x0 = (W - widest) / 2 - 40
-    d.rounded_rectangle([x0, top, W - x0, top + boxh], 36, fill=CREAM + (238,))
+    ft = font("SourceSerif4-normal", 84, 700)
+    lines = wrap(d, text, ft, W - 260)
+    lh = 104; top = 1160; boxh = 110 + lh * len(lines)
+    d.rounded_rectangle([68, top, W - 68, top + boxh], 28, fill=CREAM + (240,))
+    d.rounded_rectangle([112, top + 26, 212, top + 34], 4, fill=PINK)
     for i, l in enumerate(lines):
-        tw = d.textlength(l, font=ft)
-        d.text(((W - tw) / 2, top + 30 + i * lh), l, font=ft, fill=CHARCOAL)
+        d.text(((W - d.textlength(l, font=ft)) / 2, top + 64 + i * lh), l, font=ft, fill=CHARCOAL)
+    by = max(top + boxh + 94, 1560)
+    d.rounded_rectangle([68, by, W - 68, by + 112], 24, fill=CHARCOAL + (225,))
+    paw(d, 138, by + 58, 13, PINK)
+    d.text((182, by + 14), "Four Paws Inn", font=font("SourceSerif4-normal", 40, 700), fill=(255, 255, 255))
+    d.text((182, by + 64), HANDLE, font=font("DMSans-normal", 30, 500), fill=(235, 235, 235))
     im.save(path)
 
 
 def end_png(lines, path):
+    """End card: paw, brand, headline, sub lines, pink bar, handle, pink corner circles."""
     im = Image.new("RGB", (W, H), CREAM); d = ImageDraw.Draw(im)
-    big = font("SourceSerif4-normal", 104, 700); small = font("DMSans-normal", 64, 600)
-    hl = wrap(d, lines[0], big, W - 160)
-    y = 620
-    for l in hl:
+    d.ellipse([810, -230, 1350, 310], fill=PINK); d.ellipse([-330, 1440, 210, 1980], fill=PINK)
+    paw(d, W / 2, 440, 34, CHARCOAL)
+    brand = font("SourceSerif4-normal", 68, 700)
+    d.text(((W - d.textlength("Four Paws Inn", font=brand)) / 2, 545), "Four Paws Inn", font=brand, fill=CHARCOAL)
+    big = font("SourceSerif4-normal", 92, 700); small = font("DMSans-normal", 58, 500)
+    y = 840
+    for l in wrap(d, lines[0], big, W - 160):
         d.text(((W - d.textlength(l, font=big)) / 2, y), l, font=big, fill=CHARCOAL); y += 112
-    d.rectangle([W / 2 - 70, y + 44, W / 2 + 70, y + 52], fill=PINK); y += 120
+    y += 20
     for l in lines[1:]:
-        d.text(((W - d.textlength(l, font=small)) / 2, y), l, font=small, fill=CHARCOAL); y += 92
-    brand = font("SourceSerif4-normal", 60, 600)
-    t = "Four Paws Inn"
-    d.text(((W - d.textlength(t, font=brand)) / 2, H - 300), t, font=brand, fill=CHARCOAL)
+        d.text(((W - d.textlength(l, font=small)) / 2, y), l, font=small, fill=CHARCOAL); y += 80
+    d.rounded_rectangle([W / 2 - 100, y + 40, W / 2 + 100, y + 48], 4, fill=PINK)
+    hf = font("DMSans-normal", 40, 500)
+    d.text(((W - d.textlength(HANDLE, font=hf)) / 2, 1480), HANDLE, font=hf, fill=CHARCOAL)
     im.save(path)
 
 

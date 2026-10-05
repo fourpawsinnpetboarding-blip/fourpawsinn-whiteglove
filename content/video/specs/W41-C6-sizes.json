@@ -3,16 +3,16 @@
  "hook": "Every dog has their own style",
  "clips": [
   {
-   "src": "LIB-0061",
-   "start": 0.5,
+   "src": "LIB-0051",
+   "start": 1.0,
    "dur": 3.0,
    "text": "Every dog has their own style"
   },
   {
-   "src": "LIB-0051",
-   "start": 1.0,
+   "src": "LIB-0052",
+   "start": 4.0,
    "dur": 3.0,
-   "text": "Some like to explore"
+   "text": "Some sniff everything"
   },
   {
    "src": "LIB-0018",
@@ -22,10 +22,10 @@
    "text": "Some make a best friend"
   },
   {
-   "src": "LIB-0003",
-   "start": 4.0,
-   "dur": 3.5,
-   "text": "Some just want pets"
+   "src": "LIB-0009",
+   "start": 1.5,
+   "dur": 3.0,
+   "text": "Some just want to say hi"
   }
  ],
  "end": {

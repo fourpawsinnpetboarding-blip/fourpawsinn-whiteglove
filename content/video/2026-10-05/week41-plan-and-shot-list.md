@@ -8,13 +8,17 @@ Built by Claude from its own review of all 81 library clips (Drive, FPI-VIdeos, 
 | --- | --- | --- | --- | --- |
 | 1 | W41-C1-dropoff | How it works | What drop off looks like here | Golden at the car, greeting, bag handoff, walk in |
 | 2 | W41-C2-food | Prep and policies | Why we ask you to pack their food | Food in the bowl, golden eating |
-| 3 | W41-C3-greeting | Dog behavior | How we meet a nervous dog | Staff greeting dogs low and slow |
+| 3 | W41-C3-summer | Dog behavior | Hot day in Miramar? | Lab in the kiddie pool, pool deck, backyard play |
 | 4 | W41-C4-cagefree | How it works | What cage free really means | Pool deck pack, Frenchies, kiddie pool, yard |
 | 5 | W41-C5-updates | How it works | You will never wonder how they are doing | Close ups to camera, belly rub |
 | 6 | W41-C6-sizes | Dog behavior | Every dog has their own style | Lab in pool, Doberman, best friends, goldens. Ends on the price card |
 | 7 | W41-C7-cats | How it works | Yes, we board cats too | Gray cat, cat petting, kitten, white cat |
 
 All copy uses facts from `fourpawsinn/business-facts.md` only. No health or safety claims. Silent: add a trending sound in the Instagram app when posting.
+
+## Coordination with Codex (Oct 5)
+
+Codex's pilot `FPI_Lex_Pilot_Attention` (staff greeting dogs, "A little attention looks like this") used LIB-0003, 0011, 0012, 0019, 0022, 0023, 0026. Claude's reels were changed so none of those clips appear in them, and the "nervous dog" reel was dropped because it was the same idea. House style from Codex's pilot adopted in `text-reel.py`: lower caption card with pink accent, brand bar with handle, paw end card.
 
 ## Library review notes
 

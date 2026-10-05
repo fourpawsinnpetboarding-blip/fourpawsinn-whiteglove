@@ -1,0 +1,40 @@
+{
+ "pillar": "Dog behavior",
+ "hook": "Hot day in Miramar?",
+ "audio": "mute",
+ "clips": [
+  {
+   "src": "LIB-0061",
+   "start": 0.5,
+   "dur": 3.0,
+   "text": "Hot day in Miramar?"
+  },
+  {
+   "src": "LIB-0021",
+   "start": 4.0,
+   "dur": 3.0,
+   "cx": 0.5,
+   "text": "Time to cool off"
+  },
+  {
+   "src": "LIB-0061",
+   "start": 16.5,
+   "dur": 3.0,
+   "text": "Splash break"
+  },
+  {
+   "src": "LIB-0014",
+   "start": 12.0,
+   "dur": 3.0,
+   "text": "Then back to playing"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Florida dogs, Florida days",
+   "Miramar and Pembroke Pines",
+   "Send us your dates"
+  ]
+ }
+}
