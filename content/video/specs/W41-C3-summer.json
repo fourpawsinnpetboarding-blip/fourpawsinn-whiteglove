@@ -5,21 +5,20 @@
  "clips": [
   {
    "src": "LIB-0061",
-   "start": 0.5,
+   "start": 16.5,
    "dur": 3.0,
    "text": "Hot day in Miramar?"
   },
   {
-   "src": "LIB-0021",
-   "start": 4.0,
+   "src": "LIB-0062",
+   "start": 11.5,
    "dur": 3.0,
-   "cx": 0.5,
    "text": "Time to cool off"
   },
   {
-   "src": "LIB-0061",
-   "start": 16.5,
-   "dur": 3.0,
+   "src": "LIB-0062",
+   "start": 14.5,
+   "dur": 2.5,
    "text": "Splash break"
   },
   {
