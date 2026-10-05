@@ -15,10 +15,10 @@
    "text": "Some like to explore"
   },
   {
-   "src": "LIB-0013",
-   "start": 22.0,
+   "src": "LIB-0018",
+   "start": 21.0,
    "dur": 3.0,
-   "cx": 0.55,
+   "cx": 0.45,
    "text": "Some make a best friend"
   },
   {
@@ -31,9 +31,9 @@
  "end": {
   "dur": 4.0,
   "lines": [
-   "Under 50 lb: $60 a day",
-   "Over 50 lb: $75 a day",
-   "Send us your dates"
+   "$60 a day",
+   "Under 50 lb",
+   "Over 50 lb: $75 a day"
   ]
  },
  "audio": "mute"

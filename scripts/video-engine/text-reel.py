@@ -45,6 +45,9 @@ def wrap(draw, text, ft, maxw):
         else:
             lines.append(cur); cur = w
     lines.append(cur)
+    # No orphan last word: pull words down until the last line has at least two.
+    while len(lines) > 1 and len(lines[-1].split()) < 2 and len(lines[-2].split()) > 2:
+        a = lines[-2].split(); lines[-2] = " ".join(a[:-1]); lines[-1] = a[-1] + " " + lines[-1]
     return lines
 
 
@@ -78,6 +81,19 @@ def end_png(lines, path):
     im.save(path)
 
 
+# Every part is converted to the same SDR BT.709 color so the concat stays one clean stream.
+# iPhone HDR (HLG or PQ) gets tone mapped; without this it looks washed out and players may stutter at the cut.
+SDR = "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv"
+TAGS = ["-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-color_range", "tv"]
+
+
+def color_chain(src):
+    info = subprocess.run([FF, "-hide_banner", "-i", src], capture_output=True, text=True).stderr
+    if "arib-std-b67" in info or "smpte2084" in info:
+        return "zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p," + SDR
+    return "format=yuv420p," + SDR
+
+
 def main(spec_path, out):
     spec = json.load(open(spec_path)); tmp = tempfile.mkdtemp(); parts = []
     mute = spec.get("audio", "mute") == "mute"
@@ -87,13 +103,13 @@ def main(spec_path, out):
         afilter = ["-f", "lavfi", "-t", str(c["dur"]), "-i", "anullsrc=r=44100:cl=stereo"] if mute else []
         amap = ["-map", "2:a"] if mute else ["-map", "0:a"]
         subprocess.run([FF, "-loglevel", "error", "-y", "-ss", str(c["start"]), "-t", str(c["dur"]), "-i", c["src"], "-i", png, *afilter,
-                        "-filter_complex", f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}:(iw-{W})*{c.get('cx', 0.5)}:(ih-{H})/2,fps=30,format=yuv420p,setsar=1[v];[v][1:v]overlay=0:0[o]",
-                        "-map", "[o]", *amap, "-shortest", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2", part], check=True)
+                        "-filter_complex", f"[0:v]{color_chain(c['src'])},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}:(iw-{W})*{c.get('cx', 0.5)}:(ih-{H})/2,fps=30,setsar=1[v];[v][1:v]overlay=0:0[o]",
+                        "-map", "[o]", *amap, "-shortest", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p", *TAGS, "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2", part], check=True)
         parts.append(part)
     e = spec["end"]; png = os.path.join(tmp, "end.png"); end_png(e["lines"], png)
     part = os.path.join(tmp, "end.mp4")
     subprocess.run([FF, "-loglevel", "error", "-y", "-loop", "1", "-t", str(e["dur"]), "-i", png, "-f", "lavfi", "-t", str(e["dur"]), "-i", "anullsrc=r=44100:cl=stereo",
-                    "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-c:a", "aac", "-b:a", "192k", "-shortest", part], check=True)
+                    "-vf", "fps=30,format=yuv420p," + SDR, "-c:v", "libx264", "-crf", "16", "-preset", "slow", *TAGS, "-c:a", "aac", "-b:a", "192k", "-shortest", part], check=True)
     parts.append(part)
     lst = os.path.join(tmp, "list.txt"); open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
     subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", out], check=True)
