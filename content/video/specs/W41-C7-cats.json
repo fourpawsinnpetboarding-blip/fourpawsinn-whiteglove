@@ -1,0 +1,39 @@
+{
+ "pillar": "How it works",
+ "hook": "Yes, we board cats too",
+ "clips": [
+  {
+   "src": "LIB-0049",
+   "start": 0.5,
+   "dur": 3.0,
+   "text": "Yes, we board cats too"
+  },
+  {
+   "src": "LIB-0011",
+   "start": 3.0,
+   "dur": 3.0,
+   "text": "Pets on their terms"
+  },
+  {
+   "src": "LIB-0058",
+   "start": 1.0,
+   "dur": 3.0,
+   "text": "They go at their own pace"
+  },
+  {
+   "src": "LIB-0050",
+   "start": 6.8,
+   "dur": 2.5,
+   "text": "And get plenty of love"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Cat stays",
+   "Ask us about your cat",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

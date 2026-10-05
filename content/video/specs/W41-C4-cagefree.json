@@ -1,0 +1,40 @@
+{
+ "pillar": "How it works",
+ "hook": "What cage free really means",
+ "clips": [
+  {
+   "src": "LIB-0063",
+   "start": 19.0,
+   "dur": 3.0,
+   "text": "What cage free really means"
+  },
+  {
+   "src": "LIB-0065",
+   "start": 0.0,
+   "dur": 3.0,
+   "text": "No kennel rows"
+  },
+  {
+   "src": "LIB-0062",
+   "start": 11.5,
+   "dur": 3.0,
+   "text": "A real backyard"
+  },
+  {
+   "src": "LIB-0024",
+   "start": 3.0,
+   "dur": 3.5,
+   "cx": 0.45,
+   "text": "And new friends every day"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "A home, not a kennel",
+   "Miramar and Pembroke Pines",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

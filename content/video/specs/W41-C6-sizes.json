@@ -1,0 +1,40 @@
+{
+ "pillar": "Dog behavior",
+ "hook": "Every dog has their own style",
+ "clips": [
+  {
+   "src": "LIB-0061",
+   "start": 0.5,
+   "dur": 3.0,
+   "text": "Every dog has their own style"
+  },
+  {
+   "src": "LIB-0051",
+   "start": 1.0,
+   "dur": 3.0,
+   "text": "Some like to explore"
+  },
+  {
+   "src": "LIB-0013",
+   "start": 22.0,
+   "dur": 3.0,
+   "cx": 0.55,
+   "text": "Some make a best friend"
+  },
+  {
+   "src": "LIB-0003",
+   "start": 4.0,
+   "dur": 3.5,
+   "text": "Some just want pets"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Under 50 lb: $60 a day",
+   "Over 50 lb: $75 a day",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

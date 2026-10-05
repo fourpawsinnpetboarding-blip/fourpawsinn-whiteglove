@@ -1,0 +1,39 @@
+{
+ "pillar": "How it works",
+ "hook": "What drop off looks like here",
+ "clips": [
+  {
+   "src": "LIB-0026",
+   "start": 11.5,
+   "dur": 2.5,
+   "text": "What drop off looks like here"
+  },
+  {
+   "src": "LIB-0027",
+   "start": 3.4,
+   "dur": 2.6,
+   "text": "We say hi to your dog first"
+  },
+  {
+   "src": "LIB-0028",
+   "start": 16.5,
+   "dur": 3.5,
+   "text": "You hand us their bag and food"
+  },
+  {
+   "src": "LIB-0074",
+   "start": 4.4,
+   "dur": 3.2,
+   "text": "Then they walk in like it is home"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Drop off 9 AM to 8 PM",
+   "Seven days a week",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

@@ -1,0 +1,39 @@
+{
+ "pillar": "How it works",
+ "hook": "You will never wonder how they are doing",
+ "clips": [
+  {
+   "src": "LIB-0010",
+   "start": 0.0,
+   "dur": 2.5,
+   "text": "You will never wonder how they are doing"
+  },
+  {
+   "src": "LIB-0055",
+   "start": 1.0,
+   "dur": 2.5,
+   "text": "Photos every day"
+  },
+  {
+   "src": "LIB-0066",
+   "start": 7.5,
+   "dur": 2.5,
+   "text": "Videos every day"
+  },
+  {
+   "src": "LIB-0012",
+   "start": 1.5,
+   "dur": 3.0,
+   "text": "Belly rubs included"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Daily photo and video updates",
+   "Included with every stay",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

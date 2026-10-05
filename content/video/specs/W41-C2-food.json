@@ -1,0 +1,39 @@
+{
+ "pillar": "Prep and policies",
+ "hook": "Why we ask you to pack their food",
+ "clips": [
+  {
+   "src": "LIB-0041",
+   "start": 7.5,
+   "dur": 3.0,
+   "text": "Why we ask you to pack their food"
+  },
+  {
+   "src": "LIB-0042",
+   "start": 10.5,
+   "dur": 3.0,
+   "text": "Same food they eat at home"
+  },
+  {
+   "src": "LIB-0043",
+   "start": 12.5,
+   "dur": 3.5,
+   "text": "Same routine, every meal"
+  },
+  {
+   "src": "LIB-0043",
+   "start": 25.0,
+   "dur": 3.0,
+   "text": "Pack each meal in its own bag"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "You pack the food",
+   "We bring the beds and supplies",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute"
+}

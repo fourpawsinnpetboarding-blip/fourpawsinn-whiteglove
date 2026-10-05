@@ -5,7 +5,8 @@ Usage: FFMPEG=/path/to/ffmpeg python3 scripts/video-engine/text-reel.py spec.jso
 
 spec.json:
 {
-  "clips": [{"src": "path.mov", "start": 9.0, "dur": 2.5, "text": "On screen line"}],
+  "clips": [{"src": "path.mov", "start": 9.0, "dur": 2.5, "text": "On screen line", "cx": 0.5}],
+                             # cx: optional horizontal crop position, 0 = left edge, 0.5 = center, 1 = right edge
   "end": {"dur": 4.0, "lines": ["Big serif headline", "small line", "small line"]},
   "audio": "mute"            # "mute" or "original" (keeps each clip's own sound)
 }
@@ -86,7 +87,7 @@ def main(spec_path, out):
         afilter = ["-f", "lavfi", "-t", str(c["dur"]), "-i", "anullsrc=r=44100:cl=stereo"] if mute else []
         amap = ["-map", "2:a"] if mute else ["-map", "0:a"]
         subprocess.run([FF, "-loglevel", "error", "-y", "-ss", str(c["start"]), "-t", str(c["dur"]), "-i", c["src"], "-i", png, *afilter,
-                        "-filter_complex", f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,format=yuv420p,setsar=1[v];[v][1:v]overlay=0:0[o]",
+                        "-filter_complex", f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}:(iw-{W})*{c.get('cx', 0.5)}:(ih-{H})/2,fps=30,format=yuv420p,setsar=1[v];[v][1:v]overlay=0:0[o]",
                         "-map", "[o]", *amap, "-shortest", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2", part], check=True)
         parts.append(part)
     e = spec["end"]; png = os.path.join(tmp, "end.png"); end_png(e["lines"], png)
