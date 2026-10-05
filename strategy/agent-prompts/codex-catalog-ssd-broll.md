@@ -2,12 +2,19 @@
 
 Why: Claude runs in the cloud and cannot see Alex's external drive. Codex runs on Alex's Mac and can. Codex builds a catalog (one line per clip plus a contact sheet image), so both agents plan reels from the same library, Claude can write a shot list of only what is missing, and only the clips a reel actually uses get uploaded.
 
-Before pasting: replace `<B ROLL FOLDER>` with the folder path. To get it, drag the folder from Finder into Terminal and copy what appears.
+Before pasting: plug in the Extreme SSD. Nothing else to fill in.
 
 ```
 Catalog the b roll on my external drive for the Four Paws Inn video engine. Read scripts/video-engine/README.md in the fourpawsinn-whiteglove repo first.
 
-SOURCE (read only): <B ROLL FOLDER>
+SOURCE (read only): the six green tagged folders inside /Volumes/Extreme SSD/00_VIDEOS
+  Client Moments
+  Facility & Environment
+  Human-Dog Interaction
+  the folder whose name starts with "Pets" (Behavior and Emotion)
+  Services & Upsells
+  Testimonials & Reviews
+Skip every other folder in 00_VIDEOS (AD-001 to AD-003, creative realm, Pricing Graphics, VSL_Summer, wetransfer, Cat Liter).
 Never move, rename, edit, re-encode or delete anything on the SSD.
 
 For every video file (.mov .mp4 .m4v, include subfolders, skip files under 2 seconds):
@@ -19,7 +26,7 @@ For every video file (.mov .mp4 .m4v, include subfolders, skip files under 2 sec
    usable_seconds: seconds that are steady, in focus and well lit.
    rights_consent_evidence: "own staff/home" when only our people, dogs in our care and our property; "CLIENT FACE, needs consent" when a client's face is visible; "agency creator" for Rachel files.
    notes: lighting, vertical or horizontal, anything blurry or shaky.
-4. Add one row per clip to content/video/footage-log.csv. Keep the existing header. clip_id = SSD-0001, SSD-0002 and so on. file = path relative to the source folder. drive_folder = "SSD". drive_file_id blank. times_used 0.
+4. Add one row per clip to content/video/footage-log.csv. Keep the existing header. clip_id = SSD-0001, SSD-0002 and so on. file = path relative to /Volumes/Extreme SSD/00_VIDEOS. drive_folder = "SSD". drive_file_id blank. times_used 0.
 5. Upload every contact sheet JPG to the Google Drive folder "FOOTAGE CATALOG (contact sheets)", folder id 1JR3QuHNQdKr42tlAUuuWmKWwJ036zUph, named <clip_id>.jpg.
 6. Commit footage-log.csv and push to branch claude/tool-identification-nd2ifl. Message: "Footage catalog: SSD b roll, N clips".
 7. Report: total clips, total usable minutes, count per shot_type, and every clip flagged CLIENT FACE.
