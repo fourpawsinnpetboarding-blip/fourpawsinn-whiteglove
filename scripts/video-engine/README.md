@@ -19,14 +19,14 @@ Both post to the Four Paws Inn Eden workspace `1c2438f9-e773-4786-a8cb-121504399
 1. **Eden table "Video Pre-production (Claude + Codex)"**, item id `39fb5997-3885-4fcc-a2b4-1802dfb7b035`. Every reel gets ONE row before it is edited. Columns: Owner, Status (Idea, Scripted, Needs footage, Edited, Scheduled, Posted), Air date, Pillar, Hook, Clips used, Eden post id, Notes.
 2. **Eden scheduler** (`eden_list_scheduled_posts`). Inspect all relevant statuses, including scheduled, posted, pending/processing and partial or failed results where available. Retrieve every page needed to cover the full rolling 8 weeks plus future reservations; a limit of 100 or a single page is not coverage. Reconcile it with the existing table before reserving or scheduling. If the complete 8-week record cannot be verified, stop scheduling the affected reel until coverage is restored. Never create a replacement pre-production table.
 
-## Dedupe rules (check BOTH sources before writing a row)
+## Repeat rules (Alex, 2026-10-06: volume over strict dedupe)
 
-- No two reels within 8 weeks share the same **hook** or the same **core idea**, whoever made them.
-- No two reels within 8 weeks share the same **hero clip** (the main 3 seconds after the hook). B roll may repeat after 4 weeks if the hook and idea are different.
-- Same Google reviewer quoted at most once every 8 weeks across both agents.
+- The only hard rule: never post an **identical** video, and never post the same cut twice. Same hook, idea, clips or reviewer may repeat as long as the finished video is clearly different (different hook text, different clip order or cut, different angle on the idea).
+- Do not post two videos with the same hook on the same day or back to back days.
+- Still record what each video uses (below) so near copies are easy to spot.
 - Record stable source clip IDs (Drive file ID or a persistent inventory ID), hero clip ID, hook/core idea, reviewer ID when applicable, owner, air date and platform post IDs in the private ledger, using the existing table fields/Notes. Filenames alone are not reliable IDs. Include completed, reserved and in-flight work in dedupe checks.
 - Pillar split to keep lanes apart. Claude leads: How it works, Prep and policies, Dog behavior, Founder. Codex leads: Reviews, Day in the life, Parent psychology. Either may cross lanes if the table shows the lane is empty that week.
-- If the other agent already has a row for an idea (any status), do not make it. Pick another.
+- If the other agent already has a row for an idea, make yours a different take on it, never a copy.
 
 ## Weekly cycle
 
