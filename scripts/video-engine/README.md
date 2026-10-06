@@ -52,6 +52,8 @@ Tools: `scripts/video-assets/stitch-hooks.sh` (hook + main video) and `scripts/v
 
 ## Music (Alex, 2026-10-06: match the music to the moment)
 
+Every reel posts with music. No music, no post (Alex, Oct 6).
+
 Source: only tracks cleared for business use on BOTH Instagram and Facebook (Meta Sound Collection, or a paid business license such as Epidemic Sound). Higgsfield cannot make music. Never use popular songs: Meta mutes or blocks them on business pages.
 
 Drive: `FPI-VIdeos / MUSIC (cleared for IG and FB)`, four mood folders. Keep the license source in each file name, for example `upbeat_sunny-day_meta-sound-collection.mp3`.
