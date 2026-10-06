@@ -36,5 +36,7 @@
   ]
  },
  "audio": "mute",
- "music_mood": "4 Calm"
+ "music_mood": "4 Calm",
+ "music": "drive:1ebMgdTEyeTMf4qTOahwGItnxRayixDpk",
+ "music_volume": 0.7
 }

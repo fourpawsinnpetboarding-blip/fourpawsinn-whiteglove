@@ -37,5 +37,7 @@
   ]
  },
  "audio": "mute",
- "music_mood": "1 Upbeat"
+ "music_mood": "1 Upbeat",
+ "music": "drive:1bJFOIhqhgBjpNyDLPEhj8qAvbYMEGla6",
+ "music_volume": 0.7
 }
