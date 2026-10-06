@@ -163,6 +163,7 @@ Hard rules. No exceptions without an explicit override in the session.
 
 1. **Nothing publishes without Alex's approval.** Draft and queue only. Never call a publish tool.
    Standing exception, approved by Alex on 2026-09-28: Claude owns the daily 7:30 AM Four Paws Inn post on Instagram and Facebook and schedules it straight to publish in Eden. Process: `scripts/morning-posts/README.md`. Codex owns 6:30 PM. The exception covers that slot only.
+   Standing exception, approved by Alex on 2026-10-06: Claude owns the daily 12:00 PM Four Paws Inn reel on Instagram and Facebook and schedules it straight to publish in Eden, never at any other time. Every reel must carry licensed music with the required credit and pass the QA in scripts/video-engine/weekly-run.md. Alex reviews after posting and tells Claude what to change. The exception covers the 12:00 PM reel slot only.
 2. **Never touch `.env` contents.** Do not print, log, commit, or paste secrets into chat.
 3. **Never commit to `main` without saying what changed and why first.**
 4. **Never send email or SMS to a live GHL list.** Draft it, show it, stop.

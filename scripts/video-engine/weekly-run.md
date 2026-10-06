@@ -31,7 +31,7 @@ No music, no post (Alex, Oct 6). If the MUSIC folder has no usable track for a r
 
 1. Upload each master to Eden (`eden_prepare_scheduling_media_upload`, then `eden-put.sh` with the signed part URLs, then complete).
 2. Caption: hook, 2 to 3 short lines, default CTA, hashtags, plus the exact music credit from `credits.txt` when the license requires it. 3rd grade reading level, no dashes, no health or safety claims, facts only from business-facts.
-3. Approval gate (CLAUDE.md section 10): if CLAUDE.md has a standing exception for Claude's 12 PM reels, schedule each one at 12:00 PM ET. If not, create each as an Eden **draft** (`draft: true`), send Alex the preview copies (CRF 24) and the list in one message, and schedule them the moment he replies "approved".
+3. Schedule each reel straight to publish at exactly 12:00 PM ET (standing exception in CLAUDE.md section 10). Do not wait for approval.
 4. Add one Eden table row per reel: Owner Claude, Status Scheduled (or Edited for drafts), Air date, Pillar, Clips used, Eden post id, music track.
 
 ## 5. Close out
