@@ -1,0 +1,43 @@
+{
+ "pillar": "Day in the life",
+ "hook": "Sunday here looks like this",
+ "clips": [
+  {
+   "src": "LIB-0063",
+   "start": 9.0,
+   "dur": 2.6,
+   "text": "Sunday here looks like this"
+  },
+  {
+   "src": "LIB-0014",
+   "start": 0.4,
+   "dur": 2.6,
+   "text": "Play time with friends"
+  },
+  {
+   "src": "LIB-0062",
+   "start": 21.0,
+   "dur": 2.6,
+   "text": "Out on the grass"
+  },
+  {
+   "src": "LIB-0063",
+   "start": 22.8,
+   "dur": 1.9,
+   "text": "Room to run"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Planning a trip?",
+   "Miramar and Pembroke Pines",
+   "Send us your dates"
+  ]
+ },
+ "audio": "mute",
+ "music_mood": "1 Upbeat",
+ "music": "drive:1bJFOIhqhgBjpNyDLPEhj8qAvbYMEGla6",
+ "music_start": 30,
+ "music_volume": 0.7
+}

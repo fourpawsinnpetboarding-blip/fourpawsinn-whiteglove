@@ -62,3 +62,12 @@ With these 10, the library covers every pillar for about 8 weeks without repeati
 | Sun Oct 18 | Why we ask you to pack their food | 4afcdbf0-5c7a-48d6-be79-3119548617a6 |
 
 Alex relaxed the repeat rule on Oct 6: volume first, only identical videos are banned. See `scripts/video-engine/README.md`.
+
+## Gap fill (Oct 6)
+
+Rachel's reels cover noon Oct 6 to 9 and Claude's week starts Oct 12, so noon on Oct 10 and Oct 11 was empty. Two extra reels:
+
+| Date | Reel | Music | Eden post id |
+| --- | --- | --- | --- |
+| Sat Oct 10 | Meet us before you book (Tuesday meet and greets) | Wholesome | b6ba9f2a-f955-4e22-bcc0-c76a854b925d |
+| Sun Oct 11 | Sunday here looks like this | Fluffing a Duck | uploaded, not scheduled (session permission check blocked it) |

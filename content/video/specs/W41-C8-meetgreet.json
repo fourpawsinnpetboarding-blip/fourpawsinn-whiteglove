@@ -1,0 +1,15 @@
+{
+ "pillar": "How it works",
+ "hook": "Meet us before you book",
+ "clips": [
+  {"src": "LIB-0032", "start": 4.5, "dur": 3.0, "text": "Meet us before you book"},
+  {"src": "LIB-0031", "start": 0.3, "dur": 2.5, "text": "Come see the home"},
+  {"src": "LIB-0033", "start": 9.5, "dur": 3.0, "text": "Your dog meets us too"},
+  {"src": "LIB-0005", "start": 0.3, "dur": 2.5, "text": "And sees the yard"}
+ ],
+ "end": {"dur": 4.0, "lines": ["Meet and greets every Tuesday", "9 AM to 1:30 PM", "6:30 PM to 8 PM"]},
+ "audio": "mute",
+ "music_mood": "3 Light",
+ "music": "drive:1Freu8T_0jYIBsmtFvIpuIZUUF--W7ZXC",
+ "music_volume": 0.7
+}
