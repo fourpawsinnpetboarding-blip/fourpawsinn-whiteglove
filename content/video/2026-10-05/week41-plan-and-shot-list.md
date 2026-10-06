@@ -46,3 +46,19 @@ Each one is missing from the library. Phone vertical, 4K, 10 to 20 seconds, stea
 10. **Close ups**: tails wagging, paws on grass, a dog running straight at the camera.
 
 With these 10, the library covers every pillar for about 8 weeks without repeating a hero clip.
+
+## Scheduled (Oct 6, approved by Alex)
+
+12:00 PM ET, Instagram + Facebook, Four Paws Inn Eden workspace. Full quality masters, house style, silent.
+
+| Date | Reel | Eden post id |
+| --- | --- | --- |
+| Mon Oct 12 | What drop off looks like here | 8391c1f0-5555-40ce-a814-b569443f07f7 |
+| Tue Oct 13 | What cage free really means | 7af0c70c-ec15-4975-8d8c-511b645a32e8 |
+| Wed Oct 14 | You will never wonder how they are doing | b24b8881-c859-46d4-bbf5-2384c43f1878 |
+| Thu Oct 15 | Hot day in Miramar? | 95f2bbf2-95b8-4e39-8093-480b14a6e688 |
+| Fri Oct 16 | Every dog has their own style (price card) | 57bf8b55-cfb4-4d17-b702-fb1a76dcaf05 |
+| Sat Oct 17 | Yes, we board cats too | d1e56526-31f5-4b48-bd62-cba84ca06b8a |
+| Held | Why we ask you to pack their food | Same idea as Rachel's How to Pack reel (Oct 6) and the lunchbox static (Oct 8). Earliest under the 8 week rule: Dec 4 |
+
+Sunday Oct 18 noon is open.
