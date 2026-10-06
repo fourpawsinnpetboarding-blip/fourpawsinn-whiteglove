@@ -86,3 +86,7 @@ From Alex: decide the approval question (section 6, item 3); film the shot list 
 | 6:30 PM | Reel | Codex (moved from 4:00 PM) |
 
 Still 14 reels a week. Codex moves its already scheduled 4 PM reels to 6:30 PM and its 6:30 PM statics to 4 PM, and updates its Friday automation.
+
+## Alex decision, 2026-10-06: grid style A (checkerboard)
+
+Keep the fixed order static 7:30 AM, reel 12 PM, static 4 PM, reel 6:30 PM so the Instagram grid alternates. No posts outside the four slots. Reels open on the branded caption card so thumbnails match; statics use the same colors and fonts. See "Instagram grid look" in scripts/video-engine/README.md.

@@ -67,6 +67,13 @@ Drive: `FPI-VIdeos / MUSIC (cleared for IG and FB)`, four mood folders. Keep the
 
 How: set `"music"`, `"music_start"` and `"music_volume"` (0.6 to 0.8) in the reel spec; `text-reel.py` trims, fades and mixes it. Rotate tracks so the same song does not run on back to back days.
 
+## Instagram grid look (Alex, Oct 6: checkerboard)
+
+- Daily order is fixed: 7:30 AM static or carousel (Claude), 12:00 PM reel (Claude), 4:00 PM static or carousel (Codex), 6:30 PM reel (Codex). This alternates static and reel, so the grid reads as a clean checkerboard.
+- Never post an extra reel or static outside these slots: one off posts break the pattern.
+- Every reel opens on the branded caption card (cream card, pink accent, charcoal serif), so its grid thumbnail matches the statics. Every static uses the same cream `#FAF7F3`, pink `#E6A0A3`, charcoal `#353532` and the same fonts.
+- Statics lean on proof (real reviews, real photos, features). Data, Oct 6: real footage reels reach 200 to 400, statics 35 to 110, generated tip graphics are the weakest.
+
 ## Quality rules (non negotiable)
 
 - Render from the ORIGINAL files. `scripts/video-assets/stitch-hooks.sh` defaults to CRF 16. Never shrink a video to fit an upload; Eden takes large files in parts.
