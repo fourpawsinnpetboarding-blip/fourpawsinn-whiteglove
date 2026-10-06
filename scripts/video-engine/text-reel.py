@@ -143,7 +143,7 @@ def main(spec_path, out):
         dur = sum(c["dur"] for c in spec["clips"]) + e["dur"]
         start = spec.get("music_start", 0); vol = spec.get("music_volume", 0.7)
         subprocess.run([FF, "-loglevel", "error", "-y", "-i", silent, "-ss", str(start), "-i", music,
-                        "-filter_complex", f"[1:a]atrim=0:{dur},asetpts=N/SR/TB,afade=t=in:d=0.4,afade=t=out:st={dur - 1.5}:d=1.5,volume={vol},aresample=44100[m]",
+                        "-filter_complex", f"[1:a]atrim=0:{dur},asetpts=N/SR/TB,afade=t=in:d=0.4,afade=t=out:st={dur - 1.5}:d=1.5,volume={vol},loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[m]",
                         "-map", "0:v", "-map", "[m]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-shortest", "-movflags", "+faststart", out], check=True)
     print("done:", out)
 

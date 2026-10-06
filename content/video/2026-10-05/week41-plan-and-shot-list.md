@@ -14,7 +14,7 @@ Built by Claude from its own review of all 81 library clips (Drive, FPI-VIdeos, 
 | 6 | W41-C6-sizes | Dog behavior | Every dog has their own style | Lab in pool, Doberman, best friends, goldens. Ends on the price card |
 | 7 | W41-C7-cats | How it works | Yes, we board cats too | Gray cat, cat petting, kitten, white cat |
 
-All copy uses facts from `fourpawsinn/business-facts.md` only. No health or safety claims. Silent: add a trending sound in the Instagram app when posting.
+All copy uses facts from `fourpawsinn/business-facts.md` only. No health or safety claims. Every reel carries mood matched licensed music (see Scheduled).
 
 ## Coordination with Codex (Oct 5)
 
@@ -49,7 +49,7 @@ With these 10, the library covers every pillar for about 8 weeks without repeati
 
 ## Scheduled (Oct 6, approved by Alex)
 
-12:00 PM ET, Instagram + Facebook, Four Paws Inn Eden workspace. Full quality masters, house style, silent.
+12:00 PM ET, Instagram + Facebook, Four Paws Inn Eden workspace. Full quality masters, house style. Music added Oct 6 night (Kevin MacLeod, CC BY 4.0, credit in each caption, loudness normalized to -16 LUFS): drop off Life of Riley, cage free Carefree, updates Feelin Good, hot day Wallpaper, every dog Fluffing a Duck, cats Dreamer, food Easy Lemon.
 
 | Date | Reel | Eden post id |
 | --- | --- | --- |
