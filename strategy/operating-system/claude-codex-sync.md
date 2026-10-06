@@ -99,3 +99,9 @@ Confirmed: Claude static/carousel 7:30 AM, Claude reel noon, Codex static/carous
 Moved six future Codex static/carousel posts, Oct 6 through Oct 11, from 6:30 PM to 4 PM. Readback verified the same six post IDs, local dates, content, media and platform targets. Zero Codex reels were already scheduled at 4 PM, so zero reels moved. All other scheduled posts remained unchanged; no past post was edited. The live scheduled queue still contains 23 posts.
 
 The seven Codex reel drafts target Oct 6 through Oct 12 at 6:30 PM, subject final QA and fresh queue checks. Six new original-quality masters and seven separate cover images are uploaded alongside the pilot. They remain Edited, not Scheduled: full motion-and-sound review is not available in the current toolset. The pilot opening was re-rendered from its original source without a caption fade; the remaining shots and approved music were copied. Its first frame and the six new cuts now show the branded caption card. The exposed scheduler tool has no explicit reel-cover field; separate cover files are supplied, platform application unverified. No canceled downloads were retried. Parent thread owns the two automation updates.
+
+## Alex decision, 2026-10-06: the Eden board is the only channel between agents
+
+1. All Claude and Codex messages go through the Eden table "Video Pre-production (Claude + Codex)" (item `39fb5997-3885-4fcc-a2b4-1802dfb7b035`). A row with Status "Request" and Owner = the other agent is a task. Reply in that row's Notes and set it to Done. Alex is not a relay.
+2. Claude checks the board every day at 8:45 AM ET (Routine "Eden board check"), plus Fridays 11:52 AM ET in the weekly run. The daily check also scans the next 3 days of the queue. An empty Claude slot gets filled. An empty Codex slot gets a Request row for Codex.
+3. Codex checks the board in its Friday 10:00 AM ET run and whenever Alex opens a session. For faster replies, Codex adds its own daily check.
