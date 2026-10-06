@@ -50,6 +50,21 @@ Tools: `scripts/video-assets/stitch-hooks.sh` (hook + main video) and `scripts/v
 - Before asking for new footage, search the log. Reuse first.
 - When the log has 150+ usable clips across every pillar, move filming from weekly to monthly.
 
+## Music (Alex, 2026-10-06: match the music to the moment)
+
+Source: only tracks cleared for business use on BOTH Instagram and Facebook (Meta Sound Collection, or a paid business license such as Epidemic Sound). Higgsfield cannot make music. Never use popular songs: Meta mutes or blocks them on business pages.
+
+Drive: `FPI-VIdeos / MUSIC (cleared for IG and FB)`, four mood folders. Keep the license source in each file name, for example `upbeat_sunny-day_meta-sound-collection.mp3`.
+
+| Mood folder | Use for | Feel |
+| --- | --- | --- |
+| 1 Upbeat | Dogs running, playing, pool, zoomies | Happy, high energy, bouncy |
+| 2 Warm | Greetings, drop off, pick up, daily updates, reunions | Feel good acoustic, mid tempo |
+| 3 Light | How to, policies, packing, prices | Light, steady, does not compete with the words |
+| 4 Calm | Night, sleeping, cats, quiet indoor | Soft piano or ambient, slow |
+
+How: set `"music"`, `"music_start"` and `"music_volume"` (0.6 to 0.8) in the reel spec; `text-reel.py` trims, fades and mixes it. Rotate tracks so the same song does not run on back to back days.
+
 ## Quality rules (non negotiable)
 
 - Render from the ORIGINAL files. `scripts/video-assets/stitch-hooks.sh` defaults to CRF 16. Never shrink a video to fit an upload; Eden takes large files in parts.

@@ -8,7 +8,10 @@ spec.json:
   "clips": [{"src": "path.mov", "start": 9.0, "dur": 2.5, "text": "On screen line", "cx": 0.5}],
                              # cx: optional horizontal crop position, 0 = left edge, 0.5 = center, 1 = right edge
   "end": {"dur": 4.0, "lines": ["Big serif headline", "small line", "small line"]},
-  "audio": "mute"            # "mute" or "original" (keeps each clip's own sound)
+  "audio": "mute",           # "mute" or "original" (keeps each clip's own sound)
+  "music": "track.mp3",      # optional: licensed background track (MUSIC folder in Drive), mixed under the whole reel
+  "music_start": 0,          # optional: seconds into the track to start
+  "music_volume": 0.7        # optional: bed level
 }
 Output: 1080x1920, 30fps, H.264 CRF 16 (full quality, never shrunk).
 Needs Pillow and fontTools (brand fonts are converted from scripts/morning-posts/fonts).
@@ -130,7 +133,18 @@ def main(spec_path, out):
                     "-vf", "fps=30,format=yuv420p," + SDR, "-c:v", "libx264", "-crf", "16", "-preset", "slow", *TAGS, "-c:a", "aac", "-b:a", "192k", "-shortest", part], check=True)
     parts.append(part)
     lst = os.path.join(tmp, "list.txt"); open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
-    subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", out], check=True)
+    music = spec.get("music")
+    if not music:
+        subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", out], check=True)
+    else:
+        # Background music: video copied untouched, track trimmed to length, faded in and out, set to a soft bed level.
+        silent = os.path.join(tmp, "silent.mp4")
+        subprocess.run([FF, "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
+        dur = sum(c["dur"] for c in spec["clips"]) + e["dur"]
+        start = spec.get("music_start", 0); vol = spec.get("music_volume", 0.7)
+        subprocess.run([FF, "-loglevel", "error", "-y", "-i", silent, "-ss", str(start), "-i", music,
+                        "-filter_complex", f"[1:a]atrim=0:{dur},asetpts=N/SR/TB,afade=t=in:d=0.4,afade=t=out:st={dur - 1.5}:d=1.5,volume={vol},aresample=44100[m]",
+                        "-map", "0:v", "-map", "[m]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-shortest", "-movflags", "+faststart", out], check=True)
     print("done:", out)
 
 
