@@ -9,7 +9,7 @@ These are standing orders. Save them as a weekly automation that runs every Frid
 
 3. Drive sharing. Every folder Claude reads must be shared as Anyone with the link, Viewer: RAW, the six library folders, MUSIC, READY TO POST - Codex. If Alex uploads a new footage folder, share it the same way.
 
-4. Your own reels. Make your 7 reels for the 4 PM slot as the README says. Schedule them after Claude's (Claude owns 12 PM). Log each in the Eden table with Owner Codex and the clip ids from Drive FPI-VIdeos / fpi-footage-index.csv. Never post an identical video to one already in the queue.
+4. Your own reels. Make your 7 reels for the 6:30 PM slot and your statics or carousels for the 4:00 PM slot (Claude owns 7:30 AM static and 12 PM reel). Log each in the Eden table with Owner Codex and the clip ids from Drive FPI-VIdeos / fpi-footage-index.csv. Never post an identical video to one already in the queue.
 
 5. Never ask Alex to do something you can do. If you are blocked, add a row with Status "Request" and Owner "Claude", or tell Alex in one line exactly what is blocked.
 ```

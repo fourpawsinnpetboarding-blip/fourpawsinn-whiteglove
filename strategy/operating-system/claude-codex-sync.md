@@ -75,3 +75,14 @@ From Alex: decide the approval question (section 6, item 3); film the shot list 
 1. **Option B: two reels a day, 14 a week.** Claude posts at 12:00 PM ET, Codex posts at 4:00 PM ET, every day. Neither agent posts reels at any other time. Codex's batch goes in the 4 PM slot, not after Claude's noon queue.
 2. **Reuse what works (confirmed by Alex directly):** only identical videos are banned. Hooks, ideas and clips may repeat in new cuts.
 3. **People on camera:** the people shown are employees with signed waivers. Kids stay out unless Alex OKs a specific clip.
+
+## Alex decision, 2026-10-06 later: daily order static, reel, static, reel
+
+| Time ET | Post | Owner |
+| --- | --- | --- |
+| 7:30 AM | Static or carousel | Claude |
+| 12:00 PM | Reel | Claude |
+| 4:00 PM | Static or carousel | Codex (moved from 6:30 PM) |
+| 6:30 PM | Reel | Codex (moved from 4:00 PM) |
+
+Still 14 reels a week. Codex moves its already scheduled 4 PM reels to 6:30 PM and its 6:30 PM statics to 4 PM, and updates its Friday automation.

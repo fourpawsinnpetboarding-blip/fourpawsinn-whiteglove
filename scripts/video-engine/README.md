@@ -8,7 +8,7 @@ Two agents, one footage library, one shared pre-production table, zero duplicate
 | --- | --- | --- |
 | Week 1 | 2 pilot reels, one each | Assign each pilot's air date/time in its own row in the existing table before scheduling; Week 1 timing is not specified by this rollout. |
 | Weeks 2 and 3 | 7 per week combined | Split the seven days between Claude and Codex in the existing table; every reel is at 12:00 PM. |
-| Week 4 onward | 14 per week, 7 each | Claude at 12:00 PM daily; Codex at 4:00 PM daily. |
+| Week 4 onward | 14 per week, 7 each | Claude reel at 12:00 PM daily; Codex reel at 6:30 PM daily (Alex, Oct 6: daily order is static 7:30 AM, reel 12 PM, static 4 PM, reel 6:30 PM). |
 
 The weekly cycle below uses each agent's allocation for the current stage, never an automatic 7 each before Week 4. Validate the pilot process before ramping; technical or quality failures block affected reels. Each agent schedules and edits only its own rows and posts. Codex must never schedule or edit Claude's rows or posts, including to resolve a collision. Read the other agent's work for coordination and choose a different unreserved slot or idea for your own work. Existing static slots remain Claude 7:30 AM and Codex 6:30 PM.
 
@@ -87,7 +87,7 @@ How: set `"music"`, `"music_start"` and `"music_volume"` (0.6 to 0.8) in the ree
 - Compare reels at the same age (for example 72 hours) and separately for Instagram and Facebook.
 - Rank by retention where available, then shares and saves divided by reach, then identifiable qualified inquiries (DMs or form leads that mention the reel). Likes alone never decide.
 - No winner from tiny samples. Under about 500 reach, call it "not enough data"; reaching 500 is a practical screening floor, not statistical confidence.
-- Treat rankings as directional: noon versus 4 PM, different pillars, topics and audiences confound agent comparisons. Compare same-age, same-platform and comparable-content cohorts where possible; never claim an agent won or a slot caused the result from this rollout alone.
+- Treat rankings as directional: noon versus 6:30 PM, different pillars, topics and audiences confound agent comparisons. Compare same-age, same-platform and comparable-content cohorts where possible; never claim an agent won or a slot caused the result from this rollout alone.
 - Keep real metrics, attribution and inquiry details in the private existing table/ledger, not this public repository. Write what worked in the row's Notes. Next week's scripts start from those lessons.
 
 ## Launch
