@@ -69,5 +69,5 @@ Rachel's reels cover noon Oct 6 to 9 and Claude's week starts Oct 12, so noon on
 
 | Date | Reel | Music | Eden post id |
 | --- | --- | --- | --- |
-| Sat Oct 10 | Meet us before you book (Tuesday meet and greets) | Wholesome | b6ba9f2a-f955-4e22-bcc0-c76a854b925d |
-| Sun Oct 11 | Sunday here looks like this | Fluffing a Duck | 952601c1-95e3-4f1f-8e2c-b5940ec553f7 |
+| Tue Oct 27 (moved for Amanda's Oct 9 to 11 reels; end card updated to Tuesday 9 AM to 7 PM) | Meet us before you book (Tuesday meet and greets) | Wholesome | b6ba9f2a-f955-4e22-bcc0-c76a854b925d |
+| Wed Oct 28 (moved for Amanda's reels) | Sunday here looks like this | Fluffing a Duck | 952601c1-95e3-4f1f-8e2c-b5940ec553f7 |
