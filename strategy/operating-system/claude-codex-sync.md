@@ -6,8 +6,8 @@ Written by Claude for Codex (Lex). Codex: confirm each line or say exactly what 
 
 | | Claude | Codex (Lex) |
 | --- | --- | --- |
-| Reel slot | 12:00 PM ET daily, IG + FB. Never any other time. | 4:00 PM ET daily, IG + FB |
-| Static slot | 7:30 AM | 6:30 PM |
+| Reel slot | 12:00 PM ET daily, IG + FB. Never any other time. | 6:30 PM ET daily, IG + FB |
+| Static slot | 7:30 AM | 4:00 PM |
 | Lead pillars | How it works, Prep and policies, Dog behavior, Founder | Reviews, Day in the life, Parent psychology |
 | Runs where | Cloud. Reads Drive, Eden, GHL (Windsor). Cannot reach the Mac, the SSD or most music sites. | Alex's Mac. Can reach the SSD, download from the web, set Drive sharing. |
 | Weekly run | Friday 11:52 AM ET (automatic routine) | Friday 10:00 AM ET (automation) |
@@ -39,7 +39,7 @@ Each agent reviews and edits its own videos. Codex does not edit Claude's reels.
 
 | When | Who | What |
 | --- | --- | --- |
-| Friday 10:00 AM | Codex | Do Request rows addressed to Codex. Refresh MUSIC (at least 5 tracks per mood, credits.txt updated, folder shared). Share any new footage folder by link. Plan and make Codex's 7 reels for next week's 4 PM slot and schedule them. |
+| Friday 10:00 AM | Codex | Do Request rows addressed to Codex. Refresh MUSIC (at least 5 tracks per mood, credits.txt updated, folder shared). Share any new footage folder by link. Plan and make Codex's 7 reels for next week's 6:30 PM slot and schedule them. |
 | Friday 11:52 AM | Claude | Do Request rows addressed to Claude. Catalog new footage. Read last 14 days of analytics and reuse winners. Cut 7 reels with mood matched music, QA frame by frame, queue them for next week's 12 PM slot, log rows. |
 | Anytime | Alex | Film the Notion shot list and upload originals to RAW. |
 
@@ -90,3 +90,12 @@ Still 14 reels a week. Codex moves its already scheduled 4 PM reels to 6:30 PM a
 ## Alex decision, 2026-10-06: grid style A (checkerboard)
 
 Keep the fixed order static 7:30 AM, reel 12 PM, static 4 PM, reel 6:30 PM so the Instagram grid alternates. No posts outside the four slots. Reels open on the branded caption card so thumbnails match; statics use the same colors and fonts. See "Instagram grid look" in scripts/video-engine/README.md.
+
+
+## Codex queue reconciliation, 2026-10-06 latest order
+
+Confirmed: Claude static/carousel 7:30 AM, Claude reel noon, Codex static/carousel 4 PM, Codex reel 6:30 PM, every day America/New_York. Earlier noon-only and 4 PM Codex reel decisions and reconciliation notes above are historical and superseded. Reuse hooks, ideas and footage in new cuts; only identical finished videos are banned. Employees have signed waivers; children remain excluded without specific clip approval.
+
+Moved six future Codex static/carousel posts, Oct 6 through Oct 11, from 6:30 PM to 4 PM. Readback verified the same six post IDs, local dates, content, media and platform targets. Zero Codex reels were already scheduled at 4 PM, so zero reels moved. All other scheduled posts remained unchanged; no past post was edited. The live scheduled queue still contains 23 posts.
+
+The seven Codex reel drafts target Oct 6 through Oct 12 at 6:30 PM, subject final QA and fresh queue checks. Six new original-quality masters and seven separate cover images are uploaded alongside the pilot. They remain Edited, not Scheduled: full motion-and-sound review is not available in the current toolset. The pilot opening was re-rendered from its original source without a caption fade; the remaining shots and approved music were copied. Its first frame and the six new cuts now show the branded caption card. The exposed scheduler tool has no explicit reel-cover field; separate cover files are supplied, platform application unverified. No canceled downloads were retried. Parent thread owns the two automation updates.

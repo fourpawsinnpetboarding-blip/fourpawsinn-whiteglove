@@ -1,16 +1,19 @@
-# Video engine (staged rollout, Claude + Codex)
+# Video engine (daily fixed slots, Claude + Codex)
 
-Two agents, one footage library, one shared pre-production table, zero duplicates. Start with the pilot and ramp by program week below; 7 reels per agent is the Week 4 onward target, not the launch volume. Shared quality and dedupe rules apply to both. This file is the source of truth; Codex reads it too.
+Two agents, one footage library and one shared pre-production table. Alex authorized seven reels per agent per week at the fixed slots below. No identical finished videos; quality and ownership rules apply to both.
 
-## Rollout and slots (America/New_York)
+## Current volume and slots (America/New_York)
 
-| Program week | Total reels | Owner and reel slot |
+Alex's latest Oct 6 decision supersedes the staged launch: 14 reels per week, seven per agent, every day.
+
+| Time | Format | Owner |
 | --- | --- | --- |
-| Week 1 | 2 pilot reels, one each | Assign each pilot's air date/time in its own row in the existing table before scheduling; Week 1 timing is not specified by this rollout. |
-| Weeks 2 and 3 | 7 per week combined | Split the seven days between Claude and Codex in the existing table; every reel is at 12:00 PM. |
-| Week 4 onward | 14 per week, 7 each | Claude reel at 12:00 PM daily; Codex reel at 6:30 PM daily (Alex, Oct 6: daily order is static 7:30 AM, reel 12 PM, static 4 PM, reel 6:30 PM). |
+| 7:30 AM | Static or carousel | Claude |
+| 12:00 PM | Reel | Claude |
+| 4:00 PM | Static or carousel | Codex |
+| 6:30 PM | Reel | Codex |
 
-The weekly cycle below uses each agent's allocation for the current stage, never an automatic 7 each before Week 4. Validate the pilot process before ramping; technical or quality failures block affected reels. Each agent schedules and edits only its own rows and posts. Codex must never schedule or edit Claude's rows or posts, including to resolve a collision. Read the other agent's work for coordination and choose a different unreserved slot or idea for your own work. Existing static slots remain Claude 7:30 AM and Codex 6:30 PM.
+Never post outside these slots. Each agent edits and schedules only its own work. Preserve other owners' rows and posts; quality failures block affected reels. Only identical finished videos are banned; reuse hooks, ideas and clips in new cuts.
 
 Both post to the Four Paws Inn Eden workspace `1c2438f9-e773-4786-a8cb-121504399872`, schedule `6a07d7c7-8da0-4018-9b7f-6db1e423f3cd`, Instagram + Facebook.
 
@@ -32,11 +35,11 @@ Both post to the Four Paws Inn Eden workspace `1c2438f9-e773-4786-a8cb-121504399
 
 | Day | Who | Step |
 | --- | --- | --- |
-| Friday | Both | Read the table + Eden queue. Add only the current stage's allocated rows at Status "Scripted": hook, 30 second script, shot list. Rows with no usable library footage go to "Needs footage". |
+| Friday | Both | Read the table + Eden queue. Add seven own rows at Status "Scripted": hook, 30 second script, shot list. Rows with no usable library footage go to "Needs footage". |
 | Saturday | Alex | One combined shot list (all "Needs footage" rows) goes to whoever films. |
 | Sunday | Amanda or staff | Film the shot list. Upload ORIGINAL files to Drive RAW via the Drive app. Never text, AirDrop compressed, or WhatsApp. |
 | Sunday night | Both | Log new clips in the footage library (below). Edit only own allocated reels. Status "Edited". |
-| Monday | Both | Schedule only own allocated reels in the current stage's own reserved slots. Write the Eden post id into the row. Status "Scheduled". |
+| Monday | Both | Schedule only own quality-cleared reels in the fixed reserved slots. Write the Eden post id into the row. Status "Scheduled". |
 | Next Monday | Both | Pull analytics. Mark "Posted". Note watch time and leads in Notes. Record promising candidates; this organic-video program does not authorize ad tests, ad changes or spend. |
 
 ## Footage library
@@ -99,10 +102,10 @@ How: set `"music"`, `"music_start"` and `"music_volume"` (0.6 to 0.8) in the ree
 
 ## Launch
 
-- Week 1 remains ONE pilot reel per agent; do not fill the rest of that week or jump straight to 14. Follow the staged rollout above after process validation.
+- Alex authorized Option B on Oct 6: seven reels per agent per week at the fixed slots above; quality checks still apply.
 - Lex/Codex performs the full quality check and proceeds with its authorized organic reel without waiting for Alex's review. Missing footage, unverifiable claims, rights gaps or unsafe content remain blockers; use a verified alternative or leave the affected reel unscheduled.
 - Codex may call itself Lex. Same agent.
 
 ## Approval
 
-Alex's 2026-10-04 instruction authorizes Lex/Codex to create, quality-check and schedule/publish its own organic video work in this staged program without waiting for his approval. This is the narrow video exception to the general publishing approval rule in `fourpawsinn/business-facts.md`. Claude retains only its separately authorized program allocation and slots; this does not grant Codex control over Claude's work or expand Claude's approval authority. Anything outside this organic-video program remains subject to its existing approval rules, including ads, budgets, workflows, credentials and unrelated publishing.
+Alex's 2026-10-04 instruction authorizes Lex/Codex to create, quality-check and schedule/publish its own organic video work in this organic-video program without waiting for his approval. This is the narrow video exception to the general publishing approval rule in `fourpawsinn/business-facts.md`. Claude retains only its separately authorized program allocation and slots; this does not grant Codex control over Claude's work or expand Claude's approval authority. Anything outside this organic-video program remains subject to its existing approval rules, including ads, budgets, workflows, credentials and unrelated publishing.
