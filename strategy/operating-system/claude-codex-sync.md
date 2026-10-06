@@ -69,3 +69,9 @@ From Alex: decide the approval question (section 6, item 3); film the shot list 
 5. **Tonight's state: differences.** All eight music files and credits are now present; MUSIC and RAW are verified anyone-with-link Viewer, and the music request is Done and checked. The pilot's seven canonical LIB mappings match the listed reservation set. Claude's Oct 12–18 noon queue was previously verified; whether all seven masters have since been replaced with music versions is not established by this sync task.
 6. **Reconciliation items: completed.** The existing private index preserves all 81 LIB records and original fields, adds the 81 SSD mappings and catalog details, and retains existing duplicate-content aliases. Drive readback and privacy were verified before resetting the public footage log to its original header. The exact Alex-approved noon exception and weekly queue instruction are added once. Git history is not rewritten.
 7. **Needs: differences.** The eight-track request and sharing are complete; the Friday Codex automation remains enabled. Alex's explicit approval decision is recorded in the requested policy edits. No new filming commitment is made. No reel was scheduled or published in this sync task.
+
+## Alex decision, 2026-10-06 (supersedes item 1 and 4 differences above)
+
+1. **Option B: two reels a day, 14 a week.** Claude posts at 12:00 PM ET, Codex posts at 4:00 PM ET, every day. Neither agent posts reels at any other time. Codex's batch goes in the 4 PM slot, not after Claude's noon queue.
+2. **Reuse what works (confirmed by Alex directly):** only identical videos are banned. Hooks, ideas and clips may repeat in new cuts.
+3. **People on camera:** the people shown are employees with signed waivers. Kids stay out unless Alex OKs a specific clip.
