@@ -52,6 +52,8 @@ Follow `references/idea-method.md`. Short version, budgets included there:
 - **Market lane**: search their topics for posts breaking out right now, this week first, this month as proof.
 - **Tangent lane**: analyze 1 or 2 creators outside their niche and pull the formats behind those creators' recent breakouts.
 
+For every post you borrow from, write the six line teardown in `references/reference-teardown.md` and put the key detail (first frame, proof, first line) on the idea card. Each card's hook must pass the visual and verbal hook rules there.
+
 ### Step 2 — Fuse and cut
 
 An idea card earns its place by standing on at least two of the three legs: their saved material, a proven format, a live market signal. One-leg ideas get cut. Rank what survives, keep 5 to 8. If only 3 clear the bar, deliver 3 and say so; padded cards are how idea lists die.

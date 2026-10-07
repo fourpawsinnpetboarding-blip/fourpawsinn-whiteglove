@@ -1,12 +1,13 @@
 {
  "pillar": "Day in the life",
- "hook": "Sunday here looks like this",
+ "hook": "Your dog's Sunday here",
  "clips": [
   {
    "src": "LIB-0063",
    "start": 9.0,
    "dur": 2.6,
-   "text": "Sunday here looks like this"
+   "text": "Your dog's Sunday here",
+   "proof": true
   },
   {
    "src": "LIB-0014",

@@ -48,7 +48,7 @@ The scoreboard is a performance read only, no strategy talk. Own posts are **nev
 
 ### Step 2 — Market sweep
 
-Follow `references/sweep-method.md`. Short version: run one topical creator search and at most one similarity search, select three to five strategically distinct creators, search two to four genuinely different market hypotheses, read two to four pivotal posts, and return at most three findings. A finding is a market move that repeats across at least 2 different creators, with receipts.
+Follow `references/sweep-method.md`. Short version: run one topical creator search and at most one similarity search, select three to five strategically distinct creators, search two to four genuinely different market hypotheses, read two to four pivotal posts, and return at most three findings. A finding is a market move that repeats across at least 2 different creators, with receipts. For each pivotal post you read, write the six line teardown in `references/reference-teardown.md`; findings name the detail (first frame, proof element, first line), not just the topic.
 
 Target 12 to 16 total Eden tool calls for a full run, including workspace lookup and delivery. The hard ceiling is 18. Run no more than four independent calls in one batch. Stop when the evidence supports or rejects one useful decision.
 

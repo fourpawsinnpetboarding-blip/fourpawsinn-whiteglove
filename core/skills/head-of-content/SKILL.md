@@ -62,7 +62,7 @@ Then build the week: one slot per post in their cadence, each slot carrying the 
 
 ### Step 3 — Production: draft and queue
 
-On their ok, draft every approved slot in their voice, full post text, ready to publish as-is. Then queue each one with `eden_schedule_post` using `draft: true` (a draft in their queue, no publish time set unless they asked for specific times; nothing goes live). Cap: 7 drafts per run.
+On their ok, draft every approved slot in their voice, full post text, ready to publish as-is. Every draft's opening must pass the visual and verbal hook rules in `references/reference-teardown.md`: 6 elements or fewer on the first frame or cover, one proof element, and a first line that speaks to the viewer. Then queue each one with `eden_schedule_post` using `draft: true` (a draft in their queue, no publish time set unless they asked for specific times; nothing goes live). Cap: 7 drafts per run.
 
 - Never call `eden_schedule_post` without `draft: true`, and never `eden_publish_post_now`, unless the user explicitly asks to schedule or publish, and confirm content, platform, and time first.
 - If scheduling writes fail because the connection is read-only, save the drafts as notes on the "Head of content" board instead and tell them plainly (fix is in `references/connect-eden.md`).
