@@ -18,3 +18,16 @@ Built to work on any schedule, including Monday and Wednesday carpool days.
 
 ## Picking the Big Rock
 The night before, ask: "Which one task, if done tomorrow, moves the 100K scoreboard the most?" Revenue and demand first, then removing Alex from operations.
+
+## The Race (how the Big Rock gets done)
+Alex's favorite format (first run Oct 8, 2026: target 1:30:00, finished 1:04:25).
+1. Claude breaks the Big Rock into 5 to 8 blocks, each with a time box and a target split.
+2. Stopwatch on. One block at a time, in order. No new tabs.
+3. Send Claude the split after each block. Claude logs it.
+4. Stuck 5 minutes past a box: screenshot to Claude, get unstuck, keep going.
+5. Finish: total time vs target goes in the log. Beat your own record, not anyone else's.
+
+## Race log
+| Date | Big Rock | Target | Actual |
+|---|---|---|---|
+| Oct 8, 2026 | Lead journey, money plan, Meta, Rocket Money | 1:30:00 | 1:04:25 |
