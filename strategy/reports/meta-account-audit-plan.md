@@ -21,3 +21,11 @@ Baseline (30 days to Sep 28): "New Dog Ad -Vid/Image", Leads objective, instant 
 Keep, fix, or pause for each item. Fixes that change live ads go to Alex for one click approval. Then build the Round 1 concept test (6 ads, Hook 1 of each concept, $18 a day, 7 days, paused) with the same form, location and goal as the main campaign.
 
 Method reference: Ben Heath, see strategy/meta-ad-review-playbook.md.
+
+## Added Oct 8: customer lifecycle check (Ben Heath, youtu.be/X2Iww-AH7Zs)
+| # | Check | Action |
+|---|---|---|
+| 11 | Existing customers defined in Advertising settings | Upload a GHL list of past booked clients as a custom audience, set it as "Existing customers". Set engagers and website visitors as "Engaged audience" |
+| 12 | Audience segments breakdown on the live campaign (Breakdown, Audience segments) | How many of the 47 leads came from existing clients vs new people |
+| 13 | Customer lifecycle strategy (ad set level) | Switch to "Acquire new customers" ONLY if existing clients are a big share of leads. Never exclude the engaged audience. Never use manual custom audience exclusions in targeting (hurts delivery per Heath) |
+Note: Heath demos this on a Sales campaign. Confirm it shows on our Leads campaign before planning around it.
