@@ -27,13 +27,19 @@ Claude rewrites the copy there and links the new sites. Codex pastes it back in.
 - Facts only from `fourpawsinn/business-facts.md`. Meet and greets: Tuesdays, 9 AM to 7 PM.
 - No health, safety, or medical claims.
 - Every message has one link and one ask.
+- Never add an opt out footer (no "reply STOP", no opt out line) to any message. Alex handles that side. Standing rule from Alex, Oct 7, 2026.
 
-## Site map (fill in once)
+## Site map (Alex, Oct 7, 2026)
+Purpose is inferred from the name. Codex confirms each on first visit.
+
 | Site | URL | Use it in |
 |---|---|---|
-| AI Studio site 1 | TBD | |
-| AI Studio site 2 | TBD | |
-| GHL funnel | TBD | |
+| Booking | https://four-paws-booking.vibepreview.com | New lead first reply, no reply follow up. The main ask. |
+| Private Suite | https://paws-privatesuite.vibepreview.app | Premium upsell after a quote or first stay. |
+| Boarding Kit | https://dog-boarding-kit.vibepreview.com | Booked confirmation: what to pack and bring. |
+| Training | https://training.fourpawsinn.co | Board and Train interest, post stay nurture. |
+| Rewards | https://four-paws-rewards.vibepreview.app | After checkout: rebook and referral. |
+| Dog Facts | https://pawsome-dog-facts.vibepreview.com | Long nurture and reactivation. Soft value, no hard ask. |
 
 ## Safety
 - Edit workflows as a copy or in draft first. Publish the change only after the copy file is approved in this repo.
