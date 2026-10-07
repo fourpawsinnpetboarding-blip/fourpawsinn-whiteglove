@@ -31,15 +31,16 @@ Claude rewrites the copy there and links the new sites. Codex pastes it back in.
 
 ## Site map (Alex, Oct 7, 2026)
 Purpose is inferred from the name. Codex confirms each on first visit.
+Branded subdomains are being connected (Alex, Oct 7). Use the fourpawsinn.co address in all copy. Use the old vibepreview address only if the new one does not load yet.
 
 | Site | URL | Use it in |
 |---|---|---|
-| Booking | https://four-paws-booking.vibepreview.com | New lead first reply, no reply follow up. The main ask. |
-| Private Suite | https://paws-privatesuite.vibepreview.app | Premium upsell after a quote or first stay. |
-| Boarding Kit | https://dog-boarding-kit.vibepreview.com | Booked confirmation: what to pack and bring. |
+| Booking | https://book.fourpawsinn.co (was four-paws-booking.vibepreview.com) | New lead first reply, no reply follow up. The main ask. |
+| Private Suite | https://suite.fourpawsinn.co (was paws-privatesuite.vibepreview.app) | Premium upsell after a quote or first stay. |
+| Boarding Kit | https://kit.fourpawsinn.co (was dog-boarding-kit.vibepreview.com) | Booked confirmation: what to pack and bring. |
 | Training | https://training.fourpawsinn.co | Board and Train interest, post stay nurture. |
-| Rewards | https://four-paws-rewards.vibepreview.app | After checkout: rebook and referral. |
-| Dog Facts | https://pawsome-dog-facts.vibepreview.com | Long nurture and reactivation. Soft value, no hard ask. |
+| Rewards | https://rewards.fourpawsinn.co (was four-paws-rewards.vibepreview.app) | After checkout: rebook and referral. |
+| Dog Facts | https://facts.fourpawsinn.co (was pawsome-dog-facts.vibepreview.com) | Long nurture and reactivation. Soft value, no hard ask. |
 
 ## Safety
 - Edit workflows as a copy or in draft first. Publish the change only after the copy file is approved in this repo.
