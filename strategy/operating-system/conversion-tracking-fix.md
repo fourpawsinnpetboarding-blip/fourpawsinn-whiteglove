@@ -1,5 +1,13 @@
 # Conversion tracking fix: GHL "Won" to Meta and Google
 
+Owner (Oct 7, 2026): Ripon, Upwork freelancer hired and paid by Alex. Codex and Claude do not touch this setup; Claude verifies the result only.
+
+## Verify Ripon's work (done means all 4)
+1. Meta Events Manager, dataset: CRM events (lead stages or Purchase) show 'Last received' within the past few days.
+2. Events carry the instant form lead ID plus email or phone (Event Match Quality shown).
+3. Marking a test opportunity Won in GHL produces one event in Meta within an hour.
+4. Windsor shows CRM or offline conversions on Four Paws Inn Ads 2 (Claude checks).
+
 Goal: when an opportunity in GHL is marked **Won** (deposit paid), Meta and Google Ads both get a conversion with the value, so the ad platforms learn who actually books, not just who fills a form.
 
 ## What Claude verified (2026-10-04, Windsor, Meta account 942706665029521)
