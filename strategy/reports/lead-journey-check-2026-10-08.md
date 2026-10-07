@@ -8,13 +8,13 @@ Alex's Things task: verify the lead to booking path. Claude did the parts that n
 |---|---|---|---|
 | Inventory and cleanup | WORKS | 56 workflows listed, 24 dead drafts archived, nothing deleted (Codex, Oct 7) | Done |
 | Ghost reactivation copy | FIXED | 8 texts replaced, saved, published, Stop on response on (Codex, Oct 8) | Done |
-| New lead first text (Capture intake) | Copy FIXED, trigger BROKEN | 3 texts replaced (Codex, Oct 8). Alex's live test: booking site form sent NO text | Codex diagnosing |
+| New lead first text (Capture intake) | FIXED | 3 texts replaced. Form fields repaired by Codex. Alex retested with correct numbers: customer text and internal alert both arrive (Oct 8) | Done |
 | Missing dates texts | FIXED | 3 texts replaced and verified in GHL (Oct 8) | Done |
-| Follow ups stop when lead replies | UNVERIFIED | Old copy asked leads to reply BOOKED. Now the workflow setting must do it | Lex sets it, ALEX tests |
+| Follow ups stop when lead replies | ON (setting verified by Codex), reply test pending | Old copy asked leads to reply BOOKED. Now the workflow setting must do it | Lex sets it, ALEX tests |
 | Booked confirmation text | MISSING | "Booked Client Follow Up" only tags and waits 60 days. No message | Claude drafts next, Codex builds |
 | Meet and greet booking text | MISSING | No workflow found | Claude drafts next |
 | 6 site links load | PARTIAL | Codex: all 6 vibepreview links load; branded subdomains 502 (dropped by Alex) | ALEX phone check |
-| Site forms reach GHL | BROKEN | Alex submitted the booking form Oct 8, no text in 5+ min | Codex (Eden row) |
+| Site forms reach GHL | FIXED | Booking form now fills the dates field and formats phone numbers. Earlier failure was partly a wrong test number. Verified by Alex Oct 8 | Done |
 | Unanswered leads | BROKEN | 30 threads where the client wrote last (Oct 6 snapshot) | Alex replies, Claude drafts |
 | $0 Won values | BROKEN | 3 of 4 Won this week at $0 (Oct 6 snapshot) | Codex task open |
 
