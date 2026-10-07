@@ -1,6 +1,6 @@
 # Meta Round 1 build spec (concept test)
 
-Status: BUILT Oct 7, 2026 by Claude via Windsor, all PAUSED. Alex reviews and turns on.
+Status: LIVE. Built Oct 7, 2026 by Claude via Windsor. Turned on by Claude on Alex's "turn it on" (Oct 7, evening ET). Review after 10 days (~Oct 17).
 - Campaign 52660845446324 "FPI Round 1 Concept Test Oct 2026" (OUTCOME_LEADS)
 - Ad set 52660845527724 "R1 Concepts 15mi Broad": $25/day, LEAD_GENERATION (Meta rejected QUALITY_LEAD via API; live campaign uses QUALITY_LEAD), people living in 15 mi, Advantage+ audience, no Audience Network, page 478593725342327
 - Ads: C1 52660845584324, C2 52660845627324, C3 52660845679324, C4 52660845715124, C5 52660845744724, C6 52660845858524. Form 1479678017305071, CTA BOOK_TRAVEL (same as Static Reviews)
