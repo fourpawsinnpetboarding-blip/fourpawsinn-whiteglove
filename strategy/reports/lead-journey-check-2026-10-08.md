@@ -7,14 +7,14 @@ Alex's Things task: verify the lead to booking path. Claude did the parts that n
 | Step | Status | Evidence | Owner |
 |---|---|---|---|
 | Inventory and cleanup | WORKS | 56 workflows listed, 24 dead drafts archived, nothing deleted (Codex, Oct 7) | Done |
-| Ghost reactivation copy | BROKEN, fix in progress | Live to 177 people with a false "4 summer spots" text from "Nicole". Rewrite approved by Alex Oct 7 | Lex is applying now |
-| New lead first text (Capture intake) | BROKEN, fix in progress | Old copy had "220+ families" and an opt out line. Workflow shows 0 active | Lex, after ghost |
-| Missing dates texts | Rewrite approved | Plain copy, 40 enrolled since Sep 21 | Lex, third |
+| Ghost reactivation copy | FIXED | 8 texts replaced, saved, published, Stop on response on (Codex, Oct 8) | Done |
+| New lead first text (Capture intake) | Copy FIXED, trigger BROKEN | 3 texts replaced (Codex, Oct 8). Alex's live test: booking site form sent NO text | Codex diagnosing |
+| Missing dates texts | FIXED | 3 texts replaced and verified in GHL (Oct 8) | Done |
 | Follow ups stop when lead replies | UNVERIFIED | Old copy asked leads to reply BOOKED. Now the workflow setting must do it | Lex sets it, ALEX tests |
 | Booked confirmation text | MISSING | "Booked Client Follow Up" only tags and waits 60 days. No message | Claude drafts next, Codex builds |
 | Meet and greet booking text | MISSING | No workflow found | Claude drafts next |
 | 6 site links load | PARTIAL | Codex: all 6 vibepreview links load; branded subdomains 502 (dropped by Alex) | ALEX phone check |
-| Site forms reach GHL | UNVERIFIED | No form submitted yet | ALEX test lead |
+| Site forms reach GHL | BROKEN | Alex submitted the booking form Oct 8, no text in 5+ min | Codex (Eden row) |
 | Unanswered leads | BROKEN | 30 threads where the client wrote last (Oct 6 snapshot) | Alex replies, Claude drafts |
 | $0 Won values | BROKEN | 3 of 4 Won this week at $0 (Oct 6 snapshot) | Codex task open |
 
