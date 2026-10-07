@@ -59,3 +59,16 @@ Alex tried Conversation AI. It gave wrong addresses. Lead volume is low enough t
 | Google reviews | Drafts review replies and weekly Google Business posts | Sends review requests after checkout | Nothing |
 | Operator manual | Writes SOPs from how Amanda runs the house | Builds them into GHL tasks and checklists | Reviews once |
 | Acquisition prep | Preps every broker call and logs it | Tracks listings | Makes the calls |
+
+## Outside the frame (Oct 7, 2026)
+
+Alex asked: should I be selling to other pet boarders now, or doing something outside pet boarding?
+
+| Move | Verdict | Why |
+|---|---|---|
+| Fill the house to $100K | Do now | Fastest money with no new costs. Every $1 of added monthly profit is worth about $24 to $36 at sale (2x to 3x yearly profit). |
+| Sell services to other boarders now | Not yet | No proof yet at $30K, and client work takes Alex's time, which is already the second constraint. |
+| Test demand for Step 2 for free | Do now | One Founder's Log post a week about running the business with two AIs. Count the DMs from other owners. Signal, not a business. |
+| Recurring revenue (daycare or boarding membership) | Plan after Board and Train | Monthly members smooth slow weeks and raise the sale multiple. |
+| Own the real estate under each location | Build into acquisition plan | OpCo and PropCo: the business rents the property from a company Alex owns. Business income plus property wealth. |
+| A business outside pet services | No | Splits the only scarce resource: Alex's attention. |
