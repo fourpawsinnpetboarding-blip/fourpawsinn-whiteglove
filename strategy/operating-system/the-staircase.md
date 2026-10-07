@@ -38,22 +38,24 @@ A location makes money one dog at a time. Software makes money one owner at a ti
 3. Memory: everything is written in this repo and on the Eden board, so nothing depends on one chat window.
 4. Split by strength: Codex works inside GHL with its browser. Claude writes copy, plans, checks quality, and makes video.
 
-## The GHL AI layer (part of Step 1)
-
-GoHighLevel has its own AI employees. They only work as well as the instructions and facts they are given.
-
-| GHL AI | What it does | Who sets it up |
-|---|---|---|
-| Conversation AI | Answers texts, Instagram and Facebook DMs, and web chat 24/7, qualifies the lead, and pushes them to book | Claude writes its instructions and knowledge base from business-facts.md. Codex installs it and tests it on the TEST contact |
-| Voice AI | Answers missed calls and books or takes a message | Same split. After Conversation AI works |
-| Reviews AI | Replies to Google reviews in our voice | Same split. Low priority |
-
-Bot rules: no health or safety claims, never quote a cat or private suite price, hand off to a human for anything it cannot answer, no opt out footer.
+## GHL AI: parked (Alex, Oct 7, 2026)
+Alex tried Conversation AI. It gave wrong addresses. Lead volume is low enough that Alex replies himself, with Claude drafting the reply. Revisit only when: leads outgrow Alex, a second location opens, or Step 2 (selling the GHL setup) starts.
 
 ## Order of work (one workstream at a time)
 
-1. Now: finish the GHL tune up (ghl-workflow-tuneup.md): inventory, archive dead workflows, rewrite the top 3 with the new site links.
-2. Next: Conversation AI on SMS, DMs, and web chat. This is the speed to lead fix (how fast a new lead gets a first reply; replies inside 5 minutes book far more often than replies an hour later).
-3. Then: fill the scoreboard (100k-scoreboard.md) with real weekly numbers so every decision is made on math.
-4. Then: Board and Train launch.
-5. Step 2 planning starts when the house passes $60K a month. Not before.
+1. Now: finish the GHL tune up (ghl-workflow-tuneup.md).
+2. Weekly scoreboard. Live: Codex posts GHL and booking numbers to the Eden board every Sunday night; Claude's Monday 7:41 AM routine pulls ads, website, and search, writes the report, and tells Alex the one action for the week.
+3. Board and Train launch.
+4. Step 2 planning starts when the house passes $60K a month. Not before.
+
+## Other jobs Claude and Codex can run (queue, in order)
+
+| Job | Claude | Codex | Alex |
+|---|---|---|---|
+| Reply coach | Drafts a reply for every unanswered lead | Pulls the list of conversations where the client wrote last, daily | Sends |
+| Board and Train launch | Offer, sales page copy, call script, FAQ, launch reels | Builds the GHL funnel, calendar, pipeline | Sells the first 10 |
+| Ads loop | Reads Meta results weekly, kills losers, writes new hooks | Loads new ads paused | Turns them on |
+| Holiday reactivation | Writes the past client campaign | Builds the list of past clients not booked in 6 months | Approves the send |
+| Google reviews | Drafts review replies and weekly Google Business posts | Sends review requests after checkout | Nothing |
+| Operator manual | Writes SOPs from how Amanda runs the house | Builds them into GHL tasks and checklists | Reviews once |
+| Acquisition prep | Preps every broker call and logs it | Tracks listings | Makes the calls |
