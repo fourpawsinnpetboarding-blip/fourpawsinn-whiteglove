@@ -1,0 +1,32 @@
+# Meta Round 1 build spec (concept test)
+
+Status: waiting on IDs from Codex (campaign, ad set targeting, page, Instagram, form, CTA). Build paused; Alex turns it on.
+
+## Campaign
+- Name: FPI Round 1 Concept Test Oct 2026
+- Objective: OUTCOME_LEADS, no special ad categories, paused
+- One ad set, $25 a day, 10 days. Targeting copied from the live ad set, with two fixes: location type "people living in" only, Audience Network removed.
+- Form: Fall and Holiday Boarding 2026 (existing; Windsor cannot create forms. Corrected form, "$75" not "$75+", fewer questions, built later in Ads Manager).
+
+## Ads (Hook 1 of each concept)
+| Ad name | Video ID | Thumbnail |
+|---|---|---|
+| R1 C1 Compare what's included | 1565750751507651 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/452abfc2-6a0c-41d8-8ebd-98e4614b0113.jpg |
+| R1 C2 First 24 hours | 1950418749676611 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/00c8c059-c61b-4c03-952a-493d66b5e05d.jpg |
+| R1 C3 How we customize the stay | 1414359330137204 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/5b34de66-5684-4ea9-a566-89d54804f0f8.jpg |
+| R1 C4 Drop off | 1743531636721458 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/77b35d9e-70b8-4129-93c7-e7ea3dc8e739.jpg |
+| R1 C5 How to pack | 1114910924830293 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/6a9cc2c8-2d25-4d93-a826-851fd5743935.jpg |
+| R1 C6 Will my dog be happy here | 2102818050330351 | https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/8fdab68d-d146-4c2e-a5ff-2b18f3774210.jpg |
+
+Headline (all): Check your dog's boarding dates
+
+## Primary text (3rd grade, no dashes, no health claims)
+- C1: Before you compare boarding prices, compare what's included. Your dog stays in a real home in Miramar. Small groups. Daily photo and video updates. 215 Google reviews. Tap to check your dates.
+- C2: Here's what your dog's first 24 hours with us look like. A real home, small groups, and updates all day. Tap to check your dates.
+- C3: Every dog is different. We plan your dog's stay around their energy and play style. Tell us about your dog and check your dates.
+- C4: Read this before your dog's drop off. We keep the door calm for every dog in the house. Tap to check your dates.
+- C5: Packing for your dog's stay? Food in Ziploc bags, one per meal. We bring the beds and supplies. Tap to check your dates.
+- C6: Will your dog be happy here? See what 215 Google reviews say. Then tap to check your dates.
+
+## Judge after 10 days
+Hook rate (3 second plays / impressions), then CTR, then cost per lead. Winner goes to Round 2 (its 5 hooks).
