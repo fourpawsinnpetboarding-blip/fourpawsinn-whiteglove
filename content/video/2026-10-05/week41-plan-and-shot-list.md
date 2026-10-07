@@ -71,3 +71,10 @@ Rachel's reels cover noon Oct 6 to 9 and Claude's week starts Oct 12, so noon on
 | --- | --- | --- | --- |
 | Tue Oct 27 (moved for Amanda's Oct 9 to 11 reels; end card updated to Tuesday 9 AM to 7 PM) | Meet us before you book (Tuesday meet and greets) | Wholesome | b6ba9f2a-f955-4e22-bcc0-c76a854b925d |
 | Wed Oct 28 (moved for Amanda's reels) | Sunday here looks like this | Fluffing a Duck | 952601c1-95e3-4f1f-8e2c-b5940ec553f7 |
+
+## Hook recut, Oct 7, 2026 (content/video/hook-rules.md)
+| Date | Post | Change |
+|---|---|---|
+| Mon Oct 26 | cbcca856 (Rachel C4 drop off, sharp master) | Review badge on first 3 s; caption opens "Read this before your dog's drop off." |
+| Tue Oct 27 | b6ba9f2a (W41-C8) | Opens on the dog greeting, review badge |
+| Wed Oct 28 | 952601c1 (W41-C9) | Hook "Your dog's Sunday here", review badge |
