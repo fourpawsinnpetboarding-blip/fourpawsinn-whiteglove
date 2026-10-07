@@ -18,7 +18,7 @@ Baseline (30 days to Sep 28): "New Dog Ad -Vid/Image", Leads objective, instant 
 | 10 | Lead quality | Of last 30 days of Meta leads: replied, qualified, booked. Cost per booking, not just per lead | GHL plus Windsor |
 
 ## Output
-Keep, fix, or pause for each item. Fixes that change live ads go to Alex for one click approval. Then build the Round 1 concept test (6 ads, Hook 1 of each concept, $18 a day, 7 days, paused) with the same form, location and goal as the main campaign.
+Keep, fix, or pause for each item. Fixes that change live ads go to Alex for one click approval. Then build the Round 1 concept test (6 ads, Hook 1 of each concept, $25 a day, 10 days, paused; see strategy/meta-campaign-blueprint.md) with the same form, location and goal as the main campaign.
 
 Method reference: Ben Heath, see strategy/meta-ad-review-playbook.md.
 
