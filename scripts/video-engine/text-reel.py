@@ -6,6 +6,7 @@ Usage: FFMPEG=/path/to/ffmpeg python3 scripts/video-engine/text-reel.py spec.jso
 spec.json:
 {
   "clips": [{"src": "path.mov", "start": 9.0, "dur": 2.5, "text": "On screen line", "cx": 0.5}],
+                             # first clip may add "proof": true for the review badge (visual hook rule, hook-rules.md)
                              # cx: optional horizontal crop position, 0 = left edge, 0.5 = center, 1 = right edge
   "end": {"dur": 4.0, "lines": ["Big serif headline", "small line", "small line"]},
   "audio": "mute",           # "mute" or "original" (keeps each clip's own sound)
@@ -64,9 +65,34 @@ def paw(d, cx, cy, r, fill):
         d.ellipse([x - rr, y - rr * 1.25, x + rr, y + rr * 1.25], fill=fill)
 
 
-def caption_png(text, path):
-    """Lower caption card with pink accent, plus a brand bar with the handle (house style since 2026-10-05)."""
+PROOF = ("4.9", "215 Google reviews")  # keep in step with fourpawsinn/business-facts.md
+
+
+def star(d, cx, cy, r, fill):
+    import math
+    pts = [(cx + (r if k % 2 == 0 else r * 0.45) * math.sin(k * math.pi / 5), cy - (r if k % 2 == 0 else r * 0.45) * math.cos(k * math.pi / 5)) for k in range(10)]
+    d.polygon(pts, fill=fill)
+
+
+def proof_badge(d):
+    """One proof element at the top of the hook frame: rating, five stars, review count."""
+    big = font("SourceSerif4-normal", 64, 700); small = font("DMSans-normal", 36, 500)
+    wr = d.textlength(PROOF[0], font=big); ws = d.textlength(PROOF[1], font=small)
+    w = 48 + wr + 28 + 5 * 44 + 28 + ws + 48; x = (W - w) / 2; y = 300  # inside the 3:4 grid crop
+    d.rounded_rectangle([x, y, x + w, y + 112], 56, fill=CHARCOAL + (230,))
+    d.text((x + 48, y + 18), PROOF[0], font=big, fill=(255, 255, 255))
+    sx = x + 48 + wr + 28
+    for k in range(5):
+        star(d, sx + 20 + k * 44, y + 56, 19, PINK)
+    d.text((sx + 5 * 44 + 28, y + 34), PROOF[1], font=small, fill=(240, 240, 240))
+
+
+def caption_png(text, path, proof=False):
+    """Lower caption card with pink accent, plus a brand bar with the handle (house style since 2026-10-05).
+    proof=True adds the review badge on the hook frame. Hook frame stays at 6 elements or fewer."""
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    if proof:
+        proof_badge(d)
     ft = font("SourceSerif4-normal", 84, 700)
     lines = wrap(d, text, ft, W - 260)
     lh = 104; top = 1160; boxh = 110 + lh * len(lines)
@@ -119,7 +145,7 @@ def main(spec_path, out):
     spec = json.load(open(spec_path)); tmp = tempfile.mkdtemp(); parts = []
     mute = spec.get("audio", "mute") == "mute"
     for i, c in enumerate(spec["clips"]):
-        png = os.path.join(tmp, f"t{i}.png"); caption_png(c["text"], png)
+        png = os.path.join(tmp, f"t{i}.png"); caption_png(c["text"], png, proof=(i == 0 and c.get("proof", False)))
         part = os.path.join(tmp, f"p{i}.mp4")
         afilter = ["-f", "lavfi", "-t", str(c["dur"]), "-i", "anullsrc=r=44100:cl=stereo"] if mute else []
         amap = ["-map", "2:a"] if mute else ["-map", "0:a"]

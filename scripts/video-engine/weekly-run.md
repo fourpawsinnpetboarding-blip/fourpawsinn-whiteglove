@@ -22,7 +22,7 @@ For every new file: give it the next `LIB-` id, run `contact-sheets.py` on it, r
 2. Reuse what performed: `eden_get_analytics` for the last 14 days, keep the hooks and shots with the best reach and saves, cut new versions of them.
 3. Write `content/video/specs/W<week>-C<n>-<slug>.json` (house style, 4 clips of 2.5 to 3.5 s, end card). Set `music` to `drive:<file id>` from the right mood folder (Upbeat for play, Warm for greetings and updates, Light for how to and prices, Calm for night and cats) and `music_volume` 0.6 to 0.8. Rotate tracks.
 4. `python3 scripts/video-engine/render.py fpi-footage-index.csv <workdir>/out content/video/specs/W<week>-*.json` (run in the background; it skips finished files).
-5. QA every reel: 1 frame per second tiled; fix weak shots, empty frames, orphan words, bad crops; one stream (no mid video reset). Re-render fixes.
+5. Hook check first (content/video/hook-rules.md): first frame has 6 elements or fewer, clip 1 has `"proof": true`, the hook line speaks to the viewer (you or your). Then QA every reel: 1 frame per second tiled; fix weak shots, empty frames, orphan words, bad crops; one stream (no mid video reset). Re-render fixes.
 
 ## 4. Queue
 
