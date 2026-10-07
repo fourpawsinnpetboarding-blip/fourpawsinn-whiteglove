@@ -31,4 +31,4 @@ Method reference: Ben Heath, see strategy/meta-ad-review-playbook.md.
 Note: Heath demos this on a Sales campaign. Confirm it shows on our Leads campaign before planning around it.
 
 ## Status Oct 8 evening
-Windsor connector re-authorized as alex@chiongenterprise.com (Trial, 21 days left). Accounts visible: Four Paws Inn Ads 2, GHL. Write actions available. get_data fails on every request with an output schema error (Windsor bug). Support ticket 14045192 filed. Audit waits on the fix. Fallback: Alex sends Ads Manager screenshots.
+Windsor connector re-authorized as alex@chiongenterprise.com (Trial, 21 days left). UPDATE Oct 7 evening: get_data working again. Accounts visible: Four Paws Inn Ads 2, GHL. Write actions available. get_data fails on every request with an output schema error (Windsor bug). Support ticket 14045192 filed. Audit waits on the fix. Fallback: Alex sends Ads Manager screenshots.
