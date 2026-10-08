@@ -38,3 +38,7 @@ Sources: developers.facebook.com/docs/marketing-api/conversions-api/conversion-l
 2. Check: exactly one first text arrives, from Amanda, with the booking link.
 3. Reply "hi". Check: no more automated texts after that.
 4. Tell Claude what happened. Claude updates this table.
+
+## PROVEN 2026-10-08 8:41 AM: first real Meta lead after the fix
+
+Lead "Will i am", Facebook instant form, zip 33020, over 50 lb, future trip. Exactly one SMS sent the same minute (8:41 AM), Future Travel opener with the booking link (https://four-paws-booking.vibepreview.com). No duplicate opener. Codex's booking link addition to the Future Travel opener is confirmed live. Open item: confirm Alex's new lead alert fired.
