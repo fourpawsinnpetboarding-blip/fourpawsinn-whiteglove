@@ -41,3 +41,5 @@ Source: instagram.com/p/DX5S3zNgOat (Devin Jatho, 23K likes). His point: the sam
 | It took me [X] years to learn this. I'll teach you in [Y] seconds. | It took us [X] years to learn how to bring a new dog into the group. Here it is in 30 seconds. | It took me [X] years to build a $30K a month dog business. Here is what I would do in 60 seconds. |
 
 Rules: fill [X] with the real number only. Keep the visual hook rules above (dog in frame, one proof badge). No health or safety claims in the payoff.
+
+Full hook library, formats, layout, and profile rules: `strategy/content-research/creator-playbook.md`. Read it before writing any hook.
