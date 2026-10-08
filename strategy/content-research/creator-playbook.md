@@ -108,17 +108,19 @@ Source: Devin Jatho, profile tiers (1.46M views).
 
 ## 7. Comment keyword to DM (DRAFT, needs Alex approval before it goes live)
 
-Every Devin post ends with "Comment [WORD]" and an automated DM sends the thing. FPI already pays for ManyChat. Comments also tell Instagram the post is worth showing to more people.
+Every Devin post ends with "Comment [WORD]" and an automated DM sends the thing. Comments also tell Instagram the post is worth showing to more people.
+
+Tool: GoHighLevel, not ManyChat (Alex, Oct 8 2026: FPI does not use ManyChat). GHL workflow trigger "Instagram / Facebook comment on post" with keyword DATES, then a reply in the comments and an Instagram or Facebook DM. The commenter lands in GHL as a contact, so the normal follow ups and Alex's alerts run.
 
 Post ending (caption and last frame): Comment DATES and we will send you our open dates.
 
-ManyChat DM (sent automatically when someone comments DATES):
+GHL DM (sent automatically when someone comments DATES):
 > Hi! Thanks for reaching out to Four Paws Inn 🐾
 > Send us your dates here and we will check our openings: https://four-paws-booking.vibepreview.com
 > Dogs under 50 lb are $60 a day. Dogs over 50 lb are $75 a day.
 > Questions? Just reply here and Alex will get back to you.
 
-Public comment reply (ManyChat): Sent you a DM! 🐾
+Public comment reply (GHL): Sent you a DM! 🐾
 
 Form leads then land in GHL and the normal follow ups run.
 
