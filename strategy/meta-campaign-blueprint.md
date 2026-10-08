@@ -41,3 +41,7 @@ Switch the goal to Conversion Leads with GHL sending booked stages back to Meta 
 - clicksgeek.com/facebook-ads-for-pet-boarding
 - segwise.ai/blog/where-to-test-new-creatives-meta-ads
 - savemyleads.com/blog/other/meta-ads-learning-phase
+
+## Decision 2026-10-08: optimize for Maximum number of leads, not Conversion leads
+
+Keep every lead campaign on "Maximize number of leads." Reasons: (1) Conversion leads needs about 200 leads a month and FPI is at about 110; (2) operator test reported by Revel Loughlin (instagram.com/reel/DeOO1jKzMIW) found conversion leads did not beat maximize leads on any metric. The CAPI and lead ID work (Ripon) is still worth it, for measurement: it shows which ads produce real bookings so we can kill the ones that only produce form fills. Revisit when leads pass 200 a month for 2 months.
