@@ -33,3 +33,17 @@ Headline (all): Check your dog's boarding dates
 
 ## Judge after 10 days
 Hook rate (3 second plays / impressions), then CTR, then cost per lead. Winner goes to Round 2 (its 5 hooks).
+
+## Check 2026-10-08 morning (Windsor, last 7 days incl. today)
+
+| Campaign / ad | Spend | Leads | CPL |
+|---|---|---|---|
+| Main: Static Reviews | $216.51 | 11 | $19.68 |
+| Main: Video Introductions | $25.08 | 2 | $12.54 |
+| Main total | $242.50 | 13 | $18.65 |
+| R1 C1 Compare what's included | $10.77 | 1 | $10.77 |
+| R1 C4 Drop off | $1.64 | 1 | $1.64 |
+| R1 C2, C3, C5, C6 | $2.74 | 0 | n/a |
+| R1 total | $15.15 | 2 | $7.58 |
+
+Read: too early to judge Round 1 (about 1 day, under $20). No edits until the Oct 17 review. Hook rate (3 sec views / impressions): C1 38%, C2 55%.
