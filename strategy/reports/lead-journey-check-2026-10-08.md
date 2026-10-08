@@ -42,3 +42,7 @@ Sources: developers.facebook.com/docs/marketing-api/conversions-api/conversion-l
 ## PROVEN 2026-10-08 8:41 AM: first real Meta lead after the fix
 
 Lead "Will i am", Facebook instant form, zip 33020, over 50 lb, future trip. Exactly one SMS sent the same minute (8:41 AM), Future Travel opener with the booking link (https://four-paws-booking.vibepreview.com). No duplicate opener. Codex's booking link addition to the Future Travel opener is confirmed live. Open item: confirm Alex's new lead alert fired.
+
+## FIXED 2026-10-08 morning: Facebook auto message no longer counts as a reply
+
+Codex added "Message body does not contain: I filled out your form" to five Customer replied triggers across two workflows, including SYSTEM | Reply Kill Switch. Will's duplicate contacts merged. Will still active in Future Travel follow ups. Open: (1) find leads the kill switch removed before the fix because of the Facebook auto message, and put them back in follow ups; (2) GHL time zone change to America/New_York not yet confirmed; (3) live proof on the next Meta lead: no "New SMS reply" alert.
