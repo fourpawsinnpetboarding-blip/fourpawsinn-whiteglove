@@ -128,11 +128,13 @@ Form leads then land in GHL and the normal follow ups run.
 
 Name field: Four Paws Inn | Miramar Dog Boarding
 
-Bio:
-> Cage free home dog boarding in Miramar 🏡
-> ⭐ 4.9 stars from 215 Google reviews
-> Daily photo and video updates
-> 👇 Send us your dates
+Bio (Alex's version, tightened Oct 8 2026, 145 of 150 characters):
+> 🐾 Cage free home dog boarding
+> 🌴 3 min from Pembroke Gardens
+> ⭐ 5.0 Google | 225+ reviews | 15 yrs with dogs
+> 👇 Send your dates & judge for yourself
+
+No "#1" claim: it cannot be proven, and the 5.0 rating with 225+ reviews is the proof. Confirm the live Google numbers before saving.
 
 Link: https://four-paws-booking.vibepreview.com
 
