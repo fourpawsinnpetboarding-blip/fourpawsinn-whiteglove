@@ -10,11 +10,11 @@ Owner: Claude (research and updates). Users: Claude (12 PM reels, 7:30 AM static
 
 Source: Devin Jatho (@devinjatho, 487K), "30 Viral Hooks" carousel and the reel showing 4 videos at 1.4M to 3.7M views on the same structure.
 
-Six hook families. Each line below is already rewritten for Four Paws Inn. Fill brackets with real facts only.
+Six hook families. Each line below is already rewritten for Four Paws Inn. Fill brackets with real facts only. Experience fact (Alex, Oct 8 2026): 15 years caring for dogs. Four Paws Inn the business is 2 years old, so say "15 years with dogs", never "15 years in business".
 
 **Cost narration** (we paid the price so you don't)
-1. It took us [X] years to learn how to bring a new dog into a group. Here it is in 30 seconds.
-2. After [X] years of boarding dogs, here is what I wish every owner knew before their first trip.
+1. It took us 15 years to learn how to bring a new dog into a group. Here it is in 30 seconds.
+2. After 15 years of caring for dogs, here is what I wish every owner knew before their first trip.
 3. We have cared for [X] dogs. These are the 3 things that make a first stay go smooth.
 
 **False statement** (say the myth, then flip it)
@@ -106,10 +106,37 @@ Source: Devin Jatho, profile tiers (1.46M views).
 3. Highlights: Reviews, A Day Here, Pricing, Meet and Greet.
 4. Pin 3 posts: the offer explained, the best review or story, the post that brought the most followers. Do not pin by views alone.
 
-## 7. Comment keyword to DM (proposal, needs Alex approval)
+## 7. Comment keyword to DM (DRAFT, needs Alex approval before it goes live)
 
-Every Devin post ends with "Comment [WORD]" and an automated DM sends the thing. FPI already pays for ManyChat.
-Proposal: posts end with "Comment DATES and we will send you our open dates." ManyChat replies with the booking link. Not live until Alex approves the exact DM copy.
+Every Devin post ends with "Comment [WORD]" and an automated DM sends the thing. FPI already pays for ManyChat. Comments also tell Instagram the post is worth showing to more people.
+
+Post ending (caption and last frame): Comment DATES and we will send you our open dates.
+
+ManyChat DM (sent automatically when someone comments DATES):
+> Hi! Thanks for reaching out to Four Paws Inn 🐾
+> Send us your dates here and we will check our openings: https://four-paws-booking.vibepreview.com
+> Dogs under 50 lb are $60 a day. Dogs over 50 lb are $75 a day.
+> Questions? Just reply here and Alex will get back to you.
+
+Public comment reply (ManyChat): Sent you a DM! 🐾
+
+Form leads then land in GHL and the normal follow ups run.
+
+## 8. Profile rewrite (DRAFT, needs Alex approval)
+
+Name field: Four Paws Inn | Miramar Dog Boarding
+
+Bio:
+> Cage free home dog boarding in Miramar 🏡
+> ⭐ 4.9 stars from 215 Google reviews
+> Daily photo and video updates
+> 👇 Send us your dates
+
+Link: https://four-paws-booking.vibepreview.com
+
+Pinned posts (3): the "Before you compare boarding prices, compare what's included" reel (offer explained), the best review post, and whichever post brought the most followers in the last 90 days.
+
+Highlights: Reviews, A Day Here, Pricing, Meet and Greet.
 
 ---
 
