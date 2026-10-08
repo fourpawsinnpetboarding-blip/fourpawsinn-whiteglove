@@ -29,3 +29,15 @@ Same rules. The proof element changes: a real number on screen (monthly revenue,
 
 ## Research
 Every reference post studied on Eden gets the six line teardown in `core/skills/idea-engine/references/reference-teardown.md` before its idea is used.
+
+## Proven hook templates (Devin Jatho, Oct 8 2026)
+
+Source: instagram.com/p/DX5S3zNgOat (Devin Jatho, 23K likes). His point: the same hook structure went viral again and again (1.4M to 3.7M views) on different topics. Do not invent a new hook each time. Reuse a proven structure and change the topic.
+
+| Template | Four Paws Inn version | Alex personal version |
+|---|---|---|
+| [A] vs [B] | Kennel boarding vs home boarding. | Owner who works in the business vs owner who works on it. |
+| [A] vs [B] | What $40 a night gets you vs what $60 a night gets you. | Using AI to chat vs using AI to run a business. |
+| It took me [X] years to learn this. I'll teach you in [Y] seconds. | It took us [X] years to learn how to bring a new dog into the group. Here it is in 30 seconds. | It took me [X] years to build a $30K a month dog business. Here is what I would do in 60 seconds. |
+
+Rules: fill [X] with the real number only. Keep the visual hook rules above (dog in frame, one proof badge). No health or safety claims in the payoff.
