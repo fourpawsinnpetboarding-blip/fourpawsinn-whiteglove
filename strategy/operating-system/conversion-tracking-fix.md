@@ -84,3 +84,11 @@ Why Meta shows nothing even if events arrive:
 4. **Turn on Conversion Leads** for the dataset in Events Manager (CRM integration), so the funnel stages show and the lead ads can later optimize for booked customers instead of form fills.
 
 Done when: one genuine Won shows in Events Manager within 1 hour with lead ID matched, and the dataset's CRM funnel shows it as converted.
+
+## Update 2026-10-08: Ripon's status and decisions
+
+1. Dataset "Offline Conversion – FourPaws" is connected to ad account 942706665029521. Confirmed by Ripon.
+2. Lead ID is not in the Purchase event yet. Decision: approve once Ripon quotes the cost. This is step 2 above and the single biggest gap.
+3. Stape free plan will not hold this setup. Decision: approve the cheapest paid tier. Expense category: business ads tools.
+
+Verify (Claude): the next genuine Won booking shows as a Purchase in Events Manager within 1 hour, with lead ID matched, and appears in Windsor under `actions_offline_conversion_purchase` for account 942706665029521.
