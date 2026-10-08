@@ -1,0 +1,303 @@
+{
+  "week": "2026-10-12",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-10-12",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "Substitute teacher rule: keep the routine. Ask parents for their dog's routine.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "Every *substitute* teacher knows this one.",
+          "sub": "Keep the routine. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Kids like a day they know.",
+          "body": "Same snack time. Same story. Same plan. A new face is easier when the day feels familiar."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Your dog has a day they know, too.",
+          "body": "Meals. Play. Rest. Bedtime. You know it by heart."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "So tell us the routine.",
+          "body": "When do they eat? When do they rest? What do they do before bed? Share it when you send your dates."
+        },
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "quote": "Love the personal attention to my two fur babies. What was so amazing is that they kept the regular schedules. Four Paws Inn is truly a second home.",
+          "name": "Sharon W."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Planning a trip?",
+          "title": "Tell us their *routine.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Every substitute teacher knows the secret. Keep the routine.\n\nKids like a day they know. Your dog has one too. Meals. Play. Rest. Bedtime.\n\nSo tell us yours. When do they eat? When do they rest? What do they do before bed?\n\nSharon wrote in her Google review: \"What was so amazing is that they kept the regular schedules.\"\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-12T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenPostId": "89720c76-f607-4247-88b7-b5b360283785"
+    },
+    {
+      "day": "Tue",
+      "date": "2026-10-13",
+      "format": "static",
+      "pillar": "Fun fact",
+      "angle": "Adult dogs have 42 teeth, puppies 28. Tie to Tuesday meet and greets.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "cream",
+          "kicker": "Fun fact",
+          "stat": "42",
+          "label": "teeth in a grown up *dog's* mouth.",
+          "vs": {
+            "value": "28",
+            "label": "That is how many baby teeth a puppy has."
+          },
+          "source": "AKC"
+        }
+      ],
+      "caption": "An adult dog has 42 teeth. A puppy has 28 baby teeth.\n\nThat is a lot of smile to meet.\n\nWant to meet us before you book? Meet and greets are on Tuesdays. Send us a message to set one up.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-10-13T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "d414540a-e611-4801-9069-17ff324ec353"
+    },
+    {
+      "day": "Wed",
+      "date": "2026-10-14",
+      "format": "static",
+      "pillar": "Review / proof",
+      "angle": "Cage free is a relief when you travel. Mark M.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "pink",
+          "head": "Cage free is a *relief.*",
+          "quote": "Clean and very organized. They take great care of my dog! ... knowing its cageless is such a relief when I have to go away!",
+          "name": "Mark M."
+        }
+      ],
+      "caption": "Mark said knowing his dog is cage free is such a relief when he has to go away.\n\nHere is what he wrote in his Google review.\n\nFour Paws Inn is cage free home boarding in Miramar. Your dog stays in a real home, not a kennel.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #CageFree #DogBoarding",
+      "scheduledAtIso": "2026-10-14T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/wed-01.png"
+      ],
+      "edenPostId": "ed99fe08-b67d-47d6-9591-06bb2d86bd55"
+    },
+    {
+      "day": "Thu",
+      "date": "2026-10-15",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "Why does my dog do that. Circling, kicking grass, whiskers. Save bait.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "kicker": "Dog behavior 101",
+          "title": "Why does my dog *do that?*",
+          "sub": "3 odd habits, explained. Save this one."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Spinning before bed.",
+          "body": "Many dogs circle before they lie down. AKC says it may be an old habit from wild ancestors who pressed down grass to make a bed.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Kicking the grass.",
+          "body": "It is not to hide the mess. AKC says it may leave a scent message for other dogs. Their paws have scent glands.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Those whiskers.",
+          "body": "They are sensors. AKC says whiskers can feel air move, which may tell a dog something is close before they touch it.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Why we care",
+          "title": "Knowing dogs is our *job.*",
+          "body": "We watch how each dog plays and rests. Tell us about yours.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Why does my dog do that?\n\n1. Spinning before bed. It may be an old habit from wild ancestors who pressed down grass to make a bed.\n2. Kicking the grass. It may leave a scent message. Dogs have scent glands in their paws.\n3. Whiskers. They can feel air move, which may warn a dog that something is close.\n\nSave this for the next time your dog does something odd.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogBehavior #MiramarDogs #DogBoarding",
+      "scheduledAtIso": "2026-10-15T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png"
+      ],
+      "edenPostId": "c43805c5-245e-49a1-a93b-c290c1c0ae2a"
+    },
+    {
+      "day": "Fri",
+      "date": "2026-10-16",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "Work trip guilt. Permission to go do the job.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "layout": "b",
+          "kicker": "For the working pet parent",
+          "title": "A work trip does not mean you *let them down.*",
+          "sub": "Daily photo and video updates are included. Go do the job."
+        }
+      ],
+      "caption": "Work trips are part of life. So is the guilt.\n\nBut doing your job does not mean you let your dog down. You are working so you can give them a good life.\n\nAt Four Paws Inn, daily photo and video updates are included. Check in. Smile. Get back to work.\n\nTraveling soon? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #WorkTravel",
+      "scheduledAtIso": "2026-10-16T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "8f93d965-5b64-439e-9f6d-f6edadaf025b"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-17",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "Trivia night facts. Greyhound stamina, third eyelid, puppies born deaf.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "pink",
+          "kicker": "Fun facts",
+          "title": "3 dog facts for your next *trivia* night.",
+          "sub": "All true. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "A Greyhound can keep up 35 mph.",
+          "body": "For about seven miles. A cheetah is faster, but only for about 30 seconds.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Dogs have a third eyelid.",
+          "body": "It makes about 30% of a dog's tears.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Puppies are born deaf.",
+          "body": "Their hearing comes in as they grow.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "charcoal",
+          "kicker": "One more thing",
+          "title": "Got a dog with *big* energy?",
+          "body": "Tell us how they play. We will tell you how we would plan their stay.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "3 dog facts for your next trivia night. All true.\n\n1. A Greyhound can keep up 35 mph for about seven miles.\n2. Dogs have a third eyelid. It makes about 30% of their tears.\n3. Puppies are born deaf.\n\nWhich one surprised you? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "scheduledAtIso": "2026-10-17T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png"
+      ],
+      "edenPostId": "6c6bd61c-6f58-4262-8d5a-c7167af827b0"
+    },
+    {
+      "day": "Sun",
+      "date": "2026-10-18",
+      "format": "static",
+      "pillar": "Review wall / proof",
+      "angle": "Dogs who had a blast. Three short quotes.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "title": "They had a *blast.*",
+          "quotes": [
+            {
+              "text": "My dog loves staying here... I can see her having the time of her life.",
+              "name": "Sean P."
+            },
+            {
+              "text": "Excellent care, great communication, and a loving team. My dog always enjoys his stay.",
+              "name": "Madelin E."
+            },
+            {
+              "text": "...they had a blast, they played and had fun with other doggies.",
+              "name": "Iris R."
+            }
+          ]
+        }
+      ],
+      "caption": "Will my dog have fun? Here is what pet parents told us.\n\nPlanning a trip? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-18T07:30:00-04:00",
+      "status": "scheduled",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "c4edb3aa-ffcf-4f5e-b36b-db34367d807f"
+    }
+  ],
+  "design": "brand v1: cream #FAF7F3, pink #E6A0A3, charcoal #353532"
+}
