@@ -92,3 +92,11 @@ Done when: one genuine Won shows in Events Manager within 1 hour with lead ID ma
 3. Stape free plan will not hold this setup. Decision: approve the cheapest paid tier. Expense category: business ads tools.
 
 Verify (Claude): the next genuine Won booking shows as a Purchase in Events Manager within 1 hour, with lead ID matched, and appears in Windsor under `actions_offline_conversion_purchase` for account 942706665029521.
+
+## Update 2026-10-09: Ripon reports lead ID LIVE
+
+Ripon (Oct 9, 7:45 PM): Purchase events now carry the Meta lead ID (from GHL contact), plus city, state, zip, country; action_source CRM; event ID = opportunity ID. Tested with Theo (Facebook instant form customer, $300): accepted by Meta, visible in Offline Conversion – FourPaws dataset with lead ID. Test mode off, server GTM published.
+
+Claude check (Windsor, Oct 9): Ads Manager shows 0 attributed purchases Oct 2 to 8. Expected: Theo's lead is older than the attribution window, and Dania ($230, Meta lead) is the first live Won after the update. Real proof = Dania's Purchase in Events Manager with lead ID, then attributed in Ads Manager within 1 to 2 days.
+
+Open: confirm Ripon restored Theo's "Meta Purchase Sent" protection flag after the test.
