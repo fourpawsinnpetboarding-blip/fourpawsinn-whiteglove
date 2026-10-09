@@ -11,6 +11,7 @@ Pixel conditioning means feeding Meta clean, true signals about who actually boo
 3. Same day. Never batch at the end of the week. Meta weighs fresh signals more.
 4. Only real bookings. Never mark a meet and greet, a maybe, or a test as Won. One fake Won teaches Meta the wrong customer.
 5. Lost leads: mark them Lost. That is a signal too.
+6. Repeat client: create a NEW opportunity for every booking (name it "Name Mon DD"). Never reopen or edit an old Won opportunity: each booking is sent to Meta once, keyed to its opportunity. GHL setting that allows this: Settings > Objects > Opportunities > "Allow more than one opportunity per contact in the same pipeline" (turned on Oct 9 2026).
 
 Ripon's setup sends every Won to Meta as a Purchase (dataset "Offline Conversion – FourPaws", ad account 942706665029521). After his lead ID update, bookings from Meta instant forms are credited to the exact ad that produced them.
 
