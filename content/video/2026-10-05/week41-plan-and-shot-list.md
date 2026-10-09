@@ -82,3 +82,10 @@ Rachel's reels cover noon Oct 6 to 9 and Claude's week starts Oct 12, so noon on
 ## Hours fix, Oct 9 2026
 
 Oct 12 noon reel (8391c1f0, W41-C1 drop off): end card and caption said "9 AM to 8 PM", now retired. End card re-rendered (only the last 4 seconds changed, audio and clips untouched) to "Drop off and pick up / 9 AM to 12 PM / 4 PM to 6:30 PM". Caption line now "Drop off and pick up times: 9 AM to 12 PM, or 4 PM to 6:30 PM." New media: d122e92d-72df-4b07-9791-56774e31fc8b.mp4. Same post ID and time, no duplicate. All 36 queued posts scanned: no other caption states the old hours.
+
+## Weekly run, Fri Oct 9 2026 (Claude)
+
+1. Board: one Request for Claude open, "Weekly GHL and booking numbers for the Monday scoreboard" (due Mon Oct 12, done then). No video Requests.
+2. Queue: Oct 12 to 18 noon reels already scheduled (8391c1f0, 7af0c70c, b24b8881, 95f2bbf2, 57bf8b55, d1e56526, 4afcdbf0). Oct 19 to 28 also filled. No new cuts needed this run.
+3. Oct 12 reel (8391c1f0): end card and both captions corrected to the new hours, 9 AM to 12 PM and 4 PM to 6:30 PM, seven days a week. Queue scanned: no other post uses the retired 9 AM to 8 PM window.
+4. Blocked: nothing.
