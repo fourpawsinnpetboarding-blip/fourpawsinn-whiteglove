@@ -100,3 +100,9 @@ Ripon (Oct 9, 7:45 PM): Purchase events now carry the Meta lead ID (from GHL con
 Claude check (Windsor, Oct 9): Ads Manager shows 0 attributed purchases Oct 2 to 8. Expected: Theo's lead is older than the attribution window, and Dania ($230, Meta lead) is the first live Won after the update. Real proof = Dania's Purchase in Events Manager with lead ID, then attributed in Ads Manager within 1 to 2 days.
 
 Open: confirm Ripon restored Theo's "Meta Purchase Sent" protection flag after the test.
+
+Claude check (Windsor GHL, Oct 9 01:49 UTC):
+- Dania (opp "Fabluc1", Facebook Lead Form, $230) Won Oct 9 01:01 UTC, Meta Purchase Sent = yes. GHL side fired.
+- Theo ($300) Meta Purchase Sent = yes, so the protection flag is back on. No double send risk.
+- Not sent: Rebecca ($360, Facebook Lead Form, Won Oct 4) and Kevin ($160, Facebook Lead Form, Won Sep 28) have no Meta Purchase Sent flag. They predate the rebuild. Ask Ripon to send Rebecca now while still inside Meta's 7 day window, and Kevin if Meta still accepts it.
+- Meta side: attribution check scheduled Oct 9 19:50 UTC (trig_012wbkMBKdxjqN7VMvG7kr17).
