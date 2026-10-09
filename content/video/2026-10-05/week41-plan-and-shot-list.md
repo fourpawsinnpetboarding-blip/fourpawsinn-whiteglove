@@ -78,3 +78,7 @@ Rachel's reels cover noon Oct 6 to 9 and Claude's week starts Oct 12, so noon on
 | Mon Oct 26 | cbcca856 (Rachel C4 drop off, sharp master) | Review badge on first 3 s; caption opens "Read this before your dog's drop off." |
 | Tue Oct 27 | b6ba9f2a (W41-C8) | Opens on the dog greeting, review badge |
 | Wed Oct 28 | 952601c1 (W41-C9) | Hook "Your dog's Sunday here", review badge |
+
+## Hours fix, Oct 9 2026
+
+Oct 12 noon reel (8391c1f0, W41-C1 drop off): end card and caption said "9 AM to 8 PM", now retired. End card re-rendered (only the last 4 seconds changed, audio and clips untouched) to "Drop off and pick up / 9 AM to 12 PM / 4 PM to 6:30 PM". Caption line now "Drop off and pick up times: 9 AM to 12 PM, or 4 PM to 6:30 PM." New media: d122e92d-72df-4b07-9791-56774e31fc8b.mp4. Same post ID and time, no duplicate. All 36 queued posts scanned: no other caption states the old hours.

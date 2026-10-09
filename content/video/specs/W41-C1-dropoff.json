@@ -30,9 +30,9 @@
  "end": {
   "dur": 4.0,
   "lines": [
-   "9 AM to 8 PM",
    "Drop off and pick up",
-   "Seven days a week"
+   "9 AM to 12 PM",
+   "4 PM to 6:30 PM"
   ]
  },
  "audio": "mute",

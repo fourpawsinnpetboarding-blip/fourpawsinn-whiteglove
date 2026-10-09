@@ -25,7 +25,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 
 ## Current operating hours
 
-- Drop-off and pick-up: 9:00 AM to 8:00 PM, seven days a week.
+- Drop-off and pick-up windows: 9:00 AM to 12:00 PM, and 4:00 PM to 6:30 PM (Alex, Oct 9, 2026). The old 9:00 AM to 8:00 PM window is retired: never use it in copy, captions, or video text.
 - Meet and greets: Tuesdays only, 9:00 AM to 7:00 PM (Alex, Oct 6, 2026). Never on weekends: they are the busiest days and new visitors unsettle dogs who just checked in. Old Monday and Wednesday times are retired.
 
 ## Current pricing
