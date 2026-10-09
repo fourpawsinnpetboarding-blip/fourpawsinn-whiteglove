@@ -106,3 +106,9 @@ Claude check (Windsor GHL, Oct 9 01:49 UTC):
 - Theo ($300) Meta Purchase Sent = yes, so the protection flag is back on. No double send risk.
 - Not sent: Rebecca ($360, Facebook Lead Form, Won Oct 4) and Kevin ($160, Facebook Lead Form, Won Sep 28) have no Meta Purchase Sent flag. They predate the rebuild. Ask Ripon to send Rebecca now while still inside Meta's 7 day window, and Kevin if Meta still accepts it.
 - Meta side: attribution check scheduled Oct 9 19:50 UTC (trig_012wbkMBKdxjqN7VMvG7kr17).
+
+## Dania $230 check in Ads Manager, Oct 9 2026 3:50 PM ET (Claude, Windsor)
+
+Pulled ad account 942706665029521, Oct 7 to 9, by ad: offline purchases 0, purchases 0, purchase value $0 on every ad. Leads are flowing (Oct 8: 5, Oct 9 so far: 1).
+Read: Dania's Won was sent (GHL flag yes) but no ad got credit. Expected: she was a returning lead from an older channel, far outside Ads Manager's 7 day click window, so Meta has nothing recent to attribute it to. Ads Manager showing 0 does not mean Meta never received it.
+Next: confirm receipt in Events Manager > dataset "Offline Conversion – FourPaws" > Overview, a Purchase event on Oct 9 (Alex, 1 minute, or ask Ripon for a screenshot). First true attribution test = the next Won from a lead that filled a form in the last 7 days.
