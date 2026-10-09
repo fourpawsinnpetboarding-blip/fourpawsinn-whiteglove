@@ -15,6 +15,7 @@
 // Source, GHL Sync Status), so moving a column does not break anything.
 // 3. Rows that are not ready show WAITING and list what is missing.
 // 4. A SYNCED row is never sent again by an edit (no duplicate Won in GHL).
+// 5. Only typing the rate, or finishing a WAITING row, sends. Old rows stay put.
 // One time setup: menu GoHighLevel Sync > Install automatic sync.
 // =====================================================
 
@@ -180,11 +181,17 @@ function fpiBookingSyncOnEdit(e) {
   if (sheet.getName() !== FPI_BOOKINGS_SHEET_) return;
   if (e.range.getRow() < 2) return;
 
-  const firstRow = e.range.getRow();
-  const lastRow = e.range.getLastRow();
+  // Only two things start a send: typing the daily rate (column D), or
+  // finishing a row that already says WAITING or ERROR. Editing notes or
+  // payment dates on an old row never sends it.
+  const touchesRate = e.range.getColumn() <= 4 && e.range.getLastColumn() >= 4;
+  const statusCol = fpiBookingCols_(sheet).status;
 
-  for (let row = firstRow; row <= lastRow; row++) {
-    fpiSyncBookingRow_(sheet, row, false);
+  for (let row = e.range.getRow(); row <= e.range.getLastRow(); row++) {
+    const status = String(sheet.getRange(row, statusCol).getValue()).trim();
+    if (touchesRate || status === "WAITING" || status === "ERROR") {
+      fpiSyncBookingRow_(sheet, row, false);
+    }
   }
 }
 

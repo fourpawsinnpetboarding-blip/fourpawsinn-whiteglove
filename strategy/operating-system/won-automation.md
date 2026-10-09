@@ -62,7 +62,7 @@ Script: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of 
 3. Amanda types the daily rate in D. The sheet's own formulas do the money math; the script never writes D to G. The row goes to GHL as Won.
    v2.1 (Oct 9, after Alex's screenshot): Bookings columns are found by header (actual layout: I Phone, J Owner Name, K Email, L Source, M GHL Sync Status, N GHL Contact ID), so moved columns cannot break it. Deposit is no longer required to send. Dates typed without a year (10/23) use the current year.
 4. Not ready: WAITING plus the missing fields in Q.
-5. SYNCED rows are never resent by an edit. Fixes go in GHL.
+5. SYNCED rows are never resent by an edit. Fixes go in GHL. Only typing the rate (D) or finishing a WAITING/ERROR row sends; editing notes or payment dates on old rows never sends.
 6. Phone only client with no intake form: Amanda types the row as before; owner, email, source still fill from any older form with that phone.
 7. Rule: never type a row by hand for a client whose intake row you mark YES. That makes two Wins.
 8. Each intake row creates one booking row only (stored in Script Properties).
