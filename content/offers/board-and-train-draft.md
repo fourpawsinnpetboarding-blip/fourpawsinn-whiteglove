@@ -12,7 +12,7 @@ Known facts: training.fourpawsinn.co is a 21 day program application page. Score
 - Weekly video updates of your dog's training
 - A go home session where we teach you the commands your dog learned: [length, in person]
 - [Follow up: one check in call at 2 weeks]
-**Who trains:** [Name and background of the trainer]
+**Who trains:** Decided Oct 9 (Alex): waitlist first. Today the offer stands on Alex and Amanda's 15 years with dogs. Collect a waitlist (no money taken). When the waitlist reaches [5] families, interview and hire a trainer, and have them ready before the first start date. Never name or describe a trainer we have not hired.
 **Price:** [$3,000] for 21 days. [Deposit to hold the start date: 25%, matching boarding.]
 **Spots:** [Number] dogs per month.
 
@@ -26,7 +26,7 @@ Known facts: training.fourpawsinn.co is a 21 day program application page. Score
 If they need to think: "Totally fair. Can I hold the date until [day after tomorrow]?"
 
 ## 3. First message to 10 past clients
-Hi [Name], it's Alex from Four Paws Inn 🐾 We're starting a 21 day Board and Train program, and we're offering it to our past families first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Would [dog name] be a good fit? I can tell you more.
+Hi [Name], it's Alex from Four Paws Inn. We're opening a waitlist for a new 21 day Board and Train program, and our past families hear about it first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Want me to save [dog name] a spot on the list? No payment to join.
 
 ## Notes for Alex
 - Picking the 10: dogs you already know, owners who mentioned pulling, jumping or recall, and clients who book long stays.
