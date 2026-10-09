@@ -34,3 +34,8 @@ Ripon's setup sends every Won to Meta as a Purchase (dataset "Offline Conversion
 ## Later (when leads pass about 200 a month for 2 months)
 
 Switch lead campaigns to optimize for Conversion leads, using these Won events. Until then, optimize for Maximize number of leads and use the Won data to judge which ads make money.
+
+## Log
+
+- 2026-10-09: "FPI Past Clients" customer list created in Ads Manager, 667 rows (all intake form owners, deduplicated). Label: General customers. Not attached to any ad set yet; add as audience suggestion at the Oct 17 review. Refresh quarterly (next: Jan 2027). Use for ad targeting only.
+- 2026-10-09: Ripon's lead ID update live. Dania ($230, Meta lead) first live Won sent. 5 missed bookings marked Won by Alex.
