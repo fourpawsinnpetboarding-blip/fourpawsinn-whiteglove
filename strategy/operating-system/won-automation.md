@@ -38,3 +38,12 @@ Ripon's setup then sends every Won to Meta as a Purchase automatically (lead ID 
 2. The same test row marked cancelled flips the opportunity to Lost.
 3. Editing the row again does not create a duplicate.
 4. The Monday scoreboard shows sheet deposits this week = GHL Won this week = Meta Purchases this week.
+
+## Diagnosis, Oct 9 2026 (Claude, from Alex's screenshots + GHL data)
+
+Path: Bookings tab (money tracker) > Apps Script fpiBookingSyncOnEdit > GHL inbound webhook > workflow "SYSTEM | Paid Booking Sync" (Create contact > Create or update opportunity > Add Tag). Script and workflow both run.
+
+Failure 1 (confirmed): "Create or update opportunity" UPDATES the contact's existing opportunity instead of creating a new one per booking. Example: Castro (Oreo) booked again, workflow ran Oct 8 12:35 PM, "Executed", but the only opportunity is the old Won one from June 22 (last updated Sep 22). No new Won, so no Meta Purchase. Every repeat client booking is lost this way.
+Fix: in that action, turn on "Allow duplicate opportunities" (possible since Oct 9, when per pipeline duplicates were enabled), status Won, value = inbound total_revenue, name = first name + pet + check in.
+
+Failure 2 (likely): the script silently skips any row missing one required field (pet, check in, check out, daily rate, total, deposit, owner, phone or email, source). No status is written, so nobody notices. Fix: script writes INCOMPLETE and the missing fields into the error column.
