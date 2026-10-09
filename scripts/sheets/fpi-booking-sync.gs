@@ -4,17 +4,23 @@
 // FPI_GHL_WEBHOOK_URL_ constant). The webhook URL is a secret: it stays
 // only in the live script, never in this repo.
 //
-// What v2 changes:
-// 1. Amanda types only: pet, check in, check out, daily rate, deposit, phone.
-//    Owner name, email and source fill themselves from the intake form,
-//    matched by phone number (most recent form wins).
-// 2. Rows that are not ready show WAITING and list what is missing.
-// 3. A SYNCED row is never sent again by an edit (no duplicate Won in GHL).
+// What v2 does:
+// 1. Amanda marks DEPOSIT = YES on the intake form sheet (she already does).
+//    The booking row appears on the Bookings tab by itself: pet, check in,
+//    check out, owner, phone, email, source, all copied from that form.
+// 2. Amanda types the daily rate in column D. That is her only typing.
+//    Total, deposit (25%) and balance fill in if they are blank, then the
+//    booking goes to GoHighLevel as Won.
+// 3. Rows that are not ready show WAITING and list what is missing.
+// 4. A SYNCED row is never sent again by an edit (no duplicate Won in GHL).
+// One time setup: menu GoHighLevel Sync > Install automatic sync.
 // =====================================================
 
 const FPI_BOOKINGS_SHEET_ = "Bookings";
 const FPI_INTAKE_SHEET_ID_ = "1XcK5fcBq2-jPJSDwbagVDhrpt-nhnsiEDzsYhPB8GBI";
 const FPI_INTAKE_TAB_ = "NEW ENGLISH FORMS";
+const FPI_MONEY_SHEET_ID_ = "1l865ufGEWsI9BjV2cLdZo-WuhHfM8vWnBUMnr01Zl9E";
+const FPI_DEPOSIT_SHARE_ = 0.25;
 const FPI_NO_SOURCE_ = "Not given";
 
 function onOpen() {
@@ -27,23 +33,118 @@ function onOpen() {
 }
 
 function installFpiBookingSyncTrigger() {
-  const exists = ScriptApp.getProjectTriggers().some(function(trigger) {
-    return trigger.getHandlerFunction() === "fpiBookingSyncOnEdit";
-  });
+  const triggers = ScriptApp.getProjectTriggers();
+  const has = function(handler) {
+    return triggers.some(function(trigger) {
+      return trigger.getHandlerFunction() === handler;
+    });
+  };
 
-  if (!exists) {
+  if (!has("fpiBookingSyncOnEdit")) {
     ScriptApp.newTrigger("fpiBookingSyncOnEdit")
-      .forSpreadsheet(SpreadsheetApp.getActive())
+      .forSpreadsheet(FPI_MONEY_SHEET_ID_)
+      .onEdit()
+      .create();
+  }
+
+  if (!has("fpiIntakeOnEdit")) {
+    ScriptApp.newTrigger("fpiIntakeOnEdit")
+      .forSpreadsheet(FPI_INTAKE_SHEET_ID_)
       .onEdit()
       .create();
   }
 
   SpreadsheetApp.getActive().toast(
-    exists ? "Automatic GoHighLevel sync was already installed." :
-      "Automatic GoHighLevel sync is now installed.",
+    "Automatic sync is on: intake YES creates the booking row, the rate sends it to GoHighLevel.",
     "Four Paws Inn",
-    5
+    8
   );
+}
+
+// Intake sheet: DEPOSIT changed to YES -> booking row on the Bookings tab.
+function fpiIntakeOnEdit(e) {
+  if (!e || !e.range) return;
+
+  const sheet = e.range.getSheet();
+  if (sheet.getName() !== FPI_INTAKE_TAB_) return;
+  if (e.range.getRow() < 2) return;
+
+  const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    .map(function(h) { return String(h).trim().toLowerCase(); });
+  const depositCol = headers.indexOf("deposit") + 1;
+  if (depositCol < 1) return;
+  if (depositCol < e.range.getColumn() || depositCol > e.range.getLastColumn()) return;
+
+  for (let row = e.range.getRow(); row <= e.range.getLastRow(); row++) {
+    const flag = String(sheet.getRange(row, depositCol).getValue()).trim().toUpperCase();
+    if (flag === "YES") fpiCreateBookingFromIntake_(sheet, headers, row);
+  }
+}
+
+function fpiCreateBookingFromIntake_(intakeSheet, headers, row) {
+  const values = intakeSheet.getRange(row, 1, 1, headers.length).getValues()[0];
+  const col = function(pattern) {
+    return headers.findIndex(function(h) { return pattern.test(h); });
+  };
+  const get = function(pattern) {
+    const i = col(pattern);
+    return i < 0 ? "" : values[i];
+  };
+
+  const phone = String(get(/phone/) || "").trim();
+  const stamp = get(/timestamp/);
+  const doneKey = "intake:" + (stamp instanceof Date ? stamp.getTime() : String(stamp)) +
+    ":" + fpiPhoneKey_(phone);
+
+  // Never create the same booking row twice (YES typed again, undo, etc).
+  const props = PropertiesService.getScriptProperties();
+  if (props.getProperty(doneKey)) return;
+
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    if (props.getProperty(doneKey)) return;
+
+    const bookings = SpreadsheetApp.openById(FPI_MONEY_SHEET_ID_)
+      .getSheetByName(FPI_BOOKINGS_SHEET_);
+    const target = fpiFirstEmptyBookingRow_(bookings);
+
+    const source = String(get(/hear about/) || "").trim() || FPI_NO_SOURCE_;
+    bookings.getRange(target, 1, 1, 3).setValues([[
+      String(get(/pet.s name/) || "").trim(),
+      fpiAsDate_(get(/check in/)),
+      fpiAsDate_(get(/check out/))
+    ]]);
+    bookings.getRange(target, 9, 1, 4).setValues([[
+      String(get(/owner/) || "").trim(),
+      phone,
+      String(get(/email/) || "").trim().toLowerCase(),
+      source
+    ]]);
+    bookings.getRange(target, 13).setValue("WAITING");
+    bookings.getRange(target, 17).setValue(
+      "Type the daily rate in D. Fix the dates here if they changed on the phone.");
+
+    props.setProperty(doneKey, String(target));
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+// First row from 2 down where pet name (A) is empty.
+function fpiFirstEmptyBookingRow_(sheet) {
+  const last = Math.max(sheet.getLastRow(), 2);
+  const pets = sheet.getRange(2, 1, last - 1, 1).getValues();
+  for (let i = 0; i < pets.length; i++) {
+    if (String(pets[i][0]).trim() === "") return i + 2;
+  }
+  return last + 1;
+}
+
+function fpiAsDate_(value) {
+  if (value instanceof Date && !isNaN(value)) return value;
+  const parsed = new Date(String(value || "").trim());
+  return isNaN(parsed) ? "" : parsed;
 }
 
 function fpiBookingSyncOnEdit(e) {
@@ -136,9 +237,30 @@ function fpiSyncBookingRow_(sheet, row, force) {
   const checkIn = values[1];
   const checkOut = values[2];
   const dailyRate = fpiMoney_(values[3]);
-  const totalRevenue = fpiMoney_(values[4]);
-  const deposit = fpiMoney_(values[5]);
-  const balance = fpiMoney_(values[6]);
+  let totalRevenue = fpiMoney_(values[4]);
+  let deposit = fpiMoney_(values[5]);
+  let balance = fpiMoney_(values[6]);
+
+  // Fill the money columns only when they are blank and not formulas.
+  const formulas = range.getFormulas()[0];
+  const datesOk = checkIn instanceof Date && checkOut instanceof Date &&
+    !isNaN(checkIn) && !isNaN(checkOut);
+  if (dailyRate > 0 && datesOk) {
+    if (!totalRevenue && !formulas[4]) {
+      // Days are counted on both ends: Oct 10 to Oct 11 = 2 days.
+      const days = Math.round((checkOut - checkIn) / 86400000) + 1;
+      totalRevenue = Math.max(days, 1) * dailyRate;
+      sheet.getRange(row, 5).setValue(totalRevenue);
+    }
+    if (!deposit && !formulas[5] && totalRevenue > 0) {
+      deposit = Math.round(totalRevenue * FPI_DEPOSIT_SHARE_ * 100) / 100;
+      sheet.getRange(row, 6).setValue(deposit);
+    }
+    if (!balance && !formulas[6] && totalRevenue > 0) {
+      balance = totalRevenue - deposit;
+      sheet.getRange(row, 7).setValue(balance);
+    }
+  }
   const notes = String(values[7] || "").trim();
 
   const checks = [

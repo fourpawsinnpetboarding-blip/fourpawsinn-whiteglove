@@ -53,14 +53,18 @@ Failure 2 (likely): the script silently skips any row missing one required field
 "SYSTEM | Paid Booking Sync" > Create or update opportunity: Allow duplicate opportunities ON, name now pet + check in. Saved and published. No fake test (every Won goes to Meta as a Purchase). Proof = next real booking row creates a NEW Won opportunity with Meta Purchase Sent = yes; Claude checks via Windsor. Rule until the script is patched: do not edit details on a SYNCED row (an edit resends it as a new booking).
 Open: script patch for INCOMPLETE rows and safe edits; cancelled/no show to Lost.
 
-## v2 script, Oct 9 2026 (Claude): Amanda types 6 things, the rest fills itself
+## v2 script, Oct 9 2026 (Claude): Amanda marks YES and types the rate
 
-Amanda's ask: stop typing owner name, email and source.
-Fix: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of the "Revenue Calculator" Apps Script.
-1. Amanda types: pet, check in, check out, daily rate, deposit, phone. Total and balance stay formulas.
-2. Script finds the newest intake form with the same phone (last 10 digits) and fills owner (I), email (K), source (L). Blank cells only. No form found: status WAITING, "type owner name in I".
-3. Not ready: status WAITING plus the missing fields in Q. Closes Failure 2.
-4. SYNCED rows are never resent by an edit. Fixes go in GHL. The menu "Sync selected booking now" still forces a resend (creates a second Won: use only if the first failed).
-5. Safe test: menu "Preview owner lookup (sends nothing)" on any row.
-6. The Intake tab and XLOOKUP plan is retired. Not needed.
-Still open: cancelled or no show to Lost. Full removal of the sheet step = deposits paid through a GHL payment link (GHL marks Won on payment). Zelle stays manual.
+Amanda's ask (via Alex): do as close to nothing as possible.
+Script: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of the "Revenue Calculator" Apps Script (money sheet).
+1. Amanda marks DEPOSIT = YES on the intake sheet, as today.
+2. The script creates the Bookings row itself: pet, check in, check out, owner, phone, email, source from that form. Status WAITING, note "type the daily rate".
+3. Amanda types the daily rate in D. Total (days counted on both ends), deposit (25%) and balance fill in when blank and not formulas. The row goes to GHL as Won.
+4. Not ready: WAITING plus the missing fields in Q.
+5. SYNCED rows are never resent by an edit. Fixes go in GHL.
+6. Phone only client with no intake form: Amanda types the row as before; owner, email, source still fill from any older form with that phone.
+7. Rule: never type a row by hand for a client whose intake row you mark YES. That makes two Wins.
+8. Each intake row creates one booking row only (stored in Script Properties).
+Why the rate stays manual: real rates vary (25, 50, 60, 75, 80, 120 a day in the May tracker) and the form's weight answer is free text.
+Next step to zero typing: deposits through a GHL payment link (GHL marks Won on payment). Zelle stays manual.
+Still open: cancelled or no show to Lost.
