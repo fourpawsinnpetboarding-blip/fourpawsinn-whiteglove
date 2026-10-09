@@ -47,3 +47,8 @@ Failure 1 (confirmed): "Create or update opportunity" UPDATES the contact's exis
 Fix: in that action, turn on "Allow duplicate opportunities" (possible since Oct 9, when per pipeline duplicates were enabled), status Won, value = inbound total_revenue, name = first name + pet + check in.
 
 Failure 2 (likely): the script silently skips any row missing one required field (pet, check in, check out, daily rate, total, deposit, owner, phone or email, source). No status is written, so nobody notices. Fix: script writes INCOMPLETE and the missing fields into the error column.
+
+## Fix applied, Oct 9 2026 (Alex)
+
+"SYSTEM | Paid Booking Sync" > Create or update opportunity: Allow duplicate opportunities ON, name now pet + check in. Saved and published. No fake test (every Won goes to Meta as a Purchase). Proof = next real booking row creates a NEW Won opportunity with Meta Purchase Sent = yes; Claude checks via Windsor. Rule until the script is patched: do not edit details on a SYNCED row (an edit resends it as a new booking).
+Open: script patch for INCOMPLETE rows and safe edits; cancelled/no show to Lost.
