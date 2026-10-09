@@ -40,3 +40,16 @@ Switch lead campaigns to optimize for Conversion leads, using these Won events. 
 
 - 2026-10-09: "FPI Past Clients" customer list created in Ads Manager, 667 rows (all intake form owners, deduplicated). Label: General customers. Not attached to any ad set yet; add as audience suggestion at the Oct 17 review. Refresh quarterly (next: Jan 2027). Use for ad targeting only.
 - 2026-10-09: Ripon's lead ID update live. Dania ($230, Meta lead) first live Won sent. 5 missed bookings marked Won by Alex.
+
+## The 7 day rule, explained (Oct 9 2026)
+
+FPI's sales cycle is long: over 90% of Meta leads book weeks or months after the form (Alex). That is fine. Two different 7 day limits exist:
+
+1. **Send fast.** Meta wants each event sent within about 7 days of when it happened (the deposit, not the lead). Fix: mark Won the day the deposit is paid. The automation in strategy/operating-system/won-automation.md makes this automatic.
+2. **Ads Manager's credit window.** Ads Manager's default view only credits a purchase to an ad if it happened within 7 days of the click. Long cycle bookings will look like "0 purchases" there. That is a reporting view, not reality. Fixes:
+   - The lead ID ties each booking to the original lead no matter how long it took (Meta's CRM lead tracking is built for long sales cycles).
+   - Claude measures revenue per ad ourselves on the Monday scoreboard, from GHL: each booked contact's first attribution ad, and the Won value. This does not depend on any Meta window.
+
+## Qualified lead stage (fast signal inside the window)
+
+Because bookings come late, Meta also needs a signal that comes early. A **Qualified lead** = the lead has a dog or cat in the service area, said yes to pricing on the form, AND had a real two way conversation (replied with dates, or a call). Mark the opportunity stage **Qualified** in GHL. Ripon to add: Qualified stage change sends a "QualifiedLead" CRM event to the same dataset with the lead ID. Meta then learns "people like this become real conversations" within days, and "people like this pay" months later.
