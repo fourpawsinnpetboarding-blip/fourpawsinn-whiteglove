@@ -69,3 +69,4 @@ Script: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of 
 Why the rate stays manual: real rates vary (25, 50, 60, 75, 80, 120 a day in the May tracker) and the form's weight answer is free text.
 Next step to zero typing: deposits through a GHL payment link (GHL marks Won on payment). Zelle stays manual.
 Still open: cancelled or no show to Lost.
+- 2026-10-09 12:24 PM ET: v2.1 pasted by Alex into Revenue Calculator > GHLBookingSync.gs. Both triggers live (fpiBookingSyncOnEdit on the money sheet, fpiIntakeOnEdit on the intake sheet), 0% error rate. Backup copy of the money sheet made first. Proof pending: first real YES row lands on Bookings, rate typed, M = SYNCED, new Won in GHL with Meta Purchase Sent = yes.
