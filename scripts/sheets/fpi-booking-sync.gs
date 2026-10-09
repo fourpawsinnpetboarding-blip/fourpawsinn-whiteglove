@@ -1,5 +1,5 @@
 // =====================================================
-// FOUR PAWS INN: BOOKINGS -> GOHIGHLEVEL  (v2, Oct 9 2026)
+// FOUR PAWS INN: BOOKINGS -> GOHIGHLEVEL  (v2.1, Oct 9 2026)
 // Paste this BELOW your existing lines 1 to 6 (the header and the
 // FPI_GHL_WEBHOOK_URL_ constant). The webhook URL is a secret: it stays
 // only in the live script, never in this repo.
@@ -9,8 +9,10 @@
 //    The booking row appears on the Bookings tab by itself: pet, check in,
 //    check out, owner, phone, email, source, all copied from that form.
 // 2. Amanda types the daily rate in column D. That is her only typing.
-//    Total, deposit (25%) and balance fill in if they are blank, then the
-//    booking goes to GoHighLevel as Won.
+//    The sheet's own formulas do the money math. The script never writes
+//    to the money columns (D to G). Then the booking goes to GHL as Won.
+// Columns are found by their header names (Phone, Owner Name, Email,
+// Source, GHL Sync Status), so moving a column does not break anything.
 // 3. Rows that are not ready show WAITING and list what is missing.
 // 4. A SYNCED row is never sent again by an edit (no duplicate Won in GHL).
 // One time setup: menu GoHighLevel Sync > Install automatic sync.
@@ -20,7 +22,6 @@ const FPI_BOOKINGS_SHEET_ = "Bookings";
 const FPI_INTAKE_SHEET_ID_ = "1XcK5fcBq2-jPJSDwbagVDhrpt-nhnsiEDzsYhPB8GBI";
 const FPI_INTAKE_TAB_ = "NEW ENGLISH FORMS";
 const FPI_MONEY_SHEET_ID_ = "1l865ufGEWsI9BjV2cLdZo-WuhHfM8vWnBUMnr01Zl9E";
-const FPI_DEPOSIT_SHARE_ = 0.25;
 const FPI_NO_SOURCE_ = "Not given";
 
 function onOpen() {
@@ -115,14 +116,13 @@ function fpiCreateBookingFromIntake_(intakeSheet, headers, row) {
       fpiAsDate_(get(/check in/)),
       fpiAsDate_(get(/check out/))
     ]]);
-    bookings.getRange(target, 9, 1, 4).setValues([[
-      String(get(/owner/) || "").trim(),
-      phone,
-      String(get(/email/) || "").trim().toLowerCase(),
-      source
-    ]]);
-    bookings.getRange(target, 13).setValue("WAITING");
-    bookings.getRange(target, 17).setValue(
+    const c = fpiBookingCols_(bookings);
+    bookings.getRange(target, c.owner).setValue(String(get(/owner/) || "").trim());
+    bookings.getRange(target, c.phone).setValue(phone);
+    bookings.getRange(target, c.email).setValue(String(get(/email/) || "").trim().toLowerCase());
+    bookings.getRange(target, c.source).setValue(source);
+    bookings.getRange(target, c.status).setValue("WAITING");
+    bookings.getRange(target, c.error).setValue(
       "Type the daily rate in D. Fix the dates here if they changed on the phone.");
 
     props.setProperty(doneKey, String(target));
@@ -143,8 +143,34 @@ function fpiFirstEmptyBookingRow_(sheet) {
 
 function fpiAsDate_(value) {
   if (value instanceof Date && !isNaN(value)) return value;
-  const parsed = new Date(String(value || "").trim());
-  return isNaN(parsed) ? "" : parsed;
+  const text = String(value || "").trim();
+  // "10/23" typed without a year: use this year.
+  const short = text.match(/^(\d{1,2})\/(\d{1,2})$/);
+  if (short) {
+    return new Date(new Date().getFullYear(), Number(short[1]) - 1, Number(short[2]));
+  }
+  const parsed = new Date(text);
+  return text && !isNaN(parsed) ? parsed : "";
+}
+
+// Finds the Bookings columns by header name. Falls back to the old positions.
+function fpiBookingCols_(sheet) {
+  const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    .map(function(h) { return String(h).trim().toLowerCase(); });
+  const find = function(pattern, fallback) {
+    const i = headers.findIndex(function(h) { return pattern.test(h); });
+    return i < 0 ? fallback : i + 1;
+  };
+  return {
+    phone: find(/phone/, 10),
+    owner: find(/owner/, 9),
+    email: find(/email/, 11),
+    source: find(/source/, 12),
+    status: find(/sync status/, 13),
+    lastSynced: find(/last sync/, 16),
+    error: find(/error/, 17),
+    key: find(/key/, 18)
+  };
 }
 
 function fpiBookingSyncOnEdit(e) {
@@ -153,7 +179,6 @@ function fpiBookingSyncOnEdit(e) {
   const sheet = e.range.getSheet();
   if (sheet.getName() !== FPI_BOOKINGS_SHEET_) return;
   if (e.range.getRow() < 2) return;
-  if (e.range.getColumn() > 18 || e.range.getLastColumn() < 1) return;
 
   const firstRow = e.range.getRow();
   const lastRow = e.range.getLastRow();
@@ -179,7 +204,7 @@ function syncSelectedBookingToGhl() {
 function fpiPreviewLookupSelectedRow() {
   const sheet = SpreadsheetApp.getActiveSheet();
   const row = sheet.getActiveRange().getRow();
-  const phone = String(sheet.getRange(row, 10).getValue() || "");
+  const phone = String(sheet.getRange(row, fpiBookingCols_(sheet).phone).getValue() || "");
   const match = fpiFindIntakeByPhone_(phone);
 
   SpreadsheetApp.getUi().alert(
@@ -191,18 +216,21 @@ function fpiPreviewLookupSelectedRow() {
 }
 
 function fpiSyncBookingRow_(sheet, row, force) {
-  const range = sheet.getRange(row, 1, 1, 18);
-  const values = range.getValues()[0];
+  const c = fpiBookingCols_(sheet);
+  const width = Math.max(c.phone, c.owner, c.email, c.source, c.status,
+    c.lastSynced, c.error, c.key, 8);
+  const values = sheet.getRange(row, 1, 1, width).getValues()[0];
+  const v = function(column) { return values[column - 1]; };
 
   const petName = String(values[0] || "").trim();
-  const phone = String(values[9] || "").trim();
+  const phone = String(v(c.phone) || "").trim();
   if (!petName && !phone) return;
 
-  const previousStatus = String(values[12] || "").trim();
-  const statusCell = sheet.getRange(row, 13);
-  const lastSyncedCell = sheet.getRange(row, 16);
-  const errorCell = sheet.getRange(row, 17);
-  const keyCell = sheet.getRange(row, 18);
+  const previousStatus = String(v(c.status) || "").trim();
+  const statusCell = sheet.getRange(row, c.status);
+  const lastSyncedCell = sheet.getRange(row, c.lastSynced);
+  const errorCell = sheet.getRange(row, c.error);
+  const keyCell = sheet.getRange(row, c.key);
 
   // Already in GHL: an edit never creates a second Won.
   if (!force && previousStatus === "SYNCED") {
@@ -212,55 +240,34 @@ function fpiSyncBookingRow_(sheet, row, force) {
 
   // Auto fill owner, email and source from the intake form by phone.
   // Only blank cells are filled. What Amanda types always wins.
-  let ownerName = String(values[8] || "").trim();
-  let email = String(values[10] || "").trim().toLowerCase();
-  let source = String(values[11] || "").trim();
+  let ownerName = String(v(c.owner) || "").trim();
+  let email = String(v(c.email) || "").trim().toLowerCase();
+  let source = String(v(c.source) || "").trim();
 
   if (phone && (!ownerName || !email || !source)) {
     const match = fpiFindIntakeByPhone_(phone);
     if (match) {
       if (!ownerName && match.owner) {
         ownerName = match.owner;
-        sheet.getRange(row, 9).setValue(ownerName);
+        sheet.getRange(row, c.owner).setValue(ownerName);
       }
       if (!email && match.email) {
         email = match.email;
-        sheet.getRange(row, 11).setValue(email);
+        sheet.getRange(row, c.email).setValue(email);
       }
       if (!source) {
         source = match.source || FPI_NO_SOURCE_;
-        sheet.getRange(row, 12).setValue(source);
+        sheet.getRange(row, c.source).setValue(source);
       }
     }
   }
 
-  const checkIn = values[1];
-  const checkOut = values[2];
+  const checkIn = fpiAsDate_(values[1]);
+  const checkOut = fpiAsDate_(values[2]);
   const dailyRate = fpiMoney_(values[3]);
-  let totalRevenue = fpiMoney_(values[4]);
-  let deposit = fpiMoney_(values[5]);
-  let balance = fpiMoney_(values[6]);
-
-  // Fill the money columns only when they are blank and not formulas.
-  const formulas = range.getFormulas()[0];
-  const datesOk = checkIn instanceof Date && checkOut instanceof Date &&
-    !isNaN(checkIn) && !isNaN(checkOut);
-  if (dailyRate > 0 && datesOk) {
-    if (!totalRevenue && !formulas[4]) {
-      // Days are counted on both ends: Oct 10 to Oct 11 = 2 days.
-      const days = Math.round((checkOut - checkIn) / 86400000) + 1;
-      totalRevenue = Math.max(days, 1) * dailyRate;
-      sheet.getRange(row, 5).setValue(totalRevenue);
-    }
-    if (!deposit && !formulas[5] && totalRevenue > 0) {
-      deposit = Math.round(totalRevenue * FPI_DEPOSIT_SHARE_ * 100) / 100;
-      sheet.getRange(row, 6).setValue(deposit);
-    }
-    if (!balance && !formulas[6] && totalRevenue > 0) {
-      balance = totalRevenue - deposit;
-      sheet.getRange(row, 7).setValue(balance);
-    }
-  }
+  const totalRevenue = fpiMoney_(values[4]);
+  const deposit = fpiMoney_(values[5]);
+  const balance = fpiMoney_(values[6]);
   const notes = String(values[7] || "").trim();
 
   const checks = [
@@ -269,9 +276,8 @@ function fpiSyncBookingRow_(sheet, row, force) {
     ["check out", checkOut instanceof Date && !isNaN(checkOut)],
     ["daily rate", dailyRate > 0],
     ["total", totalRevenue > 0],
-    ["deposit", deposit > 0],
     ["phone", phone || email],
-    ["owner name (no intake form for this phone, type it in I)", ownerName]
+    ["owner name (no intake form for this phone, type it in Owner Name)", ownerName]
   ];
   const missing = checks
     .filter(function(check) { return !check[1]; })
@@ -421,3 +427,4 @@ function fpiBookingKey_(payload) {
     .replace(/=+$/, "")
     .substring(0, 24);
 }
+// END OF SCRIPT v2.1 (if you see this line in Apps Script, the paste is complete)

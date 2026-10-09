@@ -59,7 +59,8 @@ Amanda's ask (via Alex): do as close to nothing as possible.
 Script: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of the "Revenue Calculator" Apps Script (money sheet).
 1. Amanda marks DEPOSIT = YES on the intake sheet, as today.
 2. The script creates the Bookings row itself: pet, check in, check out, owner, phone, email, source from that form. Status WAITING, note "type the daily rate".
-3. Amanda types the daily rate in D. Total (days counted on both ends), deposit (25%) and balance fill in when blank and not formulas. The row goes to GHL as Won.
+3. Amanda types the daily rate in D. The sheet's own formulas do the money math; the script never writes D to G. The row goes to GHL as Won.
+   v2.1 (Oct 9, after Alex's screenshot): Bookings columns are found by header (actual layout: I Phone, J Owner Name, K Email, L Source, M GHL Sync Status, N GHL Contact ID), so moved columns cannot break it. Deposit is no longer required to send. Dates typed without a year (10/23) use the current year.
 4. Not ready: WAITING plus the missing fields in Q.
 5. SYNCED rows are never resent by an edit. Fixes go in GHL.
 6. Phone only client with no intake form: Amanda types the row as before; owner, email, source still fill from any older form with that phone.
