@@ -52,3 +52,15 @@ Failure 2 (likely): the script silently skips any row missing one required field
 
 "SYSTEM | Paid Booking Sync" > Create or update opportunity: Allow duplicate opportunities ON, name now pet + check in. Saved and published. No fake test (every Won goes to Meta as a Purchase). Proof = next real booking row creates a NEW Won opportunity with Meta Purchase Sent = yes; Claude checks via Windsor. Rule until the script is patched: do not edit details on a SYNCED row (an edit resends it as a new booking).
 Open: script patch for INCOMPLETE rows and safe edits; cancelled/no show to Lost.
+
+## v2 script, Oct 9 2026 (Claude): Amanda types 6 things, the rest fills itself
+
+Amanda's ask: stop typing owner name, email and source.
+Fix: `scripts/sheets/fpi-booking-sync.gs`, pasted under the webhook lines of the "Revenue Calculator" Apps Script.
+1. Amanda types: pet, check in, check out, daily rate, deposit, phone. Total and balance stay formulas.
+2. Script finds the newest intake form with the same phone (last 10 digits) and fills owner (I), email (K), source (L). Blank cells only. No form found: status WAITING, "type owner name in I".
+3. Not ready: status WAITING plus the missing fields in Q. Closes Failure 2.
+4. SYNCED rows are never resent by an edit. Fixes go in GHL. The menu "Sync selected booking now" still forces a resend (creates a second Won: use only if the first failed).
+5. Safe test: menu "Preview owner lookup (sends nothing)" on any row.
+6. The Intake tab and XLOOKUP plan is retired. Not needed.
+Still open: cancelled or no show to Lost. Full removal of the sheet step = deposits paid through a GHL payment link (GHL marks Won on payment). Zelle stays manual.
