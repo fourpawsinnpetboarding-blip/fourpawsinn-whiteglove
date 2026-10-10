@@ -40,3 +40,8 @@ No rush at all. Whenever you have dates in mind, you can send them here and I'll
 ## Example (Giselle Castro, selective, Oct 10)
 
 Hi Giselle, it's Amanda from Four Paws Inn! Got your form. What's your pup's name, and who do they usually get along with?
+
+## Build status (Oct 10 2026)
+
+Built by Codex in workflow "FPI Future Travel Conversion": DATES MISSING branch runs "Personalize Meta first text by dog sociability" into Friendly, Selective and Anything else approved openers, then a 3 hour reply wait and an approved no reply follow up. The 90 second wait lives in "Meta Lead Timeline Router".
+DATES KNOWN branch keeps its own opener, unchanged by Alex's choice (Oct 10): "Hi {first name}, it's Amanda from Four Paws Inn. I saw you're planning to be away from {arrival} to {departure}. Is this your dog's first time boarding? You can also send your dates here {link}". Alex: "it shows we read it."
