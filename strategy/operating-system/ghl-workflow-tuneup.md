@@ -126,3 +126,9 @@ Claude review notes: the ghost private-suite SMS says four summer spots have ope
 - Edit workflows as a copy or in draft first. Publish the change only after the copy file is approved in this repo.
 - Never trigger a send to a live list (CLAUDE.md rule 4). Test on the "TEST Google Timestamp Validation" contact.
 
+
+## Billing audit, Oct 10 2026 (Alex + Claude)
+
+Two GoHighLevel subscriptions found, $97 each:
+1. KEEP: Amanda's agency account, billed the 28th, holds the live Four Paws Inn sub-account (location X6z5pwEuIxkAbcCUQ0Nv, the one Windsor, the booking sync and Meta tracking use). Card moved to the State Farm Visa on Oct 10.
+2. CANCEL: second agency subscription on Alex's Amex, billed the 8th, statement "HIGHLEVEL AGENCY SUB". Not connected to anything live. Alex to ask GHL support to cancel and refund duplicate months. Verify no HighLevel charge on the Amex on Nov 8.
