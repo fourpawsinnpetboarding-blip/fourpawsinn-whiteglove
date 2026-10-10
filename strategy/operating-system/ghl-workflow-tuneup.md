@@ -131,4 +131,4 @@ Claude review notes: the ghost private-suite SMS says four summer spots have ope
 
 Two GoHighLevel subscriptions found, $97 each:
 1. KEEP: Amanda's agency account, billed the 28th, holds the live Four Paws Inn sub-account (location X6z5pwEuIxkAbcCUQ0Nv, the one Windsor, the booking sync and Meta tracking use). Card moved to the State Farm Visa on Oct 10.
-2. CANCEL: second agency subscription on Alex's Amex, billed the 8th, statement "HIGHLEVEL AGENCY SUB". Not connected to anything live. Alex to ask GHL support to cancel and refund duplicate months. Verify no HighLevel charge on the Amex on Nov 8.
+2. CANCEL: old account under the same login (fourpawsinnpetboarding@gmail.com, top entry on the account chooser), sub-account "BAD four paws inn OLD", location CvxfgsvBAS6H9SDgJhns, empty (no data, generic pipeline). Billed $97 on the 8th to Alex's Amex, statement "HIGHLEVEL AGENCY SUB". Login has no agency view, so billing cannot be cancelled from the UI: GHL support must cancel. Alex to ask GHL support to cancel and refund duplicate months. Verify no HighLevel charge on the Amex on Nov 8.
