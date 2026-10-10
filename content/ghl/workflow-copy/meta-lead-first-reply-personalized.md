@@ -1,60 +1,42 @@
-# Meta lead first text, personalized (DRAFT, needs Alex approval before it goes live)
+# Meta lead first text, personalized (v2, Oct 10 2026)
 
-Problem (Alex, Oct 10 2026, Giselle Castro lead): the first text reads automated. It ignores what the lead just told us: dog size, how the dog does with other dogs, and timeline.
+Status: DRAFT, waiting on Alex's final yes, then Codex builds it.
 
-Fix: one prewritten text built from approved lines. GHL picks the right line from the form answers. No AI writes or sends anything (business-facts rule). No dashes, no emojis, no opt out line.
+Problem (Alex, Oct 10, Giselle Castro lead): the first text reads automated. It ignores what the lead told us, and it is long.
 
-## How to build it in GHL (one time, about 20 minutes, Codex or Alex)
+Rules from Alex (Oct 10):
+1. Short. Long texts feel automated.
+2. Ask for the pup's name. It is the most human question we can ask.
+3. Do not change the Meta intake form.
+4. Send after a delay, about 1 to 2 minutes, never instantly.
 
-In the workflow that sends the first Meta lead text (Meta Lead Timeline Router):
-1. Create 3 contact custom fields (single line text): `reply_dog_line`, `reply_price_line`, `reply_timeline_line`.
-2. Add 3 small If/Else blocks before the text. Each one sets one field with **Update Contact Field**, using the lines below.
-3. Replace the current first text with the template below.
-4. Test on the TEST contact only.
+Why a question and no link in text 1: a question gets a reply. A real reply moves the lead to Qualified, which sends the QualifiedLead signal to Meta. A link makes the text look like a bot.
 
-## The template
+No dashes, no emojis, no opt out line. Prewritten only, no AI writes or sends (business-facts rule).
 
-```
-Hi {{contact.first_name}}, it's Amanda from Four Paws Inn. Thanks for filling out our form!
+## Text 1 (wait 90 seconds after the form, then send)
 
-{{contact.reply_dog_line}}
+Pick by "How does your dog do around other dogs?":
 
-{{contact.reply_price_line}}
-
-{{contact.reply_timeline_line}} {{booking link}}
-```
-
-## Lines (pick by form answer)
-
-**How does your dog do around other dogs?**
-| Answer | reply_dog_line |
+| Answer | Text |
 |---|---|
-| Friendly / loves dogs | Sounds like your pup is a social one. They will have friends to play with here and a big backyard to run in. |
-| Selective / depends | You said your pup can be picky with other dogs. That really helps us. Tell me a little about who they get along with, so we can plan their stay. |
-| Not good with other dogs | Thank you for being honest that your pup does not love other dogs. Tell me a little more about them, and I will let you know the best option for their stay. |
+| Friendly / loves dogs | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. What's your pup's name, and who do they usually get along with? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. What's your pup's name? Tell me a little about them. |
 
-**What size is your dog?**
-| Answer | reply_price_line |
-|---|---|
-| Under 50 lbs | Dogs under 50 lb are $60 a day. |
-| Over 50 lbs | Dogs over 50 lb are $75 a day. |
+## Text 2 (only if no reply after 3 hours, sent between 9 AM and 7 PM)
 
-**How soon do you need boarding?**
-| Answer | reply_timeline_line |
-|---|---|
-| Soon / within 2 weeks | When is your trip? Send me your dates and I will check our openings today: |
-| Future trip / not sure yet | No rush. When you have a trip in mind, send me your dates here: |
+No rush at all. Whenever you have dates in mind, you can send them here and I'll check our openings: {{booking link}}
 
-## Example (Giselle Castro, Oct 10)
+## Build steps (GHL, Meta Lead Timeline Router or the workflow that sends the first Meta text)
 
-Hi Giselle, it's Amanda from Four Paws Inn. Thanks for filling out our form!
+1. Remove the current first text.
+2. Add Wait: 90 seconds.
+3. Add If/Else on the "How does your dog do around other dogs?" answer, three branches, each sending its Text 1.
+4. After each branch: Wait for reply, up to 3 hours. If replied, stop (Alex or Amanda takes over). If not, send Text 2 inside 9 AM to 7 PM.
+5. Keep the Reply Kill Switch filter (a message containing "I filled out your form" is not a reply).
+6. Test on the TEST contact only. Never text a real lead as a test.
 
-You said your pup can be picky with other dogs. That really helps us. Tell me a little about who they get along with, so we can plan their stay.
+## Example (Giselle Castro, selective, Oct 10)
 
-Dogs under 50 lb are $60 a day.
-
-No rush. When you have a trip in mind, send me your dates here: [link]
-
-## Next upgrade
-
-Add one question to the Meta instant form: "What's your dog's name?" Then line 1 becomes "Thanks for telling us about {{contact.dog_name}}!" The name is the strongest signal that a person read the form.
+Hi Giselle, it's Amanda from Four Paws Inn! Got your form. What's your pup's name, and who do they usually get along with?
