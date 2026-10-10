@@ -1,6 +1,6 @@
 # Meta lead first text, personalized (v2, Oct 10 2026)
 
-Status: DRAFT, waiting on Alex's final yes, then Codex builds it.
+Status: APPROVED by Alex, Oct 10 2026. Codex builds it.
 
 Problem (Alex, Oct 10, Giselle Castro lead): the first text reads automated. It ignores what the lead told us, and it is long.
 
