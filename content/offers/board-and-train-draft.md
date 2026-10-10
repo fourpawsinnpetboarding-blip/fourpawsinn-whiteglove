@@ -54,6 +54,6 @@ Competitors board in kennels. We are cage free home boarding with daily video up
 3. **Daily plan:** 3 short sessions a day (morning, midday, evening, about 15 minutes each), built into the normal boarding day.
 4. **The 5 skills:** loose leash walking, sit and down with a stay, come when called, place (go to bed and stay), polite greetings (no jumping).
 5. **Included:** 14 days of cage free boarding, daily training videos, a 1 hour go home lesson at pick up, written notes on the commands, and 2 follow up check ins (2 weeks and 30 days after).
-6. **Price:** standard $2,900 (matches the market leader). Founding price for the first 5 waitlist families: $2,500. Deposit 25 percent to hold the start date, same as boarding.
-7. **Math:** 14 days of boarding alone is $840 at $60 a day. At $2,500 the same dog brings in about 3 times the revenue. Trainer cost at about $40 an hour for 45 minutes a day over 14 days is about $420 plus the go home lesson.
+6. **Price (Alex, Oct 10: go premium, it is a luxury stay):** standard **$3,500** for 2 weeks, the top of the local market, because competitors board in kennels and we are a cage free luxury home stay. Founding price for the first 5 waitlist families: **$2,900**, which equals the kennel competitor's standard price. Deposit 25 percent to hold the start date, same as boarding.
+7. **Math:** 14 days of boarding alone is $840 at $60 a day. At $3,500 the same dog brings in about 4 times the revenue ($2,900 founding: about 3.5 times). Trainer cost at about $40 an hour for 45 minutes a day over 14 days is about $420 plus the go home lesson.
 8. **No result guarantees** in any copy. Describe the process and what is included.
