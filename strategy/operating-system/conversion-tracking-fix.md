@@ -121,3 +121,11 @@ Open: Four Paws Inn admin account shows "Passkey not turned on" (turn on passkey
 ## Stape upgraded to Pro, Oct 10 2026 (Alex)
 
 Container "forpaws server" (GTM-WRWT22H3) moved from Free to Pro, $20/month, billed monthly to Four Paws Inn LLC on Alex's card. Why: Free caps at 10,000 requests a month; usage was 5,453 about 5 days into the cycle (about 1,000 a day), so the cap would hit around Oct 14 and stop Won events reaching Meta. Pro also unlocks the logs Ripon needs. Auto-upgrade left OFF. Review annual billing (saves $40/yr) in Dec or Jan once tracking is proven.
+
+## Ripon delivery report, Oct 10 2026
+
+1. QualifiedLead live: fires when an opportunity enters (or is created in) the Qualified stage, to Offline Conversion- FourPaws, CRM event from GoHighLevel, with lead ID (unhashed) plus hashed email, phone, name, zip, country, contact ID. No value. Own workflow and server tag; Purchase untouched. Ripon verified a 200 "events received" response (video).
+2. Dania $230: Purchase fired Oct 8, webhook delivered.
+3. Rebecca $360 (Won Oct 4): Purchase sent manually with original date, value, lead ID.
+4. Kevin $160 (Won Sep 28): sent. Open question: event older than 7 days, confirm Meta accepted it.
+Verification still owed (Alex/Claude): QualifiedLead visible in Events Manager for the dataset; first real Qualified move shows up; Monday scoreboard Won vs Purchases match. Optimization stays on Maximize number of leads until about 200 leads a month (blueprint decision).
