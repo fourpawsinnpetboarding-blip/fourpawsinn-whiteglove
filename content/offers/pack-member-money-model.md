@@ -25,15 +25,15 @@ Founding families (first 5): training at $150 a day instead of $175.
 5. 2 follow up check ins (2 weeks and 30 days after).
 6. **Pack Member status for 12 months** (below).
 
-**Who it is for:** dogs who pull, jump, or do not come when called, and puppies who are old enough to board (minimum age: Alex to set). Not for bite history or aggression.
+**Who it is for:** dogs who pull, jump, or do not come when called, and puppies 16 weeks and older with current vaccines. Not for bite history or aggression.
 
 ## 2. Pack Member perks (the reason they come back)
 
 For 12 months after graduation:
 1. **Priority booking:** members book holiday dates before we open them to the public.
-2. **Holiday rate lock:** holiday stays at the normal daily rate, no holiday pricing. (Alex: confirm today's holiday rate so we can show the savings.)
+2. **Holiday rate lock:** holiday stays at the normal daily rate. Non members pay +$15 a day on peak holidays.
 3. **Refresher sessions:** one free training refresher on every future stay.
-4. **Member deals:** for example buy 3 nights, get 1 free, once a quarter; a free night on the dog's birthday stay.
+4. **Member deals:** every 10th night free, and a free night on the dog's birthday stay.
 5. **Pack Member badge** on the dog's profile and a graduation photo for the owner.
 
 Protect capacity: priority booking means members book first, not unlimited spots. Holiday spots for members are held only when booked at least 30 days ahead. Never promise "we will always have a spot" in copy.
@@ -68,9 +68,9 @@ Free Manners Report Card (attraction) -> Pack Member Board and Train, $3,290 to 
 
 10 programs a month at about $3,400 average = about $34,000, plus boarding. Banked nights add cash up front. Pack Members fill holidays at the normal rate first.
 
-## Open decisions for Alex
-1. Training add on per day: $175 (as above) or $170.
-2. Today's holiday rate (to show the savings).
-3. Minimum puppy age.
-4. Member deal list (keep or change the examples).
-5. Approve the copy rules: no result promises, no "always a spot" promise.
+## Decisions (Claude recommended, Alex said "what you think is best", Oct 10 2026)
+1. Training add on: **$175 a day.** Round number, lands the over 50 lb dog at exactly $3,500, premium position.
+2. Holiday rate: **+$15 a day for non members** on peak holidays (Thanksgiving week, Dec 20 to Jan 3, Memorial Day, July 4, Labor Day weekends). Pack Members pay the normal rate. Needs Alex's final yes before it goes in any copy, since it changes pricing for every client.
+3. Minimum puppy age: **16 weeks**, after the core puppy shots. Vaccines must be current (existing rule).
+4. Member deals: **every 10th night free** plus **a free night on the dog's birthday stay.** Simple, cheap, drives repeat stays. Replaces "buy 3 get 1".
+5. Copy rules stand: no training result promises, no "always a spot" promise.
