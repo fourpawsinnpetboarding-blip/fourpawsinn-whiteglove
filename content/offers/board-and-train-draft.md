@@ -26,8 +26,34 @@ Known facts: training.fourpawsinn.co is a 21 day program application page. Score
 If they need to think: "Totally fair. Can I hold the date until [day after tomorrow]?"
 
 ## 3. First message to 10 past clients
-Hi [Name], it's Alex from Four Paws Inn. We're opening a waitlist for a new 21 day Board and Train program, and our past families hear about it first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Want me to save [dog name] a spot on the list? No payment to join.
+Hi [Name], it's Alex from Four Paws Inn. We're opening a waitlist for a new 2 week Board and Train program, and our past families hear about it first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Want me to save [dog name] a spot on the list? No payment to join.
 
 ## Notes for Alex
 - Picking the 10: dogs you already know, owners who mentioned pulling, jumping or recall, and clients who book long stays.
 - Do not send to a GHL list. Send one by one from your phone or GHL conversations (human sent).
+
+
+## Competitor research and recommended plan (Claude, Oct 10 2026)
+
+### What the local market sells (Miramar, Pembroke Pines, Broward)
+| Trainer | Program | Price | Notes |
+|---|---|---|---|
+| South Florida Dog Trainers (Off Leash style, serves Miramar and Pembroke Pines) | 2 week Board and Train | $2,900 | Lifetime support |
+| Unleash'd K9, Pembroke Pines | Board and Train | from $3,500 | Length not shown |
+| Suburban K9, Pembroke Pines | 1, 2 or 3 week Board and Train, their most popular program | Training rate plus $95 a day boarding | Pick up, drop off, 1 to 2 follow up lessons at home. Basic obedience: heel, sit, down, stay, come |
+| Regional estimate (Petworks) | Board and Train | $1,700 to $3,200 | |
+Most programs are 2 weeks. The most requested problems: leash pulling, jumping, not coming when called, and puppy manners. Reactivity and aggression are sold as separate specialist programs.
+Sources: southfloridadogtrainers.com, unleashdk9.com/dog-training-pembroke-pines, suburban-k9.com/pembroke-pines-dog-training, suburban-k9.com/financing, suburban-k9.com/training-contract, petworks.com.
+
+### Our edge
+Competitors board in kennels. We are cage free home boarding with daily video updates, 215+ Google reviews, and 667 past clients who already trust us.
+
+### Recommended offer (Alex to confirm)
+1. **One program, 2 weeks.** Matches the market norm, an easier yes than 3 weeks, and less trainer cost.
+2. **Who it is for:** dogs who pull on the leash, jump on people, or do not come when called. Not for bite history or serious aggression: refer those out.
+3. **Daily plan:** 3 short sessions a day (morning, midday, evening, about 15 minutes each), built into the normal boarding day.
+4. **The 5 skills:** loose leash walking, sit and down with a stay, come when called, place (go to bed and stay), polite greetings (no jumping).
+5. **Included:** 14 days of cage free boarding, daily training videos, a 1 hour go home lesson at pick up, written notes on the commands, and 2 follow up check ins (2 weeks and 30 days after).
+6. **Price:** standard $2,900 (matches the market leader). Founding price for the first 5 waitlist families: $2,500. Deposit 25 percent to hold the start date, same as boarding.
+7. **Math:** 14 days of boarding alone is $840 at $60 a day. At $2,500 the same dog brings in about 3 times the revenue. Trainer cost at about $40 an hour for 45 minutes a day over 14 days is about $420 plus the go home lesson.
+8. **No result guarantees** in any copy. Describe the process and what is included.
