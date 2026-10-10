@@ -117,3 +117,7 @@ Next: confirm receipt in Events Manager > dataset "Offline Conversion – FourPa
 
 Ripon had dropped off Business Settings > People. Re-invited riponbd2543@gmail.com (shows as Ahmad Ripon), accepted. Assets: Four Paws Inn Page, ad account Four Paws Inn Ads 2 (942706665029521), datasets Offline Conversion- FourPaws and wix website pixel, full control. Not given: test-, Four Paws Inn Leads, Four Paws Inn. Event Data, competitor ad, Testing. Data flow never stopped: Conversions API System User stays assigned to Offline Conversion- FourPaws (23 events in the last 28 days).
 Open: Four Paws Inn admin account shows "Passkey not turned on" (turn on passkey or 2FA). Events Manager warning: a qualified lead optimization campaign has no conversion event selected (check at the Oct 17 review).
+
+## Stape upgraded to Pro, Oct 10 2026 (Alex)
+
+Container "forpaws server" (GTM-WRWT22H3) moved from Free to Pro, $20/month, billed monthly to Four Paws Inn LLC on Alex's card. Why: Free caps at 10,000 requests a month; usage was 5,453 about 5 days into the cycle (about 1,000 a day), so the cap would hit around Oct 14 and stop Won events reaching Meta. Pro also unlocks the logs Ripon needs. Auto-upgrade left OFF. Review annual billing (saves $40/yr) in Dec or Jan once tracking is proven.
