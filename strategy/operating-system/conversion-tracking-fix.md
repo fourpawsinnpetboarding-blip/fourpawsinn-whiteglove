@@ -112,3 +112,8 @@ Claude check (Windsor GHL, Oct 9 01:49 UTC):
 Pulled ad account 942706665029521, Oct 7 to 9, by ad: offline purchases 0, purchases 0, purchase value $0 on every ad. Leads are flowing (Oct 8: 5, Oct 9 so far: 1).
 Read: Dania's Won was sent (GHL flag yes) but no ad got credit. Expected: she was a returning lead from an older channel, far outside Ads Manager's 7 day click window, so Meta has nothing recent to attribute it to. Ads Manager showing 0 does not mean Meta never received it.
 Next: confirm receipt in Events Manager > dataset "Offline Conversion – FourPaws" > Overview, a Purchase event on Oct 9 (Alex, 1 minute, or ask Ripon for a screenshot). First true attribution test = the next Won from a lead that filled a form in the last 7 days.
+
+## Ripon access restored, Oct 10 2026 9:30 PM ET (Amanda's login)
+
+Ripon had dropped off Business Settings > People. Re-invited riponbd2543@gmail.com (shows as Ahmad Ripon), accepted. Assets: Four Paws Inn Page, ad account Four Paws Inn Ads 2 (942706665029521), datasets Offline Conversion- FourPaws and wix website pixel, full control. Not given: test-, Four Paws Inn Leads, Four Paws Inn. Event Data, competitor ad, Testing. Data flow never stopped: Conversions API System User stays assigned to Offline Conversion- FourPaws (23 events in the last 28 days).
+Open: Four Paws Inn admin account shows "Passkey not turned on" (turn on passkey or 2FA). Events Manager warning: a qualified lead optimization campaign has no conversion event selected (check at the Oct 17 review).
