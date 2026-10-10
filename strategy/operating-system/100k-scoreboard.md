@@ -72,3 +72,13 @@ Once real numbers replace the drafts, this tells us exactly how much ad spend an
 
 Revenue = new clients x average booking value + repeat clients x average booking value + Board and Train sales x $3,000.
 Once items 1 to 7 are real, this tells us exactly how many leads, and how much ad spend, each month needs.
+
+## Board and Train goal (Alex, Oct 10 2026)
+
+- Goal: **10 Board and Train programs booked per month** at $3,500 (2 weeks) = **$35,000 a month** on top of boarding.
+- With boarding at $20K to $30K, that is **$55K to $65K a month**, a new record (best month so far about $30K).
+- Training profit napkin: 10 x about $3,190 (after extra care) = about $31,900, minus trainer about $3,000 = **about $29,000**.
+- Capacity: 10 a month is about 5 dogs in training at once, inside the trainer's 6 at once.
+- Pace: 2 to 3 new sign ups a week.
+- Ramp: waitlist first (founding $2,900 for the first 5), hire the trainer part time when the waitlist reaches 5.
+- Weekly scoreboard line (Claude, Mondays): B&T inquiries, waitlist count, programs booked this month vs 10.
