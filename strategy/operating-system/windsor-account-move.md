@@ -15,4 +15,4 @@ Safety rule: Claude stays on the old account until step 4, so nothing breaks whi
 5. Tell Claude "done". Claude checks the login email and that all 4 sources show, then runs one test pull of each.
 6. Old account: do not pay. Let the trial expire.
 
-Status: waiting on Alex.
+Status: CANCELLED (Alex, Oct 11): keep the alex@chiongenterprise.com login, pay with Four Paws Inn cash. Next: connect Google Ads in the existing account, then buy a plan before the trial ends (17 days left on Oct 11, about Oct 28).
