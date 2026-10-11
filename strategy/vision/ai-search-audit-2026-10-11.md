@@ -17,3 +17,19 @@ Why Alex's phone shows us: his phone knows he searches Four Paws Inn. A stranger
 2. **Get on the lists the AI reads:** Yelp (claim and complete), HomeGuide, Boarding.com, Rover. Each needs the same name, address, phone, prices.
 3. **Link the Google reviews** from the site (an embedded review widget or link), so the 215 reviews read as third party proof.
 4. Re-run this search monthly. Target: named in the broad search by March 2027.
+
+## Website audit (fourpawsinn.co, from search engine copies, Oct 11)
+Direct fetch is blocked from Claude's container, so this comes from what Google and AI tools have stored. Same thing a stranger's AI reads.
+
+| Problem | What the site says | Truth (business-facts.md) |
+|---|---|---|
+| Dog price | $40, $50, $60 "per night" on different pages | $60 a day under 50 lb. Charged by day, never by night |
+| Large dog | $65 and $75 | $75 a day |
+| Puppy and senior | $80 | $80 (Alex, Oct 10). Confirm |
+| Cats | $25 and $30 quoted | Never quote. "Our team will confirm." |
+| Phone | 754-240-3133 and 754-971-0792 | Alex to pick one |
+| Town | Pembroke Pines on service pages, Miramar on homepage and address, "Fort Lauderdale and Miami" in a blog title | Miramar, serving Pembroke Pines and Broward |
+| Reviews | 80, 100+, 110, 117, 119, 190+, 165, rating 4.9 and 5.0 | 215, 4.9 |
+| "#1 Rated Pet Boarding in Fort Lauderdale and Miami" (blog title) | Claim nobody can verify | Remove. AI tools discount it |
+| Pool time | On most pages | Alex to confirm it is still true |
+| Exotic pet boarding | A service page | Alex to confirm it is still offered |
