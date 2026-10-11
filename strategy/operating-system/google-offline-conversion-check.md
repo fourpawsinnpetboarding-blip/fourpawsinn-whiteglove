@@ -105,3 +105,7 @@ Decision proposed: 45 seconds. Cost per qualified ad call this week: about $560 
 ### Change made Oct 11, 2026 (Alex, confirmed by screenshot)
 
 "Calls from ads (p)": Count changed Every to One conversion. Call length set to 45 seconds. Baseline before the change: PMax last 14 days $1,125 spend, 23 call conversions; CallRail Oct 4 to 10: 18 ad calls, 3 qualified (about $188 per qualified ad call). Re-check Oct 25.
+
+### Correction, Oct 11 2026: no import schedule exists
+
+Google Ads, Goals, Uploads: only manual uploads from Oct 2025. Schedules tab: empty. The sheet has never been imported, so Google has received zero bookings since the sheet went live on Oct 4. The flow above stopped at the sheet. Fix: create a daily scheduled upload from the sheet (Alex, guided Oct 11).
