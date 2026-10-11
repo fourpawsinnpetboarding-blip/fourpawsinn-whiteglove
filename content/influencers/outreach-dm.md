@@ -43,3 +43,10 @@ Thank you,
 Alex Chiong
 Four Paws Inn
 fourpawsinn.co
+
+## Version for creators or businesses without a pet (giveaway)
+Hi [Name]! I'm Alex, I own Four Paws Inn, a cage free dog boarding home in Miramar. We love what you share about [their topic or area].
+
+Would you like to give your followers a free 3 night stay with us? You post the giveaway, your followers enter in the comments, and we take care of the winner's pup. Great for anyone traveling for the holidays.
+
+Want me to send the details?
