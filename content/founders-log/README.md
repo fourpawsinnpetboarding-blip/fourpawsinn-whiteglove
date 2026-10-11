@@ -5,15 +5,15 @@ Approved by Alex, Oct 7, 2026. Expanded Oct 11, 2026: Substack becomes the Found
 
 ## Where it goes (personal workspace in Eden, never the Four Paws Inn workspace)
 - **Substack:** the weekly Founder's Log post, Monday 9 PM ET, in Codex's existing Substack slot. Codex posts it. Codex's other Substack posts that week follow the same voice: build in public, real numbers, no hype.
-- **X:** short version from the same file, same day.
+- **X:** not used. Alex, Oct 11 2026: family follows him there and must not see revenue. Substack is fine: no clients know his name or his Substack.
 - **YouTube (personal channel):** one talking head video a week. Alex films Sunday with the teleprompter (script in the same file), Claude edits with the youtube-long-edit skill, Alex approves before it goes up.
 
 ## Weekly cycle
 | Day | Who | Step |
 |---|---|---|
-| Saturday | Claude | Draft `content/founders-log/YYYY-MM-DD.md` (Monday's date): Substack post, X version, YouTube teleprompter script, from the week's repo log and scoreboard. Adds a board row for Codex. |
+| Saturday | Claude | Draft `content/founders-log/YYYY-MM-DD.md` (Monday's date): Substack post and YouTube teleprompter script, from the week's repo log and scoreboard. Adds a board row for Codex. |
 | Sunday | Alex | Films the script (one take is fine). Drops the raw file in Drive. |
-| Monday | Codex | Posts Substack and X. Marks the row Done with post ids. |
+| Monday | Codex | Posts Substack only. Marks the row Done with post ids. |
 | Monday to Tuesday | Claude | Edits the video, Alex approves, it goes up. |
 | Monday scoreboard | Claude | Counts replies, comments and DMs from business owners. |
 
@@ -27,7 +27,7 @@ Substack is for writers and readers. Every entry is a story first.
 6. Admit what is not figured out. Vulnerability over authority.
 7. End on what is next and still uncertain, then one human ask: "Reply and tell me what kept you up this week."
 8. Never invent events. Sensory details must be true or flagged for Alex to adjust.
-YouTube script keeps the same story, shorter, spoken. X is the one line hook from the story.
+YouTube script keeps the same story, shorter, spoken. No X version.
 
 ## Structure under the story (keep it, but hide it)
 Scene hook, the numbers, one win, one mistake, what Alex is taking from it, next week.

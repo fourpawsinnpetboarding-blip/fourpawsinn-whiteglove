@@ -121,5 +121,19 @@ Privacy rule: aggregate only, never sell or share any client's personal data.
 3. The order: fill the house, document it, tell the story, sell the system, buy more houses.
 4. Biggest risk to all of it: Alex as the bottleneck. Every process that leaves your head and lands in this repo is a step toward every layer above.
 
+## 6b. Start now (Alex pushed back Oct 11: "there's nothing in the future I could be doing now?")
+
+There is. Four moves, each under 1 hour a week, none of them a second company:
+
+| # | Move | Who | Why now | Target |
+|---|---|---|---|---|
+| 1 | **AI search test.** Ask ChatGPT, Gemini and Google "best dog boarding in Miramar FL" and screenshot the answers. Claude fixes the gaps (Google Business Profile, review replies, same facts everywhere). | Alex 5 min, Claude the fixes | This is where clients will search next year. Also adds bookings this year. | Named in the top 3 on all three by March 2027 |
+| 2 | **Owner conversations.** One call a week with a pet business owner. Not selling. Ask: what is the worst part of your week, and what have you paid to fix it? | Alex | Layer 2 gets built from their words, not our guesses. Each call is a future buyer. | 10 by Dec 31, 2026. Logged in `strategy/vision/owner-calls.md` |
+| 3 | **Acquisition calls.** One call a week from `strategy/acquisitions/call-log.md`. | Alex | Retiring owners sell to people they already know. Those relationships take years. | 10 by Dec 31, 2026 (0 made as of Oct 11) |
+| 4 | **Benchmark log.** Every Monday scoreboard adds: leads, reply rate, booked rate, revenue per dog. | Claude | Starts the data moat with business number one. | Every week from Oct 12 |
+
+Where Alex is ahead: running agents, conversion tracking, documenting. Where he is behind: zero owner conversations, zero acquisition calls, unknown AI search position, no operator layer.
+
 ## 7. Review log
 - 2026-10-11: Written. Next review April 2027.
+- 2026-10-11: Added section 6b, start now moves, after Alex's pushback.
