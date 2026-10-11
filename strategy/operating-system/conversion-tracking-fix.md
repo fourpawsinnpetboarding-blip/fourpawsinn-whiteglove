@@ -130,3 +130,7 @@ Container "forpaws server" (GTM-WRWT22H3) moved from Free to Pro, $20/month, bil
 4. Kevin $160 (Won Sep 28): sent. Open question: event older than 7 days, confirm Meta accepted it.
 Verification still owed (Alex/Claude): QualifiedLead visible in Events Manager for the dataset; first real Qualified move shows up; Monday scoreboard Won vs Purchases match. Optimization stays on Maximize number of leads until about 200 leads a month (blueprint decision).
 - Oct 10 check (Claude, Windsor): Meta now lists a custom event "QualifiedLead" on ad account 942706665029521 (Windsor field conversions_offsite_conversion_fb_pixel_custom_qualifiedlead). Meta only creates that once it has received the event, so receipt is confirmed. Attributed QualifiedLead and offline Purchase counts are 0 for the last 30 days (expected: test event plus long cycle). Meta lead form leads last 30 days: 57. Claude tracks attributed QualifiedLead weekly on the Monday scoreboard.
+
+## Ripon paid in full, Oct 11 2026
+
+Alex paid Ripon $100 earlier plus $200 on Oct 11: $300 total for Meta Purchase with lead ID, QualifiedLead event, Rebecca and Kevin backfill, and the Google sheet Won step. Still ask him (no extra pay): confirm Meta accepted Kevin's $160 event (older than 7 days). CallRail GCLID build: Alex does it himself with Claude (spec in google-offline-conversion-check.md).
