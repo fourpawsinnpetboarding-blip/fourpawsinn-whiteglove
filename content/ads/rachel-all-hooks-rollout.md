@@ -51,3 +51,10 @@ Alex, Oct 11: "No 7 PM post. I want reels only at noon." The 14 posts first set 
 | Nov 21 | C6 hook 5 | b4004782-b9b5-4bb6-a748-ea3795ee9970 |
 
 Weekly video run: noon is taken Oct 12 to Nov 21. Claude's own reels start again Nov 22.
+
+## Decision (Alex agreed, Oct 11): keep Static Reviews running
+1. Do not pause the main campaign. Static Reviews drives most leads, and that campaign optimizes for quality leads. The test campaign only optimizes for form fills (Meta refused QUALITY_LEAD through the API), so its cheap leads are not yet comparable.
+2. Oct 17 rule: any video with 10+ leads under $10 each moves into the main campaign, beside Static Reviews.
+3. Once the winners are in the main campaign, pause the test campaign (R1 and R2).
+4. Judge by booked stays per ad (CAPI), not form fills. Static Reviews stays until a video beats it on bookings.
+5. No budget or pause changes without Alex's yes.
