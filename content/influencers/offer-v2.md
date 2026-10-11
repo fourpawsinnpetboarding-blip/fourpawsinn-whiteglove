@@ -1,4 +1,4 @@
-# Influencer offer v2: Partner Program (draft, needs Alex's yes)
+# Influencer offer v2: Partner Program (APPROVED by Alex, Oct 11: "Fantastic")
 
 Alex, Oct 11: "A free two night stay might not be enticing. We can pay, give a free stay, or give them an offer where every person they get they can make income."
 
