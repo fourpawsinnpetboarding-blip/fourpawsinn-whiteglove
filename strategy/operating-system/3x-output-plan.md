@@ -21,7 +21,7 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 
 ## Pushback, with the number
 
-1. **Meta spend.** 3x the budget before Oct 17 means scaling ads we have not judged. 15 of the 16 Facebook Lead Form opportunities created Oct 4 to 11 are still marked open in GHL. More leads into a slow follow up loses them. Fix row 5 first, judge on Oct 17, then scale the winners.
+1. **Meta spend.** 3x the budget before Oct 17 means scaling ads we have not judged. Of the Facebook Lead Form opportunities created Oct 4 to 11, about 11 real leads are still open (4 more open ones are test records: Test Ripon, amanda test, Final tear, Testingalex new). More leads into a slow follow up loses them. Fix row 5 first, judge on Oct 17, then scale the winners.
 2. **Rows 8 and 9.** 6 calls a week is about 3 hours of Alex's time and adds no bookings this quarter. Cut these first if a week gets tight. Never cut 1 to 5.
 
 ## Pages published Oct 11, 2026
