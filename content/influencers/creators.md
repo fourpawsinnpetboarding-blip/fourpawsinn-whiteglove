@@ -18,6 +18,6 @@ Finding: Eden's creator index barely covers small local accounts (searches retur
 - Collabstr: filter Dog, location Miami / Fort Lauderdale
 - Keep only: posted in the last 30 days, real local dog, 2,000 to 50,000 followers, comments from real people
 
-## Shortlist (Codex fills, best first)
+## Shortlist (Codex fills 50, best first; Alex Oct 11: 3 is too little, target 15 stays)
 | Rank | Handle | Platform | Followers | Avg views (last 5) | Dog | Area | Contact | Why |
 |---|---|---|---|---|---|---|---|---|

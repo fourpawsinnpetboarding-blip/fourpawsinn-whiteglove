@@ -1,6 +1,6 @@
 # Local influencer and partnership ads plan (from the Hormozi video, Oct 11, 2026)
 
-STATUS: APPROVED by Alex, Oct 11, 2026 ("Approve"). Start now, not after the Search test: October is the slowest month. Free 2 night stays for up to 3 creators; best reel runs as a partnership ad at $15 a day for 14 days ($210). Any spend beyond that needs Alex's yes.
+STATUS: APPROVED by Alex, Oct 11, 2026 ("Approve"). Start now, not after the Search test: October is the slowest month. SCALED UP (Alex, Oct 11: '3 is too little'): target 15 creator stays from a list of 50, all stays on empty dates before Nov 15 and never on holiday dates. Free 2 night stays; best reel runs as a partnership ad at $15 a day for 14 days ($210). Any spend beyond that needs Alex's yes.
 
 Idea: Four Paws Inn is a very visual product (happy dogs, a real yard). Instead of only buying keywords, get local dog creators to show it, then run their best video as a partnership ad ("whitelisting") on Meta, under their name, aimed at our 15 mile area.
 

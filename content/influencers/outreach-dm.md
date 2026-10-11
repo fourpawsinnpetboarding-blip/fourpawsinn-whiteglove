@@ -3,7 +3,7 @@
 WHO SENDS (Alex, Oct 11, 2026: "I don't want to manually DM the influencers, I need you or Codex to do it"):
 - Creator lists an email: Claude sends the email version from fourpawsinnpetboarding@gmail.com (Gmail).
 - No email: Codex sends the DM from @fourpawsinnpetboarding in the Instagram web app on Alex's Mac.
-- Guardrails: personalize the first line to the creator's dog and a real recent post; max 5 DMs a day, spaced out; never mass message; stop and tell Alex if Instagram shows any warning or limit; log every send in content/influencers/log.md.
+- Guardrails: personalize the first line to the creator's dog and a real recent post; max 8 DMs a day plus 8 emails a day, spaced out; never mass message; stop and tell Alex if Instagram shows any warning or limit; log every send in content/influencers/log.md.
 - When a creator says yes: Codex or Claude replies to set dates, then Amanda confirms the dates on the calendar before anyone promises them. Signed agreement and guest form as usual.
 
 Rules: local dog creators only (Broward, Miami Dade). Offer a free stay, never cash at first. They post honestly with the Paid Partnership label. No scripted health or safety claims. October is our slow month, so we have room now.
