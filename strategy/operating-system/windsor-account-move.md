@@ -16,3 +16,7 @@ Safety rule: Claude stays on the old account until step 4, so nothing breaks whi
 6. Old account: do not pay. Let the trial expire.
 
 Status: CANCELLED (Alex, Oct 11): keep the alex@chiongenterprise.com login, pay with Four Paws Inn cash. Next: connect Google Ads in the existing account, then buy a plan before the trial ends (17 days left on Oct 11, about Oct 28).
+
+## Plan bought, Oct 11 2026
+
+Windsor Basic, $23 a month, paid (Four Paws Inn cash), login alex@chiongenterprise.com. 3 sources: Meta (Facebook Ads 942706665029521), GoHighLevel, Google Business Profile. Google Ads removed to stay at 3 (Alex: not worth $95 a month more). Google Ads and CallRail checks are manual: Alex sends a campaign overview screenshot and a CallRail export every 2 weeks. Revisit Standard ($118) if Google Ads spend passes about $150 a day.
