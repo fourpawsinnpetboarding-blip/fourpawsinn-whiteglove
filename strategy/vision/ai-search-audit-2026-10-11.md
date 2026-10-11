@@ -33,3 +33,17 @@ Direct fetch is blocked from Claude's container, so this comes from what Google 
 | "#1 Rated Pet Boarding in Fort Lauderdale and Miami" (blog title) | Claim nobody can verify | Remove. AI tools discount it |
 | Pool time | On most pages | Alex to confirm it is still true |
 | Exotic pet boarding | A service page | Alex to confirm it is still offered |
+
+## Live Wix check (Oct 11, via Wix API)
+Service pages (CMS collection "Four Paws Inn Services", id `Projects`) were already corrected on Sep 17, 2026: dog $60, large $75, puppy and senior $80, all "per calendar day", pool time included. Search engines still show the old versions. Fix = ask Google to re-crawl.
+
+Still wrong on the live site:
+1. Exotic pet page: title "$25 per day", "Starting at $25 per day", and "Located in Pembroke Pines". Business-facts: never quote exotic prices; location is Miramar.
+2. Cat page: "$40 per calendar day". Business-facts says never quote a cat price. Alex to decide which is right.
+3. Blog, 14 posts from 2025. Worst for AI trust:
+   - "Four Paws Inn: The #1 Rated Pet Boarding in Fort Lauderdale & Miami" (68e19680736ffeca15bd3951)
+   - "Why AI Recommends Four Paws Inn as Miami Lakes Top Choice for Pet Boarding" (68f7ee3cc9a84e796d0ffe30)
+   - "Why Four Paws Inn is Revolutionizing Dog Boarding in Hollywood, Florida" (68e991524bab99a0463d8426)
+   - "Introducing The Pack Club: Revolutionary Daycare Memberships" (68a4db10178d3edb3f9ac629), offer no longer sold
+   - Older posts carry $40, $50, $65 prices and 80 to 190+ review counts.
+4. Homepage and About page text ($50 a night, 119 reviews): editor pages, not reachable by API. Fix in the Wix editor.
