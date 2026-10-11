@@ -83,3 +83,9 @@ Why: no row has a GCLID, so Google can only match by email or phone (Enhanced Co
 3. Web form leads: map GHL's own attribution gclid into the same custom field.
 4. The Won sheet step writes {{contact.gclid}} into column B.
 5. Pass: next Google sourced Won lands with a GCLID, and Google Ads Uploads shows it matched.
+
+### CallRail check, Oct 11 (Alex screenshot)
+
+1. Google Ads calls come in on CallRail number 754-212-9640 "Google Ads Assets": the call button inside the ad. The caller never visits the site, so no GCLID ever exists for these calls. GCLID build SHELVED: it would only cover "Website pool" calls, which are few.
+2. Bigger problem: the 5 Google Ads calls visible (Oct 9 to 10) lasted 20 to 37 seconds and 4 were marked not a lead (thumbs down). Real calls (GMB number) last 5 to 8 minutes. If "Calls from ads (p)" counts calls this short, Performance Max is learning to buy junk calls ($1,125 for 23 "conversions" in 14 days).
+3. Fix (Alex, in Google Ads): Goals, Conversions, Summary, "Calls from ads (p)", Edit settings, Call length: set to 60 seconds. Then re-check cost per real call in 14 days.
