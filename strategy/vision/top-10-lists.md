@@ -35,4 +35,27 @@ Photos: use real photos from Drive FPI-VIdeos, never AI images.
 Rover's Miramar page is the top result for "best dog boarding in Miramar". Average there is about $42 a night; Rover takes a fee on each booking.
 A. List on Rover at our real prices as a premium home. More visibility on the page that ranks first, some bookings at a 20% fee, and a new review profile.
 B. Skip Rover. Keep price position and margin, rely on Google, HomeGuide and the other lists.
-Claude's call: A, priced at $60+ with a minimum stay, treated as a lead source, not a discount channel. Alex decides.
+Claude's call: A, priced at $60+ with a minimum stay, treated as a lead source, not a discount channel.
+**Alex chose A on Oct 11, 2026.**
+
+## Rover setup (Alex chose A)
+Rover profiles belong to a person, not a company. The sitter on the profile does Rover's ID and background check. Pick Amanda or Alex as the profile owner.
+
+Steps (Codex fills the profile, the owner does steps 2 and 3 on their phone):
+1. rover.com, "Become a sitter". Services: Boarding only. Location: Miramar, FL 33027.
+2. Owner verifies ID and pays Rover's background check fee.
+3. Owner adds payout details.
+4. Codex pastes the profile below and uploads 8 to 12 real photos from Drive: yard, pool, dogs resting indoors, Amanda with dogs. Never AI images.
+
+Rates on Rover: $65 a night base (covers Rover's fee so we net close to our $60), holiday rate +$15, additional dog $55, puppy rate $85. Minimum stay 2 nights. Max dogs per booking: 3.
+
+Rover rules we must follow: once a client finds us on Rover, keep that client's bookings and payments on Rover. Never move them to our deposit link. This is Rover policy and breaking it can close the profile.
+
+Profile headline: Family run cage free home with a pool, Miramar
+Profile text (3rd grade level, no dashes):
+We are Alex and Amanda. Dogs stay in our home in Miramar, not a kennel.
+Dogs play in small groups that we watch. They rest inside on real beds.
+Dogs who love water get pool time with us right there.
+You get photos and videos every day.
+We have 230+ reviews on Google. Look up Four Paws Inn.
+Tell us about your dog. We will make sure it is a good fit before you book.
