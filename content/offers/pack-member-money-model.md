@@ -74,3 +74,15 @@ Free Manners Report Card (attraction) -> Pack Member Board and Train, $3,290 to 
 3. Minimum puppy age: **16 weeks**, after the core puppy shots. Vaccines must be current (existing rule).
 4. Member deals: **every 10th night free** plus **a free night on the dog's birthday stay.** Simple, cheap, drives repeat stays. Replaces "buy 3 get 1".
 5. Copy rules stand: no training result promises, no "always a spot" promise.
+
+## Ad hooks (5 formulas from Zac Regan's reel, instagram.com/reel/DdFRNo5g0fH, 120K views)
+
+Rule from the reel: speak to the exact person. One avatar per ad. No training result promises.
+| Formula | Pack Member hook |
+|---|---|
+| 1. If you're [avatar] | If you're traveling for the holidays and your dog pulls on the leash, this is for you. |
+| 2. Most [avatars] deal with [problem] | Most dog owners never train because they never have 2 free weeks. Your trip can be those 2 weeks. |
+| 3. Top 3 ways [outcome] | 3 things your dog can learn while you're on vacation. |
+| 4. [Avatar] | Miramar puppy parents. |
+| 5. The reason [common belief] | The reason your dog still jumps on guests is not your dog. Nobody had time to practice with them every day. |
+Test 1, 2 and 5 first: they name a real problem. Picture ad: hook as the headline, a real dog from our footage, the Google review badge, button "Join the waitlist".
