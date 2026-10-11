@@ -70,3 +70,10 @@ Why the rate stays manual: real rates vary (25, 50, 60, 75, 80, 120 a day in the
 Next step to zero typing: deposits through a GHL payment link (GHL marks Won on payment). Zelle stays manual.
 Still open: cancelled or no show to Lost.
 - 2026-10-09 12:24 PM ET: v2.1 pasted by Alex into Revenue Calculator > GHLBookingSync.gs. Both triggers live (fpiBookingSyncOnEdit on the money sheet, fpiIntakeOnEdit on the intake sheet), 0% error rate. Backup copy of the money sheet made first. Proof pending: first real YES row lands on Bookings, rate typed, M = SYNCED, new Won in GHL with Meta Purchase Sent = yes.
+
+## Oct 11 hardening (Codex, Alex approved)
+1. Backup version saved before editing the Revenue Calculator script (attached to Daily Tracker_Money).
+2. Manual "Sync selected booking" is blocked on rows already SYNCED. No more duplicate opportunities from resends.
+3. A row is marked SYNCED only on HTTP 200 or 201 from GHL. Anything else marks ERROR. Amanda checks column M for ERROR.
+4. Cancel: type Cancelled in column M. GHL moves the opportunity to Lost, never Won, so no false purchase reaches Google Ads.
+5. Tested on one TEST row. No API key created. Offline conversions sheet untouched.

@@ -31,7 +31,7 @@ Use the TEST contact only: set its Last Check Out to today, wait past 7:00 PM, c
 ## Edge cases
 
 1. Stay changes after the row is SYNCED (early pick up, extension): change Last Check Out on the contact in GHL.
-2. Cancelled booking: until cancel to Lost exists, Amanda changes Last Check Out to blank on that contact, or the client gets the post stay text.
+2. Cancelled booking (live Oct 11, Codex): in the Daily Tracker_Money sheet, type Cancelled in column M (GHL Sync Status) on that booking's row. The script sends it to GHL and the opportunity moves to Lost, never Won, so Google Ads is not told it was a purchase. Then set Last Check Out to blank on that contact so they do not get the post stay text.
 3. Clients already in house today were synced before this field existed: add them by hand one last time.
 4. Spanish form and old form clients still sync (Amanda types the owner name), so they get the date too.
 
