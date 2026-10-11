@@ -113,3 +113,7 @@ Google Ads, Goals, Uploads: only manual uploads from Oct 2025. Schedules tab: em
 ### Schedule created Oct 11, 2026 (Alex)
 
 Google Ads, Uploads, Schedules: "FPI | Booked Customer Offline Conversions", daily 5:00 AM ET, Enabled. Sheet shared with 918020701-100000002-account@partnercontent.gserviceaccount.com (Editor). Preview: 15 rows, 0 successful, 15 errors (Missing Conversion Name, Missing Conversion Time, email and phone read as hashed). Cause: header names. Fix handed to Codex (Eden row 009ffc3e): rename headers to Google's names, re-run preview, re-map the GHL Won step.
+
+### Headers and hashing, Oct 11 2026 (Claude, Google Sheets connector)
+
+Preview 2 after renaming: name, time, value and Order ID recognized; all 15 failed only on "Email/Phone Number not hashed". Scheduled Sheets uploads need SHA-256 hashed identifiers. Layout now: E email_plain, F phone_plain (what GHL writes), M Email and N Phone Number (SHA-256 of normalized email, +1 phone). Claude filled M2:N16. Future rows: scripts/apps-script/google-ads-hash.gs on an hourly trigger (Codex installs). Unknown headers (email_plain, phone_plain) are ignored by Google.
