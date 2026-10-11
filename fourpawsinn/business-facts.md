@@ -61,6 +61,7 @@ Four Paws Inn charges by day, never by night.
 - Give the care benefit and the reason for a boundary. Do not use warmth to weaken a policy.
 - Do not use em dashes or stray hyphens in copy the customer will receive.
 - Do not invent pet names, client details, availability, testimonials, performance numbers, or care claims.
+- Google reviews: 231 as of Oct 11, 2026, almost all five stars. Live count: Windsor google_my_business, review_total_count. Use "230+ Google reviews" in copy so it does not go stale.
 - Google and other reviews: Claude and Codex never reply to reviews. Alex owns review replies (Alex, Oct 11, 2026).
 - Default CTA: "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
 - Nothing publishes without Alex's approval. Draft and queue only. Exception: Alex's 2026-10-04 instruction authorizes Lex/Codex's own organic video work under the staged rollout, ownership and quality rules in `scripts/video-engine/README.md` without waiting for his approval. This does not expand Claude's authority or apply to unrelated publishing, ads, budgets, workflows or credentials.

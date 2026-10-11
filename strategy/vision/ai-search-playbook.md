@@ -29,3 +29,8 @@ Website facts fixed (blog, service pages, Google descriptions, draft and live), 
 
 ## Scoreboard
 Re-test monthly (first: Oct 25). Target: named by ChatGPT and Gemini for "best dog boarding in Miramar" by January 2027.
+
+## Google Business Profile fixed by Claude, Oct 11 (via Windsor)
+Before: description said $50 to $65, 90+ reviews, 20+ years. Services had no prices. 3 posts from Aug 2025 said $40 a night, $65 a night, 80+ reviews, 80% repeat, 20+ years, "unique in Broward".
+After: description, services with prices ($60 dog, $40 cat, exotic confirmed by team) and all 3 posts rewritten with current facts. Review count is really 231, not 215.
+Open: listing hours say 9 AM to 8 PM every day (retired window); needs Alex's call. Last Google post was Aug 2025.

@@ -53,7 +53,7 @@ Do not use em dashes or stray hyphens in anything he will send, publish, or past
 | Revenue | ~$30,000 per month |
 | Profit | ~$20,000 per month |
 | Capacity | 60 dogs |
-| Social proof | 215 Google reviews, 4.9+ stars |
+| Social proof | 231 Google reviews, 4.9+ stars (Google Business Profile, Oct 11 2026) |
 | Near term target | $100,000 per month |
 | Long term target | $1M+ per month ecosystem |
 
