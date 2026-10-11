@@ -121,3 +121,9 @@ Preview 2 after renaming: name, time, value and Order ID recognized; all 15 fail
 ### Preview 3, Oct 11 2026: format PASSES
 
 All format errors gone. Every row now returns only "email or phone can't be matched to a click; may not have come from a Google Ads campaign; you can safely ignore". Expected: 13 of 15 are Meta or repeat clients, and the 2 Google bookings came by phone from the ad call button, which leaves no click to match. Pipeline is technically done. Realistic outlook: Booked Customer will match only Google clients who clicked through to the site or a GHL form. Keep it Secondary. Google's bidding lever stays call quality (45s, count One).
+
+### CORRECTION, Oct 11 2026: a Data Manager connection already existed
+
+Claude was wrong that Google never received bookings. FPI | Booked Customer (created 10/4/2026, Import from clicks, Secondary, count Every, 90 day window) has a Data source: Google Sheets connection (Data Manager) on this sheet, filtered "opportunity_id does not equal CQGpbFm4uqwQ5vpiyErv and 1 more condition" (the 2 old test rows). The Uploads, Schedules page only lists legacy schedules, so it looked empty.
+Actions taken: Claude restored the original row 1 headers and cleared the hash columns M:N (the Data Manager connection maps by those headers and hashes itself). Apps Script removed. Codex row 009ffc3e cancelled. Kept: test rows deleted, phones as +1.
+Still to do: Alex removes the duplicate legacy schedule (Goals, Conversions, Uploads, Schedules, Options, Remove), and checks the Data Manager connection status (FPI | Booked Customer, Data sources, Manage).
