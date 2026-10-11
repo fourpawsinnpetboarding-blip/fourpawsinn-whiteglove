@@ -143,3 +143,5 @@ Qualified ad call lengths: 12, 16, 24, 26, 33, 38, 43, 47, 168, 210, 219s. Not a
 | 45s | 4 of 11 | 3 of 14 |
 | 60s | 3 of 11 | 2 of 14 |
 Qualified to junk stays about 1 to 1 at every cutoff, so a higher cutoff only throws away real customers. 45s (set Oct 11 from 7 days of data) cuts 7 of 11 qualified calls. Decision: lower Calls from ads (p) call length to 20 seconds (drops hang ups, keeps 9 of 11 qualified). Keep Count = One. Real fix: score every call in CallRail (thumbs up or down), owner Amanda.
+
+Oct 11 2026: Alex set Calls from ads (p) call length to 20 seconds (Count stays One).

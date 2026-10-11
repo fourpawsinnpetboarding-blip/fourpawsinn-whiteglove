@@ -7,10 +7,10 @@ Last updated: Oct 11, 2026.
 
 | # | Item | Time | Why |
 |---|---|---|---|
-| 1 | Google Ads: "Calls from ads (p)" call length to 20 seconds | 1 min | 45s throws away 7 of 11 real calls (`google-offline-conversion-check.md`) |
-| 2 | Send Amanda the open lead call list | 1 min | About 14 real open leads from Oct 4 to 10 |
-| 3 | Answer the Founder's Log Substack choices: email it to subscribers? free or paid? | 1 min | Codex posts Monday Oct 12, 9 PM, Substack only |
-| 4 | Ask GHL support to cancel the old sub account "BAD four paws inn OLD" and refund the $97 a month charges | 10 min | Pure waste (`ghl-workflow-tuneup.md`) |
+| 1 | DONE Oct 11: Google Ads call length set to 20 seconds | | |
+| 2 | DONE Oct 11: Amanda has the open lead call list | | |
+| 3 | DONE Oct 11: Founder's Log is free, no paywall (no subscribers yet). Codex posts Mon Oct 12, 9 PM | | |
+| 4 | WAITING: old GHL sub account cancelled; refund of about $700 escalated to GHL upper management about Oct 9. Claude follows up with Alex Oct 15. Check the Amex on Nov 8 for no new charge | | |
 
 ## Alex: this week
 
