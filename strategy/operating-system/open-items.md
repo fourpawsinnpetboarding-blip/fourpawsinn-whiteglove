@@ -29,7 +29,7 @@ Last updated: Oct 11, 2026.
 |---|---|---|
 | 1 | Call the open lead list | Fastest bookings |
 | 2 | Thumbs up or down on every call in CallRail, daily | Only 25 of 535 Google ad calls were ever scored, so nobody knows which ads bring real customers |
-| 3 | Review ask at every pick up (`content/reviews/review-ask-at-pickup.md`) | 3x plan row 4 |
+| 3 | Review asks: handled by Alex and Amanda their own way. Never automated (Alex, Oct 11) | |
 | 4 | Rover profile: ID, background check fee, payout (Codex builds the rest) | Top 10 list visibility |
 
 ## Every 2 weeks

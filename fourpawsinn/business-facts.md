@@ -65,6 +65,7 @@ Four Paws Inn charges by day, never by night.
 - Do not invent pet names, client details, availability, testimonials, performance numbers, or care claims.
 - Google Business Profile hours stay 9 AM to 8 PM daily: those are call hours so people know they can call (Alex, Oct 11, 2026). Never change them to the drop off windows. In copy, still use the drop off windows for check in and check out.
 - Google reviews: 231 as of Oct 11, 2026, almost all five stars. Live count: Windsor google_my_business, review_total_count. Use "230+ Google reviews" in copy so it does not go stale.
+- Review requests (Alex, Oct 11, 2026): Claude and Codex never build, turn on or send automated review requests (no GHL workflow, no SMS, no email asking for a Google review). Alex and Amanda handle review asks themselves. Alex disabled the workflow Codex built.
 - Google and other reviews: Claude and Codex never reply to reviews. Alex owns review replies (Alex, Oct 11, 2026).
 - Default CTA: "If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog."
 - Nothing publishes without Alex's approval. Draft and queue only. Exception: Alex's 2026-10-04 instruction authorizes Lex/Codex's own organic video work under the staged rollout, ownership and quality rules in `scripts/video-engine/README.md` without waiting for his approval. This does not expand Claude's authority or apply to unrelated publishing, ads, budgets, workflows or credentials.

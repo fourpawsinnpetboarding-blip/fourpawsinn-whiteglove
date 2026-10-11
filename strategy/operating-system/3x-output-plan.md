@@ -11,7 +11,7 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 | 1 | Website pages that answer search and AI questions | about 1 a week (rewrites) | 3 new a week | Claude (standing exception, CLAUDE.md section 10) | 6 published Oct 11 (2 batches, see below) |
 | 2 | Google Business Profile posts | 0 new a week | 3 a week (Mon, Wed, Fri) | Claude (standing exception, CLAUDE.md section 10) | Mon post live Oct 11. Week of Oct 12: `content/gbp/2026-10-12-week.md` |
 | 3 | Directory and "Top 10" list sites | 4 queued | 12 | Codex | Batch 1 (4 sites) row 6b61b075. Batch 2 (8 sites) new row |
-| 4 | Review asks | some pick ups | every pick up, plus a 3 day reminder | Amanda | Script: `content/reviews/review-ask-at-pickup.md` |
+| 4 | Review asks | Alex and Amanda handle | No automation, ever (Alex, Oct 11) | Alex and Amanda | Optional script for their own use: `content/reviews/review-ask-at-pickup.md` |
 | 5 | New lead follow up | 1 touch, slow | 3 touches in 72 hours, first within 5 minutes | GHL workflow (Codex builds), Amanda calls | Rows 287c5793 and 8bfc16be moved to the top of Codex's list |
 | 6 | Partner referrals (vets, groomers, trainers within 5 miles) | 0 | 3 new contacts a week | Codex builds the list, Claude drafts the note, Alex or Amanda drops off or sends | Note ready: `content/partners/intro-note.md`. List: Codex row |
 | 7 | Community answers (Nextdoor, local Facebook groups, Reddit) | 0 | 3 a week, posted by Alex or Amanda as the owner | Claude drafts, owner posts | Week 1 drafts: `content/community/answers-2026-10-week1.md` |

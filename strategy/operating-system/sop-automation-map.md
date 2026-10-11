@@ -15,7 +15,7 @@ Owners: **Claude** (cloud, connectors: Wix, Eden, Windsor Basic, Google Sheets, 
 | AI search check (ChatGPT, Gemini, Google) | Codex | Private browser window, 3 queries, screenshots to Drive folder AI SEARCH, Claude reads and logs | Every 2 weeks | No |
 | Google Ads overview and CallRail export | Codex | Screenshot of campaign overview and CallRail call log export (last 14 days) to Drive folder ADS DATA, Claude reads | Every 2 weeks | No |
 | Partner intro emails | Claude | Gmail drafts, one per business from `strategy/partners/referral-list.md`, using `content/partners/intro-note.md` | 3 a week | Alex clicks Send (sending is outward, Gate 1) |
-| Review ask after every stay | GHL | Add a review request step to Post-Stay Referral Invite (fires from auto checkout), one to one, never a list blast | Every checkout | No |
+| Review ask after every stay | Alex and Amanda | Handled by them. NEVER automate (Alex, Oct 11: disabled the workflow) | Their call | Yes |
 | Post stay referral and 30 day nurture | GHL | Auto checkout build (`auto-checkout.md`) | Every checkout | No |
 | New lead follow up, 3 touches in 72 hours | GHL | Workflow rewrite (Codex row) | Every lead | Amanda takes the calls |
 | Call scoring in CallRail | CallRail | Option: automation rules that tag calls by keywords (dates, price, deposit) or CallRail lead scoring add on. Until then Amanda thumbs up or down | Every call | Amanda, until automated |
