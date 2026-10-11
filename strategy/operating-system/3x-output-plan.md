@@ -54,4 +54,4 @@ Every Tuesday at 9 AM ET a routine runs:
 3. Check Codex's rows for this plan and update the Status column above.
 4. Report to Alex in 5 lines with the one yes he needs to give.
 
-If Alex gives a standing yes for website pages and GBP posts, the routine publishes them too, like the 7:30 AM and noon slots.
+Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts a week without a per-post approval. GBP posts go live Mon, Wed, Fri at 10:47 AM ET; each one is marked POSTED in its `content/gbp/` file with the post id.
