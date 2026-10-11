@@ -17,8 +17,20 @@ Approved by Alex, Oct 7, 2026. Expanded Oct 11, 2026: Substack becomes the Found
 | Monday to Tuesday | Claude | Edits the video, Alex approves, it goes up. |
 | Monday scoreboard | Claude | Counts replies, comments and DMs from business owners. |
 
-## Format (every entry)
-Hook, numbers, one win, one mistake, the rule (SOP lesson), next week cliffhanger, and one ask: "Run a pet business? Reply and tell me your biggest headache."
+## Voice (Alex, Oct 11 2026): a diary, not a lesson
+Substack is for writers and readers. Every entry is a story first.
+1. Open in a scene: a time, a place, what Alex saw, heard, felt. Let the reader stand in the room.
+2. Tell it in order, with tension: what went wrong, the honest first reaction, what changed.
+3. Real people and real feelings (Amanda, the dogs, the late night), never client names.
+4. Numbers live inside the story, not in a list.
+5. No teaching voice, no preaching, no "here's how you". It's "here is what happened to me, and what I'm taking from it." The reader is figuring it out with Alex.
+6. Admit what is not figured out. Vulnerability over authority.
+7. End on what is next and still uncertain, then one human ask: "Reply and tell me what kept you up this week."
+8. Never invent events. Sensory details must be true or flagged for Alex to adjust.
+YouTube script keeps the same story, shorter, spoken. X is the one line hook from the story.
+
+## Structure under the story (keep it, but hide it)
+Scene hook, the numbers, one win, one mistake, what Alex is taking from it, next week.
 
 ## Rules
 - Only verified numbers. Revenue and profit stay out unless Alex says yes for that entry.
