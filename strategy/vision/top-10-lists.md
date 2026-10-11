@@ -59,3 +59,17 @@ Dogs who love water get pool time with us right there.
 You get photos and videos every day.
 We have 230+ reviews on Google. Look up Four Paws Inn.
 Tell us about your dog. We will make sure it is a good fit before you book.
+
+
+## Codex execution checkpoint, October 11, 2026
+
+No profiles have been submitted or created yet. The approved facts block above is unchanged.
+
+| Site | Observed live state | Required next step |
+|---|---|---|
+| HomeGuide | Pet Boarding and ZIP 33027 selected. Free signup stops at Create your free account. | Owner completes account creation or provides existing sign-in through secure browser authentication. New credentials and membership terms require owner action. |
+| Nextdoor | Claim flow reaches Create a business account; no signed-in business session. | Existing account sign-in through secure browser authentication, or owner completes signup. |
+| Expertise | Get Reviewed form has no result for Pet in Type of Service. FAQ says external requests are restricted to available categories. | Ask whether pet boarding nominations are currently accepted; do not submit a false category. |
+| Three Best Rated | Live application category dropdown includes grooming, training, walkers, stores and veterinarians, but no boarding. | Obtain an appropriate boarding submission route before applying. |
+
+No fees paid, customer data shared, review replies sent, CallRail numbers changed, or accounts created. These are blockers, not completed listings. Continuing the remaining authorized work rather than leaving Alex to relay status to Claude.
