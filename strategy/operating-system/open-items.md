@@ -16,7 +16,7 @@ Last updated: Oct 11, 2026.
 
 | # | Item | Time | Why |
 |---|---|---|---|
-| 5 | AI search test: in a private window ask ChatGPT, Gemini and Google "best dog boarding in Miramar FL", send screenshots | 5 min | Baseline before the Oct 25 re-check |
+| 5 | MOVED TO CODEX: AI search screenshots every 2 weeks (sop-automation-map.md) | | |
 | 6 | Security: change the GHL password and turn on 2FA. Turn on passkey or 2FA on the Meta admin account | 10 min | Shared logins with freelancers this month |
 | 7 | Auto checkout build in GHL, or hand it to Codex (`auto-checkout.md`) | 10 min | Referral ask and 30 day nurture start without anyone remembering |
 | 8 | Clear the LUNA sheet cells and fix the intake form typos | 10 min | Carried over from earlier sessions |
@@ -31,6 +31,6 @@ Last updated: Oct 11, 2026.
 | 3 | Review ask at every pick up (`content/reviews/review-ask-at-pickup.md`) | 3x plan row 4 |
 | 4 | Rover profile: ID, background check fee, payout (Codex builds the rest) | Top 10 list visibility |
 
-## Every 2 weeks (Alex, because Windsor is on Basic)
+## Every 2 weeks
 
-Google Ads campaign overview screenshot plus the CallRail export (last 14 days). First ask: Oct 25.
+MOVED TO CODEX: Google Ads overview and CallRail export land in Drive (sop-automation-map.md).
