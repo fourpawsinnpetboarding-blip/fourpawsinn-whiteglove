@@ -131,3 +131,15 @@ Still to do: Alex removes the duplicate legacy schedule (Goals, Conversions, Upl
 ### Data Manager runs, confirmed Oct 11 2026 (screenshot)
 
 The connection HAS run daily at 06:28 ET since Oct 5: rows imported Oct 6: 3, Oct 7: 3, Oct 8: 4, Oct 9: 12, Oct 10: 18, Oct 11: 18, each with 2 rows in error (likely the old test rows Alex deleted today). The first "No runs found" was the panel still loading. So Google has received every booking since Oct 5. Matched conversions are still 0, as expected (Meta and phone clients). Manual run started Oct 11 11:57 to confirm 0 errors after cleanup. Next scheduled run Oct 12 06:28.
+
+### CallRail 131 days (Jun 1 to Oct 10 2026, 831 calls): call length does NOT separate junk
+
+Google Ads Assets calls: 535 (about 4 a day). Scored: only 25 (11 Qualified, 14 Not a Lead). 510 never scored.
+Qualified ad call lengths: 12, 16, 24, 26, 33, 38, 43, 47, 168, 210, 219s. Not a Lead: 0, 3, 15, 17, 26, 26, 29, 33, 34, 36, 37, 58, 68, 101s.
+| Cutoff | Qualified kept | Junk kept |
+|---|---|---|
+| 20s | 9 of 11 | 10 of 14 |
+| 30s | 7 of 11 | 7 of 14 |
+| 45s | 4 of 11 | 3 of 14 |
+| 60s | 3 of 11 | 2 of 14 |
+Qualified to junk stays about 1 to 1 at every cutoff, so a higher cutoff only throws away real customers. 45s (set Oct 11 from 7 days of data) cuts 7 of 11 qualified calls. Decision: lower Calls from ads (p) call length to 20 seconds (drops hang ups, keeps 9 of 11 qualified). Keep Count = One. Real fix: score every call in CallRail (thumbs up or down), owner Amanda.
