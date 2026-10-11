@@ -34,6 +34,8 @@ Owners: **Claude** (cloud, connectors: Wix, Eden, Windsor Basic, Google Sheets, 
 
 ## Decision 1: community replies
 
+DECIDED: A (Alex, Oct 11, 2026). Codex finds and drafts, Alex taps Post. Codex never posts from Alex's accounts.
+
 Codex can find every post and write the reply. The open question is who presses Post.
 - **A (recommended):** Codex finds and drafts daily, Alex gets the link and the reply, taps Post. About 30 seconds per real post. Keeps his account safe and the voice his.
 - **B:** Codex posts from Alex's logged in browser. Saves the 30 seconds, but Facebook and Nextdoor restrict accounts that post by automation, and a restricted personal account loses the channel. Same authenticity issue Alex raised about review replies.
