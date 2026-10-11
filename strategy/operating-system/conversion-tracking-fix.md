@@ -134,3 +134,4 @@ Verification still owed (Alex/Claude): QualifiedLead visible in Events Manager f
 ## Ripon paid in full, Oct 11 2026
 
 Alex paid Ripon $100 earlier plus $200 on Oct 11: $300 total for Meta Purchase with lead ID, QualifiedLead event, Rebecca and Kevin backfill, and the Google sheet Won step. Still ask him (no extra pay): confirm Meta accepted Kevin's $160 event (older than 7 days). CallRail GCLID build: Alex does it himself with Claude (spec in google-offline-conversion-check.md).
+- Oct 11: Ripon confirmed Meta accepted Kevin's $160 Purchase event. Ripon work closed.
