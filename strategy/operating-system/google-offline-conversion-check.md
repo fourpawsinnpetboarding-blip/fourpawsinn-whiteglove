@@ -109,3 +109,7 @@ Decision proposed: 45 seconds. Cost per qualified ad call this week: about $560 
 ### Correction, Oct 11 2026: no import schedule exists
 
 Google Ads, Goals, Uploads: only manual uploads from Oct 2025. Schedules tab: empty. The sheet has never been imported, so Google has received zero bookings since the sheet went live on Oct 4. The flow above stopped at the sheet. Fix: create a daily scheduled upload from the sheet (Alex, guided Oct 11).
+
+### Schedule created Oct 11, 2026 (Alex)
+
+Google Ads, Uploads, Schedules: "FPI | Booked Customer Offline Conversions", daily 5:00 AM ET, Enabled. Sheet shared with 918020701-100000002-account@partnercontent.gserviceaccount.com (Editor). Preview: 15 rows, 0 successful, 15 errors (Missing Conversion Name, Missing Conversion Time, email and phone read as hashed). Cause: header names. Fix handed to Codex (Eden row 009ffc3e): rename headers to Google's names, re-run preview, re-map the GHL Won step.
