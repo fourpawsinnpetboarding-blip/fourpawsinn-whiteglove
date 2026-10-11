@@ -33,4 +33,4 @@ Re-test monthly (first: Oct 25). Target: named by ChatGPT and Gemini for "best d
 ## Google Business Profile fixed by Claude, Oct 11 (via Windsor)
 Before: description said $50 to $65, 90+ reviews, 20+ years. Services had no prices. 3 posts from Aug 2025 said $40 a night, $65 a night, 80+ reviews, 80% repeat, 20+ years, "unique in Broward".
 After: description, services with prices ($60 dog, $40 cat, exotic confirmed by team) and all 3 posts rewritten with current facts. Review count is really 231, not 215.
-Hours: set to 9 AM to 12 PM and 4 PM to 6:30 PM, 7 days (Alex chose A, Oct 11). Last Google post was Aug 2025.
+Hours: Google listing stays 9 AM to 8 PM daily so people know they can call (Alex, Oct 11, reversed option A). Drop off windows are explained by Alex, not on the Google hours. Last Google post was Aug 2025.
