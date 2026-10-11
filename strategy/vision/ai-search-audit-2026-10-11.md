@@ -54,7 +54,9 @@ Cat price: Alex kept $40 a day as on the live cat page.
 Blog (Wix trash is restorable for each deleted post):
 - Trashed: "#1 Rated ... Fort Lauderdale & Miami", "Why AI Recommends ... Miami Lakes", "Revolutionizing ... Hollywood", "The Pack Club", "Exploring the Benefits of Trusted Puppy Boarding" (claimed on-call vet, agility courses, events, fake stat, AI images), "Reliable Care for Your Pets" (made-up testimonial, grooming and training claims, broken image).
 - Rewritten and republished with current facts ($60/$75/$80 a day, 215 reviews, 4.9, Miramar, hours, no health or safety claims, no dashes): "Why Miramar Pet Parents Choose Four Paws Inn", Cat boarding post (was $25/night, 117 reviews, "[Your Phone Number]" placeholder), Pembroke Pines "cheap boarding" post (had kennel cough and illness claims, 24/7 claim), FAQ post (said $40/$65 a night and "3 to 6 dogs").
-- Not changed, need Alex: Referral program post (offers $25 credit or a free daycare day: still true?), and 3 unreviewed posts: vet referrals, back to school, South Florida demographics.
+- Referral program post: kept, Alex confirmed the $25 credit or free daycare day is still true (Oct 11).
+- Alex said "you decide" on the last 3: trashed "Back to School Blues" (sold daycare memberships that do not exist, quoted made-up customers) and "South Florida Pet Owner Demographics" (May 2025 AI filler batch). Rewrote and republished the vet referral post: kept the $50 clinic bonus and 50% off first day, removed "highest rated in Florida", "120+ reviews" and the health outcome claim.
+- llms.txt published at fourpawsinn.co/llms.txt with the correct facts, prices, hours and page links, so AI tools read one clean source.
 
 Service pages: Exotic pet page now says "pricing confirmed by our team" and Miramar.
 
@@ -63,7 +65,10 @@ Still old: "UNDER CONSTRUCTION" page (jcj1c) copies the old home description; Ca
 
 Google: sitemap resubmitted and site re-crawl requested through Search Console (connected and verified).
 
-## Alex, in the Wix editor (10 minutes)
+## Wix editor text (Home and About): assigned to Codex
+Claude cannot reach editor page text by API. Eden board Request row for Codex added Oct 11 (row 386e83be). Alex does nothing.
+
+### Original instructions
 On the Home and About pages, use the editor search for each of these and replace:
 1. "$50" or "/night" or "per night" -> "$60 a day"
 2. "119", "190", "80" five star reviews -> "215 Google reviews, 4.9 stars"
