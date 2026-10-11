@@ -64,3 +64,11 @@ Findings:
 3. **No GCLID on any row.** Google can only match through Enhanced Conversions for Leads (email and phone). That setting must be ON in Google Ads, or these conversions never attribute.
 4. **Phone format:** rows send `1954...` with no plus sign. Google's format is `+19545527848`. Fix in the GHL workflow formatter.
 5. **Google Ads side (Goals, Conversions, Uploads, Performance Max goals): not verifiable.** Google Ads is not connected to Windsor. Connect link: https://onboard.windsor.ai/connect?connector=google_ads&next=/google_ads/authorize
+
+### Google Ads side, Oct 11 (Windsor google_ads now connected, account 733-336-4600)
+
+1. Conversion actions with any activity in the last 90 days: "Calls from ads (p)" (Primary, 177), "Phone Call" (Primary, 3), "Contact page load" (Secondary, 5). **FPI | Booked Customer does not appear: 0 conversions recorded**, despite 15 real sheet rows Oct 8 to 9.
+2. Expected in part: 13 of the 15 rows are Meta or repeat clients who never clicked a Google ad. Only the 2 Google sourced Wons ($480, $190) could ever match, and with no GCLID they can only match through Enhanced Conversions for Leads.
+3. Performance Max "South Florida's Trusted Pet Boarding", last 14 days: $1,125 spend, 23 "Calls from ads" conversions (about $49 per call), 1 tracked Business profile call. Bidding runs on calls, not bookings.
+4. Decision: keep FPI | Booked Customer as Secondary. Do not make it Primary until (a) the 7 junk test rows are deleted, (b) Enhanced Conversions for Leads is ON, (c) at least one Google sourced Won shows as a matched conversion. Making it Primary now would teach PMax from $50 to $100 fake test bookings and near zero matches.
+5. Still needs a screenshot: Goals, Conversions, Uploads (did the scheduled import run, how many rows matched).
