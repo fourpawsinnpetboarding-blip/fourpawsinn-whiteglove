@@ -47,3 +47,11 @@ Compare cost per qualified call and cost per booking, Search vs Performance Max.
 
 ## Who builds it
 Windsor is on Basic (no Google Ads write access). Codex builds it in the Google Ads web app after Alex says yes.
+
+## Phase 2 (after Nov 12): broader keywords plus bridge pages (from the Hormozi video Alex shared, Oct 11)
+Lesson: "more budget, no results" is a keyword and media buying problem, not a saturated market. Treat bad keywords as the cost of finding the few that print.
+Awareness levels decide the keyword and the landing page:
+- Most aware / product aware (Phase 1): "dog boarding Miramar", "cage free dog boarding". Land on the booking page.
+- Solution aware (Phase 2): "dog sitter vs boarding", "where to leave my dog on vacation", "dog boarding cost". Cheaper clicks. Land on a bridge page (our published guides: cost guide, cage free guide, puppy, senior), which then links to booking.
+- Problem aware (Phase 3): "traveling for Thanksgiving with a dog", "what to do with my dog when I travel". Land on a matching blog page first.
+Add one Phase 2 ad group at $10 a day only after Phase 1 shows a cost per booking under $60.
