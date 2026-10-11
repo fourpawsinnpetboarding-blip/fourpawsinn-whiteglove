@@ -47,3 +47,25 @@ Still wrong on the live site:
    - "Introducing The Pack Club: Revolutionary Daycare Memberships" (68a4db10178d3edb3f9ac629), offer no longer sold
    - Older posts carry $40, $50, $65 prices and 80 to 190+ review counts.
 4. Homepage and About page text ($50 a night, 119 reviews): editor pages, not reachable by API. Fix in the Wix editor.
+
+## Fixes done by Claude, Oct 11 (Alex: "yes and yes")
+Cat price: Alex kept $40 a day as on the live cat page.
+
+Blog (Wix trash is restorable for each deleted post):
+- Trashed: "#1 Rated ... Fort Lauderdale & Miami", "Why AI Recommends ... Miami Lakes", "Revolutionizing ... Hollywood", "The Pack Club", "Exploring the Benefits of Trusted Puppy Boarding" (claimed on-call vet, agility courses, events, fake stat, AI images), "Reliable Care for Your Pets" (made-up testimonial, grooming and training claims, broken image).
+- Rewritten and republished with current facts ($60/$75/$80 a day, 215 reviews, 4.9, Miramar, hours, no health or safety claims, no dashes): "Why Miramar Pet Parents Choose Four Paws Inn", Cat boarding post (was $25/night, 117 reviews, "[Your Phone Number]" placeholder), Pembroke Pines "cheap boarding" post (had kennel cough and illness claims, 24/7 claim), FAQ post (said $40/$65 a night and "3 to 6 dogs").
+- Not changed, need Alex: Referral program post (offers $25 credit or a free daycare day: still true?), and 3 unreviewed posts: vet referrals, back to school, South Florida demographics.
+
+Service pages: Exotic pet page now says "pricing confirmed by our team" and Miramar.
+
+Google SEO text (published): Home, About, Contact and the /summer landing page now say Miramar, 215 reviews, 4.9, $60 a day. Before: 190+, 175+, 119+ reviews, $50 and $60 "per night", Pembroke Pines.
+Still old: "UNDER CONSTRUCTION" page (jcj1c) copies the old home description; Cancellation Policy page description is copied from About. Service page Google titles still read "in Pembroke Pines" (set by the dynamic page pattern).
+
+Google: sitemap resubmitted and site re-crawl requested through Search Console (connected and verified).
+
+## Alex, in the Wix editor (10 minutes)
+On the Home and About pages, use the editor search for each of these and replace:
+1. "$50" or "/night" or "per night" -> "$60 a day"
+2. "119", "190", "80" five star reviews -> "215 Google reviews, 4.9 stars"
+3. "Pembroke Pines" as our location -> "Miramar" (keep it where it says we serve Pembroke Pines)
+Then Publish.
