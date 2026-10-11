@@ -72,3 +72,4 @@ Findings:
 3. Performance Max "South Florida's Trusted Pet Boarding", last 14 days: $1,125 spend, 23 "Calls from ads" conversions (about $49 per call), 1 tracked Business profile call. Bidding runs on calls, not bookings.
 4. Decision: keep FPI | Booked Customer as Secondary. Do not make it Primary until (a) the 7 junk test rows are deleted, (b) Enhanced Conversions for Leads is ON, (c) at least one Google sourced Won shows as a matched conversion. Making it Primary now would teach PMax from $50 to $100 fake test bookings and near zero matches.
 5. Still needs a screenshot: Goals, Conversions, Uploads (did the scheduled import run, how many rows matched).
+6. Oct 11: Alex deleted the 7 test rows. Sheet now starts at row 2 = tC61j65fCogU2S3jVI1w ($300, Oct 8). 15 real rows. Verified by screenshot.
