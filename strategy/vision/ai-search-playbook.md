@@ -15,7 +15,7 @@ AI tools don't read our Google reviews the way a person does. Each tool builds "
 ## The moves, in order (do 1 to 4 this week)
 | # | Move | Who | Time | Why |
 |---|---|---|---|---|
-| 1 | Bing Places: bingplaces.com, sign in with the Google account that owns the Business Profile, choose Import from Google | Alex | 10 min | ChatGPT and Copilot search through Bing. This is the biggest single gap |
+| 1 | Bing Places: DONE. Listing already existed, published and verified, but last synced with Google 31 weeks ago. Alex re-synced Oct 11. Re-sync again after Google approves the Oct 11 edits (reminder Oct 15) | Alex | 1 min | ChatGPT and Copilot search through Bing |
 | 2 | Connect Google Business Profile to Windsor (link in chat) | Alex | 2 min | Lets Claude post weekly and fix the listing without Alex. Claude never replies to reviews (Alex, Oct 11) |
 | 3 | Apple Business Connect: businessconnect.apple.com, claim the listing | Alex | 10 min | Siri, Apple Maps, Apple Intelligence |
 | 4 | Yelp: biz.yelp.com, claim the free page, add hours, photos, prices | Alex | 10 min | ChatGPT and Siri lean on Yelp for local picks. Do NOT ask clients for Yelp reviews: Yelp penalizes it |
