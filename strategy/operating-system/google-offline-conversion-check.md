@@ -73,3 +73,13 @@ Findings:
 4. Decision: keep FPI | Booked Customer as Secondary. Do not make it Primary until (a) the 7 junk test rows are deleted, (b) Enhanced Conversions for Leads is ON, (c) at least one Google sourced Won shows as a matched conversion. Making it Primary now would teach PMax from $50 to $100 fake test bookings and near zero matches.
 5. Still needs a screenshot: Goals, Conversions, Uploads (did the scheduled import run, how many rows matched).
 6. Oct 11: Alex deleted the 7 test rows. Sheet now starts at row 2 = tC61j65fCogU2S3jVI1w ($300, Oct 8). 15 real rows. Verified by screenshot.
+7. Oct 11: Alex set column F (phone) to Plain text and rewrote the 15 existing phones as +1XXXXXXXXXX. Future rows: GHL stores phones as +1, and a Plain text column keeps the +. Verify on the next real Won row. If it lands without the +, Ripon changes the GHL sheet step to send E.164.
+
+## Next build: GCLID from CallRail into the sheet (spec for Ripon, quote first)
+
+Why: no row has a GCLID, so Google can only match by email or phone (Enhanced Conversions for Leads). Google Ads clicks that call go through CallRail, which records the GCLID per call when its tracking script runs on the site.
+1. Confirm in CallRail: open one recent call with source Google Ads and check the GCLID field is filled. If blank, turn on the CallRail Google Ads integration and check swap.js is on fourpawsinn.co and the GHL funnels.
+2. CallRail post call webhook to a GHL inbound webhook workflow: find contact by caller phone, write gclid into a contact custom field "gclid" (first touch only, never overwrite).
+3. Web form leads: map GHL's own attribution gclid into the same custom field.
+4. The Won sheet step writes {{contact.gclid}} into column B.
+5. Pass: next Google sourced Won lands with a GCLID, and Google Ads Uploads shows it matched.
