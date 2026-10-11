@@ -8,8 +8,8 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 
 | # | Action | Before | 3x target | Owner | Status Oct 11 |
 |---|---|---|---|---|---|
-| 1 | Website pages that answer search and AI questions | about 1 a week (rewrites) | 3 new a week | Claude drafts, Alex yes, Claude publishes | 3 drafts in Wix (see below) |
-| 2 | Google Business Profile posts | 0 new a week | 3 a week (Mon, Wed, Fri) | Claude drafts and posts after yes | Week of Oct 13 drafted: `content/gbp/2026-10-13-week.md` |
+| 1 | Website pages that answer search and AI questions | about 1 a week (rewrites) | 3 new a week | Claude (standing exception, CLAUDE.md section 10) | 3 published Oct 11 (see below) |
+| 2 | Google Business Profile posts | 0 new a week | 3 a week (Mon, Wed, Fri) | Claude (standing exception, CLAUDE.md section 10) | Mon post live Oct 11. Week of Oct 12: `content/gbp/2026-10-12-week.md` |
 | 3 | Directory and "Top 10" list sites | 4 queued | 12 | Codex | Batch 1 (4 sites) row 6b61b075. Batch 2 (8 sites) new row |
 | 4 | Review asks | some pick ups | every pick up, plus a 3 day reminder | Amanda | Script: `content/reviews/review-ask-at-pickup.md` |
 | 5 | New lead follow up | 1 touch, slow | 3 touches in 72 hours, first within 5 minutes | GHL workflow (Codex builds), Amanda calls | Rows 287c5793 and 8bfc16be moved to the top of Codex's list |
@@ -24,7 +24,7 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 1. **Meta spend.** 3x the budget before Oct 17 means scaling ads we have not judged. 15 of the 16 Facebook Lead Form opportunities created Oct 4 to 11 are still marked open in GHL. More leads into a slow follow up loses them. Fix row 5 first, judge on Oct 17, then scale the winners.
 2. **Rows 8 and 9.** 6 calls a week is about 3 hours of Alex's time and adds no bookings this quarter. Cut these first if a week gets tight. Never cut 1 to 5.
 
-## Wix drafts waiting on Alex (unpublished)
+## Pages published Oct 11, 2026
 
 | Draft id | Page |
 |---|---|
@@ -49,7 +49,7 @@ Copy: `content/seo/pages-2026-10-11.md`. Builder: `content/seo/build_pages.py`.
 ## Weekly process (the Tuesday sprint, Claude)
 
 Every Tuesday at 9 AM ET a routine runs:
-1. Draft the next 3 pages from the backlog in Wix (unpublished) and the next week's 3 GBP posts.
+1. Write the next 3 pages from the backlog and publish them in Wix and the next week's 3 GBP posts.
 2. Draft 3 community answers for Alex or Amanda to post.
 3. Check Codex's rows for this plan and update the Status column above.
 4. Report to Alex in 5 lines with the one yes he needs to give.
