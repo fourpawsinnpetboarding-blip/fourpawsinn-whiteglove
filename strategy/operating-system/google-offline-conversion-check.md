@@ -101,3 +101,7 @@ Junk (29 to 37s) and qualified (33 to 38s) overlap: no perfectly clean cutoff.
 | 45s | 2 of 3 | 2 of 9 |
 | 60s | 2 of 3 | 1 of 9 |
 Decision proposed: 45 seconds. Cost per qualified ad call this week: about $560 spend (half of $1,125 over 14 days) for 3 qualified calls, about $188 each. Re-check with 90 days of data.
+
+### Change made Oct 11, 2026 (Alex, confirmed by screenshot)
+
+"Calls from ads (p)": Count changed Every to One conversion. Call length set to 45 seconds. Baseline before the change: PMax last 14 days $1,125 spend, 23 call conversions; CallRail Oct 4 to 10: 18 ad calls, 3 qualified (about $188 per qualified ad call). Re-check Oct 25.
