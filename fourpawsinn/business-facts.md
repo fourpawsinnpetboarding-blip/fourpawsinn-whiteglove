@@ -35,6 +35,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | --- | --- |
 | Dog under 50 lb | $60 per day |
 | Dog over 50 lb | $75 per day |
+| Puppy or senior dog | $80 per day (Alex, Oct 11, 2026) |
 | Second dog | $5 per day off |
 | Last day | Free if picked up before 10:00 AM |
 | Cats | Pricing depends on the number of cats and length of stay. Never quote a cat price; say the team will confirm. |
@@ -50,6 +51,9 @@ Four Paws Inn charges by day, never by night.
 - Owners bring food pre-portioned in Ziploc bags.
 - Four Paws Inn provides beds and supplies.
 - Daily photo and video updates are included.
+- Supervised pool time is offered (Alex, Oct 11, 2026).
+- Exotic pets are boarded: reptiles, birds, rabbits, small mammals (Alex, Oct 11, 2026). Never quote an exotic price; the team confirms.
+- Phone numbers on the website rotate through CallRail for call tracking. Set up as CallRail advised; do not change website phone numbers (Alex, Oct 11, 2026).
 
 ## Brand and copy rules
 
