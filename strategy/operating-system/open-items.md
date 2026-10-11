@@ -20,6 +20,7 @@ Last updated: Oct 11, 2026.
 | 6 | Security. DONE Oct 11: Ripon (Account admin) and Dominick removed from GHL users. OPEN: GHL 2FA (switch not found; try app.gohighlevel.com/settings/profile or ask GHL support), Amanda gets her own GHL user with her own email, Alex logs in as alex@chiongenterprise.com, Meta admin 2FA | 10 min | Shared logins with freelancers this month |
 | 7 | Auto checkout build in GHL, or hand it to Codex (`auto-checkout.md`) | 10 min | Referral ask and 30 day nurture start without anyone remembering |
 | 8 | Clear the LUNA sheet cells and fix the intake form typos | 10 min | Carried over from earlier sessions |
+| 10 | Personal: 2016 IRS bill. Pull the 2016 account transcript (irs.gov), gather 2016 bank and card statements, book an Enrolled Agent or IRS CPA. Send Claude the notice number and amount | 1 hr | Bill likely taxes gross income with no expenses; fixable |
 | 9 | 3 owner calls and 3 acquisition calls | 3 hrs | 3x plan rows 8 and 9. Cut first if the week is tight |
 
 ## Amanda
