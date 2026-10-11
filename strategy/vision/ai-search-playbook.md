@@ -16,11 +16,11 @@ AI tools don't read our Google reviews the way a person does. Each tool builds "
 | # | Move | Who | Time | Why |
 |---|---|---|---|---|
 | 1 | Bing Places: bingplaces.com, sign in with the Google account that owns the Business Profile, choose Import from Google | Alex | 10 min | ChatGPT and Copilot search through Bing. This is the biggest single gap |
-| 2 | Connect Google Business Profile to Windsor (link in chat) | Alex | 2 min | Lets Claude reply to reviews, post weekly and fix the listing without Alex |
+| 2 | Connect Google Business Profile to Windsor (link in chat) | Alex | 2 min | Lets Claude post weekly and fix the listing without Alex. Claude never replies to reviews (Alex, Oct 11) |
 | 3 | Apple Business Connect: businessconnect.apple.com, claim the listing | Alex | 10 min | Siri, Apple Maps, Apple Intelligence |
 | 4 | Yelp: biz.yelp.com, claim the free page, add hours, photos, prices | Alex | 10 min | ChatGPT and Siri lean on Yelp for local picks. Do NOT ask clients for Yelp reviews: Yelp penalizes it |
 | 5 | Directory lists AI quotes: HomeGuide (free pro profile), Three Best Rated (apply), Expertise.com (nominate), Nextdoor business page | Claude drafts every form, Codex submits | 1 hr | These "10 best" lists are what the AI answer is built from |
-| 6 | Google Business Profile tune up: primary category Pet boarding service, services with prices, full description, weekly post, photos weekly, reply to every review | Claude after move 2 | weekly | Feeds Google AI and Gemini directly |
+| 6 | Google Business Profile tune up: primary category Pet boarding service, services with prices, full description, weekly post, photos weekly. No review replies by Claude (Alex, Oct 11) | Claude after move 2 | weekly | Feeds Google AI and Gemini directly |
 | 7 | Review engine: auto checkout workflow sends a Google review ask after every stay | Codex builds (spec in `strategy/operating-system/auto-checkout.md`) | 30 min | New reviews every week, not just a big total |
 | 8 | Real mentions: local news story (Miramar, Broward), chamber listing, honest answers in local Reddit and Facebook groups when someone asks for boarding | Alex, Claude drafts | ongoing | AI trusts what other people say about us more than what we say |
 
