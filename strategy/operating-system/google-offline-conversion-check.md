@@ -89,3 +89,15 @@ Why: no row has a GCLID, so Google can only match by email or phone (Enhanced Co
 1. Google Ads calls come in on CallRail number 754-212-9640 "Google Ads Assets": the call button inside the ad. The caller never visits the site, so no GCLID ever exists for these calls. GCLID build SHELVED: it would only cover "Website pool" calls, which are few.
 2. Bigger problem: the 5 Google Ads calls visible (Oct 9 to 10) lasted 20 to 37 seconds and 4 were marked not a lead (thumbs down). Real calls (GMB number) last 5 to 8 minutes. If "Calls from ads (p)" counts calls this short, Performance Max is learning to buy junk calls ($1,125 for 23 "conversions" in 14 days).
 3. Fix (Alex, in Google Ads): Goals, Conversions, Summary, "Calls from ads (p)", Edit settings, Call length: set to 60 seconds. Then re-check cost per real call in 14 days.
+
+### CallRail call length analysis, Oct 4 to 10 (export Alex sent, 40 calls)
+
+Google Ads Assets calls: 18. Qualified 3 (38s, 210s, 219s). Not a Lead 9 (0, 26, 29, 33, 34, 36, 37, 58, 101s). Not scored 6.
+All sources: qualified calls under 60s exist (2s callback, 33s, 38s, 46s, 53s), so Alex is right that 60s is too high.
+Junk (29 to 37s) and qualified (33 to 38s) overlap: no perfectly clean cutoff.
+| Cutoff | Ad qualified kept | Ad junk kept |
+|---|---|---|
+| 30s | 3 of 3 | 6 of 9 |
+| 45s | 2 of 3 | 2 of 9 |
+| 60s | 2 of 3 | 1 of 9 |
+Decision proposed: 45 seconds. Cost per qualified ad call this week: about $560 spend (half of $1,125 over 14 days) for 3 qualified calls, about $188 each. Re-check with 90 days of data.
