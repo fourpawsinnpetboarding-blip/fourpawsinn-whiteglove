@@ -117,3 +117,7 @@ Google Ads, Uploads, Schedules: "FPI | Booked Customer Offline Conversions", dai
 ### Headers and hashing, Oct 11 2026 (Claude, Google Sheets connector)
 
 Preview 2 after renaming: name, time, value and Order ID recognized; all 15 failed only on "Email/Phone Number not hashed". Scheduled Sheets uploads need SHA-256 hashed identifiers. Layout now: E email_plain, F phone_plain (what GHL writes), M Email and N Phone Number (SHA-256 of normalized email, +1 phone). Claude filled M2:N16. Future rows: scripts/apps-script/google-ads-hash.gs on an hourly trigger (Codex installs). Unknown headers (email_plain, phone_plain) are ignored by Google.
+
+### Preview 3, Oct 11 2026: format PASSES
+
+All format errors gone. Every row now returns only "email or phone can't be matched to a click; may not have come from a Google Ads campaign; you can safely ignore". Expected: 13 of 15 are Meta or repeat clients, and the 2 Google bookings came by phone from the ad call button, which leaves no click to match. Pipeline is technically done. Realistic outlook: Booked Customer will match only Google clients who clicked through to the site or a GHL form. Keep it Secondary. Google's bidding lever stays call quality (45s, count One).
