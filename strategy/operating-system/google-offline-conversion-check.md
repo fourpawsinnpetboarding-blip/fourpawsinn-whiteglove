@@ -127,3 +127,7 @@ All format errors gone. Every row now returns only "email or phone can't be matc
 Claude was wrong that Google never received bookings. FPI | Booked Customer (created 10/4/2026, Import from clicks, Secondary, count Every, 90 day window) has a Data source: Google Sheets connection (Data Manager) on this sheet, filtered "opportunity_id does not equal CQGpbFm4uqwQ5vpiyErv and 1 more condition" (the 2 old test rows). The Uploads, Schedules page only lists legacy schedules, so it looked empty.
 Actions taken: Claude restored the original row 1 headers and cleared the hash columns M:N (the Data Manager connection maps by those headers and hashes itself). Apps Script removed. Codex row 009ffc3e cancelled. Kept: test rows deleted, phones as +1.
 Still to do: Alex removes the duplicate legacy schedule (Goals, Conversions, Uploads, Schedules, Options, Remove), and checks the Data Manager connection status (FPI | Booked Customer, Data sources, Manage).
+
+### Data Manager runs, confirmed Oct 11 2026 (screenshot)
+
+The connection HAS run daily at 06:28 ET since Oct 5: rows imported Oct 6: 3, Oct 7: 3, Oct 8: 4, Oct 9: 12, Oct 10: 18, Oct 11: 18, each with 2 rows in error (likely the old test rows Alex deleted today). The first "No runs found" was the panel still loading. So Google has received every booking since Oct 5. Matched conversions are still 0, as expected (Meta and phone clients). Manual run started Oct 11 11:57 to confirm 0 errors after cleanup. Next scheduled run Oct 12 06:28.
