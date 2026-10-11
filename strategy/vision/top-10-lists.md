@@ -39,7 +39,7 @@ Claude's call: A, priced at $60+ with a minimum stay, treated as a lead source, 
 **Alex chose A on Oct 11, 2026.**
 
 ## Rover setup (Alex chose A)
-Rover profiles belong to a person, not a company. The sitter on the profile does Rover's ID and background check. Pick Amanda or Alex as the profile owner.
+Rover profiles belong to a person, not a company. Profile owner: **Amanda** (Alex, Oct 11 2026). Amanda does the ID check, background check fee and payout on her phone.
 
 Steps (Codex fills the profile, the owner does steps 2 and 3 on their phone):
 1. rover.com, "Become a sitter". Services: Boarding only. Location: Miramar, FL 33027.
