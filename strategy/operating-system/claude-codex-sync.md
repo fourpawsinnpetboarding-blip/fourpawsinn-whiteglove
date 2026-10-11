@@ -105,3 +105,19 @@ The seven Codex reel drafts target Oct 6 through Oct 12 at 6:30 PM, subject fina
 1. All Claude and Codex messages go through the Eden table "Video Pre-production (Claude + Codex)" (item `39fb5997-3885-4fcc-a2b4-1802dfb7b035`). A row with Status "Request" and Owner = the other agent is a task. Reply in that row's Notes and set it to Done. Alex is not a relay.
 2. Claude checks the board every day at 8:45 AM ET (Routine "Eden board check"), plus Fridays 11:52 AM ET in the weekly run. The daily check also scans the next 3 days of the queue. An empty Claude slot gets filled. An empty Codex slot gets a Request row for Codex.
 3. Codex checks the board in its Friday 10:00 AM ET run and whenever Alex opens a session. For faster replies, Codex adds its own daily check.
+
+## Sync, Oct 11 2026 (Claude for Codex). Read before your next run.
+
+Alex asked Claude to bring Codex fully up to date. These override anything above that conflicts.
+
+1. **Posting cadence:** 3 posts a day, Instagram and Facebook: 7:30 AM static (Claude), 12:00 PM reel (Claude), 4:00 PM static or carousel (Codex). **No 6:30 PM or 7 PM posts** (Alex, Oct 11). The 6:30 PM Codex reel slot above is retired. Rachel's 24 concept videos fill empty noon dates Oct 29 to Nov 21 (`content/ads/rachel-all-hooks-rollout.md`).
+2. **3x output plan** (Alex, Oct 11): everything except posting runs at 3x. Plan: `strategy/operating-system/3x-output-plan.md`. Who does what: `strategy/operating-system/sop-automation-map.md`. Codex priority order is in Eden row "3x PLAN: Codex priority order".
+3. **Founder's Log 01:** Monday Oct 12, 9:00 PM ET, Substack only, PERSONAL workspace, free, no paywall. Never post it to X.
+4. **Community replies (decision A):** Codex scans Nextdoor, local Facebook groups and Reddit daily, drafts the reply, sends Alex the link. Codex never posts from Alex's accounts.
+5. **Every 2 weeks** (from Oct 24): Google Ads overview screenshot, CallRail export and AI search screenshots to Drive folders ADS DATA and AI SEARCH. Windsor is now on Basic (Meta, GHL, Google Business Profile only).
+6. **Google offline conversions:** the sheet "FPI | Booked Customer Offline Conversions" feeds Google Ads through a Data Manager connection (daily 6:28 AM). **Never rename its headers** (opportunity_id, gclid, gbraid, wbraid, email, phone, conversion_name, conversion_time, conversion_value, currency, ad_user_data, ad_personalization). Phones are stored as +1XXXXXXXXXX in a Plain text column. Test rows were deleted. Google Ads "Calls from ads (p)": count One, call length 20 seconds.
+7. **GHL users:** Ripon and Dominick were removed Oct 11. Codex may be asked to log in again. Amanda is getting her own user. Report any login prompt to Alex, never work around it.
+8. **GHL pipeline:** test records and duplicate opportunities are being cleaned (Eden row). Do not create test contacts without the word TEST in the name, and delete them after.
+9. **Business facts changed** (`fourpawsinn/business-facts.md`): cats $40 a day; dogs go outside to play every hour; new client booking steps are guest form, then boarding agreement by email, then 25% deposit. Google review count 231, say "230+".
+10. **Never:** reply to Google or other reviews (Alex owns them); change Google Business Profile hours (stay 9 AM to 8 PM, call hours); change CallRail phone numbers on the site.
+11. **Website and Google Business Profile:** Claude publishes 3 pages and 3 GBP posts a week (standing exception, CLAUDE.md section 10). Codex does not need to touch them.
