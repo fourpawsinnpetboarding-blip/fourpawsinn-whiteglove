@@ -7,7 +7,7 @@
 
 ## The test (no extra spend)
 - Move $30 a day from Performance Max ($90 to $60) into a new Search campaign at $30 a day. Total stays $90 a day.
-- Run 30 days, Oct 13 to Nov 12. Judge on qualified calls and booked stays from CallRail and GHL, not Google's conversion count.
+- Run 30 days, starting Nov 1 (Alex, Oct 11: after the slow month). Judge on qualified calls and booked stays from CallRail and GHL, not Google's conversion count.
 
 ## Search campaign settings
 - Name: FPI Search | Dog Boarding | Miramar
@@ -42,13 +42,13 @@ Descriptions (90 characters max):
 2. Small groups matched by size and energy. Outside to play every hour. Book your dates now.
 3. $60 a day under 50 lb, $75 over 50 lb. Pick up before 10 AM and the last day is free.
 
-## Decision rule (Nov 12)
+## Decision rule (30 days after launch)
 Compare cost per qualified call and cost per booking, Search vs Performance Max. Move budget to the winner in $15 a day steps. Never raise total spend until one campaign shows a cost per booking under $60.
 
 ## Who builds it
 Windsor is on Basic (no Google Ads write access). Codex builds it in the Google Ads web app after Alex says yes.
 
-## Phase 2 (after Nov 12): broader keywords plus bridge pages (from the Hormozi video Alex shared, Oct 11)
+## Phase 2 (after the 30 day read): broader keywords plus bridge pages (from the Hormozi video Alex shared, Oct 11)
 Lesson: "more budget, no results" is a keyword and media buying problem, not a saturated market. Treat bad keywords as the cost of finding the few that print.
 Awareness levels decide the keyword and the landing page:
 - Most aware / product aware (Phase 1): "dog boarding Miramar", "cage free dog boarding". Land on the booking page.
