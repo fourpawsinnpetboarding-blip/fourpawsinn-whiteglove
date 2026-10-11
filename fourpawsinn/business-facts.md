@@ -48,6 +48,8 @@ Four Paws Inn charges by day, never by night.
 - A 25% deposit reserves the dates.
 - The balance is due at drop-off.
 - Vaccines must be current.
+- Dogs go outside to play every hour (Alex, Oct 11, 2026).
+- Booking steps for a new client: guest form, then the boarding agreement sent by email to sign, then the 25% deposit (Alex, Oct 11, 2026).
 - Owners bring food pre-portioned in Ziploc bags.
 - Four Paws Inn provides beds and supplies.
 - Daily photo and video updates are included.
