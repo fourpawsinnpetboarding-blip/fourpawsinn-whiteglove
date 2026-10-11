@@ -56,3 +56,11 @@ Findings:
 4. Email and phone present. GCLID present if the lead came from Google.
 5. Google Ads, Uploads: next scheduled run shows that row **Successful**, 0 errors for it.
 6. 24 to 72 hours later, `FPI | Booked Customer` shows the conversion in the Conversions column (only if it matched a Google click).
+
+## Check Oct 11, 2026 (Claude, read only)
+
+1. **GHL Won to sheet: working.** 15 real Won rows landed Oct 8 to 9 (values $60 to $480), each within minutes of the Won, zero padded time, USD, email and phone present. Includes the 2 Google sourced Wons ($480 Oct 9, $190 Oct 8).
+2. **Junk rows to delete:** rows 2 and 3 (Claude tests, Oct 4) and 5 Ripon test rows Oct 6 (opportunity ids jDM8jo2orXbc7IOv9pt8, aI9NACBQLmnsLYba73Pw, l0u7Bvw8pHVYna8ncCeR, FA4ZXMIhxNL5zf4YizBb, k6dQqVwP5Xzm922vytVO; values $100, $50, $57, $57, $50; Bangladesh test phones). Scheduled imports re-read the sheet, so these keep feeding fake bookings into Google.
+3. **No GCLID on any row.** Google can only match through Enhanced Conversions for Leads (email and phone). That setting must be ON in Google Ads, or these conversions never attribute.
+4. **Phone format:** rows send `1954...` with no plus sign. Google's format is `+19545527848`. Fix in the GHL workflow formatter.
+5. **Google Ads side (Goals, Conversions, Uploads, Performance Max goals): not verifiable.** Google Ads is not connected to Windsor. Connect link: https://onboard.windsor.ai/connect?connector=google_ads&next=/google_ads/authorize
