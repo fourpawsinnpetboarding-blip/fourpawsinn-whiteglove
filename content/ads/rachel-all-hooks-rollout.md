@@ -78,3 +78,36 @@ Any ad video under 15 seconds for C1 to C5 is the wrong file.
 Data rule: Oct 11 to 12 results for the 24 ads are not valid. They do not count toward the review. The review date moves to 10 days after the corrected ads go live.
 
 Prevention rule (all future ads, Claude and Codex): before any ad goes live, check the video length against the expected length and watch the actual Meta preview start to finish: hook, main video, ending. Log the check in this file.
+
+## FIX Oct 12: 25 replacement ads built by Claude (PAUSED, waiting on preview check)
+Full SHARP videos uploaded to Meta from the Eden SHARP files (verified full length by upload size: 6 to 11 parts of 8 MB each, a hook alone is 1 to 2). Same ad set, text, thumbnail, form 1479678017305071 and CTA as the originals. C1 text now says "230+ Google reviews" (was 215). Old hook only ads stay paused, never re enable them. C6 review ads untouched.
+
+| Ad | New ad id | Meta video id | Preview OK |
+|---|---|---|---|
+| R1 C1 hook1 | 52661905248524 | 1600977401512738 | |
+| R2 C1 hook2 | 52661905254524 | 1070886882417675 | |
+| R2 C1 hook3 | 52661905262724 | 1485807306701886 | |
+| R2 C1 hook4 | 52661905265924 | 2401019684037328 | |
+| R2 C1 hook5 | 52661905272724 | 1755995142355252 | |
+| R1 C2 hook1 | 52661905293524 | 2516204155526040 | |
+| R2 C2 hook2 | 52661905305524 | 1431717112254736 | |
+| R2 C2 hook3 | 52661905331124 | 1082055077961170 | |
+| R2 C2 hook4 | 52661905337924 | 4577639409118807 | |
+| R2 C2 hook5 | 52661905345924 | 1090873630530369 | |
+| R1 C3 hook1 | 52661905357524 | 1105311028533295 | |
+| R2 C3 hook2 | 52661905361324 | 4493724127568247 | |
+| R2 C3 hook3 | 52661905364924 | 1113415251178066 | |
+| R2 C3 hook4 | 52661905412324 | 1983197999038041 | |
+| R2 C3 hook5 | 52661905435724 | 2218871155728199 | |
+| R1 C4 hook1 | 52661905454124 | 29237398805843473 | |
+| R2 C4 hook2 | 52661905492524 | 2322867991819356 | |
+| R2 C4 hook3 | 52661905815324 | 2129827754592972 | |
+| R2 C4 hook4 | 52661905872524 | 1100674882570682 | |
+| R2 C4 hook5 | 52661905973924 | 1337657318299948 | |
+| R1 C5 hook1 | 52661906035124 | 1089410930466551 | |
+| R2 C5 hook2 | 52661906114324 | 1647293973655649 | |
+| R2 C5 hook3 | 52661906145724 | 1646922690112258 | |
+| R2 C5 hook4 | 52661906183324 | 4881332122096036 | |
+| R2 C5 hook5 | 52661906207724 | 3302236443498520 | |
+
+Next: watch each preview start to finish (Ads Manager, ad name starts with FULL), then enable. Mark Preview OK above.
