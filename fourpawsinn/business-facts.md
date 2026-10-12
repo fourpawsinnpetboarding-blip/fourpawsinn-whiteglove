@@ -120,9 +120,11 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 - Supporting generated material may be abstract, graphic, typographic, or motion-based.
 - Append this clause to every Four Paws Inn Higgsfield generation prompt: `no dogs, no animals, no people, no pet facility or yard imagery`.
 
-## Boarding Ready trial night (PILOT from Oct 12, 2026, Alex: "take the lead")
-- First time dogs booking Thanksgiving, Christmas or New Year do one trial night first. Recommended, not required, for other first stays.
-- 1 night, normal daily rate, Monday to Thursday, at least 7 days before the stay. The trial is a paid night at the normal rate. Never credit it toward the later stay (Alex, Oct 12).
-- Holiday deposit comes first; refunded in full if the dog is not approved.
-- Approval is about how the dog settled in. Never describe it as a safety or health check.
+## First overnight stay (REQUIRED, Alex, Oct 12, 2026)
+- Every new dog does one paid overnight stay with us first. Required, not optional.
+- Main target: leads without travel dates. The overnight is how we close them now, recover the ad cost, and make them a 2 time client.
+- Also required before a first holiday stay (Thanksgiving, Christmas, New Year) or a first long stay, even when they already have dates.
+- Why (say it this way): the dog learns the house, the pack and our team before a big stay, so the real stay feels familiar. Never call it a safety or health check.
+- Price: normal daily rate, paid in full. Never free, never credited toward a later stay.
+- Returning clients are exempt.
 - Scripts: `content/sales/boarding-ready-scripts.md`.

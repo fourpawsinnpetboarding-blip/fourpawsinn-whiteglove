@@ -69,3 +69,6 @@ Why manual first: if leads do not book trials when Amanda offers them by hand, a
 6. Counting: tags `boarding-ready-offered`, `trial-booked`, `trial-passed`, `trial-not-approved`. Claude counts them every Monday on the scoreboard.
 7. Money sheet: do NOT enter a trial night as a normal booking until Codex adds the Trial flag (Eden row). Until then write it in Notes on the GHL contact.
 8. Review Oct 26: offers sent, trials booked, passed, later booked. Go or no go for Phase 2.
+
+## DECISION Oct 12 (Alex, overrides pushback 1 and 2)
+The first overnight stay is REQUIRED for every new dog, paid in full at the normal rate. Main target is leads without dates: book and collect the overnight now so the lead is closed, the ad cost is recovered, and the client becomes a 2 time client. Also required before a first holiday or long stay. Returning clients exempt. Scripts rewritten. Cap of 6 overnights a week stays until Amanda says the team can take more.

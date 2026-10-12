@@ -1,36 +1,28 @@
-# Boarding Ready trial night: Amanda's scripts (Phase 1, by hand)
+# First overnight stay: Amanda's scripts
 
-Pilot started Oct 12, 2026. Amanda (or Alex) sends these by hand from GHL. Never automated. No dashes, 3rd grade, no health or safety promises.
-Rules: `strategy/operating-system/boarding-ready-audit.md`, section "Phase 1 rules".
-The trial night is a paid night at the normal rate. NO credit toward the later stay (Alex, Oct 12: a credit makes it a free night).
+REQUIRED for every new dog (Alex, Oct 12, 2026). Paid in full at the normal daily rate. Never free, never credited.
+Main target: leads without dates. Goal: book and collect the overnight now, then the real trip later (2 time client).
+Sent by hand from GHL. No dashes, no safety or health promises.
 
-## Who gets which script
-| Lead | Script |
-|---|---|
-| First time dog, has holiday dates (Thanksgiving, Christmas, New Year) | Script 1 (deposit first, then trial) |
-| First time dog, no dates yet, travel expected in the next 90 days | Script 2 |
-| No dates and no trip in the next 90 days | No trial offer. Normal follow up |
-| Returning client | Never. They are already approved |
+## Script A: no dates yet (the main one)
+Totally fine that you don't have dates yet! Every new pup starts with one overnight stay with us. [Dog] gets to learn the house, meet the pack and get to know our team. Then when your trip comes up, [Dog] already knows us and you can book with no stress.
 
-## Script 1: has holiday dates (deposit first)
-Thanksgiving fills up fast. A 25% deposit of $[deposit] holds your dates.
+For [Dog] it is $[daily rate] for the night. We have weeknights open, Monday to Thursday. Which night works best for you?
 
-Since this is [Dog]'s first stay with us, we do one trial night before the holiday, on a weekday, at the normal daily rate. [Dog] gets to learn the house and settle in before the busy week.
+## Script B: has dates for a holiday or long stay
+A 25% deposit of $[deposit] holds your dates.
+
+Since this is [Dog]'s first stay with us, we start with one overnight stay before your trip. [Dog] learns the house, the pack and our team, so the big stay feels familiar. It is $[daily rate] for the night, on a weeknight before your dates.
 
 Want me to send the booking form now?
 
-## Script 2: no dates yet
-Totally fine that you don't have dates yet! Here is what most first time families do: one trial night with us on a weekday, at the normal daily rate. [Dog] learns the house and meets the crew, so when your trip comes up, [Dog] is ready and you are not scrambling.
+## After the overnight (Amanda decides)
+Went well:
+[Dog] did great last night! [He/She] is all set. When you have your dates, send them over and we will hold your spot.
 
-Want to pick a weeknight? We have openings Monday to Thursday.
+Did not go well: call, do not text. Tag `trial-not-approved` and write why on the contact. Refund any holiday deposit in full.
 
-## After the trial (Amanda decides)
-If it went well:
-[Dog] did great last night! [He/She] is all set for your [month] trip. When you have your dates, send them over and we will hold your spot.
-
-If it did not go well (call, do not text). Tag `trial-not-approved`, write the reason on the contact. If a holiday deposit was paid, refund it in full.
-
-## Tags Amanda adds in GHL (by hand, this is how we count)
-`boarding-ready-offered` when Script 1 or 2 is sent.
-`trial-booked` when a trial night is paid.
+## Tags (by hand, this is how we count)
+`boarding-ready-offered` when Script A or B is sent.
+`trial-booked` when the overnight is paid.
 `trial-passed` or `trial-not-approved` after pick up.
