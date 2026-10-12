@@ -17,3 +17,6 @@ What dates do you need, and what's your pup's name? I'll check our openings righ
 
 ## Example (Patricia San Pedro, Oct 12, 2026)
 FB form: within 30 days, 33331, under 50 lbs, friendly, pricing OK. Link clicked, form not finished.
+
+## Form test (Oct 12, 2026)
+Alex submitted a full test as Test Order. The form works and reaches GHL. "Clicked, no form" means the lead left before sending, not a broken form. Reply by text with this template.
