@@ -58,3 +58,23 @@ Weekly video run: noon is taken Oct 12 to Nov 21. Claude's own reels start again
 3. Once the winners are in the main campaign, pause the test campaign (R1 and R2).
 4. Judge by booked stays per ad (CAPI), not form fills. Static Reviews stays until a video beats it on bookings.
 5. No budget or pause changes without Alex's yes.
+
+## INCIDENT Oct 12: 24 ads ran hook only clips (Claude's error)
+What happened: on Oct 11 Claude built the 24 R2 ads (hooks 2 to 5) from the Meta video library uploaded Oct 6 (`content/ads/meta-video-library.md`). Those library videos were the short captioned hook clips, not the stitched full videos. Each ad showed the 3 to 5 second hook and ended. Found by Alex and Codex Oct 12. The 24 ads are paused, a 25th was already off. The 5 concept 6 review ads were correct and stay on.
+
+Correct files: the stitched full videos made by `scripts/video-assets/stitch-hooks.sh` (hook, then the full main video). Expected length, use this to check every Meta preview:
+
+| Concept | Full video length |
+|---|---|
+| C1 Compare | about 33 to 34 sec |
+| C2 First 24 hours | about 34 to 36 sec |
+| C3 Custom stay | about 20 to 21 sec |
+| C4 Drop off | about 37 to 38 sec |
+| C5 How to pack | about 22 to 23 sec |
+| C6 Reviews | about 7 sec (short by design, correct) |
+
+Any ad video under 15 seconds for C1 to C5 is the wrong file.
+
+Data rule: Oct 11 to 12 results for the 24 ads are not valid. They do not count toward the review. The review date moves to 10 days after the corrected ads go live.
+
+Prevention rule (all future ads, Claude and Codex): before any ad goes live, check the video length against the expected length and watch the actual Meta preview start to finish: hook, main video, ending. Log the check in this file.
