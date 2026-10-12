@@ -97,3 +97,6 @@ It is our normal daily rate, $60 for most dogs under 50 lb, Monday to Thursday n
 
 Amanda
 Four Paws Inn
+
+## Approval log
+- Oct 12, 2026: Alex "Start". Approved: Email 1 to Clients and the Dead lead email to Leads, in warmup batches of about 150 a day, only after SPF, DKIM, DMARC pass. Email 2 and the flows need their own yes.
