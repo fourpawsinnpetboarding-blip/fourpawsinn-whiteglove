@@ -45,3 +45,17 @@ Hi Giselle, it's Amanda from Four Paws Inn! Got your form. What's your pup's nam
 
 Built by Codex in workflow "FPI Future Travel Conversion": DATES MISSING branch runs "Personalize Meta first text by dog sociability" into Friendly, Selective and Anything else approved openers, then a 3 hour reply wait and an approved no reply follow up. The 90 second wait lives in "Meta Lead Timeline Router".
 DATES KNOWN branch keeps its own opener, unchanged by Alex's choice (Oct 10): "Hi {first name}, it's Amanda from Four Paws Inn. I saw you're planning to be away from {arrival} to {departure}. Is this your dog's first time boarding? You can also send your dates here {link}". Alex: "it shows we read it."
+
+## v3: Text 1 gives the price (APPROVED by Alex, Oct 12, 2026: "yes")
+
+Why: the Meta form already tells us the size and that pricing is OK. Giving the price first gives value before we ask for anything. Source: `strategy/reports/sms-reply-audit-2026-10-12.md`.
+
+Price comes from the size answer on the Meta form: Under 50 lbs = $60, Over 50 lbs = $75, Puppy or senior = $80. If the size is blank or unclear, send the v2 text without the price line.
+
+| Sociability answer | Text 1 |
+|---|---|
+| Friendly / loves dogs | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. For a pup your size it's {{price}} a day. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. For a pup your size it's {{price}} a day. What's your pup's name, and who do they usually get along with? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. For a pup your size it's {{price}} a day. What's your pup's name? Tell me a little about them. |
+
+Build: in "FPI Future Travel Conversion", DATES MISSING branch, add an If/Else on the size answer inside each sociability branch (or a custom value set from size) so {{price}} fills in. Text 2 is the no link version in `dates-by-text-first.md`. Test on Test Order only.

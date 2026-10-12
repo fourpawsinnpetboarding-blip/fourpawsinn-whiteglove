@@ -22,12 +22,12 @@ Limit: Windsor shows only the LAST message of each thread, not the full thread. 
 4. **Links.** A short link from an unknown domain in an early text lowers replies and trust.
 
 ## The fix, in order of dollars
-1. **Answer every reply within 15 minutes, 9 AM to 7 PM, from GHL only.** One phone, one thread. This costs nothing to build and is the biggest leak.
+1. **Answer every reply within 15 minutes, 9 AM to 7 PM, from GHL only.** DONE: Alex, Oct 12, the flagged replies were answered right away. One phone, one thread. This costs nothing to build and is the biggest leak.
 2. **Remove "call/text us directly at 754-971-0792" from the auto text.** Replace it with: "Reply here anytime. Amanda answers this number." Codex finds the workflow. (Not a CallRail change.)
 3. **One first text per lead.** Meta leads get only Meta Text 1. Website leads get only their own opener. Codex turns off the overlap.
 4. **Text 1 gives the price.** The Meta form already tells us size and that pricing is OK. New Text 1 (friendly branch):
    Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. For a pup your size it's {{price}} a day. What's your pup's name?
-   Needs Alex's yes before Codex builds it. Size to price: under 50 lbs $60, over 50 lbs $75, puppy or senior $80.
+   APPROVED by Alex, Oct 12. Spec: content/ghl/workflow-copy/meta-lead-first-reply-personalized.md, section v3. Size to price: under 50 lbs $60, over 50 lbs $75, puppy or senior $80.
 5. **No AI written or em dash texts.** Every automated text comes from the approved copy files only.
 6. **Full thread export, then a real reply rate per text.** Codex exports every new lead thread from the last 30 days (name, source, every message with time and direction) into a Google Sheet. Claude grades each one: which text got the reply, how fast we answered, where it died. Then we rewrite the weakest text with numbers, not guesses.
 
