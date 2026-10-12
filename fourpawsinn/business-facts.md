@@ -37,6 +37,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Dog over 50 lb | $75 per day |
 | Puppy or senior dog | $80 per day (Alex, Oct 11, 2026) |
 | Second dog | $5 per day off |
+| Third dog and more | $5 per day off each additional dog (Alex, Oct 12, 2026) |
 | Last day | Free if picked up before 10:00 AM |
 | Cats | $40 per day (Alex kept the live cat page price, Oct 11, 2026). For multiple cats or long stays, say the team will confirm the total. |
 | Private suite | Costs more. Never quote a private-suite price; say the team will confirm. |
