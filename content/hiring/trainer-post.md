@@ -7,8 +7,11 @@
 4. Paid trial: 1 dog first. Alex and Amanda judge the result before a second dog.
 5. Flat fee range to test: market check needed. Ask each candidate their rate for a 21 day program. Keep total trainer cost at or under 30% of the $3,000 price so each program keeps $2,100 or more.
 
-## Where to post
-Indeed, local trainer Facebook groups, and direct asks to the trainers in `strategy/partners/referral-list.md` (rows 24 to 27).
+## Where to post (Alex, Oct 12: no Facebook groups, nothing from his personal profile, nothing on the FPI social feed)
+1. Indeed, under the Four Paws Inn business account. Codex sets it up; Alex approves before it goes live.
+2. Direct asks to local trainers from fourpawsinnpetboarding@gmail.com (Claude) or their website contact form (Codex): K9 Advisors, Alpha Buddy Dog Training, Dog Training Elite Broward. Skip Suburban K9: it runs a competing board and train.
+3. CCPDT certified trainer directory (ccpdt.org), trainers within 15 miles of Miramar. Certified trainers are the quality filter.
+4. Never guess an email address. Public addresses only.
 
 ## The post
 
