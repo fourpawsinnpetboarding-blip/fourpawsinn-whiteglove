@@ -2,6 +2,7 @@
 
 Pilot started Oct 12, 2026. Amanda (or Alex) sends these by hand from GHL. Never automated. No dashes, 3rd grade, no health or safety promises.
 Rules: `strategy/operating-system/boarding-ready-audit.md`, section "Phase 1 rules".
+The trial night is a paid night at the normal rate. NO credit toward the later stay (Alex, Oct 12: a credit makes it a free night).
 
 ## Who gets which script
 | Lead | Script |
@@ -14,14 +15,12 @@ Rules: `strategy/operating-system/boarding-ready-audit.md`, section "Phase 1 rul
 ## Script 1: has holiday dates (deposit first)
 Thanksgiving fills up fast. A 25% deposit of $[deposit] holds your dates.
 
-Since this is [Dog]'s first stay with us, we do one trial night before the holiday, on a weekday, at the normal daily rate. [Dog] gets to learn the house and settle in before the busy week. The trial night price comes off your holiday stay, so it costs you nothing extra.
+Since this is [Dog]'s first stay with us, we do one trial night before the holiday, on a weekday, at the normal daily rate. [Dog] gets to learn the house and settle in before the busy week.
 
 Want me to send the booking form now?
 
 ## Script 2: no dates yet
 Totally fine that you don't have dates yet! Here is what most first time families do: one trial night with us on a weekday, at the normal daily rate. [Dog] learns the house and meets the crew, so when your trip comes up, [Dog] is ready and you are not scrambling.
-
-The trial night price comes off your first full stay if you book within 60 days.
 
 Want to pick a weeknight? We have openings Monday to Thursday.
 

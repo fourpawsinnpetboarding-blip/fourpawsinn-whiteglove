@@ -122,7 +122,7 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 
 ## Boarding Ready trial night (PILOT from Oct 12, 2026, Alex: "take the lead")
 - First time dogs booking Thanksgiving, Christmas or New Year do one trial night first. Recommended, not required, for other first stays.
-- 1 night, normal daily rate, Monday to Thursday, at least 7 days before the stay. The trial price is credited to the holiday stay, or to the first full stay booked within 60 days.
+- 1 night, normal daily rate, Monday to Thursday, at least 7 days before the stay. The trial is a paid night at the normal rate. Never credit it toward the later stay (Alex, Oct 12).
 - Holiday deposit comes first; refunded in full if the dog is not approved.
 - Approval is about how the dog settled in. Never describe it as a safety or health check.
 - Scripts: `content/sales/boarding-ready-scripts.md`.
