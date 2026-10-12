@@ -23,7 +23,7 @@ GHL (Oct 12 via Windsor): about 1,000 contacts with an email address.
 ## The math
 1,000 emails, about 35% opened, 2% to 3% clicked = 20 to 30 people a week who ask about dates. If 2 to 4 of them book each month at the $237 average, that is about $500 to $950 a month from a list we already paid for. Past clients book again faster than anyone else, so most of it comes from them.
 
-## Email 1, clients: "Mochi, Max and all your friends say hi"
+## Email 1, clients: "A quick hello"
 Subject: A quick hello from Four Paws Inn
 Preview: Plus the easiest way to book your next stay
 
