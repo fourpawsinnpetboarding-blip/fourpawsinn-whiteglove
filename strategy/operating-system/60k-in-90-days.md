@@ -14,7 +14,8 @@ Goal: $60,000 revenue in one calendar month by January 2027, then hold it 3 mont
 | Board and Train ($3,000, 21 days) | 0 | 3 a month = $9,000 | +$9,000 |
 | **Total** | **$30,000** | **$60,000** | **+$30,000** |
 
-Boarding gap in bookings: $21,000 / about $300 a booking (VERIFY in the deposit file) = about **70 more bookings a month**, about 16 a week.
+Boarding gap in bookings: $21,000 / about $300 a booking = about **70 more bookings a month**, about 16 a week.
+UPDATE Oct 12 scoreboard: real GHL average is about $237 a booking (16 Won, $3,790). At $237 the gap is about **89 more bookings a month**, about 21 a week. Raising average booking value (longer stays, add ons, holiday rates) is now a lever too.
 Leads needed: at a 25% lead to booking rate (VERIFY), 70 bookings = about **280 more leads a month**.
 
 Board and Train covers 30% of the gap with 3 sales. That is the cheapest $9,000 in the plan.

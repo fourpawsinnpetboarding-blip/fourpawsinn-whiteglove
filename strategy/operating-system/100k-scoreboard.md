@@ -82,3 +82,13 @@ Once items 1 to 7 are real, this tells us exactly how many leads, and how much a
 - Pace: 2 to 3 new sign ups a week.
 - Ramp: waitlist first (founding $2,900 for the first 5), hire the trainer part time when the waitlist reaches 5.
 - Weekly scoreboard line (Claude, Mondays): B&T inquiries, waitlist count, programs booked this month vs 10.
+
+## Status, Oct 12, 2026 (report: `strategy/reports/scoreboard-2026-10-12.md`)
+| Road | Status |
+|---|---|
+| Ads (CPL $17.26) | On pace |
+| Leads (25 Meta, 17 new opportunities) | On pace |
+| Speed and close (16 of 17 new leads open) | Stalled |
+| Boarding revenue ($237 average booking) | Slow |
+| Board and Train ($0) | Stalled |
+| Content (21 posts a week) | On pace |
