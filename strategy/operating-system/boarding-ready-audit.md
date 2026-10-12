@@ -49,3 +49,23 @@ Total new: 1 small workflow, 4 tags, 1 stage, 2 custom fields, 1 money sheet fla
 | 3. Optimize | A/B scripts, scoreboard lines (offered, booked, completed, approved, boarding booked, revenue, cost per boarding customer), write the SOP for licensing | Weeks 4 to 8 | Claude |
 
 Why manual first: if leads do not book trials when Amanda offers them by hand, automation will not fix it. Two weeks of manual offers costs nothing to build.
+
+## Claude's pushback on the original brief (Oct 12, Alex: "Push back on any items and take the lead")
+1. **"Required" for every 5+ night first stay is too much friction.** Required only for first time holiday stays, where capacity is scarce and the risk is highest. Recommended for everything else.
+2. **A paid trial for someone with no trip is a hard sell.** Only offer it to no date leads expecting to travel within 90 days. Everyone else stays in normal follow up.
+3. **Make the trial free in effect, not in price.** Charge the normal rate, then credit it to the holiday stay (Script 1) or to the first full stay booked within 60 days (Script 2). The family pays once, we get paid up front, and the credit pulls the real booking forward.
+4. **One night stays cost labor.** Every trial is a full check in and check out. Cap at 6 trials a week, Monday to Thursday only, never in the 7 days before a holiday.
+5. **The A/B test cannot be read at this volume.** About 10 offers a week means months to tell A from B. Run one script. Change it only if fewer than 3 of the first 20 offers book a trial.
+6. **"Approved" must never sound like a safety promise.** Approval is Amanda's call on behavior she saw: settled in, ate, rested, did well around other dogs. Never "safe", never "guaranteed".
+7. **A trial is a better ad signal than a form fill.** Never count it as Won or a purchase. Later, "Trial Booked" can become a Meta Conversion Leads stage so Meta finds people who commit, not just people who fill forms. Phase 3.
+8. **Thanksgiving clock.** Trials for Thanksgiving have to run Oct 19 to Nov 19. Phase 1 starts now.
+
+## Phase 1 rules (live Oct 12, by hand, no GHL workflow changes)
+1. Scripts: `content/sales/boarding-ready-scripts.md`.
+2. Trial = 1 night, normal daily rate, Monday to Thursday, at least 7 days before the stay, max 6 a week.
+3. Trial price is credited to the holiday stay or the first full stay booked within 60 days.
+4. Holiday leads pay the 25% deposit first. Not approved = full refund.
+5. Amanda approves after pick up. Behavior only, no safety or health language.
+6. Counting: tags `boarding-ready-offered`, `trial-booked`, `trial-passed`, `trial-not-approved`. Claude counts them every Monday on the scoreboard.
+7. Money sheet: do NOT enter a trial night as a normal booking until Codex adds the Trial flag (Eden row). Until then write it in Notes on the GHL contact.
+8. Review Oct 26: offers sent, trials booked, passed, later booked. Go or no go for Phase 2.
