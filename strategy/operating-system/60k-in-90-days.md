@@ -51,7 +51,8 @@ Creative volume rule: 100 ads on $52 a day is $0.52 per ad per day, so nothing g
 ## The 3 things that break this plan
 
 1. **Speed to lead.** Doubling leads into a slow call back loses them. Amanda calls every new lead within 15 minutes, from a daily call list. Codex row 789e7232 first.
-2. **Board and Train is not live.** It needs a trainer, a 21 day schedule and a page (training.fourpawsinn.co exists). Alex decides who trains by Oct 19.
+2. **Board and Train is not live.** It needs a trainer, a 21 day schedule and a page (training.fourpawsinn.co exists).
+   DECIDED (Alex, Oct 12): no fee split, ever. "I refuse to split the fee off my brand, my reviews, my Google ad, my Meta ad, my two years of experience." Model: Four Paws Inn hires one top trainer as a contractor, paid a flat fee per dog. Four Paws Inn owns the client, the price, the brand and the program. Hiring post: `content/hiring/trainer-post.md`.
 3. **Capacity on peak nights.** 30 average means 50+ on holiday nights. The 60 dog cap holds, but staff per dog must be planned before Thanksgiving.
 
 ## Weekly scoreboard lines (Monday 7:41 AM report)
