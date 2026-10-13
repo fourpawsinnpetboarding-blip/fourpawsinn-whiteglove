@@ -35,21 +35,32 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 | f24da22c-1fff-44df-b115-518f1923a284 | Dog Boarding Near Pembroke Pines and Southwest Ranches (batch 2) |
 | b4a5b9ef-01fd-45fb-ac0a-dfb1ffea84f8 | Senior Dog Boarding in Miramar (batch 2) |
 
-Copy: `content/seo/pages-2026-10-11.md`. Builder: `content/seo/build_pages.py`.
+## Pages published Oct 13, 2026
+
+| Post id | Page |
+|---|---|
+| cede67d9-bc99-4949-b818-c59e804f0ec9 | Dog Boarding Near Cooper City, FL |
+| 319cb588-fc77-4653-a21c-a95cee3b26fc | Dog Boarding Near Davie, FL |
+| dd97f0f1-47a1-442c-8331-2b0fb38874b3 | Thanksgiving and Christmas Dog Boarding in Broward: How to Hold Your Dates |
+
+Copy: `content/seo/pages-2026-10-11.md`, `content/seo/pages-2026-10-13.md`. Builder: `content/seo/build_pages.py`.
 
 ## Page backlog (3 a week, in order)
 
-1. Dog boarding near Cooper City
-2. Dog boarding near Davie
-3. Thanksgiving and Christmas dog boarding in Broward: how to hold dates
+1. ~~Dog boarding near Cooper City~~ (published Oct 13)
+2. ~~Dog boarding near Davie~~ (published Oct 13)
+3. ~~Thanksgiving and Christmas dog boarding in Broward: how to hold dates~~ (published Oct 13)
 4. What to pack for your dog's boarding stay
 5. Dog boarding near Hollywood, FL
 6. Exotic pet boarding in Miramar (team confirms price)
 7. Boarding for dogs who are selective with other dogs
 8. Large dog boarding in Miramar (over 50 lb, $75 a day)
 9. Boarding two dogs together: how the second dog discount works
+10. Dog boarding near Plantation, FL
+11. Dog sitter at home or dog boarding: how to choose
+12. Last minute dog boarding in Miramar: what to do this week
 
-Done: Weston, cost guide, cage free guide, puppy, Pembroke Pines and Southwest Ranches, senior. Cat boarding already has a live post (39505de5).
+Done: Cooper City, Davie, holiday dates (Oct 13), Weston, cost guide, cage free guide, puppy, Pembroke Pines and Southwest Ranches, senior. Cat boarding already has a live post (39505de5).
 
 ## Weekly process (the Tuesday sprint, Claude)
 
@@ -60,3 +71,14 @@ Every Tuesday at 9 AM ET a routine runs:
 4. Report to Alex in 5 lines with the one yes he needs to give.
 
 Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts a week without a per-post approval. GBP posts go live Mon, Wed, Fri at 10:47 AM ET; each one is marked POSTED in its `content/gbp/` file with the post id.
+
+## Status Oct 13 (Tuesday sprint)
+
+| # | Action | Status |
+|---|---|---|
+| 1 | Pages | 9 published total. 3 this week (Cooper City, Davie, holiday dates) |
+| 2 | GBP posts | Week of Oct 19 written: `content/gbp/2026-10-19-week.md` |
+| 3 | Directory sites | Batch 1 in progress (Codex row 6b61b075). Batch 2 (8 sites) not started (row 1a6246e5) |
+| 5 | Lead follow up | Speed to lead test live Oct 13 to 26 (Alex calls in 5 min). Meta Text 1 v4/v6 approved, Codex swapping (row 15eb12de). Workflow rewrite row 8bfc16be still Request |
+| 6 | Partners | List done (27). Week 1 drop offs: Alex or Amanda |
+| 7 | Community | Week 2 drafts: `content/community/answers-2026-10-week2.md` |
