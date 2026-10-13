@@ -54,7 +54,7 @@ Four Paws Inn charges by day, never by night.
 - Owners bring food pre-portioned in Ziploc bags.
 - Four Paws Inn provides beds and supplies.
 - Daily photo and video updates are included.
-- New dogs are introduced to the group slowly, with a tried and tested process (Alex, Oct 12, 2026). Never call it "safe" and never promise how a dog will do with other dogs.
+- New dogs are introduced to the group slowly, with a careful intro process (Alex, Oct 12, 2026). Never call it "safe" and never promise how a dog will do with other dogs.
 - Supervised pool time is offered (Alex, Oct 11, 2026).
 - Exotic pets are boarded: reptiles, birds, rabbits, small mammals (Alex, Oct 11, 2026). Never quote an exotic price; the team confirms.
 - Phone numbers on the website rotate through CallRail for call tracking. Set up as CallRail advised; do not change website phone numbers (Alex, Oct 11, 2026).

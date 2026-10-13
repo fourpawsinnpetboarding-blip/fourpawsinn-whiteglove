@@ -97,7 +97,9 @@ Claude edits: dropped "safe" (Gate 5, no safety claims). Used "comes on strong" 
 | Branch | Text 1 |
 |---|---|
 | Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
-| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a tried and tested way of bringing new dogs into the group, nice and slow. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
-| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a tried and tested way of bringing new dogs in nice and slow, plus a private suite for pups who do best on their own. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
+| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a careful intro process for new dogs, and we always take it slow. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a careful intro process for new dogs, we always take it slow, and we have a private suite for pups who do best on their own. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
 
 Amanda reads the answer and notes it in "Dog Social Type" (Shy or Comes on strong). No price, no link, no dashes, no promises.
+
+v6 wording update (Alex, Oct 12): "tried and tested" replaced with "a careful intro process for new dogs, and we always take it slow".
