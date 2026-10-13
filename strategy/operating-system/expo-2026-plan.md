@@ -39,4 +39,4 @@ Write answers in the phone notes the same night. Claude turns them into the oper
 4. Codex rows clear, so nothing waits on Alex.
 
 ## Content
-Film 3 clips a day: the show floor, one lesson learned, one idea for Four Paws Inn. Claude edits into a Founder's Log episode for Substack and a reel.
+Film 3 clips a day: the show floor, one lesson learned, one idea for Four Paws Inn. Claude edits into a Founder's Log episode for Substack (Founder's Log stays on Substack only).
