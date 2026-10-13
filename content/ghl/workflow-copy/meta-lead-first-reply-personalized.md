@@ -89,3 +89,15 @@ Why a numbered list: a pet parent can answer with one tap ("2"), and the answer 
 | Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for telling us. We introduce every new dog slowly, and we have a private suite for pups who do best on their own. Which sounds most like yours?<br>1. Nervous if a dog comes on too fast<br>2. Likes to be the boss<br>3. Fine with some dogs, not others<br>4. Happiest with their own space<br>Just reply with a number. |
 
 Rules: no price, no link, no dashes. Never promise a result ("will get along", "safe"). Amanda decides placement after the first overnight.
+
+## v6: Selective and Not good with dogs (Alex, Oct 12, 2026, replaces v5)
+Alex: no numbered list, keep it casual. One sentence on our intro process ("tried and tested", slow). Then one casual question: is the dog more shy or more the one who comes on strong.
+Claude edits: dropped "safe" (Gate 5, no safety claims). Used "comes on strong" instead of "aggressive" so the owner does not feel judged and answers honestly.
+
+| Branch | Text 1 |
+|---|---|
+| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a tried and tested way of bringing new dogs into the group, nice and slow. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a tried and tested way of bringing new dogs in nice and slow, plus a private suite for pups who do best on their own. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
+
+Amanda reads the answer and notes it in "Dog Social Type" (Shy or Comes on strong). No price, no link, no dashes, no promises.
