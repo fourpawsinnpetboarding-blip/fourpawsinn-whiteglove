@@ -69,3 +69,15 @@ Already in the system (do not duplicate): Perfect Day scorecard and the Race (`p
 | Evening | Family. No relaying messages | Claude and Codex keep working |
 
 Weekly: Sunday film the Founder's Log, 3 line week review. Monday: 7:41 AM scoreboard, then the 30 minute meeting with Amanda.
+
+## Training plan (Alex, Oct 13, 2026). On the Alexander calendar and in Things
+Morning yoga stays as the ritual (meditation and mobility). Gentle on lifting and running days.
+| Day | Training | Time |
+|---|---|---|
+| Mon, Wed, Fri | Full body weights, 2 sets each, stop with about 2 good reps left, + 15 min incline walk | 10:45 to 11:45 AM |
+| Tue | Incline walk, 35 to 45 min (breathe harder, can still talk) | 10:45 to 11:35 AM |
+| Thu | Yoga only, recovery | |
+| Sat | Easy 5K | 7:00 AM |
+| Sun | Gentle yoga or easy recovery walk | 7:00 AM |
+Rules: 2 weeks (Oct 14 to 27) before adding anything. Then, if sleep is good, soreness clears and performance holds, swap Tuesday for a second easy run. Daily weigh in; the weight trend judges the calorie deficit.
+Deep work moved to 9:00 to 10:30 Mon, Tue, Thu, Fri (plus Wed Oct 14). Window 1 moves to 12:00. Amanda covers lead calls 9:00 to 11:45.

@@ -1,4 +1,4 @@
-# Board and Train: founding class (DRAFT, Alex decides the offer Oct 14)
+# Board and Train: founding class (Offer A DECIDED, Alex Oct 13: "Whatever you recommend")
 
 Why (Alex, Oct 13): "If I find a good trainer, what am I going to tell him? I'll have some dogs for you soon?" Build demand first, so the trainer hears "I have dogs ready."
 Rule: we sell a reservation, not a start date. No outcome guarantees. No health or safety claims.
