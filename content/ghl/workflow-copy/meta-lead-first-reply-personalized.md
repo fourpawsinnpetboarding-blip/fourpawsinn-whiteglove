@@ -59,3 +59,21 @@ Price comes from the size answer on the Meta form: Under 50 lbs = $60, Over 50 l
 | Not good with other dogs (or anything else) | Hi {{contact.first_name}}, it's Amanda from Four Paws Inn! Got your form. For a pup your size it's {{price}} a day. What's your pup's name? Tell me a little about them. |
 
 Build: in "FPI Future Travel Conversion", DATES MISSING branch, add an If/Else on the size answer inside each sociability branch (or a custom value set from size) so {{price}} fills in. Text 2 is the no link version in `dates-by-text-first.md`. Test on Test Order only.
+
+## v3 RETIRED (Alex, Oct 12, 9:09 PM, after Tania Reyes got it)
+Why it failed (Claude's error):
+1. The price repeats what the form already showed. She already said yes to it. It reads like a bot reading her form back.
+2. "Who do they usually get along with?" is a clumsy question for a selective dog. It gives nothing and makes her work.
+3. "Got your form" sounds automated.
+Lesson: text 1 gives one real reason to pick us, matched to her answer, then asks one easy question. Never repeat form answers back.
+
+## v4: Text 1 (replaces v3, Oct 12, 2026)
+Facts used: daily photo and video updates, outside to play every hour, private suite (business-facts.md). One question: the pup's name.
+
+| Sociability answer | Text 1 |
+|---|---|
+| Friendly / loves dogs | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Lots of pups are picky about friends, and that's ok. We go at their pace, and you get photos and videos every day. What's your pup's name? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. We have a private suite for pups who do best on their own, and you get photos and videos every day. What's your pup's name? |
+
+No price. No link. No dashes. Same 90 second wait and same 3 hour no reply follow up (no link version).
