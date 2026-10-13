@@ -77,3 +77,15 @@ Facts used: daily photo and video updates, outside to play every hour, private s
 | Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. We have a private suite for pups who do best on their own, and you get photos and videos every day. What's your pup's name? |
 
 No price. No link. No dashes. Same 90 second wait and same 3 hour no reply follow up (no link version).
+
+## v5: Selective and Not good with dogs (Alex, Oct 12, 2026, replaces v4 for these 2 branches)
+Alex: talk like a dog trainer to a pet parent who is not one. Authority, but plain words. No price. Say we introduce dogs slowly. Ask a dog specific question that is easy to answer.
+Why a numbered list: a pet parent can answer with one tap ("2"), and the answer tells Amanda how to place the dog. Save the answer to the contact field "Dog Social Type".
+
+| Branch | Text 1 |
+|---|---|
+| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Lots of pups are picky about friends, and that's ok. We introduce every new dog slowly, one step at a time, and we've watched shy pups really open up here. Which sounds most like yours?<br>1. Nervous if a dog comes on too fast<br>2. Likes to be the boss<br>3. Fine with some dogs, not others<br>4. Happiest with their own space<br>Just reply with a number. |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for telling us. We introduce every new dog slowly, and we have a private suite for pups who do best on their own. Which sounds most like yours?<br>1. Nervous if a dog comes on too fast<br>2. Likes to be the boss<br>3. Fine with some dogs, not others<br>4. Happiest with their own space<br>Just reply with a number. |
+
+Rules: no price, no link, no dashes. Never promise a result ("will get along", "safe"). Amanda decides placement after the first overnight.
