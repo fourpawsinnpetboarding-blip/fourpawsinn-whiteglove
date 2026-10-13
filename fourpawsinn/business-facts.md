@@ -129,4 +129,5 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 - Why (say it this way): the dog learns the house, the pack and our team before a big stay, so the real stay feels familiar. Never call it a safety or health check.
 - Price: normal daily rate, paid in full. Never free, never credited toward a later stay.
 - Returning clients are exempt.
+- NOT for leads who already have trip dates in the next 2 weeks (Alex, Oct 13, 2026): quote the trip and take the deposit. The overnight is for leads with no dates or dates far out, to book them sooner and earn from the ad click.
 - Scripts: `content/sales/boarding-ready-scripts.md`.

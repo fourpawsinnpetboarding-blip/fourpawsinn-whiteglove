@@ -4,6 +4,8 @@ REQUIRED for every new dog (Alex, Oct 12, 2026). Paid in full at the normal dail
 Main target: leads without dates. Goal: book and collect the overnight now, then the real trip later (2 time client).
 Sent by hand from GHL. No dashes, no safety or health promises.
 
+Do NOT offer the overnight to a lead whose trip is in the next 2 weeks (Alex, Oct 13). Quote the trip and send the deposit.
+
 ## Script A: no dates yet (the main one)
 Totally fine that you don't have dates yet! Every new pup starts with one overnight stay with us. [Dog] gets to learn the house, meet the pack and get to know our team. Then when your trip comes up, [Dog] already knows us and you can book with no stress.
 
