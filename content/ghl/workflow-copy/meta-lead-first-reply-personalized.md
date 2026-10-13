@@ -103,3 +103,5 @@ Claude edits: dropped "safe" (Gate 5, no safety claims). Used "comes on strong" 
 Amanda reads the answer and notes it in "Dog Social Type" (Shy or Comes on strong). No price, no link, no dashes, no promises.
 
 v6 wording update (Alex, Oct 12): "tried and tested" replaced with "a careful intro process for new dogs, and we always take it slow".
+
+APPROVED by Alex, Oct 12, 2026: "Yes, these are perfect." v4 Friendly + v6 Selective + v6 Not good are the live copy.
