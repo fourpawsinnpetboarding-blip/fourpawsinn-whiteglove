@@ -44,7 +44,7 @@ Problem: Meta leads go quiet. 82% of new lead text threads in the last 30 days e
 
 ## The one test
 **Action:** for 14 days (Oct 14 to Oct 27), every new Meta lead gets a phone call within 5 minutes, 9 AM to 7 PM. Two tries (call, then call again 1 minute later). No answer: the automated text continues as now. After 7 PM: call at 9 AM next day.
-**Who:** the person holding the phone that gets the GHL new lead alert (Alex or Amanda, decide one). Called from the GHL number so it stays in the thread.
+**Who:** Alex (decided Oct 13: "I will hold it"). He gets the GHL new lead alert and makes the calls from the GHL number (GHL app dialer) so the call stays in the thread. Deep work block (9:00 to 10:30 AM, Mon, Tue, Thu, Fri): Amanda calls leads that come in during the block, so the block stays protected. After the block, Alex checks for any lead she missed.
 **Call script (30 seconds):** "Hi [name], it's [Alex or Amanda] from Four Paws Inn. You just filled out our form. I've got a minute, can I ask a couple quick questions about your pup?" Then: pup's name, dates, size. Dates known: check room, quote, send deposit link. New dog: first overnight rule.
 **Log:** one GHL tag per lead: `called-under-5`, `called-late`, or `not-called`.
 **Measure:** lead to deposit rate (deposit paid within 14 days of the form) for called under 5 minutes vs not called, plus the same rate for the 14 days before (Sep 30 to Oct 13). Claude reports it on the Monday scoreboard Oct 20 and Oct 27.
