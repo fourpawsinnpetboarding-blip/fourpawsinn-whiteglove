@@ -14,3 +14,9 @@
 | @shereenamber | SHEREEN25 | 1a12cf19f4c34a28 |
 
 Codex row f90e24bf: v2 pitch in all DMs, GHL creator code field, payouts sheet.
+
+## Inbox check Oct 13, 2026 (10:53 AM)
+- No replies yet from tourwithteddy, vanilla.espresso (Carlos), shereenamber. Sent Oct 11.
+- No new verified creator emails in creators.md (last update Oct 11). Nothing sent today.
+- Trainers: content/hiring/trainer-candidates.md does not exist yet, so no trainer emails sent. Alex is contacting trainers himself.
+- Found: YMCA of South Florida (Sonia Garcia, sgarcia@ymcasouthflorida.org) invites Four Paws Inn to table or sponsor Howl-O-Ween 3K-9, Oct 24, with the City of Pembroke Pines. Waiting on Alex's yes to reply.
