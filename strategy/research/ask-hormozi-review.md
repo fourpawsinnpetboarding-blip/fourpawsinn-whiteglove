@@ -43,7 +43,7 @@ Problem: Meta leads go quiet. 82% of new lead text threads in the last 30 days e
 4. It does not replace the texts. Text 1 still goes out at 90 seconds. If the call is answered, the reply stop takes them out of the automation.
 
 ## The one test
-**Action:** for 14 days (Oct 14 to Oct 27), every new Meta lead gets a phone call within 5 minutes, 9 AM to 7 PM. Two tries (call, then call again 1 minute later). No answer: the automated text continues as now. After 7 PM: call at 9 AM next day.
+**Action:** for 14 days (Oct 13 to Oct 26), every new Meta lead gets a phone call within 5 minutes, 9 AM to 7 PM. Two tries (call, then call again 1 minute later). No answer: the automated text continues as now. After 7 PM: call at 9 AM next day.
 **Who:** Alex (decided Oct 13: "I will hold it"). He gets the GHL new lead alert and makes the calls from the GHL number (GHL app dialer) so the call stays in the thread. Deep work block (9:00 to 10:30 AM, Mon, Tue, Thu, Fri): Amanda calls leads that come in 9:00 to 11:45 AM on weekdays (deep work, then gym at 10:45), so both stay protected. After that, Alex checks for any lead she missed.
 **Call script (30 seconds):** "Hi [name], it's [Alex or Amanda] from Four Paws Inn. You just filled out our form. I've got a minute, can I ask a couple quick questions about your pup?" Then: pup's name, dates, size. Dates known: check room, quote, send deposit link. New dog: first overnight rule.
 **Log:** one GHL tag per lead: `called-under-5`, `called-late`, or `not-called`.

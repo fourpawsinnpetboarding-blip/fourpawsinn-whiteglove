@@ -79,5 +79,5 @@ Morning yoga stays as the ritual (meditation and mobility). Gentle on lifting an
 | Thu | Yoga only, recovery | |
 | Sat | Easy 5K | 7:00 AM |
 | Sun | Gentle yoga or easy recovery walk | 7:00 AM |
-Rules: 2 weeks (Oct 14 to 27) before adding anything. Then, if sleep is good, soreness clears and performance holds, swap Tuesday for a second easy run. Daily weigh in; the weight trend judges the calorie deficit.
-Deep work moved to 9:00 to 10:30 Mon, Tue, Thu, Fri (plus Wed Oct 14). Window 1 moves to 12:00. Amanda covers lead calls 9:00 to 11:45.
+Rules: 2 weeks (Oct 13 to 26) before adding anything. Then, if sleep is good, soreness clears and performance holds, swap Tuesday for a second easy run. Daily weigh in; the weight trend judges the calorie deficit.
+Deep work moved to 9:00 to 10:30 Mon, Tue, Thu, Fri (plus Tue Oct 13 Board and Train block). Window 1 moves to 12:00. Amanda covers lead calls 9:00 to 11:45.
