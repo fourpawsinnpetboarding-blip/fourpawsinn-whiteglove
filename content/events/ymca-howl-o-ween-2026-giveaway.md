@@ -13,7 +13,7 @@ Business facts say the first overnight is always the normal daily rate, never di
 ## Prizes
 - YMCA raffle: 2 free nights of boarding (gift card).
 - Our giveaway: 2 free nights of boarding. For a new dog, night 1 counts as the required first overnight.
-- Gift cards: new or returning clients, must book by Mar 31 2027, not valid on holiday dates, subject to our normal intake.
+- Gift cards: new or returning clients, must book by Mar 31 2027, not valid on holiday weekends (Thanksgiving, Christmas, New Year, Easter, Memorial Day, July 4th, Labor Day), subject to our normal intake.
 
 ## Sign (12x18, cream #FAF7F3, pink #E6A0A3, charcoal #353532)
 Win 2 free nights of dog boarding
@@ -49,7 +49,7 @@ trip-30d tag: Amanda or Alex calls within 1 day of entry.
 Stop all texts on reply, booking, or STOP.
 
 ## Official rules (short, link from the form)
-Four Paws Inn Howl-O-Ween Giveaway. No purchase necessary. Open to legal US residents 18+ in Florida. Enter Oct 24 to Oct 26, 2026 by scanning the QR code. One entry per person. One winner drawn at random Oct 27, 2026, notified by text and email; must reply within 7 days. Prize: 2 nights of dog boarding at Four Paws Inn, approx. value $120 to $150, no cash value, must book by Mar 31, 2027, not valid on holiday dates, subject to our normal intake. Odds depend on number of entries. Sponsor: Four Paws Inn LLC, Miramar, FL. Not sponsored or endorsed by the YMCA or Instagram. Total prize value is under $5,000, so no Florida game promotion registration is needed.
+Four Paws Inn Howl-O-Ween Giveaway. No purchase necessary. Open to legal US residents 18+ in Florida. Enter Oct 24 to Oct 26, 2026 by scanning the QR code. One entry per person. One winner drawn at random Oct 27, 2026, notified by text and email; must reply within 7 days. Prize: 2 nights of dog boarding at Four Paws Inn, approx. value $120 to $150, no cash value, must book by Mar 31, 2027, not valid on holiday weekends (Thanksgiving, Christmas, New Year, Easter, Memorial Day, July 4th, Labor Day), subject to our normal intake. Odds depend on number of entries. Sponsor: Four Paws Inn LLC, Miramar, FL. Not sponsored or endorsed by the YMCA or Instagram. Total prize value is under $5,000, so no Florida game promotion registration is needed.
 
 ## Who does what
 - Alex: send the Gmail draft. Pick B1 or B2.
