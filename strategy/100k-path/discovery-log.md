@@ -15,8 +15,8 @@ Rule for this file: a number is only "verified" when a record backs it. Everythi
 | Target metric | $100K/month revenue at 70% margin (Round 1 answer) | Open: Alex reopened revenue vs profit and whether Four Paws Inn counts |
 | Deadline | 12 months (October 2027) | Stated |
 | Four Paws Inn break even | About $30K/month revenue | Estimate, not audited |
-| Four Paws Inn revenue | About $30K/month | Estimate, unreconciled |
-| Four Paws Inn profit | Unknown | Open. The $20K figure in CLAUDE.md is unverified |
+| Four Paws Inn revenue | Not established. Recorded booking charges and secondary bank estimates cover different periods and measures | Unknown |
+| Four Paws Inn profit | Unknown | The $20K figure in CLAUDE.md is unsupported by any record. No replacement figure until expenses are reconciled |
 | Capacity | Unknown | Open. "60 dogs" is not an established figure |
 | Occupancy | Unknown | Open |
 | CAC (ad spend divided by new paying clients) | About $90 | Historical estimate, not this period |
@@ -24,7 +24,7 @@ Rule for this file: a number is only "verified" when a record backs it. Everythi
 | $0 to $30K in 8 months | Claimed | Not yet verified |
 | Risk capital | $10K, all can be lost | Stated |
 | SBA / debt appetite | Yes | Stated |
-| Weekly hours for new venture | 6 now, maybe 15 after validation | Open |
+| Weekly hours for new venture | UNANSWERED (6 and 15 were proposals only) | Decision pending |
 | Hours Four Paws Inn needs from Alex | 12/week | Stated, not time logged |
 | Contact network | Not counted | Open |
 | Licenses | Not established | Open |
@@ -48,7 +48,7 @@ Corrected after Round 2: reviews and referrals growth still counts as skill. The
 3. **Is there capital beyond $10K?** Rental equity, a HELOC (home equity line of credit), or a capital partner. Without it, buying a business is off the table for 12 months.
 4. **Revenue or profit, and is 70% a hard floor?** A hard 70% excludes almost every acquisition and most delegated services.
 
-Working defaults until Alex confirms: 6 hours now and 15 after validation, Four Paws Inn counts, $10K capital only, 70% margin as a target rather than a hard floor.
+All four decisions are UNANSWERED. No defaults are treated as commitments (corrected in Round 4).
 
 ## 4. Minimum records to verify the strongest skills
 
@@ -80,7 +80,21 @@ Revenue target, 70% margin, 12 months, $10K capital, SBA yes, 6 hours, Four Paws
 
 ### Round 3 (2026-10-14)
 - Evidence packet received and analyzed. Full read in `02-evidence-assessment-and-options.md`.
-- Key corrections: run rate is about $19K to $26K/month, not $30K. The $20K/month profit is unsupported. Capacity is unverified. 505 GHL leads are untouched in New Lead.
+- (Superseded in Round 4: the revenue range, "untouched" leads and demand constraint claims overstated the records.) The $20K/month profit is unsupported. Capacity is unverified.
 - Network assessed as cold: 4 credible reconnects out of 25.
-- Recommendation under working defaults: Option 1, lead response and recovery for high ticket home services, with the Four Paws Inn reactivation as the proof case.
+- (Superseded in Round 4.) Recommended lead recovery on assumed defaults.
 - The four decisions are still open.
+
+### Round 4 (2026-10-14)
+Alex's corrections, all accepted:
+1. The 505 New Lead opportunities are a stage label, not proof the leads went untouched. Activity history is needed.
+2. Recorded booking charges (Mar to Sep) and secondary bank cash in (Jan to Jun) are different measures and periods. No combined revenue range.
+3. The $20K profit is flagged as unsupported, with no replacement figure.
+4. Booking rows are not dogs. Capacity stays unverified, and the demand constraint is not established by the records.
+5. Google's return stays reported. This export cannot measure a Google close rate.
+
+Also:
+- Assessment rewritten as Revision 2, with Verified, Secondary, Reported, Proposed and Unknown labels.
+- Options span all of Alex's skills: A, home service lead handling. B, real estate deal sourcing with rehab scoping. C, a pet care operating system.
+- Mystery shopping and guarantees removed. Replaced with a transparent diagnostic and a scoped pilot.
+- Next step: read only lead activity audit (`lead-activity-audit.md`).

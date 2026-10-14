@@ -1,240 +1,229 @@
-# $100K/Month Path: Evidence Assessment, Three Options, 30 Day Test
+# $100K/Month Path: Evidence Assessment and Options (Revision 2)
 
-Prepared 2026-10-14 from the evidence packet dated 2026-10-14. Analysis script: `analysis/analyze_evidence.py`. The packet itself is not committed (private match hashes).
+Revised 2026-10-14 after Alex's corrections. Revision 1 overstated several conclusions. It is in git history and should not be cited.
 
-Labels used: **[Record]** observed in the packet. **[Reported]** Alex's statement, not in records. **[Assumption]** my estimate, to be tested. **[Source]** external research, listed at the bottom.
+Source: evidence packet dated 2026-10-14 (not committed, it holds private match hashes). Analysis script: `analysis/analyze_evidence.py`.
 
----
-
-## Part 1. What the records show
-
-### 1.1 Revenue scale
-
-| Measure | Value | Label |
-|---|---|---|
-| Business bank deposits, Jan 2025 | $3,785 | [Record] statement summary |
-| Business bank deposits, Jun 2025 | $19,530 | [Record] statement summary |
-| Business bank deposits, Dec 2025 | $31,567 | [Record] statement summary |
-| 2025 total deposits | $151,633 (about $12.6K/month) | [Record] CPA workbook |
-| Jan to Jun 2026 cash in, average | $18,651/month | [Record] rounded secondary estimate |
-| Recorded bookings by check in month, Mar to Sep 2026, average | $25,559/month | [Record] unreconciled ledger |
-| Best recorded booking month | Jul 2026, $34,635 | [Record] unreconciled ledger |
-| Profit or margin | Cannot be calculated | Missing statements, unclassified card spend, draws mixed in |
-
-**Read:** The business does roughly $19K to $26K a month, depending on whether you count bank cash or recorded bookings. It peaks at $30K+. "$30K a month" describes a strong month, not the run rate. The ramp is real: deposits went up about 5x in 5 months in 2025. The "$20K profit a month" figure in CLAUDE.md is **not supported** by any record. Jan to Jun 2026 cash out ($104,979) nearly matched cash in ($111,905), but cash out includes owner draws, so this does not prove a loss either.
-
-### 1.2 Demand and conversion
-
-| Measure | Value | Label |
-|---|---|---|
-| GHL opportunities, Mar 18 to Oct 14 2026, non test | 1,029 (about 147/month) | [Record] |
-| Meta spend, Apr 27 to Oct 14 2026 | $9,397 | [Record] |
-| Meta spend, Jun vs Sep 2026 | $2,617 vs $1,184 (cut by more than half) | [Record] |
-| Cost per Meta lead event (CPL, ad spend divided by lead events) | $16.57 | [Record] events, not unique people |
-| Meta labeled opportunities since Apr 27 | 640 | [Record] |
-| Of those, currently marked Won | 66 (10.3%) | [Record] current status, not proof of payment |
-| Meta spend per Meta labeled Won opportunity | $142 | Indicator only. Not CAC: Won is not verified payment |
-| CRM value of Meta labeled Won opportunities | $39,645, mean $583 | [Record] CRM value, not cash |
-| Google labeled opportunities marked Won | 138 of 138 | [Record] Entered after booking, so Google close rate cannot be measured |
-| Google Ads at $3K/month, 6 to 7x return | Unverified | [Reported] |
-| Opportunities still sitting in "New Lead" | 505, of which 418 are older than Sep 1 | [Record] |
-
-**Read:** Generating inquiries is proven: about 147 a month, on $1K to $2.6K/month of Meta. Following up on them is the leak: 505 inquiries were never moved out of "New Lead". Some are junk, but at a 10% win rate and a $292 average booking, even partial recovery is real money.
-
-### 1.3 Capacity use
-
-| Measure | Value | Label |
-|---|---|---|
-| Recorded stay rows per night, Jul / Aug / Sep / Oct 2026 | 13.8 / 9.7 / 10.1 / 7.6 average | [Record] rows, not dogs |
-| Peak stay rows in a night (90 days) | 26 | [Record] |
-| Median daily rate | $60 | [Record] |
-| Average booking value | $292, median 3 nights | [Record] |
-| Legal capacity | Unverified | Missing |
-
-**Read:** Even at 2 dogs per row, a typical night runs far below any plausible capacity. Four Paws Inn is demand constrained, and the numbers say so.
-
-### 1.4 Records quality
-
-- 1,054 of 1,179 booking rows have no phone or email. Repeat rate and LTV cannot be measured.
-- More than 30 spellings of lead source in GHL ("Googel ads", "GOOGLE", "Google Ads"...).
-- No reconciled books for July to September 2026.
-
-This matters for the opportunity search. Any option that sells "systems" or "operations" to other owners needs a clean proof case, and today's records are not one yet.
-
-### 1.5 Network
-
-- 25 historical business contacts, mostly from 2021 to 2024: construction bid desks, title and closing staff, lenders.
-- 4 are credible reconnects (two way bid or proposal work). 3 carry relationship friction.
-- No current warm network is verified. **Treat the network as cold.** It is not an advantage yet.
-
-### 1.6 Skills verdict
-
-| Skill | Verdict | Evidence |
-|---|---|---|
-| Making a local, trust based service ring | **Demonstrated** | 5x deposit ramp in 2025, about 147 inquiries/month, $16.57 CPL |
-| Running a profitable low overhead service with family labor | **Partly demonstrated** | Business exists at $19K to $26K/month, but profit is unproven |
-| Converting and following up on inquiries | **Mixed** | 10% Meta win rate, 505 untouched leads |
-| Directing systems built by AI and contractors | **Partly demonstrated** | Pipeline, attribution and sync exist, but hygiene gaps are visible |
-| Construction and real estate | **Historical, outcomes unverified** | Bids and closings exist, no awards or flip P&L in the packet |
-| Network | **Weak / cold** | 4 reconnect candidates |
-
-The strongest transferable asset: **you know how to get a local, high trust service business from almost nothing to about $20K+ a month in inquiries and bookings, cheaply.** The weakest link is the same one most owners have: follow up and records.
+**Labels**
+- **[Verified]** Observed directly in a record, with that record's scope stated. It is not a business conclusion.
+- **[Secondary]** In a record, but derived or summarized from something we have not seen in original form.
+- **[Reported]** Alex's statement. No record yet.
+- **[Proposed]** My assumption or hypothesis, to be tested. Never a fact.
+- **[Unknown]** Not established.
 
 ---
 
-## Part 2. Excluded before scoring
+## 0. Four decisions: UNANSWERED
 
-**Buying a business, for the next 12 months.** SBA 7(a) (the government backed small business loan) requires at least 10% equity. A seller note counts toward that only if it is on full standby for the loan's life, and only up to half the injection [Source 1]. On a $500K deal that is $50K minimum, with at most $25K from the seller. With $10K, this is off the table unless decision 3 changes. Most acquired service businesses also run well under a 70% margin.
+None of these has been answered. The options below show how each answer would change the ranking. No answer is assumed.
 
----
-
-## Part 3. Three options
-
-Working defaults: Four Paws Inn counts toward the $100K, so the gap is about **$75K/month in new revenue** (using $25K as the Four Paws Inn base). 6 hours/week now, 15 after validation. $10K capital. 70% margin as the target, not a hard floor.
-
-### Option 1. Lead response and recovery service for high ticket local home services (RECOMMENDED)
-
-**What the customer buys:** Every inquiry is answered within 5 minutes, the dead leads already sitting in their CRM get worked, and appointments get booked. Roofing, HVAC, pool, remodel and impact window companies in Broward and Miami Dade.
-
-**Why they pay:** They already spend $50 to $150 per lead [Source 2]. One HVAC dataset shows a $2,110 average ticket [Source 2]. Contacting a lead within 5 minutes instead of 30 raised qualification odds about 21x in the InsideSales/MIT study [Source 3]. A leak is expensive for them and easy to measure.
-
-**Why you could win:** You run this exact pipeline daily (Meta, GHL, follow up, booking). You can talk to contractors as someone who has bid trades. You are local.
-
-**Why you could lose:** Many AI appointment setter agencies sell this [Source 4]. And your own pipeline has 505 untouched leads. You must fix that first and use it as your case study.
-
-| Item | Number | Label |
-|---|---|---|
-| Price | $2,500/month retainer plus $1,500 setup | [Assumption] Market range $2K to $5K/month [Source 4] |
-| Clients needed for $75K MRR (monthly recurring revenue) | 30 | Math |
-| Monthly churn (share of clients who cancel each month) | 5% | [Assumption] |
-| New clients needed per month, average | about 3.5 | Math |
-| Sales calls needed per month at a 25% close rate | about 14 | [Assumption] close rate |
-| Sales cycle | 1 to 3 weeks | [Assumption] |
-| Delivery per client: tools and phone | $150 to $400/month | [Source 4] |
-| Delivery per client: offshore setter, 1 per 8 clients at $1,600/month | about $200/month | [Assumption] |
-| Ops manager from client 15 | $5,000/month | [Assumption] |
-| Margin at 30 clients | about 65% to 70% | Math on the assumptions above |
-| Capital | under $3K to first revenue | [Assumption] |
-| Owner workload | 6 hours in the test, then 12 to 15 hours from months 2 to 6 (sales plus QA), back to about 8 once the ops manager is in | [Assumption] |
-
-**Reject it if:** fewer than 3 of 20 owners pay for a pilot, or mystery shopping shows most targets already reply in under 5 minutes (no leak), or recovering Four Paws Inn's own dead leads produces fewer than 10 bookings.
-
-### Option 2. Growth system for pet care businesses, nationally
-
-**What the customer buys:** The Four Paws Inn system for boarders, daycares and groomers: ad templates, a GHL snapshot (a prebuilt copy of your pipeline and workflows), scripts, and monthly coaching.
-
-**Why they pay:** Inquiries and bookings. Your case study fits them exactly.
-
-**Why you could win:** You are the case study. Your content already reaches pet owners and other operators. It also feeds the long term licensing and franchise path.
-
-**Why you could lose:** Pet bookings are small ($292 average for you). Owners have smaller budgets. One pet agency prices at $499 to $3,500/month [Source 5]. And without reconciled financials, "it works" is a claim, not proof.
-
-| Item | Number | Label |
-|---|---|---|
-| Price | $1,500/month | [Assumption] |
-| Clients for $75K MRR | 50 | Math |
-| New clients per month | about 5 to 6 | Math |
-| Margin | about 75% (templated, group delivery) | [Assumption] |
-| Lead source | National content plus Meta to owners | [Assumption] |
-| Owner workload | Highest of the three on content and calls, because you are the face | [Assumption] |
-
-**Reject it if:** Four Paws Inn financials cannot be reconciled into a clean before and after, or pet owners will not pay over $1,000/month in conversations.
-
-### Option 3. Motivated seller real estate deals in Broward (wholesale or joint venture flips)
-
-**What the customer buys:** A seller who needs speed and certainty gets a cash offer. An investor buyer gets a discounted deal.
-
-**Why they pay:** Each deal pays a fee (assignment fee: what an end buyer pays you to take over your purchase contract), or a split of the flip profit.
-
-**Why you could win:** It is the same machine you run (ads, CRM, follow up, conversion) at a 50x higher ticket. You have closing and lender history.
-
-**Why you could lose:** Seller appointments are in person, at night and on weekends. That collides with family time. There is legal risk: Florida has no wholesaling statute, but brokerage rules in Chapter 475 can void fees for unlicensed brokerage [Source 6]. You need an attorney before deal 1. Your network is cold.
-
-| Item | Number | Label |
-|---|---|---|
-| Fee per deal | $15K | [Assumption] Verify with Broward comps |
-| Deals per month for $75K | 5 | Math |
-| Marketing cost per closed deal | $3K to $5K | [Assumption] |
-| Margin | 60% to 70% | [Assumption] |
-| Time to first deal | 60 to 120 days | [Assumption] |
-| Owner workload | High and irregular | [Assumption] |
-
-**Reject it if:** an attorney flags the structure, no buyers list forms in 30 days, or the cost per seller appointment runs over $500.
-
-### Recommendation: Option 1
-
-1. **Ticket math.** A recovered HVAC or roofing lead is worth 5 to 10x a recovered boarding lead. That lets you charge $2,500 instead of $1,500, so you need 30 clients instead of 50.
-2. **Evidence match.** It sells your demonstrated skill (inquiries and follow up), not your unproven ones (profit, network).
-3. **Free proof case.** Fixing your own 505 untouched leads produces the case study and pays Four Paws Inn at the same time.
-4. **Fits the time constraint.** Delivery is templated and setter run, so your role becomes sales and QA.
-
-Option 2 is the fallback if contractors will not pay but pet owners will. Option 3 is parked: it is the highest ticket, but the worst fit for family time.
-
----
-
-## Part 4. The 30 day demand test (Option 1)
-
-**Spending cap: $1,000.** Keep $9,000 in reserve. Nothing below runs until Alex approves. Claude drafts, and Alex sends or calls.
-
-| Week | Action | Owner | Hours (Alex) |
+| # | Decision | Status | How the answer changes the work |
 |---|---|---|---|
-| 1 | Proof case: draft a reactivation sequence for Four Paws Inn's 505 stale New Leads. Confirm SMS consent on the lead forms first; email only where consent is unclear. Alex approves and sends. | Claude drafts, Alex sends | 2 |
-| 1 | Measure Four Paws Inn's own median response time on new leads for 7 days | Claude reads GHL, read only | 0.5 |
-| 1 to 2 | Build a list of 100 South Florida home service companies running Meta or Google ads, from public ad libraries | Claude | 0 |
-| 2 | Mystery shop 30 of them: submit an inquiry and time the reply | Alex or VA submits | 2 |
-| 2 to 4 | 20 owner conversations of 15 minutes each: show them their own response time result | Alex | 6 |
-| 3 to 4 | Offer: "30 Day Lead Recovery Pilot." $750. We work your stale leads and every new inquiry within 5 minutes for 30 days. Full refund if we book fewer than 10 appointments. Rolls into $2,500/month. | Alex sells | included above |
-
-**Budget:** GHL sub account and phone number $300, list data $200, refund reserve and tools $500.
-
-**Evidence of willingness to pay:** money collected. Interest, compliments and "send me info" do not count.
-
-### Decision rules at day 30
-
-| Result | Call |
-|---|---|
-| 3+ paid pilots from 20 or fewer conversations, AND the Four Paws Inn reactivation booked 10+ stays | **Continue** to the 90 day plan |
-| 1 to 2 paid pilots, or strong interest with price objections | **Change:** test pay per booked appointment ($150 to $300), or switch to pet businesses (Option 2) |
-| 0 paid pilots after 20 real conversations, or most targets already reply in under 5 minutes | **Stop.** Reopen Option 2 |
+| 1 | Weekly hours now, and after a successful test | **UNANSWERED** | Under about 8 hours rules out in person models (Option B). 15+ hours makes any of the three workable. |
+| 2 | Does Four Paws Inn count toward the $100K? | **UNANSWERED** | Yes means the new business needs $100K minus a Four Paws Inn base. That base is itself **[Unknown]**, because revenue is not reconciled. No means the new business needs $100K. |
+| 3 | Capital beyond $10K | **UNANSWERED** | Without about $50K or more, buying a business stays excluded (see section 4). |
+| 4 | Revenue, profit or take home, and is 70% a hard rule | **UNANSWERED** | It also needs a definition: gross vs net margin (net is after all costs, including a market wage for the owner). A hard 70% net favors licensing and productized services, and excludes most acquisitions. |
 
 ---
 
-## Part 5. Conditional 90 day plan (only if Continue)
+## 1. Evidence ledger
 
-| Days | Goal | Moves |
+### 1.1 Money
+
+| Item | What the record shows | Label |
 |---|---|---|
-| 31 to 60 | Deliver pilots, convert 2+ to retainers. $5K to $7.5K MRR | Hire a part time setter. Package the GHL snapshot. Write the delivery SOP. Alex moves to 12 to 15 hours/week. |
-| 61 to 90 | 6 to 8 clients, $15K to $20K MRR | Second setter. Case study page. Contractor referral asks. Decide on an ops manager. |
+| 2025 business deposits, Chase 3010 | Monthly statement summaries: Jan $3,785, Jun $19,530, Dec $31,567. Only the November PDF was seen in original form. Deposits include Zelle from Amanda, so deposits are not revenue. | [Secondary], Nov [Verified] |
+| 2025 total deposits | $151,633, from the CPA workbook. Classification is still under CPA review. | [Secondary] |
+| Jan to Jun 2026 cash in | Rounded estimates from a finance pack. They are not statement totals, and June may be partial. | [Secondary] |
+| Recorded booking charges by check in month, Mar to Sep 2026 | Average $25,559/month. These are recorded charges, not collected payments. They include possible duplicates, credits and cancellations. | [Verified] as recorded charges only |
+| Monthly revenue | Not established. The two figures above cover different periods and different measures, and must not be combined into a range. | [Unknown] |
+| Monthly profit | **The "$20K/month profit" in CLAUDE.md is unsupported by any record.** No replacement figure is offered. Reconciled expenses come first. | [Unknown] |
+| Strong months of $25K to $30K | | [Reported] |
+| $0 to $30K in 8 months | The deposit summaries show growth through 2025. They do not verify the claim. | [Reported] |
 
-### Milestones to $100K/month combined
+### 1.2 Inquiries and conversion
 
-| Month | New business MRR | Clients | Four Paws Inn (base) | Combined |
-|---|---|---|---|---|
-| 3 | $15K | 6 to 8 | $25K | $40K |
-| 6 | $35K | 14 | $25K | $60K |
-| 9 | $55K | 22 | $25K | $80K |
-| 12 | $75K | 30 | $25K | $100K |
+| Item | What the record shows | Label |
+|---|---|---|
+| GHL opportunities created Mar 18 to Oct 14 2026, non test | 1,029 | [Verified] for this export. Completeness before March is unknown. |
+| Current status snapshot | 242 Won, 533 Open, 250 Lost, 6 Abandoned | [Verified] current status only |
+| Opportunities in stage "New Lead" | 505, of which 418 were created before Sep 1 | [Verified] stage label only |
+| Whether those 505 were contacted | Not in the packet. Follow up workflows, manual conversations and future trip planning may exist. The stage may simply be out of date. | [Unknown] |
+| Meta spend, one connected account, Apr 27 to Oct 14 2026 | $9,397.34, with 567 attributed lead events | [Verified] for this account |
+| Spend per lead event | $16.57. Events, not unique people. | [Verified] arithmetic on events |
+| Meta labeled opportunities currently Won | 66 of 640 created since Apr 27 | [Verified] current status. Not a close rate, not proof of payment. |
+| Google close rate | All 138 Google labeled opportunities show Won. This export cannot measure a Google close rate. | [Unknown] |
+| Google spend about $3K/month at a 6 to 7x return | | [Reported] |
+| CAC (customer acquisition cost: spend divided by new paying customers) | Not calculable from these records | [Unknown] |
 
-If Four Paws Inn grows from fixing its own leak, the new business needs less.
+### 1.3 Capacity
+
+| Item | What the record shows | Label |
+|---|---|---|
+| Booked stay rows per night, Jul 16 to Oct 13 2026 | Mean 10.3, peak 26 | [Verified] as rows. Not dogs, not occupancy. |
+| Dogs per night, occupancy, legal capacity | | [Unknown] |
+| Whether demand or capacity is the binding constraint | These records cannot establish either. | [Unknown] |
+
+### 1.4 Network
+
+| Item | What the record shows | Label |
+|---|---|---|
+| Historical business contacts with two way correspondence | 25, mostly 2021 to 2024. Construction bid desks, title and closing staff, lenders. | [Verified] historical existence only |
+| Contacts with substantive bid or proposal work | 4 | [Verified] historical |
+| Current warmth, willingness, reachability | | [Unknown] |
 
 ---
 
-## Part 6. Smallest further evidence needed
+## 2. Skill inventory, all domains
 
-1. **Profit:** original Chase 3010 statements Jul to Sep 2026 plus card statements. This settles the floor question.
-2. **Capacity:** the current written capacity authorization.
-3. **Google:** a Google Ads monthly export, to verify the reported 6 to 7x.
-4. **Lead quality:** a 50 row sample of the 505 stale New Leads, labeled junk vs real, before sending anything.
+No skill below is yet proven to the standard an outside buyer would need. The table shows what exists in records and what would prove each skill.
+
+| Domain | What the records show | What they do not show | Record that would prove it |
+|---|---|---|---|
+| Inquiry generation, local service | 1,029 opportunities in 7 months. 567 Meta lead events on $9.4K. | Lead quality, cost per paying customer | Booking to opportunity match with payment records |
+| Inquiry conversion and follow up | Systems exist (see the systems row) | Response time, touch count, contact rate, close rate | Conversation and call history on a lead sample (section 6) |
+| Business growth | Deposit summaries rose through 2025 | Revenue, profit, and causes of growth | Original statements plus reconciled books |
+| Operations, client experience | 1,179 booking rows since Aug 2025. Reported 215 reviews. | Repeat rate, retention, owner hours | Client IDs on bookings, a time log |
+| Systems direction | GHL holds custom fields for AI lead status, human review flags, Meta purchase events and a historical reconciliation batch. A built system exists. | Hours saved, revenue impact | Before and after metrics on one workflow |
+| Construction | Late 2024: bid list onboarding, plans received, one revised proposal acknowledged as acceptable | Awarded jobs, crews managed, margins | Contracts, invoices, job P&L |
+| Real estate | 2021 to 2024: closings, refinance files, lender draw correspondence | Deal count, profit per deal, holding results | Closing statements and rehab budgets per deal |
+| Face to face sales | | Everything | Recorded calls or close rates on quoted work |
+| Lender and capital relationships | Multi year lender correspondence. Some friction flagged. | Willingness to fund again | A current conversation (not yet authorized) |
+
+**Read:** The best documented skills are inquiry generation and systems that get built and put to use. Conversion, profit, construction outcomes and real estate outcomes are reported, not recorded. That does not mean they are weak. It means they are unproven.
+
+---
+
+## 3. Options across skills
+
+All prices, margins, close rates and workloads below are **[Proposed]** until tested. Customer counts are shown for both answers to decision 2.
+
+### Option A. Lead handling diagnostic and scoped pilot for home service contractors
+
+- **Skills used:** inquiry generation, systems direction, construction fluency.
+- **Buyer:** roofing, HVAC, pool, remodel and impact window companies already paying for leads. Published vendor data puts their cost per lead at $50 to $150 [Source 2].
+- **Problem:** inquiries paid for but not answered fast or followed up. Contacting within 5 minutes vs 30 raised qualification odds about 21x in one older study [Source 3]. Whether this leak exists in Broward contractors is **[Unknown]**. The diagnostic exists to measure it.
+- **First gate:** Alex's own lead handling must be shown to work before it is sold (section 6).
+
+| Item | Proposed | What would test it |
+|---|---|---|
+| Diagnostic | Free, or $300 | Do owners share 90 days of CRM data? |
+| Pilot, 30 days, scoped | $750 to $1,500 | Do owners pay, and does the pilot beat their own baseline? |
+| Retainer | $1,500 to $2,500/month. Vendor range $2K to $5K [Source 4] | Pilot clients renewing at that price. **Unproven until renewals happen.** |
+| Clients needed if Four Paws Inn does not count | 40 to 67 | Math at $1,500 to $2,500 |
+| Clients needed if it counts | Depends on the unverified Four Paws Inn base | |
+
+**Reject if:** owners will not share data, diagnostics find no material gap, or pilot clients do not renew.
+
+### Option B. Real estate deal sourcing for investors, with rehab scoping
+
+- **Skills used:** marketing machine, real estate transactions, construction estimating, lender relationships.
+- **Buyer:** investors who want discounted Broward deals with a credible rehab scope. Sellers who need speed.
+- **Revenue:** assignment or finder fees, or joint venture splits. Fee size **[Proposed]**, about $10K to $20K per deal. Needs Broward comps.
+- **Constraints:** seller meetings are in person and irregular. Florida has no wholesaling statute, but Chapter 475 brokerage rules can void fees for unlicensed brokerage [Source 6]. Managing rehabs for others can trigger contractor licensing under Chapter 489 [Proposed, attorney to confirm]. Attorney review is needed before any deal.
+
+| Item | Proposed |
+|---|---|
+| Deals per month at $15K for $100K | about 7 |
+| Time to first fee | 60 to 120 days |
+| Owner hours | High and irregular. Conflicts with decision 1 if hours stay low. |
+
+**Reject if:** past deal records show thin or negative margins, an attorney flags the structure, or no investor buyer commits to a buy box (the price, area and condition they will buy) in 30 days.
+
+### Option C. Operating and growth system for pet care businesses
+
+- **Skills used:** operations, systems, marketing, the Four Paws Inn brand.
+- **Buyer:** home boarders, daycares and groomers. One pet agency prices at $499 to $3,500/month [Source 5]. Franchise royalties in pet boarding run about 6% to 8% of gross [Source 7].
+- **Requirement:** reconciled Four Paws Inn financials and capacity records. No operator buys a system without the numbers behind it.
+
+| Item | Proposed |
+|---|---|
+| Price | $1,000 to $1,500/month, or setup plus a royalty |
+| Clients for $100K | 67 to 100 |
+| Owner hours | Content and calls. Alex is the proof and the face. |
+
+**Reject if:** Four Paws Inn's books cannot show a clear margin, or operators will not pay over $500/month.
+
+### Provisional ranking
+
+This ranking rests on test cost and time fit, not on any skill being proven.
+
+1. **A first**, if the section 6 audit shows Four Paws Inn's own lead handling works. It is the cheapest to test, uses data the buyer already has, and fits low hours.
+2. **B rises** if decision 1 lands at 15+ hours, and if past deal records show real margins. It has the highest ticket and uses the most of Alex's background.
+3. **C waits** on reconciled books and capacity records. It is the strongest long term fit with the licensing vision, and the weakest on proof today.
+
+---
+
+## 4. Excluded for now
+
+**Buying a business.** SBA 7(a) requires at least 10% equity. A seller note counts only on full standby for the loan's life, and only up to half of the injection [Source 1]. A $500K deal needs $50K or more. This reopens if decision 3 changes.
+
+---
+
+## 5. Option A delivery: what it would require
+
+### 5.1 Diagnostic (transparent, no fake inquiries)
+
+1. The owner signs a one page data permission.
+2. The owner exports 90 days of leads from their own CRM, or grants read only access.
+3. We measure: lead volume, time to first response (where the CRM records it), contact rate, stale leads by stage, booked rate.
+4. A 20 minute readout shows the owner their own numbers. No guarantee is offered.
+
+### 5.2 Pilot (scoped, 30 days)
+
+- **Scope:** response workflows in the client's CRM. Reactivation messages, drafted by us, approved by the client, and sent only to contacts with recorded consent. SMS sends need A2P 10DLC registration, the carrier registration US business texting requires.
+- **Success measure:** agreed after the diagnostic, against the client's own baseline. No appointment guarantee.
+
+### 5.3 Who does what
+
+| Task | Alex | Claude / automation | VA or setter | GHL contractor | Est. hours per client [Proposed] |
+|---|---|---|---|---|---|
+| Sales conversation | **Yes** | Prep notes | | | 1 to 2 |
+| Data permission, diagnostic analysis | Review | **Runs analysis** | | | 1 |
+| Diagnostic readout | **Yes** | Builds the report | | | 0.5 |
+| Workflow build in client CRM | Approves design | Drafts logic and copy | | **Builds** | 6 to 10, one time |
+| Lead response and follow up | | Automated first touch | **Live replies** | | 2 to 4 per week |
+| Weekly report | Reads it | **Generates** | | | 0.25 |
+| QA and client relationship | **Yes** | Flags issues | | | 0.5 per week |
+| Compliance (consent, 10DLC) | Signs off | Checklist | | Configures | 1, one time |
+
+**Alex's minimum per active client:** about 0.5 to 1 hour per week after setup, plus all sales. Whether that holds is **[Proposed]**. The first 3 pilots should be time logged to test it.
+
+### 5.4 Revised 30 day test (only after section 6 passes)
+
+- **Spending cap:** $500 [Proposed]. No mystery shopping. No guarantees.
+- **Target:** 10 diagnostics from owner conversations.
+- **Continue:** 5+ owners share data, 3+ diagnostics show a material gap, 2+ buy a pilot.
+- **Change:** owners engage but will not pay. Test price or a different vertical.
+- **Stop:** under 3 owners share data from 15 conversations.
+- **Renewal at retainer price** is judged at day 60 to 90, not day 30.
+
+---
+
+## 6. One next step: Four Paws Inn lead activity audit (read only)
+
+Procedure: `lead-activity-audit.md`.
+
+- **Part A:** I read activity metadata for the 505 New Lead opportunities through the existing Windsor GHL connection. Read only, and IDs only: no names, numbers or message bodies in output.
+- **Part B:** Alex or Amanda scores a random 30 in the GHL conversation view, about 90 minutes.
+
+**What it proves**
+1. Whether Four Paws Inn's lead handling works as designed: response speed, touch count, contact rate. This is the gate for Option A.
+2. How many of the 505 are just stale stages vs real gaps. That settles correction 1 with evidence.
+3. How many hold future trip dates. That is pipeline value Four Paws Inn already owns.
+
+**What it does not prove:** revenue, profit, capacity, or that any outside buyer will pay.
 
 ---
 
 ## Sources
 
-1. SBA SOP 50 10 8 equity and seller note rules: [Phillips Lytle](https://phillipslytle.com/the-sba-reverts-back-to-stricter-lending-standards/article-banking-2025-07-18-desktop/), [Live Oak Bank](https://www.liveoak.bank/blog/navigating-the-sbas-new-sop-50-10-8), [Starfield & Smith](https://starfieldsmith.com/2025/05/best-practices-a-review-of-equity-injection-requirements-under-sop-50-10-8/)
-2. Home services lead cost and ticket: [Webtonic HVAC](https://www.webtonic.io/blog/hvac-google-ads-statistics), [Webtonic roofing](https://www.webtonic.io/blog/roofing-google-ads-statistics), [Enrich Labs roofing](https://www.enrichlabs.ai/blog/roofing-lead-generation-complete-guide-2026)
-3. Lead response study: [MIT / InsideSales study PDF](https://www.mortech.com/hs-fs/hub/25649/file-13535879-pdf/docs/mit_study.pdf), [Vida summary](https://vida.io/blog/inbound-lead-response-time)
-4. Appointment setting pricing: [Ciela](https://ciela.ai/blogs/ai-appointment-setter-explained), [SalesBread](https://salesbread.com/appointment-setting-services-cost/), [Prospeo](https://prospeo.io/s/lead-generation-service-pricing), [Stackmatix](https://www.stackmatix.com/blog/lead-generation-services)
-5. Pet services agency pricing: [Redefine Web](https://redefineweb.com/blog/proven-seo-company-for-pet-services-books-more-appointments/)
-6. Florida wholesaling: [BatchLeads guide](https://batchleads.io/blog/the-complete-guide-to-wholesaling-real-estate-in-florida), [Ark7 guide](https://ark7.com/blog/learn/cities/florida-real-estate-wholesaling-guide/). Verify Chapter 475 with a Florida attorney.
+1. SBA SOP 50 10 8: [Phillips Lytle](https://phillipslytle.com/the-sba-reverts-back-to-stricter-lending-standards/article-banking-2025-07-18-desktop/), [Live Oak Bank](https://www.liveoak.bank/blog/navigating-the-sbas-new-sop-50-10-8)
+2. Home services lead costs: [Webtonic HVAC](https://www.webtonic.io/blog/hvac-google-ads-statistics), [Webtonic roofing](https://www.webtonic.io/blog/roofing-google-ads-statistics), [Enrich Labs](https://www.enrichlabs.ai/blog/roofing-lead-generation-complete-guide-2026)
+3. Lead response study, data from about 2007 to 2008: [MIT / InsideSales PDF](https://www.mortech.com/hs-fs/hub/25649/file-13535879-pdf/docs/mit_study.pdf)
+4. Appointment setting pricing: [Ciela](https://ciela.ai/blogs/ai-appointment-setter-explained), [SalesBread](https://salesbread.com/appointment-setting-services-cost/), [Prospeo](https://prospeo.io/s/lead-generation-service-pricing)
+5. Pet agency pricing: [Redefine Web](https://redefineweb.com/blog/proven-seo-company-for-pet-services-books-more-appointments/)
+6. Florida wholesaling: [BatchLeads](https://batchleads.io/blog/the-complete-guide-to-wholesaling-real-estate-in-florida), [Ark7](https://ark7.com/blog/learn/cities/florida-real-estate-wholesaling-guide/). Confirm with a Florida attorney.
+7. Pet franchise royalties: [Wagbar](https://www.wagbar.com/pet-franchise-royalty-structures-explained-what-6-really-means-for-your-bottom-line), [Franchise Overview: Preppy Pet](https://franchiseoverview.com/company/preppy-pet)
 
-All vendor pricing sources have an incentive to present favorable numbers. Treat them as directional.
+Vendor sources have an incentive to present favorable numbers. Treat them as directional.
