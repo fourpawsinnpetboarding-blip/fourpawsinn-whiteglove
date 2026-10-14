@@ -77,3 +77,10 @@ Revenue target, 70% margin, 12 months, $10K capital, SBA yes, 6 hours, Four Paws
 - Growth claim, capacity, and CAC/LTV marked unverified.
 - Three workflows described: lead capture and follow up, content production, booking to Meta conversion reporting. No time or dollar figures yet.
 - Network and licenses not inventoried. Build vs buy vs partner undecided.
+
+### Round 3 (2026-10-14)
+- Evidence packet received and analyzed. Full read in `02-evidence-assessment-and-options.md`.
+- Key corrections: run rate is about $19K to $26K/month, not $30K. The $20K/month profit is unsupported. Capacity is unverified. 505 GHL leads are untouched in New Lead.
+- Network assessed as cold: 4 credible reconnects out of 25.
+- Recommendation under working defaults: Option 1, lead response and recovery for high ticket home services, with the Four Paws Inn reactivation as the proof case.
+- The four decisions are still open.
