@@ -23,13 +23,13 @@ Fewer than 2 = the offer or the message is wrong. Fix that before hiring anyone.
 3. Ads only after step 1 and 2 run for 7 days. Warm clients first, strangers second.
 
 ## Personal text to 20 past clients (Alex sends one by one, not a list blast)
-Hi [name], it's Alex from Four Paws Inn. We're starting a Board and Train program, and I'm picking 5 dogs for our first class. [Dog] already knows us, so I thought of you first. 21 days of training with me, at our home. Want the details?
+Hi [name], it's Alex from Four Paws Inn. We're starting a Board and Train program, and I'm picking 5 dogs for our first class. [Dog] already knows us, so I thought of you first. 21 days with a pro trainer, at our home. Want the details?
 
 ## Film list (deep work, Oct 14)
 Real dogs, real home. No AI dogs. Vertical, 9:16.
 1. Talking head, 60 seconds: why we are adding Board and Train.
-   "Most of our clients love their dog. But walks are a fight. The dog jumps on guests. It won't come when called. So we're starting Board and Train. Your dog stays with us for 21 days, at the same home they already know. I work with them every day. You get videos. At pick up, we teach you how to keep it going. I'm taking 5 dogs for our first class. Text me if you want a spot."
+   "Most of our clients love their dog. But walks are a fight. The dog jumps on guests. It won't come when called. So we're starting Board and Train. Your dog stays with us for 21 days, at the same home they already know. A pro trainer works with them every day. You get videos. At pick up, we teach you how to keep it going. I'm taking 5 dogs for our first class. Text me if you want a spot."
 2. Hook A: "Your dog pulls on every walk? Give us 21 days." (B roll: a dog pulling on a leash in our yard)
-3. Hook B: "I've spent years training German Shepherds and Rottweilers. Now I'm taking 5 dogs for our first Board and Train class." (B roll: Alex working with a dog)
+3. Hook B: "Your dog already loves staying with us. Now they can come home with better manners." (B roll: a dog doing sit and stay in the yard)
 4. Hook C: "Only 5 spots in our first Board and Train class." (B roll: Alex with a dog, sit and stay)
 Claude edits all four, files named AD[##]-BT[A/B/C]-CutA, ready for the client texts and for ads later.
