@@ -23,7 +23,7 @@ Fewer than 2 = the offer or the message is wrong. Fix that before hiring anyone.
 3. Ads only after step 1 and 2 run for 7 days. Warm clients first, strangers second.
 
 ## Personal text to 20 past clients (Alex sends one by one, not a list blast)
-Hi [name], it's Alex from Four Paws Inn. We're starting a Board and Train program, and I'm picking 5 dogs for our first class. [Dog] already knows us, so I thought of you first. 21 days with a pro trainer, at our home. Want the details?
+Hi [name], it's Alex from Four Paws Inn. We're starting a Board and Train program, and I'm picking 5 dogs for our first class. [Dog] already knows us, so I thought of you first. 21 days of training with me, at our home. Want the details?
 
 ## Film list (deep work, Oct 14)
 Real dogs, real home. No AI dogs. Vertical, 9:16.
