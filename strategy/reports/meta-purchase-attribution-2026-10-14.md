@@ -73,3 +73,16 @@ Why "outside the window" does not explain all of it:
 - Widening the window is not available: Meta's longest click window is 7 days, and it is an ad set setting, not part of Ripon's setup.
 
 Next test: Maylin. In Events Manager, open her Oct 9 Purchase (event ID = opportunity ID) and confirm lead ID matched. In Ads Manager, check which form and ad her Oct 7 lead came from. If it came from a current ad and the event matched, Ripon asks Meta support why it is not credited. If her lead came from an organic or old form, nothing is broken.
+
+## Maylin trace (Muse, Oct 14 night): root cause found
+
+Maylin came in through the external booking form "four-paws-inn-boarding-request" on four-paws-booking.vibepreview.com, Oct 6 about 10:03 PM ET (cat boarding Oct 7 to 12). Not a Meta instant form. GHL attribution is empty: no ad ID, no UTMs, session "Direct traffic". GHL fields meta_fbc and meta_fbp exist but are empty.
+
+Read: the Purchase reached Meta with good contact data but no click identity, so Meta had nothing to tie it to an ad. Scope: this applies to bookings that start on the website form. Of the 25 events, 20 are repeat, Google or referral clients and would not attribute anyway; instant form leads carry the lead ID and are fine inside the window.
+
+Fix (website, not Ripon's pipeline):
+1. Booking site: on landing, read fbclid from the URL and build fbc = fb.1.<ms timestamp>.<fbclid>; read the _fbp cookie; read utm_source, utm_medium, utm_campaign, utm_content, utm_term. Keep them for the session and send them as hidden fields with the form into GHL: meta_fbc, meta_fbp, and the UTM fields.
+2. Meta ads: add URL parameters on every ad that links to the site: utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.id}}. Ads change, needs Alex's OK.
+3. Ripon (question only): confirm the Won Purchase tag sends fbc and fbp from GHL when present. No change by Claude or Codex.
+Also check: ads and links should point to the live booking domain, not a vibepreview preview URL.
+Test: click a live ad, submit a test booking, confirm meta_fbc and UTMs fill on the GHL contact.
