@@ -98,3 +98,10 @@ Also:
 - Options span all of Alex's skills: A, home service lead handling. B, real estate deal sourcing with rehab scoping. C, a pet care operating system.
 - Mystery shopping and guarantees removed. Replaced with a transparent diagnostic and a scoped pilot.
 - Next step: read only lead activity audit (`lead-activity-audit.md`).
+
+### Round 5 (2026-10-14)
+- Lead activity audit Part A run, read only. Results in `03-lead-activity-audit-part-a.md`.
+- At least 406 of 505 New Lead opportunities show a manual message. "Untouched" is not supported.
+- Groups flagged: 16 future date, 111 future intent, 26 possible stale stage, 150 lead sent the last message, 16 no outbound visible.
+- SMS consent and preferred dates are blank account wide. The unread count is 0 account wide, so it is not usable.
+- Part B sample of 30 selected with seed 20261014. Not yet assigned.
