@@ -55,7 +55,7 @@ Codex: Eden board row "Meta purchases not attributing to campaigns".
 
 Checked. There is no upload that reads the Bookings tab.
 - Pipeline (Ripon, Oct 9 and 10): GHL opportunity Won, webhook, Stape server GTM (GTM-WRWT22H3), Meta CAPI to dataset "Offline Conversion- FourPaws". Event carries lead ID, hashed email, phone, first and last name, city, state, zip, country, event ID = opportunity ID. See `strategy/operating-system/conversion-tracking-fix.md`.
-- Keys come from the GHL contact, not the sheet. GHL Won opportunities with Meta Purchase Sent = yes since Oct 8: 28. Both email and phone: 26. One key only: 2 (Ollie, no email; Oreo Oct 8, no phone). Neither: 0. So the 16% email fill on the Bookings tab does not reach Meta.
+- Keys come from the GHL contact, not the sheet. GHL Won opportunities with Meta Purchase Sent = yes since Oct 8: 25. Both email and phone: 23. One key only: 2 (Ollie, no email; Oreo Oct 8, no phone). Neither: 0. So the 16% email fill on the Bookings tab does not reach Meta.
 - The other "offline conversions" sheet (`FPI | Booked Customer Offline Conversions`) feeds Google Ads, not Meta.
 - Rule: Claude and Codex do not change Ripon's Meta setup. No code change made.
 
