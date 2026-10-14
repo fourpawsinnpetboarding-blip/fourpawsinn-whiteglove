@@ -178,7 +178,7 @@ Hard rules. No exceptions without an explicit override in the session.
 - **CRM and automation:** GoHighLevel. Central hub for CRM, email, SMS, landing pages, workflows.
 - **Paid:** Meta Ads Manager, Google Ads including Local Services Ads. Meta Pixel plus CAPI (Conversions API, the server side event feed that reports conversions Meta's browser pixel misses).
 - **Tracking and capture:** CallRail for call attribution, ManyChat for DM automation.
-- **Email:** Zoho Mail. SPF, DKIM, and DMARC configured through Namecheap DNS.
+- **Email:** Google Workspace receives mail for @fourpawsinn.co (root MX SMTP.GOOGLE.COM, seen Oct 14 2026; earlier notes said Zoho). Campaign sending domain info.fourpawsinn.co on Mailgun (MX added Oct 14). DNS at Namecheap.
 - **Site:** fourpawsinn.co on Wix for the homepage. GHL for all conversion funnels.
 - **Content:** Eden for scheduling, Higgsfield for AI image and video generation, CapCut for editing, Google Drive for assets.
 
