@@ -61,6 +61,9 @@ Four Paws Inn charges by day, never by night.
 
 ## Brand and copy rules
 
+- Never mention how many dogs we care for at once, in any client facing copy, ever (Alex, Oct 14, 2026).
+- Training authority (Alex, Oct 14, 2026): Alex is the trainer and the face of training content. Approved wording: thousands of hours with many breeds and personalities, introducing all kinds of breeds together, managing packs of dogs for years; Alex has years of hands on training experience, especially with German Shepherds and Rottweilers. Never say "certified". A hired trainer is never named or featured in content.
+
 - Client-facing writing is warm, short, direct, and clear enough for a third-grade reader.
 - Give the care benefit and the reason for a boundary. Do not use warmth to weaken a policy.
 - Do not use em dashes or stray hyphens in copy the customer will receive.

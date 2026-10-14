@@ -28,8 +28,8 @@ Hi [name], it's Alex from Four Paws Inn. We're starting a Board and Train progra
 ## Film list (deep work, Oct 14)
 Real dogs, real home. No AI dogs. Vertical, 9:16.
 1. Talking head, 60 seconds: why we are adding Board and Train.
-   "Most of our clients love their dog. But walks are a fight. The dog jumps on guests. It won't come when called. So we're starting Board and Train. Your dog stays with us for 21 days, at the same home they already know. A pro trainer works with them every day. You get videos. At pick up, we teach you how to keep it going. I'm taking 5 dogs for our first class. Text me if you want a spot."
+   "Most of our clients love their dog. But walks are a fight. The dog jumps on guests. It won't come when called. So we're starting Board and Train. Your dog stays with us for 21 days, at the same home they already know. I work with them every day. You get videos. At pick up, we teach you how to keep it going. I'm taking 5 dogs for our first class. Text me if you want a spot."
 2. Hook A: "Your dog pulls on every walk? Give us 21 days." (B roll: a dog pulling on a leash in our yard)
-3. Hook B: "We already care for up to 60 dogs. Now we're teaching manners too." (B roll: play yard)
+3. Hook B: "I've spent years training German Shepherds and Rottweilers. Now I'm taking 5 dogs for our first Board and Train class." (B roll: Alex working with a dog)
 4. Hook C: "Only 5 spots in our first Board and Train class." (B roll: Alex with a dog, sit and stay)
 Claude edits all four, files named AD[##]-BT[A/B/C]-CutA, ready for the client texts and for ads later.

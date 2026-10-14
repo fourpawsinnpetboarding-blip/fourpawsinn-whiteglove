@@ -6,12 +6,12 @@ Alex, Oct 14: "Lean heavier into dog training content on socials. Teach, and pus
 1. Board and Train founding class: 5 paid $300 reservations by Oct 31 (`content/offers/board-and-train-founding-class.md`). Training content makes the offer believable before it is sold.
 2. Boarding leads: owners of shy, pushy or reactive dogs are scared to board. Showing we understand behavior is what gets them to book.
 
-## The honesty rule (protects the brand)
-Our authority is real but specific: we live with 15 to 60 dogs a day, and we see every kind of behavior. Speak from that.
-1. Say: "We care for 15 to 60 dogs a day. Here's what we see." Never say "certified trainer" until the trainer is hired and has that credential.
-2. Teach what works in our house. No promises that a tip will fix a dog. No health or medical claims.
-3. Real dogs, real footage only. No AI dogs.
-4. When the trainer is hired, they become the second face of this content.
+## Who speaks and how (Alex, Oct 14, 2026)
+1. **Alex is the trainer and the face of all training content.** Amanda can appear as someone who learned along the way. A hired trainer is NEVER featured or named in content: followers would contact the trainer directly and the business loses the client. Alex is the brand.
+2. **Never mention how many dogs we have at once. Ever.** Not in posts, captions, scripts, ads or replies.
+3. **Our authority, in Alex's words:** thousands of hours with many breeds and personalities, introduced all kinds of breeds together, managed packs of dogs for years, and Alex has trained many dogs over many years, especially German Shepherds and Rottweilers.
+4. Do not use the word "certified" in copy. Say "years of hands on training experience". It is stronger and it is true.
+5. Teach what works for us. No promise that a tip fixes a dog. No health or medical claims. Real dogs and real footage only.
 
 ## 4 content pillars
 | Pillar | What it is | Example hooks |
@@ -33,7 +33,7 @@ Phone on a tripod in the yard, dogs in the background.
 1. Hook line (one sentence, from the table above).
 2. What we see (2 to 3 sentences, a real dog, no names).
 3. The one thing to try (1 sentence).
-4. Close: "We care for dogs every day in Miramar. Follow for more."
+4. Close: "I'm Alex from Four Paws Inn. Follow for more."
 Claude edits (captions, music with credit, QA per `scripts/video-engine/weekly-run.md`).
 
 ## First 9 posts (Claude drafts the 3 carousels a week; Alex films the 3 reels)
