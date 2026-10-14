@@ -45,6 +45,30 @@ For every open opportunity in stage "New Lead", pull these fields:
 | disposition | booked elsewhere in records / planning future trip / went cold after contact / never reached / junk or duplicate / wrong number |
 | stage_should_be | New Lead / Qualified / Lost / Won |
 
+## How to score one lead (about 3 minutes each)
+
+1. Open the `ghl_contact_link` from the sheet. It opens the contact in GHL. Click the Conversations tab.
+2. Scroll to the very first message in the thread.
+3. **first_response_minutes:** minutes from the inquiry (first inbound message or form) to our first reply. Use "none" if we never replied.
+4. **first_response_by:** "workflow" for an automated template, "human" for a typed reply.
+5. **outbound_touches:** count every message we sent, automated or manual.
+6. **channels:** SMS, email, call, IG or FB.
+7. **lead_replied:** yes or no.
+8. **calls_logged:** count from the Activity or Calls tab.
+9. **disposition:** pick one:
+   - booked (check the booking sheet if unsure)
+   - planning future trip
+   - went cold after contact
+   - never reached
+   - junk or duplicate
+   - wrong number
+10. **stage_should_be:** New Lead, Qualified, Lost or Won.
+11. **notes:** no names, phone numbers or pet names. Something like "asked price, no reply after quote."
+
+**Do not** message, call, retag or move any lead while scoring. Read only.
+
+**Who can score:** Alex, Amanda, or Claude if a read only GHL API token is added to the cloud environment. With the token, Claude scores all 505 automatically.
+
 ## Proposed reading of results
 
 These thresholds are a starting point for discussion, not a standard.
