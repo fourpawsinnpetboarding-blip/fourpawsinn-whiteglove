@@ -82,7 +82,7 @@ Read: the Purchase reached Meta with good contact data but no click identity, so
 
 Fix (website, not Ripon's pipeline):
 1. Booking site: on landing, read fbclid from the URL and build fbc = fb.1.<ms timestamp>.<fbclid>; read the _fbp cookie; read utm_source, utm_medium, utm_campaign, utm_content, utm_term. Keep them for the session and send them as hidden fields with the form into GHL: meta_fbc, meta_fbp, and the UTM fields.
-2. Meta ads: add URL parameters on every ad that links to the site: utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.id}}. Ads change, needs Alex's OK.
+2. Meta ads: add URL parameters on every ad that links to the site: utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_adset={{adset.name}}&utm_content={{ad.id}}. Approved by Alex Oct 14 ("Yes UTMs"), Codex applies.
 3. Ripon (question only): confirm the Won Purchase tag sends fbc and fbp from GHL when present. No change by Claude or Codex.
 Also check: ads and links should point to the live booking domain, not a vibepreview preview URL.
 Test: click a live ad, submit a test booking, confirm meta_fbc and UTMs fill on the GHL contact.
