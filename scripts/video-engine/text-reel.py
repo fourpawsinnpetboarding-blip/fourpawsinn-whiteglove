@@ -65,7 +65,7 @@ def paw(d, cx, cy, r, fill):
         d.ellipse([x - rr, y - rr * 1.25, x + rr, y + rr * 1.25], fill=fill)
 
 
-PROOF = ("4.9", "215 Google reviews")  # keep in step with fourpawsinn/business-facts.md
+PROOF = ("4.9", "230+ Google reviews")  # keep in step with fourpawsinn/business-facts.md
 
 
 def star(d, cx, cy, r, fill):

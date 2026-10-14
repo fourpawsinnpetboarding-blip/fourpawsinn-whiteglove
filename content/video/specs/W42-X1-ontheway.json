@@ -1,0 +1,50 @@
+{
+ "pillar": "Prep and policies",
+ "hook": "Text us before drop off. Here is why",
+ "clips": [
+  {
+   "src": "LIB-0063",
+   "start": 19.6,
+   "dur": 3.0,
+   "text": "Text us before drop off. Here is why",
+   "proof": true
+  },
+  {
+   "src": "LIB-0063",
+   "start": 23.4,
+   "dur": 2.6,
+   "text": "Our dogs play free. No cages."
+  },
+  {
+   "src": "LIB-0029",
+   "start": 14.2,
+   "dur": 3.2,
+   "text": "Your text gives us time to get ready"
+  },
+  {
+   "src": "LIB-0074",
+   "start": 5.3,
+   "dur": 2.3,
+   "text": "So your dog walks into a calm room"
+  },
+  {
+   "src": "LIB-0033",
+   "start": 12.6,
+   "dur": 3.2,
+   "text": "Then a slow, careful hello"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Text us when you are on the way",
+   "Drop off 9 AM to 12 PM",
+   "or 4 PM to 6:30 PM"
+  ]
+ },
+ "audio": "mute",
+ "music_mood": "3 Light",
+ "music": "drive:1qCsx8M-EkVNfLdzsLl83m7fzvbbFOgGn",
+ "music_volume": 0.7,
+ "note": "Oct 14. From an Instagram comment asking why clients text when on the way. Track: Local Forecast, Kevin MacLeod, CC BY 4.0."
+}
