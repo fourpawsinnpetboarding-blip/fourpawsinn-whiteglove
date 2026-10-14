@@ -1,12 +1,12 @@
 {
  "pillar": "Prep and policies",
- "hook": "Text us before drop off. Here is why",
+ "hook": "Comment reply: Yes. Here is why it helps your dog",
  "clips": [
   {
    "src": "LIB-0063",
    "start": 19.6,
    "dur": 3.0,
-   "text": "Text us before drop off. Here is why",
+   "text": "Yes. Here is why it helps your dog",
    "proof": true
   },
   {
@@ -46,5 +46,13 @@
  "music_mood": "3 Light",
  "music": "drive:1qCsx8M-EkVNfLdzsLl83m7fzvbbFOgGn",
  "music_volume": 0.7,
- "note": "Oct 14. From an Instagram comment asking why clients text when on the way. Track: Local Forecast, Kevin MacLeod, CC BY 4.0."
+ "note": "Oct 14. From an Instagram comment asking why clients text when on the way. Track: Local Forecast, Kevin MacLeod, CC BY 4.0.",
+ "comment_overlay": {
+  "text": "I have to let you know when I am on my way?",
+  "label": "A question on our last post",
+  "secs": [
+   0,
+   3.0
+  ]
+ }
 }
