@@ -20,3 +20,4 @@ Codex row f90e24bf: v2 pitch in all DMs, GHL creator code field, payouts sheet.
 - No new verified creator emails in creators.md (last update Oct 11). Nothing sent today.
 - Trainers: content/hiring/trainer-candidates.md does not exist yet, so no trainer emails sent. Alex is contacting trainers himself.
 - Found: YMCA of South Florida (Sonia Garcia, sgarcia@ymcasouthflorida.org) invites Four Paws Inn to table or sponsor Howl-O-Ween 3K-9, Oct 24, with the City of Pembroke Pines. Waiting on Alex's yes to reply.
+- Oct 14: Claude replied to Sonia Garcia (YMCA, Howl-O-Ween 3K-9, Oct 24): interested in a table plus a raffle donation, asked for cost, setup and what is provided (Alex: "you do it").

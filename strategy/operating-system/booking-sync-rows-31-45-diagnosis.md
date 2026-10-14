@@ -46,3 +46,7 @@ Typing a rate in column D on these rows would send each one as a NEW paid Won bo
 6. **Exit baths:** add to the matching stay's notes and value, never as their own opportunity.
 7. **Ripon's Meta setup:** untouched. No change to the pixel, CAPI or Meta workflow configuration.
 8. **Script follow up:** sync the Oct 11 live changes back into the repo, and pull the execution log for rows 2 and 4.
+
+## Done Oct 14 (Alex: "everything you listed for me to do, you do it")
+1. Claude marked rows 2, 4, 31 to 46, 48, 49 as LEGACY in column M with a note in Sync Error (Sheets API write; nothing sent to GHL).
+2. Codex row added on the Eden board for the GHL reconcile (steps 2 to 8 above).
