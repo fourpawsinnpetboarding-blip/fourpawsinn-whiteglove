@@ -60,3 +60,16 @@ Checked. There is no upload that reads the Bookings tab.
 - Rule: Claude and Codex do not change Ripon's Meta setup. No code change made.
 
 Open, and the real test: Event Match Quality and lead ID match rate on the Oct 9 to 13 Purchase events. Alex or Ripon reads it in Events Manager (Claude has no Events Manager access).
+
+## Oct 14 evening: Event Match Quality checked (Muse, Events Manager)
+
+Purchase 6.4/10, QualifiedLead 6.6/10. Email 90 to 100%, phone 100%, lead ID 100% matched. Real time. Plumbing passes the bar.
+
+Claude recheck (Windsor, last 30 days, both campaigns): offline purchases 0, omni purchases 0, purchases 0.
+
+Why "outside the window" does not explain all of it:
+- Of the 25 events, only 5 came from Facebook lead forms. The other 20 are repeat, Google or referral clients and will never attribute to an ad. Expected.
+- Maylin: lead Oct 7, Won Oct 9 ($240 plus $175). Inside the 7 day click window, lead ID matched, still 0. That is the one case that should show.
+- Widening the window is not available: Meta's longest click window is 7 days, and it is an ad set setting, not part of Ripon's setup.
+
+Next test: Maylin. In Events Manager, open her Oct 9 Purchase (event ID = opportunity ID) and confirm lead ID matched. In Ads Manager, check which form and ad her Oct 7 lead came from. If it came from a current ad and the event matched, Ripon asks Meta support why it is not credited. If her lead came from an organic or old form, nothing is broken.
