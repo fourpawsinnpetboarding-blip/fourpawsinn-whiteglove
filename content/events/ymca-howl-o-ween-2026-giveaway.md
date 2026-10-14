@@ -5,10 +5,9 @@ Decision (Alex, Oct 14): no table, nobody from Four Paws Inn on site. $50 donati
 Status: reply to Sonia and Kevin saved as a Gmail draft Oct 14 (Alex sends). Waiting on their OK for the sign and cards.
 Lever: fills the calendar (two-levers note). Every entrant becomes a contact in GHL, tagged by source.
 
-## Offer for everyone who enters (pending Alex: B1 or B2)
+## Offer for everyone who enters (Alex chose B1, Oct 14)
 Business facts say the first overnight is always the normal daily rate, never discounted. So:
-- B1 (default, keeps the rule): book your first overnight by Nov 30 and get a free exit bath ($35 value).
-- B2 (exception to the rule): first overnight at a special price. Needs Alex's written OK.
+Book your first overnight by Nov 30 and get a free exit bath ($35 value). First overnight stays at the normal daily rate. Not valid on holiday weekends.
 
 ## Prizes
 - YMCA raffle: 2 free nights of boarding (gift card).
@@ -43,7 +42,7 @@ Thank you page: "You're in! We draw the winner Oct 27. Check your texts for your
 
 ## Texts (sound like Amanda, no dashes)
 1. Right away: "Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 You're in the drawing for 2 free nights. We pick the winner Oct 27. What's your pup's name?"
-2. Oct 27, non winners: "Hi {{contact.first_name}}, we picked our winner today. It wasn't you this time, but you still get a bonus: [offer]. Want me to check dates for you?"
+2. Oct 27, non winners: "Hi {{contact.first_name}}, we picked our winner today. It wasn't you this time, but you still get a bonus: book your first overnight by Nov 30 and the exit bath is on us. Want me to check dates for you?"
 3. Nov 3, no reply: "Hi {{contact.first_name}}, the holidays fill up fast here. If a trip is coming up, send me your dates and I'll check."
 trip-30d tag: Amanda or Alex calls within 1 day of entry.
 Stop all texts on reply, booking, or STOP.
@@ -52,6 +51,6 @@ Stop all texts on reply, booking, or STOP.
 Four Paws Inn Howl-O-Ween Giveaway. No purchase necessary. Open to legal US residents 18+ in Florida. Enter Oct 24 to Oct 26, 2026 by scanning the QR code. One entry per person. One winner drawn at random Oct 27, 2026, notified by text and email; must reply within 7 days. Prize: 2 nights of dog boarding at Four Paws Inn, approx. value $120 to $150, no cash value, must book by Mar 31, 2027, not valid on holiday weekends (Thanksgiving, Christmas, New Year, Easter, Memorial Day, July 4th, Labor Day), subject to our normal intake. Odds depend on number of entries. Sponsor: Four Paws Inn LLC, Miramar, FL. Not sponsored or endorsed by the YMCA or Instagram. Total prize value is under $5,000, so no Florida game promotion registration is needed.
 
 ## Who does what
-- Alex: send the Gmail draft. Pick B1 or B2.
+- Alex: send the Gmail draft.
 - Claude: sign and card design files, texts, rules, winner post.
 - Codex: GHL form, QR code, tags, texts, thank you page. Print order by Oct 20.
