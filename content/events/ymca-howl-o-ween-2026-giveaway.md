@@ -5,9 +5,8 @@ Decision (Alex, Oct 14): no table, nobody from Four Paws Inn on site. $50 donati
 Status: reply to Sonia and Kevin saved as a Gmail draft Oct 14 (Alex sends). Waiting on their OK for the sign and cards.
 Lever: fills the calendar (two-levers note). Every entrant becomes a contact in GHL, tagged by source.
 
-## Offer for everyone who enters (Alex chose B1, Oct 14)
-Business facts say the first overnight is always the normal daily rate, never discounted. So:
-Book your first overnight by Nov 30 and get a free exit bath ($35 value). First overnight stays at the normal daily rate. Not valid on holiday weekends.
+## Offer for everyone who enters (Alex, Oct 14: no discount, no bath)
+Early access to Thanksgiving and Christmas dates before we open them to everyone. Costs nothing, prices unchanged. A new dog still does the paid first overnight before a first holiday stay (business facts).
 
 ## Prizes
 - YMCA raffle: 2 free nights of boarding (gift card).
@@ -30,7 +29,7 @@ Scan to enter
 Back:
 Four Paws Inn is a real home for dogs in Miramar.
 No cages. Outdoor play. Photo and video updates every day.
-Everyone who enters gets a bonus for their first stay.
+Everyone who enters gets first pick of our holiday dates.
 fourpawsinn.co
 
 ## Entry form (GHL, Codex builds)
@@ -38,11 +37,11 @@ Fields: first name, last name, mobile, email, dog name, dog size (under 50 lb or
 Checkbox (required for texts): "Yes, Four Paws Inn can text me about my entry and offers. Msg and data rates may apply. Reply STOP to stop."
 Tags: event-ymca-howloween-2026, plus trip-30d when next trip is in 30 days.
 Source: "YMCA Howl-O-Ween 2026".
-Thank you page: "You're in! We draw the winner Oct 27. Check your texts for your bonus."
+Thank you page: "You're in! We draw the winner Oct 27. You also get first pick of our holiday dates. Check your texts."
 
 ## Texts (sound like Amanda, no dashes)
 1. Right away: "Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 You're in the drawing for 2 free nights. We pick the winner Oct 27. What's your pup's name?"
-2. Oct 27, non winners: "Hi {{contact.first_name}}, we picked our winner today. It wasn't you this time, but you still get a bonus: book your first overnight by Nov 30 and the exit bath is on us. Want me to check dates for you?"
+2. Oct 27, non winners: "Hi {{contact.first_name}}, we picked our winner today. It wasn't you this time, but you still get first pick of our Thanksgiving and Christmas dates before we open them to everyone. Want me to save a spot for your pup?"
 3. Nov 3, no reply: "Hi {{contact.first_name}}, the holidays fill up fast here. If a trip is coming up, send me your dates and I'll check."
 trip-30d tag: Amanda or Alex calls within 1 day of entry.
 Stop all texts on reply, booking, or STOP.
