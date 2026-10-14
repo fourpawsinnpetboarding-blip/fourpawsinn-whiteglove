@@ -2,7 +2,7 @@
 
 Event: YMCA of South Florida with the City of Pembroke Pines. Contact: Sonia Garcia, Kevin Sutcliffe (YMCA).
 Decision (Alex, Oct 14): no table, nobody from Four Paws Inn on site. $50 donation to Swim for Jenny, a raffle prize, and our own QR giveaway.
-Status: reply to Sonia and Kevin saved as a Gmail draft Oct 14 (Alex sends). Waiting on their OK for the sign and cards.
+Status: reply sent to Sonia and Kevin Oct 14 (Alex approved). Waiting on their OK for the sign and cards, payment method and drop off details.
 Lever: fills the calendar (two-levers note). Every entrant becomes a contact in GHL, tagged by source.
 
 ## Offer for everyone who enters (Alex, Oct 14: no discount, no bath)
@@ -50,6 +50,6 @@ Stop all texts on reply, booking, or STOP.
 Four Paws Inn Howl-O-Ween Giveaway. No purchase necessary. Open to legal US residents 18+ in Florida. Enter Oct 24 to Oct 26, 2026 by scanning the QR code. One entry per person. One winner drawn at random Oct 27, 2026, notified by text and email; must reply within 7 days. Prize: 2 nights of dog boarding at Four Paws Inn, approx. value $120 to $150, no cash value, must book by Mar 31, 2027, not valid on holiday weekends (Thanksgiving, Christmas, New Year, Easter, Memorial Day, July 4th, Labor Day), subject to our normal intake. Odds depend on number of entries. Sponsor: Four Paws Inn LLC, Miramar, FL. Not sponsored or endorsed by the YMCA or Instagram. Total prize value is under $5,000, so no Florida game promotion registration is needed.
 
 ## Who does what
-- Alex: send the Gmail draft.
+- Alex: pay the $50 once they say how.
 - Claude: sign and card design files, texts, rules, winner post.
 - Codex: GHL form, QR code, tags, texts, thank you page. Print order by Oct 20.
