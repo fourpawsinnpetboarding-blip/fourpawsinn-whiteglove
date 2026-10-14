@@ -39,3 +39,14 @@ No music, no post (Alex, Oct 6). If the MUSIC folder has no usable track for a r
 1. Commit specs and notes, push to `claude/tool-identification-nd2ifl`.
 2. Report to Alex in 5 lines max: what is queued, anything blocked and who owns it. Never ask Alex to do a task Codex can do: write it as a Request row for Codex.
 3. If the footage library is thin for a pillar, update the Notion shot list page "Four Paws Inn Shot List" with the next 10 shots.
+
+## Comment to reel (Alex, Oct 14 2026)
+
+When a comment or DM asks a real question about how we work, turn it into a reel. First one: W42-X1-ontheway (post d01ef3f9).
+
+1. Rebuild the comment as a bubble on the first 3 seconds (white card, pink avatar dot, label "A question on our last post", the comment text exactly as written). Never show the username. Never screenshot.
+2. Hook under it answers the question and says "your dog".
+3. Sequence: problem, cause, fix, proof, instruction. Real footage only. Never argue with the commenter: show the reason.
+4. Caption opens with the quoted question, praises the clients who get it, ends with "It's not the right fit for everyone, and that's okay." No health or safety claims.
+5. Take the next 12:00 PM slot. Move the reel that was there to the first open 12:00 PM date. Log both moves in the Eden table row.
+6. Tell Alex to reply under the comment after it posts: "We made a video about this 😊".
