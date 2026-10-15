@@ -1,5 +1,6 @@
 # Lead Activity Audit, Part B. Read only.
 # Usage: python3 -I lead_activity_partb.py pull <outdir>    (GET requests to the GHL API v2 only)
+#        python3 -I lead_activity_partb.py queue <outdir>   (offline: reply queue, New Lead opportunities where the lead had the last word)
 #        python3 -I lead_activity_partb.py score <outdir>   (offline, from the pulled files)
 # Auth: injected by the environment's network proxy for services.leadconnectorhq.com. No token is read here.
 # Privacy: names, phones, emails and message bodies are never written. Inbound message bodies are reduced
@@ -203,6 +204,49 @@ def score(D):
             failed_sms=len(failed_sms)))
     return rows
 
+def queue(D, max_days=45):
+    # New Lead opportunities where the lead sent the last real message and nobody answered. IDs and flags only.
+    now = datetime.now(timezone.utc)
+    opps = [o for o in json.load(open(f'{D}/opps_all.json')) if o['status'] == 'open' and o['pipelineStageId'] == NEW_LEAD]
+    contacts = {c['contact_id']: c for c in json.load(open(f'{D}/contacts.json'))['result']}
+    bym = collections.defaultdict(list)
+    for m in json.load(open(f'{D}/messages_meta.json')):
+        if m['type'] in REAL: bym[m['contact_id']].append(m)
+    latest = {}
+    for o in opps:
+        if o['contactId'] not in latest or o['createdAt'] > latest[o['contactId']]['createdAt']: latest[o['contactId']] = o
+    rows = []
+    for cid, o in latest.items():
+        ms = sorted(bym.get(cid, []), key=lambda m: m['date'] or '')
+        if not ms or ms[-1]['direction'] != 'inbound': continue
+        last = ms[-1]; hrs = (now - dt(last['date'])).total_seconds() / 3600
+        if hrs > max_days * 24: continue
+        run = []
+        for m in reversed(ms):
+            if m['direction'] != 'inbound': break
+            run.append(m)
+        fl = sorted({f for m in run for f in m['flags']})
+        ever_out = any(m['direction'] != 'inbound' for m in ms)
+        ch = REAL[last['type']]
+        if 'stop' in fl or contacts.get(cid, {}).get('contact_dnd') is True: how = 'DO NOT CONTACT: STOP or DND'
+        elif ch == 'DM' and hrs <= 24: how = 'reply in the same DM'
+        elif ch == 'DM' and hrs <= 168: how = 'DM past 24h: Human Agent tag if GHL offers it, else SMS if a phone is on file'
+        elif ch == 'DM': how = 'DM window closed: SMS if a phone is on file, else skip'
+        else: how = f'reply by {ch}'
+        rows.append(dict(opportunity_id=o['id'], ghl_link=f'https://app.gohighlevel.com/v2/location/{LOC}/contacts/detail/{cid}',
+                         last_inbound_channel=ch, hours_waiting=round(hrs), unanswered_msgs=len(run),
+                         we_ever_replied='yes' if ever_out else 'no', how_to_reply=how, flags='|'.join(fl)))
+    skip = lambda r: r['how_to_reply'].startswith('DO NOT')
+    rows.sort(key=lambda r: (skip(r), r['we_ever_replied'] == 'yes', r['hours_waiting']))
+    n = 0
+    for r in rows:
+        if skip(r): r['priority'] = 'skip'
+        else: n += 1; r['priority'] = n
+    rows = [dict(priority=r.pop('priority'), **r) for r in rows]
+    with open(f'{D}/reply_queue.csv', 'w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+    return rows
+
 def pct(n, d): return f'{n}/{d} ({round(100 * n / d) if d else 0}%)'
 def summarize(rows, label):
     n = len(rows); fr = [r['first_response_minutes'] for r in rows if r['first_response_minutes'] != 'none']
@@ -229,6 +273,8 @@ def summarize(rows, label):
 if __name__ == '__main__':
     cmd, D = sys.argv[1], sys.argv[2]
     if cmd == 'pull': pull(D)
+    elif cmd == 'queue':
+        for r in queue(D): print(','.join(str(v) for k, v in r.items() if k != 'ghl_link'))
     else:
         rows = score(D)
         with open(f'{D}/part_b_scores_all.csv', 'w', newline='') as f:
