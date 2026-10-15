@@ -1,0 +1,345 @@
+{
+  "week": "2026-10-05",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-10-05",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "The first sleepover is harder on the parent. Daily updates are the photo you wait for.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "The first *sleepover* is harder on the parent.",
+          "sub": "Same with your dog. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "You check your phone all night.",
+          "body": "Did they eat? Are they asleep? Every parent has been there."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Then the photo arrives.",
+          "body": "A big smile. A happy kid. The night you dreaded went fine."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Boarding can feel the same.",
+          "body": "Daily photo and video updates are included. You get to see the smile too."
+        },
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "quote": "...Amanda sent me daily videos, updates, let me know when we needed to restock food, and provided amazing care for our Loki.",
+          "name": "Megan M."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "First stay coming up?",
+          "title": "Tell us about your dog.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "The first sleepover is harder on the parent.\n\nYou check your phone all night. Then the photo comes, and your kid is smiling.\n\nBoarding can feel the same. Daily photo and video updates are included, so you can see how your dog is doing.\n\nMegan wrote: \"...Amanda sent me daily videos, updates, let me know when we needed to restock food, and provided amazing care for our Loki.\"\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-05T07:30:00-04:00",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenPostId": "0140d1d5-c41a-43f2-bda8-987d0e17e0f4",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/e2060a68-ccef-443b-93f1-28a8c695b769.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/c3a7a2a8-698e-4b19-9246-f04837528dde.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/d847e8d1-bbee-4f9a-8add-e071b414359f.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/08d637e1-7d4c-4dc0-a3fc-7fa21909a7af.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/e157e6ef-27ba-43a7-85bc-630d8e2f51cf.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/3c44b0da-7fb7-45e1-b98e-53f4dc2cb427.png"
+      ]
+    },
+    {
+      "day": "Tue",
+      "date": "2026-10-06",
+      "format": "static",
+      "pillar": "Fun fact",
+      "angle": "Dog hearing range. Why quiet matters at a home.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "cream",
+          "kicker": "Fun fact",
+          "stat": "45,000 Hz",
+          "label": "is about how high dogs can *hear.*",
+          "vs": {
+            "value": "20,000 Hz",
+            "label": "That is about the top for people."
+          },
+          "source": "AKC"
+        }
+      ],
+      "caption": "Dogs can hear sounds up to about 45,000 Hz. People top out near 20,000 Hz.\n\nSo your dog hears a lot you never notice. A loud, busy place can be a lot for them.\n\nThat is one reason we like a home setting. Send us a message to set up a Tuesday meet and greet.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-10-06T07:30:00-04:00",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "529323d1-1d76-49b2-81a6-c27519cde464",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/7b674fca-f42b-4636-9cef-4420d8eb21d3.png"
+      ]
+    },
+    {
+      "day": "Wed",
+      "date": "2026-10-07",
+      "format": "static",
+      "pillar": "Review",
+      "angle": "Mini vacation, home away from home. Jessica T.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "pink",
+          "head": "A *mini vacation* for your dog.",
+          "quote": "I would say it was home away from home, but it’s actually more like a mini vacation for my dogs. ...Highly recommend this family very organized and your pup will be well taken care of.",
+          "name": "Jessica T."
+        }
+      ],
+      "caption": "Jessica said it was more like a mini vacation for her dogs.\n\nThat is what we want every stay to feel like. A real home. Calm days. Daily updates for you.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-07T07:30:00-04:00",
+      "files": [
+        "png/wed-01.png"
+      ],
+      "edenPostId": "e72d24f2-0959-40ad-ade1-afc83aa0b748",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/7a2297d8-9359-41bf-8f7a-cd58039ae7a9.png"
+      ]
+    },
+    {
+      "day": "Thu",
+      "date": "2026-10-08",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "Zoomies have a name. FRAPs. AKC.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "kicker": "Dog behavior 101",
+          "title": "That sudden sprint has a *name.*",
+          "sub": "Zoomies. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Zoomies are FRAPs.",
+          "body": "Frenetic random activity periods. A burst of energy, then off they go.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Energy comes out all at once.",
+          "body": "Zoomies often happen after a bath, after rest, or in the morning.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "It is a normal dog thing.",
+          "body": "Puppies do it the most. Grown dogs join in too.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "04",
+          "title": "Give them room.",
+          "body": "A clear, safe space is best. Keep hazards out of their path.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Got a zoomie dog?",
+          "title": "Tell us about your dog.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "That sudden sprint around the room has a name. Zoomies. The AKC calls them FRAPs, short for frenetic random activity periods.\n\nThe AKC says they are normal. Pent up energy comes out all at once. It often happens after a bath, after rest or in the morning.\n\nGot a zoomie dog? Tell us about them.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogBehavior #DogBoarding",
+      "scheduledAtIso": "2026-10-08T07:30:00-04:00",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png",
+        "png/thu-06.png"
+      ],
+      "edenPostId": "3e54d32f-1a96-4034-a919-d7ea16867ce8",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/4ff3ec4b-1d55-472d-ac01-f93bbf809572.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/fb8515b0-3068-421e-b227-1793c118b196.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/00bcf623-7638-4e09-aed1-0d25c9a17ab3.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/33745616-652c-48e7-aec8-2fd26b13c567.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/a7731c65-46e2-4a0f-aadf-a12f2d914c69.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/308f0123-2c19-4ab0-aaee-2a2a2939b645.png"
+      ]
+    },
+    {
+      "day": "Fri",
+      "date": "2026-10-09",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "You already pack the lunchbox. Pack the meals. Ziploc bags is a real policy.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "kicker": "Travel weekend tip",
+          "title": "You already pack the *lunchbox.*",
+          "sub": "Do it for your dog too. Portion each meal in a Ziploc bag. We bring the beds and supplies."
+        }
+      ],
+      "caption": "Every parent packs the lunchbox the night before.\n\nDo the same for your dog. Portion each meal in a Ziploc bag and bring it at drop off. We provide the beds and supplies.\n\nSimple for you. Easy for us. Your dog eats just like at home.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-09T07:30:00-04:00",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "93f5a375-3d6b-4c72-9565-912514ed1637",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/a7fb54c6-0856-41de-83f2-f34e9ad10c9a.png"
+      ]
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-10",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "Why a dog's nose is wet. Save and share bait.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "pink",
+          "kicker": "Fun fact",
+          "title": "Why is your dog's nose *wet?*",
+          "sub": "3 facts. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "charcoal",
+          "num": "01",
+          "title": "Scent sticks to wet.",
+          "body": "Scent particles stick better to a moist nose. That helps your dog read the world.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "charcoal",
+          "num": "02",
+          "title": "They keep it wet.",
+          "body": "Glands in the nose make moisture. Dogs also lick their noses to keep them clean.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "charcoal",
+          "num": "03",
+          "title": "A second way to smell.",
+          "body": "Dogs can also take in scent through taste, using a special organ called the Jacobson's organ.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "cream",
+          "kicker": "Know a dog person?",
+          "title": "Send this to them.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Why is your dog's nose wet?\n\n1. Scent particles stick better to a moist nose.\n2. Glands in the nose make moisture, and dogs lick their noses to keep them clean.\n3. Dogs can also take in scent through taste, with a special organ called the Jacobson's organ.\n\nKnow a dog person? Send this to them.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "scheduledAtIso": "2026-10-10T07:30:00-04:00",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png"
+      ],
+      "edenPostId": "a03b6048-6885-4484-a20a-3fb2edcb5270",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/f1985232-f553-48af-8521-eadb8b339100.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/f54721af-a99b-4c44-b410-be2247425cf7.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/712428f5-6be8-4c85-8f51-7a6f2fcca819.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/8ace7314-feb9-4d93-b436-972f368eb389.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/93e83140-c440-4f00-bf59-ccfdf2e44467.png"
+      ]
+    },
+    {
+      "day": "Sun",
+      "date": "2026-10-11",
+      "format": "static",
+      "pillar": "Review wall",
+      "angle": "Three short quotes. Why families come back.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "title": "Why they *come back:*",
+          "quotes": [
+            {
+              "text": "I didn’t want my dog crated and with four paws, there is no crating.",
+              "name": "Marietta M."
+            },
+            {
+              "text": "They took wonderful care of Rocket during our long weekend, we really appreciated the daily videos!",
+              "name": "Mariana B."
+            },
+            {
+              "text": "June came home happy, and that says everything to me.",
+              "name": "Whismick C."
+            }
+          ]
+        }
+      ],
+      "caption": "Three Google reviews. Three families who came back.\n\nNo crating. Daily videos. A dog who comes home happy.\n\nPlanning a trip? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-11T07:30:00-04:00",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "58da2fbb-d4a4-4337-9547-dcb17975e7ea",
+      "status": "scheduled",
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/1fd91e6c-54fb-4f7f-8346-06de3bbaa98f.png"
+      ]
+    }
+  ]
+}

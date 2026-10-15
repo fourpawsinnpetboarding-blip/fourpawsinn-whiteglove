@@ -1,0 +1,336 @@
+{
+  "week": "2026-10-19",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "design": "brand v1: cream #FAF7F3, pink #E6A0A3, charcoal #353532",
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-10-19",
+      "scheduledAtIso": "2026-10-19T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "Grandma's house. Every kid has one. Your dog needs a home too, not a kennel.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "Every kid has a *grandma's* house.",
+          "sub": "Your dog needs one too. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "You know why kids love it.",
+          "body": "Someone knows their name. There is a yard. The day feels warm and slow."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "A kennel row is not that.",
+          "body": "Your dog should not spend a trip in a row of cages."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "So pick a home.",
+          "body": "Four Paws Inn is cage free home boarding in Miramar. A family home, a real yard, daily photo and video updates."
+        },
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "quote": "Warm family that treated my dog as if it's theirs.",
+          "name": "Michal C."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Planning a trip?",
+          "title": "Tell us about your *dog.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Every kid has a grandma's house.\n\nA place with a yard, a warm hello and someone who knows their name.\n\nYour dog should get that too. Not a row of cages.\n\nFour Paws Inn is cage free home boarding in Miramar. Daily photo and video updates are included.\n\nMichal wrote in her Google review: \"Warm family that treated my dog as if it's theirs.\"\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "b6350783-a6bf-4510-a414-78b5c28514ff",
+      "status": "scheduled",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/80387127-c049-465d-88ce-c297246ac125.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/5eb71700-8e26-430a-bc70-a3e8f3f5f21d.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/50cfcfdd-d7ac-4caf-949f-b82cbe9c4f99.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/72b24330-769f-4679-8c3a-83b968aca5d6.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/65745a10-1e41-4e57-a468-be35e905f5e0.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/60272b1e-7ece-4dff-9d30-a91baf844105.png"
+      ]
+    },
+    {
+      "day": "Tue",
+      "date": "2026-10-20",
+      "scheduledAtIso": "2026-10-20T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Fun fact / dog science",
+      "angle": "Dalmatians are born white. Tie to Tuesday meet and greets: every dog starts as a surprise.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "cream",
+          "kicker": "Fun fact",
+          "stat": "0 spots",
+          "label": "on a newborn *Dalmatian.*",
+          "vs": {
+            "value": "2 weeks",
+            "label": "That is about when the spots start to show up."
+          },
+          "source": "AKC"
+        }
+      ],
+      "caption": "Dalmatian puppies are born plain white. The spots start to show up around two weeks of age.\n\nEvery dog has a story you cannot see at first. That is why we like to meet you and your dog before a stay.\n\nMeet and greets are on Tuesdays. Send us a message to set one up.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "edenPostId": "130cb13b-8805-4b69-b767-ee9eaf9b5beb",
+      "status": "scheduled",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/91509804-c871-4db3-b140-ab1306e0390d.png"
+      ]
+    },
+    {
+      "day": "Wed",
+      "date": "2026-10-21",
+      "scheduledAtIso": "2026-10-21T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Review / proof",
+      "angle": "Updates that feel personal. Shannon C.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "pink",
+          "head": "Updates that feel *personal.*",
+          "quote": "Amanda was amazing with Darling! Her updates were frequent and so sweet.",
+          "name": "Shannon C."
+        }
+      ],
+      "caption": "Shannon's dog Darling stayed with us. Here is what she wrote in her Google review.\n\nDaily photo and video updates are included with every stay at Four Paws Inn. You see how your dog is doing while you are away.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "0c4f6f8c-51de-4a1f-b3b0-401d41c26ab3",
+      "status": "scheduled",
+      "files": [
+        "png/wed-01.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/119d418d-60a0-44b6-86a3-8416caba2e0d.png"
+      ]
+    },
+    {
+      "day": "Thu",
+      "date": "2026-10-22",
+      "scheduledAtIso": "2026-10-22T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "Why dog eyes glow in photos. Tapetum lucidum, AKC. Save bait.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "kicker": "Dog behavior 101",
+          "title": "Why do your dog's eyes *glow* in photos?",
+          "sub": "It is not magic. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "There is a mirror in there.",
+          "body": "Behind the retina is a layer called the tapetum lucidum. It reflects light.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "It helps in low light.",
+          "body": "The mirror gives the eye a second chance to catch light. Dogs evolved to hunt in the dark.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "That is your glow.",
+          "body": "The flash bounces back out. It can look green, blue, orange or yellow.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "One more thing",
+          "title": "Knowing dogs is our *job.*",
+          "body": "Tell us how your dog moves, plays and rests. We will plan their stay.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Ever notice your dog's eyes glow in a flash photo?\n\nBehind the retina is a layer called the tapetum lucidum. It works like a mirror. It bounces light back so the eye gets a second chance to catch it. That helps dogs see in low light.\n\nThe glow you see is that light coming back out. It can look green, blue, orange or yellow.\n\nSave this for the next time you take a photo at night.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "edenPostId": "a684cf35-731f-4040-b9ec-6b71491f9457",
+      "status": "scheduled",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/534b1396-d5d1-44ae-85ef-453eaaf09bc1.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/e8c16cb2-702e-41ed-847d-e8e4f8358870.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/16c0d8cb-843f-4e8e-a788-01dbeec5653a.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/8ad98e13-3a44-4d29-a641-2728fa0befe2.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/23bec2f7-9b29-47f7-aebc-953a79079ac2.png"
+      ]
+    },
+    {
+      "day": "Fri",
+      "date": "2026-10-23",
+      "scheduledAtIso": "2026-10-23T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "Camp counselors ask what scares them, what they love, what calms them. Invite the same for the dog.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "pink",
+          "kicker": "Pet parent psychology",
+          "title": "Camp counselors ask *three* things.",
+          "sub": "What scares them. What they love. What calms them. Tell us the same about your dog."
+        }
+      ],
+      "caption": "Before sleepaway camp, every parent fills out the form. What makes them nervous? What do they love? What helps them calm down?\n\nYour dog has answers too. The more you tell us, the better we can plan their stay.\n\nSend us your dates. Tell us what scares them, what they love and what calms them.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "988ad39b-e161-44aa-ab88-168b8354deed",
+      "status": "scheduled",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/a57c5837-044b-4dda-83dd-6f7207f59476.png"
+      ]
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-24",
+      "scheduledAtIso": "2026-10-24T07:30:00-04:00",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "3 breed facts for the dog park. Newfoundland webbed feet, Basenji yodel, Chihuahua name. AKC.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Fun facts",
+          "title": "3 breed facts to win the *dog park.*",
+          "sub": "All true. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Newfoundlands have webbed feet.",
+          "body": "The webs help them swim. They worked with fishermen in the water.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Basenjis do not bark like most dogs.",
+          "body": "Their throat is shaped differently. They yodel instead.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Chihuahuas are named for a place.",
+          "body": "The breed takes its name from the Mexican state of Chihuahua.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "charcoal",
+          "kicker": "Which one did you know?",
+          "title": "Tell us your *breed.*",
+          "body": "Big, small, loud or quiet. Tell us about your dog.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "3 breed facts to win the dog park. All true.\n\n1. Newfoundlands have webbed feet. The webs help them swim.\n2. Basenjis do not bark like most dogs. Their throat is shaped differently, so they yodel.\n3. Chihuahuas are named for the Mexican state of Chihuahua.\n\nWhich one did you know? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "edenPostId": "9b7ba973-94f8-4444-93c1-5189bf099a64",
+      "status": "scheduled",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/e2d89916-ffac-43a4-ac8e-f74ade14d314.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/2653b0a8-d724-42fc-9b3c-388c96beb830.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/6c7c1572-428f-4a1d-bbed-38c52c679cdb.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/11fcb10a-41af-42a4-8adf-5c96cf147e96.png",
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/95ed53ff-c3c5-4a18-8f9a-3fa2481bdb41.png"
+      ]
+    },
+    {
+      "day": "Sun",
+      "date": "2026-10-25",
+      "scheduledAtIso": "2026-10-25T07:30:00-04:00",
+      "format": "static",
+      "pillar": "Review wall",
+      "angle": "Easy from start to finish. Three short quotes.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "title": "Easy from start to *finish.*",
+          "quotes": [
+            {
+              "text": "I'm so, so glad to have found Four Paws Inn!",
+              "name": "Angie A."
+            },
+            {
+              "text": "Great communication from beginning to end.",
+              "name": "Sabine C."
+            },
+            {
+              "text": "They were reliable and kind... We would absolutely book again!",
+              "name": "Yulia H."
+            }
+          ]
+        }
+      ],
+      "caption": "Easy from start to finish. Here is what pet parents told us on Google.\n\nPlanning a trip? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "edenPostId": "04ce9ef3-a40d-49e9-be8e-7999e6812eae",
+      "status": "scheduled",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenMedia": [
+        "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/30df231b-950b-416b-8829-ce9d841b5eb2.png"
+      ]
+    }
+  ]
+}
