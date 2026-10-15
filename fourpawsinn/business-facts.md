@@ -47,10 +47,11 @@ Four Paws Inn charges by day, never by night.
 ## Booking and care policies
 
 - A 25% deposit reserves the dates.
-- The balance is due at drop-off.
+- Full payment is due before drop-off (Alex, Oct 15, 2026). The deposit reserves the stay; the rest is paid before the dog arrives.
 - Vaccines must be current.
 - Dogs go outside to play every hour (Alex, Oct 11, 2026).
-- Booking steps for a new client: guest form, then the boarding agreement sent by email to sign, then the 25% deposit (Alex, Oct 11, 2026).
+- Booking steps for a new client: guest intake form, then the boarding agreement sent by email to sign, then the 25% deposit link, then full payment before drop-off (Alex, Oct 11 and Oct 15, 2026).
+- Phone number for clients who come in by email: (754) 971-0792, the direct client line (Alex, Oct 15, 2026).
 - Owners bring food pre-portioned in Ziploc bags.
 - Four Paws Inn provides beds and supplies.
 - Daily photo and video updates are included.
