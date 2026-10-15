@@ -10,7 +10,7 @@ Last updated: Oct 11, 2026.
 | 1 | DONE Oct 11: Google Ads call length set to 20 seconds | | |
 | 2 | DONE Oct 11: Amanda has the open lead call list | | |
 | 3 | DONE Oct 11: Founder's Log is free, no paywall (no subscribers yet). Codex posts Mon Oct 12, 9 PM | | |
-| 4 | WAITING: old GHL sub account cancelled; refund of about $700 escalated to GHL upper management about Oct 9. Claude follows up with Alex Oct 15. Check the Amex on Nov 8 for no new charge | | |
+| 4 | WAITING: old GHL sub account cancelled; refund of about $700 escalated about Oct 9. GHL (Jhonatan, ticket 6509200) replied Oct 13 asking for a screenshot of the March cancellation email (sender, recipient, signature); Codex row 0cefb00f. Oct 15: Claude asked Alex if the proof was sent; follow up text drafted in chat. Check the Amex on Nov 8 for no new charge | | |
 
 ## Alex: this week
 
