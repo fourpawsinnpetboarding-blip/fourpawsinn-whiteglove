@@ -73,3 +73,9 @@ No profiles have been submitted or created yet. The approved facts block above i
 | Three Best Rated | Live application category dropdown includes grooming, training, walkers, stores and veterinarians, but no boarding. | Obtain an appropriate boarding submission route before applying. |
 
 No fees paid, customer data shared, review replies sent, CallRail numbers changed, or accounts created. These are blockers, not completed listings. Continuing the remaining authorized work rather than leaving Alex to relay status to Claude.
+
+## Codex directory batch 2 checkpoint, October 15, 2026
+
+Chamber price check completed: [official investment levels](https://www.miramarpembrokepines.org/investment-levels.html) list General Business 1 to 10 employees at $325 per year and 11 to 25 at $400. Report cost to Alex before paying. No membership purchased.
+
+BringFido and BBB public search returned namesake businesses outside Miramar; do not claim those. BringFido, Thumbtack, Foursquare, Apple Business Connect, Yelp, BBB and Alignable listing or owner-access checks remain incomplete. No listings submitted or edited during this pass, and no verified new listing URLs exist to report. Approved facts block remains unchanged.
