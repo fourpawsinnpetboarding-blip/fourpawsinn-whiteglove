@@ -40,7 +40,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Third dog and more | $5 per day off each additional dog (Alex, Oct 12, 2026) |
 | Last day | Free if picked up before 10:00 AM |
 | Cats | $40 per day (Alex kept the live cat page price, Oct 11, 2026). For multiple cats or long stays, say the team will confirm the total. |
-| Cat page | https://optin.fourpawsinn.co/cats-page (Alex, Oct 15, 2026). Cats get a private room with a yard window and a bird feeder outside; we provide litter box, toys, cat posts and beds; owners bring food (no per meal bags needed) and their preferred litter. |
+| Cat page | https://optin.fourpawsinn.co/cats (Alex, Oct 15, 2026). Cats get a private room with a yard window and a bird feeder outside; we provide litter box, toys, cat posts and beds; owners bring food (no per meal bags needed) and their preferred litter. |
 | Private suite | Costs more. Never quote a private-suite price; say the team will confirm. |
 
 Four Paws Inn charges by day, never by night.
