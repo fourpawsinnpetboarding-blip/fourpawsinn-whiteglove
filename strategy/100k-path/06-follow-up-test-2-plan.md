@@ -37,3 +37,52 @@
 
 1. Alex approves the wider read only GHL pull (all stages, not only New Lead). Without it, the cohort rule in section 1 cannot be scored.
 2. Amanda keeps the booking sheet current, so lead to booked can be checked against it.
+
+---
+
+# Test 3: Reactivation of 100 Old Leads (separate from Test 2)
+
+**Why separate:** Test 2 measures speed on new leads. Test 3 measures money from old leads. Mixing them makes both numbers useless to a buyer.
+**List:** 100 New Lead opportunities ranked from the Part B pull. Kept in the session scratchpad (`reactivation-100.csv`), never committed.
+
+## Who is on the list
+
+| Tier | Count | Rule |
+|---|---|---|
+| T1 | 18 | Lead wrote last and is waiting on us |
+| T2 | 41 | Said they plan a future trip |
+| T3 | 41 | Talked with us, then went quiet. Most recent first. |
+
+Removed before ranking: STOP, DND, said not interested, already booked in records, duplicates, wrong numbers, and anyone with no safe channel. Safe channel means they texted us before (SMS), or their DM window is still open (7 days or less).
+
+## Rules
+
+1. One to one, typed by Alex or Amanda inside GHL. Never a bulk send (CLAUDE.md, section 10, rule 4).
+2. Send 8:00 AM to 8:00 PM ET only.
+3. One message per lead. If no reply in 3 days, one follow up. Then stop.
+4. Anyone who says stop or no: send nothing more.
+5. Fill in the four tracking columns on the sheet: sent_date, lead_replied, booked, booking_value.
+
+## Messages
+
+**T1, waiting on us:** use the matching template in `05-lead-reply-sop.md`, section 5.
+
+**T2, future trip (holiday angle)**
+> Hi, this is Amanda from Four Paws Inn. You asked about boarding a while back. Thanksgiving and Christmas spots are filling now. Do you want me to save a spot for your pup?
+
+**T3, went quiet**
+> Hi, this is Amanda from Four Paws Inn. We talked a while back about boarding your pup. Do you have any trips coming up this fall? I would love to help.
+
+**Follow up, day 3, no reply**
+> Just checking in. If now is not a good time, no worries. We are here when you need us.
+
+## Scorecard (run 14 days after the last send)
+
+| Metric | How |
+|---|---|
+| Reply rate | replies divided by sent |
+| Booked | bookings divided by sent, checked against the booking sheet |
+| Revenue | sum of booking_value |
+| Opt outs | STOP replies divided by sent |
+
+**Planning math, not a promise:** at a 20% reply rate and 1 in 4 replies booking, 100 sends gives about 5 bookings. At about $330 a stay (5 days at $60 to $75), that is about $1,650. The bigger value is the proof: "5 bookings from leads the business had written off" is the sentence a buyer pays for.
