@@ -84,6 +84,11 @@ Value first, then questions, then the close. Never ask for the deposit in the fi
 **Nudge, 24 hours, no reply**
 > Hi [Name], just checking in. I am still holding [Start] to [End] for [Pet]. Want me to send the deposit link to lock it in?
 
+## 5c. Common questions
+
+**"When can I pick up, and when is the last day free?"**
+> Pick up is 9 AM to 8 PM. If you pick up on [End] before 10 AM, that day is free and your total is $[Total]. If you pick up on [End] after 10 AM, that day counts and your total is $[Total plus one day]. If you get in after 8 PM, you can pick up the next morning before 10 AM. That total is also $[Total plus one day].
+
 ## 6. The queue (Claude runs it)
 
 `analysis/lead_activity_partb.py` builds the list of New Lead opportunities where the lead had the last word in the past 45 days. Read only. IDs and GHL links only.
