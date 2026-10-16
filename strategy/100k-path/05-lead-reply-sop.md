@@ -61,6 +61,13 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 
 **Hours rule:** drop off and pick up times come only from `fourpawsinn/business-facts.md`. Never offer a time outside those windows. Note: the 8 AM to 8 PM hours above are for replying to messages, not for drop off or pick up.
 
+**Before any reply goes out, check all five:**
+1. Does the first line answer the exact question they asked?
+2. Does it use the pet's name and something they told us about the pet?
+3. Do hours, prices and policies match `fourpawsinn/business-facts.md`?
+4. Does it keep everything from our last message that still applies?
+5. Does it end with one clear question?
+
 ## 5b. Booking reply order (Alex's rule, 2026-10-16)
 
 Value first, then questions, then the close. Never ask for the deposit in the first reply.
