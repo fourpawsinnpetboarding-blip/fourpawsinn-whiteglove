@@ -173,6 +173,8 @@ Hard rules. No exceptions without an explicit override in the session.
 
 ---
 
+**Meta Ads ownership (Alex, Oct 16, 2026):** Claude builds and edits every Meta campaign, ad set, ad and creative upload (via Windsor). Codex never creates, edits, pauses or duplicates anything in Meta Ads Manager. Codex may only prepare files and report on the Eden board.
+
 **Manual work routing (Alex, Oct 15, 2026):** any hands-on task Codex can do goes to Codex as an Eden board Request row, never to Alex. Alex only gets tasks that need his own login with no shared access, a money decision, or his voice on a call.
 
 ## 11. Tool stack
