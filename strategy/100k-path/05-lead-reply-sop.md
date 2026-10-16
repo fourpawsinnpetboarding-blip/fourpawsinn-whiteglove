@@ -59,6 +59,31 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 **F. Cats or a private suite**
 > Hi, this is Amanda from Four Paws Inn. Great question. The price depends on your stay, so I will confirm it for you. What dates do you need?
 
+## 5b. Booking reply order (Alex's rule, 2026-10-16)
+
+Value first, then questions, then the close. Never ask for the deposit in the first reply.
+
+1. **Reply 1, value:** dates are open, how the stay works, price, what to bring. End with "Do you have any questions?"
+2. **Reply 2, close:** after they answer or have no questions. Ask for the deposit.
+3. **No reply in 24 hours:** one short nudge with the close.
+
+**Reply 1 example (dog under 50 lb, 3 day stay)**
+> Hi [Name], this is Amanda from Four Paws Inn. Good news! We have room for [Pet] from [Start] to [End]. You planned ahead at the perfect time.
+>
+> [Pet] will stay cage free in our home. We have the beds and supplies ready, and you get photo and video updates every day.
+>
+> [Pet]'s rate is $60 a day, so your stay is $[Total]. The last day is free if you pick up before 10 AM.
+>
+> Drop off and pick up are 9 AM to 8 PM. Please bring [Pet]'s food in Ziploc bags, one bag per meal, and [Pet]'s vaccine records.
+>
+> Do you have any questions about [Pet]'s stay?
+
+**Reply 2, the close**
+> Great! To hold [Pet]'s spot for [Start] to [End], we take a $[Deposit] deposit. The rest is due at drop off. Want me to send the link?
+
+**Nudge, 24 hours, no reply**
+> Hi [Name], just checking in. I am still holding [Start] to [End] for [Pet]. Want me to send the deposit link to lock it in?
+
 ## 6. The queue (Claude runs it)
 
 `analysis/lead_activity_partb.py` builds the list of New Lead opportunities where the lead had the last word in the past 45 days. Read only. IDs and GHL links only.
