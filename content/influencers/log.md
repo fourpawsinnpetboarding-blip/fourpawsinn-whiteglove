@@ -24,3 +24,4 @@ Codex row f90e24bf: v2 pitch in all DMs, GHL creator code field, payouts sheet.
 - Oct 14 inbox check (10:52 AM): no creator or trainer replies; no new verified creator emails; trainer-candidates.md still not created. Nothing sent.
 - Oct 14: Claude sent the YMCA reply (Alex: "Send the email"): no table, $50 donation, 2 night raffle gift card (no holiday weekends), asked to place our giveaway sign and QR cards, drop off details, sponsor mention.
 - Oct 15 inbox check (10:53 AM): no creator replies (tourwithteddy, vanilla.espresso, shereenamber); no new verified creator emails; content/hiring/trainer-candidates.md still not created. YMCA: no reply yet to our Oct 14 email. Nothing sent.
+- Oct 16 board check (8:50 AM): new verified email info@mybloompilates.com (@bloompilatess). Partner Program email (code BLOOM25) saved as a Gmail draft; send was blocked by a permission check, waiting for Alex's "send". No creator replies yet.
