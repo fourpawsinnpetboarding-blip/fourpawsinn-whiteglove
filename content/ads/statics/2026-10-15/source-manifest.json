@@ -1,0 +1,42 @@
+{
+  "assets": [
+    {
+      "file": "AD32-REVIEW-UPDATES-CutA.png",
+      "sha256": "3bc79ae349e6580a55ef8940c3be8ccfc856fb6e88bb59a7b6baeaf1b0a7048b",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "AD34-PHOTO-THEIR-TRIP-CutA.png",
+      "sha256": "198c11c1ac1a4f19efdc982c2178ce027393937a5ddcf8a4caf29a5c9409497f",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "AD35-PHOTO-THE-YARD-CutA.png",
+      "sha256": "5d82ac63ea7d04ca6e4dae0fe5c8397c7708362b41d602bb8fa41e1c8d162b46",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "AD31-REVIEW-KINDNESS-CutA.png",
+      "sha256": "a9f84099b0e00c1d61f8fd852d2c11b7159328c91621babbceace96caad3fc7b",
+      "size": [
+        1080,
+        1350
+      ]
+    }
+  ],
+  "review_source": "/Volumes/Extreme SSD/00_VIDEOS/Testimonials & Reviews/IMG_8570.JPG",
+  "review_sha256": "07575027d01b8359463ceef3e06525605700634e92fdeb06a08443a413f263ba",
+  "photo_sources": {
+    "AD34": "LIB-0003 / Human-Dog Interaction/20260322_C0109.MP4 at 5 seconds",
+    "AD35": "LIB-0024 / Human-Dog Interaction/C4770.MP4 at 10 seconds"
+  }
+}
