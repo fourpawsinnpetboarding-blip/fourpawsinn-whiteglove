@@ -139,6 +139,7 @@ Business content goes to the business workspace. Personal brand content goes to 
 - Write at a 3rd grade reading level. Short sentences. Common words. One idea per sentence.
 - Warmth plus clarity plus reason. Never warmth alone, which is how boundaries get eroded.
 - No dashes. See section 3.
+- Drop off and pick up times, prices, deposits and policies come only from `fourpawsinn/business-facts.md`. Never quote hours from memory. Current windows: 9 AM to 12 PM and 4 PM to 6:30 PM.
 
 **Founder's Log format** (Alex's own content)
 Hook, numbers, one win, one failure, SOP lesson, forward looking cliffhanger.

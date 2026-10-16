@@ -59,6 +59,8 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 **F. Cats or a private suite**
 > Hi, this is Amanda from Four Paws Inn. Great question. The price depends on your stay, so I will confirm it for you. What dates do you need?
 
+**Hours rule:** drop off and pick up times come only from `fourpawsinn/business-facts.md`. Never offer a time outside those windows. Note: the 8 AM to 8 PM hours above are for replying to messages, not for drop off or pick up.
+
 ## 5b. Booking reply order (Alex's rule, 2026-10-16)
 
 Value first, then questions, then the close. Never ask for the deposit in the first reply.
@@ -74,7 +76,7 @@ Value first, then questions, then the close. Never ask for the deposit in the fi
 >
 > [Pet]'s rate is $60 a day, so your stay is $[Total]. The last day is free if you pick up before 10 AM.
 >
-> Drop off and pick up are 9 AM to 8 PM. Please bring [Pet]'s food in Ziploc bags, one bag per meal, and [Pet]'s vaccine records.
+> Drop off and pick up times are 9 AM to 12 PM and 4 PM to 6:30 PM. Please bring [Pet]'s food in Ziploc bags, one bag per meal, and [Pet]'s vaccine records.
 >
 > A few quick questions so we can plan [Pet]'s stay. How is [Pet] with other dogs? Is there anything else we should know about [Pet]? And do you have any questions for us?
 
@@ -87,7 +89,7 @@ Value first, then questions, then the close. Never ask for the deposit in the fi
 ## 5c. Common questions
 
 **"When can I pick up, and when is the last day free?"**
-> Pick up is 9 AM to 8 PM. If you pick up on [End] before 10 AM, that day is free and your total is $[Total]. If you pick up on [End] after 10 AM, that day counts and your total is $[Total plus one day]. If you get in after 8 PM, you can pick up the next morning before 10 AM. That total is also $[Total plus one day].
+> Pick up times are 9 AM to 12 PM and 4 PM to 6:30 PM. If you pick up on [End] between 9 AM and 10 AM, that day is free and your total is $[Total]. If you pick up on [End] after 10 AM, that day counts and your total is $[Total plus one day]. If you get in after 6:30 PM, you can pick up the next morning between 9 AM and 10 AM. That total is also $[Total plus one day].
 
 ## 6. The queue (Claude runs it)
 
