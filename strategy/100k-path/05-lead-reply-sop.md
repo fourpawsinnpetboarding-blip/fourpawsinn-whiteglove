@@ -63,7 +63,7 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 
 Value first, then questions, then the close. Never ask for the deposit in the first reply.
 
-1. **Reply 1, value:** dates are open, how the stay works, price, what to bring. End with "Do you have any questions?"
+1. **Reply 1, value:** dates are open, how the stay works, price, what to bring. End with our questions about the dog (how they do with other dogs, anything we should know), then "Do you have any questions for us?"
 2. **Reply 2, close:** after they answer or have no questions. Ask for the deposit.
 3. **No reply in 24 hours:** one short nudge with the close.
 
@@ -76,7 +76,7 @@ Value first, then questions, then the close. Never ask for the deposit in the fi
 >
 > Drop off and pick up are 9 AM to 8 PM. Please bring [Pet]'s food in Ziploc bags, one bag per meal, and [Pet]'s vaccine records.
 >
-> Do you have any questions about [Pet]'s stay?
+> A few quick questions so we can plan [Pet]'s stay. How is [Pet] with other dogs? Is there anything else we should know about [Pet]? And do you have any questions for us?
 
 **Reply 2, the close**
 > Great! To hold [Pet]'s spot for [Start] to [End], we take a $[Deposit] deposit. The rest is due at drop off. Want me to send the link?
