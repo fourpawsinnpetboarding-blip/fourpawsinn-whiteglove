@@ -68,6 +68,8 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 4. Does it keep everything from our last message that still applies?
 5. Does it end with one clear question?
 
+**Drafting with Claude:** after every draft, Alex answers with one word: "sent", "not sent", or "edited" (then pastes what actually went out). Claude asks if no answer is given, and builds the next draft only on what was actually sent.
+
 ## 5b. Booking reply order (Alex's rule, 2026-10-16)
 
 Value first, then questions, then the close. Never ask for the deposit in the first reply.
