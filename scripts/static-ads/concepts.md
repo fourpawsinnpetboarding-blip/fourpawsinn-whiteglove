@@ -121,3 +121,22 @@ Built by Claude through Windsor after Alex approves. Images hosted on Eden publi
 ## Not used, and why
 - Higgsfield: our rules ban AI images of dogs, people, the home and yards. Real photos and code drawn doodles beat abstract AI art for a local service. Use Higgsfield only for motion versions of a winning static later.
 - Canva: not connected in this session (needs authorization in claude.ai connector settings). Not needed for this batch.
+
+## LAUNCHED Oct 17 2026 (Alex: "Launch")
+
+Existing ad set "New Dog Ad -Vid/Image" (52586440814124), same budget, next to Static Reviews. All ACTIVE. Copy uses the qualifying formula (who it is for, price up front, paid first overnight, Amanda texts back). Form 1479678017305071. UTMs on every ad.
+
+| Ad | Meta ad ID |
+|---|---|
+| AD14 No crate (Marietta) | 52663260923724 |
+| AD15 Mark review + photo | 52663260926124 |
+| AD18 Did not want to leave (Elaine) | 52663260943924 |
+| AD29 Static Reviews refresh | 52663260949724 |
+| AD21 4.9 badge + photo | 52663260962724 |
+| AD22 Thousands of hours | 52663260967724 |
+| AD09 Ask 5 questions | 52663261010724 |
+| AD31 Allison, shy dog (Codex) | 52663259410524 |
+| AD32 Yesenia, updates (Codex) | 52663259421924 |
+
+Pending: AD34, AD35 (corrupted files, Codex re-saving), AD30, AD33 (unfinished).
+Review Oct 24 (day 7): judge by cost per booked stay, then CPL. Pause any ad over $34 CPL after $35 spend.
