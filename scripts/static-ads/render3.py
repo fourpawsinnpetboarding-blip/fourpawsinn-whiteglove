@@ -55,7 +55,7 @@ def ad36():
 
 def ad37():
     """Curbside hand off, real photo."""
-    im = R2.photo("LIB-0023_3.jpg", (0, 0, W, H)); d = ImageDraw.Draw(im, "RGBA")
+    im = R2.photo("LIB-0027_4-curb.jpg", (0, 0, W, H)); d = ImageDraw.Draw(im, "RGBA")
     d.rounded_rectangle([50, 60, W - 50, 520], 36, fill=CREAM + (242,))
     y = left(d, 100, 100, "Pull up. Text us.", serif(84), lh=96)
     y = left(d, 100, y, "We bring your dog to your car.", serif(84, True), maxw=W - 200, lh=96)

@@ -164,6 +164,7 @@ Added: no hidden fees, the price you see is the price you pay, small groups on p
 ## Set 3 replacements (AD36 to AD38), built Oct 17, HELD for Wed Oct 21
 Alex: "Only swap bad performing ad creatives." Renderer: scripts/static-ads/render3.py. Preview: content/ads/statics/2026-10-15/set3-preview.jpg
 - AD36 No hidden fees: two receipts (other places: $50 a night plus extra play, toy time, required baths; ours: $60 a day, nothing added at pick up). No competitor named.
-- AD37 Curbside: "Pull up. Text us. We bring your dog to your car." Most families never leave their seat. In and out in about 20 seconds. Real photo LIB-0023.
+- AD37 Curbside: "Pull up. Text us. We bring your dog to your car." Most families never leave their seat. In and out in about 20 seconds. Real curbside photo LIB-0027 (Alex's son, approved Oct 17; woman cropped out).
 - AD38 Sketchbook slow intro: one on one, quiet time, small group only when ready.
 Swap rule for Oct 21: an ad is "bad" if it spent $35+ with 0 leads, or its CPL is over $34. Only those get replaced, one new ad per bad ad. If no ad is bad, nothing is swapped and these wait.
+- AD28 cleared (Alex, Oct 17: the young man is his son, approved for ads). Can join the next round.
