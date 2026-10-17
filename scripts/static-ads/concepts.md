@@ -157,3 +157,6 @@ Copy test, 3 sets of 3 (same images, different body):
 
 ## Oct 17 2026: 9 ads back ON (Alex: "On now")
 All 9 re-enabled with the approved 3 angle copy, no discount or free wording. Second dog $5 a day off stays as a price (Alex). Review Oct 24.
+
+## Oct 17 2026: copy enhanced live (Alex: "enhance them with the updated context")
+Added: no hidden fees, the price you see is the price you pay, small groups on purpose, one on one bond first, slow intro for shy dogs, curbside hand off (most families never leave their seat). No "safe" wording. Same 3 angles, same ad IDs, all still ACTIVE.
