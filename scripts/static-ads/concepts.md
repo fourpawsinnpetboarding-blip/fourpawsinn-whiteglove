@@ -154,3 +154,6 @@ Copy test, 3 sets of 3 (same images, different body):
 - Set 1 TRUST (AD14, AD18, AD31): 230+ Google reviews, real home, cage free, outside every hour, photos and videos daily, price.
 - Set 2 PREMIUM CARE (AD15, AD22, AD32): no kennel run, our home, real beds, every stay planned around your dog's energy and routine, price.
 - Set 3 NOT THE CHEAPEST (AD29, AD21, AD09): "We are not the cheapest boarding in Miramar. We are the place families come back to." Price, "If that fits your dog, tap to check your dates."
+
+## Oct 17 2026: 9 ads back ON (Alex: "On now")
+All 9 re-enabled with the approved 3 angle copy, no discount or free wording. Second dog $5 a day off stays as a price (Alex). Review Oct 24.

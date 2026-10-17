@@ -132,7 +132,7 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 - "We are a premium luxury brand. Never ever a free night, a discount or any discount related offer." No free nights, no free days, no percent off, no dollar off, no trial deals in any ad, post, page, email, SMS or script.
 - "Last day free if picked up before 10 AM" is removed from all marketing. Do not use it in new copy. Ask Alex before quoting it to a client.
 - Creator codes stay (Alex, Oct 17): partner followers get $25 off or more on a first stay, only through a creator's own code. Never advertise it in Four Paws Inn's own ads or posts.
-- Second dog $5 a day off: waiting on Alex's decision. Do not use it in new copy until he decides.
+- Second dog $5 a day off stays (Alex, Oct 17). It is the multi dog rate, not a promotion: state it as a price, never as a deal.
 - Replacement line when a closer is needed: "Want to see the home first? Meet and greets are on Tuesdays, 9 AM to 7 PM."
 
 ## First overnight stay: NOT required (Alex, Oct 17, 2026, replaces Oct 12)
