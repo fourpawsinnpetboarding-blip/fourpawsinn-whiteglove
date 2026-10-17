@@ -341,7 +341,7 @@ def ad29():
     stars(d, W / 2 + 120, 535, 22, gap=52)
     d.text((W / 2 - 40, 570), "230+ Google reviews", font=sans(34, 600), fill=CREAM)
     y = center(d, 690, "Cage free home boarding in Miramar", serif(64), lh=76)
-    for t in ["Outside to play every hour", "Daily photo and video updates", "$60 a day, last day free before 10 AM"]:
+    for t in ["Outside to play every hour", "Daily photo and video updates", "$60 a day for dogs under 50 lb"]:
         tw = d.textlength(t, font=sans(42, 500))
         R.check(d, (W - tw) / 2 - 70, y + 24, 0.8, CHAR)
         d.text(((W - tw) / 2, y + 20), t, font=sans(42, 500), fill=CHAR)

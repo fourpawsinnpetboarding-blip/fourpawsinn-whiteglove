@@ -128,7 +128,16 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 - Supporting generated material may be abstract, graphic, typographic, or motion-based.
 - Append this clause to every Four Paws Inn Higgsfield generation prompt: `no dogs, no animals, no people, no pet facility or yard imagery`.
 
-## First overnight stay (REQUIRED, Alex, Oct 12, 2026)
+## No discounts, ever (Alex, Oct 17, 2026)
+- "We are a premium luxury brand. Never ever a free night, a discount or any discount related offer." No free nights, no free days, no percent off, no dollar off, no trial deals in any ad, post, page, email, SMS or script.
+- "Last day free if picked up before 10 AM" is removed from all marketing. Do not use it in new copy. Ask Alex before quoting it to a client.
+- Second dog rate and creator codes ($25 off) are waiting on Alex's decision. Do not use them in new copy until he decides.
+- Replacement line when a closer is needed: "Want to see the home first? Meet and greets are on Tuesdays, 9 AM to 7 PM."
+
+## First overnight stay: NOT required (Alex, Oct 17, 2026, replaces Oct 12)
+Alex: "I do NOT want a mandatory paid overnight for new dogs." Never say a new dog must do an overnight first. The section below is retired history.
+
+## RETIRED Oct 17: First overnight stay (was REQUIRED, Alex, Oct 12, 2026)
 - Every new dog does one paid overnight stay with us first. Required, not optional.
 - Main target: leads without travel dates. The overnight is how we close them now, recover the ad cost, and make them a 2 time client.
 - Also required before a first holiday stay (Thanksgiving, Christmas, New Year) or a first long stay, even when they already have dates.

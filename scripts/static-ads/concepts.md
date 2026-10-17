@@ -146,3 +146,11 @@ Review Oct 24 (day 7): judge by cost per booked stay, then CPL. Pause any ad ove
 Alex: "I do NOT want a mandatory paid overnight for new dogs." Removed "Every new dog starts with one paid overnight so the house feels familiar." from all 9 launched ads. Nothing put in its place. All 9 PAUSED, ad text edited in place (same ad IDs, no duplicates), waiting for Alex's OK to turn back on. Budget, targeting and other ads untouched. Images contain no overnight wording.
 New creatives: AD14 4730492243863158, AD15 1622411866026750, AD18 1086703484152825, AD29 2216369892263102, AD21 1644912667081513, AD22 1137980245797330, AD09 1809544196835141, AD31 2008503049835424, AD32 2030307790967150.
 The qualifying formula is now: hook, who it is for, price up front, "Tap to check your dates. Amanda will text you back."
+
+## Oct 17 2026, second correction (Alex): no discounts, no free days, 3 copy angles
+
+Removed every free or discount line. AD29 image re-rendered without "last day free" (new image uploaded). Ads stay PAUSED until Codex finishes the GHL cleanup row and Alex approves.
+Copy test, 3 sets of 3 (same images, different body):
+- Set 1 TRUST (AD14, AD18, AD31): 230+ Google reviews, real home, cage free, outside every hour, photos and videos daily, price.
+- Set 2 PREMIUM CARE (AD15, AD22, AD32): no kennel run, our home, real beds, every stay planned around your dog's energy and routine, price.
+- Set 3 NOT THE CHEAPEST (AD29, AD21, AD09): "We are not the cheapest boarding in Miramar. We are the place families come back to." Price, "If that fits your dog, tap to check your dates."

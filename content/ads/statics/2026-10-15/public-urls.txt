@@ -23,3 +23,4 @@
 200 AD29-STATIC-REVIEWS-REFRESH-CutA.png https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/c094238a-c119-479c-af78-eb4cce4a9c5e.png
 200 AD31-REVIEW-KINDNESS-CutA.png https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/69520168-54f6-440b-a145-e8221f042814.png
 200 AD32-REVIEW-UPDATES-CutA.png https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/06cea028-c756-4ed4-b4db-e9c594eb9c34.png
+200 AD29-STATIC-REVIEWS-REFRESH-CutA.png (v2, no last day free) https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/7860ad1c-499a-45a3-ab91-b107517fb33f.png
