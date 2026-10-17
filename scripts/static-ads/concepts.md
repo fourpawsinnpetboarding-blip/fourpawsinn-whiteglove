@@ -140,3 +140,9 @@ Existing ad set "New Dog Ad -Vid/Image" (52586440814124), same budget, next to S
 
 Pending: AD34, AD35 (corrupted files, Codex re-saving), AD30, AD33 (unfinished).
 Review Oct 24 (day 7): judge by cost per booked stay, then CPL. Pause any ad over $34 CPL after $35 spend.
+
+## Correction Oct 17 2026 (Alex): no mandatory paid overnight
+
+Alex: "I do NOT want a mandatory paid overnight for new dogs." Removed "Every new dog starts with one paid overnight so the house feels familiar." from all 9 launched ads. Nothing put in its place. All 9 PAUSED, ad text edited in place (same ad IDs, no duplicates), waiting for Alex's OK to turn back on. Budget, targeting and other ads untouched. Images contain no overnight wording.
+New creatives: AD14 4730492243863158, AD15 1622411866026750, AD18 1086703484152825, AD29 2216369892263102, AD21 1644912667081513, AD22 1137980245797330, AD09 1809544196835141, AD31 2008503049835424, AD32 2030307790967150.
+The qualifying formula is now: hook, who it is for, price up front, "Tap to check your dates. Amanda will text you back."
