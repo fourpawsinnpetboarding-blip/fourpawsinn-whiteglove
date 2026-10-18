@@ -10,7 +10,8 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 2. **They pay Google directly.** Ad spend goes on their card, not ours, so there's no markup to hide.
 3. **We guarantee activity, not revenue.** If the agreed lead number isn't hit by day 90, we work for free until it is.
 4. **Month to month after 90 days.** We keep clients by results, not contracts.
-5. **No fake reviews, ever.** Real customers only.
+5. **No fake reviews, ever.** Real customers only. No automated review requests. Reviews come from the in person ask at the end of the job.
+6. **We already made the mistakes.** Alex learned Performance Max the hard way, including a 2 month stretch of losing money before he found the fix. Clients get the finished playbook, not the tuition.
 
 ## 1. Price points
 
@@ -32,10 +33,11 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 | Deliverable | Get Found | Get Booked | Own the Market |
 |---|---|---|---|
 | Google Business Profile: build, verify, categories, services, service area, 20+ photos | ✓ | ✓ | ✓ |
-| Weekly profile post (photo plus short text) | ✓ | ✓ | ✓ |
-| Review system: text after every job, QR card, reply templates for the owner | ✓ | ✓ | ✓ |
+| **Profile as SEO:** weekly posts, job photos, services and products, Q and A, all fed from real jobs so the profile ranks like a website | ✓ | ✓ | ✓ |
+| **Review system, in person:** we train the owner and crew on the last 15 minutes of every job (the ask, the words, the QR card). **No automated review requests**, and nothing Google could read as fake or incentivized | ✓ | ✓ | ✓ |
 | Listings: Yelp, Bing, Apple Maps, Nextdoor, Facebook page, same name, address and phone everywhere | ✓ | ✓ | ✓ |
-| One page website with a call button and a quote form | | ✓ | ✓ |
+| A real homepage Google can index, plus GHL landing pages. Built by Alex's web designer partner, or by us for simple one pagers | | ✓ | ✓ |
+| **Lead handling audit:** who answers the phone, how fast, what they say, how quotes get followed up. GHL set up for speed to lead | | ✓ | ✓ |
 | **Google Performance Max** (Alex's method: one AI campaign across Search, Maps, YouTube, Display and Gmail), linked to their Google Business Profile | | ✓ | ✓ |
 | Google Local Services Ads (optional, when the trade qualifies) | | ✓ | ✓ |
 | Call tracking plus missed call text back ("Sorry we missed you, what do you need?") | | ✓ | ✓ |
@@ -44,6 +46,18 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 | Content: 3 short videos a week edited from the owner's phone clips | | | ✓ |
 | Meta ads (Facebook and Instagram) | | | ✓ |
 | Spanish and English versions of everything | on request | on request | on request |
+
+## The pitch angle on Performance Max (Alex, Oct 18)
+
+Most local service owners have been taught to fear AI campaigns and to bid on keywords by hand. The heavy hitters outbid them there. Performance Max is Google's AI doing the bidding across Search, Maps, YouTube and Gmail. Getting in now, while competitors still bid on keywords, is the edge. That's what grew Four Paws Inn.
+
+Ads are only half the job. The call that follows decides the money: who answers, how fast, and what happens in the last 15 minutes of the job, which is where reviews come from. We fix all of it.
+
+## Alex's Performance Max lessons (to capture as an SOP)
+
+Alex's learning curve: about 6 months to get it working, 4 months to scale, then a 2 month hurdle that lost money until he found the cause. Those fixes are the real product, and they live only in Alex's head right now.
+
+Next step: Alex records one 10 minute voice note covering the setup tricks, the mistakes, what caused the 2 month loss, and how he fixed it. Claude turns it into `strategy/agency/pmax-sop.md` so Claude and Codex can run client campaigns the same way.
 
 ## Performance Max: how we run it
 
