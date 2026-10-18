@@ -100,7 +100,7 @@ Next step: Alex records one 10 minute voice note covering the setup tricks, the 
 
 **Day 3 to 14: build**
 1. Profile, photos, services and listings (Claude writes, Codex enters).
-2. Review texts go to past customers, aiming for 10 to 20 reviews in the first 30 days.
+2. Review training: Alex or Claude coaches the owner and crew on the in person ask in the last 15 minutes of each job. No automated review texts.
 3. One page site, tracking and missed call text back.
 4. Conversion tracking, then the Performance Max build with real photos and videos. Local Services Ads only if the trade qualifies (verification takes 1 to 4 weeks).
 5. Day 14: everything is live. Alex sends a 2 minute video walkthrough.
@@ -144,7 +144,7 @@ Next step: Alex records one 10 minute voice note covering the setup tricks, the 
 | Task | Owner |
 |---|---|
 | Sales calls, kickoff call, monthly review call | Alex |
-| Profile copy, posts, ad copy, landing page, review texts, weekly and monthly reports | Claude |
+| Profile copy, posts, ad copy, landing page, the review ask script, weekly and monthly reports | Claude |
 | Account access, listings, uploads, tracking numbers, GHL setup | Codex |
 | Client's jobs, photos, answering calls, replying to reviews | Client |
 
