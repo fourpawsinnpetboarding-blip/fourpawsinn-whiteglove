@@ -23,14 +23,14 @@ Sales asset still needed: Google Ads screenshots of 12 months of spend against r
 | 1. Get found | Build and verify the Google Business Profile, plus one simple landing page | They show up when people search for their service nearby |
 | 2. Get chosen | In person review training for the last 15 minutes of every job (no automated review requests). Before and after photos posted weekly | Trust from people who have never met them |
 | 3. Get booked | Google Performance Max (Alex's method), linked to the profile, with calls tracked. Lead handling fixed in GHL | Calls from people ready to buy |
-| 4. Stay booked (later) | Content and Meta, once steps 1 to 3 work | More demand, repeat customers |
+| 4. Stay booked (sold at the day 30 results call) | Recurring management, content machine and Meta ads | More demand, repeat customers |
 
 ## Pricing (draft, Alex decides)
 
 | Item | Price |
 |---|---|
-| Setup: profile, landing page, review system, ads build | $1,500 to $2,500 one time |
-| Monthly: ads management, reviews, profile posts, monthly report | $997 to $1,500 a month, plus their own ad spend |
+| Launch package: profile, homepage, tracking, Performance Max, lead handling, review training, plus 30 days of management | $1,500 one time |
+| Recurring, offered at the day 30 results call | $997 to $2,997 a month (see playbook) |
 | Goal we sell against | $10,000 to $15,000 a month in new revenue for them |
 
 The math for the client: a pressure washing job is about $300 to $500, so $10K is about 25 to 35 extra jobs a month. One extra job a week pays for the monthly fee.

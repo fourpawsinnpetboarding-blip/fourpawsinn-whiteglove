@@ -28,7 +28,7 @@ Pairs with `strategy/agency/local-growth-playbook.md`.
 | **Monthly** | **$1,297** | **$2,997** |
 
 **Add on to any growth package:** +4 ad creatives a month for $497.
-**Bundle:** Get Booked plus Edit and Publish is $2,497 a month (instead of $2,794).
+**Bundle:** Full growth (Performance Max management, content they shoot, Meta ads) is $2,997 a month. See the playbook pricing.
 
 **Why these prices:**
 - Short form editing services charge about $1,000 to $3,000 a month for 12 to 20 videos.

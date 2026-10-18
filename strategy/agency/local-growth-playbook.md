@@ -13,20 +13,29 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 5. **No fake reviews, ever.** Real customers only. No automated review requests. Reviews come from the in person ask at the end of the job.
 6. **We already made the mistakes.** Alex learned Performance Max the hard way, including a 2 month stretch of losing money before he found the fix. Clients get the finished playbook, not the tuition.
 
-## 1. Price points
+## 1. Price points (Alex, Oct 18: one time launch first, recurring sold on results)
 
-| Package | Setup (one time) | Monthly | Ad spend (paid to Google by client) | Who it's for |
-|---|---|---|---|---|
-| **Get Found** | $997 | $497 | none | No profile, no reviews. Needs to show up on Maps first |
-| **Get Booked** (core offer) | $1,500 | $1,497 | $1,000 to $3,000 | Ready to grow. Wants calls this month |
-| **Own the Market** | $2,500 | $2,997 | $2,000 to $5,000 | Already busy. Wants to dominate the area and add a second truck or crew |
+**Front end: Launch package, $1,500 one time**
+- Everything in setup (section 3), plus **30 days of hands on management** after go live, so the campaign doesn't drift while it learns.
+- No monthly contract. The client pays Google for ad spend directly (minimum $30 to $50 a day).
 
-- Minimum term: 90 days, then month to month.
-- Founding price for the first 3 clients: Alex decides. Default is full price plus the 90 day guarantee.
+**Day 30 results call: the recurring offer.** The client sees his numbers first, then picks what's next:
 
-**Why these prices:**
-- Local agencies charge $300 to $1,000 a month for profile and SEO work, and $500 to $1,500 for ads management. Full service starts at $1,500 or more.
-- For the client, one $400 job a week covers $1,497. The goal is 20 or more extra jobs a month.
+| Recurring plan | Monthly | What it does |
+|---|---|---|
+| **Keep it running** | $997 | Performance Max management, weekly profile posts, weekly text report, monthly call |
+| **Content machine** | $1,297 (they shoot) or $2,997 (we shoot) | Reels, statics and ad creatives. Feeds Performance Max better videos |
+| **Meta ads** | $997 plus their ad spend | Facebook and Instagram campaigns built from the content |
+| **Full growth** (all three, they shoot) | $2,997 | Everything above. The default recommendation for clients who liked month 1 |
+
+There's no revenue minimum for Meta. If the client wants it and can fund the ad spend, we sell it (Alex, Oct 18).
+
+**The day 30 pitch (Alex on the call):**
+1. "Here's where you started: [calls, reviews, rank]. Here's today: [numbers]."
+2. "Performance Max keeps learning. If nobody manages it, it drifts and starts wasting money. I lost money for 2 months learning that."
+3. "To keep this growing, you've got three ways to go." (Show the table.)
+4. "Most owners who liked month 1 pick Full growth. Your content feeds your Google ads and your Meta ads at the same time."
+5. If he says no: "No problem. Everything is in your name. If the numbers start slipping, call me."
 
 ## 2. What we actually do (by package)
 
