@@ -25,7 +25,8 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 
 ## Current operating hours
 
-- Drop-off and pick-up windows, seven days a week: 9:00 AM to 12:00 PM, and 4:00 PM to 6:30 PM (Alex, Oct 9, 2026). The old 9:00 AM to 8:00 PM window is retired: never use it in copy, captions, or video text.
+- Drop-off and pick-up windows, seven days a week: 9:00 AM to 12:00 PM, and 4:00 PM to 6:30 PM (Alex, Oct 9, 2026).
+- Christmas Eve (Dec 24): drop off only from 9:00 AM to 12:00 PM. The latest drop off that day is 12:00 PM, with no afternoon window (Alex, Oct 18, 2026). The old 9:00 AM to 8:00 PM window is retired: never use it in copy, captions, or video text.
 - Meet and greets: Tuesdays only, 9:00 AM to 7:00 PM (Alex, Oct 6, 2026). Never on weekends: they are the busiest days and new visitors unsettle dogs who just checked in. Old Monday and Wednesday times are retired.
 - Meet and greets are optional, never required (Alex, Oct 9, 2026). At a meet and greet, the owner sees the home and asks questions. Bringing the dog is optional. Dogs are never introduced to the group during a meet and greet; that happens at check in, after the team bonds with the dog (Alex, Oct 13, 2026). Never offer or push one in lead replies. Every reply pushes toward booking: dates, dog details, deposit.
 
