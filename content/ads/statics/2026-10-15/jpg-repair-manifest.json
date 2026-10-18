@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "method": "JPEG exports from intact original Mac PNGs, matched to original source-manifest hashes. No image or copy changes.",
+  "assets": [
+    {
+      "file": "AD34-PHOTO-THEIR-TRIP-CutA.jpg",
+      "bytes": 317247,
+      "sha256": "50189c806aac0d83dedd7542d85d05ba07d1259eeb18a330bdf31753c83395fe",
+      "source_png_sha256": "198c11c1ac1a4f19efdc982c2178ce027393937a5ddcf8a4caf29a5c9409497f",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "AD35-PHOTO-THE-YARD-CutA.jpg",
+      "bytes": 420274,
+      "sha256": "b1a872a1cbecaaef4300e4c6abbee179f65e9932410d7cc28afe34d74a4b735d",
+      "source_png_sha256": "5d82ac63ea7d04ca6e4dae0fe5c8397c7708362b41d602bb8fa41e1c8d162b46",
+      "size": [
+        1080,
+        1350
+      ]
+    }
+  ]
+}
