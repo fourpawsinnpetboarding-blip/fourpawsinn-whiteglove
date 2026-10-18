@@ -11,6 +11,23 @@ Every channel below uses the same hook. We show the owner his own Google results
 
 It costs us about 5 minutes per business (Claude builds it from public data). It proves we know the work before we ask for anything, and it makes the call about his money, not our service.
 
+### Format: Alex's personal video (Alex, Oct 18)
+
+The audit goes out as a short personal video: Alex's face in the corner, his screen showing their Google results.
+
+- **Tool:** Loom (free, phone or Mac). It shows face plus screen and gives a link with a preview image.
+- **Length:** 60 to 90 seconds. One take, no editing.
+- **Batching:** Claude preps a one page brief per business (what to show, the 3 fixes). Alex records 10 in a row, about 30 minutes.
+- **Delivery:** email or a Facebook or Instagram DM with the link. The subject or first line uses their business name: "Made this for [Business Name]". No cold texts.
+- **Spanish:** record in Spanish for Spanish speaking owners.
+
+**Script (60 seconds)**
+1. "Hey [first name], it's Alex. I own Four Paws Inn in Miramar. I made this just for you."
+2. Screen: search "[service] [city]". "This is what your customers see. Here is [competitor] with [number] reviews. Here is you."
+3. "Three things are costing you calls: [fix 1], [fix 2], [fix 3]."
+4. "I fixed these same things for my own business. We went from zero to 230+ Google reviews, and Google Ads brings in 8 dollars for every dollar."
+5. "If you want, I'll walk you through it in 15 minutes. Just reply to this message."
+
 ## Channels, in order
 
 | # | Channel | Why | Who does the work | Expected |
