@@ -36,14 +36,23 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 | Review system: text after every job, QR card, reply templates for the owner | ✓ | ✓ | ✓ |
 | Listings: Yelp, Bing, Apple Maps, Nextdoor, Facebook page, same name, address and phone everywhere | ✓ | ✓ | ✓ |
 | One page website with a call button and a quote form | | ✓ | ✓ |
-| Google Local Services Ads (pay per lead, "Google Guaranteed" badge) | | ✓ | ✓ |
-| Google Search ads | | ✓ | ✓ |
+| **Google Performance Max** (Alex's method: one AI campaign across Search, Maps, YouTube, Display and Gmail), linked to their Google Business Profile | | ✓ | ✓ |
+| Google Local Services Ads (optional, when the trade qualifies) | | ✓ | ✓ |
 | Call tracking plus missed call text back ("Sorry we missed you, what do you need?") | | ✓ | ✓ |
 | Simple lead tracker (GHL sub account) the owner uses from his phone | | ✓ | ✓ |
 | Past customer reactivation text (one time, then seasonal) | | ✓ | ✓ |
 | Content: 3 short videos a week edited from the owner's phone clips | | | ✓ |
 | Meta ads (Facebook and Instagram) | | | ✓ |
 | Spanish and English versions of everything | on request | on request | on request |
+
+## Performance Max: how we run it
+
+1. **Conversion tracking first.** Calls from ads, calls from the profile, and quote forms are counted as conversions before the campaign starts. Performance Max learns from conversions, so without tracking it spends blind.
+2. **Linked Google Business Profile.** This is why Get Found comes first. The profile feeds Maps placements.
+3. **Real assets.** 15 or more photos, 5 or more short videos, headlines and descriptions from real jobs. Without real videos, Google makes weak ones automatically. **This is the natural upsell to the content machine.**
+4. **Budget:** at least $30 to $50 a day, so it can learn.
+5. **Learning period:** 4 to 6 weeks before judging it. Tell the owner this on the sales call.
+6. **Guardrails:** exclude their own brand name and add negative keywords for jobs they don't do. Check search term insights every week.
 
 ## 3. Onboarding (day 0 to day 14)
 
@@ -79,7 +88,7 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 1. Profile, photos, services and listings (Claude writes, Codex enters).
 2. Review texts go to past customers, aiming for 10 to 20 reviews in the first 30 days.
 3. One page site, tracking and missed call text back.
-4. Ads build. Local Services Ads verification takes 1 to 4 weeks (background check, license, insurance), so Search ads run first.
+4. Conversion tracking, then the Performance Max build with real photos and videos. Local Services Ads only if the trade qualifies (verification takes 1 to 4 weeks).
 5. Day 14: everything is live. Alex sends a 2 minute video walkthrough.
 
 ## 4. Implementation (day 15 to day 90)
