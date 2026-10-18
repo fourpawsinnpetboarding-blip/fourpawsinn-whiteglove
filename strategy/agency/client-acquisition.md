@@ -28,6 +28,24 @@ The audit goes out as a short personal video: Alex's face in the corner, his scr
 4. "I fixed these same things for my own business. We went from zero to 230+ Google reviews, and Google Ads brings in 8 dollars for every dollar."
 5. "If you want, I'll walk you through it in 15 minutes. Just reply to this message."
 
+**Script v2 (Alex's words, tightened, about 75 seconds)**
+
+> Hey [first name], my name is Alex. I own Four Paws Inn, a dog boarding business in Miramar. Google us when you're done watching this.
+>
+> I searched [service] in [city] today, and this is what your customers see. [Competitor] has [number] reviews. Here is you, at number [rank]. Right now you're almost invisible, and that's costing you calls.
+>
+> I built my business from zero to 230 plus Google reviews at 4.9 stars, and my Google Ads bring back 8 dollars for every dollar. I'm not in your industry, so we never compete.
+>
+> I'm taking on five local businesses this round, only one per industry. Setup starts at 1,500 dollars. Most owners start getting more calls within the first 30 to 60 days.
+>
+> If you're open to it, reply to this message and I'll walk you through exactly what I'd fix. Fifteen minutes, no pressure.
+
+Rules for the video:
+1. Only say "I was looking for you and couldn't find you" if it really happened. Otherwise say "I searched [service] in [city]."
+2. No revenue promises. "More calls" is fine. "$10K a month" is not.
+3. The price stays to one line. Packages and content get explained on the call.
+4. Profit receipts (bank statements, profit numbers) only on a live call, never in a recording. Ad results screenshots are fine.
+
 ## Channels, in order
 
 | # | Channel | Why | Who does the work | Expected |
