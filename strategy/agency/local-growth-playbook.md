@@ -1,0 +1,144 @@
+# Local growth system: playbook (v1)
+
+What we sell, what we do, how we onboard, and how we prove the client is winning.
+Owner: Alex sells and owns the relationship. Claude and Codex deliver. Drafted Oct 18, 2026.
+Offer summary: `strategy/agency/local-growth-offer.md`.
+
+## Principle: the client wins first
+
+1. **They own everything.** Their Google Business Profile, ad account, domain and phone number are in their name. We get manager access. If they leave, they keep it all.
+2. **They pay Google directly.** Ad spend goes on their card, not ours, so there's no markup to hide.
+3. **We guarantee activity, not revenue.** If the agreed lead number isn't hit by day 90, we work for free until it is.
+4. **Month to month after 90 days.** We keep clients by results, not contracts.
+5. **No fake reviews, ever.** Real customers only.
+
+## 1. Price points
+
+| Package | Setup (one time) | Monthly | Ad spend (paid to Google by client) | Who it's for |
+|---|---|---|---|---|
+| **Get Found** | $997 | $497 | none | No profile, no reviews. Needs to show up on Maps first |
+| **Get Booked** (core offer) | $1,500 | $1,497 | $1,000 to $3,000 | Ready to grow. Wants calls this month |
+| **Own the Market** | $2,500 | $2,997 | $2,000 to $5,000 | Already busy. Wants to dominate the area and add a second truck or crew |
+
+- Minimum term: 90 days, then month to month.
+- Founding price for the first 3 clients: Alex decides. Default is full price plus the 90 day guarantee.
+
+**Why these prices:**
+- Local agencies charge $300 to $1,000 a month for profile and SEO work, and $500 to $1,500 for ads management. Full service starts at $1,500 or more.
+- For the client, one $400 job a week covers $1,497. The goal is 20 or more extra jobs a month.
+
+## 2. What we actually do (by package)
+
+| Deliverable | Get Found | Get Booked | Own the Market |
+|---|---|---|---|
+| Google Business Profile: build, verify, categories, services, service area, 20+ photos | ✓ | ✓ | ✓ |
+| Weekly profile post (photo plus short text) | ✓ | ✓ | ✓ |
+| Review system: text after every job, QR card, reply templates for the owner | ✓ | ✓ | ✓ |
+| Listings: Yelp, Bing, Apple Maps, Nextdoor, Facebook page, same name, address and phone everywhere | ✓ | ✓ | ✓ |
+| One page website with a call button and a quote form | | ✓ | ✓ |
+| Google Local Services Ads (pay per lead, "Google Guaranteed" badge) | | ✓ | ✓ |
+| Google Search ads | | ✓ | ✓ |
+| Call tracking plus missed call text back ("Sorry we missed you, what do you need?") | | ✓ | ✓ |
+| Simple lead tracker (GHL sub account) the owner uses from his phone | | ✓ | ✓ |
+| Past customer reactivation text (one time, then seasonal) | | ✓ | ✓ |
+| Content: 3 short videos a week edited from the owner's phone clips | | | ✓ |
+| Meta ads (Facebook and Instagram) | | | ✓ |
+| Spanish and English versions of everything | on request | on request | on request |
+
+## 3. Onboarding (day 0 to day 14)
+
+**Day 0: sales call (Alex, 30 minutes)**
+1. Ask: average job price, jobs a month now, how many trucks or crews, service area, how they get work today.
+2. Show his Google results next to a competitor's, live on the phone.
+3. Pick the package. Send the agreement and the card link the same day.
+
+**Day 1: kickoff form (client, 15 minutes, English or Spanish)**
+1. Business name, address, phone, hours, service area (cities or zip codes).
+2. Services and starting prices.
+3. Licenses and insurance (needed for Local Services Ads).
+4. 20 to 50 photos and 3 short videos of real jobs. Before and after is best.
+5. A list of past customers (name and phone) for reviews and reactivation.
+
+**Day 1 to 3: access (Codex)**
+1. Google Business Profile: manager access, or create it.
+2. Google Ads account in the client's name, with the client's card, and our manager access.
+3. Domain (or buy one in his name), Facebook page, and the GHL sub account.
+4. Tracking phone number that forwards to the owner.
+
+**Day 1 to 3: baseline snapshot (Claude, saved before we touch anything)**
+
+| Baseline | How we get it |
+|---|---|
+| Calls and jobs a month now | Owner's answer plus phone records |
+| Monthly revenue now | Owner's answer (bank statement if they're willing) |
+| Google reviews and rating | Google |
+| Profile views, calls and direction requests | Google Business Profile, if it exists |
+| Map rank for 3 main searches (for example "pressure washing Miramar") | Grid rank check over the service area |
+
+**Day 3 to 14: build**
+1. Profile, photos, services and listings (Claude writes, Codex enters).
+2. Review texts go to past customers, aiming for 10 to 20 reviews in the first 30 days.
+3. One page site, tracking and missed call text back.
+4. Ads build. Local Services Ads verification takes 1 to 4 weeks (background check, license, insurance), so Search ads run first.
+5. Day 14: everything is live. Alex sends a 2 minute video walkthrough.
+
+## 4. Implementation (day 15 to day 90)
+
+| Window | Focus | Work |
+|---|---|---|
+| Day 15 to 30 | Get calls flowing | Ads live, 2 profile posts a week, review push, missed call text back on |
+| Day 31 to 60 | Cut waste | Remove bad keywords and bad ads, shift budget to what books jobs, add services that convert |
+| Day 61 to 90 | Scale what works | Raise budget on winners, reactivation text, Local Services Ads live, month 3 review |
+| After day 90 | Compound | Seasonal campaigns, more reviews, then upgrade to Own the Market if he can take more work |
+
+## 5. How we measure results
+
+**One number the owner cares about:** new jobs and revenue from us, compared with his baseline.
+
+| Metric | Target by day 90 (Get Booked) | Source |
+|---|---|---|
+| Qualified leads a month (calls, forms, messages) | Set at kickoff from ad spend. Typical: 30 to 60 | Tracking number, GHL |
+| Cost per lead | Under 15% of the average job | Google Ads |
+| Booked jobs from our leads | 30% to 50% of leads | Weekly text to the owner (below) |
+| Revenue from our jobs | 3x the total of our fee plus ad spend | Booked jobs x job price |
+| Google reviews | +20 to +40 | Google |
+| Map rank, 3 main searches | Top 3 in his home area | Grid rank check |
+| Profile calls and direction requests | Up month over month | Google Business Profile |
+
+**How we track booked jobs without making him do paperwork:**
+1. Every Monday he gets a text: "These 12 people called last week. Which ones booked, and for how much?"
+2. He answers by voice note or text. Claude logs it.
+3. That log is the proof, and it feeds the case study.
+
+**The reports:**
+- Weekly: one text with leads, booked jobs and the one thing we changed.
+- Monthly: a one page report and a 20 minute call with Alex covering baseline vs now, money in vs money spent, and next month's single focus.
+
+**The guarantee (Get Booked):** if qualified leads don't reach the number agreed at kickoff by day 90, we keep working at no monthly fee until they do. The lead number is set from his ad spend and market, never promised before we see the data.
+
+## 6. Who does what
+
+| Task | Owner |
+|---|---|
+| Sales calls, kickoff call, monthly review call | Alex |
+| Profile copy, posts, ad copy, landing page, review texts, weekly and monthly reports | Claude |
+| Account access, listings, uploads, tracking numbers, GHL setup | Codex |
+| Client's jobs, photos, answering calls, replying to reviews | Client |
+
+Alex's time per client: about 2 hours in month 1, then about 1 hour a month.
+
+## 7. Our costs per client (approximate)
+
+| Item | Cost a month |
+|---|---|
+| GHL sub account (agency plan, covers all clients) | $297 total, not per client |
+| Tracking number and texts | about $10 to $30 |
+| Grid rank tool | about $20 to $50 total |
+| Gross margin on Get Booked | about 90% |
+
+## 8. Before the first sale
+
+1. Agreement template under Chiong Enterprise Inc.: scope, 90 days, the guarantee, client owns accounts, client pays ad spend.
+2. A one page case study from Four Paws Inn: 12 months of Google Ads at 8x or better, and 230+ reviews at 4.9 stars (needs the Oct 24 Google export).
+3. A kickoff form in English and Spanish.
+4. GHL agency plan check: can we add client sub accounts on the current plan?
