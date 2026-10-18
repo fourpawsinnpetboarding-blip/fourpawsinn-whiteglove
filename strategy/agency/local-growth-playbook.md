@@ -13,29 +13,25 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 5. **No fake reviews, ever.** Real customers only. No automated review requests. Reviews come from the in person ask at the end of the job.
 6. **We already made the mistakes.** Alex learned Performance Max the hard way, including a 2 month stretch of losing money before he found the fix. Clients get the finished playbook, not the tuition.
 
-## 1. Price points (Alex, Oct 18: one time launch first, recurring sold on results)
+## 1. Price points: the ladder (Alex, Oct 18)
 
-**Front end: Launch package, $1,500 one time**
-- Everything in setup (section 3), plus **30 days of hands on management** after go live, so the campaign doesn't drift while it learns.
-- No monthly contract. The client pays Google for ad spend directly (minimum $30 to $50 a day).
-
-**Day 30 results call: the recurring offer.** The client sees his numbers first, then picks what's next:
-
-| Recurring plan | Monthly | What it does |
+| Step | Price | What they get |
 |---|---|---|
-| **Keep it running** | $997 | Performance Max management, weekly profile posts, weekly text report, monthly call |
-| **Content machine** | $1,297 (they shoot) or $2,997 (we shoot) | Reels, statics and ad creatives. Feeds Performance Max better videos |
-| **Meta ads** | $997 plus their ad spend | Facebook and Instagram campaigns built from the content |
-| **Full growth** (all three, they shoot) | $2,997 | Everything above. The default recommendation for clients who liked month 1 |
+| 1. Launch | **$1,500 one time** | Full setup (section 3) plus 30 days of management after go live |
+| 2a. Keep it running | **$1,000 a month** | Alex's team runs the Google Business Profile, monitors tracking, and keeps tightening Performance Max |
+| 2b. If they can't afford $1,000 yet | free, early clients only | They run it themselves with a weekly 1 hour support call with Alex for the next month. Used to build credibility with the first clients |
+| 3. Content machine | +$1,297 to $2,997 a month | Offered once they're making $3,000 to $4,000 more profit a month. They film from our shot list every 30 to 45 days, and we edit, publish and test |
+| 4. Meta ads | +$997 a month | Built from the content. No revenue minimum |
+| Target per client | **$3,000 a month, then $5,000** | Google, content and Meta together |
 
-There's no revenue minimum for Meta. If the client wants it and can fund the ad spend, we sell it (Alex, Oct 18).
+**Why the price can climb:** most agencies selling Google Ads don't film, edit or publish content. The ones that do charge a lot, especially when they film. Running the full machine (Google, content, testing in Eden, Meta) is the margin.
 
 **The day 30 pitch (Alex on the call):**
 1. "Here's where you started: [calls, reviews, rank]. Here's today: [numbers]."
 2. "Performance Max keeps learning. If nobody manages it, it drifts and starts wasting money. I lost money for 2 months learning that."
-3. "To keep this growing, you've got three ways to go." (Show the table.)
-4. "Most owners who liked month 1 pick Full growth. Your content feeds your Google ads and your Meta ads at the same time."
-5. If he says no: "No problem. Everything is in your name. If the numbers start slipping, call me."
+3. "For $1,000 a month my team runs it: your profile, your tracking and your campaign."
+4. "When you're clearing $3,000 to $4,000 more a month, we add content and Meta. Your content feeds your Google and your Meta ads at the same time."
+5. If he says no: "No problem. Everything is in your name. You get a weekly hour with me next month for questions."
 
 ## 2. What we actually do (by package)
 
