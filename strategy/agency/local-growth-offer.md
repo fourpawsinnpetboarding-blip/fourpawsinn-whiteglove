@@ -1,5 +1,7 @@
 # Local growth system: offer draft (v0)
 
+**Business name: Booked Local** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
+
 Owner: Alex sells. Claude and Codex deliver. Drafted Oct 18, 2026, from Alex's call with a pressure washing company that has no Google Business Profile, no reviews and no social media.
 
 ## Who it's for
