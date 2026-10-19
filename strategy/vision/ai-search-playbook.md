@@ -21,7 +21,7 @@ AI tools don't read our Google reviews the way a person does. Each tool builds "
 | 4 | Yelp: biz.yelp.com, claim the free page, add hours, photos, prices | Alex | 10 min | ChatGPT and Siri lean on Yelp for local picks. Do NOT ask clients for Yelp reviews: Yelp penalizes it |
 | 5 | Directory lists AI quotes: HomeGuide (free pro profile), Three Best Rated (apply), Expertise.com (nominate), Nextdoor business page | Claude drafts every form, Codex submits | 1 hr | These "10 best" lists are what the AI answer is built from |
 | 6 | Google Business Profile tune up: primary category Pet boarding service, services with prices, full description, weekly post, photos weekly. No review replies by Claude (Alex, Oct 11) | Claude after move 2 | weekly | Feeds Google AI and Gemini directly |
-| 7 | Review engine: auto checkout workflow sends a Google review ask after every stay | Codex builds (spec in `strategy/operating-system/auto-checkout.md`) | 30 min | New reviews every week, not just a big total |
+| 7 | Reviews: RETIRED as an automation (Alex rule: never automate review requests). New reviews come from the in person ask at pick up only | Amanda | ongoing | New reviews every week, not just a big total |
 | 8 | Real mentions: local news story (Miramar, Broward), chamber listing, honest answers in local Reddit and Facebook groups when someone asks for boarding | Alex, Claude drafts | ongoing | AI trusts what other people say about us more than what we say |
 
 ## Done already (Oct 11)
