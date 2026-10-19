@@ -147,6 +147,8 @@ Business content goes to the Four Paws Inn workspace. Personal-brand content goe
 Alex: "I do NOT want a mandatory paid overnight for new dogs." Never say a new dog must do an overnight first. The section below is retired history.
 
 **Suggesting a short overnight (Alex, Oct 18, 2026):** for leads with no trip yet, especially shy or anxious dogs, we may recommend one short overnight stay before a longer trip. Say why: an overnight lets us build a bond with the pup, so future longer stays feel familiar. Recommend it, never require it. Normal price, never a discount or a free night. Recommend an overnight, not daycare, unless the dog is reactive.
+**Tour arrival (Alex, Oct 19):** when confirming a tour, ask the visitor to text us when they're on the way, with their ETA, so the team can get the pups settled before they arrive. Never say "text us when you pull up."
+
 **Meet and greets are only a tour (Alex, Oct 18):** the owner sees the home and asks questions. No dog introductions, no trial, no play time. Never call it a relaxed visit or anything that sounds like a trial run.
 
 ## RETIRED Oct 17: First overnight stay (was REQUIRED, Alex, Oct 12, 2026)
