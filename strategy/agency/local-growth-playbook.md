@@ -42,7 +42,9 @@ Offer summary: `strategy/agency/local-growth-offer.md`.
 | Google Business Profile: build, verify, categories, services, service area, 20+ photos | ✓ | ✓ | ✓ |
 | **Profile as SEO:** weekly posts, job photos, services and products, Q and A, all fed from real jobs so the profile ranks like a website | ✓ | ✓ | ✓ |
 | **Review system, in person:** we train the owner and crew on the last 15 minutes of every job (the ask, the words, the QR card). **No automated review requests**, and nothing Google could read as fake or incentivized | ✓ | ✓ | ✓ |
-| Listings: Yelp, Bing, Apple Maps, Nextdoor, Facebook page, same name, address and phone everywhere | ✓ | ✓ | ✓ |
+| **Apple Business (Apple Maps and Siri):** verified place card, hours, About text in English and Spanish, logo, cover, photos, Book or Call action, Showcase, Business Caller ID, Branded Mail. Same setup as Four Paws Inn (`strategy/vision/apple-business-setup.md`) | ✓ | ✓ | ✓ |
+| Listings: Yelp, Bing, Nextdoor, Facebook page, same name, address and phone everywhere | ✓ | ✓ | ✓ |
+| AI search check: ChatGPT, Gemini, Google AI Mode, Siri and Grok, before launch and at day 30 | ✓ | ✓ | ✓ |
 | A real homepage Google can index, plus GHL landing pages. Built by Alex's web designer partner, or by us for simple one pagers | | ✓ | ✓ |
 | **Lead handling audit:** who answers the phone, how fast, what they say, how quotes get followed up. GHL set up for speed to lead | | ✓ | ✓ |
 | **Google Performance Max** (Alex's method: one AI campaign across Search, Maps, YouTube, Display and Gmail), linked to their Google Business Profile | | ✓ | ✓ |
