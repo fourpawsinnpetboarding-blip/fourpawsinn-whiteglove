@@ -37,6 +37,7 @@ Source: GHL read only audit, Oct 14 2026. This file is the locked definition. Do
 | Week of | Waiting on our reply | Person within 15 min | Lead last word | Reactivation sent / replied / booked / $ |
 |---|---|---|---|---|
 | Oct 14 (baseline) | 33 | 35% | 21% | 0 / 0 / 0 / $0 |
+| Oct 19 (leads Oct 12 to 18) | 21 | Unavailable (no message level data) | 19% (8 of 42) | waiting on Alex |
 
 ## Operator notes (Claude)
 1. Coverage math: 80% inside 15 minutes for 12 hours a day, 7 days a week, needs a named person holding GHL every hour. Draw the handoff schedule before Oct 16 or the test measures who happened to see the phone.
