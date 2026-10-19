@@ -31,3 +31,19 @@ Alex's favorite format (first run Oct 8, 2026: target 1:30:00, finished 1:04:25)
 | Date | Big Rock | Target | Actual |
 |---|---|---|---|
 | Oct 8, 2026 | Lead journey, money plan, Meta, Rocket Money | 1:30:00 | 1:04:25 |
+
+## Two businesses: the daily split (Alex, Oct 19, 2026)
+
+Alex now runs Four Paws Inn and AfterManual (the local business growth service, earlier called Booked Local). Rule: **one deep work block per business per day**, same order every day. No alternating days.
+
+| Block | Business | Length | What goes in it |
+|---|---|---|---|
+| 1 (first, best hours) | **AfterManual** | 2 hours | Outreach videos, YouTube recording, sales calls, building the offer. A new business only grows with daily reps |
+| 2 | **Four Paws Inn** | 60 to 90 minutes | Decisions only: approve content and ads, Founder's Log, operator bench, pricing. Claude and Codex run the rest |
+| Open windows | Both | | Lead replies (always on, not a task), Codex board, admin |
+
+- Why daily, not alternating: AfterManual needs daily outbound reps (a day off kills the habit), and Four Paws Inn has daily decisions that can't wait 48 hours.
+- Why AfterManual first: Four Paws Inn already runs on systems. The new business has none yet, so it gets the fresh hours.
+- Guardrail: if the Four Paws Inn weekly bookings fall below target on the Monday scoreboard, block 2 grows to 2 hours that week. The $20K a month of profit funds everything else.
+- Big Rock: pick one per business the night before.
+- Sunday: Four Paws Inn filming. Plus, once a week, batch the AfterManual YouTube recordings.
