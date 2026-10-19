@@ -42,7 +42,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Last day | Free if picked up before 10:00 AM |
 | Cats | $40 per day (Alex kept the live cat page price, Oct 11, 2026). For multiple cats or long stays, say the team will confirm the total. |
 | Cat page | https://optin.fourpawsinn.co/cats (Alex, Oct 15, 2026). Cats get a private room with a yard window and a bird feeder outside; we provide litter box, toys, cat posts and beds; owners bring food (no per meal bags needed) and their preferred litter. |
-| Private suite | Costs more. Never quote a private-suite price; say the team will confirm. |
+| Private suite | About $80 a day, or $100 a day for large dogs (Alex, Oct 19, 2026; confirm whether that is per dog or per suite before quoting). Until confirmed, say the team will confirm the total. |
 
 Four Paws Inn charges by day, never by night.
 
@@ -161,3 +161,13 @@ Alex: "I do NOT want a mandatory paid overnight for new dogs." Never say a new d
 - Returning clients are exempt.
 - NOT for leads who already have trip dates in the next 2 weeks (Alex, Oct 13, 2026): quote the trip and take the deposit. The overnight is for leads with no dates or dates far out, to book them sooner and earn from the ad click.
 - Scripts: `content/sales/boarding-ready-scripts.md`.
+
+
+## Siblings, private suites and intros (Alex, Oct 19, 2026)
+
+- **Siblings always stay together**, no matter what. If one needs a private suite and the other is social, the social one can go out and play with the pack, then comes back inside to its sibling whenever it is done playing. The shy one can go outside with its sibling.
+- **Always ask why** a parent wants private care before offering a suite. Many parents say "my dog doesn't like other dogs" and the dog integrates after a few hours or a few days.
+- **How we introduce dogs:** we go slow, one step at a time, and read each dog's energy and body language. Some join the pack in a couple of hours, some take a couple of days. We decide day by day.
+- **A common plan:** both siblings start in a private suite for a day or two, then we loosen one or both into the pack if they're ready.
+- **Hard line:** a larger dog that shows signs it could react aggressively is never introduced to the group. We won't put another family's pet at risk. A shy dog that might snap only if it feels cornered is a different case, and we work with it.
+- In copy, describe the process. Never use "safe" and never promise an outcome.
