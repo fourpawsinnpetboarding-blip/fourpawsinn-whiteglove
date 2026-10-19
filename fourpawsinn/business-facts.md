@@ -84,6 +84,8 @@ Four Paws Inn charges by day, never by night.
 
 ## Visual identity
 
+- **Official logo (Alex, Oct 19, 2026):** pink roof house with a white paw inside a charcoal house, "Four Paws Inn" wordmark. Files: `content/brand/logo-official.png` (full logo), `content/brand/logo-icon-square-1080.png` (icon only, for Instagram, Facebook, Google and Apple profile pictures). The old AI resort logo (golden retriever at a mansion pool) is retired: never use it.
+
 Approved by Alex on 2026-09-28. This is the default for every Four Paws Inn graphic, carousel, static post, thumbnail, and slide, no matter who or what makes it (Claude, Codex, Canva, Higgsfield, a designer).
 
 | Role | Color | Hex |
