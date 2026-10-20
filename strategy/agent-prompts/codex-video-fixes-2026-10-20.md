@@ -14,7 +14,7 @@ You are Codex, working with Claude for Alex Chiong (Four Paws Inn). Pull branch 
 - **Every dog on screen must be real Four Paws Inn footage.** No AI dogs anywhere: not at home, not at drop off, not at pick up.
 - Add a small label in the first 2 seconds: "Dramatization. Real dogs, real home."
 
-**Work on ONE video at a time. Video A first. Don't touch Video B until A is posted and measured.**
+**Alex, Oct 20: edit BOTH videos now (editing costs 0 credits). Post A first. B posts after A's 48 hour numbers, with a final polish from those lessons.**
 
 ## Video A: "Tiny dictator" (scored 23/30, target 26+)
 
@@ -70,13 +70,35 @@ Do this with editing only. **Spend 0 Higgsfield credits.**
 3. Music ducks about 6 dB under the stamp, ding and chime hits.
 4. Check: no text in the bottom 20%, nothing overlapping the Reels buttons on the right, and every caption readable on a phone with the sound off.
 
-## Video B: "Dog sitter bailed" (scored 17/30): hold
+## Video B: "Dog sitter bailed" (scored 17/30, target 26+). Alex, Oct 20: edit B now too, alongside A
 
-Don't edit B yet. After A posts and we read its 48 hour numbers, Claude writes the B rebuild:
-- Real dogs only.
-- A real proof middle: a real daily update and a review.
-- The official logo end card.
-- A Comment DATES CTA.
+**Editing only, 0 credits.** Post A first. B posts after A's 48 hour numbers, then gets a final polish from those lessons.
+
+1. **Label:** in the first 2 seconds, "Dramatization. Real dogs, real home."
+2. **Replace the AI dachshund** (on the bed, at the end) with real footage of a real small or medium dog. Keep the jokes: "He ate her bed", "Her shoes", "Both of them". If there's no real clip, list the shots needed in the Eden row and stop. Never generate one.
+3. **Add a real proof middle** after "I booked Four Paws Inn." It's about 6 to 8 seconds of real footage: the intro process (meet, sniff, settle) and dogs playing in the yard and pool.
+4. **Beach payoff:** "Think he misses us?" becomes the phone moment. The real daily video plays inside a phone frame. Then "He needed a vacation from us, didn't he?" over real happy dog footage.
+5. **One real Google review line,** word for word, with the reviewer's first name only. Use a different review from the one in Video A.
+6. **Captions:** charcoal on cream, pink highlight words, bigger, inside the safe zone.
+7. **End card:** the official logo on cream, then "Comment DATES to plan your pup's stay". Remove the brown paw end card completely.
+8. **Length 22 to 26 seconds.** Licensed music with its credit line.
+
+**Graphics package for B (0 credits, same editor rules as A):**
+
+| Time | Moment | Graphic | Sound |
+|---|---|---|---|
+| 0 to 2 | Hook | Top banner "VACATION PLANNED. DOG SITTER BAILED?" slams in, plus a cream calendar card: "TRIP: 7 DAYS" | Stamp thud |
+| 2 to 4 | "Who's watching the dog?" | A question mark pops beside the real dog | Pop |
+| 4 to 9 | Mom, sister, both | **Text message bubbles** stacking up: "Mom: Not after he ate my bed." "Sister: He ate my shoes." | Message whooshes |
+| 9 to 10 | "Relax." | Logo wipe transition with the official logo | Whoosh |
+| 10 to 17 | Real proof middle | The step tracker from A (MEET, SNIFF, SETTLE, FRIENDS) in a fast version, plus a small map pin "Miramar, FL" | Soft clicks |
+| 17 to 20 | "Think he misses us?" | **Phone frame**: "Four Paws Inn: New video of your pup". The real daily video plays inside | Ding |
+| 20 to 23 | Review | **Review card**: 5 pink stars, the exact line, first name, "Google review", then "230+ reviews, 4.9 stars" | Chime |
+| 23 to 26 | CTA | Comment box where "DATES" types in, a pink arrow, then the logo end card | Typing clicks |
+
+**Finish:** word by word captions with a pink key word, one warm grade plus film grain over every clip, music dips under the sound effects, and nothing in the bottom 20% or on the right edge.
+
+**Deliver:** `AD-DogSitterBailed-CutB.mp4` (1080x1920, H.264, AAC) to Drive, IN PROGRESS, in the Oct 20 folder. Add an Eden row (Owner Claude) with the script and timestamps, the real clip file names, the review used, the music credit and credits spent (0). Don't schedule.
 
 ## Rules
 - One credit video at a time. Before any Higgsfield generation, post the credit estimate in the Eden row. Anything over 120 credits needs Alex's OK.
