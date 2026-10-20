@@ -263,3 +263,15 @@ fbc and fbp plan (do NOT publish until the booking form writes the fields and a 
 
 Account Four Paws Inn 733-336-4600, Admin > Account settings, Oct 20: Auto-tagging = Yes. Tracking = "Using URL tracking options". So gclid is added to every ad click; the booking form just has to save it to fpi_gclid.
 Side note, not changed: Auto-apply recommendations are on for 14 types, including bidding changes. Review separately.
+
+### Step 2b. QualifiedLead fix applied (Alex approved in chat, Oct 20)
+
+Change 1 saved Oct 20 ~3:30 PM ET in "CONVERT | Meta QualifiedLead" (still Published):
+- New If/else action "Has email or phone" between the triggers and the Webhook.
+- Branch "Has contact info": Contact Email is not empty OR Contact Phone is not empty, then Webhook (unchanged), then END.
+- Branch "No contact info" (none met): END. Nothing sent.
+- Webhook settings untouched (same as backup B).
+Rollback: open the workflow, delete "Has email or phone" (keep the Webhook on the delete prompt), make sure Webhook connects straight to the triggers, Save.
+
+Test, Oct 20 3:31 PM ET: GHL "Test workflow" on test contact "TEST Google Timestamp Validation" (fpi-google-timestamp-test@example.com, contact 0nrjqh20AdBXRzhMzm4V, not a real person). Execution log: Add to workflow 3:31:34, Has contact info Executed 3:31:34, Webhook Executed 3:31:37 with response {"status":200}, End 3:31:38. No message actions in this workflow, so nothing was sent to anyone.
+Meta Events Manager check (Offline Conversion- FourPaws 3164395030398225): see Step 2c.
