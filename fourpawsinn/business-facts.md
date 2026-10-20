@@ -50,6 +50,7 @@ Four Paws Inn charges by day, never by night.
 - Owners bring food pre-portioned in Ziploc bags.
 - Four Paws Inn provides beds and supplies.
 - Daily photo and video updates are included.
+- Dogs are let out to run and play in the yard many times a day, not just once. A top reason clients choose us. Lead with it in every value message. Confirmed by Alex on 2026-10-20.
 
 ## Brand and copy rules
 

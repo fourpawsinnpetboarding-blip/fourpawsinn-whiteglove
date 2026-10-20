@@ -81,7 +81,7 @@ Value first, then questions about the dog, then availability, then the close. Ne
 **Reply 1 example (dog under 50 lb, 3 day stay)**
 > Hi [Name], this is Amanda from Four Paws Inn. Good news! We have room for [Pet] from [Start] to [End]. You planned ahead at the perfect time.
 >
-> [Pet] will stay cage free in our home. We have the beds and supplies ready, and you get photo and video updates every day.
+> [Pet] will stay cage free in our home. [Pet] gets to run and play in our yard many times a day, not just once. We have the beds and supplies ready, and you get photo and video updates every day.
 >
 > [Pet]'s rate is $60 a day, so your stay is $[Total]. The last day is free if you pick up before 10 AM.
 >
