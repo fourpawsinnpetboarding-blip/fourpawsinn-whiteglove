@@ -275,3 +275,22 @@ Rollback: open the workflow, delete "Has email or phone" (keep the Webhook on th
 
 Test, Oct 20 3:31 PM ET: GHL "Test workflow" on test contact "TEST Google Timestamp Validation" (fpi-google-timestamp-test@example.com, contact 0nrjqh20AdBXRzhMzm4V, not a real person). Execution log: Add to workflow 3:31:34, Has contact info Executed 3:31:34, Webhook Executed 3:31:37 with response {"status":200}, End 3:31:38. No message actions in this workflow, so nothing was sent to anyone.
 Meta Events Manager check (Offline Conversion- FourPaws 3164395030398225): see Step 2c.
+
+### Step 3b. Custom fields created (Alex chose the fpi_ names, Oct 20)
+
+Created Oct 20 ~3:45 PM ET in GHL Settings > Custom Fields. Object Contact, type Single line, folder Additional Info. Contact field count 90 to 98; opportunity fields unchanged (12).
+
+| Field | Merge tag | Description |
+| --- | --- | --- |
+| fpi_fbc | {{contact.fpi_fbc}} | Meta click ID (fb.1.timestamp.fbclid) from booking form. Sent to Meta CAPI as fbc. |
+| fpi_fbp | {{contact.fpi_fbp}} | Meta browser ID (_fbp cookie) from booking form. Sent to Meta CAPI as fbp. |
+| fpi_gclid | {{contact.fpi_gclid}} | Google Ads click ID (gclid) from booking form. For Google offline conversions. |
+| fpi_utm_source | {{contact.fpi_utm_source}} | utm_source captured by booking form on landing. |
+| fpi_utm_medium | {{contact.fpi_utm_medium}} | utm_medium captured by booking form on landing. |
+| fpi_utm_campaign | {{contact.fpi_utm_campaign}} | utm_campaign captured by booking form on landing. |
+| fpi_utm_content | {{contact.fpi_utm_content}} | utm_content captured by booking form on landing. |
+| fpi_utm_term | {{contact.fpi_utm_term}} | utm_term captured by booking form on landing. |
+
+Rollback: delete the 8 fpi_ fields (empty, nothing uses them yet).
+Old unused fields left in place: meta_fbc, meta_fbp, utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_adset. Delete later once fpi_ is proven.
+Next owner: web dev builds Part A of attribution-fix-brief-2026-10-20.md to write into these 8 fields.
