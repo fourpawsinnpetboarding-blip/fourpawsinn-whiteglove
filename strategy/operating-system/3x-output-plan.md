@@ -100,7 +100,7 @@ Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts
 |---|---|---|
 | 1 | Pages | 12 published total. 3 this week: what to pack, Hollywood, exotic pets. 3 new backlog ideas added (13 to 15) |
 | 2 | GBP posts | Week of Oct 26 written: `content/gbp/2026-10-26-week.md`. Week of Oct 19: Mon posted, Wed and Fri go out on schedule |
-| 3 | Directory sites | Batch 1 in progress (row 6b61b075). Batch 2 BLOCKED (row 1a6246e5): the Miramar Pembroke Pines chamber is $325 a year and needs Alex's yes |
+| 3 | Directory sites | Batch 1 in progress (row 6b61b075). Batch 2 unblocked: Alex approved the Chamber, $325 a year, on Oct 20 (Codex row 6147deac; Alex pays with his own card) |
 | 5 | Lead follow up | GHL workflow rewrite still BLOCKED (row 8bfc16be): the GHL editor won't load for Codex. Meta Text 1 swap in progress (row 15eb12de) |
 | 6 | Partners | List done (27). Drop offs: Alex or Amanda |
 | 7 | Community | Week 3 drafts: `content/community/answers-2026-10-week3.md`. Week 2, answer 1 fixed (the retired required overnight) |
