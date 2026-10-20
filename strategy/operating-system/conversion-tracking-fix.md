@@ -235,3 +235,31 @@ Proposed fix, change 1 (reversible, awaiting Alex's OK):
 
 Proposed change 2 (later, separate): stop duplicates with a contact tag "meta_qualifiedlead_sent" check, same pattern as Purchase's "Meta Purchase Sent".
 Upstream fix (not a tracking change): the DM flow should ask for a phone number before a lead is moved to Qualified.
+
+### Step 3. Custom fields: finding before creating (nothing created yet)
+
+GHL already has contact fields that overlap the brief: meta_fbc ("Ad click ID cookie"), meta_fbp ("Browser ID cookie"), utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_adset. All empty on recent leads (Oct 4 check). No gclid field exists. Creating fpi_ fields as briefed gives two sets of the same data. Decision needed from Alex (see Step 6).
+
+### Step 4. Server GTM GTM-WRWT22H3 ("SS-fourpawsinn.co", Stape "forpaws server"): read only
+
+Opened Oct 20 in tagmanager.google.com (account fourpawsinn.co, workspace 20). Workspace shows 0 pending changes after the check. Nothing saved, nothing submitted.
+
+Tags (both last edited Oct 9, Ripon):
+1. "Facebook Conversion APi" (stape-io Facebook Conversion API), trigger "red event" = Purchase.
+2. "Facebook Conversion API Qualified Lead", trigger "QualifiedLead". Event type Custom "QualifiedLead", Action Source System Generated, Pixel/dataset 3164395030398225. User Data: Email {{email}}, Phone {{phone}}, First Name, Last Name, External ID, Lead ID {{customData.lead_id}}, City, State, Zip, Country. Custom Data: content_name, event_id, event_source crm, lead_event_source GoHighLevel, lead_id. Event ID {{event id}}.
+   So the server side maps email and phone correctly. Confirms Step 2: the gap is in GHL data, not GTM.
+
+User defined variables (Event Data): content_name, currency, customData.city, customData.country, customData.lead_id, customData.state, customData.zip, email, event id, event_name, external_id, first_name, last_name, location.city, phone, status, value. No fbc or fbp variable yet.
+
+Security note: the Meta CAPI access token is stored in plain text in the tag and visible to anyone with container access. Keep container access tight. Token not copied here.
+
+fbc and fbp plan (do NOT publish until the booking form writes the fields and a test contact shows them):
+1. GHL: in both webhooks (Purchase, QualifiedLead) add two custom data rows: fbc = Contact > fpi_fbc (or meta_fbc, per Step 6), fbp = Contact > fpi_fbp. One workflow at a time, Purchase last.
+2. GTM: create two Event Data variables, "fbc" (key path fbc) and "fbp" (key path fbp).
+3. GTM: in each tag's User Data add Click ID = {{fbc}} and Browser ID = {{fbp}}. Empty values are skipped by the tag, so leads without them still send.
+4. Preview in GTM with a test opportunity, check Events Manager > Test Events shows fbc and fbp, then Submit as a named version ("Add fbc fbp, Oct XX"). Rollback = Versions > previous version > Publish.
+
+### Step 5. Google Ads auto-tagging: ON (read only)
+
+Account Four Paws Inn 733-336-4600, Admin > Account settings, Oct 20: Auto-tagging = Yes. Tracking = "Using URL tracking options". So gclid is added to every ad click; the booking form just has to save it to fpi_gclid.
+Side note, not changed: Auto-apply recommendations are on for 14 types, including bidding changes. Review separately.
