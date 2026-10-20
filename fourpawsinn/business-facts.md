@@ -171,3 +171,14 @@ Alex: "I do NOT want a mandatory paid overnight for new dogs." Never say a new d
 - **A common plan:** both siblings start in a private suite for a day or two, then we loosen one or both into the pack if they're ready.
 - **Hard line:** a larger dog that shows signs it could react aggressively is never introduced to the group. We won't put another family's pet at risk. A shy dog that might snap only if it feels cornered is a different case, and we work with it.
 - In copy, describe the process. Never use "safe" and never promise an outcome.
+
+## Why we cost more: the premium explanation (Alex, Oct 20, 2026)
+
+Use this when a lead asks about price, compares us to cheaper places, or asks what's included. Explain the value. Never apologize for the price.
+
+- **No hidden fees.** The price we quote is the price you pay. Some places charge extra for one on one time (for example $15 per 30 minutes), playtime, toys, snacks, giving medicine, baths, exit passes and assessments. We don't.
+- **Out all day, not once a day.** Some places let dogs out once a day for an hour. Our dogs go outside to play every hour, with supervised pool time.
+- **Free roam in a real home.** No kennels all day.
+- **Small, close groups.** We keep groups small on purpose, which is why the price is higher. Never give a number.
+- **One on one attention** from a team that knows every dog.
+- **Rules:** never name another business, never say "safe", never mention dog counts.
