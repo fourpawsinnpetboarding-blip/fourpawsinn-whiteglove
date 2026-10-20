@@ -149,3 +149,71 @@ Alex: "bend the rule... as long as we can undo it if something goes wrong. I don
 - Changes in scope:
   1. Restore email and phone on QualifiedLead.
   2. Add fbc and fbp to Purchase (and QualifiedLead) once the booking form saves fpi_fbc and fpi_fbp.
+
+## Change log, Oct 20 2026 (Claude, Alex's Chrome)
+
+### Step 1. Backup of the two Stape workflows (read only, nothing changed)
+
+Captured from GHL Automation > Workflows, folder 03 | CONVERSION, Oct 20 2026. Panels opened and closed with Cancel. No save.
+
+Other Meta workflows seen (not live, not touched): "CONVERT | Meta Purchase Won" (Draft, 125 enrolled), "CONVERT | Meta Purchase Won Backup" (Draft, 23 enrolled).
+
+#### A. CONVERT | Meta Purchase Won Update (Published, 54 enrolled)
+
+Triggers (either):
+1. Opportunity Status Changed: moved to status is "Won"
+2. Opportunity Created: status is "Won"
+
+Flow: Condition branch "Not Sent" = if opportunity field "Meta Purchase Sent" is empty, then Webhook, then Update opportunity. Branch "Already Sent" (none of the conditions met) = END.
+
+Webhook action "Webhook": POST `https://pimmocga.usw.stape.io/data`. Headers: none. Custom data (sent along with GHL standard data):
+
+| key | value |
+| --- | --- |
+| event_name | Purchase (static) |
+| email | {{contact.email}} |
+| phone | {{contact.phone}} |
+| first_name | {{contact.first_name}} |
+| last_name | {{contact.last_name}} |
+| value | {{opportunity.opportunity_value}} |
+| content_name | Pet Boarding (static) |
+| currency | USD (static) |
+| external_id | {{contact.id}} |
+| event_id | {{opportunity.id}} |
+| lead_id | Contact > Facebook Lead Id (custom field) |
+| city | {{contact.city}} |
+| state | {{contact.state}} |
+| country | {{contact.country}} |
+| zip | {{contact.postal_code}} |
+
+Update opportunity action: "Allow move to previous stage" off. Duplicate opportunity: Enabled. Fields: Meta Purchase Sent = yes.
+
+#### B. CONVERT | Meta QualifiedLead (Published, 55 enrolled)
+
+Triggers (either):
+1. Pipeline Stage Changed: pipeline "Four Paws Inn", stage "Qualified"
+2. Opportunity Created: pipeline "Four Paws Inn", stage "Qualified"
+
+Flow: Webhook, then END. No condition, no "already sent" flag.
+
+Webhook action "Webhook": POST `https://pimmocga.usw.stape.io/data`. Headers: none. Custom data:
+
+| key | value |
+| --- | --- |
+| event_name | QualifiedLead (static) |
+| email | {{contact.email}} |
+| phone | {{contact.phone}} |
+| first_name | {{contact.first_name}} |
+| last_name | {{contact.last_name}} |
+| content_name | Pet Boarding (static) |
+| external_id | {{contact.id}} |
+| event_id | {{opportunity.id}} |
+| lead_id | Contact > Facebook Lead Id (custom field) |
+| city | {{contact.city}} |
+| state | {{contact.state}} |
+| country | {{contact.country}} |
+| zip | {{contact.postal_code}} |
+
+Rollback: if any edit goes wrong, set each webhook back to exactly these rows and URL.
+
+Note: the QualifiedLead payload already maps email and phone. The coverage drop is not a missing mapping. See Step 2.
