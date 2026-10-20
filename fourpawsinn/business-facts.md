@@ -42,7 +42,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Last day | Free if picked up before 10:00 AM |
 | Cats | $40 per day (Alex kept the live cat page price, Oct 11, 2026). For multiple cats or long stays, say the team will confirm the total. |
 | Cat page | https://optin.fourpawsinn.co/cats (Alex, Oct 15, 2026). Cats get a private room with a yard window and a bird feeder outside; we provide litter box, toys, cat posts and beds; owners bring food (no per meal bags needed) and their preferred litter. |
-| Private suite | About $80 a day, or $100 a day for large dogs (Alex, Oct 19, 2026; confirm whether that is per dog or per suite before quoting). Until confirmed, say the team will confirm the total. |
+| Private suite | $80 a day, or $100 a day for large dogs (over 50 lb) (Alex, Oct 19 and 20, 2026). Quoted per suite: siblings share one suite (first quote: Dionne, 2 large dogs, $100 a day). If Alex says it's per dog, update this line. |
 
 Four Paws Inn charges by day, never by night.
 
