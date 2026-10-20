@@ -11,7 +11,7 @@ Rules: local dog creators only (Broward, Miami Dade). Offer a free stay, never c
 ## First DM
 Hi [Name]! I'm Alex, I own Four Paws Inn, a cage free boarding home in Miramar. We love [dog's name]'s videos!
 
-We'd like to treat [dog's name] to a free 2 night stay with us. Dogs play in small groups, go outside every hour, and you'd get photo and video updates the whole time.
+We'd like to treat [dog's name] to a free 2 night stay with us. Dogs play in small groups, go outside every hour, and you'd get video update the whole time.
 
 If you enjoy it, we'd love an honest reel about the stay, and permission to share it as a partnership ad. No script, your own words.
 
@@ -33,7 +33,7 @@ Hi [Name],
 
 I'm Alex, and my wife Amanda and I own Four Paws Inn, a cage free boarding home in Miramar. We loved [specific recent post].
 
-We'd like to treat [dog's name] to a free 2 night stay. Dogs play in small groups, go outside every hour, and you get photo and video updates the whole time.
+We'd like to treat [dog's name] to a free 2 night stay. Dogs play in small groups, go outside every hour, and you get video update the whole time.
 
 If you enjoy it, we'd love an honest reel about the stay, posted with the Paid Partnership label, and permission to share it as a partnership ad. No script, your own words.
 

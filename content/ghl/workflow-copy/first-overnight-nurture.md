@@ -22,7 +22,7 @@ Link: [PAGE] = the GHL page "Why every new pup starts with an overnight" (`conte
 Hi {{contact.first_name}}, it's Amanda from Four Paws Inn. Quick note on how we do things here: every new pup starts with one overnight stay with us before a big trip. {{contact.dog_name}} gets to learn the house, meet the pack and get to know our team. Here is why we do it: [PAGE]
 
 **Day 2, 4 PM**
-What {{contact.dog_name}}'s first night looks like: we meet you at your car. First the house, then the yard, then the group, when they are ready. Dogs go outside to play every hour. You get a photo and video update so you can see them settle in.
+What {{contact.dog_name}}'s first night looks like: we meet you at your car. First the house, then the yard, then the group, when they are ready. Dogs go outside to play every hour. You get a video update so you can see them settle in.
 
 **Day 4, 11 AM**
 One of our families told us: "What was so amazing is that they kept the regular schedules." That is the whole idea. Same food, same routine, a real home. The first overnight is where we learn {{contact.dog_name}}'s routine.
@@ -39,4 +39,4 @@ Hi {{contact.first_name}}, Amanda here. We love getting to know a new pup before
 **Day 20, 11 AM**
 Should I keep {{contact.dog_name}} on our list for a first overnight? Reply YES and I will send you open nights. If now is not the right time, no problem at all.
 
-Check facts before publish: rates, drop off window (4 PM to 6:30 PM) and "photo and video update" from business-facts.md. The Day 4 quote is from Sharon's public Google review (used in posts before).
+Check facts before publish: rates, drop off window (4 PM to 6:30 PM) and "one daily video update" from business-facts.md. The Day 4 quote is from Sharon's public Google review (used in posts before).

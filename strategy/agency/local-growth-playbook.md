@@ -111,7 +111,7 @@ Next step: Alex records one 10 minute voice note covering the setup tricks, the 
 1. Profile, photos, services and listings (Claude writes, Codex enters).
 2. Review training: Alex or Claude coaches the owner and crew on the in person ask in the last 15 minutes of each job. No automated review texts.
 3. One page site, tracking and missed call text back.
-4. Conversion tracking, then the Performance Max build with real photos and videos. Local Services Ads only if the trade qualifies (verification takes 1 to 4 weeks).
+4. Conversion tracking, then the Performance Max build with real a daily video. Local Services Ads only if the trade qualifies (verification takes 1 to 4 weeks).
 5. Day 14: everything is live. Alex sends a 2 minute video walkthrough.
 
 ## 4. Implementation (day 15 to day 90)

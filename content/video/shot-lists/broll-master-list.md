@@ -30,7 +30,7 @@ Drop everything in Drive: FPI Videos / RAW / [date] broll. Text Claude "uploaded
 | 10 | Dogs playing outside, wide but small group | "Outside every hour" |
 | 11 | Door opening to the yard, dogs running out (the hourly break) | Outside every hour |
 | 12 | Dog resting on a real bed indoors | Real beds |
-| 13 | Team member filming a dog on the phone (over the shoulder) | Daily photos and videos |
+| 13 | Team member filming a dog on the phone (over the shoulder) | Daily a daily video |
 | 14 | The video arriving on a phone screen (use a team phone, fake contact name "Mom") | Daily updates |
 | 15 | Supervised pool time, team member at the edge | Pool time |
 | 16 | Meal time: food from a Ziploc bag into a bowl | "Same food as home" |

@@ -6,7 +6,7 @@ Facts used: `fourpawsinn/business-facts.md` (pricing, last day rule, deposit, da
 
 ## FT-A1: first reply (send within 5 minutes, same channel they used)
 
-Hi {first name}, it's Alex from Four Paws Inn. Thanks for filling out our form! For a pup under 50 lbs it's $60 a day, and the last day is free if you pick up before 10 AM. Every guest gets daily photo and video updates. What's your pup's name? And do you have rough dates in mind yet?
+Hi {first name}, it's Alex from Four Paws Inn. Thanks for filling out our form! For a pup under 50 lbs it's $60 a day, and the last day is free if you pick up before 10 AM. Every guest gets a daily video update. What's your pup's name? And do you have rough dates in mind yet?
 
 ## FT-A2: day 3, no reply
 

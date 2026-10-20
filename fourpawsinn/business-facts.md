@@ -59,7 +59,7 @@ Four Paws Inn charges by day, never by night.
 - Owners bring food pre-portioned in Ziploc bags.
 - Daycare (Alex, Oct 15, 2026): no public daycare package. Overnight boarding is the main offer, but for parents who ask (socializing a dog while they work), offer a custom plan. Price is the same as a boarding day: $60 under 50 lb, $75 over 50 lb. Steer them to overnights: pick up before 10 AM and that day is free, so an overnight costs the same as one day of daycare. Common pattern: drop off Thursday, pick up Saturday before 10 AM, charged 2 days. Some do 1 or 2 days a week. Drop off and pick up use the normal windows. Never call it a daycare package or post it publicly; offer it one to one when asked. Why we prefer overnights (say it this way): a few hours is not enough time to bond and to slowly meet the regulars; an overnight lets the dog settle in, sleep here and join the pack, and it soon becomes their second home.
 - Four Paws Inn provides beds and supplies.
-- Daily photo and video updates are included.
+- One daily video update is included with every stay (Alex, Oct 20, 2026: ONE video a day. Never say photos, never say videos plural).
 - New dogs are introduced to the group slowly, with a careful intro process (Alex, Oct 12, 2026). Never call it "safe" and never promise how a dog will do with other dogs.
 - Supervised pool time is offered (Alex, Oct 11, 2026).
 - Exotic pets are boarded: reptiles, birds, rabbits, small mammals (Alex, Oct 11, 2026). Never quote an exotic price; the team confirms.

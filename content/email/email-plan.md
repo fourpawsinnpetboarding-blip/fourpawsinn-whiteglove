@@ -89,7 +89,7 @@ What the night looks like:
 1. We meet you at your car.
 2. First the house, then the yard, then the group, when they are ready.
 3. Outside to play every hour.
-4. You get a photo and video update.
+4. You get a video update.
 
 It is our normal daily rate, $60 for most dogs under 50 lb, Monday to Thursday nights.
 

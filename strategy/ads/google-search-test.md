@@ -32,13 +32,13 @@ Headlines (30 characters max):
 4. A Real Home, Not a Kennel
 5. $60 a Day for Dogs Under 50 lb
 6. Outside to Play Every Hour
-7. Daily Photo and Video Updates
+7. Daily Video Update
 8. Family Run in West Miramar
 9. Small Groups by Size
 10. Send Us Your Dates Today
 
 Descriptions (90 characters max):
-1. Your dog stays in our family home, not a kennel. Daily photo and video updates included.
+1. Your dog stays in our family home, not a kennel. A daily video update included.
 2. Small groups matched by size and energy. Outside to play every hour. Book your dates now.
 3. $60 a day under 50 lb, $75 over 50 lb. Pick up before 10 AM and the last day is free.
 

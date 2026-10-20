@@ -11,7 +11,7 @@ Button: Pick a night (opens the form below)
 1. **Your dog gets to know us.** A new place is a lot for a dog. One night lets them learn the house, the yard and our voices.
 2. **We learn your dog.** How they eat, play, rest and sleep. Then their big stay runs on their routine.
 3. **Meeting the pack the right way.** New dogs meet the group slowly, matched by size and energy.
-4. **You see it for yourself.** You get a photo and video update, so you know how your dog did before you ever leave town.
+4. **You see it for yourself.** You get a video update, so you know how your dog did before you ever leave town.
 
 ## What the night looks like
 1. Drop off between 4 and 6:30 PM. We meet you at your car.

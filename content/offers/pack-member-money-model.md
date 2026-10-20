@@ -18,7 +18,7 @@ Your dog stays at the best rated home boarding in the area, at your normal rate,
 Founding families (first 5): training at $150 a day instead of $175.
 
 **What is included:**
-1. 14 days of cage free home boarding, daily photo and video updates.
+1. 14 days of cage free home boarding, a daily video update.
 2. 3 short training sessions a day on 5 skills: loose leash walking, sit and down with a stay, come when called, place, polite greetings.
 3. A 1 hour go home lesson so you know the commands.
 4. Written notes on every command.

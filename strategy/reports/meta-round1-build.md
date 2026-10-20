@@ -24,7 +24,7 @@ Status: LIVE. Built Oct 7, 2026 by Claude via Windsor. Turned on by Claude on Al
 Headline (all): Check your dog's boarding dates
 
 ## Primary text (3rd grade, no dashes, no health claims)
-- C1: Before you compare boarding prices, compare what's included. Your dog stays in a real home in Miramar. Small groups. Daily photo and video updates. 215 Google reviews. Tap to check your dates.
+- C1: Before you compare boarding prices, compare what's included. Your dog stays in a real home in Miramar. Small groups. A daily video update. 215 Google reviews. Tap to check your dates.
 - C2: Here's what your dog's first 24 hours with us look like. A real home, small groups, and updates all day. Tap to check your dates.
 - C3: Every dog is different. We plan your dog's stay around their energy and play style. Tell us about your dog and check your dates.
 - C4: Read this before your dog's drop off. We keep the door calm for every dog in the house. Tap to check your dates.

@@ -60,7 +60,7 @@
 - **Cold open:** Amanda says "If it's your dog's first time away from home, I want you to hear this."
 
 **Q1. "It's my dog's first time away from home. Will they be ok?"**
-> If it's your dog's first time away from home, I totally get it. Almost every family who comes to us feels that way the first time. Here's what I tell them. Your dog doesn't have to be ready on day one. We don't rush anything. Each dog settles in at their own pace. Some walk in and make friends in an hour. Some need a day or two of quiet time with us first. Both are completely normal. And you're not left wondering. You get photos and videos every day, so you can see them playing, resting, and being themselves.
+> If it's your dog's first time away from home, I totally get it. Almost every family who comes to us feels that way the first time. Here's what I tell them. Your dog doesn't have to be ready on day one. We don't rush anything. Each dog settles in at their own pace. Some walk in and make friends in an hour. Some need a day or two of quiet time with us first. Both are completely normal. And you're not left wondering. You get a video every day, so you can see them playing, resting, and being themselves.
 
 - **Short hook:** "Their first time away? Watch this."
 
@@ -159,7 +159,7 @@
 - **Short hook:** "Do they sleep outside? No."
 
 **Q15. "What's the difference between you and a kennel?"**
-> What's the difference between us and a kennel? It starts with the home. No cages. Small groups. Slow intros. A team that knows every dog by name and personality. Daily photos and videos. And the price you see is the price you pay. We don't add fees for play time, toys, or baths.
+> What's the difference between us and a kennel? It starts with the home. No cages. Small groups. Slow intros. A team that knows every dog by name and personality. One video update every day. And the price you see is the price you pay. We don't add fees for play time, toys, or baths.
 
 - **Short hook:** "Home boarding vs a kennel."
 
@@ -183,7 +183,7 @@
 - **Short hook:** "Pool day, every day."
 
 **Q18. "Will I get updates while I'm away?"**
-> Will you get updates? Every day. Photos and videos, so you can see your pup playing, resting, and just being themselves. A lot of parents tell me it's the best part of their trip.
+> Will you get updates? Every day. One video, so you can see your pup playing, resting, and just being themselves. A lot of parents tell me it's the best part of their trip.
 
 - **Prop:** Amanda shows a real update on her phone, with no client names visible.
 - **Short hook:** "What our daily updates look like."

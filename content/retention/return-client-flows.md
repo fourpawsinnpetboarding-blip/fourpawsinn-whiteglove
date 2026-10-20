@@ -41,7 +41,7 @@ Audience: every past client with a paid stay. Amanda confirms open holiday dates
 >
 > If you are traveling for Thanksgiving or Christmas, reply with your dates. We will hold a spot for {dog name}.
 >
-> Same care, same team, same daily photos and videos.
+> Same care, same team, same daily a daily video.
 >
 > Amanda and Alex
 > Four Paws Inn

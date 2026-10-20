@@ -12,7 +12,7 @@ Claude adds text on screen: "How we introduce a new dog to the group." Never say
 
 ## 2. Talking head (3 takes, 30 seconds each)
 Look at the lens. Say it in your own words, not word for word:
-"Before you board your dog anywhere, ask 3 questions. One: is it cage free? Two: how often do the dogs go outside? Ours go out every hour. Three: will I get photos and videos? You should, every day. If a place can't answer all three, keep looking. If you're near Miramar, send us your dates."
+"Before you board your dog anywhere, ask 3 questions. One: is it cage free? Two: how often do the dogs go outside? Ours go out every hour. Three: will I get a daily video? You should, every day. If a place can't answer all three, keep looking. If you're near Miramar, send us your dates."
 
 ## 3. Review read (2 takes)
 Print or pull up one Google review on your phone (Marietta's: "I didn't want my dog crated and with four paws, there is no crating. Super happy!").

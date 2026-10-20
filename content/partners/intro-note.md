@@ -9,7 +9,7 @@ Hi [Name],
 
 I'm Alex, and my wife Amanda and I own Four Paws Inn, a cage free boarding home in west Miramar at 1700 SW 137th Way.
 
-Your clients probably ask where to board their dogs when they travel. If it helps, we're a good option for dogs who don't love kennels. They stay in our home, go outside to play every hour, and owners get photo and video updates every day. We have 230+ Google reviews at 4.9 stars.
+Your clients probably ask where to board their dogs when they travel. If it helps, we're a good option for dogs who don't love kennels. They stay in our home, go outside to play every hour, and owners get video update every day. We have 230+ Google reviews at 4.9 stars.
 
 We would also be happy to send our clients your way when they ask for a [vet / groomer / trainer] nearby.
 

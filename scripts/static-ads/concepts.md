@@ -20,15 +20,15 @@ CTA: Book now (same lead form as Static Reviews, "Fall and Holiday Boarding 2026
 
 | File | Angle | Primary text |
 |---|---|---|
-| AD07-KENNEL-VS-HOME-CutA | Contrast | Your dog doesn't need a kennel while you travel. They need a home. At Four Paws Inn, dogs stay cage free in a real home in Miramar. They play outside every hour. You get photos and videos every day. Tap to check your dates. |
-| AD08-NO-UPDATES-CutA | Pain: worry on the trip | Going away soon? You should not spend your trip wondering how your dog is doing. We send photo and video updates every day. So you can relax. Tap to check your dates. |
-| AD09-ASK-5-QUESTIONS-CutA | Guide with questions | Before you book any boarding, ask these 5 questions. Is it cage free? How often do dogs go outside? Will I get photos and videos? How do you add new dogs to the group? Can I read real reviews? Our answers: yes, every hour, every day, slowly, and 230+ on Google. Tap to check your dates. |
-| AD10-WHAT-DO-YOU-WANT-CutA | Self convince checklist | What do you want for your dog while you're away? A real home. Play outside every hour. Photos and videos every day. A team that learns their name and habits. If you checked all four, send us your dates. |
-| AD11-60-A-DAY-STACK-CutA | Value stack, price shown | $60 a day for dogs under 50 lb. Here is what's in it: a real home, outside play every hour, daily photo and video updates, beds and supplies, supervised pool time, and a slow intro to the group. Pick up before 10 AM and your last day is free. Tap to check your dates. |
+| AD07-KENNEL-VS-HOME-CutA | Contrast | Your dog doesn't need a kennel while you travel. They need a home. At Four Paws Inn, dogs stay cage free in a real home in Miramar. They play outside every hour. You get a video every day. Tap to check your dates. |
+| AD08-NO-UPDATES-CutA | Pain: worry on the trip | Going away soon? You should not spend your trip wondering how your dog is doing. We send video update every day. So you can relax. Tap to check your dates. |
+| AD09-ASK-5-QUESTIONS-CutA | Guide with questions | Before you book any boarding, ask these 5 questions. Is it cage free? How often do dogs go outside? Will I get a daily video? How do you add new dogs to the group? Can I read real reviews? Our answers: yes, every hour, every day, slowly, and 230+ on Google. Tap to check your dates. |
+| AD10-WHAT-DO-YOU-WANT-CutA | Self convince checklist | What do you want for your dog while you're away? A real home. Play outside every hour. A video every day. A team that learns their name and habits. If you checked all four, send us your dates. |
+| AD11-60-A-DAY-STACK-CutA | Value stack, price shown | $60 a day for dogs under 50 lb. Here is what's in it: a real home, outside play every hour, a daily video update, beds and supplies, supervised pool time, and a slow intro to the group. Pick up before 10 AM and your last day is free. Tap to check your dates. |
 | AD12-ONE-NIGHT-FIRST-CutA | First overnight offer | Nervous about your dog's first stay? Start with one night. Your dog learns the house, the pack and our team. So the big trip feels familiar. Tap to check your dates. |
 | AD13-REVIEWS-PROOF-CutA | Proof | Don't take our word for it. 4.9 stars from 230+ dog parents in Miramar and Pembroke Pines. Read the reviews, then tap to check your dates. |
 
-Fact check: every claim is in `fourpawsinn/business-facts.md` (cage free home, outside every hour, daily photo and video updates, beds and supplies, supervised pool, slow group intro, $60 / $75 / $80, last day free before 10 AM, first overnight wording, 230+ reviews). No dog counts, no safety or health claims, no dashes.
+Fact check: every claim is in `fourpawsinn/business-facts.md` (cage free home, outside every hour, a daily video update, beds and supplies, supervised pool, slow group intro, $60 / $75 / $80, last day free before 10 AM, first overnight wording, 230+ reviews). No dog counts, no safety or health claims, no dashes.
 
 ## Launch plan (needs Alex's yes)
 
@@ -89,17 +89,17 @@ Headline (all): Check your dog's boarding dates. CTA and form same as Static Rev
 | AD16-REVIEW-WALL | Review | 230+ dog parents in Miramar and Pembroke Pines left us a Google review. 4.9 stars. Here are a few. Tap to check your dates. |
 | AD17-REVIEW-FIRST-TIME | Review | First time boarding your dog? It was Freddy's first time too. Here is what he said after. Tap to check your dates and tell us about your dog. |
 | AD18-REVIEW-DIDNT-WANT-TO-LEAVE | Review | "Pups did not want to leave at all." Elaine, Google review. Cage free home boarding in Miramar. Tap to check your dates. |
-| AD19-REVIEW-DAILY-VIDEOS | Review | You get photo and video updates every day your dog is with us. Here is what dog parents say about them. Tap to check your dates. |
+| AD19-REVIEW-DAILY-VIDEOS | Review | You get video update every day your dog is with us. Here is what dog parents say about them. Tap to check your dates. |
 | AD20-REVIEW-WE-WILL-BE-BACK | Review | The line we read most in our reviews: "We'll definitely be back." Tap to check your dates. |
 | AD21-RATING-BADGE-PHOTO | Proof | 4.9 stars from 230+ dog parents on Google. Cage free home boarding in Miramar. Tap to check your dates. |
 | AD22-AUTHORITY-EXPERIENCE | Authority | Who watches your dog matters. Our team has spent thousands of hours with every kind of breed and personality, and has managed packs of dogs for years. Every new dog gets a slow, careful intro. Tap to check your dates. |
-| AD23-AUTHORITY-NUMBERS | Proof | 4.9 stars. 230+ Google reviews. Outside to play every hour. Photo and video updates every day. Tap to check your dates. |
-| AD24-NOTES-APP | New style | Before you board your dog, check these boxes. Cage free. Outside more than twice a day. Photos and videos. Real reviews. Last day free if you pick up before 10 AM. We check every one. Tap to check your dates. |
+| AD23-AUTHORITY-NUMBERS | Proof | 4.9 stars. 230+ Google reviews. Outside to play every hour. A video update every day. Tap to check your dates. |
+| AD24-NOTES-APP | New style | Before you board your dog, check these boxes. Cage free. Outside more than twice a day. A daily video. Real reviews. Last day free if you pick up before 10 AM. We check every one. Tap to check your dates. |
 | AD25-COMPARE-TABLE | New style | Before you book any boarding, compare. Here is what we include. Ask the other place the same questions. Then send us your dates. |
 | AD26-PHOTO-THEIR-TRIP | New style | Your trip can be fun for your dog too. Cage free, in a real home, outside to play every hour. Tap to check your dates. |
 | AD27-HOLIDAY-DATES | New style | Thanksgiving, Christmas and New Year dates go first every year. Send us yours now. New dog? Book one overnight first, so the big stay feels familiar. Tap to check your dates. |
 | AD28-PHOTO-NOT-A-KENNEL | New style | This is the yard. Not a kennel run. Dogs go outside to play every hour. Tap to check your dates. |
-| AD29-STATIC-REVIEWS-REFRESH | Review refresh | 4.9 stars from 230+ Google reviews. Cage free home boarding in Miramar. Outside to play every hour. Daily photo and video updates. $60 a day for dogs under 50 lb, and your last day is free if you pick up before 10 AM. Tap to check your dates. |
+| AD29-STATIC-REVIEWS-REFRESH | Review refresh | 4.9 stars from 230+ Google reviews. Cage free home boarding in Miramar. Outside to play every hour. A daily video update. $60 a day for dogs under 50 lb, and your last day is free if you pick up before 10 AM. Tap to check your dates. |
 
 Rules checked: quotes are word for word from `content/reviews/google-business-reviews.csv` (spelling kept as written), first name and last initial only, no dog counts, no safety or health claims, no invented scarcity, no dashes. Photos are real library frames (`content/ads/statics/photos`, clip id in the file name).
 Flag: AD28 shows a team member from LIB-0003. Alex confirms the person is fine to feature (staff waivers cover employees; no children in any frame).
@@ -151,7 +151,7 @@ The qualifying formula is now: hook, who it is for, price up front, "Tap to chec
 
 Removed every free or discount line. AD29 image re-rendered without "last day free" (new image uploaded). Ads stay PAUSED until Codex finishes the GHL cleanup row and Alex approves.
 Copy test, 3 sets of 3 (same images, different body):
-- Set 1 TRUST (AD14, AD18, AD31): 230+ Google reviews, real home, cage free, outside every hour, photos and videos daily, price.
+- Set 1 TRUST (AD14, AD18, AD31): 230+ Google reviews, real home, cage free, outside every hour, a daily video daily, price.
 - Set 2 PREMIUM CARE (AD15, AD22, AD32): no kennel run, our home, real beds, every stay planned around your dog's energy and routine, price.
 - Set 3 NOT THE CHEAPEST (AD29, AD21, AD09): "We are not the cheapest boarding in Miramar. We are the place families come back to." Price, "If that fits your dog, tap to check your dates."
 

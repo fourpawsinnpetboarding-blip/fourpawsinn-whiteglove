@@ -17,5 +17,5 @@ Core idea: you get what you want when you can predict what happens next. You pre
 | Qualified lead | A lead who sent travel dates and a dog that fits our intake |
 | Booked | A deposit is paid and the opportunity is Won in GHL |
 | Speed to lead | Minutes from lead created to our first human text or call |
-| Good stay | No incident logged, daily photo and video sent, client rebooks within 12 months |
+| Good stay | No incident logged, daily video sent, client rebooks within 12 months |
 | Done (a task) | A file exists in the repo and Alex knows his one next action |

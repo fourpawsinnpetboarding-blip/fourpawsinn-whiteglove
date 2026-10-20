@@ -68,13 +68,13 @@ Why it failed (Claude's error):
 Lesson: text 1 gives one real reason to pick us, matched to her answer, then asks one easy question. Never repeat form answers back.
 
 ## v4: Text 1 (replaces v3, Oct 12, 2026)
-Facts used: daily photo and video updates, outside to play every hour, private suite (business-facts.md). One question: the pup's name.
+Facts used: a daily video update, outside to play every hour, private suite (business-facts.md). One question: the pup's name.
 
 | Sociability answer | Text 1 |
 |---|---|
-| Friendly / loves dogs | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
-| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Lots of pups are picky about friends, and that's ok. We go at their pace, and you get photos and videos every day. What's your pup's name? |
-| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. We have a private suite for pups who do best on their own, and you get photos and videos every day. What's your pup's name? |
+| Friendly / loves dogs | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get a video every day. What's your pup's name? |
+| Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Lots of pups are picky about friends, and that's ok. We go at their pace, and you get a video every day. What's your pup's name? |
+| Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. We have a private suite for pups who do best on their own, and you get a video every day. What's your pup's name? |
 
 No price. No link. No dashes. Same 90 second wait and same 3 hour no reply follow up (no link version).
 
@@ -84,7 +84,7 @@ Why a numbered list: a pet parent can answer with one tap ("2"), and the answer 
 
 | Branch | Text 1 |
 |---|---|
-| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
+| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get a video every day. What's your pup's name? |
 | Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Lots of pups are picky about friends, and that's ok. We introduce every new dog slowly, one step at a time, and we've watched shy pups really open up here. Which sounds most like yours?<br>1. Nervous if a dog comes on too fast<br>2. Likes to be the boss<br>3. Fine with some dogs, not others<br>4. Happiest with their own space<br>Just reply with a number. |
 | Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for telling us. We introduce every new dog slowly, and we have a private suite for pups who do best on their own. Which sounds most like yours?<br>1. Nervous if a dog comes on too fast<br>2. Likes to be the boss<br>3. Fine with some dogs, not others<br>4. Happiest with their own space<br>Just reply with a number. |
 
@@ -96,7 +96,7 @@ Claude edits: dropped "safe" (Gate 5, no safety claims). Used "comes on strong" 
 
 | Branch | Text 1 |
 |---|---|
-| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get photos and videos every day. What's your pup's name? |
+| Friendly / loves dogs (v4, unchanged) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 Thank you for reaching out. Our pups play outside every hour, and you get a video every day. What's your pup's name? |
 | Selective / depends | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a careful intro process for new dogs, and we always take it slow. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
 | Not good with other dogs (or anything else) | Hi {{contact.first_name}}! It's Amanda from Four Paws Inn 🐾 We have a careful intro process for new dogs, we always take it slow, and we have a private suite for pups who do best on their own. Is your pup more on the shy side, or more the one who comes on strong with other dogs? |
 

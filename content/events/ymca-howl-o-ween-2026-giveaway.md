@@ -28,7 +28,7 @@ Scan to enter
 [QR code]
 Back:
 Four Paws Inn is a real home for dogs in Miramar.
-No cages. Outdoor play. Photo and video updates every day.
+No cages. Outdoor play. A video update every day.
 Everyone who enters gets first pick of our holiday dates.
 fourpawsinn.co
 

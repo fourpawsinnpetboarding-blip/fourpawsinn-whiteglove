@@ -24,7 +24,7 @@ Phone: use the number on the Google Business Profile (CallRail, do not invent)
 Category: Dog boarding (also cat and exotic pet boarding)
 Founded: 2022
 Owners: Alex and Amanda Chiong
-Short description: Family run, cage free home dog boarding in Miramar, FL. Dogs stay in our home, play in small supervised groups, rest indoors in real beds, and get supervised pool time if they enjoy the water. Daily photo and video updates on every stay.
+Short description: Family run, cage free home dog boarding in Miramar, FL. Dogs stay in our home, play in small supervised groups, rest indoors in real beds, and get supervised pool time if they enjoy the water. A daily video update on every stay.
 Prices: $60 a day under 50 lb, $75 a day over 50 lb, $80 a day puppies and senior dogs, cats $40 a day. Charged by the day.
 Reviews: 230+ Google reviews, near perfect rating. Google Maps: https://maps.google.com/maps?cid=15623467987012905563
 Service area: Miramar, Pembroke Pines, Hollywood, Davie, Cooper City, Weston, Broward County
@@ -56,7 +56,7 @@ Profile text (3rd grade level, no dashes):
 We are Alex and Amanda. Dogs stay in our home in Miramar, not a kennel.
 Dogs play in small groups that we watch. They rest inside on real beds.
 Dogs who love water get pool time with us right there.
-You get photos and videos every day.
+You get a video every day.
 We have 230+ reviews on Google. Look up Four Paws Inn.
 Tell us about your dog. We will make sure it is a good fit before you book.
 

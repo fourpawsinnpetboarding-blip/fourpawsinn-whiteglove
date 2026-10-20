@@ -5,7 +5,7 @@ First used Oct 12, 2026 (Sondra Hertz). Facts from fourpawsinn/business-facts.md
 
 ## Text (copy and paste, swap [Name] and her/him)
 
-Hi [Name]! Thanks for reaching out. Your pup stays in our family home in Miramar, not a kennel. Dogs go outside to play every hour, in small groups matched by size and energy. You get photo and video updates every day.
+Hi [Name]! Thanks for reaching out. Your pup stays in our family home in Miramar, not a kennel. Dogs go outside to play every hour, in small groups matched by size and energy. You get video update every day.
 
 Our price is by the day:
 Under 50 lb: $60 a day
