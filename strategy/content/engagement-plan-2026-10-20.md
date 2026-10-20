@@ -46,7 +46,7 @@ Run them one at a time, in this order. Log credits and results here.
 
 | # | Test | Tool | Est. credits | Measure | Status |
 |---|---|---|---|---|---|
-| 1 | Score the next noon reel before it posts | Virality predictor | Check the cost before running | Compare predicted hook and retention with the real 48 hour numbers | Waiting (Higgsfield connection dropped Oct 20 evening) |
+| 1 | Score the next noon reel before it posts | Virality predictor | Check the cost before running | Compare predicted hook and retention with the real 48 hour numbers | RUNNING: job a554c3ef-aabd-421b-a488-4982b177190d on the Thursday Oct 22 noon reel 'Your dog gets time with people' (Eden post 3f4f08a3, 13 s). Queued at Higgsfield. Balance before: 1,714 |
 | 2 | Review card with a real dog cutout, compared with a plain text review card | Remove background on a real photo, then the brand card | About 2 to 5 | Saves and comments on each version | Next |
 | 3 | Reel cut into 3 story frames | Reframe | Check the cost | Story replies and sticker taps | After 2 |
 | 4 | YouTube thumbnail: real face plus real dog cutout plus big text | Remove background, Nano Banana Pro (web) | About 2 to 5 | Click-through rate after 7 days | With the first Ask Amanda upload |
