@@ -45,3 +45,4 @@ Log credits per video in strategy/operating-system/higgsfield-credit-budget.md, 
 |---|---|---|---|---|---|---|
 | Oct 20 | A Tiny dictator (Codex v1) | 106.75 | 23 | not posted | Real intro footage is the value; AI hero dog is the risk | Real dogs only, brand captions, cut 6 s |
 | Oct 20 | B Dog sitter bailed (Codex v1) | 54.5 | 17 | not posted | Skit with no real proof does not sell | Add a real update and review middle, brand end card |
+- Oct 20: Alex chose Option 1 (AI couple ok as fictional actors; every dog on screen is real footage; label: Dramatization. Real dogs, real home.)
