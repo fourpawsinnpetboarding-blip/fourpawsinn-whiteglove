@@ -72,7 +72,7 @@ Short, warm, one question at the end. Swap in the dog's name from the thread. Ne
 
 ## 5b. Booking reply order (Alex's rule, 2026-10-16)
 
-Value first, then questions, then the close. Never ask for the deposit in the first reply.
+Value first, then questions about the dog, then availability, then the close. Never confirm availability before the dog questions are answered (breed, weight or size, behavior with other dogs, anything we should know). Never ask for the deposit in the first reply.
 
 1. **Reply 1, value:** dates are open, how the stay works, price, what to bring. End with our questions about the dog (how they do with other dogs, anything we should know), then "Do you have any questions for us?"
 2. **Reply 2, close:** after they answer or have no questions. Ask for the deposit.
