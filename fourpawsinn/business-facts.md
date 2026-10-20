@@ -49,6 +49,7 @@ Four Paws Inn charges by day, never by night.
 ## Booking and care policies
 
 - A 25% deposit reserves the dates.
+- Payment methods (Alex, Oct 20, 2026): Zelle to 754-971-0792, Apple Pay to 754-971-0792, or credit card (Alex sends a card payment link on request). Deposit is 25% of the full stay with the last day included; if they pick up before 10 AM, the last day comes off the remaining balance.
 - Full payment is due before drop-off (Alex, Oct 15, 2026). The deposit reserves the stay; the rest is paid before the dog arrives.
 - Vaccines must be current.
 - Dogs go outside to play every hour (Alex, Oct 11, 2026).
