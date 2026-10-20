@@ -135,3 +135,17 @@ Verification still owed (Alex/Claude): QualifiedLead visible in Events Manager f
 
 Alex paid Ripon $100 earlier plus $200 on Oct 11: $300 total for Meta Purchase with lead ID, QualifiedLead event, Rebecca and Kevin backfill, and the Google sheet Won step. Still ask him (no extra pay): confirm Meta accepted Kevin's $160 event (older than 7 days). CallRail GCLID build: Alex does it himself with Claude (spec in google-offline-conversion-check.md).
 - Oct 11: Ripon confirmed Meta accepted Kevin's $160 Purchase event. Ripon work closed.
+
+## Rule override, Oct 20 2026 (Alex)
+
+Alex: "bend the rule... as long as we can undo it if something goes wrong. I don't want to pay Ripon for something that could be done easily."
+
+- The Oct 7 rule ("Codex and Claude don't touch this setup") is lifted for the GHL to Stape to Meta pipeline. Ripon's work is closed and paid (Oct 11).
+- Condition: every change must be reversible.
+  1. Before editing a GHL workflow, copy its webhook payload and settings into this file.
+  2. In GTM, every change is a new published version, so rolling back is one click (Versions, Publish previous).
+  3. Make one change at a time. Test it with one test opportunity, then check Meta Events Manager.
+- Stape container "forpaws server" (GTM-WRWT22H3) is paid on Alex's card. Alex confirms which Google account can open it in tagmanager.google.com, and adds Codex's working account if needed.
+- Changes in scope:
+  1. Restore email and phone on QualifiedLead.
+  2. Add fbc and fbp to Purchase (and QualifiedLead) once the booking form saves fpi_fbc and fpi_fbp.
