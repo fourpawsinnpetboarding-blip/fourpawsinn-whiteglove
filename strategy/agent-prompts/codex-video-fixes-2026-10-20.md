@@ -41,6 +41,35 @@ Do this with editing only. **Spend 0 Higgsfield credits.**
   - Credits spent (should be 0).
 - **Don't schedule or post.** Claude scores it against the 26 point bar, then it goes to Alex.
 
+
+## Graphics package for Video A (Claude, Oct 20). Build all of it, 0 credits
+
+**Editor rules:**
+- One graphic on screen at a time, plus captions. Each lands in 0.2 seconds and holds 1 to 1.5 seconds.
+- Brand only: charcoal #353532, cream #FAF7F3, pink #E6A0A3. Bold serif for headings, clean sans for body.
+- Every graphic stays inside the Reels safe zone.
+- Make it in CapCut or After Effects, or make backgrounds with free web Nano Banana. Never put AI dogs, people or the home inside a graphic.
+
+| Time | Moment | Graphic | Sound |
+|---|---|---|---|
+| 0.0 to 2.0 | Hook | Three "SITTER 01, 02, 03" cards slide in, then a pink "NO" stamp slams onto each, 0.3 s apart. Small label in the corner: "Dramatization. Real dogs, real home." | 3 stamp thuds |
+| 2.0 to 4.0 | "My mother won't answer" | Phone call UI over the shot: "Mom", "Call declined" | A short ring that cuts off |
+| 4.0 to 6.0 | "Flight leaves tomorrow" | A cream boarding pass card: "MIA, TOMORROW 6:00 AM", with a ticking pink countdown | Clock tick |
+| 6.0 to 8.0 | "He weighs 6 pounds" | A scale readout counting 0 to 6 lb fast, beside the real dog | A quick counter tick, then a ding |
+| 8.0 to 10.0 | "Runs this entire house" | A simple flat pink crown pops onto the real dog's head and wobbles once | A light pop |
+| 10.0 to 11.0 | "What about Four Paws Inn?" | Logo wipe transition: the official house and paw logo sweeps across the screen in cream | Whoosh |
+| 11.0 to 20.0 | The real intro process | **Step tracker** at the top: 4 pink dots that fill as each step happens, labeled MEET, SNIFF, SETTLE, FRIENDS. This is the value moment, and it gets the saves | A soft click on each step |
+| 20.0 to 23.0 | "Then we got his video update" | **Phone frame** with a notification banner: "Four Paws Inn: New video of your pup". The real update clip plays inside the phone | Message ding |
+| 23.0 to 26.0 | Review | **Review card:** 5 pink stars, the exact review line, first name, "Google review". Under it: "230+ reviews, 4.9 stars" | Soft chime |
+| 26.0 to 29.0 | Pick up joke ("little angel", "extending his vacation") | A quick "DAY 1 / DAY 3" label, **only if** both clips are the same real dog. Otherwise, no graphic | A record scratch on "tiny dictator" |
+| 29.0 to 32.0 | CTA | Comment box mockup: "DATES" types in letter by letter, then a pink arrow points to the comments. The official logo end card | Typing clicks, then a soft whoosh |
+
+**Finish:**
+1. Word by word captions, with the key word in each line highlighted in pink.
+2. One warm color grade over all clips, plus a light film grain, so the AI couple and the real footage feel like one world.
+3. Music ducks about 6 dB under the stamp, ding and chime hits.
+4. Check: no text in the bottom 20%, nothing overlapping the Reels buttons on the right, and every caption readable on a phone with the sound off.
+
 ## Video B: "Dog sitter bailed" (scored 17/30): hold
 
 Don't edit B yet. After A posts and we read its 48 hour numbers, Claude writes the B rebuild:
