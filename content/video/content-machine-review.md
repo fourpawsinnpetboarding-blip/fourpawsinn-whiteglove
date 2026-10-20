@@ -26,3 +26,20 @@ Owner: Claude reviews and finishes. Codex builds first cuts. Alex approves.
 
 ## Credit log
 Log credits per video in strategy/operating-system/higgsfield-credit-budget.md, so the 30-day measurement is real.
+
+## The learning loop: one credit video at a time (Alex, Oct 20)
+
+1. **Brief:** write down the hook, the story, the real proof, the CTA, and **one thing we're testing** (for example, an AI cold open compared with a real footage cold open).
+2. **Build:** generate only the shots the script needs. Estimate the credits first; if the estimate passes 120, Alex approves.
+3. **Score:** use the scorecard above. Ship it only at 26 or more.
+4. **Post** in the noon reel slot.
+5. **Measure at 48 hours and 7 days:** 3 second hold, average watch time, completion rate, shares, saves, DMs and leads.
+6. **Lesson:** write one line in the log below: what worked, what failed, and what changes in the next video.
+7. **Next video:** change **one thing at a time**, so we know what moved the numbers.
+
+**Ready for volume when:** 3 videos in a row score 26 or more, beat our real footage reel average on watch time, and land within the credit estimate. Then Alex decides.
+
+## Lesson log
+
+| Date | Video | Credits | Score | 48 hour result | Lesson | Change next time |
+|---|---|---|---|---|---|---|

@@ -179,6 +179,10 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Conversion pipeline (Alex, Oct 20, 2026):** Claude and Codex may now edit the GHL to Stape to Meta CAPI setup (the old "Ripon only" rule is lifted), as long as every change is reversible: back up first, one change at a time, test, then check. Details: strategy/operating-system/conversion-tracking-fix.md.
 
+**Build with Alex's ideas (Alex, Oct 20, 2026):** when Alex suggests something, Claude adds what makes it stronger and removes what doesn't fit, then says what changed and why in one line each. Never just echo it back.
+
+**One video at a time on credits (Alex, Oct 20, 2026):** any video that spends Higgsfield credits is made one at a time. Make it, post it, measure it, write down the lesson, then make the next one. No batches and no volume on credits until the workflow reliably produces the best content. Volume is fine for work that costs no credits: real footage, talking head and free web images. Process: content/video/content-machine-review.md.
+
 **Lead update routine (Alex, Oct 17, 2026):** every time Claude writes or reviews a reply to a lead or client, Claude adds an Eden board Request row for Codex in the same turn, without being asked. One row per lead: name and phone, pet name, breed, age, weight, dates, price quoted, stage, and care notes (shy, vaccines needed, follow up date). Codex updates the GHL contact and opportunity, never texts the lead, and marks the row Done. Claude says "Codex row added" at the end of the reply.
 
 ## 11. Tool stack

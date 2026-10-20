@@ -107,6 +107,7 @@ Balance after purchase: 1,800 credits, plan "max" (Claude checked through MCP).
 | AI Influencer, 30 free | Web | Fictional characters for skits only, clearly fictional | Codex |
 | Genjutsu, 2 free (720p) | Web | Test once | Codex |
 | Kling 3.0 video (about 2 credits a second) | Credits | AI skit shots cut around real footage | Claude or Codex, logged per video |
-| Unlimited parallel jobs | Both | Run batches at the same time | Both |
 
 **Rule:** do image work on the web (free). Spend credits through MCP only on video, or when a free web option doesn't exist.
+
+**Update (Alex, Oct 20):** one credit video at a time, with no batches. The 4, 8 and 12 reels a month scenarios above are capacity only, not a plan. Measure each video before making the next.
