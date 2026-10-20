@@ -43,22 +43,33 @@ Rule: the social posting cadence does not change (7:30 AM static, 12 PM reel, 4 
 | 319cb588-fc77-4653-a21c-a95cee3b26fc | Dog Boarding Near Davie, FL |
 | dd97f0f1-47a1-442c-8331-2b0fb38874b3 | Thanksgiving and Christmas Dog Boarding in Broward: How to Hold Your Dates |
 
-Copy: `content/seo/pages-2026-10-11.md`, `content/seo/pages-2026-10-13.md`. Builder: `content/seo/build_pages.py`.
+## Pages published Oct 20, 2026
+
+| Draft id | Page |
+|---|---|
+| 526ce962-2ba9-40f5-bcd1-17b4773c714f | What to Pack for Your Dog's Boarding Stay (Simple Checklist) |
+| eb7b27db-3dae-4cee-b9fa-ea4e74553073 | Dog Boarding Near Hollywood, FL |
+| a05d798e-4d6d-4b0f-9d76-5b80260d6506 | Exotic Pet Boarding in Miramar |
+
+Copy: `content/seo/pages-2026-10-11.md`, `content/seo/pages-2026-10-13.md`, `content/seo/pages-2026-10-20.md`. Builder: `content/seo/build_pages.py`.
 
 ## Page backlog (3 a week, in order)
 
 1. ~~Dog boarding near Cooper City~~ (published Oct 13)
 2. ~~Dog boarding near Davie~~ (published Oct 13)
 3. ~~Thanksgiving and Christmas dog boarding in Broward: how to hold dates~~ (published Oct 13)
-4. What to pack for your dog's boarding stay
-5. Dog boarding near Hollywood, FL
-6. Exotic pet boarding in Miramar (team confirms price)
+4. ~~What to pack for your dog's boarding stay~~ (published Oct 20)
+5. ~~Dog boarding near Hollywood, FL~~ (published Oct 20)
+6. ~~Exotic pet boarding in Miramar (team confirms price)~~ (published Oct 20)
 7. Boarding for dogs who are selective with other dogs
 8. Large dog boarding in Miramar (over 50 lb, $75 a day)
 9. Boarding two dogs together: how the second dog discount works
 10. Dog boarding near Plantation, FL
 11. Dog sitter at home or dog boarding: how to choose
 12. Last minute dog boarding in Miramar: what to do this week
+13. Private suites for shy or reactive dogs in Miramar (per dog: $80, or $100 over 50 lb)
+14. First time boarding your dog: what to expect
+15. Dog boarding near Hallandale Beach, FL
 
 Done: Cooper City, Davie, holiday dates (Oct 13), Weston, cost guide, cage free guide, puppy, Pembroke Pines and Southwest Ranches, senior. Cat boarding already has a live post (39505de5).
 
@@ -82,3 +93,14 @@ Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts
 | 5 | Lead follow up | Speed to lead test live Oct 13 to 26 (Alex calls in 5 min). Meta Text 1 v4/v6 approved, Codex swapping (row 15eb12de). Workflow rewrite row 8bfc16be still Request |
 | 6 | Partners | List done (27). Week 1 drop offs: Alex or Amanda |
 | 7 | Community | Week 2 drafts: `content/community/answers-2026-10-week2.md` |
+
+## Status Oct 20 (Tuesday sprint)
+
+| # | Action | Status |
+|---|---|---|
+| 1 | Pages | 12 published total. 3 this week: what to pack, Hollywood, exotic pets. 3 new backlog ideas added (13 to 15) |
+| 2 | GBP posts | Week of Oct 26 written: `content/gbp/2026-10-26-week.md`. Week of Oct 19: Mon posted, Wed and Fri go out on schedule |
+| 3 | Directory sites | Batch 1 in progress (row 6b61b075). Batch 2 BLOCKED (row 1a6246e5): the Miramar Pembroke Pines chamber is $325 a year and needs Alex's yes |
+| 5 | Lead follow up | GHL workflow rewrite still BLOCKED (row 8bfc16be): the GHL editor won't load for Codex. Meta Text 1 swap in progress (row 15eb12de) |
+| 6 | Partners | List done (27). Drop offs: Alex or Amanda |
+| 7 | Community | Week 3 drafts: `content/community/answers-2026-10-week3.md`. Week 2, answer 1 fixed (the retired required overnight) |
