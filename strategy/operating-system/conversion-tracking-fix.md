@@ -318,3 +318,44 @@ Open items, in order:
 
 1. **Change 2 approved:** stop duplicate QualifiedLead events. Add a check for the contact tag "meta_qualifiedlead_sent" before the webhook, then add the tag after it, the same pattern as "Meta Purchase Sent". Rollback: delete the check and the tag step.
 2. **Google Ads auto-apply approved:** turn off auto-apply for bidding, budget, keyword and broad match types. Keep the low-risk ad and asset types only. Show the list before saving.
+
+## Change log, Oct 20 2026 (part 2, Alex approved both changes)
+
+### Backup before change 2 (QualifiedLead state after change 1)
+
+"CONVERT | Meta QualifiedLead" (Published): Triggers (Pipeline Stage Changed / Opportunity Created, pipeline Four Paws Inn, stage Qualified) > If/else "Has email or phone" > branch "Has contact info" (Email is not empty OR Phone is not empty) > Webhook (exact settings in backup B above) > END. Branch "No contact info" > END. No tag actions anywhere in the workflow.
+
+### Change 2. QualifiedLead dedupe by contact tag (applied Oct 20 ~3:55 PM ET)
+
+New flow in "CONVERT | Meta QualifiedLead" (still Published):
+Triggers > "Has email or phone" > branch "Has contact info" > NEW If/else "Not sent yet" > branch "Not sent" (Contact Tags does not include meta_qualifiedlead_sent) > Webhook (unchanged) > NEW "Tag meta_qualifiedlead_sent" (Add contact tag) > END. Branch "Already sent" (none met) > END. Branch "No contact info" > END.
+New contact tag created: meta_qualifiedlead_sent.
+
+Test (GHL "Test workflow", contact TEST Google Timestamp Validation, fpi-google-timestamp-test@example.com):
+1. Run 1, 3:57:54 PM: Has contact info > Not sent > Webhook 3:57:58 > Tag added 3:57:58 > End. Stape outgoing 3:57:57 PM to graph.facebook.com dataset 3164395030398225, status 200.
+2. Run 2, 3:58:43 PM: Has contact info > Already sent > End. No webhook. Stape shows no request after 3:57:57. Dedupe works.
+
+Notes:
+- The flag is per contact, so a contact sends at most one QualifiedLead ever, even with several opportunities. Same intent as "Meta Purchase Sent", but Purchase's flag sits on the opportunity.
+- Contacts that already sent a QualifiedLead before today do not have the tag, so each can send one more time. Not worth backfilling.
+- The test contact now carries the tag. To test again, remove meta_qualifiedlead_sent from that contact first.
+
+Rollback for change 2 (change 1 stays):
+1. Open "CONVERT | Meta QualifiedLead", Builder.
+2. Delete action "Tag meta_qualifiedlead_sent".
+3. Delete If/else "Not sent yet"; when asked, keep the "Not sent" branch so the Webhook stays under "Has contact info".
+4. Check the flow is: Has email or phone > Has contact info > Webhook > END. Save.
+5. Optional: delete the tag meta_qualifiedlead_sent in Settings > Tags.
+
+### Google Ads auto-apply, account 733-336-4600 (Alex approved Oct 20)
+
+Before (14 types on): Optimized ad rotation; Improve responsive search ads; Remove redundant keywords; Remove non-serving keywords; Remove conflicting negative keywords; Upgrade conversion tracking (data-driven attribution); Maximize conversions; Maximize conversion value; Maximize conversions with target CPA; Maximize conversion value with target ROAS; Set a target CPA; Set a target ROAS; Adjust CPA targets; Adjust ROAS targets.
+Already off and staying off: Optimized targeting; Add new keywords; Add broad match keywords; Display Expansion; Target impression share; Maximize clicks; Store visits as default goal.
+
+After (target, 2 on): Optimized ad rotation; Improve responsive search ads. Everything else off. No sitelink or asset types are offered for this account.
+
+Status Oct 20 4:10 PM ET: NOT SAVED YET. All 12 boxes were unchecked (page shows "2 of 7 selected", "0 of 14 selected"), but the Save bar does not show with the Claude side panel open. Two saves failed and History still showed 14 on after a reload. The unchecked page is left open in Alex's Chrome for him to save.
+Verify: Recommendations > Auto-apply settings > History says "Auto-apply is on for 2 recommendation types".
+Rollback: same page, re-check the 12 types, Save.
+
+Also seen: banner "New form of payment required" on the Google Ads account. If billing fails, ads stop. Alex to fix (needs his card; Claude does not enter payment details).
