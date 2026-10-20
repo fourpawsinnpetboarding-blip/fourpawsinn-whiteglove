@@ -150,17 +150,166 @@ Alex: "bend the rule... as long as we can undo it if something goes wrong. I don
   1. Restore email and phone on QualifiedLead.
   2. Add fbc and fbp to Purchase (and QualifiedLead) once the booking form saves fpi_fbc and fpi_fbp.
 
-## Desktop session results, Oct 20 2026 (Claude in Chrome, Alex present)
+## Change log, Oct 20 2026 (Claude, Alex's Chrome)
 
-Summary relayed from the desktop session. That session couldn't push to GitHub, so its full step by step copy, with the exact webhook payloads, lives in its bundle and attached file. Replace this section with that file once Alex uploads it.
+### Step 1. Backup of the two Stape workflows (read only, nothing changed)
 
-1. **Backup:** both webhooks (Won to Purchase, Qualified to QualifiedLead) were saved: URL, every field mapping and the triggers, with a rollback note for each.
-2. **Why email and phone dropped:** the mappings are correct in GHL and in the Stape server container (GTM). The cause was Instagram and Messenger DM leads with no email or phone being moved to Qualified. Each one sent Meta an event it couldn't match to a person.
-   - **Fix (Alex approved):** a filter in "CONVERT | Meta QualifiedLead" means the event only goes out when the contact has an email or a phone. Undo: delete that one step.
-   - **Test:** an @example.com test contact went through GHL, then Stape, then Meta. Meta answered "events received: 1". No real person was involved.
-   - **Open:** 7 contacts have 2 to 5 Qualified opportunities each, and every one sends its own event. Proposed fix: a "sent" flag, like the Purchase workflow already has.
-3. **Custom fields:** all 8 fpi_ fields were created on Contact. GHL already had unused fields for the same data (meta_fbc, meta_fbp, utm_*); those were left alone.
-4. **GTM (GTM-WRWT22H3):** looked only, nothing changed. The fbc and fbp plan waits for the booking form. Security: the Meta access key is visible in plain text to anyone who can open the container, so keep container access tight.
-5. **Google Ads:** auto-tagging is ON. "Auto-apply recommendations" is ON for 14 types, including bid changes. Review it.
+Captured from GHL Automation > Workflows, folder 03 | CONVERSION, Oct 20 2026. Panels opened and closed with Cancel. No save.
 
-Watch: QualifiedLead Event Match Quality over the next 7 days. The target is above 6.0 (it was 5.4 on Oct 20).
+Other Meta workflows seen (not live, not touched): "CONVERT | Meta Purchase Won" (Draft, 125 enrolled), "CONVERT | Meta Purchase Won Backup" (Draft, 23 enrolled).
+
+#### A. CONVERT | Meta Purchase Won Update (Published, 54 enrolled)
+
+Triggers (either):
+1. Opportunity Status Changed: moved to status is "Won"
+2. Opportunity Created: status is "Won"
+
+Flow: Condition branch "Not Sent" = if opportunity field "Meta Purchase Sent" is empty, then Webhook, then Update opportunity. Branch "Already Sent" (none of the conditions met) = END.
+
+Webhook action "Webhook": POST `https://pimmocga.usw.stape.io/data`. Headers: none. Custom data (sent along with GHL standard data):
+
+| key | value |
+| --- | --- |
+| event_name | Purchase (static) |
+| email | {{contact.email}} |
+| phone | {{contact.phone}} |
+| first_name | {{contact.first_name}} |
+| last_name | {{contact.last_name}} |
+| value | {{opportunity.opportunity_value}} |
+| content_name | Pet Boarding (static) |
+| currency | USD (static) |
+| external_id | {{contact.id}} |
+| event_id | {{opportunity.id}} |
+| lead_id | Contact > Facebook Lead Id (custom field) |
+| city | {{contact.city}} |
+| state | {{contact.state}} |
+| country | {{contact.country}} |
+| zip | {{contact.postal_code}} |
+
+Update opportunity action: "Allow move to previous stage" off. Duplicate opportunity: Enabled. Fields: Meta Purchase Sent = yes.
+
+#### B. CONVERT | Meta QualifiedLead (Published, 55 enrolled)
+
+Triggers (either):
+1. Pipeline Stage Changed: pipeline "Four Paws Inn", stage "Qualified"
+2. Opportunity Created: pipeline "Four Paws Inn", stage "Qualified"
+
+Flow: Webhook, then END. No condition, no "already sent" flag.
+
+Webhook action "Webhook": POST `https://pimmocga.usw.stape.io/data`. Headers: none. Custom data:
+
+| key | value |
+| --- | --- |
+| event_name | QualifiedLead (static) |
+| email | {{contact.email}} |
+| phone | {{contact.phone}} |
+| first_name | {{contact.first_name}} |
+| last_name | {{contact.last_name}} |
+| content_name | Pet Boarding (static) |
+| external_id | {{contact.id}} |
+| event_id | {{opportunity.id}} |
+| lead_id | Contact > Facebook Lead Id (custom field) |
+| city | {{contact.city}} |
+| state | {{contact.state}} |
+| country | {{contact.country}} |
+| zip | {{contact.postal_code}} |
+
+Rollback: if any edit goes wrong, set each webhook back to exactly these rows and URL.
+
+Note: the QualifiedLead payload already maps email and phone. The coverage drop is not a missing mapping. See Step 2.
+
+### Step 2. QualifiedLead email and phone coverage: diagnosis (read only)
+
+Source: Windsor GHL pull Oct 20 2026, all opportunities created Sep 20 to Oct 20 (194), pipeline "Four Paws Inn", stage Qualified = d01dc315-dda8-4b5a-81f3-600ff061ecf4.
+
+Finding: the webhook mapping is fine (email and phone are mapped, see backup B). The drop comes from *who* now enters Qualified.
+1. Opportunities with no email and no phone are entering Qualified. Almost all have opportunity source empty and an Instagram style name (Stacie_miranda, Meaghan_m_ryan, an emoji name, Meagan Rhodes x4 abandoned copies, Marcia Pita, Samantha M. Garcia). These look like Instagram or Messenger DM contacts that never gave a phone or email. The workflow has no filter, so it sends a QualifiedLead with only name and contact ID. Meta cannot match those.
+2. Sep 1 to Oct 9: 13 currently in Qualified, 4 with neither email nor phone. Oct 10 to 20: 36 in Qualified, 6 with neither. Plus the abandoned DM copies that already left the stage but were sent.
+3. Duplicates: 7 contacts have 2 to 5 Qualified opportunities each since Oct 10 (Kendall Peterson 5, Leslie Ladin-Martin 3, Vade Ram 3, Verisha Saulet 3). Each one fires a separate QualifiedLead with a new event_id. Not a coverage problem, but it inflates the count.
+Confidence: medium high. The pattern is clear in the data; the exact 60% figure is Meta's, measured over its own event window.
+
+Proposed fix, change 1 (reversible, awaiting Alex's OK):
+- In "CONVERT | Meta QualifiedLead", add an If/Else before the Webhook: branch "Has contact info" = Contact Email is not empty OR Contact Phone is not empty, then Webhook. Else END.
+- Rollback: delete the If/Else and reconnect Trigger to Webhook (backup B).
+- Test: TEST ONLY contact ("TEST Qualified Automat", has email, no phone, never messaged). Move its test opportunity to Qualified, check Execution logs shows Webhook fired, then Events Manager > Offline Conversion- FourPaws > QualifiedLead shows a new event.
+
+Proposed change 2 (later, separate): stop duplicates with a contact tag "meta_qualifiedlead_sent" check, same pattern as Purchase's "Meta Purchase Sent".
+Upstream fix (not a tracking change): the DM flow should ask for a phone number before a lead is moved to Qualified.
+
+### Step 3. Custom fields: finding before creating (nothing created yet)
+
+GHL already has contact fields that overlap the brief: meta_fbc ("Ad click ID cookie"), meta_fbp ("Browser ID cookie"), utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_adset. All empty on recent leads (Oct 4 check). No gclid field exists. Creating fpi_ fields as briefed gives two sets of the same data. Decision needed from Alex (see Step 6).
+
+### Step 4. Server GTM GTM-WRWT22H3 ("SS-fourpawsinn.co", Stape "forpaws server"): read only
+
+Opened Oct 20 in tagmanager.google.com (account fourpawsinn.co, workspace 20). Workspace shows 0 pending changes after the check. Nothing saved, nothing submitted.
+
+Tags (both last edited Oct 9, Ripon):
+1. "Facebook Conversion APi" (stape-io Facebook Conversion API), trigger "red event" = Purchase.
+2. "Facebook Conversion API Qualified Lead", trigger "QualifiedLead". Event type Custom "QualifiedLead", Action Source System Generated, Pixel/dataset 3164395030398225. User Data: Email {{email}}, Phone {{phone}}, First Name, Last Name, External ID, Lead ID {{customData.lead_id}}, City, State, Zip, Country. Custom Data: content_name, event_id, event_source crm, lead_event_source GoHighLevel, lead_id. Event ID {{event id}}.
+   So the server side maps email and phone correctly. Confirms Step 2: the gap is in GHL data, not GTM.
+
+User defined variables (Event Data): content_name, currency, customData.city, customData.country, customData.lead_id, customData.state, customData.zip, email, event id, event_name, external_id, first_name, last_name, location.city, phone, status, value. No fbc or fbp variable yet.
+
+Security note: the Meta CAPI access token is stored in plain text in the tag and visible to anyone with container access. Keep container access tight. Token not copied here.
+
+fbc and fbp plan (do NOT publish until the booking form writes the fields and a test contact shows them):
+1. GHL: in both webhooks (Purchase, QualifiedLead) add two custom data rows: fbc = Contact > fpi_fbc (or meta_fbc, per Step 6), fbp = Contact > fpi_fbp. One workflow at a time, Purchase last.
+2. GTM: create two Event Data variables, "fbc" (key path fbc) and "fbp" (key path fbp).
+3. GTM: in each tag's User Data add Click ID = {{fbc}} and Browser ID = {{fbp}}. Empty values are skipped by the tag, so leads without them still send.
+4. Preview in GTM with a test opportunity, check Events Manager > Test Events shows fbc and fbp, then Submit as a named version ("Add fbc fbp, Oct XX"). Rollback = Versions > previous version > Publish.
+
+### Step 5. Google Ads auto-tagging: ON (read only)
+
+Account Four Paws Inn 733-336-4600, Admin > Account settings, Oct 20: Auto-tagging = Yes. Tracking = "Using URL tracking options". So gclid is added to every ad click; the booking form just has to save it to fpi_gclid.
+Side note, not changed: Auto-apply recommendations are on for 14 types, including bidding changes. Review separately.
+
+### Step 2b. QualifiedLead fix applied (Alex approved in chat, Oct 20)
+
+Change 1 saved Oct 20 ~3:30 PM ET in "CONVERT | Meta QualifiedLead" (still Published):
+- New If/else action "Has email or phone" between the triggers and the Webhook.
+- Branch "Has contact info": Contact Email is not empty OR Contact Phone is not empty, then Webhook (unchanged), then END.
+- Branch "No contact info" (none met): END. Nothing sent.
+- Webhook settings untouched (same as backup B).
+Rollback: open the workflow, delete "Has email or phone" (keep the Webhook on the delete prompt), make sure Webhook connects straight to the triggers, Save.
+
+Test, Oct 20 3:31 PM ET: GHL "Test workflow" on test contact "TEST Google Timestamp Validation" (fpi-google-timestamp-test@example.com, contact 0nrjqh20AdBXRzhMzm4V, not a real person). Execution log: Add to workflow 3:31:34, Has contact info Executed 3:31:34, Webhook Executed 3:31:37 with response {"status":200}, End 3:31:38. No message actions in this workflow, so nothing was sent to anyone.
+Meta Events Manager check (Offline Conversion- FourPaws 3164395030398225): see Step 2c.
+
+### Step 3b. Custom fields created (Alex chose the fpi_ names, Oct 20)
+
+Created Oct 20 ~3:45 PM ET in GHL Settings > Custom Fields. Object Contact, type Single line, folder Additional Info. Contact field count 90 to 98; opportunity fields unchanged (12).
+
+| Field | Merge tag | Description |
+| --- | --- | --- |
+| fpi_fbc | {{contact.fpi_fbc}} | Meta click ID (fb.1.timestamp.fbclid) from booking form. Sent to Meta CAPI as fbc. |
+| fpi_fbp | {{contact.fpi_fbp}} | Meta browser ID (_fbp cookie) from booking form. Sent to Meta CAPI as fbp. |
+| fpi_gclid | {{contact.fpi_gclid}} | Google Ads click ID (gclid) from booking form. For Google offline conversions. |
+| fpi_utm_source | {{contact.fpi_utm_source}} | utm_source captured by booking form on landing. |
+| fpi_utm_medium | {{contact.fpi_utm_medium}} | utm_medium captured by booking form on landing. |
+| fpi_utm_campaign | {{contact.fpi_utm_campaign}} | utm_campaign captured by booking form on landing. |
+| fpi_utm_content | {{contact.fpi_utm_content}} | utm_content captured by booking form on landing. |
+| fpi_utm_term | {{contact.fpi_utm_term}} | utm_term captured by booking form on landing. |
+
+Rollback: delete the 8 fpi_ fields (empty, nothing uses them yet).
+Old unused fields left in place: meta_fbc, meta_fbp, utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_adset. Delete later once fpi_ is proven.
+Next owner: web dev builds Part A of attribution-fix-brief-2026-10-20.md to write into these 8 fields.
+
+### Step 2c. Meta receipt confirmed (Oct 20, 3:45 PM ET)
+
+Stape Pro logs, container pimmocga ("forpaws server"), Oct 20:
+- Incoming 3:31:36 PM, POST /data from GHL (axios), 200.
+- Outgoing 3:31:36 PM, POST graph.facebook.com/v25.0/3164395030398225/events, 200. Body: event_name QualifiedLead, action_source system_generated, user_data em, fn, ln, external_id, country (all hashed). Meta response: events_received 1.
+- event_id was empty and no phone/lead ID: expected, because GHL "Test workflow" runs on a contact with no opportunity, and the test contact has no phone or lead ID.
+- Live events today for comparison: 8:19:50 AM Purchase (200), 10:33:31 AM QualifiedLead (200).
+Note: Stape logs lag about 10 minutes. Events Manager's dataset table lags longer; at 3:35 PM it still showed QualifiedLead "last received 18 hours ago". Re-check Events Manager tomorrow.
+
+Status: change 1 live and verified end to end (GHL to Stape to Meta).
+Watch: QualifiedLead Event Match Quality in Events Manager over the next 7 days. Target above 6.0. Email and phone coverage should climb back toward 100% as the old events roll out of the 7 day window.
+
+Open items, in order:
+1. Change 2: stop duplicate QualifiedLead events (7 contacts with 2 to 5 Qualified opportunities since Oct 10). Needs Alex's OK.
+2. DM flow: ask for phone before moving a DM lead to Qualified (upstream).
+3. Web dev: build Part A of attribution-fix-brief-2026-10-20.md into the 8 fpi_ fields.
+4. After a test contact shows fpi_fbc and fpi_fbp: run the Step 4 fbc/fbp plan (GHL webhooks, then GTM, Preview, Alex approves Submit).
+5. Push: this session could not push to GitHub (repo not authorized for this session). Commits are local only until pushed.
