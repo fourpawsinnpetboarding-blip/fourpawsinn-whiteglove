@@ -313,3 +313,8 @@ Open items, in order:
 3. Web dev: build Part A of attribution-fix-brief-2026-10-20.md into the 8 fpi_ fields.
 4. After a test contact shows fpi_fbc and fpi_fbp: run the Step 4 fbc/fbp plan (GHL webhooks, then GTM, Preview, Alex approves Submit).
 5. Push: this session could not push to GitHub (repo not authorized for this session). Commits are local only until pushed.
+
+## Alex approvals, Oct 20 2026 (evening)
+
+1. **Change 2 approved:** stop duplicate QualifiedLead events. Add a check for the contact tag "meta_qualifiedlead_sent" before the webhook, then add the tag after it, the same pattern as "Meta Purchase Sent". Rollback: delete the check and the tag step.
+2. **Google Ads auto-apply approved:** turn off auto-apply for bidding, budget, keyword and broad match types. Keep the low-risk ad and asset types only. Show the list before saving.
