@@ -74,3 +74,17 @@ Kling works out to about 2 credits per **generated** second. Editing, captions, 
 3. Whether Amanda, review and authentic reels use any credits (expected 0).
 4. Whether any static or carousel post uses Higgsfield, and how much.
 5. Performance: views, saves, DMs and leads for AI reels compared with authentic reels. Pay for AI volume only if it brings bookings.
+
+## Website plans (from Alex's screenshots of higgsfield.ai/pricing, Oct 20)
+
+| Plan | Billing | Credits/mo | Price | Per credit |
+|---|---|---|---|---|
+| Pro monthly | Monthly | 600 | $29 | $0.048 |
+| Pro annual | Annual | 600 | $23/mo ($276/yr) | $0.038 |
+| Max monthly | Monthly | 1,800 | $79 | $0.044 |
+| Max annual | Annual | 1,800 | $50/mo ($600/yr) | $0.028 |
+
+- The website and the MCP checkout list **different plans**. The website has Basic, Pro, Max, Team and Scale. The MCP checkout has Plus and Ultra. Ultra monthly through MCP ($99 for 3,000 credits, $0.033 a credit) is cheaper per credit than Max monthly.
+- Seedance 2.0 at 720p is about 22 credits per 5 seconds (4.4 a second), about double our measured Kling rate (about 2 a second).
+- Rollover is still not shown anywhere.
+- After any purchase, Claude runs the balance check to confirm the credits show up for MCP generation.
