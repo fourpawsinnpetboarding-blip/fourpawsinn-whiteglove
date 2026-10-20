@@ -33,3 +33,14 @@
 1. Move $20 a day into the Static Reviews ad set (New Dog Ad).
 2. Pause R1 C4 Drop off hook1 ($39 a lead). Keep R2 C4 Drop off hook3 ($19).
 3. Pause the R1 and R2 ads with $0 to $3 spend and no leads, so the budget goes to 6 to 8 ads instead of 35.
+
+## Update after the Muse (Baxter) report, same day
+
+The full Muse report is in `strategy/reports/meta-ads-report-muse-2026-10-20.md`.
+
+- **Changed:** over 30 days, the R1 Concepts ad set's cost per lead ($17.94) beats the baseline ($19.15). So the drop off pause waits until the Oct 22 recheck, and no pausing happens before then.
+- **Still stands:** about 35 ads sharing roughly $80 a day is too thin. Decide on the cut list Oct 22.
+- **New, and bigger than any ad change:**
+  1. Instagram is not linked to the ad account.
+  2. Meta sees 35 bookings but credits 0 of them to any ad, because the booking form doesn't save the ad click ID.
+  3. 26 stale leads have revival drafts waiting on Alex.
