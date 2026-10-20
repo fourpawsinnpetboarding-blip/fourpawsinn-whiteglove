@@ -39,3 +39,16 @@
 5. **Week 3:** daily stories with a poll. Measure replies and DMs.
 
 **Goal by Nov 20:** 1.5% engagement rate and 50+ comments a month.
+
+## First credit tests (Alex, Oct 20: "use the credits we're paying for")
+
+Run them one at a time, in this order. Log credits and results here.
+
+| # | Test | Tool | Est. credits | Measure | Status |
+|---|---|---|---|---|---|
+| 1 | Score the next noon reel before it posts | Virality predictor | Check the cost before running | Compare predicted hook and retention with the real 48 hour numbers | Waiting (Higgsfield connection dropped Oct 20 evening) |
+| 2 | Review card with a real dog cutout, compared with a plain text review card | Remove background on a real photo, then the brand card | About 2 to 5 | Saves and comments on each version | Next |
+| 3 | Reel cut into 3 story frames | Reframe | Check the cost | Story replies and sticker taps | After 2 |
+| 4 | YouTube thumbnail: real face plus real dog cutout plus big text | Remove background, Nano Banana Pro (web) | About 2 to 5 | Click-through rate after 7 days | With the first Ask Amanda upload |
+
+Rule: never generate dogs. Every dog comes from a real photo or clip.
