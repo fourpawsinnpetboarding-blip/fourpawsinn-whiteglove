@@ -217,3 +217,21 @@ Webhook action "Webhook": POST `https://pimmocga.usw.stape.io/data`. Headers: no
 Rollback: if any edit goes wrong, set each webhook back to exactly these rows and URL.
 
 Note: the QualifiedLead payload already maps email and phone. The coverage drop is not a missing mapping. See Step 2.
+
+### Step 2. QualifiedLead email and phone coverage: diagnosis (read only)
+
+Source: Windsor GHL pull Oct 20 2026, all opportunities created Sep 20 to Oct 20 (194), pipeline "Four Paws Inn", stage Qualified = d01dc315-dda8-4b5a-81f3-600ff061ecf4.
+
+Finding: the webhook mapping is fine (email and phone are mapped, see backup B). The drop comes from *who* now enters Qualified.
+1. Opportunities with no email and no phone are entering Qualified. Almost all have opportunity source empty and an Instagram style name (Stacie_miranda, Meaghan_m_ryan, an emoji name, Meagan Rhodes x4 abandoned copies, Marcia Pita, Samantha M. Garcia). These look like Instagram or Messenger DM contacts that never gave a phone or email. The workflow has no filter, so it sends a QualifiedLead with only name and contact ID. Meta cannot match those.
+2. Sep 1 to Oct 9: 13 currently in Qualified, 4 with neither email nor phone. Oct 10 to 20: 36 in Qualified, 6 with neither. Plus the abandoned DM copies that already left the stage but were sent.
+3. Duplicates: 7 contacts have 2 to 5 Qualified opportunities each since Oct 10 (Kendall Peterson 5, Leslie Ladin-Martin 3, Vade Ram 3, Verisha Saulet 3). Each one fires a separate QualifiedLead with a new event_id. Not a coverage problem, but it inflates the count.
+Confidence: medium high. The pattern is clear in the data; the exact 60% figure is Meta's, measured over its own event window.
+
+Proposed fix, change 1 (reversible, awaiting Alex's OK):
+- In "CONVERT | Meta QualifiedLead", add an If/Else before the Webhook: branch "Has contact info" = Contact Email is not empty OR Contact Phone is not empty, then Webhook. Else END.
+- Rollback: delete the If/Else and reconnect Trigger to Webhook (backup B).
+- Test: TEST ONLY contact ("TEST Qualified Automat", has email, no phone, never messaged). Move its test opportunity to Qualified, check Execution logs shows Webhook fired, then Events Manager > Offline Conversion- FourPaws > QualifiedLead shows a new event.
+
+Proposed change 2 (later, separate): stop duplicates with a contact tag "meta_qualifiedlead_sent" check, same pattern as Purchase's "Meta Purchase Sent".
+Upstream fix (not a tracking change): the DM flow should ask for a phone number before a lead is moved to Qualified.
