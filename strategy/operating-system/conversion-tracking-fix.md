@@ -294,3 +294,22 @@ Created Oct 20 ~3:45 PM ET in GHL Settings > Custom Fields. Object Contact, type
 Rollback: delete the 8 fpi_ fields (empty, nothing uses them yet).
 Old unused fields left in place: meta_fbc, meta_fbp, utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_adset. Delete later once fpi_ is proven.
 Next owner: web dev builds Part A of attribution-fix-brief-2026-10-20.md to write into these 8 fields.
+
+### Step 2c. Meta receipt confirmed (Oct 20, 3:45 PM ET)
+
+Stape Pro logs, container pimmocga ("forpaws server"), Oct 20:
+- Incoming 3:31:36 PM, POST /data from GHL (axios), 200.
+- Outgoing 3:31:36 PM, POST graph.facebook.com/v25.0/3164395030398225/events, 200. Body: event_name QualifiedLead, action_source system_generated, user_data em, fn, ln, external_id, country (all hashed). Meta response: events_received 1.
+- event_id was empty and no phone/lead ID: expected, because GHL "Test workflow" runs on a contact with no opportunity, and the test contact has no phone or lead ID.
+- Live events today for comparison: 8:19:50 AM Purchase (200), 10:33:31 AM QualifiedLead (200).
+Note: Stape logs lag about 10 minutes. Events Manager's dataset table lags longer; at 3:35 PM it still showed QualifiedLead "last received 18 hours ago". Re-check Events Manager tomorrow.
+
+Status: change 1 live and verified end to end (GHL to Stape to Meta).
+Watch: QualifiedLead Event Match Quality in Events Manager over the next 7 days. Target above 6.0. Email and phone coverage should climb back toward 100% as the old events roll out of the 7 day window.
+
+Open items, in order:
+1. Change 2: stop duplicate QualifiedLead events (7 contacts with 2 to 5 Qualified opportunities since Oct 10). Needs Alex's OK.
+2. DM flow: ask for phone before moving a DM lead to Qualified (upstream).
+3. Web dev: build Part A of attribution-fix-brief-2026-10-20.md into the 8 fpi_ fields.
+4. After a test contact shows fpi_fbc and fpi_fbp: run the Step 4 fbc/fbp plan (GHL webhooks, then GTM, Preview, Alex approves Submit).
+5. Push: this session could not push to GitHub (repo not authorized for this session). Commits are local only until pushed.
