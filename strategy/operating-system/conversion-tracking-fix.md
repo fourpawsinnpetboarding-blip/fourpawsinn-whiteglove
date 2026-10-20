@@ -149,3 +149,18 @@ Alex: "bend the rule... as long as we can undo it if something goes wrong. I don
 - Changes in scope:
   1. Restore email and phone on QualifiedLead.
   2. Add fbc and fbp to Purchase (and QualifiedLead) once the booking form saves fpi_fbc and fpi_fbp.
+
+## Desktop session results, Oct 20 2026 (Claude in Chrome, Alex present)
+
+Summary relayed from the desktop session. That session couldn't push to GitHub, so its full step by step copy, with the exact webhook payloads, lives in its bundle and attached file. Replace this section with that file once Alex uploads it.
+
+1. **Backup:** both webhooks (Won to Purchase, Qualified to QualifiedLead) were saved: URL, every field mapping and the triggers, with a rollback note for each.
+2. **Why email and phone dropped:** the mappings are correct in GHL and in the Stape server container (GTM). The cause was Instagram and Messenger DM leads with no email or phone being moved to Qualified. Each one sent Meta an event it couldn't match to a person.
+   - **Fix (Alex approved):** a filter in "CONVERT | Meta QualifiedLead" means the event only goes out when the contact has an email or a phone. Undo: delete that one step.
+   - **Test:** an @example.com test contact went through GHL, then Stape, then Meta. Meta answered "events received: 1". No real person was involved.
+   - **Open:** 7 contacts have 2 to 5 Qualified opportunities each, and every one sends its own event. Proposed fix: a "sent" flag, like the Purchase workflow already has.
+3. **Custom fields:** all 8 fpi_ fields were created on Contact. GHL already had unused fields for the same data (meta_fbc, meta_fbp, utm_*); those were left alone.
+4. **GTM (GTM-WRWT22H3):** looked only, nothing changed. The fbc and fbp plan waits for the booking form. Security: the Meta access key is visible in plain text to anyone who can open the container, so keep container access tight.
+5. **Google Ads:** auto-tagging is ON. "Auto-apply recommendations" is ON for 14 types, including bid changes. Review it.
+
+Watch: QualifiedLead Event Match Quality over the next 7 days. The target is above 6.0 (it was 5.4 on Oct 20).
