@@ -88,3 +88,25 @@ Kling works out to about 2 credits per **generated** second. Editing, captions, 
 - Seedance 2.0 at 720p is about 22 credits per 5 seconds (4.4 a second), about double our measured Kling rate (about 2 a second).
 - Rollover is still not shown anywhere.
 - After any purchase, Claude runs the balance check to confirm the credits show up for MCP generation.
+
+## MAX plan bought (Oct 20, 2026): how we use it
+
+Balance after purchase: 1,800 credits, plan "max" (Claude checked through MCP).
+
+**Tested through MCP (Claude's connection):**
+- Nano Banana Pro costs **2 credits** an image and Nano Banana 2 costs **1.5**. "Unlimited" does **not** apply through MCP; the MCP unlimited flag reads "available: false".
+- So the unlimited image models run **free only on higgsfield.ai (web)**.
+
+**Who uses what:**
+
+| Feature | Where it's free | Use it for | Who |
+|---|---|---|---|
+| Nano Banana Pro and Nano Banana 2, unlimited 2K | Web | Static and carousel backgrounds, thumbnails, hook frames, text cards, graphics (no dogs, people or home) | Codex (web) |
+| 7 unlimited image models (Seedream, Flux, GPT Image, Kling O1 Image) | Web | Same as above, plus versions of the same design | Codex (web) |
+| Ads Studio, 10 free | Web | Meta ad creative versions for AD tests | Codex makes them, Claude uploads to Meta |
+| AI Influencer, 30 free | Web | Fictional characters for skits only, clearly fictional | Codex |
+| Genjutsu, 2 free (720p) | Web | Test once | Codex |
+| Kling 3.0 video (about 2 credits a second) | Credits | AI skit shots cut around real footage | Claude or Codex, logged per video |
+| Unlimited parallel jobs | Both | Run batches at the same time | Both |
+
+**Rule:** do image work on the web (free). Spend credits through MCP only on video, or when a free web option doesn't exist.
