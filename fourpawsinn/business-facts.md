@@ -36,7 +36,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | --- | --- |
 | Dog under 50 lb | $60 per day |
 | Dog over 50 lb | $75 per day |
-| Puppy or senior dog | $80 per day (Alex, Oct 11, 2026) |
+| Puppy or senior dog | $80 per day (Alex, Oct 11, 2026). A dog about 9 months or older is NOT priced as a puppy; use the normal rate (Alex, Oct 21: Leah, 9 months, $60) |
 | Second dog | $5 per day off |
 | Third dog and more | $5 per day off each additional dog (Alex, Oct 12, 2026) |
 | Last day | Free if picked up before 10:00 AM |
