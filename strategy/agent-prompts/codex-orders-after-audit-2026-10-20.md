@@ -47,5 +47,5 @@ Report back in the same table format when 0 to 3 are done, then again when all a
   - Day 1 before: "Quick note on how we do things here: every new pup starts with one overnight stay with us before a big trip."
   - Day 6 before: "New pups need their first overnight at least a week before a holiday stay."
   - Both now: "If your pup is new to boarding, we may suggest one short overnight first. It helps us bond with your pup, so longer stays feel familiar."
-- Booked Local kit: checklist Sheet, intake form, template folder and bilingual access guide uploaded (links in Codex's Eden row).
+- AfterManual kit: checklist Sheet, intake form, template folder and bilingual access guide uploaded (links in Codex's Eden row).
 - Chamber: cancelled by Alex, not submitted.

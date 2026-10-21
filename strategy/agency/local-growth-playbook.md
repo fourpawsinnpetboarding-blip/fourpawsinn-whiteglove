@@ -1,6 +1,6 @@
 # Local growth system: playbook (v1)
 
-**Business name: Booked Local** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
+**Business name: AfterManual** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
 
 What we sell, what we do, how we onboard, and how we prove the client is winning.
 Owner: Alex sells and owns the relationship. Claude and Codex deliver. Drafted Oct 18, 2026.

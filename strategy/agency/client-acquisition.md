@@ -1,6 +1,6 @@
 # How we find clients (agency v1)
 
-**Business name: Booked Local** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
+**Business name: AfterManual** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
 
 Goal: 3 paying clients in 60 days, then 10 by month 6. Alex's time cap is 5 hours a week, all on calls. Claude and Codex do the research, lists and audits.
 Drafted Oct 18, 2026. Offer: `local-growth-playbook.md`, `content-machine-offer.md`.
@@ -32,7 +32,7 @@ The audit goes out as a short personal video: Alex's face in the corner, his scr
 
 **Script v2 (Alex's words, tightened, about 75 seconds)**
 
-> Hey [first name], my name is Alex. I own Four Paws Inn, a dog boarding business in Miramar, and Booked Local, where we help local businesses get booked. Google Four Paws Inn when you're done watching this.
+> Hey [first name], my name is Alex. I own Four Paws Inn, a dog boarding business in Miramar, and AfterManual, where we help local businesses get booked. Google Four Paws Inn when you're done watching this.
 >
 > I searched [service] in [city] today, and this is what your customers see. [Competitor] has [number] reviews. Here is you, at number [rank]. Right now you're almost invisible, and that's costing you calls.
 >

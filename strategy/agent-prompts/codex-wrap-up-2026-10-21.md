@@ -30,7 +30,7 @@ G. Higgsfield: Alex is on the MAX plan (1,714 credits left). List every credit y
 
 H. Engagement: are your 4 PM captions ending with one easy question yet? Have the 2 save-worthy carousels been built ("How we introduce a new dog in 4 steps" and "5 things to pack")?
 
-I. Booked Local launch kit: status of the checklist sheet, intake form, Drive folder template and access guide.
+I. AfterManual launch kit: status of the checklist sheet, intake form, Drive folder template and access guide.
 
 PART 2: RULES THAT CHANGED (follow from now on)
 1. Clients get ONE daily video. Never write "photos" or "videos" (plural) in new copy. Don't edit old copy.

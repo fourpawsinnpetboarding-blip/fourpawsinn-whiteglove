@@ -1,6 +1,6 @@
 # Agency scale plan (Alex, Oct 18, 2026)
 
-**Business name: Booked Local** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
+**Business name: AfterManual** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
 
 Alex's goal: 100 clients at $5,000 a month. Speed matters. Four Paws Inn stays the long game (national brand, $100M exit). The agency is the fast cash engine.
 

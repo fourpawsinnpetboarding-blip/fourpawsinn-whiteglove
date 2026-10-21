@@ -1,6 +1,6 @@
 # Content machine: offer for clients (v1)
 
-**Business name: Booked Local** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
+**Business name: AfterManual** (Alex, Oct 18, 2026). Register it as a fictitious name (DBA) under Chiong Enterprise Inc. on Sunbiz.
 
 The same system that runs Four Paws Inn's content, sold to local businesses.
 Owner: Alex sells. Claude edits, writes and schedules. Codex handles files, uploads and music. Drafted Oct 18, 2026.

@@ -10,9 +10,9 @@ You are Codex, working with Claude for Alex Chiong. Read this whole brief before
 
 **1. Four Paws Inn (the core).** Premium cage free home dog boarding in Miramar, FL. About $30K a month in revenue and $20K profit, 60 dog capacity, 230+ Google reviews at 4.9 stars. Long term goal: a national brand, then a sale.
 
-**2. Booked Local (new, launching this week).** A service for local businesses that do good work but can't be found online: pressure washing, cleaning, landscaping, pool, detailing, handyman. Run as a DBA under Chiong Enterprise Inc. Alex's proof is Four Paws Inn: 12 months of Google Performance Max ads at about 8x return, and 230+ reviews at 4.9 stars.
+**2. AfterManual (new, launching this week).** A service for local businesses that do good work but can't be found online: pressure washing, cleaning, landscaping, pool, detailing, handyman. Run as a DBA under Chiong Enterprise Inc. Alex's proof is Four Paws Inn: 12 months of Google Performance Max ads at about 8x return, and 230+ reviews at 4.9 stars.
 
-## Booked Local: the offer
+## AfterManual: the offer
 
 1. **Launch, $1,500 one time:** Google Business Profile, a homepage, call tracking, a Google Performance Max campaign (Alex's method), lead handling in GHL, in person review training, and 30 days of management.
 2. **Keep it running, $1,000 a month:** profile posts, tracking and Performance Max tuning. Early clients who can't pay get a free weekly 1 hour call with Alex instead.
@@ -22,12 +22,12 @@ You are Codex, working with Claude for Alex Chiong. Read this whole brief before
 
 Files to read (all in `strategy/agency/`): `local-growth-offer.md`, `local-growth-playbook.md`, `content-machine-offer.md`, `client-acquisition.md`, `scale-plan.md`.
 
-## Your open Booked Local tasks (Eden row "NEW BUSINESS: local growth agency launch this week")
+## Your open AfterManual tasks (Eden row "NEW BUSINESS: local growth agency launch this week")
 
-1. **"Booked Local Hit List" (Google Sheet):** 50 pressure washing and house cleaning businesses in Miramar and Pembroke Pines. Columns: business, service, city, phone, public email, website (yes or no), Google review count, rating, Maps rank for "[service] [city]", top competitor and their review count, Facebook or Instagram link, notes. Only include active businesses with under 20 reviews, or no website, or a weak profile. Public data only. Never guess an email.
-2. **"Booked Local Pipeline" (Google Sheet):** business, service, city, source, contacted date, video sent, conversation, call booked, signed, package, monthly value, industry lock, notes.
+1. **"AfterManual Hit List" (Google Sheet):** 50 pressure washing and house cleaning businesses in Miramar and Pembroke Pines. Columns: business, service, city, phone, public email, website (yes or no), Google review count, rating, Maps rank for "[service] [city]", top competitor and their review count, Facebook or Instagram link, notes. Only include active businesses with under 20 reviews, or no website, or a weak profile. Public data only. Never guess an email.
+2. **"AfterManual Pipeline" (Google Sheet):** business, service, city, source, contacted date, video sent, conversation, call booked, signed, package, monthly value, industry lock, notes.
 3. **GHL, read only:** can our plan add client sub accounts (agency or SaaS plan), and what does it cost? Change nothing.
-4. **Domain check:** is bookedlocal.com available, and if not, bookedlocal.co or getbookedlocal.com? Is "Booked Local" free on sunbiz.org and as an Instagram handle? Report only. Don't buy or register anything.
+4. **Domain check:** is bookedlocal.com available, and if not, bookedlocal.co or getbookedlocal.com? Is "AfterManual" free on sunbiz.org and as an Instagram handle? Report only. Don't buy or register anything.
 
 Post the links and answers in that row, then mark it Done.
 
@@ -41,12 +41,12 @@ Post the links and answers in that row, then mark it Done.
 ## Hard rules (never break these)
 
 1. Never touch Meta Ads Manager. Claude owns all Meta campaigns and ads.
-2. Never text, email or DM a lead, a client or a business. Alex and Amanda send every client message, and Alex sends every Booked Local video.
+2. Never text, email or DM a lead, a client or a business. Alex and Amanda send every client message, and Alex sends every AfterManual video.
 3. No cold texts to any business, ever.
 4. Never send to a live GHL list. Drafts only, until Alex approves each one by name.
 5. No discounts or free nights in Four Paws Inn marketing. No automated review requests. Never use the word "safe" or make health or safety claims. No dashes in any copy.
 6. Never touch `.env` or paste secrets.
-7. Four Paws Inn and Booked Local stay separate: separate sheets, separate accounts, and never post Booked Local content on Four Paws Inn pages.
+7. Four Paws Inn and AfterManual stay separate: separate sheets, separate accounts, and never post AfterManual content on Four Paws Inn pages.
 
 ## What Alex is doing this week
 
