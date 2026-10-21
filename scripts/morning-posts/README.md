@@ -43,6 +43,10 @@ Aim for 3 carousels and 4 statics. Rotate through these pillars:
 6. **Record.** Write each `edenPostId` into `week.json`, append the week to `ledger.json`, commit, push.
 7. **Report to Alex.** One line per day, the contact sheet, and the Eden link to cancel anything he does not like.
 
-## Why HTML to PNG and not Higgsfield
+## Default design tool: Higgsfield (Alex, Oct 20, 2026)
+
+Alex approved the Higgsfield (Nano Banana) versions over the HTML renders. Build slides in Higgsfield from real photos plus the official logo. Process and IDs: `content/morning/2026-10-19/higgsfield-version.md`. From the cloud session: put real photos in Eden storage, `media_import_url` into Higgsfield, generate 4:5 slides, then `eden_import_scheduling_media` with each result URL. Claude can't view the outputs from the cloud, so new Higgsfield sets go to Eden as drafts for Alex's look before they're scheduled, until a set has passed his review a few times. The HTML renderer below stays as the backup.
+
+## Why HTML to PNG (backup)
 
 Text heavy graphics come out exact and on brand every time with HTML, and rendering costs nothing. Save Higgsfield credits for motion and B roll. Fonts are embedded from `scripts/morning-posts/fonts/`, so rendering never depends on network access.

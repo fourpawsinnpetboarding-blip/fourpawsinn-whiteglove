@@ -14,3 +14,5 @@ Claude can't view Higgsfield or Eden image files from here, so Alex checks them 
 | Sat Oct 24, 7:30 AM, 5 questions | ab2a377d-d4b2-422e-b573-3f4b82e8b7a9 | 20301414-64c7-4621-bdec-96eea7fc926b |
 
 Higgsfield jobs: 13610387, 2078dd7f, 6f348b55, 64707cbd, fb85d691 (Thu); 3c0f53c1, 42869dde, 2062f658, d1b8bc3d, 3e09867f, 8be71a1e, dd3808a2 (Sat).
+
+**Decision (Alex, Oct 20):** "These are great. Use the Higgsfield ones." The Higgsfield slides replaced the media on the scheduled posts d4b335e6 (Thu) and 20301414 (Sat). Both drafts deleted. From now on, 7:30 AM statics and carousels are built with Higgsfield (Nano Banana) from real photos, using this pipeline.
