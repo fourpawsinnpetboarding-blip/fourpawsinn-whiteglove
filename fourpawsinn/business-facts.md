@@ -183,3 +183,6 @@ Use this when a lead asks about price, compares us to cheaper places, or asks wh
 - **Small, close groups.** We keep groups small on purpose, which is why the price is higher. Never give a number.
 - **One on one attention** from a team that knows every dog.
 - **Rules:** never name another business, never say "safe", never mention dog counts.
+
+## Lead reply tone (Alex, Oct 21, 2026)
+Warm, calm and level. Never gushing. No "sounds like a sweetheart", no "aww", no over the top praise of the dog; it reads fake. Acknowledge what they told us plainly, answer the worry, ask for what we need.
