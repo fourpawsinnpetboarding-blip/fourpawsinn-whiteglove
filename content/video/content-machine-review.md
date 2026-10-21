@@ -2,6 +2,8 @@
 
 Owner: Claude reviews and finishes. Codex builds first cuts. Alex approves.
 
+**Start here:** every new video is built from the current baseline and passes the 15 point checklist in `content/video/baseline-system.md` before review.
+
 ## Handoff (every video)
 1. Codex uploads the **full quality file** to Drive, IN PROGRESS, in a dated folder.
 2. Codex adds an Eden board Request row, Owner Claude, with: the Drive link, the script, which clips are AI and which are real, the music and its license, and the credits spent.
@@ -46,5 +48,7 @@ Log credits per video in strategy/operating-system/higgsfield-credit-budget.md, 
 |---|---|---|---|---|---|---|
 | Oct 20 | A Tiny dictator (Codex v1) | 106.75 | 23 | not posted | Real intro footage is the value; AI hero dog is the risk | Real dogs only, brand captions, cut 6 s |
 | Oct 20 | B Dog sitter bailed (Codex v1) | 54.5 | 17 | not posted | Skit with no real proof does not sell | Add a real update and review middle, brand end card |
+| Oct 21 | A Tiny dictator Cut B | 0 | 25 | not posted | Review quote promised more than the offer; 11 s of still cards | Offer check on reviews, still cards 6 s max (checklist 7, 9, 10) |
+| Oct 21 | B Dog sitter bailed Cut B | 0 | 22 | not posted | Three different "he" dogs; sea cliff background; uneven audio | One hero dog, Florida backgrounds, −14 LUFS (checklist 1, 6, 12) |
 - Oct 20: Alex chose Option 1 (AI couple ok as fictional actors; every dog on screen is real footage; label: Dramatization. Real dogs, real home.)
 - Oct 20: Alex had both videos edited now, because editing costs 0 credits. They post one at a time: A first, then B is polished from A's results. The one-at-a-time rule applies to credit generation and posting order.

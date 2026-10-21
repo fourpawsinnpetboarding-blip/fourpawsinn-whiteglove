@@ -1,0 +1,96 @@
+# Video baseline system: the ratchet (Alex, Oct 21, 2026)
+
+**The rule:** the best finished video is the baseline. Every new video starts from it, has to pass every rule it already passed, and tries to beat it at one thing. A mistake gets fixed once, becomes a rule here, and never comes back.
+
+Owners: Codex builds from this file. Claude checks against it, updates it and keeps the version number. Alex approves new baselines.
+
+---
+
+## 1. Current baseline: v1, Tiny Dictator Cut C
+
+| Item | Value |
+|---|---|
+| File | `AD-TinyDictator-CutC.mp4`, Drive folder 2026-10-20 |
+| Score | to confirm at review (target 27/30) |
+| Posted | Oct 21, 12:00 PM (planned) |
+| 48 hour numbers | fill in Oct 23 |
+
+### The baseline structure (26 to 27 seconds)
+
+| Time | Beat | What's on screen | Rule |
+|---|---|---|---|
+| 0:00 to 0:02 | **Hook** | The real hero dog moving toward the camera. A 2 or 3 line question card in brand serif with one pink highlighted word. The disclosure label at the top | Readable with the sound off. The hero dog is the dog of the whole story |
+| 0:02 to 0:09 | **Problem** | AI couple (fictional), word by word captions with one pink word per line. One cutaway to the real hero dog | A cut every 1 to 3 seconds |
+| 0:09 to 0:19 | **Proof** | Real staff with real dogs. A step tracker on top (BOND, COMFORT, FRIENDS or MEET, SNIFF, SETTLE, FRIENDS) that moves forward with the story | Only real footage here. Never AI |
+| 0:19 to 0:21 | **Payoff** | Phone notification: "Four Paws Inn: new video of your pup", playing the real hero dog | Matches the offer: one daily video |
+| 0:21 to 0:23 | **Review** | Real Google review card, word for word, first name, "230+ Google reviews" pill | The quote may not promise anything we don't sell |
+| 0:23 to 0:26 | **CTA (call to action)** | Logo end card, "Comment DATES" typing animation, fourpawsinn.co | 3 seconds. No black frame after it |
+
+**Audio:** narration on top, music ducked under the voice, final mix at −14 LUFS (the loudness unit social apps play at), peak under −1 dB. Licensed music, with the credit line in the caption.
+
+---
+
+## 2. Pre-export checklist (every rule here came from a real mistake)
+
+Codex runs this before saving. Claude runs it again at review. **Any "no" sends the video back. The score doesn't matter.**
+
+**Story**
+1. [ ] One hero dog from the first frame to the payoff. Other dogs appear only as "other dogs" in the FRIENDS step. *(Dog Sitter Cut B, Oct 21: 3 different "he" dogs)*
+2. [ ] The hero dog isn't the star of another live ad. *(Dachshund in both ads, Oct 21)*
+3. [ ] No silent or dead stretch over 1.5 seconds. *(Dog Sitter Cut A: silent middle)*
+4. [ ] The first frame isn't a repeat of the last frame unless the loop is planned. *(Dog Sitter Cut A: opening loop)*
+
+**Truth and offer**
+5. [ ] Every dog on screen is real footage. AI people only, labeled "Dramatization. Real dogs, real home." *(Cut A of both: AI dogs)*
+6. [ ] AI backgrounds look like South Florida: a living room, patio or yard. No sea cliffs, mountains or Europe. *(Dog Sitter Cut B, 0:16)*
+7. [ ] The review quote matches today's offer: ONE daily video. No "pictures", "photos", "a few times a day" or "updates all day". *(Tiny Dictator Cut B)*
+8. [ ] No "safe", no health claims, no dog counts, no discounts, no dashes in on-screen text or captions.
+
+**Finish**
+9. [ ] Still cards (review plus end card) total 6 seconds or less. *(Tiny Dictator Cut B: 11 seconds static)*
+10. [ ] The last frame is the end card. No black frame. *(Tiny Dictator Cut B)*
+11. [ ] No see-through or half-faded layers during transitions. Hard cuts or a clean wipe. *(Dog Sitter Cut B, 0:16)*
+12. [ ] Audio −14 LUFS, voice clearly above the music, range under 7 LU. *(Dog Sitter Cut B: −20.5 LUFS, 10 LU)*
+13. [ ] A person listened to the full video with sound on, start to end, and wrote "listened" in the Eden row. *(Cut B handoff: not done)*
+
+**Handoff**
+14. [ ] File name `AD-[Name]-Cut[Letter].mp4`, plus `-REVIEW.mp4` under 10 MB in the same folder. *(Dog Sitter: wrong name; 35 to 46 MB files Claude could not open)*
+15. [ ] The Eden row has: Drive links, the music title plus the license credit line, the credits spent, which shots are AI, and the one thing this video tests.
+
+---
+
+## 3. How the ratchet works
+
+1. **Start from the baseline.** Copy the structure in section 1. Change **one** thing on purpose: the test. Write it in the Eden row ("Test: hook shows the dog jumping in the pool instead of running").
+2. **Checklist.** All 15 boxes are yes, or it doesn't leave Codex.
+3. **Score.** Claude scores it with the 30 point scorecard in `content-machine-review.md`. It has to score **at least the baseline score**. Lower means fix and resubmit.
+4. **Post** at 12:00 PM.
+5. **48 hour numbers:** 3 second hold, average watch time, completion rate, shares, saves, comments, DMs.
+6. **Compare with the baseline:**
+   - **Beats the baseline** on average watch time AND on shares plus saves plus DMs: it becomes the **new baseline** (v2, v3...). Claude rewrites section 1, and Alex approves it in one line.
+   - **Loses:** the baseline stays. The test goes into the "Tried, lost" list below, so we don't try it again.
+7. **New mistake found?** Claude adds it to section 2 the same day, with the video name in italics. The checklist only grows.
+
+The score gets a video posted. The real numbers decide the baseline. Score alone never replaces the baseline.
+
+---
+
+## 4. Baseline history
+
+| Version | Video | Date | Score | Avg watch time | Shares + saves + DMs | Why it became the baseline |
+|---|---|---|---|---|---|---|
+| v1 | Tiny Dictator Cut C | Oct 21 | tbd | tbd | tbd | First video to pass every rule |
+
+## 5. Tried, lost (don't repeat)
+
+| Date | Test | Result |
+|---|---|---|
+| Oct 20 | AI dog as the hero | Rejected before posting: it reads fake and breaks trust |
+| Oct 20 | Skit with no real proof middle | Scored 17: entertaining, sells nothing |
+
+## 6. Test queue (one per video, in order)
+
+1. Hook: the hero dog doing something unexpected (pool jump, zoomies) vs running at the camera.
+2. Narration by Amanda's real voice vs the current voiceover.
+3. Review card with a face photo of the reviewer's dog (with permission) vs a text only card.
+4. 20 second cut vs 26 second cut.
