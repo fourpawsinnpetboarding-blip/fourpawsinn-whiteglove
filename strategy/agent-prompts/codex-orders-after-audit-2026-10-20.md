@@ -36,7 +36,7 @@ Thanks for the audit. Everything below is APPROVED by Alex. Do not ask for appro
 
 7. BOOKED LOCAL (I): upload the checklist as a native Google Sheet, the access guide PDFs to the template folder, and add the privacy sentence to the intake form ("We never ask for passwords. You invite us as a manager."). Use Alex's Chiong Enterprise Drive. Post the 4 links.
 
-8. CREDITS: tell me which video the "four later Kling takes, 86 credits" were for and who approved them. No new credit generation until Tiny Dictator has 48 hour numbers.
+8. CREDITS: Alex approved the 86 credit Kling takes (Oct 20). Closed. No new credit generation until Tiny Dictator has 48 hour numbers.
 
 Report back in the same table format when 0 to 3 are done, then again when all are done.
 ```
