@@ -56,6 +56,9 @@ Codex runs this before saving. Claude runs it again at review. **Any "no" sends 
 3. [ ] No silent or dead stretch over 1.5 seconds. *(Dog Sitter Cut A: silent middle)*
 4. [ ] The first frame isn't a repeat of the last frame unless the loop is planned. *(Dog Sitter Cut A: opening loop)*
 
+4b. [ ] **Every time Four Paws Inn is named, show it.** Cut to 2 to 3 seconds of real intro B roll (Amanda opening the door, a meet and greet, the yard, dogs greeting at the gate), not a quick logo flash. Pull from the B roll library in Drive, folder "B ROLL". *(Alex, Oct 20: Dog Sitter "I booked Four Paws Inn" only flashed the logo)*
+4c. [ ] **Lines read like a real conversation.** One character never says two lines back to back that don't connect. A question gets a beat or an answer before the next line. *(Alex, Oct 20: "Think he misses us?" straight into "He needed a vacation from us, didn't he?" from the same man)*
+
 **Truth and offer**
 0. [ ] Real footage is at least 50% of the runtime and AI people are 25% or less, in the problem beat only. *(Alex, Oct 20: Tiny Dictator Cut C works because it is mostly real)*
 5. [ ] Every dog on screen is real footage. AI people only, labeled "Dramatization. Real dogs, real home." *(Cut A of both: AI dogs)*
