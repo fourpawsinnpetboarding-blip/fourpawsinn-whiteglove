@@ -111,3 +111,15 @@ The score gets a video posted. The real numbers decide the baseline. Score alone
 2. Narration by Amanda's real voice vs the current voiceover.
 3. Review card with a face photo of the reviewer's dog (with permission) vs a text only card.
 4. 20 second cut vs 26 second cut.
+
+## 7. AI and Meta: staying out of trouble (Alex, Oct 20, 2026)
+
+Meta asks creators to disclose realistic AI people and can label or limit posts that hide it. The real risk for a business is looking deceptive. These rules cover both.
+
+1. **Disclose every time.** On screen: "Dramatization. Real dogs, real home." In the caption: "Dramatization with AI actors. Real dogs, real home." On Instagram: turn on the AI label (Eden does it). Facebook: the caption line is the disclosure, because Eden can't set Facebook's label.
+2. **AI is never a customer, a review, a staff member or a result.** AI people only act out the problem (the worried couple, the joke). Testimonials, reviews, Amanda, Alex and the team are always real.
+3. **Never an AI copy of a real person** (Amanda, Alex, a client) and never a real client's name on an AI face.
+4. **Every dog is real.** Proof, results and the hero dog are real footage.
+5. **AI stays at 25% or less** of the runtime (section 1).
+6. **Paid ads:** same rules, plus the disclosure line in the ad's primary text. If Meta's ad review flags an AI ad, swap in a real footage version. Don't argue the flag.
+7. **Licensed music only**, with the credit line in the caption.
