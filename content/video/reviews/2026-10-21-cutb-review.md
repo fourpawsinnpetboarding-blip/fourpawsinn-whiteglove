@@ -31,3 +31,7 @@ Reviewed from the 720p copies Alex exported. Frames checked at 1 per second, plu
 ## Process notes
 - One at a time: Tiny Dictator first. After the fixes, Claude runs it through the Virality Predictor, then it gets a slot. Dog Sitter waits for Tiny Dictator's 48 hour numbers.
 - Lesson for the log: check every review card against the current offer before export. Reviews can promise things we no longer sell.
+
+## Cut C status (Oct 20, evening)
+- **Tiny Dictator Cut C:** Claude reviewed 27/30, Alex listened ("the audio is great"). Scheduled Oct 21 12:00 PM, Instagram and Facebook, Eden post ecf87609. Baseline v1.
+- **Dog Sitter Bailed Cut C:** Lex reports real 54.9%, AI 21.9% (problem beat only), graphics 23.2%, Doberman throughout, −14 LUFS, no black frame. Alex listened: good. Claude's frame review is pending: the 6.4 MB review copy is too big for the Drive connector after base64, so the next review copies target under 5 MB. Not scheduled. Posts after Tiny Dictator's 48 hour numbers (Oct 23).
