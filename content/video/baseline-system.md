@@ -51,7 +51,7 @@ Codex runs this before saving. Claude runs it again at review. **Any "no" sends 
 10. [ ] The last frame is the end card. No black frame. *(Tiny Dictator Cut B)*
 11. [ ] No see-through or half-faded layers during transitions. Hard cuts or a clean wipe. *(Dog Sitter Cut B, 0:16)*
 12. [ ] Audio −14 LUFS, voice clearly above the music, range under 7 LU. *(Dog Sitter Cut B: −20.5 LUFS, 10 LU)*
-13. [ ] A person listened to the full video with sound on, start to end, and wrote "listened" in the Eden row. *(Cut B handoff: not done)*
+13. [ ] **Alex or Amanda** listened to the full video on a phone with sound on, start to end (about 30 seconds), and said "listened". AI agents can measure loudness but cannot hear, so they never tick this box. *(Cut B handoff: not done; Lex flagged it honestly on Cut C)*
 
 **Handoff**
 14. [ ] File name `AD-[Name]-Cut[Letter].mp4`, plus `-REVIEW.mp4` under 10 MB in the same folder. *(Dog Sitter: wrong name; 35 to 46 MB files Claude could not open)*
