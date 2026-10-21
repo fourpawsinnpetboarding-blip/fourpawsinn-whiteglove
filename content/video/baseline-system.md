@@ -64,6 +64,7 @@ Codex runs this before saving. Claude runs it again at review. **Any "no" sends 
 8. [ ] No "safe", no health claims, no dog counts, no discounts, no dashes in on-screen text or captions.
 
 **Finish**
+8b. [ ] Every clip is sharp: no blurry, pixelated or blown out (overexposed) shots, above all in the hook. If the only footage of a moment is soft, cut it or swap it. *(Dog Sitter Cut C, Oct 20: blurry close up hook and proof clips)*
 9. [ ] Still cards (review plus end card) total 6 seconds or less. *(Tiny Dictator Cut B: 11 seconds static)*
 10. [ ] The last frame is the end card. No black frame. *(Tiny Dictator Cut B)*
 11. [ ] No see-through or half-faded layers during transitions. Hard cuts or a clean wipe. *(Dog Sitter Cut B, 0:16)*

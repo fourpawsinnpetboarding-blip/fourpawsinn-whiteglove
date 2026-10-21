@@ -35,3 +35,8 @@ Reviewed from the 720p copies Alex exported. Frames checked at 1 per second, plu
 ## Cut C status (Oct 20, evening)
 - **Tiny Dictator Cut C:** Claude reviewed 27/30, Alex listened ("the audio is great"). Scheduled Oct 21 12:00 PM, Instagram and Facebook, Eden post ecf87609. Baseline v1.
 - **Dog Sitter Bailed Cut C:** Lex reports real 54.9%, AI 21.9% (problem beat only), graphics 23.2%, Doberman throughout, −14 LUFS, no black frame. Alex listened: good. Claude's frame review is pending: the 6.4 MB review copy is too big for the Drive connector after base64, so the next review copies target under 5 MB. Not scheduled. Posts after Tiny Dictator's 48 hour numbers (Oct 23).
+
+## Dog Sitter Cut C, Claude frame review (Oct 20, late): 22/30. One fix before it posts
+- Passes: Doberman throughout, real 55%, AI couple in the kitchen only, review card, 3 s end card, audio -13.8 LUFS with a 2 LU range (very even). Alex listened: good.
+- **Fails "sharp clips":** the hook (0:00 to 0:02) is an extreme close up that is blurry, grainy and blown out. You can't tell what the dog is. The same soft clip comes back at 0:09 to 0:11 and inside the phone at 0:16 to 0:17. Tiny Dictator opens on a clean, sharp dog walking at the camera; this one opens on mush.
+- **Fix:** open on the sharp Doberman standing in the yard (the 0:03 shot) or the 0:17 walk. Replace the soft 0:09 to 0:11 close ups with the sharp 0:12 to 0:13 shots. Put a sharp clip inside the phone. No credits needed.
