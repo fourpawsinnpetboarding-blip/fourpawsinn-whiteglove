@@ -40,3 +40,9 @@ Reviewed from the 720p copies Alex exported. Frames checked at 1 per second, plu
 - Passes: Doberman throughout, real 55%, AI couple in the kitchen only, review card, 3 s end card, audio -13.8 LUFS with a 2 LU range (very even). Alex listened: good.
 - **Fails "sharp clips":** the hook (0:00 to 0:02) is an extreme close up that is blurry, grainy and blown out. You can't tell what the dog is. The same soft clip comes back at 0:09 to 0:11 and inside the phone at 0:16 to 0:17. Tiny Dictator opens on a clean, sharp dog walking at the camera; this one opens on mush.
 - **Fix:** open on the sharp Doberman standing in the yard (the 0:03 shot) or the 0:17 walk. Replace the soft 0:09 to 0:11 close ups with the sharp 0:12 to 0:13 shots. Put a sharp clip inside the phone. No credits needed.
+
+## Dog Sitter Cut D, Claude review (Oct 20, late): 24/30. Sharp fix passed
+- Fixed: every clip is sharp now, including the hook. Audio unchanged (-13.8 LUFS, 2 LU).
+- Still weak: the proof says "they spent time with him, one on one, building a bond" but no person is on screen. It is the same Doberman walking alone in the yard for about 8 seconds across the hook, proof and ending. Tiny Dictator's proof shows staff hugging and walking the dog.
+- Option 1: add one sharp clip of a team member with the Doberman (petting, leash walk) to the BOND step, if that footage exists. Gets it to 26+.
+- Option 2: post as is on Oct 23 if no such clip exists. It is a test, and it passes every hard rule.
