@@ -6,6 +6,7 @@ Owner: Claude reviews and finishes. Codex builds first cuts. Alex approves.
 1. Codex uploads the **full quality file** to Drive, IN PROGRESS, in a dated folder.
 2. Codex adds an Eden board Request row, Owner Claude, with: the Drive link, the script, which clips are AI and which are real, the music and its license, and the credits spent.
 3. For a quick look, Alex can send the file straight into Claude chat. The final edit always works from the Drive original.
+4. **Review copy (added Oct 21):** Claude's Drive connector only downloads files under 10 MB. Next to every full quality file, Codex saves `[same name]-REVIEW.mp4`: 720p, about 2 Mbps video, audio kept, under 10 MB. Claude pulls that copy straight from Drive, so Alex never has to forward a video.
 
 ## Review scorecard (1 to 5 each, 30 points total)
 1. **Hook (first 2 seconds):** a clear question, tension or pattern break? Is it readable with the sound off?
