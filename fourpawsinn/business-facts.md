@@ -186,3 +186,5 @@ Use this when a lead asks about price, compares us to cheaper places, or asks wh
 
 ## Lead reply tone (Alex, Oct 21, 2026)
 Warm, calm and level. Never gushing. No "sounds like a sweetheart", no "aww", no over the top praise of the dog; it reads fake. Acknowledge what they told us plainly, answer the worry, ask for what we need.
+- Say "us" or "me", never "our team" or "our staff". Four Paws Inn is a family, not a big crew with different faces. Example: "He gets one on one time with us first." (Alex, Oct 21)
+- Don't end on the price ("I'll send you the total"). It turns a conversation into a sale. End with a simple question about the dog or their dates. Price comes when they ask or once we have dates and weight. (Alex, Oct 21)
