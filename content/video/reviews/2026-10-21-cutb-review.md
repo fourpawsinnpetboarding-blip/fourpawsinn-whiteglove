@@ -46,3 +46,11 @@ Reviewed from the 720p copies Alex exported. Frames checked at 1 per second, plu
 - Still weak: the proof says "they spent time with him, one on one, building a bond" but no person is on screen. It is the same Doberman walking alone in the yard for about 8 seconds across the hook, proof and ending. Tiny Dictator's proof shows staff hugging and walking the dog.
 - Option 1: add one sharp clip of a team member with the Doberman (petting, leash walk) to the BOND step, if that footage exists. Gets it to 26+.
 - Option 2: post as is on Oct 23 if no such clip exists. It is a test, and it passes every hard rule.
+
+## Dog Sitter Cut E, Claude review (Oct 20, late): worse than Cut D. Alex: "video is messed up"
+- Broken transition at about 0:08.5: a cream logo panel slides in half way over the couple, "Four Paws" cut off.
+- The checklist idea is good, but it runs over the same Doberman clip used in the hook and the ending. The same shot plays 3 times, about 10 seconds of 26.
+- Checklist text is small and each line replaces the last instead of stacking up.
+- Root cause: we only have one usable clip of this Doberman. More cuts can't fix missing footage.
+- **Decision (Claude's call):** stop at Cut D. Cut D (24/30, sharp, clean) is the version that posts after Tiny Dictator's numbers. The checklist ("No kennels. Outside every hour. Room to run. New friends, slowly. No hidden fees.") moves to the next video, filmed on purpose with one shot per line.
+- Lesson: check the footage library before writing the script. If the hero dog has under 10 seconds of sharp footage, pick another dog or film more first.
