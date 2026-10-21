@@ -359,3 +359,11 @@ Verify: Recommendations > Auto-apply settings > History says "Auto-apply is on f
 Rollback: same page, re-check the 12 types, Save.
 
 Also seen: banner "New form of payment required" on the Google Ads account. If billing fails, ads stop. Alex to fix (needs his card; Claude does not enter payment details).
+
+## Google Ads auto-apply cleanup: CONFIRMED (Alex, Oct 21 2026)
+
+Recommendations, then Auto-apply settings, then History: "Auto-apply is on for 2 recommendation types". Only "Use optimized ad rotation" and "Improve your responsive search ads" are on. Everything else is off: keywords, Display Expansion, all bidding types, store visits and conversion tracking upgrades.
+
+History shows Google applied these on its own while auto-apply was on: 9 keywords added, 5 removed as redundant, Display Expansion twice, CPA target changes twice (last Aug 22, 2025), plus tCPA and tROAS bid switches (Apr and Jun 2025). Worth checking later whether any of those still hurt performance.
+
+Still open: the Billing banner "New form of payment required". Alex has to fix it.
