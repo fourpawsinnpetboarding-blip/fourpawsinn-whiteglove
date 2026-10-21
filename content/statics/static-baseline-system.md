@@ -83,3 +83,25 @@ Dog facts, trivia and generic tips are retired. They go on the "tried, lost" lis
 | Sep to Oct 2026 | Generic pet tips (candy, carriers, walks) | 1 to 3 likes, 0 saves |
 | Oct 2026 | Review roundups (3 reviews in one post) | 1 like |
 | Oct 2026 | Empty mood posts ("a dog on the grass") | 1 like |
+
+## 7. No repeats (Alex, Oct 20: "it's gonna become redundant")
+
+The 3 formats are the frame. The topic inside them must change every time.
+
+**Rules across all slots (7:30 AM, 12 PM reel, 4 PM, YouTube):**
+1. The same topic can't appear in any slot within **14 days**. Check `eden_list_scheduled_posts` (scheduled and posted) before writing.
+2. The same reviewer can't appear within **60 days**. Ledger: `content/morning/ledger.json`.
+3. The same photo can't lead a post within **30 days**.
+4. Each week uses at least **5 different topics** from the bank below, and no topic twice in the same week.
+
+**Topic bank (rotate, don't repeat):**
+| Bucket | Topics |
+|---|---|
+| Parent feelings | guilt before a trip, the first night away, checking your phone, coming home, "is it selfish to travel", leaving a senior dog, the long goodbye |
+| How a stay works | first hour, first night, the slow intro, a rainy day, pool time, nap time, pick up day, the daily video |
+| Dog types | shy dogs, big dogs, seniors, puppies, two dogs from one home, high energy dogs, cats, exotic pets |
+| Real stories | one reviewer per post, their words, their worry, what happened |
+| Booking help | questions to ask, what costs extra, holiday dates filling, what to pack, meet and greets (optional) |
+| Seasonal | Thanksgiving, Christmas, Spring break, summer heat, hurricane season travel |
+
+**Already overused in the queue (Oct 26 to Nov 22 noon reels):** drop off steps (5 reels), packing (5), "read our Google reviews" (4), slow first day (4), energy matching (4). New posts in other slots skip these topics until Dec 1.

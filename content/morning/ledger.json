@@ -34,6 +34,19 @@
         "sniff walks",
         "pet sitter handover checklist"
       ]
+    },
+    "2026-10-19": {
+      "topics": [
+        "review story: shy dog walked in without looking back (Amy R.)",
+        "buyer checklist: 5 questions to ask before you book boarding"
+      ],
+      "facts_used": [
+        "business-facts: free roam, outside every hour, pool, slow intros, no hidden fees, one daily video"
+      ],
+      "reviewers_used": [
+        "Amy R."
+      ],
+      "note": "Swapped in for retired dog trivia carousels a684cf35 and 9b7ba973"
     }
   }
 }

@@ -1,0 +1,145 @@
+{
+  "week": "2026-10-19",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 16:00 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "note": "Swaps for two dog trivia carousels (Oct 22 eyes glow a684cf35, Oct 24 breed facts 9b7ba973), retired by content/statics/static-baseline-system.md.",
+  "posts": [
+    {
+      "day": "Thu",
+      "date": "2026-10-22",
+      "scheduledAtIso": "2026-10-22T07:30:00-04:00",
+      "replaces": "a684cf35-731f-4040-b9ec-6b71491f9457",
+      "format": "carousel",
+      "pillar": "A. Real review story",
+      "angle": "Amy's shy girl walked in without looking back",
+      "slides": [
+        {
+          "type": "photo",
+          "photo": "content/ads/statics/photos/LIB-0033_7.jpg",
+          "focus": "50% 30%",
+          "kicker": "Real review",
+          "title": "Her shy girl didn't even *look back*.",
+          "sub": "Amy's first drop off. Swipe."
+        },
+        {
+          "type": "quote",
+          "theme": "cream",
+          "head": "Drop off day.",
+          "quote": "At drop off, my shy girl felt so comfortable that she pranced off without even looking back at me.",
+          "name": "Amy R."
+        },
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "head": "During the trip.",
+          "quote": "I was so happy to get a little video each day to see her and her wagging tail.",
+          "name": "Amy R."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "Why",
+          "title": "Shy dogs get time.",
+          "body": "A real home, no kennels. One on one time with our team first. New friends only when they're ready."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Got a shy dog?",
+          "title": "Tell us about *them*.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Amy's shy girl walked in at drop off and didn't even look back.\n\n\"At drop off, my shy girl felt so comfortable that she pranced off without even looking back at me.\"\n\nShy dogs don't get rushed here. One on one time with our team first. Then new friends, slowly, when they're ready. You get one video update every day of the stay.\n\nSend us your dates.\n\nIs your dog shy or the life of the party?\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png"
+      ],
+      "edenPostId": "d4b335e6-76d4-49cc-914d-ec2278e1dd91",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-24",
+      "scheduledAtIso": "2026-10-24T07:30:00-04:00",
+      "replaces": "9b7ba973-94f8-4444-93c1-5189bf099a64",
+      "format": "carousel",
+      "pillar": "C. Buyer checklist (save bait)",
+      "angle": "5 questions to ask any boarding place, answered with our facts",
+      "slides": [
+        {
+          "type": "photo",
+          "photo": "content/brand/maps-photos/pool-lab-and-pittie.jpg",
+          "cardTop": true,
+          "focus": "50% 60%",
+          "kicker": "Save this",
+          "title": "5 questions to ask *before* you book boarding.",
+          "size": 80
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Where does my dog spend the day?",
+          "body": "In a kennel or a home? Here: free roam in a real home. No kennels all day."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "How often do they go outside?",
+          "body": "Some places: once a day. Here: outside to play every hour, plus supervised pool time."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "How do new dogs meet the group?",
+          "body": "Here: one on one time with our team first. Then the group, slowly, when they're ready."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "04",
+          "title": "What costs extra?",
+          "body": "Ask about play, toys and baths. Here: no hidden fees. The price we quote is the price you pay."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "05",
+          "title": "How will I see my dog?",
+          "body": "Here: one video update every day of the stay."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Ask us all 5",
+          "title": "Then send us your *dates*.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "5 questions to ask before you book boarding. Save this for your next trip.\n\n1. Where does my dog spend the day?\n2. How often do they go outside?\n3. How do new dogs meet the group?\n4. What costs extra?\n5. How will I see my dog?\n\nOur answers are in the slides. Ask us anything else.\n\nSend us your dates.\n\nWhich question do you always ask first?\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png",
+        "png/sat-06.png",
+        "png/sat-07.png"
+      ],
+      "edenPostId": "20301414-64c7-4621-bdec-96eea7fc926b",
+      "status": "scheduled"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
  * Usage:
  *   NODE_PATH=$(npm root -g) node scripts/morning-posts/render.js 2026-09-28
  *
- * Slide types: hook, point, stat, quote, wall, cta. Themes: cream, pink,
+ * Slide types: hook, point, stat, quote, wall, cta, photo (real photo, full bleed). Themes: cream, pink,
  * charcoal. Optional per slide "layout": a, b or c to vary the accent shapes.
  * Wrap a word in *asterisks* to italicize it with a highlight bar.
  */
@@ -103,7 +103,39 @@ em{font-style:italic;color:${t.fg};background:linear-gradient(transparent 62%, $
 </body></html>`;
 }
 
+// Real photo slide: full bleed photo with a cream card at the bottom.
+// s.photo is a repo relative path to a real Four Paws Inn photo. Never an AI dog.
+function photoHtml(s, counter) {
+  const t = THEMES.cream;
+  const ext = path.extname(s.photo).toLowerCase() === ".png" ? "png" : "jpeg";
+  const img = fs.readFileSync(path.join(__dirname, "..", "..", s.photo)).toString("base64");
+  return `<!doctype html><html><head><meta charset="utf-8">
+<style>${FONT_CSS}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:${W}px;height:${H}px}
+body{position:relative;overflow:hidden;font-family:"DM Sans",sans-serif;color:${t.fg};background:${BRAND.charcoal}}
+.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:${s.focus || "50% 40%"}}
+.shade{position:absolute;left:0;right:0;top:0;height:260px;background:linear-gradient(rgba(0,0,0,.45),transparent)}
+.top{position:absolute;top:66px;left:88px;right:88px;display:flex;justify-content:space-between;font-size:32px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:${BRAND.cream}}
+.top .brand{display:flex;align-items:center;gap:14px}
+.top .brand i{display:block;width:38px;height:38px;color:${BRAND.pink}}
+.card{position:absolute;left:60px;right:60px;${s.cardTop ? "top:150px" : "bottom:60px"};background:${BRAND.cream};border-radius:40px;padding:52px 60px 48px}
+.kicker{display:inline-block;font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:12px 22px;background:${BRAND.pink};color:${BRAND.charcoal};border-radius:999px;margin-bottom:30px}
+.h1{font-family:"Source Serif 4",serif;font-size:${s.size || 84}px;line-height:1.04;font-weight:800;letter-spacing:-.02em}
+em{font-style:italic;background:linear-gradient(transparent 62%, ${BRAND.pink} 62%, ${BRAND.pink} 92%, transparent 92%);padding:0 .06em}
+.sub{font-size:40px;line-height:1.3;margin-top:24px;color:${t.soft};font-weight:500}
+.foot{display:flex;justify-content:space-between;margin-top:30px;padding-top:22px;border-top:2px solid ${t.line};font-size:32px;font-weight:500;color:${t.soft}}
+.foot b{font-weight:700;color:${t.fg};letter-spacing:.1em}
+</style></head><body>
+<img class="ph" src="data:image/${ext};base64,${img}">
+<div class="shade"></div>
+<div class="top"><div class="brand"><i>${PAW}</i>Four Paws Inn</div></div>
+<div class="card">${s.kicker ? `<div class="kicker">${esc(s.kicker)}</div>` : ""}<div class="h1">${rich(s.title)}</div>${s.sub ? `<div class="sub">${rich(s.sub)}</div>` : ""}<div class="foot"><div>@fourpawsinnpetboarding</div>${counter ? `<b>${esc(counter)}</b>` : "<div>fourpawsinn.co</div>"}</div></div>
+</body></html>`;
+}
+
 function slideHtml(s, counter) {
+  if (s.type === "photo") return photoHtml(s, counter);
   const t = THEMES[s.theme] || THEMES.cream;
   let inner = "";
   switch (s.type) {
