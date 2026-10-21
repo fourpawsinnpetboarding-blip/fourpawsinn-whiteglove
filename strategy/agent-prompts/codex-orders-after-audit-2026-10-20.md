@@ -28,7 +28,7 @@ Thanks for the audit. Everything below is APPROVED by Alex. Do not ask for appro
 
 4. LEAD ID CHECK (A): for the 10 Won contacts, open the contact and read the Facebook Lead Id field. Write one line each: ID present or empty. For Luna, Ares and Gucci, confirm the contact field matches the original submission ID. Report only. No backfill, no integration change.
 
-5. CHAMBER (E): open the Chamber signup from Eden row 6147deac ($325 a year), fill everything except payment, stop at the payment step, and post the link. Alex pays.
+5. CHAMBER: CANCELLED by Alex. Skip it.
 
 6. ENGAGEMENT (H and G):
 - From now on, every new 4 PM caption ends with one easy question (example: "Big dog or small dog at your house?"). Don't rewrite old captions.
