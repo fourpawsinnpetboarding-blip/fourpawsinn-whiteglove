@@ -10,9 +10,10 @@ Owners: Codex builds from this file. Claude checks against it, updates it and ke
 
 | Item | Value |
 |---|---|
-| File | `AD-TinyDictator-CutC.mp4`, Drive folder 2026-10-20 |
-| Score | to confirm at review (target 27/30) |
-| Posted | Oct 21, 12:00 PM (planned) |
+| File | `AD-TinyDictator-CutC.mp4` (Drive file 1FsgOdgffmEkaqhatt-ZIxVc2JaQVBJ4G), folder 2026-10-20 |
+| Score | **27/30** (Claude review Oct 20). Alex listened: "the audio is great" |
+| Audio | −13.8 LUFS, 3.5 LU range, peak −1.1 dB |
+| Posted | Oct 21, 12:00 PM, Instagram and Facebook |
 | 48 hour numbers | fill in Oct 23 |
 
 ### The baseline structure (26 to 27 seconds)
@@ -25,6 +26,21 @@ Owners: Codex builds from this file. Claude checks against it, updates it and ke
 | 0:19 to 0:21 | **Payoff** | Phone notification: "Four Paws Inn: new video of your pup", playing the real hero dog | Matches the offer: one daily video |
 | 0:21 to 0:23 | **Review** | Real Google review card, word for word, first name, "230+ Google reviews" pill | The quote may not promise anything we don't sell |
 | 0:23 to 0:26 | **CTA (call to action)** | Logo end card, "Comment DATES" typing animation, fourpawsinn.co | 3 seconds. No black frame after it |
+
+### The footage mix (Alex, Oct 20: "more authentic footage than AI footage makes it better")
+
+What the baseline actually is, second by second (26 s):
+| Type | Seconds | Share |
+|---|---|---|
+| Real Four Paws Inn footage (hook dog, staff bonding, intros, phone video) | 14 | **about 55%** |
+| AI people (the couple, problem beat only) | 6 | **about 23%** |
+| Brand graphics (review card, end card) | 6 | about 22% |
+
+**The rule for every new video:**
+1. Real footage is at least **half** the video. More is better.
+2. AI is capped at **25%** of the runtime, and only in the problem beat (the setup or the joke). Never in the hook, the proof or the payoff.
+3. AI is only ever people. Every dog is real. The hero dog in the hook is real.
+4. When in doubt, cut AI seconds and add real footage. A video with no AI at all is fine.
 
 **Audio:** narration on top, music ducked under the voice, final mix at −14 LUFS (the loudness unit social apps play at), peak under −1 dB. Licensed music, with the credit line in the caption.
 
@@ -41,6 +57,7 @@ Codex runs this before saving. Claude runs it again at review. **Any "no" sends 
 4. [ ] The first frame isn't a repeat of the last frame unless the loop is planned. *(Dog Sitter Cut A: opening loop)*
 
 **Truth and offer**
+0. [ ] Real footage is at least 50% of the runtime and AI people are 25% or less, in the problem beat only. *(Alex, Oct 20: Tiny Dictator Cut C works because it is mostly real)*
 5. [ ] Every dog on screen is real footage. AI people only, labeled "Dramatization. Real dogs, real home." *(Cut A of both: AI dogs)*
 6. [ ] AI backgrounds look like South Florida: a living room, patio or yard. No sea cliffs, mountains or Europe. *(Dog Sitter Cut B, 0:16)*
 7. [ ] The review quote matches today's offer: ONE daily video. No "pictures", "photos", "a few times a day" or "updates all day". *(Tiny Dictator Cut B)*
