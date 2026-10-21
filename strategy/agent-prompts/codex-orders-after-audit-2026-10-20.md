@@ -40,3 +40,12 @@ Thanks for the audit. Everything below is APPROVED by Alex. Do not ask for appro
 
 Report back in the same table format when 0 to 3 are done, then again when all are done.
 ```
+
+## Results (Codex, Oct 20, late)
+- Leads: 8 updated in GHL, Ally Won $375, 7 duplicate opportunities abandoned. Welcome guide custom value and "Arrival guide" snippet saved (not in any workflow).
+- **Future Travel workflow fixed** (retired required overnight wording):
+  - Day 1 before: "Quick note on how we do things here: every new pup starts with one overnight stay with us before a big trip."
+  - Day 6 before: "New pups need their first overnight at least a week before a holiday stay."
+  - Both now: "If your pup is new to boarding, we may suggest one short overnight first. It helps us bond with your pup, so longer stays feel familiar."
+- Booked Local kit: checklist Sheet, intake form, template folder and bilingual access guide uploaded (links in Codex's Eden row).
+- Chamber: cancelled by Alex, not submitted.
