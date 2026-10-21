@@ -116,7 +116,7 @@ The score gets a video posted. The real numbers decide the baseline. Score alone
 
 Meta asks creators to disclose realistic AI people and can label or limit posts that hide it. The real risk for a business is looking deceptive. These rules cover both.
 
-1. **Disclose every time.** On screen: "Dramatization. Real dogs, real home." In the caption: "Dramatization with AI actors. Real dogs, real home." On Instagram: turn on the AI label (Eden does it). Facebook: the caption line is the disclosure, because Eden can't set Facebook's label.
+1. **Disclose every time, lightly.** On screen: "Dramatization. Real dogs, real home." as a small line at the top for the **first 2 seconds only**, then gone (Alex, Oct 20: don't let it sit on the video). In the caption: "Dramatization with AI actors. Real dogs, real home." On Instagram: turn on the AI label (Eden does it). Facebook: the caption line is the disclosure, because Eden can't set Facebook's label.
 2. **AI is never a customer, a review, a staff member or a result.** AI people only act out the problem (the worried couple, the joke). Testimonials, reviews, Amanda, Alex and the team are always real.
 3. **Never an AI copy of a real person** (Amanda, Alex, a client) and never a real client's name on an AI face.
 4. **Every dog is real.** Proof, results and the hero dog are real footage.
