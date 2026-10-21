@@ -366,4 +366,4 @@ Recommendations, then Auto-apply settings, then History: "Auto-apply is on for 2
 
 History shows Google applied these on its own while auto-apply was on: 9 keywords added, 5 removed as redundant, Display Expansion twice, CPA target changes twice (last Aug 22, 2025), plus tCPA and tROAS bid switches (Apr and Jun 2025). Worth checking later whether any of those still hurt performance.
 
-Still open: the Billing banner "New form of payment required". Alex has to fix it.
+Billing: FIXED by Alex, Oct 21 2026 (card updated and balance paid).
