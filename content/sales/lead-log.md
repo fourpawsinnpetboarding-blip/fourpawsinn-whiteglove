@@ -1,0 +1,32 @@
+# Lead log: what closed, what didn't, and why (started Oct 22, 2026)
+
+Alex, Oct 22: "I feel like we might be rushing these decisions. It's a lot of money for some of these people and we're pushing it on the second or third reply."
+
+Every lead Claude drafts for gets one row here. Update the row when the lead books, goes quiet or says no. Review every Monday with the scoreboard.
+
+## Leads, Oct 2026
+| Lead | Dog | Stay and quote | Reply where price and deposit first appeared | Outcome | What happened |
+|---|---|---|---|---|---|
+| Ally Palacios | Toby | Oct 22 to 26, $375 | after she asked | BOOKED, deposit paid | She had dates and asked; we answered |
+| Kirsten Messina | Oliver | Dec 4 to 6 and Dec 26 to Jan 2 | several messages in, after she shared the dog and photos | BOOKED, deposit paid | Real conversation first, then price |
+| Chelsey | Leah, 9 mo | Nov 15 to 21, $420 / $360 | reply 2, with deposit | Open | Asked "can we arrange the price" (looking for a discount); we held price |
+| Rachel Nunez | Mia and Brody | Oct 22 to 25/26, $460 / $575 | reply 2, with deposit in the same message | Not booked | Last minute; our pick up hours did not fit her 11 PM return. Hours, not pushing, were the deal breaker |
+| Daimara | Dogy, Beagle 30 lb | Dec 21 to 31, $660 / $600 | reply 3, with deposit and "Christmas is almost booked" in one message | Comparing options | Price, deposit and urgency all landed at once, before she knew us |
+| Dennis Dimartino | Jupiter | dates not given | not yet | Open | Asked dates, age, weight |
+| Shane Howard | Dozer | Oct 29 to Nov 7 | not yet | Open | Waiting on breed and weight |
+| Marlo, Isabella | | | | Said no | Isabella wanted daycare only |
+
+## What the pattern says (small sample, but clear enough to act on)
+1. **The two that booked talked with us first.** Ally and Kirsten shared their dog, asked their own questions, and asked for the price. Price followed their interest.
+2. **The ones that stalled got price, deposit and urgency in the same message,** on reply 2 or 3. For a $600+ decision from a stranger, that reads as a sale, not a conversation.
+3. **Rachel was a fit problem, not a pushing problem.** No reply would have fixed an 11 PM pick up.
+
+## New reply pacing (replaces "every reply pushes toward deposit")
+1. **Reply 1: the dog.** Name, breed, age, weight, how they do with other dogs, dates. Warm and curious. No price unless they asked.
+2. **Reply 2: their worry.** Answer the worry they named (shy dog, other dogs, first time boarding). Offer proof: "Want me to send a quick video of the yard and the dogs?" Ask one question about their dog's routine.
+3. **Price: when they ask, or once they've engaged about the dog.** Higher number first, the before 10 AM number, value next to it, all 3 payment options. End with a question about the dog or the dates, NOT "want me to hold it?"
+4. **Deposit: only after they say yes or ask how to book.** Then: "Great. To hold the dates the deposit is 25%, $X. Zelle, Apple Pay or card, whichever is easiest."
+5. **Urgency (holidays filling): only if true, only once, and never in the same message as the first price.**
+6. **Comparing or "let me think":** short, warm, no push. One soft check in about 5 to 7 days later with something useful (a video of a dog like theirs, an answer to a common worry), never "just following up".
+
+Exception: a lead who already gives dates, dog details and asks the price in the first message (like Ally) gets the price right away. Match their speed, never get ahead of it.
