@@ -1,0 +1,305 @@
+{
+  "week": "2026-10-26",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "design": "brand v1: cream #FAF7F3, pink #E6A0A3, charcoal #353532. Nov 1 uses -05:00 (DST ends).",
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-10-26",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "School pickup is the best part of the day. Plan your dog's pickup. Last day free before 10 AM.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "School pickup is the *best* part of the day.",
+          "sub": "Your dog's pickup can be, too. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Every parent knows it.",
+          "body": "The bell rings. The doors open. Your kid spots you and runs."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Coming back is a big moment.",
+          "body": "Plan to be there and enjoy it. Keep the hello calm and happy."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Pick up early, save a day.",
+          "body": "Pick up before 10 AM on your last day and that day is free. Pickup is 9 AM to 8 PM, every day.",
+          "layout": "b"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "layout": "a",
+          "kicker": "Planning a trip?",
+          "title": "Send us your dates.",
+          "body": "Home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "School pickup is the best part of the day. Your kid spots you and runs.\n\nComing back to your dog is a big moment too. Plan to be there and enjoy it.\n\nHere is a tip. If you pick up before 10 AM on your last day, that last day is free. Pickup is 9 AM to 8 PM, seven days a week.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-26T07:30:00-04:00",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png"
+      ],
+      "edenPostId": "c099cc8a-87f8-4ed4-8a94-4472d22b7b0e",
+      "status": "scheduled"
+    },
+    {
+      "day": "Tue",
+      "date": "2026-10-27",
+      "format": "static",
+      "pillar": "Fun fact",
+      "angle": "Adult dogs sleep 12 to 14 hours a day (AKC).",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "charcoal",
+          "layout": "c",
+          "kicker": "Fun fact",
+          "stat": "12 to 14",
+          "label": "hours a day that an adult dog *sleeps.*",
+          "source": "AKC",
+          "sub": "Puppies and seniors often sleep even more."
+        }
+      ],
+      "caption": "An adult dog sleeps about 12 to 14 hours a day. That is a lot of naps.\n\nPuppies and seniors often sleep even more.\n\nSave this for the next time your dog is snoring on the couch.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-10-27T07:30:00-04:00",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "edeb21f2-12f3-4617-a120-9c285ca26b29",
+      "status": "scheduled"
+    },
+    {
+      "day": "Wed",
+      "date": "2026-10-28",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "Why dogs tilt their heads (AKC).",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "layout": "c",
+          "kicker": "Dog behavior",
+          "title": "Why does your dog *tilt* their head?",
+          "sub": "Three ideas from the AKC. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "To hear you better.",
+          "body": "A tilt may move the ears. That could help your dog find where a sound comes from.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "To see your face.",
+          "body": "A dog's muzzle can block the view. A tilt may help them see your face and read it.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Because it works.",
+          "body": "It often comes right before a treat or a walk. So your dog may do it again.",
+          "source": "AKC",
+          "layout": "a"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "layout": "b",
+          "kicker": "Want to know your dog?",
+          "title": "Tell us about yours.",
+          "body": "Home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Why does your dog tilt their head?\n\nThe AKC says there is no one answer. Here are three ideas.\n\n1. It may help them find where a sound comes from.\n2. It may help them see your face past their muzzle.\n3. It often comes before a treat or a walk, so they may keep doing it.\n\nEvery dog has little habits like this. Tell us about yours.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogBehavior #MiramarDogs #DogBoarding",
+      "scheduledAtIso": "2026-10-28T07:30:00-04:00",
+      "files": [
+        "png/wed-01.png",
+        "png/wed-02.png",
+        "png/wed-03.png",
+        "png/wed-04.png",
+        "png/wed-05.png"
+      ],
+      "edenPostId": "96e5ca40-089d-4429-850a-d4442d882c40",
+      "status": "scheduled"
+    },
+    {
+      "day": "Thu",
+      "date": "2026-10-29",
+      "format": "static",
+      "pillar": "Review",
+      "angle": "Worried owner reassured. Craig B.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "pink",
+          "layout": "b",
+          "head": "Worried? *Tell* us.",
+          "quote": "I expressed all my concerns and Amanda reassured all would be well. I received daily pics and videos and communication was clear.",
+          "name": "Craig B."
+        }
+      ],
+      "caption": "Craig had concerns before his dog's stay. He told us all of them.\n\nHere is what he wrote in his Google review.\n\nBig worry or small one, tell us. It helps us plan the stay.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-29T07:30:00-04:00",
+      "files": [
+        "png/thu-01.png"
+      ],
+      "edenPostId": "9deb5095-902e-47cc-8e5c-d6a4b492deb2",
+      "status": "scheduled"
+    },
+    {
+      "day": "Fri",
+      "date": "2026-10-30",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "Holiday childcare planning. Plan the dog too.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "layout": "b",
+          "kicker": "Holiday travel",
+          "title": "You plan the *holidays* for the kids early.",
+          "sub": "Plan for your dog too. Send us your dates."
+        }
+      ],
+      "caption": "Parents plan holiday care early. Who has the kids. Who drives. Who is home.\n\nYour dog needs a plan too.\n\nSend us your holiday travel dates now. Tell us about your dog. We will confirm the details with you.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-10-30T07:30:00-04:00",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "3a3ca204-9334-43bb-b8fc-7e96a4c6aee3",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-10-31",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "3 breed facts: Newfoundland webbed feet, Basenji yodel, Dachshund means badger dog (AKC).",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "layout": "a",
+          "kicker": "Fun facts",
+          "title": "3 breed facts to win the *bet.*",
+          "sub": "All true. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Newfoundlands have webbed feet.",
+          "body": "The webs help them push through water. They are strong swimmers.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "pink",
+          "num": "02",
+          "title": "Basenjis can not bark like other dogs.",
+          "body": "They yodel instead. Their voice box has an unusual shape.",
+          "source": "AKC",
+          "layout": "b"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Dachshund means badger dog.",
+          "body": "It is German. The breed was built to go after badgers.",
+          "source": "AKC",
+          "layout": "a"
+        },
+        {
+          "type": "cta",
+          "theme": "charcoal",
+          "layout": "c",
+          "kicker": "Which one did you know?",
+          "title": "Tell us about your dog.",
+          "body": "Home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "3 breed facts to win the bet. All true.\n\n1. Newfoundlands have webbed feet. The webs help them push through water.\n2. Basenjis cannot bark like other dogs. They yodel.\n3. Dachshund is German for badger dog.\n\nWhich one surprised you? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "scheduledAtIso": "2026-10-31T07:30:00-04:00",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png"
+      ],
+      "edenPostId": "2807835d-2e65-4d18-bb43-a479b139ada6",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sun",
+      "date": "2026-11-01",
+      "format": "static",
+      "pillar": "Review wall",
+      "angle": "Happy dogs, happy parents.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "layout": "b",
+          "title": "Happy dogs. *Happy* parents.",
+          "quotes": [
+            {
+              "text": "We couldn’t be happier with the care our puppy Zero received!",
+              "name": "Camila V."
+            },
+            {
+              "text": "Amanda did such an amazing job with Cane, our English Bulldog. He was so happy at Four Paws.",
+              "name": "Yoanny G."
+            },
+            {
+              "text": "Lovely family my dog was extremely happy. I received videos everyday I would recommend them any day.",
+              "name": "Cindy D."
+            }
+          ]
+        }
+      ],
+      "caption": "Happy dogs. Happy parents.\n\nThree families. Three Google reviews. Real words from real pet parents.\n\nPlanning a trip? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-11-01T07:30:00-05:00",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "1b472301-fbaa-48c6-aa28-21bde0d6d39f",
+      "status": "scheduled"
+    }
+  ]
+}
