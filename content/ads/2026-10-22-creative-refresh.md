@@ -2,6 +2,18 @@
 
 Source: `four-paws-inn-creatives 2.zip` in Drive (Codex export of the 10 image ads in "New Dog Ad -Vid/Image", plus their copy).
 
+## Correction: the real winner (Alex screenshot, Oct 22)
+Static Reviews is a news article style image: masthead "South Florida Pet Report", "Local, Trending, Pet Care", headline "The $60/Night Dog Boarding in Miramar with 173 Five-Star Reviews That Pet Parents Are Calling a Hidden Gem", byline "Staff Reporter, March 2026", two photos (woman hugging a shepherd mix, two dogs in a pool). Codex's zip note was wrong (the navy listing image is on a paused duplicate). 42 likes, 18 shares on the boosted post.
+
+Risks in the winner: fake publication and "Staff Reporter" (reads as real press), 173 count (real 231), "$60/Night" (we price by the day), caption "safe haven" and "limited spots". Open question for Alex: are the 2 photos real Four Paws Inn photos or AI?
+
+News style refresh (Higgsfield, from the live image):
+| # | Version | Job |
+|---|---|---|
+| R1 | Winner kept as is, facts fixed (230+, no "safe", no "limited spots") | 2e3a4e8f-e898-4d9f-82e3-31c79d83163a |
+| R2 | Honest masthead "The Miramar Dog Report, by Four Paws Inn", byline Amanda and Alex, hidden gem headline, real Labs | 1403dc0e-311b-4517-8606-d3acc3c3b1f7 |
+| R3 | Same honest masthead, Drop off headline, real hug photo + Lab | d2258a88-bb16-446a-934c-d28b3becd374 |
+
 ## What the data says (last 30 days, ads over $5 spend)
 
 | Ad | Spend | Leads | CPL |
