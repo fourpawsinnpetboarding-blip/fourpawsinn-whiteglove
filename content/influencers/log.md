@@ -31,3 +31,4 @@ Codex row f90e24bf: v2 pitch in all DMs, GHL creator code field, payouts sheet.
 - Oct 19 inbox check (10:53 AM): no creator or YMCA replies. No new verified creator emails. trainer-candidates.md still not created. Nothing sent.
 - Oct 20 inbox check (10:53 AM): no creator or YMCA replies. No new verified creator emails. trainer-candidates.md still not created, so no trainer emails. YMCA $50 donation still waiting on Alex or Amanda. Nothing sent.
 - Oct 21 inbox check (10:54 AM): no creator, YMCA or trainer replies. No new verified creator emails. trainer-candidates.md still not created, so no trainer emails. YMCA $50 donation still waiting on Alex or Amanda. Nothing sent.
+- Oct 22 inbox check (10:54 AM): Gmail search blocked by a Gmail API rate limit (quota exceeded), so replies were not checked. Alex had just said "wait" on other work, so no outreach emails were sent. creators.md and trainer-candidates.md unchanged. Next run checks again.
