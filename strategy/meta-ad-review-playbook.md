@@ -53,6 +53,25 @@ Ads Manager, then the three lines menu, then **All tools**, then under **Adverti
 - **Not allowed:** any generation that creates or changes dogs, people, our home, or yards ("swap product," "change visual elements," "try a new style" on photos of real dogs). Real animals and places only come from real footage. Same rule as `fourpawsinn/business-facts.md`.
 - No health claims, safety guarantees or medical outcomes in any ad copy.
 
+## Ad fatigue protocol (Jeremy Haynes reel, Alex sent Oct 22, 2026)
+
+Fatigue is Meta asking for fresh creative. It shows up 3 ways: CPL climbs, lead volume drops, or the same message starts bringing in worse leads (no replies, wrong size dog, price shoppers).
+
+**Triggers (any one, on a winner):**
+1. CPL over $25 for 3 days in a row (baseline $15.06, Oct 17 to 21).
+2. Leads per day down by half week over week at the same spend.
+3. Amanda says the leads from that ad stopped booking.
+
+**Protocol:**
+1. Duplicate the ad set (or campaign) that holds the winner.
+2. In the copy, swap the old image or video for fresh creative with the **same message**: a new real review, a new real photo, or the same script re filmed. It has to look new to Meta.
+3. Pause the old one only after the copy spends 3 days.
+4. If the protocol fails twice on the same message, the message is dead. Find new hooks.
+
+**Before a trigger hits:** keep 2 fresh versions of every winner ready (Static Reviews: 2 new real review statics with new real photos, built in Higgsfield, no AI dogs). Don't refresh a winner that isn't fatigued: it resets learning for nothing.
+
+**History:** Static Reviews fatigued once already (Sep 29: $44.38 CPL, up 70% in 4 weeks). A copy refresh brought it back to $15.06 by Oct 21.
+
 ## What the video suggests about our account
 
 Meta's creative insights favor human connection and trust signals over flat, designed statics. That is a signal our review graphic ad may fatigue faster than real footage. That is why the September 28 test adds real video ads next to it.
