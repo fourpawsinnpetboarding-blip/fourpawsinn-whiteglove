@@ -27,6 +27,11 @@ Source: `four-paws-inn-creatives 2.zip` in Drive (Codex export of the 10 image a
 | N2 | Drop off: "Pull up. Text us. We bring your dog to your car." | Woman with Lab (AD21) | 9557e2ac-3815-462c-be09-193086f86480 |
 | N3 | Mark's review card + "No kennels. No crates. A real home." | Close up hug (AD15) | c715598e-6f62-4d81-8585-bd883634409a |
 
+| P1 | Newspaper: "Miramar Dog Parents Call This Home a Hidden Gem" (The Four Paws Inn Times) | Elaine's Lab (AD18) | 8f0d6bd6-9362-4f2e-8704-cda4453c1844 |
+| P2 | Newspaper: "Drop Off Takes 20 Seconds. Most Families Never Leave Their Car." | Woman with Lab (AD21) | 766a2550-d907-4860-b4c0-594c81ea1254 |
+
+Alex, Oct 22: the styles he wants are the winning "Hidden Gem" listing and a newspaper theme. The masthead is our own name on purpose: never a real paper's name and never "as featured in", because that would be fake press. N1, P1, P2 are the shortlist.
+
 Claude can't open Higgsfield output from the cloud (CDN blocked). Alex checks: text spelled right, dogs and people unchanged from the real photos.
 
 ## Launch plan (after Alex approves the images)
