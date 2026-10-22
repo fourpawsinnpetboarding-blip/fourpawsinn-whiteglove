@@ -63,3 +63,20 @@ Alex: the news report theme is THE static angle. It reads as an outside source v
 - Guardrails kept: masthead "South Florida Pet Report" with no fake "Staff Reporter" byline or date; every fact true (230+, $60 a day, one daily video); real photos only.
 - Images hosted on Eden (Meta can't fetch Higgsfield's CDN): aad05dbf, 40f27252, 159d57dd under public.eden.so/scheduling/.
 - Recheck: Oct 25. Pause any ad over $34 CPL after 2x that in spend.
+
+## Newspaper Style Test (Alex chose option A, Oct 22, 2026)
+Winner left alone (Alex: "Leave the winner alone"). Separate campaign tests the newspaper style. Bank of 12, 6 live, rotate every 4 to 5 days: pause the 2 weakest, add 2 from the bank.
+
+- Campaign "FPI Newspaper Style Test Oct 2026" 52664769141924, ACTIVE. Ad set "Newspaper Styles Round 1 15mi Broad" 52664769169324, $50 a day, lead form 1479678017305071.
+- Paused: ad set R3 News Report Statics 52664709285324 (its money moved here). Total Meta spend stays $98 a day ($48 baseline + $50 test).
+- Round 1 is matched pairs (same hook, two styles), so the style is the only difference:
+
+| Hook | South Florida Pet Report (modern) | The Four Paws Times (vintage) |
+|---|---|---|
+| Hidden gem | 52664769314924 (job cded6d16) | 52664769357324 (job 8c81a15f) |
+| Refuse to leave | 52664769327924 (job 1d8b26ee) | 52664769399924 (job 6008db78) |
+| Drop off 20 seconds | 52664769341324 (job 6036b1ab) | 52664769417724 (job c7fd5164) |
+
+- Bank (not live): SFPR skipping the kennel d6758c33, SFPR big facilities d02981b7, SFPR "I didn't want my dog crated" df097cdf; Times no kennels $60 704f2530, Times big facilities 0d86e05e, Times five stars Marietta a7eb9fc4.
+- Next: Amanda at the door still from the meet and greet video goes into Round 2.
+- Check: Oct 25 and Oct 27. Style wins when it has the lower cost per lead across all 3 pairs with at least $40 spend per style.
