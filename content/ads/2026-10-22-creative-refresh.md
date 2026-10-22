@@ -19,7 +19,7 @@ News style refresh (Higgsfield, from the live image):
 | Ad | Spend | Leads | CPL |
 |---|---|---|---|
 | R1 C4 Drop off (original) | $74.92 | 8 | $9.37 |
-| Static Reviews (navy "hidden gem" listing graphic) | $1,051.38 | 57 | $18.45 |
+| Static Reviews (news article "South Florida Pet Report") | $1,051.38 | 57 | $18.45 |
 | Other Drop off hook versions, combined | $370.86 | 11 | $33.71 |
 | The 9 cream branded statics (AD09 to AD32) | under $17 each | 0 to 1 | Meta barely served them |
 
