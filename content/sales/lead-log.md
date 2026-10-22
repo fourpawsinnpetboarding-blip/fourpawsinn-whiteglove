@@ -30,3 +30,23 @@ Every lead Claude drafts for gets one row here. Update the row when the lead boo
 6. **Comparing or "let me think":** short, warm, no push. One soft check in about 5 to 7 days later with something useful (a video of a dog like theirs, an answer to a common worry), never "just following up".
 
 Exception: a lead who already gives dates, dog details and asks the price in the first message (like Ally) gets the price right away. Match their speed, never get ahead of it.
+
+## "Take your time" reply (Alex, Oct 22, 2026)
+For a lead who has the price and is deciding, or for a big stay (holidays, a week or more). Tone: here's how it works, take your time, we're here.
+
+```
+Here's how it works with us, so you have everything in one place.
+
+1. You send the 25% deposit to hold the dates. Zelle, Apple Pay or card.
+2. We send a short form and our boarding agreement.
+3. The rest is paid before drop off.
+
+I know this is a big decision, so take the time you need. If you'd like to see the home first, we do meet and greets on Tuesdays. Just let me know.
+
+[Week] is filling up. If it gets close to full, I'll give you a heads up before your dates are gone. No pressure at all.
+```
+
+What it changes vs the old way:
+- Explains the process instead of asking for the deposit. The lead decides when.
+- Offers the Tuesday meet and greet as a way to decide, for leads who are weighing a big stay. Still never required, and never offered as a trial or dog intro.
+- Availability becomes a service ("I'll give you a heads up") instead of pressure. Only say a week is filling up when it is.
