@@ -94,3 +94,8 @@ Topic ideas to rotate when we need fresh ones: parent feelings (guilt, first nig
 ## 8. Paid static standard: the news report (Alex, Oct 22, 2026)
 The best Meta static ever run is a news article style image ("South Florida Pet Report": masthead, category line, big serif headline, two real photos). Alex: "This is the angle and approach we need with our static images." Why it works: it reads like a story, not an ad; the headline says what we are, where, and the price, so it filters out leads who can't afford it.
 Rules: headline = what + where + $60 a day + proof (230+ five star reviews). Real photos only. Every fact true. No fake byline ("Staff Reporter"), no date, never a real publication's name. Builds and ad IDs: content/ads/2026-10-22-creative-refresh.md.
+
+**Masthead (Alex, Oct 22):** "The Four Paws Times". The play on words is the fun and keeps it honest: it's our paper, so nobody is misled. Look: vintage 1940s broadsheet, blackletter masthead, aged newsprint, halftone photos.
+**Photos:** the original winner's photos are AI (Alex, Oct 22). New versions use real photos only (Drive folder 1tfry0_4xGwbkd_nWdDhIBt1DvGpE8isM has real ones: photo-01 to photo-10).
+**Hook bank:** "See Why Miramar Dog Parents Are Calling This the Hidden Gem" (Alex: gold) / "Local Dogs Refuse to Leave Miramar Home" (Elaine's review) / "Drop Off Takes 20 Seconds. Most Families Never Leave Their Car." Price in the masthead line ("Price: $60 a Day") or the headline, every time.
+**Builds:** Times 1 hidden gem 8c81a15f, Times 2 refuse to leave 6008db78, Times 3 drop off c7fd5164 (Higgsfield job ids).
