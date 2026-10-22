@@ -80,3 +80,9 @@ Winner left alone (Alex: "Leave the winner alone"). Separate campaign tests the 
 - Bank (not live): SFPR skipping the kennel d6758c33, SFPR big facilities d02981b7, SFPR "I didn't want my dog crated" df097cdf; Times no kennels $60 704f2530, Times big facilities 0d86e05e, Times five stars Marietta a7eb9fc4.
 - Next: Amanda at the door still from the meet and greet video goes into Round 2.
 - Check: Oct 25 and Oct 27. Style wins when it has the lower cost per lead across all 3 pairs with at least $40 spend per style.
+
+## Static Reviews Refresh campaign (Alex: "Yes $25", Oct 22, 2026)
+The updated twin of the winner, on its own budget, next to the untouched original.
+- Campaign "Static Reviews Refresh Oct 2026" 52664788351324. Ad set "Static Reviews Refresh (twin of winner)" 52664788365724, copied from the winner's ad set 52586440814124 (same audience), $25 a day.
+- Ad "Static Reviews Refresh 230+" 52664788411324: same South Florida Pet Report design, review count 230+, cleaner text (no "safe", no "limited spots", "a day" not "night"). Image: public.eden.so/.../aad05dbf-1858-4b01-8afe-403e9313783a.png (Higgsfield job 2e3a4e8f). Note: photos are the winner's original AI photos (Alex, Oct 22).
+- Total Meta spend: $48 winner + $50 style test + $25 twin = $123 a day.
