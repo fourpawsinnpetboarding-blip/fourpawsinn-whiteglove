@@ -37,8 +37,8 @@ For a lead who has the price and is deciding, or for a big stay (holidays, a wee
 ```
 Here's how it works with us, so you have everything in one place.
 
-1. You send the 25% deposit to hold the dates. Zelle, Apple Pay or card.
-2. We send a short form and our boarding agreement.
+1. You fill out a short form about your dog and sign our boarding agreement.
+2. A 25% deposit holds the dates. Zelle, Apple Pay or card.
 3. The rest is paid before drop off.
 
 I know this is a big decision, so take the time you need. If you'd like to see the home first, we do meet and greets on Tuesdays. Just let me know.
