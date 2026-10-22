@@ -89,3 +89,8 @@ Dog facts, trivia and generic tips are retired. They go on the "tried, lost" lis
 Repeat what works. New people find the page every day, and nobody tracks the feed that closely. Only rule: **leave big gaps** between the same topic (aim for about 2 weeks), and change the photo or the opening line when a winner comes back.
 
 Topic ideas to rotate when we need fresh ones: parent feelings (guilt, first night away, coming home), how a stay works (first hour, pool time, the daily video), dog types (shy, big, senior, two dogs, cats), real review stories, booking help (questions to ask, what costs extra, holiday dates), seasonal (Thanksgiving, Christmas, spring break).
+
+
+## 8. Paid static standard: the news report (Alex, Oct 22, 2026)
+The best Meta static ever run is a news article style image ("South Florida Pet Report": masthead, category line, big serif headline, two real photos). Alex: "This is the angle and approach we need with our static images." Why it works: it reads like a story, not an ad; the headline says what we are, where, and the price, so it filters out leads who can't afford it.
+Rules: headline = what + where + $60 a day + proof (230+ five star reviews). Real photos only. Every fact true. No fake byline ("Staff Reporter"), no date, never a real publication's name. Builds and ad IDs: content/ads/2026-10-22-creative-refresh.md.

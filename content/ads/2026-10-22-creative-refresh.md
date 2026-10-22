@@ -52,3 +52,14 @@ Claude can't open Higgsfield output from the cloud (CDN blocked). Alex checks: t
 3. Budget $50 a day. Switch on, then pause R1 and R2 (52661716488724). Total spend stays $98 a day.
 4. Static Reviews untouched (frequency 1.18, not fatigued).
 5. Recheck after 3 days of spend; any ad over $34 CPL with 2x spend pauses.
+
+## Launched (Alex approved, Oct 22, 2026)
+Alex: the news report theme is THE static angle. It reads as an outside source vouching for us, the headline says what we are and who we are, and the price in the headline filters out leads who can't afford it.
+
+- New ad set "R3 News Report Statics 15mi Broad" 52664709285324 (copy of R1 targeting), $50 a day, ACTIVE.
+- Ads: Control R1 C4 Drop off 52664710669124 (original creative 2119522625317281); News1 winner refresh 52664710843324; News2 skipping the kennel 52664710887324; News3 drop off 20 seconds 52664710934724. All on lead form 1479678017305071, CTA Book Travel.
+- Paused: R1 Concepts 52660845527724, R2 All Hooks 52661716488724. Total spend: $48 baseline + $50 = $98 a day.
+- Static Reviews untouched.
+- Guardrails kept: masthead "South Florida Pet Report" with no fake "Staff Reporter" byline or date; every fact true (230+, $60 a day, one daily video); real photos only.
+- Images hosted on Eden (Meta can't fetch Higgsfield's CDN): aad05dbf, 40f27252, 159d57dd under public.eden.so/scheduling/.
+- Recheck: Oct 25. Pause any ad over $34 CPL after 2x that in spend.
