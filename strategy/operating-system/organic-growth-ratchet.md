@@ -74,3 +74,19 @@ How we do it:
 3. **Optional paid check ($5 dark post):** an ad shown only to the audience, never on the page. $5 per version gets about 1,000 views and a retention graph. Needs Alex's yes because it is spend.
 4. **What to fix:** the second where the graph drops hardest. Under 3 s = hook. Middle drop = a slow or confusing shot. End drop = the call to action came too late or a still card.
 5. **Goal:** 50%+ of viewers still watching at the halfway point.
+
+## 7. Cadence direction (Alex, Oct 23, 2026)
+Alex: slow the volume and post quality, not now but soon; 3 posts a day isn't sustainable on one niche business. Use free trial tools (Trial Reels and similar) to test before posting.
+
+Claude's call on "dog news": not generic national dog news. It draws viewers who will never book in Miramar, competes with million follower pages, and invites health and safety claims. Instead:
+- **The dogs are the endless content.** New guests arrive every week, so "The Regulars", "Day 1 vs Day 3" and "Who sleeps where" never run out. Ruff and Puff made 546 posts from one bus.
+- **Local news only, when it's ours to tell:** Miramar and Broward pet events (Howl-O-Ween), hot days and pool days, holiday travel season, storms and what we do on rain days.
+
+Target cadence once the Nov 1 shoot day footage is in (Alex to confirm the switch date):
+| Slot | Now | Target |
+|---|---|---|
+| 7:30 AM static | daily | 3 a week (Mon, Wed, Fri) |
+| 12:00 PM reel | daily | daily, series based, Trial Reel tested |
+| 4:00 PM static/carousel | daily | 3 a week (Tue, Thu, Sat) |
+| Total | 21 a week | 13 a week |
+The grid order (static, static, reel) shifts; reels lead the grid.
