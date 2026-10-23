@@ -11,6 +11,8 @@
  *   NODE_PATH=$(npm root -g) node scripts/carousel-cardstyle/render.js content/carousels/<folder>
  * Reads <folder>/slides.json, writes <folder>/png/NN.png (1080x1350) and contact-sheet.png.
  *
+ * Set "ad": true in slides.json for single image ads: each slide is its own ad, footer shows the city instead of a page count.
+ *
  * Text markup: ==word== highlight bar, *word* serif italic, **word** bold.
  * Slide fields: eyebrow, title, titleSize, lead, body, list[], listSize, photo, quote, quoteSize, by, button, note, swipe.
  */
@@ -35,7 +37,7 @@ const mark = (s) =>
     .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
     .replace(/\*(.+?)\*/g, '<em>$1</em>');
 
-function slideHtml(s, i, n, dir) {
+function slideHtml(s, i, n, dir, ad) {
   const photo = s.photo
     ? `<div class="photo"><img src="data:image/jpeg;base64,${fs.readFileSync(path.join(dir, s.photo)).toString("base64")}"></div>`
     : "";
@@ -55,7 +57,7 @@ em{font-family:"Source Serif 4";font-style:italic;font-weight:700;letter-spacing
 .list{font-size:${s.listSize || 48}px;letter-spacing:.005em;line-height:1.3;display:flex;flex-direction:column;gap:18px}
 .list div{padding-left:58px;position:relative}
 .list div b.n{position:absolute;left:0;top:0}
-.photo{border:7px solid ${C.charcoal};border-radius:32px;box-shadow:14px 14px 0 ${C.charcoal};overflow:hidden;flex:1;min-height:380px;max-height:680px}
+.photo{border:7px solid ${C.charcoal};border-radius:32px;box-shadow:14px 14px 0 ${C.charcoal};overflow:hidden;flex:1;min-height:470px;max-height:680px}
 .photo img{width:100%;height:100%;object-fit:cover;display:block}
 .quote{font-family:"Source Serif 4";font-style:italic;font-weight:600;font-size:${s.quoteSize || 56}px;line-height:1.2;text-align:center}
 .by{font-size:30px;text-align:center;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
@@ -75,27 +77,28 @@ ${s.list ? `<div class="list">${s.list.map((l, k) => `<div><b class="n">${k + 1}
 ${s.button ? `<div class="btn">${esc(s.button)} &rarr;</div>` : ""}
 ${s.note ? `<div class="note">${mark(s.note)}</div>` : ""}
 ${s.swipe ? `<div class="swipe">Swipe &rarr;</div>` : ""}
-<div class="foot"><span>FOUR PAWS INN</span><span>${i + 1} / ${n}</span></div>
+<div class="foot"><span>FOUR PAWS INN</span><span>${ad ? "MIRAMAR, FL" : `${i + 1} / ${n}`}</span></div>
 </div></body></html>`;
 }
 
 (async () => {
   const dir = path.resolve(process.argv[2]);
-  const slides = JSON.parse(fs.readFileSync(path.join(dir, "slides.json"), "utf8")).slides;
+  const deck = JSON.parse(fs.readFileSync(path.join(dir, "slides.json"), "utf8"));
+  const slides = deck.slides;
   const out = path.join(dir, "png");
   fs.mkdirSync(out, { recursive: true });
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: W, height: H } });
   const files = [];
   for (let i = 0; i < slides.length; i++) {
-    await page.setContent(slideHtml(slides[i], i, slides.length, dir), { waitUntil: "load" });
+    await page.setContent(slideHtml(slides[i], i, slides.length, dir, deck.ad), { waitUntil: "load" });
     const f = path.join(out, String(i + 1).padStart(2, "0") + ".png");
     await page.screenshot({ path: f });
     files.push(f);
   }
   const imgs = files.map((f) => `<img src="data:image/png;base64,${fs.readFileSync(f).toString("base64")}">`).join("");
   await page.setViewportSize({ width: 1800, height: 1500 });
-  await page.setContent(`<body style="margin:0;background:#ddd;display:flex;flex-wrap:wrap;gap:10px;padding:10px">${imgs.replace(/<img /g, '<img style="width:345px" ')}</body>`);
+  await page.setContent(`<body style="margin:0;background:#ddd;display:flex;flex-wrap:wrap;align-items:flex-start;gap:10px;padding:10px">${imgs.replace(/<img /g, '<img style="width:345px" ')}</body>`);
   await page.screenshot({ path: path.join(dir, "contact-sheet.png"), fullPage: true });
   await browser.close();
   console.log("rendered", files.length);

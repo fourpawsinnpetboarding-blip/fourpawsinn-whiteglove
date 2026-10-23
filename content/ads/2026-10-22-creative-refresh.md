@@ -86,3 +86,9 @@ The updated twin of the winner, on its own budget, next to the untouched origina
 - Campaign "Static Reviews Refresh Oct 2026" 52664788351324. Ad set "Static Reviews Refresh (twin of winner)" 52664788365724, copied from the winner's ad set 52586440814124 (same audience), $25 a day.
 - Ad "Static Reviews Refresh 230+" 52664788411324: same South Florida Pet Report design, review count 230+, cleaner text (no "safe", no "limited spots", "a day" not "night"). Image: public.eden.so/.../aad05dbf-1858-4b01-8afe-403e9313783a.png (Higgsfield job 2e3a4e8f). Note: photos are the winner's original AI photos (Alex, Oct 22).
 - Total Meta spend: $48 winner + $50 style test + $25 twin = $123 a day.
+
+## Card Style Test (Alex: "Fix our ads... Revamp", Oct 23, 2026). PAUSED, waiting on Codex review
+- Campaign "FPI Card Style Test Oct 2026" 52665003901324, ad set "Card Style Round 1 15mi Broad" 52665003929724, $25 a day when switched on. Everything PAUSED.
+- Ads AD40 to AD44 (ids 52665004020124, 52665004138324, 52665004158924, 52665004173724, 52665004198924). Images in content/ads/statics/2026-10-23-cardstyle/jpg, hosted on public.eden.so.
+- Alex: Codex oversees before anything publishes. Brief: strategy/agent-prompts/codex-review-card-style-2026-10-23.md.
+- Winner, Newspaper test and Refresh twin untouched. Turning this on adds $25 a day (total $148): needs Alex's yes.
