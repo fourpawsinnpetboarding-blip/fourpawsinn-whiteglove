@@ -64,3 +64,13 @@ First 3 second rules (every reel):
 4. **Answer every comment** within the hour with a question back. Meta rewards back and forth.
 5. **Stories daily:** polls and quizzes from the day ("Guess who won zoomies today"). Stories keep current followers seeing us, which lifts reel reach.
 6. **Keyword comments:** "Comment DATES and we'll check your week" on reels that answer a booking question.
+
+## 6. Test hooks before posting (Adley Kinsman reel, Alex sent Oct 23, 2026)
+Idea: never guess which hook is best. Make 2 or 3 versions of the same reel (different first 3 seconds), test them cheaply, read the retention graph (the line showing where viewers leave), fix the weak spot, then post the winner.
+
+How we do it:
+1. **Trial Reels (free, built into Instagram).** A trial reel is shown only to non-followers first. Each noon reel gets 2 trial versions with different hooks 48 hours before its slot. Codex posts them from the Instagram app or Meta Business Suite (Eden can't post trials), then reads each one's retention graph and average watch time at 24 hours.
+2. **The winner goes to the noon slot.** The losing hook goes on the "tried, lost" list in hook-lab.md.
+3. **Optional paid check ($5 dark post):** an ad shown only to the audience, never on the page. $5 per version gets about 1,000 views and a retention graph. Needs Alex's yes because it is spend.
+4. **What to fix:** the second where the graph drops hardest. Under 3 s = hook. Middle drop = a slow or confusing shot. End drop = the call to action came too late or a still card.
+5. **Goal:** 50%+ of viewers still watching at the halfway point.
