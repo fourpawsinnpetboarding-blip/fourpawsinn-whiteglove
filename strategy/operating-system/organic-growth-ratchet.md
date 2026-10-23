@@ -90,3 +90,9 @@ Target cadence once the Nov 1 shoot day footage is in (Alex to confirm the switc
 | 4:00 PM static/carousel | daily | 3 a week (Tue, Thu, Sat) |
 | Total | 21 a week | 13 a week |
 The grid order (static, static, reel) shifts; reels lead the grid.
+
+## 8. Cadence switch done (Alex chose option A, Oct 23, 2026)
+From Mon Oct 26: one feed post a day at 12:00 PM (reel Mon, Tue, Thu, Fri, Sun; card style carousel Wed and Sat) plus Stories at 10:00 AM (Codex) and 6:30 PM (Claude). 7 feed posts + 14 Stories a week, down from about 21 feed posts.
+Moves made in Eden: Happy Parents carousel to Wed Oct 28 noon; Pickup Moment carousel to Sat Oct 31 noon; reels 952601c1 to Nov 26 and d0b32085 to Nov 27. Cancelled from Oct 26: Claude 7:30 AM posts edeb21f2, 96e5ca40, 9deb5095, 3a3ca204, 2807835d and Codex 4 PM posts b70ef370, 62eca356, 68ed4a22, 988ad39b (rendered files stay in content/carousels for reuse). Oct 24 and 25 posts run as scheduled.
+Scheduled tasks: "Eden board check" and "FPI weekly content" updated to the new cadence. "FPI Weekly Morning Posts" must be turned off by Alex (created outside Claude); its README now stops it.
+Judge it at 4 weeks (Nov 23): reach per post, engagement rate per post vs 0.27% baseline, follower growth, Story replies.

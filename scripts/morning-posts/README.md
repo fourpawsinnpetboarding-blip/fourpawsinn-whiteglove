@@ -1,3 +1,6 @@
+# RETIRED Oct 23, 2026 (Alex chose option A): STOP. Do not build or schedule any 7:30 AM posts.
+The feed is now ONE post a day at 12:00 PM (reel Mon, Tue, Thu, Fri, Sun; card style carousel Wed and Sat) plus 2 Stories a day. If a routine sends you here, end the run, schedule nothing, and tell Alex in one line: "Morning posts are retired. Please turn off the 'FPI Weekly Morning Posts' scheduled task."
+
 # Morning post engine (7:30 AM slot)
 
 One Four Paws Inn post per day, every day, at 7:30 AM Eastern on Instagram and Facebook. Claude owns this slot end to end: plan, write, design, render, upload, schedule. Codex owns the 6:30 PM slot. Neither touches the other's slot.
