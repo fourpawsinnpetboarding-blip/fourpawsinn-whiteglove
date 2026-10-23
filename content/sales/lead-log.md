@@ -14,6 +14,7 @@ Every lead Claude drafts for gets one row here. Update the row when the lead boo
 | Daimara | Dogy, Beagle 30 lb | Dec 21 to 31, $660 / $600 | reply 3, with deposit and "Christmas is almost booked" in one message | Comparing options | Price, deposit and urgency all landed at once, before she knew us |
 | Dennis Dimartino | Jupiter | dates not given | not yet | Open | Asked dates, age, weight |
 | Shane Howard | Dozer | Oct 29 to Nov 7 | not yet | Open | Waiting on breed and weight |
+| Andrew Luna (907-229-5880) | Toad, Catahoula, 7 yrs, 70 lb | Nov 9 to 15; not quoted yet ($75/day: $525 full, $450 if pick up before 10 AM Nov 15) | not yet (reply 1 = availability + questions about Toad) | Open | Website form Oct 23 1:57 PM; followed up 3:32 PM asking availability; our first human reply came after 4:36 PM. Codex GHL row pending (Eden down) |
 | Marlo, Isabella | | | | Said no | Isabella wanted daycare only |
 
 ## What the pattern says (small sample, but clear enough to act on)
