@@ -192,6 +192,7 @@ Warm, calm and level. Never gushing. No "sounds like a sweetheart", no "aww", no
 - Quoting (Alex, Oct 21): always quote the HIGHER number first, the full stay with the last day included. Then say: "If you pick up before 10 AM, the last day is free" and give the lower number. Always put value next to the price, before or after it: outside to play every hour, supervised pool time, free roam with no kennels, one on one time with us, a daily video update, no hidden fees.
 - Payment options in every quote (Alex, Oct 21): the first message that gives a total always lists all three ways to pay: Zelle, Apple Pay (both to 754-971-0792) or a credit card link. Credit card matters to clients; never leave it out.
 - Name every number (Alex, Oct 21): when the daily rate and the deposit are the same amount, label both ("$115 a day", "the $115 deposit"). Rachel Nunez asked "Is the $115 part of the $460?" because one number meant two things.
+- No breed generalizations (Alex, Oct 23). Never say "Cockapoos do great here" or similar. Every dog is its own dog. Ask instead: how they play with other dogs (gentle, rough, shy), energy level, and whether they're neutered or spayed, unless the lead already told us.
 - Ask for the deposit once (Alex, Oct 21). After a reply has already asked to hold the spot or for the deposit, never ask again in that thread. No "to hold their spot", no deposit reminder. Answer the question, then end with a simple question about their plans. If the total changes, state the new numbers only.
 
 ## Booking sheet: hands off (Alex, Oct 21, 2026)
