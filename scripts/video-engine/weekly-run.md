@@ -26,6 +26,8 @@ For every new file: give it the next `LIB-` id, run `contact-sheets.py` on it, r
 
 ## 4. Queue
 
+Test first (Alex, Oct 23): every noon reel is first scheduled as 2 or 3 Trial Reel hook versions (`perPlatform.instagram.trialReel: true`, no auto graduate) 3 days before its date. Only the winner goes to the feed. Full rule: strategy/operating-system/growth-push-oct-2026.md.
+
 Every reel gets a card style cover before it is scheduled (Alex, Oct 23): follow `content/covers/README.md` and attach it with `perPlatform.instagram.coverUrl` and `perPlatform.facebook.coverUrl`. Check the 3 by 3 grid preview first.
 
 No music, no post (Alex, Oct 6). If the MUSIC folder has no usable track for a reel, do not schedule it: keep it as an Eden draft and add a Request row for Codex.

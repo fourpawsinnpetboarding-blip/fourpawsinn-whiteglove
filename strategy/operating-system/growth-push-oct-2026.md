@@ -35,3 +35,13 @@ Note: T3's time line must match the real video update time. Confirm with Amanda 
 - Amanda's custom voice: not in Higgsfield yet (only the stock preset voice also named "Amanda", which is NOT her). Waiting on Alex.
 
 Lesson: seedance 2.5's filter flags realistic "person looking at phone" prompts. Next week, try kling3_0 or simpler prompts (no facial emotion words), preflight with get_cost, and keep to 3 clips.
+
+## Test first, publish only winners (Alex, Oct 23, 2026)
+Alex: "I believe she tests her videos, then only publishes her winners." Viralish confirms it: 12 hook versions per video, the retention graph picks the one that earns the feed.
+Rule from the week of Nov 2: **no reel reaches the noon feed slot untested.**
+1. For each noon reel, make 2 or 3 versions that differ only in the first 3 seconds (hook text, first shot, or an AI hook clip). Text hook versions are free.
+2. Schedule every version as a Trial Reel in Eden 3 days before its noon date: `eden_schedule_post`, platforms instagram, `perPlatform.instagram.trialReel: true`, `trialReelAutoGraduate: false`. Trial Reels go to non followers only and never show on the profile grid, so the grid stays clean.
+3. 24 to 48 hours later, Codex reads each version's average watch time and retention graph in the Instagram app and writes them on the Eden board.
+4. The winner is scheduled to the noon feed slot with its card cover. Losers stay as trials and go on the "tried, lost" list in hook-lab.md.
+5. If no version beats our baseline (12.5 s average watch), it does not go to the feed. The slot gets the next best tested reel or the best performing older reel, recut.
+Weekly load: 5 reels a week x 2 or 3 versions = 10 to 15 trial reels. Credits only for the few AI hook clips (cap unchanged).

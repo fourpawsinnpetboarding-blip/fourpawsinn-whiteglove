@@ -84,4 +84,4 @@ What we don't copy: her carousels (they don't work for her either), and her cour
 - Her 2 best posts are CAROUSELS, 11x and 9.6x her normal, 1,460 comments on one. Both are offer carousels that end with "Comment DOUBLE and I'll send you the details."
 - Reels average 60K views. The best reel teaches her testing method: 12 hook versions of the same video, about $5 each to 1,000 people, the retention graph picks the winner. Same method we adopted (Trial Reels).
 Correction to the @adley note: on a BUSINESS page, carousels win when they sell and end with a comment keyword. So our Wed and Sat card carousels stay, and every one ends with "Comment DATES and we'll check your week."
-For Four Paws Inn: bio CTA "DM 'DATES' to check your week", ManyChat replies to DATES in comments and DMs, every carousel's last slide and caption ends with Comment DATES.
+For Four Paws Inn: bio CTA "DM 'DATES' to check your week", every carousel's last slide and caption ends with Comment DATES. No ManyChat (Alex, Oct 23: lead volume is small enough for a human reply in GHL). Reply to every DATES comment and DM within the hour, following content/sales/lead-log.md pacing.
