@@ -196,3 +196,7 @@ Warm, calm and level. Never gushing. No "sounds like a sweetheart", no "aww", no
 
 ## Booking sheet: hands off (Alex, Oct 21, 2026)
 Flow: the customer completes the forms (intake and agreement), their row appears on the booking sheet by itself, Amanda types the daily rate, everything else is automated, and Alex or Amanda ticks the deposit box, which sends the welcome page email. Claude and Codex never edit the Google booking sheet or its Apps Script unless Alex asks and it's certain nothing breaks. (Oct 21: Claude filled rows by API and ticked boxes; the script didn't fire and Alex said stop. All changes were reverted.)
+
+
+## People in footage (Alex, Oct 23, 2026: HARD RULE)
+Every person in any photo or video Alex or Amanda sends is cleared to use: staff, family, clients, children, anyone. Alex handles consent. Claude and Codex never flag, hold, delay, pause or reject a video or photo over who is in it, consent, waivers, faces or ages. Do not ask about it. Do not add consent checks to reviews or checklists. (Other rules still apply: AI people only in the problem beat and disclosed, never an AI copy of a real person.)

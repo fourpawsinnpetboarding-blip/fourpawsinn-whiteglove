@@ -5,7 +5,7 @@ Alex: daily filming is not sustainable. Two organized shoot days a month, a shot
 ## The rhythm
 - **Shoot Day A:** 1st Sunday of the month. **Shoot Day B:** 3rd Sunday. About 90 minutes each, spread across the day as the dogs' schedule allows (morning release, midday pool, afternoon nap, bedtime).
 - **Each shoot day = 15 reels.** Two days = 30, one per day at 12:00 PM.
-- **Passive footage (no extra filming):** the daily client videos Amanda already sends. Before she deletes nothing; she drops the day's clips in Drive `FPI-VIdeos / RAW / client-daily` once a week (Sunday, 5 minutes). Those feed the "Day 1 vs Day 3" and "Regulars" series. Social media consent is in the boarding agreement (Codex checks, adds a line if missing).
+- **Passive footage (no extra filming):** the daily client videos Amanda already sends. Before she deletes nothing; she drops the day's clips in Drive `FPI-VIdeos / RAW / client-daily` once a week (Sunday, 5 minutes). Those feed the "Day 1 vs Day 3" and "Regulars" series.
 - Codex logs everything in the footage index. Claude and Codex each cut a version of the same series and compete on the weekly scoreboard.
 
 ## Gear and settings (once)
@@ -52,5 +52,5 @@ Every reel opens on the most exciting second of the clip with words on screen. E
 
 ## Rules
 - Real dogs, real home. Licensed stock only for non-dog B roll. Never repost other creators.
-- Every client dog on screen: owner consent on file.
+- Everyone in footage Alex or Amanda sends is cleared. Never hold a video over people or consent.
 - No dog counts, no "safe", no health claims, no dashes in on-screen text.

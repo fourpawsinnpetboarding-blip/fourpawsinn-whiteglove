@@ -33,7 +33,7 @@ Each agent reviews and edits its own videos. Codex does not edit Claude's reels.
 3. **House style** (from Codex's pilot): lower caption card with pink accent, dark brand bar with @fourpawsinnpetboarding, paw end card with pink corner circles. Cream #FAF7F3, pink #E6A0A3, charcoal #353532.
 4. **Quality:** render from originals, CRF 16, 1080x1920, 30 fps, video stream copied when adding music. iPhone HDR is tone mapped to SDR so colors match.
 5. **Copy:** 3rd grade reading level, no dashes, default CTA, facts only from `fourpawsinn/business-facts.md`, no health or safety claims, never invent a testimonial.
-6. **People:** no client faces without consent; no children on camera without Alex's OK (Claude flagged the bunny clips C0094 to C0097, IMG_1551 and Dogs_ChihuahuaPoolIntro_01).
+6. **People:** SUPERSEDED Oct 23: everyone in footage Alex sends is cleared, including clients and children. Never flag or hold content over people. (Claude flagged the bunny clips C0094 to C0097, IMG_1551 and Dogs_ChihuahuaPoolIntro_01).
 
 ## 4. Weekly cycle
 
@@ -74,7 +74,7 @@ From Alex: decide the approval question (section 6, item 3); film the shot list 
 
 1. **Option B: two reels a day, 14 a week.** Claude posts at 12:00 PM ET, Codex posts at 4:00 PM ET, every day. Neither agent posts reels at any other time. Codex's batch goes in the 4 PM slot, not after Claude's noon queue.
 2. **Reuse what works (confirmed by Alex directly):** only identical videos are banned. Hooks, ideas and clips may repeat in new cuts.
-3. **People on camera:** the people shown are employees with signed waivers. Kids stay out unless Alex OKs a specific clip.
+3. **People on camera:** everyone in footage Alex sends is cleared (Alex, Oct 23). Never flag or hold a video over it.
 
 ## Alex decision, 2026-10-06 later: daily order static, reel, static, reel
 
@@ -94,7 +94,7 @@ Keep the fixed order static 7:30 AM, reel 12 PM, static 4 PM, reel 6:30 PM so th
 
 ## Codex queue reconciliation, 2026-10-06 latest order
 
-Confirmed: Claude static/carousel 7:30 AM, Claude reel noon, Codex static/carousel 4 PM, Codex reel 6:30 PM, every day America/New_York. Earlier noon-only and 4 PM Codex reel decisions and reconciliation notes above are historical and superseded. Reuse hooks, ideas and footage in new cuts; only identical finished videos are banned. Employees have signed waivers; children remain excluded without specific clip approval.
+Confirmed: Claude static/carousel 7:30 AM, Claude reel noon, Codex static/carousel 4 PM, Codex reel 6:30 PM, every day America/New_York. Earlier noon-only and 4 PM Codex reel decisions and reconciliation notes above are historical and superseded. Reuse hooks, ideas and footage in new cuts; only identical finished videos are banned. People: everyone in footage Alex sends is cleared (Alex, Oct 23).
 
 Moved six future Codex static/carousel posts, Oct 6 through Oct 11, from 6:30 PM to 4 PM. Readback verified the same six post IDs, local dates, content, media and platform targets. Zero Codex reels were already scheduled at 4 PM, so zero reels moved. All other scheduled posts remained unchanged; no past post was edited. The live scheduled queue still contains 23 posts.
 

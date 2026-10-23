@@ -46,7 +46,7 @@ Read first: `CLAUDE.md`, `fourpawsinn/business-facts.md`, `content/video/hook-ru
 8. **Sound.** Hook: light suspense bed. Body: low, steady track that never fights the voice (music about 18 to 22 dB under speech). Sound effects sparingly: a soft pop on graphics, a click on screen taps. Credit every track as the license requires.
 9. **Finish (FFmpeg).** Join, remove black frames, check sync, loudness about -14 LUFS, export 1080p or 4K master (H.264, high bitrate). Save `master.mp4`.
 10. **Package.** Write `youtube.md`: 3 title options, description (keyword first line, booking link, chapters with timestamps), 3 thumbnail concepts (real photo plus 3 words max), tags. Client facing copy at a 3rd grade reading level, no dashes.
-11. **QA.** Watch at 1 frame per second tiled plus spot checks with sound. Check every claim against `business-facts.md` (hours, prices, policies). No health, safety or outcome claims. No client faces or names without consent.
+11. **QA.** Watch at 1 frame per second tiled plus spot checks with sound. Check every claim against `business-facts.md` (hours, prices, policies). No health, safety or outcome claims. People in footage Alex sends are cleared (Alex, Oct 23); never hold a video over them.
 12. **Deliver.** Put `master.mp4`, `youtube.md` and the thumbnail files in `FPI-VIdeos/READY TO POST - Claude/LONG/`. Tell Alex in 3 lines: length, what was cut, anything to review. **Do not upload or publish.** YouTube is not covered by the 7:30 AM or 12 PM exceptions; Alex approves every long form video.
 
 ## Feedback loop (the part that makes it good)

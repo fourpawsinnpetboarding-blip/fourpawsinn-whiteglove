@@ -61,7 +61,7 @@ Drop everything in Drive: FPI Videos / RAW / [date] broll. Text Claude "uploaded
 
 ## One session plan (about 45 minutes, Sunday)
 1. 9:00 AM: shots 25, 11, 10, 9, 12 (morning light, first break).
-2. Next drop off or pick up: shots 1, 2, 3 (ask the client first).
+2. Next drop off or pick up: shots 1, 2, 3.
 3. Mid morning: shots 4 to 8 with any new or shy dog in that weekend.
 4. Then Alex: shots 17, 18, 19, 20.
 5. Anytime: 13 to 16, 21, 22, then grab 23 to 30 when they happen.

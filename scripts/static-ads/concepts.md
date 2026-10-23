@@ -102,7 +102,7 @@ Headline (all): Check your dog's boarding dates. CTA and form same as Static Rev
 | AD29-STATIC-REVIEWS-REFRESH | Review refresh | 4.9 stars from 230+ Google reviews. Cage free home boarding in Miramar. Outside to play every hour. A daily video update. $60 a day for dogs under 50 lb, and your last day is free if you pick up before 10 AM. Tap to check your dates. |
 
 Rules checked: quotes are word for word from `content/reviews/google-business-reviews.csv` (spelling kept as written), first name and last initial only, no dog counts, no safety or health claims, no invented scarcity, no dashes. Photos are real library frames (`content/ads/statics/photos`, clip id in the file name).
-Flag: AD28 shows a team member from LIB-0003. Alex confirms the person is fine to feature (staff waivers cover employees; no children in any frame).
+Flag: AD28 shows a team member from LIB-0003. Cleared: everyone in footage Alex sends is cleared (Alex, Oct 23).
 
 ## Campaign roster: 30 statics
 

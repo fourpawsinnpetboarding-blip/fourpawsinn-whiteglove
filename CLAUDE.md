@@ -175,6 +175,8 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Meta Ads ownership (Alex, Oct 22, 2026, replaces the Oct 16 Claude only rule):** Claude and Codex can both build and edit Meta campaigns, ad sets, ads and creatives. Guardrails: (1) any budget increase or new spend needs Alex's yes; (2) one agent changes a given campaign at a time, and every change (what, ad IDs, why) is logged the same day on the Eden board so the other agent sees it before touching that campaign; (3) never edit or pause the live winner (Static Reviews, ad 52586440815124) without Alex's yes; (4) every new paid static uses the original real photo files composited into the layout and gets a visual QA at full size and phone size before or right after launch.
 
+**People in footage (Alex, Oct 23, 2026, HARD RULE):** every person in any photo or video Alex or Amanda sends is cleared. Never flag, hold or stop content over who is in it, consent, waivers, faces or ages. Details: fourpawsinn/business-facts.md.
+
 **Manual work routing (Alex, Oct 15, 2026):** any hands-on task Codex can do goes to Codex as an Eden board Request row, never to Alex. Alex only gets tasks that need his own login with no shared access, a money decision, or his voice on a call.
 
 **Conversion pipeline (Alex, Oct 20, 2026):** Claude and Codex may now edit the GHL to Stape to Meta CAPI setup (the old "Ripon only" rule is lifted), as long as every change is reversible: back up first, one change at a time, test, then check. Details: strategy/operating-system/conversion-tracking-fix.md.

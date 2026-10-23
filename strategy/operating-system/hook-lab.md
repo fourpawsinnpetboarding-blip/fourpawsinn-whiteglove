@@ -23,7 +23,7 @@ The formula: **named dogs with personalities, recurring rituals, a series people
 1. **"The Regulars"**: one named regular per episode with their quirk ("Bruno only sleeps on the green bed"). Same characters come back. Owners share their own dog.
 2. **"Who sleeps where"**: our version of the bus seats. The nightly bed pick, filmed every night.
 3. **"Before vs after pool day"**: zoomies at noon, snoring at 4 PM.
-4. **"Pickup reunion"**: the dog spots its family. Most shareable moment we own (client's okay first).
+4. **"Pickup reunion"**: the dog spots its family. Most shareable moment we own.
 5. **"Birthday at Four Paws"**: dog birthday during a stay. Owner shares it.
 6. **"Day 1 vs Day 3"**: a shy new dog, then the same dog in the pack. Shows our slow intros without saying a word.
 7. **"What happens after you drive away"**: the hour after drop off, real footage. Pure curiosity.
@@ -53,7 +53,7 @@ The booth video worked because the angle was one nobody films. Our versions:
 Amanda or the team, 10 minutes a day, phone on a small tripod:
 - Nightly bed pick, wide shot, 60 seconds.
 - Pool time, starting mid-jump.
-- Every pickup reunion (ask the client first).
+- Every pickup reunion.
 - One "Regular" of the week: 3 clips of that dog's quirk.
 - A dog-height clip running into the yard each morning.
 Codex logs the clips; Claude and Codex cut them.

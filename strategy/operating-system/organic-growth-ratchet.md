@@ -58,7 +58,7 @@ First 3 second rules (every reel):
 - Log: `content/scoreboard/weekly.md` (Claude writes it every Monday).
 
 ## 5. Engagement ideas that stay on brand (no controversy)
-1. **Pickup reunions.** The dog seeing its family at pickup. Most shareable, 100% safe, real. Amanda films every reunion she can (client's okay first).
+1. **Pickup reunions.** The dog seeing its family at pickup. Most shareable, 100% safe, real. Amanda films every reunion she can.
 2. **Pet parent truths.** "Your dog when you pull out the suitcase." Funny, relatable, made to be shared.
 3. **This or that questions** in captions and stories: "Big dog or small dog house?", "Does your dog sleep in your bed?" Easy answers bring comments.
 4. **Answer every comment** within the hour with a question back. Meta rewards back and forth.
