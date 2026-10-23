@@ -173,6 +173,7 @@ Alex: "I do NOT want a mandatory paid overnight for new dogs." Never say a new d
 - **A common plan:** both siblings start in a private suite for a day or two, then we loosen one or both into the pack if they're ready.
 - **Hard line:** a larger dog that shows signs it could react aggressively is never introduced to the group. We won't put another family's pet at risk. A shy dog that might snap only if it feels cornered is a different case, and we work with it.
 - In copy, describe the process. Never use "safe" and never promise an outcome.
+- Private suite leads (Alex, Oct 23, 2026): send the link optin.fourpawsinn.co/private-suite instead of typing the price, at standard suite prices. For a dog that is aggressive with other dogs, ask about people first (new people, any bite or snap, handling leash and food) before booking; dogs roam free and Amanda is often alone with them. Bite history with people or guarding = we pass, kindly.
 
 ## Why we cost more: the premium explanation (Alex, Oct 20, 2026)
 
