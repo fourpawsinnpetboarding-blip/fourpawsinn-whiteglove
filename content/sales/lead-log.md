@@ -14,7 +14,7 @@ Every lead Claude drafts for gets one row here. Update the row when the lead boo
 | Daimara | Dogy, Beagle 30 lb | Dec 21 to 31, $660 / $600 | reply 3, with deposit and "Christmas is almost booked" in one message | Comparing options | Price, deposit and urgency all landed at once, before she knew us |
 | Dennis Dimartino | Jupiter | dates not given | not yet | Open | Asked dates, age, weight |
 | Shane Howard | Dozer | Oct 29 to Nov 7 | not yet | Open | Waiting on breed and weight |
-| Andrew Luna (907-229-5880) | Toad, Catahoula mix, 7 yrs, 70 lb, couch potato, people dog, dog aggressive (only knows his own dogs) | Nov 9 to 15, private suite STANDARD price (Alex changed his mind, Oct 23): $100/day, $700 full, $600 if pick up before 10 AM Nov 15. Price not typed in the text: sent optin.fourpawsinn.co/private-suite instead | reply 2 = suite link + screening questions about people + optional meet and greet | Open | Bite history with people or guarding = pass kindly. If a fit, push the Tuesday meet and greet so Amanda meets Toad first. Rule from Alex: for private suite leads, send the suite link, not a typed price. |
+| Andrew Luna (907-229-5880) | Toad, Catahoula mix, 7 yrs, 70 lb, couch potato, loves people, never snapped or bit a person, anyone can walk him; hit and miss with new dogs | Nov 9 to 15, private suite standard: $100/day, $700 full, $600 if pick up before 10 AM Nov 15 | reply 2 = suite link + people screen; reply 3 = suite pitch with totals + 'want the steps to book?' | Open, passed people screen | Writes full sentences every reply. Deposit only after he says yes. |
 | Marlo, Isabella | | | | Said no | Isabella wanted daycare only |
 
 ## What the pattern says (small sample, but clear enough to act on)
