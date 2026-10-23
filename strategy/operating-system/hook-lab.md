@@ -63,3 +63,17 @@ Codex logs the clips; Claude and Codex cut them.
 - 48 hour score: average watch seconds, and shares + saves + comments per 1,000 views.
 - Monday: the winner's hook pattern becomes the rule both use next week. The loser must beat it.
 - Research refresh every Monday: Eden search for new breakout dog daycare, boarding and pet parent reels (outlier 3x+), 3 new patterns added here.
+
+## Adley Kinsman (@adley) teardown, Oct 23, 2026 (Eden, last quarter)
+1.47M followers. She runs Viralish, the company behind goviralish.com, the page our card style is based on.
+- 38 reels vs 5 carousels this quarter. Reels average 483K views. Carousels: 0.08% engagement. Her money is in reels.
+- Top post: "Letting my husband pick our next vacation", 7.66M views, 82x her normal. A playful couple this-or-that skit.
+- Pattern: the video entertains (couple skits, relatable moments), the caption sells. Almost every caption ends with the same block: who she is, one proof number, the offer, and "Comment DOUBLE / AUDIT".
+- The keyword comment drives everything: her "Comment AUDIT" post got 11,900 comments. Every comment becomes a DM lead (automated).
+- Hooks open mid action with a prop and a text overlay that tells you what to watch for.
+
+What we copy (Four Paws Inn version):
+1. Alex and Amanda couple skits, dogs as the punchline. "Letting my wife pick which dogs get the pool first." "When Amanda is home vs when Amanda is at the store." Entertain first.
+2. A standard caption close on every reel: "New here? We're Alex and Amanda. Our home in Miramar is a second home for dogs. 230+ Google reviews. Comment DATES and we'll check your week." ManyChat sends the booking DM.
+3. Open mid action: the leash already on, the pool splash already happening, text on screen first frame.
+What we don't copy: her carousels (they don't work for her either), and her course style money back promises.
