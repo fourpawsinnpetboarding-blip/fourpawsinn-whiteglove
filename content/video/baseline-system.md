@@ -122,7 +122,7 @@ Meta asks creators to disclose realistic AI people and can label or limit posts 
 
 1. **Disclose every time, lightly.** On screen: "Dramatization. Real dogs, real home." as a small line at the top for the **first 2 seconds only**, then gone (Alex, Oct 20: don't let it sit on the video). In the caption: "Dramatization with AI actors. Real dogs, real home." On Instagram: turn on the AI label (Eden does it). Facebook: the caption line is the disclosure, because Eden can't set Facebook's label.
 2. **AI is never a customer, a review, a staff member or a result.** AI people only act out the problem (the worried couple, the joke). Testimonials, reviews, Amanda, Alex and the team are always real.
-3. **Never an AI copy of a real person** (Amanda, Alex, a client) and never a real client's name on an AI face.
+3. **Never an AI copy of a real person** (Alex, a client) and never a real client's name on an AI face. Exception (Alex chose it Oct 23): Amanda lip-sync on her real footage, only with Amanda's own yes to the voice copy and her approval of every script, AI label on. Rules and scripts: content/video/amanda-voice/scripts-v1.md.
 4. **Every dog is real.** Proof, results and the hero dog are real footage.
 5. **AI stays at 25% or less** of the runtime (section 1).
 6. **Paid ads:** same rules, plus the disclosure line in the ad's primary text. If Meta's ad review flags an AI ad, swap in a real footage version. Don't argue the flag.
