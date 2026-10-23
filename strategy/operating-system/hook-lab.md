@@ -77,3 +77,11 @@ What we copy (Four Paws Inn version):
 2. A standard caption close on every reel: "New here? We're Alex and Amanda. Our home in Miramar is a second home for dogs. 230+ Google reviews. Comment DATES and we'll check your week." ManyChat sends the booking DM.
 3. Open mid action: the leash already on, the pool splash already happening, text on screen first frame.
 What we don't copy: her carousels (they don't work for her either), and her course style money back promises.
+
+## @viralish (her business page) teardown, Oct 23, 2026
+68.9K followers. Bio CTA: "DM 'DOUBLE' to 2x your reach."
+- Only 25 posts in the last quarter, about 2 a week. Intentional, not daily.
+- Her 2 best posts are CAROUSELS, 11x and 9.6x her normal, 1,460 comments on one. Both are offer carousels that end with "Comment DOUBLE and I'll send you the details."
+- Reels average 60K views. The best reel teaches her testing method: 12 hook versions of the same video, about $5 each to 1,000 people, the retention graph picks the winner. Same method we adopted (Trial Reels).
+Correction to the @adley note: on a BUSINESS page, carousels win when they sell and end with a comment keyword. So our Wed and Sat card carousels stay, and every one ends with "Comment DATES and we'll check your week."
+For Four Paws Inn: bio CTA "DM 'DATES' to check your week", ManyChat replies to DATES in comments and DMs, every carousel's last slide and caption ends with Comment DATES.
