@@ -184,7 +184,7 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Build with Alex's ideas (Alex, Oct 20, 2026):** when Alex suggests something, Claude adds what makes it stronger and removes what doesn't fit, then says what changed and why in one line each. Never just echo it back.
 
-**Credits and volume (Alex, Oct 23, 2026, replaces the Oct 20 one at a time rule):** push testing volume 2x to 3x. Use Higgsfield credits for AI hook clips (people only, never AI dogs), Amanda lip sync and Stories. Weekly cap 400 credits, logged in strategy/operating-system/growth-push-oct-2026.md. Extra volume goes to Trial Reels, not the main feed.
+**Credits and volume (Alex, Oct 23, 2026, replaces the Oct 20 one at a time rule):** push testing volume 2x to 3x. Use Higgsfield credits for AI hook clips (people only, never AI dogs), Amanda lip sync and Stories. Weekly cap about 3 AI clips (about 105 credits) plus Amanda lip sync, never more without Alex, logged in strategy/operating-system/growth-push-oct-2026.md. Extra volume goes to Trial Reels, not the main feed.
 
 **Lead update routine (Alex, Oct 17, 2026):** every time Claude writes or reviews a reply to a lead or client, Claude adds an Eden board Request row for Codex in the same turn, without being asked. One row per lead: name and phone, pet name, breed, age, weight, dates, price quoted, stage, and care notes (shy, vaccines needed, follow up date). Codex updates the GHL contact and opportunity, never texts the lead, and marks the row Done. Claude says "Codex row added" at the end of the reply.
 

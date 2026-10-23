@@ -4,14 +4,14 @@ Alex: "We have credit on Higgsfield. Make story posts with it, better reels usin
 
 ## The math
 - Higgsfield balance Oct 23: **1,648 credits**. A 5 second AI clip costs **35 credits** (seedance 2.5). That is about 47 clips.
-- Weekly cap: **400 credits** (about 11 clips). The balance lasts 4 weeks, long enough to find what works before we buy more.
+- Weekly cap (Alex, Oct 23: "do not overkill the credits, just a few"): **3 AI clips a week, about 105 credits**, plus Amanda lip sync. The balance lasts months, not weeks. The extra test volume comes from free text hook versions, not credits.
 - Today: 7 reels a week at noon. Target: **21 reel tests a week** (3x).
 
 ## Where the 3x goes (what changed vs the ask, and why)
 1. **Volume goes into Trial Reels, not the feed.** A Trial Reel (Instagram shows it to non followers only) doesn't touch follower reach, and our feed is at 8th percentile engagement. So each noon reel gets 2 extra hook versions as Trial Reels: 7 feed + 14 trials = 21 tests a week. The winning hook becomes the next week's feed reel. Changed because 21 feed posts a week would train Meta that our followers ignore us.
 2. **Credits buy hooks, not whole videos.** One 5 second AI opener (a person, a moment, a feeling) cut onto real footage of our dogs. 35 credits per test instead of 150+ for a full AI reel. Added because the first 3 seconds decide views.
 3. **No AI dogs.** AI redraws dogs and our rule is real dogs only. AI plays the people (the parent at work, at the airport, on the couch); our footage plays the dogs. Every reel with AI people says "Dramatization with AI actors. Real dogs, real home." in the caption.
-4. **Amanda lip sync** runs as soon as Codex delivers her door clip and voice sample (Eden row, URGENT). 5 scripts approved (`content/video/amanda-voice/scripts-v1.md`).
+4. **Amanda lip sync:** Amanda is adding her own voice to Higgsfield (Alex, Oct 23). Codex still pulls her door clip. 5 scripts approved (`content/video/amanda-voice/scripts-v1.md`).
 5. **Trending effects:** Higgsfield's viral gallery has nothing on brand for dog boarding today (only "Skatedog", rejected: it shows an AI dog used as a skateboard). Recheck weekly.
 
 ## First batch (Oct 23, 105 credits)
