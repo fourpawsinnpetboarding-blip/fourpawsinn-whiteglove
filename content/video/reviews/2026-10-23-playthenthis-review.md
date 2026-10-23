@@ -15,3 +15,9 @@ Check: master color tagged SDR (BT.709), not HLG. (People on camera: cleared, se
 Score: Hook 3, Real proof 4, Value 2, Story 3, Visuals 4, CTA 3 = 19 now, about 22 fixed. Short test: success = average watch over 5 s.
 
 Slot: keep Dog Sitter Cut D at Oct 24 noon. Use Oct 25 noon; move 45901ebb to the next free noon.
+
+## Cut B review (Oct 23): APPROVED, 23/30
+- 6.1 s, BT.709 SDR, -14.0 LUFS, 1.9 LU. Hook "Watch who he runs to." from frame 1, slowed arrival, "Every dog gets one on one time with us.", no end card, CTA overlay with logo bar, caption ends on a question.
+- Next time: the arrival (1.7 to 2.0 s) is a white blur past the lens. Land the payoff on his face reaching the camera.
+- Slot: Sun Oct 25, 12:00 PM, IG + FB (Codex schedules). 48 h goals: average watch over 5 s; spread vs baseline 18.5 per 1,000.
+- Lesson for the hook bank: a question hook with a visible payoff ("Watch who he runs to") beats a vague tease ("Play time. Then this.").
