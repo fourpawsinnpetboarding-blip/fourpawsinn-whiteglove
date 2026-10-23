@@ -122,3 +122,5 @@ How to make one (no credits spent):
 5. Facts and prices only from `fourpawsinn/business-facts.md`. No dashes, no health or safety claims.
 
 Structure that fits the style: hook slide with the best dog photo, a "the truth" setup slide, one question or rule per slide with a photo, a combined slide for the last two, a review quote plus button to close. 6 to 8 slides.
+
+**Oct 23 update:** all of Claude's scheduled 7:30 AM statics and carousels (Oct 24 to Nov 1) were rebuilt in this style and swapped into the same Eden posts. Folders: `content/carousels/2026-10-2*` and `2026-11-01-happy-parents`. Codex is converting its 4 PM posts the same way (`strategy/agent-prompts/codex-card-style-conversion-2026-10-23.md`). Renderer modes: default 4:5 carousel, `"ad": true` single ads, `"story": true` 9:16 Stories (`content/stories/stories-playbook.md`).

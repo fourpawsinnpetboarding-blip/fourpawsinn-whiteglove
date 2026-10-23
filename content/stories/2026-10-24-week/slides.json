@@ -1,0 +1,66 @@
+{
+ "story": true,
+ "time": "18:30 America/New_York, Instagram Story only",
+ "slides": [
+  {
+   "date": "2026-10-24",
+   "eyebrow": "Saturday at the Inn",
+   "title": "Hot day? Time for a ==*splash*==.",
+   "photo": "../../brand/maps-photos/pool-splash-break.jpg",
+   "lead": "**Planning a trip?** Reply with your dates.",
+   "titleSize": 94
+  },
+  {
+   "date": "2026-10-25",
+   "eyebrow": "This or that",
+   "title": "Pool dog or ==*couch*== dog?",
+   "photo": "../../carousels/2026-10-23-five-questions/photos/lab-pool.jpg",
+   "lead": "**Reply with your answer.** We read every one.",
+   "titleSize": 94
+  },
+  {
+   "date": "2026-10-26",
+   "eyebrow": "Real Google review",
+   "quote": "I loved the attention that my dog received.",
+   "by": "Deone J.",
+   "photo": "../../carousels/2026-10-23-five-questions/photos/one-on-one.jpg",
+   "lead": "**230+ five star reviews.** Reply with your dates.",
+   "quoteSize": 66
+  },
+  {
+   "date": "2026-10-27",
+   "eyebrow": "It's Tuesday",
+   "title": "Meet and greets are ==*today*==.",
+   "photo": "../../carousels/2026-10-23-five-questions/photos/home-front.jpg",
+   "lead": "**9 AM to 7 PM. Totally optional.** Reply to set a time.",
+   "titleSize": 94
+  },
+  {
+   "date": "2026-10-28",
+   "eyebrow": "Asked every week",
+   "title": "What costs ==*extra*==?",
+   "list": [
+    "**Nothing.** Play, toys and pool time are included.",
+    "**A daily video** of your dog, every day.",
+    "**$60 a day** under 50 lb. $75 over."
+   ],
+   "note": "Reply with your dates for your total."
+  },
+  {
+   "date": "2026-10-29",
+   "eyebrow": "Holiday travel",
+   "title": "Thanksgiving is ==*4 weeks*== away.",
+   "photo": "../../brand/maps-photos/yard-run.jpg",
+   "lead": "**Holiday dates fill first.** Reply with your dates.",
+   "titleSize": 94
+  },
+  {
+   "date": "2026-10-30",
+   "eyebrow": "Weekend trip?",
+   "title": "We've got your ==*dog*==.",
+   "photo": "../../brand/maps-photos/pool-lab-and-pittie.jpg",
+   "lead": "**Drop off 9 AM to 12 PM or 4 PM to 6:30 PM.** Reply with your dates.",
+   "titleSize": 94
+  }
+ ]
+}

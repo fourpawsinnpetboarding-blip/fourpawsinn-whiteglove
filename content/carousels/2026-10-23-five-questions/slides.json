@@ -1,12 +1,65 @@
 {
-  "caption": "Before you book any boarding, ask these 5 questions. A good place answers all 5 without blinking.\n\nWhich one do you always ask first?\n\nNear Miramar or Pembroke Pines? Send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
-  "slides": [
-    { "eyebrow": "Miramar dog parents", "title": "Leaving your dog for a ==*week*==? Read this first.", "photo": "photos/yorkie-yard.jpg", "swipe": true },
-    { "eyebrow": "The truth", "title": "Most boarding looks great ==*online*==.", "lead": "**Then you see the kennel.**", "body": "Here are 5 questions to ask before you book. A good place answers all 5 without blinking.", "swipe": true },
-    { "eyebrow": "Question 1", "title": "Where does my dog ==*sleep*==?", "photo": "photos/home-front.jpg", "lead": "**With us: a real home.** Real beds. No crates, no kennel rows." },
-    { "eyebrow": "Question 2", "title": "How often do they go ==*outside*==?", "photo": "photos/lab-pool.jpg", "lead": "**Every hour.** Plus the pool on hot Miramar days." },
-    { "eyebrow": "Question 3", "title": "How do new dogs ==*meet*== the pack?", "photo": "photos/one-on-one.jpg", "lead": "**Slowly.** One on one time with us first. The pack when they're ready." },
-    { "eyebrow": "Questions 4 and 5", "title": "What costs ==*extra*==? How will I ==*see*== my dog?", "titleSize": 88, "listSize": 56, "list": ["**Nothing extra.** Play, toys and the pool are included. $60 a day under 50 lb.", "**A daily video** of your dog, every day of the stay."] },
-    { "eyebrow": "Real talk from real parents", "quote": "Pups did not want to leave at all.", "quoteSize": 84, "by": "Elaine P., Google review", "lead": "**230+ five star reviews** from Miramar and Pembroke Pines families.", "button": "Send us your dates", "note": "Want to see the home first? Meet and greets on Tuesdays, *totally optional*." }
-  ]
+ "caption": "Before you book any boarding, ask these 5 questions. A good place answers all 5 without blinking.\n\nWhich one do you always ask first?\n\nNear Miramar or Pembroke Pines? Send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+ "slides": [
+  {
+   "eyebrow": "Miramar dog parents",
+   "title": "Leaving your dog for a ==*week*==? Read this first.",
+   "photo": "photos/yorkie-yard.jpg",
+   "swipe": true
+  },
+  {
+   "eyebrow": "The truth",
+   "title": "Most boarding looks great ==*online*==.",
+   "lead": "**Then you see the kennel.**",
+   "body": "Here are 5 questions to ask before you book. A good place answers all 5 without blinking.",
+   "swipe": true
+  },
+  {
+   "eyebrow": "Question 1",
+   "title": "Where does my dog ==*sleep*==?",
+   "photo": "photos/home-front.jpg",
+   "lead": "**With us: a real home.** Real beds. No crates, no kennel rows."
+  },
+  {
+   "eyebrow": "Question 2",
+   "title": "How often do they go ==*outside*==?",
+   "photo": "photos/lab-pool.jpg",
+   "lead": "**Every hour.** Plus the pool on hot Miramar days."
+  },
+  {
+   "eyebrow": "Question 3",
+   "title": "How do new dogs ==*meet*== the pack?",
+   "photo": "photos/one-on-one.jpg",
+   "lead": "**Slowly.** One on one time with us first. The pack when they're ready."
+  },
+  {
+   "eyebrow": "Questions 4 and 5",
+   "title": "What costs ==*extra*==? How will I ==*see*== my dog?",
+   "titleSize": 88,
+   "listSize": 56,
+   "list": [
+    "**Nothing extra.** Play, toys and the pool are included. $60 a day under 50 lb.",
+    "**A daily video** of your dog, every day of the stay."
+   ]
+  },
+  {
+   "eyebrow": "Real talk from real parents",
+   "quote": "Pups did not want to leave at all.",
+   "quoteSize": 84,
+   "by": "Elaine P., Google review",
+   "lead": "**230+ five star reviews** from Miramar and Pembroke Pines families.",
+   "button": "Send us your dates",
+   "note": "Want to see the home first? Meet and greets on Tuesdays, *totally optional*."
+  }
+ ],
+ "post_id": "20301414-64c7-4621-bdec-96eea7fc926b",
+ "hosted": [
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/19dc6623-58d3-4290-98a3-d7f1d2138948.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/2e1bcc8f-1fa6-4859-b221-ca869533add8.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/14c02884-fbd6-4742-a2bb-ef5c0e36f348.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/d01039f5-f68b-4ad0-b2c2-8cb84bf0a2f8.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/b2419508-5417-4444-8110-2f00b9d98cf8.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/5091546b-3f93-445b-93a8-656326e1c7d3.jpg",
+  "https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/83bca888-d039-4c08-9fbf-2fef40910c89.jpg"
+ ]
 }
