@@ -1,0 +1,62 @@
+{
+ "story": true,
+ "note": "Reel covers, 1080x1920. Card sits inside the center 1080x1440 so the 3:4 profile grid crop shows the whole card.",
+ "slides": [
+  {
+   "date": "2026-10-24",
+   "post": "b667ea3c",
+   "eyebrow": "Trip coming up?",
+   "title": "Who's watching the ==*dog*==?",
+   "titleSize": 96,
+   "photo": "../../brand/maps-photos/pool-deck-small-group.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "post": "8cb51a58",
+   "eyebrow": "Watch till the end",
+   "title": "Watch who he ==*runs*== to.",
+   "titleSize": 96,
+   "photo": "../../brand/maps-photos/yard-run.jpg"
+  },
+  {
+   "date": "2026-10-26",
+   "post": "cbcca856",
+   "eyebrow": "Drop off day",
+   "title": "Read this before ==*drop off*==.",
+   "titleSize": 96,
+   "photo": "../../brand/maps-photos/curbside-handoff.jpg"
+  },
+  {
+   "date": "2026-10-27",
+   "post": "b6ba9f2a",
+   "eyebrow": "Tuesday meet and greets",
+   "title": "Meet us ==*before*== you book.",
+   "titleSize": 96,
+   "photo": "../../carousels/2026-10-23-five-questions/photos/home-front.jpg"
+  },
+  {
+   "date": "2026-10-29",
+   "post": "a948e36a",
+   "eyebrow": "How it works",
+   "title": "Drop off, step by ==*step*==.",
+   "titleSize": 96,
+   "photo": "../../carousels/2026-10-23-five-questions/photos/one-on-one.jpg"
+  },
+  {
+   "date": "2026-10-30",
+   "post": "4d7d0309",
+   "eyebrow": "Compare before you book",
+   "title": "What's ==*included*== with us.",
+   "titleSize": 96,
+   "photo": "../../brand/maps-photos/pool-splash-break.jpg"
+  },
+  {
+   "date": "2026-11-01",
+   "post": "7afb9b9a",
+   "eyebrow": "For shy dogs",
+   "title": "Is your dog a little ==*shy*==?",
+   "titleSize": 96,
+   "photo": "../../carousels/2026-10-23-five-questions/photos/dachshund-bed.jpg"
+  }
+ ]
+}

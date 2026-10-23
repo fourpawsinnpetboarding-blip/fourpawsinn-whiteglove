@@ -26,6 +26,8 @@ For every new file: give it the next `LIB-` id, run `contact-sheets.py` on it, r
 
 ## 4. Queue
 
+Every reel gets a card style cover before it is scheduled (Alex, Oct 23): follow `content/covers/README.md` and attach it with `perPlatform.instagram.coverUrl` and `perPlatform.facebook.coverUrl`. Check the 3 by 3 grid preview first.
+
 No music, no post (Alex, Oct 6). If the MUSIC folder has no usable track for a reel, do not schedule it: keep it as an Eden draft and add a Request row for Codex.
 
 
