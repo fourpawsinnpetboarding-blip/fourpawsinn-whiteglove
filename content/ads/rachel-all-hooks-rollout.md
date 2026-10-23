@@ -111,3 +111,24 @@ Full SHARP videos uploaded to Meta from the Eden SHARP files (verified full leng
 | R2 C5 hook5 | 52661906207724 | 3302236443498520 | |
 
 Next: watch each preview start to finish (Ads Manager, ad name starts with FULL), then enable. Mark Preview OK above.
+
+## REVIEW Oct 23, 2026 (corrected FULL ads, data Oct 13 to Oct 22)
+The 25 FULL replacement ads went live Oct 12 to 13 (Codex enabled after Alex checked every preview, Eden row 5f2d72b6). Oct 11 to 12 data excluded. Ad sets R1 and R2 were paused Oct 22 when the budget moved into the Newspaper Style Test (Alex chose option A), so this is a complete 10 day window.
+
+| Ranking (Windsor, Oct 13 to 23) | Spend | Leads | CPL |
+|---|---|---|---|
+| Static Reviews (main campaign, untouched) | $402.33 | 24 | $16.76 |
+| All 25 FULL concept videos combined | $446.43 | 15 | $29.76 |
+| C4 Drop off, all 5 hooks | $330.33 | 10 | $33.03 |
+| C4 Drop off hook1 (best single video) | $159.95 | 4 | $39.99 |
+| C1 Compare hook1 | $37.06 | 1 | $37.06 |
+| C2 First 24 hours hook1 | $20.71 | 1 | $20.71 |
+| C3 Custom stay hook4 | $11.10 | 1 | $11.10 |
+| C5 How to pack hook1 + hook3 | $11.62 | 2 | $5.81 (too little spend to judge) |
+| All other hooks | under $13 each | 0 | Meta barely served them |
+
+Booked stays: Windsor has no CAPI booking field per ad, so ranking is by leads only.
+
+Decision against the Oct 11 rule (10+ leads under $10 each moves to the main campaign): NO video qualifies. Best concept (C4 Drop off) cost $33.03 per lead, about 2x Static Reviews. Nothing moves into the main campaign. R1 and R2 stay paused (already paused Oct 22). Static Reviews keeps running untouched.
+
+Lesson: the drop off MESSAGE wins across formats (best video concept, best old static ad at $9.37 earlier), but video as a format costs about 2x a strong static on this audience. Next video tests should use the Hook Lab first second rules (strategy/operating-system/hook-lab.md) before more money goes behind them.
