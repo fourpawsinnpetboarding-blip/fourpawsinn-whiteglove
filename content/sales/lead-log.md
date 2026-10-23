@@ -66,7 +66,7 @@ The formula:
 1. Curious questions about the dog first (play style, energy, neutered, quirks). Never breed generalizations.
 2. Price as information, once they're talking. Never with a deposit ask.
 3. Short, natural lines. Don't parrot their words back; only confirm money and dates.
-4. Offer the next step ("want the steps to book?"), let them say yes.
+4. Offer the next step ("want the steps to book?"), and in that same message mention the optional Tuesday meet and greet (Alex, Oct 23): "If you'd like to come see the home first, we do meet and greets on Tuesdays, totally optional." Let them choose.
 5. Deposit only after the yes.
 
 Tracking (add to every lead row above): first reply length (one word vs sentences), when they started writing in sentences, outcome.
