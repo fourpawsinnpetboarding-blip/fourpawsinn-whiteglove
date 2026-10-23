@@ -1,10 +1,55 @@
 {
-  "ad": true,
-  "slides": [
-    { "id": "CS1-HIDDEN-GEM", "eyebrow": "Miramar, FL", "title": "The $60 a day dog boarding Miramar calls a ==*hidden gem*==", "titleSize": 64, "photo": "photos/pool-lab-and-pittie.jpg", "lead": "**230+ five star reviews.** A real home. No kennels. No hidden fees.", "button": "Check your dates" },
-    { "id": "CS2-DROP-OFF", "eyebrow": "Drop off at Four Paws Inn", "title": "Pull up. Text us. We bring your dog to ==*your car*==.", "titleSize": 66, "photo": "photos/one-on-one.jpg", "lead": "**Drop off takes about 20 seconds.** $60 a day under 50 lb. 230+ five star reviews.", "button": "Check your dates" },
-    { "id": "CS3-NO-HIDDEN-FEES", "eyebrow": "No hidden fees", "title": "The price you see is the price you ==*pay*==.", "titleSize": 92, "listSize": 46, "list": ["**$60 a day** under 50 lb. $75 over.", "**Included:** outside every hour, pool time and a daily video of your dog.", "**No extra fees** for play, toys or baths."], "button": "Check your dates" },
-    { "id": "CS4-ELAINE-REVIEW", "eyebrow": "Real Google review", "quote": "Pups did not want to leave at all.", "quoteSize": 62, "by": "Elaine P.", "photo": "photos/lab-pool.jpg", "lead": "**230+ five star reviews.** $60 a day under 50 lb. No kennels.", "button": "Check your dates" },
-    { "id": "CS5-REAL-HOME", "eyebrow": "Skip the kennel", "title": "Your dog stays in a ==*real home*==. Not a kennel row.", "titleSize": 66, "photo": "photos/pool-deck-small-group.jpg", "lead": "**Free roam. Small groups. Outside every hour.** $60 a day. 230+ five star reviews.", "button": "Check your dates" }
-  ]
+ "ad": true,
+ "slides": [
+  {
+   "id": "CS1-HIDDEN-GEM",
+   "eyebrow": "Miramar, FL",
+   "title": "Miramar dog boarding. A ==*hidden gem*==.",
+   "titleSize": 64,
+   "photo": "photos/pool-lab-and-pittie.jpg",
+   "lead": "**$60 a day under 50 lb.** 230+ Google reviews. A real home. No kennels. No hidden fees.",
+   "button": "Check your dates"
+  },
+  {
+   "id": "CS2-DROP-OFF",
+   "eyebrow": "Curbside at Four Paws Inn",
+   "title": "Pull up. Text us. We come to ==*your car*==.",
+   "titleSize": 66,
+   "photo": "../../../brand/maps-photos/curbside-handoff.jpg",
+   "lead": "**Usually about 20 seconds.** $60 a day under 50 lb. 230+ Google reviews.",
+   "button": "Check your dates"
+  },
+  {
+   "id": "CS3-NO-HIDDEN-FEES",
+   "eyebrow": "No hidden fees",
+   "title": "The price you see is the price you ==*pay*==.",
+   "titleSize": 92,
+   "listSize": 46,
+   "list": [
+    "**$60 a day** under 50 lb. $75 a day over 50 lb.",
+    "**Included:** outside every hour, supervised pool time and a video update each day.",
+    "**No extra fees** for play, toys or baths."
+   ],
+   "button": "Check your dates"
+  },
+  {
+   "id": "CS4-ELAINE-REVIEW",
+   "eyebrow": "Real Google review",
+   "quote": "Pups did not want to leave at all.",
+   "quoteSize": 62,
+   "by": "Elaine P.",
+   "photo": "photos/lab-pool.jpg",
+   "lead": "**230+ Google reviews.** $60 a day under 50 lb. No kennels.",
+   "button": "Check your dates"
+  },
+  {
+   "id": "CS5-REAL-HOME",
+   "eyebrow": "Skip the kennel",
+   "title": "Your dog stays in a ==*real home*==. Not a kennel row.",
+   "titleSize": 66,
+   "photo": "../../../brand/maps-photos/indoors-real-bed.jpg",
+   "lead": "**Free roam. Small groups. Outside every hour.** $60 a day under 50 lb. 230+ Google reviews.",
+   "button": "Check your dates"
+  }
+ ]
 }

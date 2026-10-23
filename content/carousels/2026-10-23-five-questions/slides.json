@@ -1,30 +1,30 @@
 {
- "caption": "Before you book any boarding, ask these 5 questions. A good place answers all 5 without blinking.\n\nWhich one do you always ask first?\n\nNear Miramar or Pembroke Pines? Send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+ "caption": "5 questions to ask before you book dog boarding. A good place answers all 5 without blinking.\n\nWhich one do you always ask first?\n\nNear Miramar or Pembroke Pines? Send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
  "slides": [
   {
    "eyebrow": "Miramar dog parents",
-   "title": "Leaving your dog for a ==*week*==? Read this first.",
+   "title": "5 questions to ask before you book ==*dog boarding*==.",
    "photo": "photos/yorkie-yard.jpg",
    "swipe": true
   },
   {
    "eyebrow": "The truth",
-   "title": "Most boarding looks great ==*online*==.",
-   "lead": "**Then you see the kennel.**",
-   "body": "Here are 5 questions to ask before you book. A good place answers all 5 without blinking.",
+   "title": "Look beyond the ==*photos*==.",
+   "lead": "**Ask these 5 questions before you book.**",
+   "body": "A good place answers all 5 without blinking.",
    "swipe": true
   },
   {
    "eyebrow": "Question 1",
    "title": "Where does my dog ==*sleep*==?",
-   "photo": "photos/home-front.jpg",
+   "photo": "photos/dachshund-bed.jpg",
    "lead": "**With us: a real home.** Real beds. No crates, no kennel rows."
   },
   {
    "eyebrow": "Question 2",
    "title": "How often do they go ==*outside*==?",
    "photo": "photos/lab-pool.jpg",
-   "lead": "**Every hour.** Plus the pool on hot Miramar days."
+   "lead": "**Every hour.** Plus supervised pool time on hot Miramar days."
   },
   {
    "eyebrow": "Question 3",
@@ -38,8 +38,8 @@
    "titleSize": 88,
    "listSize": 56,
    "list": [
-    "**Nothing extra.** Play, toys and the pool are included. $60 a day under 50 lb.",
-    "**A daily video** of your dog, every day of the stay."
+    "**Included:** play, toys and supervised pool time. $60 a day under 50 lb, $75 over.",
+    "**A video update** of your dog each day of the stay."
    ]
   },
   {
@@ -47,9 +47,10 @@
    "quote": "Pups did not want to leave at all.",
    "quoteSize": 84,
    "by": "Elaine P., Google review",
-   "lead": "**230+ five star reviews** from Miramar and Pembroke Pines families.",
+   "lead": "**230+ Google reviews.**",
    "button": "Send us your dates",
-   "note": "Want to see the home first? Meet and greets on Tuesdays, *totally optional*."
+   "note": "Want to see the home first? Meet and greets on Tuesdays, *totally optional*.",
+   "noteSize": 42
   }
  ],
  "post_id": "20301414-64c7-4621-bdec-96eea7fc926b",

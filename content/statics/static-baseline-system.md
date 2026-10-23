@@ -124,3 +124,11 @@ How to make one (no credits spent):
 Structure that fits the style: hook slide with the best dog photo, a "the truth" setup slide, one question or rule per slide with a photo, a combined slide for the last two, a review quote plus button to close. 6 to 8 slides.
 
 **Oct 23 update:** all of Claude's scheduled 7:30 AM statics and carousels (Oct 24 to Nov 1) were rebuilt in this style and swapped into the same Eden posts. Folders: `content/carousels/2026-10-2*` and `2026-11-01-happy-parents`. Codex is converting its 4 PM posts the same way (`strategy/agent-prompts/codex-card-style-conversion-2026-10-23.md`). Renderer modes: default 4:5 carousel, `"ad": true` single ads, `"story": true` 9:16 Stories (`content/stories/stories-playbook.md`).
+
+**Codex review rules (Oct 23, now standard for every card):**
+1. Say "230+ Google reviews", not "230+ five star reviews" (the rating is 4.9, not every review is 5 stars). Never say all reviewers are from Miramar or Pembroke Pines.
+2. Any price names its size: "$60 a day under 50 lb", "$75 a day over 50 lb". Never a bare "$60".
+3. Say "supervised pool time" and "a video update each day".
+4. No generalizations about other boarding places ("Most boarding..."). Talk about us.
+5. The photo must prove the headline: a sleep or real home claim shows a bed, a curbside claim shows the car hand off (`content/brand/maps-photos/curbside-handoff.jpg`).
+6. Curbside wording: "Pull up. Text us. We come to your car. Usually about 20 seconds."

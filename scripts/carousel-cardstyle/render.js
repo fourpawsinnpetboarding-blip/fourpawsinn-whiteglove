@@ -64,7 +64,7 @@ em{font-family:"Source Serif 4";font-style:italic;font-weight:700;letter-spacing
 .quote{font-family:"Source Serif 4";font-style:italic;font-weight:600;font-size:${s.quoteSize || (s.photo ? 56 : 76)}px;line-height:1.2;text-align:center}
 .by{font-size:30px;text-align:center;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 .btn{align-self:center;background:${C.pink};border:7px solid ${C.charcoal};border-radius:999px;box-shadow:12px 12px 0 ${C.charcoal};padding:30px 70px;font-weight:850;font-size:48px}
-.note{text-align:center;font-family:"Source Serif 4";font-style:italic;font-size:32px;color:rgba(53,53,50,.75)}
+.note{text-align:center;font-family:"Source Serif 4";font-style:italic;font-size:${s.noteSize || 38}px;color:rgba(53,53,50,.8)}
 .foot{position:absolute;left:64px;right:64px;bottom:-78px;display:flex;justify-content:space-between;font-size:26px;font-weight:700;letter-spacing:.08em}
 .swipe{position:absolute;right:56px;bottom:40px;font-weight:800;font-size:30px}
 </style></head><body><div class="card">
