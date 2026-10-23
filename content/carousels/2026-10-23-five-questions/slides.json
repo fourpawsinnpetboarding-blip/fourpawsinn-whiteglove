@@ -1,0 +1,12 @@
+{
+  "caption": "Before you book any boarding, ask these 5 questions. A good place answers all 5 without blinking.\n\nWhich one do you always ask first?\n\nNear Miramar or Pembroke Pines? Send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+  "slides": [
+    { "eyebrow": "Miramar dog parents", "title": "Leaving your dog for a ==*week*==? Read this first.", "photo": "photos/yorkie-yard.jpg", "swipe": true },
+    { "eyebrow": "The truth", "title": "Most boarding looks great ==*online*==.", "lead": "**Then you see the kennel.**", "body": "Here are 5 questions to ask before you book. A good place answers all 5 without blinking.", "swipe": true },
+    { "eyebrow": "Question 1", "title": "Where does my dog ==*sleep*==?", "photo": "photos/home-front.jpg", "lead": "**With us: a real home.** Real beds. No crates, no kennel rows." },
+    { "eyebrow": "Question 2", "title": "How often do they go ==*outside*==?", "photo": "photos/lab-pool.jpg", "lead": "**Every hour.** Plus the pool on hot Miramar days." },
+    { "eyebrow": "Question 3", "title": "How do new dogs ==*meet*== the pack?", "photo": "photos/one-on-one.jpg", "lead": "**Slowly.** One on one time with us first. The pack when they're ready." },
+    { "eyebrow": "Questions 4 and 5", "title": "What costs ==*extra*==? How will I ==*see*== my dog?", "titleSize": 88, "listSize": 56, "list": ["**Nothing extra.** Play, toys and the pool are included. $60 a day under 50 lb.", "**A daily video** of your dog, every day of the stay."] },
+    { "eyebrow": "Real talk from real parents", "quote": "Pups did not want to leave at all.", "quoteSize": 84, "by": "Elaine P., Google review", "lead": "**230+ five star reviews** from Miramar and Pembroke Pines families.", "button": "Send us your dates", "note": "Want to see the home first? Meet and greets on Tuesdays, *totally optional*." }
+  ]
+}

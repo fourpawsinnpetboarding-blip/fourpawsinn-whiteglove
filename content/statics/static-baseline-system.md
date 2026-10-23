@@ -101,3 +101,24 @@ Rules: headline = what + where + $60 a day + proof (230+ five star reviews). Rea
 **Builds:** Times 1 hidden gem 8c81a15f, Times 2 refuse to leave 6008db78, Times 3 drop off c7fd5164 (Higgsfield job ids).
 
 **Lesson (Codex QA, Oct 22): Higgsfield redraws real photos.** Even when told "do not redraw", nano banana changed dog poses and faces, garbled headlines and added hyphens. Fix that worked (Codex): build the layout, then composite the ORIGINAL real photo files back in, check at full size and at 390px phone size, export JPG under 1 MB. From now on every paid static gets this composite step and a Codex visual QA before or right after launch. Corrected live images and 3 Codex concepts (Hidden Gem, "Your trip. Their pool day.", One daily video) are logged on the Eden row "Review newspaper ad images".
+
+## 9. Card style carousels (Alex, Oct 23, 2026): the default for carousels and multi page statics
+Reference: the goviralish.com "Double Your Reach Challenge" page Alex sent. Recolored to our palette.
+
+The look:
+1. Cream page `#FAF7F3`. One white card per slide, 7px charcoal `#353532` border, round corners, hard offset shadow (no blur).
+2. Small spaced uppercase eyebrow label with a dot, on a pink `#E6A0A3` bar.
+3. Big bold sans headline. One or two key words in serif italic with a pink highlighter bar behind them.
+4. Bold lead in sentence, then plain body. Numbered lists for rules or questions.
+5. Real photos only, in a bordered box with the same hard shadow. Never redrawn.
+6. Last slide: a pink pill button with border and shadow ("Send us your dates"), plus the optional meet and greet note.
+7. Footer: FOUR PAWS INN and the page number. "Swipe" on the first two slides.
+
+How to make one (no credits spent):
+1. Copy `content/carousels/2026-10-23-five-questions/` to a new dated folder.
+2. Put real photos (downscaled under 1 MB) in `photos/`. Edit `slides.json`: `==word==` highlight, `*word*` serif italic, `**word**` bold. Optional sizes: titleSize, listSize, quoteSize.
+3. Run: `NODE_PATH=$(npm root -g) node scripts/carousel-cardstyle/render.js content/carousels/<folder>`
+4. Check `contact-sheet.png`: no empty half cards, no text under 38px, highlight on one or two words per slide max.
+5. Facts and prices only from `fourpawsinn/business-facts.md`. No dashes, no health or safety claims.
+
+Structure that fits the style: hook slide with the best dog photo, a "the truth" setup slide, one question or rule per slide with a photo, a combined slide for the last two, a review quote plus button to close. 6 to 8 slides.
