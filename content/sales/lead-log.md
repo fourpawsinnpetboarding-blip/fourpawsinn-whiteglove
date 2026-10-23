@@ -14,7 +14,7 @@ Every lead Claude drafts for gets one row here. Update the row when the lead boo
 | Daimara | Dogy, Beagle 30 lb | Dec 21 to 31, $660 / $600 | reply 3, with deposit and "Christmas is almost booked" in one message | Comparing options | Price, deposit and urgency all landed at once, before she knew us |
 | Dennis Dimartino | Jupiter | dates not given | not yet | Open | Asked dates, age, weight |
 | Shane Howard | Dozer | Oct 29 to Nov 7 | not yet | Open | Waiting on breed and weight |
-| Andrew Luna (907-229-5880) | Toad, Catahoula mix, 7 yrs, 70 lb, couch potato, people dog, dog aggressive (only knows his own dogs) | Nov 9 to 15, PRIVATE SUITE $100/day: $700 full, $600 if pick up before 10 AM Nov 15 | reply 2 (price as info, no deposit ask, meet and greet mentioned) | Open | Wrote full sentences on reply 1 (Erika pattern working). Large dog aggressive = never in the group (business-facts hard line). Alex to confirm a suite is open Nov 9 to 15. |
+| Andrew Luna (907-229-5880) | Toad, Catahoula mix, 7 yrs, 70 lb, couch potato, people dog, dog aggressive (only knows his own dogs) | Nov 9 to 15, private suite at $80/day (Alex one time price, Oct 23): $560 full, $480 if pick up before 10 AM Nov 15. NOT quoted yet | reply 2 = screening questions about people (Alex: is he OK alone with Amanda, dogs roam free) | Open | Price only after he passes the people screen. Bite history with people or guarding = pass kindly. If a fit, strongly suggest the Tuesday meet and greet so Amanda meets Toad first. |
 | Marlo, Isabella | | | | Said no | Isabella wanted daycare only |
 
 ## What the pattern says (small sample, but clear enough to act on)
