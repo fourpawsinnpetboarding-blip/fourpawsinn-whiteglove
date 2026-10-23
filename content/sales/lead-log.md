@@ -50,3 +50,23 @@ What it changes vs the old way:
 - Explains the process instead of asking for the deposit. The lead decides when.
 - Offers the Tuesday meet and greet as a way to decide, for leads who are weighing a big stay. Still never required, and never offered as a trial or dog intro.
 - Availability becomes a service ("I'll give you a heads up") instead of pressure. Only say a week is filling up when it is.
+
+## The Erika pattern (Alex, Oct 23, 2026): duplicate this with every lead
+Erika Mand (Jax), Oct 23. Alex: "This is exactly the pacing." Track every lead against it to see if it's the winning formula.
+
+What happened, message by message:
+1. Auto text (GHL): "Our pups play outside every hour. Every stay includes a daily video update. What's your pup's name?" Reply: "Jax." (one word)
+2. Us: short, human: breed, age, dates. Reply: "Cockapoo. 3 yrs." "Nov 23 to 28."
+3. Us: real questions about HIM (play style, neutered, energy) before anything else, then the price as information. Reply: she opened up, full sentences, a detail nobody asked for ("he also likes the couch").
+4. Us: "He'll fit right in here", how we'll handle him, then "Would you like me to send you the steps to book his stay?" No deposit ask.
+
+Why it works (Alex's read): leads are used to bots, so the first replies are one word. Someone who thinks they're talking to a person writes sentences and says hello. The fix is to break the bot pattern early: real questions about their dog, no selling, value slipped in naturally. Once they write in sentences, the conversation is human, and price lands as information, not a pitch.
+
+The formula:
+1. Curious questions about the dog first (play style, energy, neutered, quirks). Never breed generalizations.
+2. Price as information, once they're talking. Never with a deposit ask.
+3. Short, natural lines. Don't parrot their words back; only confirm money and dates.
+4. Offer the next step ("want the steps to book?"), let them say yes.
+5. Deposit only after the yes.
+
+Tracking (add to every lead row above): first reply length (one word vs sentences), when they started writing in sentences, outcome.
