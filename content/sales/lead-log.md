@@ -70,3 +70,9 @@ The formula:
 5. Deposit only after the yes.
 
 Tracking (add to every lead row above): first reply length (one word vs sentences), when they started writing in sentences, outcome.
+
+## Opener test (Alex approved Oct 23, 2026)
+Old first auto text: "Hi [name]! It's Amanda from Four Paws Inn. Thank you for reaching out. Our pups play outside every hour. Every stay includes a daily video update. What's your pup's name?"
+New: "Hi [name], it's Amanda from Four Paws Inn. I just saw your request come in. What's your pup like?"
+Why: the old one reads like a bot, so first replies are one word. An open question about the dog invites sentences.
+Measure: for 2 weeks before vs 2 weeks after the switch (go live date on the Eden row), the share of leads whose first reply is a full sentence, and how many book. Codex makes the change in GHL (backup first).
