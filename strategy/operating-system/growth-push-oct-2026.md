@@ -27,3 +27,9 @@ Note: T3's time line must match the real video update time. Confirm with Amanda 
 2. Codex posts the 2 trial versions 48 hours before each noon slot (Trial Reels can't go through Eden).
 3. 24 hours later: read average watch time and the retention graph. Winner goes to the feed, loser goes on the "tried, lost" list in `strategy/operating-system/hook-lab.md`.
 4. Monday scoreboard: credits spent, tests run, best hook, cost per winning hook.
+
+## Clip status (Oct 23, 16:15 UTC)
+- T1 office 2 PM: DONE. Eden link https://public.eden.so/scheduling/1c2438f9-e773-4786-a8cb-121504399872/0c2f5a47-89fd-4edd-afc9-0aa2620a4682.mp4
+- T2 airport: still rendering (job 6e8bdc20).
+- T3 couch: blocked by Higgsfield's content filter (flagged nsfw on a harmless prompt). Not regenerated: Alex capped credits at a few clips. Retry next week with a reworded prompt if T1 or T2 wins.
+- Amanda's custom voice: not in Higgsfield yet (only the stock preset voice also named "Amanda", which is NOT her). Waiting on Alex.
