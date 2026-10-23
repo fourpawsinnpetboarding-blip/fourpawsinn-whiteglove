@@ -1,66 +1,73 @@
 {
  "story": true,
- "time": "18:30 America/New_York, Instagram Story only",
+ "time": "18:30 America/New_York, Instagram Story only, Claude night slot",
  "slides": [
   {
    "date": "2026-10-24",
+   "type": "Play",
    "eyebrow": "Saturday at the Inn",
    "title": "Hot day? Time for a ==*splash*==.",
+   "titleSize": 94,
    "photo": "../../brand/maps-photos/pool-splash-break.jpg",
-   "lead": "**Planning a trip?** Reply with your dates.",
-   "titleSize": 94
+   "lead": "**Planning a trip?** Reply with your dates."
   },
   {
    "date": "2026-10-25",
-   "eyebrow": "This or that",
-   "title": "Pool dog or ==*couch*== dog?",
-   "photo": "../../carousels/2026-10-23-five-questions/photos/lab-pool.jpg",
-   "lead": "**Reply with your answer.** We read every one.",
-   "titleSize": 94
+   "type": "Emotion: bored at home",
+   "eyebrow": "For working dog parents",
+   "title": "8 hours alone is a ==*long*== day.",
+   "titleSize": 94,
+   "photo": "../../brand/maps-photos/yard-run.jpg",
+   "lead": "**Some dogs just wait by the door.** Here they run, nap and make friends. Does yours wait by the door? Reply and tell us."
   },
   {
    "date": "2026-10-26",
+   "type": "Review",
    "eyebrow": "Real Google review",
    "quote": "I loved the attention that my dog received.",
+   "quoteSize": 66,
    "by": "Deone J.",
    "photo": "../../carousels/2026-10-23-five-questions/photos/one-on-one.jpg",
-   "lead": "**230+ Google reviews.** Reply with your dates.",
-   "quoteSize": 66
+   "lead": "**230+ Google reviews.** Reply with your dates."
   },
   {
    "date": "2026-10-27",
+   "type": "Meet and greet",
    "eyebrow": "It's Tuesday",
    "title": "Meet and greets are ==*today*==.",
+   "titleSize": 94,
    "photo": "../../carousels/2026-10-23-five-questions/photos/home-front.jpg",
-   "lead": "**9 AM to 7 PM. Totally optional.** Reply to set a time.",
-   "titleSize": 94
+   "lead": "**9 AM to 7 PM. Totally optional.** Reply to set a time."
   },
   {
    "date": "2026-10-28",
+   "type": "Value: FAQ",
    "eyebrow": "Asked every week",
    "title": "What costs ==*extra*==?",
    "list": [
-    "**Nothing.** Play, toys and pool time are included.",
-    "**A daily video** of your dog, every day.",
+    "**Nothing.** Play, toys and supervised pool time are included.",
+    "**A video update** of your dog each day.",
     "**$60 a day** under 50 lb. $75 over."
    ],
    "note": "Reply with your dates for your total."
   },
   {
    "date": "2026-10-29",
-   "eyebrow": "Holiday travel",
-   "title": "Thanksgiving is ==*4 weeks*== away.",
-   "photo": "../../brand/maps-photos/yard-run.jpg",
-   "lead": "**Holiday dates fill first.** Reply with your dates.",
-   "titleSize": 94
+   "type": "Emotion: friends",
+   "eyebrow": "Dogs are social",
+   "title": "A ==*friend*== makes the day go faster.",
+   "titleSize": 90,
+   "photo": "../../brand/maps-photos/pool-lab-and-pittie.jpg",
+   "lead": "**We match play groups by size and energy.** Does your dog have a best friend? Reply with their name."
   },
   {
    "date": "2026-10-30",
-   "eyebrow": "Weekend trip?",
-   "title": "We've got your ==*dog*==.",
-   "photo": "../../brand/maps-photos/pool-lab-and-pittie.jpg",
-   "lead": "**Drop off 9 AM to 12 PM or 4 PM to 6:30 PM.** Reply with your dates.",
-   "titleSize": 94
+   "type": "Timing",
+   "eyebrow": "Holiday travel",
+   "title": "Thanksgiving is ==*4 weeks*== away.",
+   "titleSize": 94,
+   "photo": "../../brand/apple-maps-cover-yard-1600x1040.jpg",
+   "lead": "**Holiday dates fill first.** Reply with your dates."
   }
  ]
 }

@@ -33,5 +33,33 @@ Limits: Eden posts one image or one video per Story. It can't add polls, links o
 ## Scoring (every Monday, with the weekly scoreboard)
 Per Story: reach, replies, taps forward, exits. The win metric is **replies per 100 viewers**. Each week, the Story type with the most replies gets a second day the next week. The one with the fewest is replaced.
 
+## Two Stories a day (Alex, Oct 23, 2026: approved)
+| Slot | Owner | Feel |
+|---|---|---|
+| 10:00 AM | Codex | Morning energy: real footage or photos from today's yard, play, the pack waking up, a quick tip |
+| 6:30 PM | Claude | Evening reflection: reviews, emotion, value, booking reasons |
+
+Alex: "I want good reviews, playtime with the dogs, trigger people's emotions: their dog is bored when they're at work, their dog could make friends, could become more social. Give value. Mix it up. Not the same redundant story."
+
+## The 7 pillars (rotate them)
+| Pillar | What it does | Examples |
+|---|---|---|
+| Play | Shows the joy | Pool splash, zoomies, tug of war, nap pile after play |
+| Emotion: home alone | Names the guilt of a long workday | "8 hours alone is a long day", "Your dog at 2 PM vs ours" |
+| Emotion: friends | Dogs are social, friends make the day | "A friend makes the day go faster", "Best friends this week" |
+| Proof | Real Google reviews, word for word | One quote per Story, real photo |
+| Value | Teaches something useful | "3 signs your dog needs more play", what to pack, what costs extra |
+| Booking | Gives a reason to act now, only when true | Tuesday meet and greets, holiday timing |
+| Community | Invites a reply | This or that, "Reply with your dog's name", guess the breed |
+
+## No repeat rules (both slots, both agents)
+1. The same pillar never runs in both slots on the same day.
+2. The same Story type never runs twice within 3 days.
+3. A photo or clip is never reused in a Story within 7 days.
+4. Every Story ends with a reply ask or gives one clear piece of value.
+5. Emotion Stories stay kind. Name the feeling, never shame the parent. No promises about behavior change or health ("will become social" is a promise; "a friend makes the day go faster" is not).
+6. Before scheduling, check the other agent's Stories for the same week in Eden and log yours in the week folder README.
+
 ## Status
-- Week of Oct 24: 7 Stories rendered and saved as Eden drafts (ids in the week folder's README line below). Not scheduled: Stories are not yet on Alex's standing exception list, so they need his yes before they auto publish.
+- Night Stories, week of Oct 24: all 7 scheduled at 6:30 PM (ids in `2026-10-24-week/README.md`).
+- Morning Stories: Codex starts Oct 24 at 10:00 AM (`strategy/agent-prompts/codex-morning-stories-2026-10-23.md`).
