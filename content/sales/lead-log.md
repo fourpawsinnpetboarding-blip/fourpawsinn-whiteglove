@@ -91,3 +91,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - +1 786-740-4985. Mocha: male, not neutered, shy at first, friendly with dogs once warm, marks indoors sometimes (brings diapers). Fresh plus dry food.
 - Dates corrected by her to Nov 23 to 27 (Thanksgiving week, almost full). Re-quoted: $300 for 5 days at $60 a day, $240 with pick up before 10 AM Nov 27. No holiday or diaper fee. All 3 payment options listed. No deposit yet.
 - She loved the meet and greet text; offered Tuesday Oct 27 before 5 PM, asked her for a time. Codex row added.
+- Rewrite (Alex): be honest about space without pushing. Reason first (small group, no holiday fees so Thanksgiving fills), then the fit (friendly, smaller dog), then the $75 deposit to hold the spot, and the meet and greet stays on. Pattern for any near full holiday week: the deposit protects their spot so we never have to remember to tell them it sold.
