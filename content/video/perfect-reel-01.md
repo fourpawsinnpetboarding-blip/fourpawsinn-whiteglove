@@ -3,6 +3,8 @@
 Alex, Oct 24: "Do one PERFECT one. Every single frame and word needs to be intentionally thought. No more volume. Quality."
 Method: Viralish (reel Dehb91vDIje). Design in reverse. Describe the opening shot first, not the payoff. The shot itself must carry stakes and a curiosity gap; text only sharpens it.
 
+**Alex, Oct 24: "Love the tiny dog big pool." Approved as the model for every reel.**
+
 Eden post: cbcca856 (Instagram + Facebook, 12:00 PM ET Mon Oct 26). Spec: `content/video/specs/W44-P1-tinydog.json`. Cover: `content/covers/2026-10-26-perfect/`. Footage: LIB-0060 (overhead pool clip), rotated 90 degrees so the full frame fills the screen with no crop.
 
 ## Frame by frame
