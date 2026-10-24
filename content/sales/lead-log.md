@@ -15,6 +15,8 @@ Every lead Claude drafts for gets one row here. Update the row when the lead boo
 | Dennis Dimartino | Jupiter | dates not given | not yet | Open | Asked dates, age, weight |
 | Shane Howard | Dozer | Oct 29 to Nov 7 | not yet | Open | Waiting on breed and weight |
 | Andrew Luna (907-229-5880) | Toad, Catahoula mix, 7 yrs, 70 lb, couch potato, loves people, never snapped or bit a person, anyone can walk him; hit and miss with new dogs | Nov 9 to 15, private suite: $100/day, $700 full, $600 if pick up before 10 AM Nov 15. Deposit 25% = $175; balance $525 (or $425) | reply 2 = suite link + people screen; reply 3 = suite pitch with totals; reply 4 = booking steps after his YES | Said YES Oct 23, booking steps sent | Erika pattern held: dog first, screen, price as info, deposit only after yes. |
+| Anton Foresta (954-865-5175) | not given yet | Daycare inquiry (website form Oct 24 10:04 AM). Custom plan only, priced as a boarding day ($60 under 50 lb, $75 over); steer to overnights | not yet (reply 1 = the dog + which days) | Open | Never call it a daycare package. |
+| Erika Mand (832-655-8251) | Jax, Cockapoo, 3 yrs, neutered, high energy, rough and tumble, likes the couch; owner cooks his meals | Nov 23 to 28 (Thanksgiving week, almost full) | price sent Oct 23 as info | Meet and greet Tuesday Oct 27 (time pending) | Erika pattern lead. Alex to confirm how we handle home cooked food before Tuesday. |
 | Marlo, Isabella | | | | Said no | Isabella wanted daycare only |
 
 ## What the pattern says (small sample, but clear enough to act on)
