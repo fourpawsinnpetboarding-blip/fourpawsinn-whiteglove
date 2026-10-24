@@ -79,3 +79,6 @@ Old first auto text: "Hi [name]! It's Amanda from Four Paws Inn. Thank you for r
 New: "Hi [name], it's Amanda from Four Paws Inn. I just saw your request come in. What's your pup like?"
 Why: the old one reads like a bot, so first replies are one word. An open question about the dog invites sentences.
 Measure: for 2 weeks before vs 2 weeks after the switch (go live date on the Eden row), the share of leads whose first reply is a full sentence, and how many book. Codex makes the change in GHL (backup first).
+
+## Custom plans: no meet and greet yet (Alex, Oct 24, 2026)
+When a lead needs a custom plan (daycare askers, tough work schedules, regular weekly stays), build the plan by text first. Give the windows (9 AM to 12 PM, 4 PM to 6:30 PM, 7 days), how billing works (by the day, last day free if picked up before 10 AM), the rate, then ask: which days, work hours (leave and get home), nights in a row or one at a time, the dog's name. Do NOT mention the meet and greet until the plan is set; deciding a plan on the spot in person is too much pressure. The 10 AM rule can bend for a custom plan only with Alex's yes. First case: Anton Foresta.
