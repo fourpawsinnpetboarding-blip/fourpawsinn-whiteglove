@@ -82,3 +82,6 @@ Measure: for 2 weeks before vs 2 weeks after the switch (go live date on the Ede
 
 ## Custom plans: no meet and greet yet (Alex, Oct 24, 2026)
 When a lead needs a custom plan (daycare askers, tough work schedules, regular weekly stays), build the plan by text first. Give the windows (9 AM to 12 PM, 4 PM to 6:30 PM, 7 days), how billing works (by the day, last day free if picked up before 10 AM), the rate, then ask: which days, work hours (leave and get home), nights in a row or one at a time, the dog's name. Do NOT mention the meet and greet until the plan is set; deciding a plan on the spot in person is too much pressure. Custom plans stay INSIDE our routine (Alex, Oct 24): the windows 9 AM to 12 PM and 4 PM to 6:30 PM never move, no early or late pick ups, and don't promise to work around a lead's schedule. Keep pricing blanket: the day rate only, no talk of late checkouts or the 10 AM rule in custom plan texts. First case: Anton Foresta.
+
+## When a lead asks "what does daycare cost?" (Alex, Oct 24, 2026)
+"We don't have a separate daycare price. We charge by the day, and [dog]'s rate is $[rate] a day, whether she goes home that evening or stays the night." Then one line on why we suggest overnights (same day rate, more time to settle in), the calm weekday pack, and the first stay inside the windows. Never explain why we don't run daycare.
