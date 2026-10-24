@@ -1,0 +1,15 @@
+{
+ "pillar": "Perfect reel (Alex, Oct 24): one reel, every frame and word intentional",
+ "hook": "Tiny dog. Big pool.",
+ "clips": [
+  {"src": "LIB-0060", "start": 7.4, "dur": 2.6, "rotate": "cw", "text": "Tiny dog. Big pool.", "proof": true},
+  {"src": "LIB-0060", "start": 0.4, "dur": 2.6, "rotate": "cw", "text": "She gets to decide."},
+  {"src": "LIB-0060", "start": 10.8, "dur": 1.6, "rotate": "cw", "text": "She walks right in."},
+  {"src": "LIB-0060", "start": 12.5, "dur": 3.0, "rotate": "cw", "text": "And we're right there."}
+ ],
+ "end": {"dur": 3.0, "lines": ["Supervised pool time", "At her pace", "Send us your dates"]},
+ "audio": "mute",
+ "music": "drive:1swfFhmh5_bnNRNuoiYYNIUbhS4Ehw8p0",
+ "music_volume": 0.7,
+ "note": "Feed Mon Oct 26 12 PM, Eden post cbcca856. Track Heartwarming, Kevin MacLeod, CC BY 4.0. Built in reverse from the opening shot (Viralish reel Dehb91vDIje). Frame plan: content/video/perfect-reel-01.md."
+}

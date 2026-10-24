@@ -8,6 +8,7 @@ spec.json:
   "clips": [{"src": "path.mov", "start": 9.0, "dur": 2.5, "text": "On screen line", "cx": 0.5}],
                              # first clip may add "proof": true for the review badge (visual hook rule, hook-rules.md)
                              # cx: optional horizontal crop position, 0 = left edge, 0.5 = center, 1 = right edge
+                             # rotate: optional "cw" or "ccw", for overhead shots with no fixed up (keeps the full frame)
   "end": {"dur": 4.0, "lines": ["Big serif headline", "small line", "small line"]},
   "audio": "mute",           # "mute" or "original" (keeps each clip's own sound)
   "music": "track.mp3",      # optional: licensed background track (MUSIC folder in Drive), mixed under the whole reel
@@ -134,6 +135,9 @@ SDR = "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv
 TAGS = ["-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-color_range", "tv"]
 
 
+ROT = {"cw": ",transpose=clock", "ccw": ",transpose=cclock"}  # overhead shots only: turn a landscape clip into full frame portrait
+
+
 def color_chain(src):
     info = subprocess.run([FF, "-hide_banner", "-i", src], capture_output=True, text=True).stderr
     if "arib-std-b67" in info or "smpte2084" in info:
@@ -150,7 +154,7 @@ def main(spec_path, out):
         afilter = ["-f", "lavfi", "-t", str(c["dur"]), "-i", "anullsrc=r=44100:cl=stereo"] if mute else []
         amap = ["-map", "2:a"] if mute else ["-map", "0:a"]
         subprocess.run([FF, "-loglevel", "error", "-y", "-ss", str(c["start"]), "-t", str(c["dur"]), "-i", c["src"], "-i", png, *afilter,
-                        "-filter_complex", f"[0:v]{color_chain(c['src'])},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}:(iw-{W})*{c.get('cx', 0.5)}:(ih-{H})/2,fps=30,setsar=1[v];[v][1:v]overlay=0:0[o]",
+                        "-filter_complex", f"[0:v]{color_chain(c['src'])}{ROT.get(c.get('rotate'), '')},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}:(iw-{W})*{c.get('cx', 0.5)}:(ih-{H})/2,fps=30,setsar=1[v];[v][1:v]overlay=0:0[o]",
                         "-map", "[o]", *amap, "-shortest", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p", *TAGS, "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2", part], check=True)
         parts.append(part)
     e = spec["end"]; png = os.path.join(tmp, "end.png"); end_png(e["lines"], png)

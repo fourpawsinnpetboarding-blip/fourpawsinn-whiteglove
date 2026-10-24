@@ -1,5 +1,7 @@
 # Hook test: curiosity gap plus emotion (Alex, Oct 24, 2026)
 
+**CHANGED, Alex Oct 24 (same day): "Not 10. Do one PERFECT one. No more volume, quality."** The 10 reel batch below is cancelled. Only one reel was built to the new standard: `content/video/perfect-reel-01.md` (Mon Oct 26). Oct 27 and Oct 29 already carry new hook reels (door, kneels down); every other noon slot keeps what was scheduled before. The week 2 Trial Reel pairs were never scheduled. The rule below (emotion plus curiosity gap) still stands for every hook.
+
 Alex: "Moving forward, I want emotion and a curiosity gap in all of my hooks. Five reels a week, every day at noon, each reel very intentional. Same exact strategy for two weeks."
 
 ## The rule for every hook from now on
