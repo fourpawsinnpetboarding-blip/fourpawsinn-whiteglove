@@ -1,0 +1,49 @@
+{
+ "pillar": "Bored at home",
+ "hook": "Your dog waited by the door all day",
+ "clips": [
+  {
+   "src": "LIB-0010",
+   "start": 0.0,
+   "dur": 2.6,
+   "text": "Your dog waited by the door all day",
+   "proof": true
+  },
+  {
+   "src": "LIB-0010",
+   "start": 2.6,
+   "dur": 2.4,
+   "text": "Here is what their day could look like"
+  },
+  {
+   "src": "LIB-0062",
+   "start": 22.0,
+   "dur": 3.0,
+   "text": "Friends to chase"
+  },
+  {
+   "src": "LIB-0062",
+   "start": 12.0,
+   "dur": 3.0,
+   "text": "Splash breaks in the sun"
+  },
+  {
+   "src": "LIB-0065",
+   "start": 1.5,
+   "dur": 3.0,
+   "text": "And always someone to play with"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:15ovZpDsjjx2shLk2grmvDqmYj1xOoADb",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-27 12 PM, Eden post b6ba9f2a-f955-4e22-bcc0-c76a854b925d. Track carefree."
+}

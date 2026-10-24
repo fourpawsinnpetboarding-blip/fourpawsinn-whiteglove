@@ -1,0 +1,55 @@
+{
+ "pillar": "Shy dog: identity",
+ "hook": "There are 4 kinds of dogs. Which one is yours?",
+ "clips": [
+  {
+   "src": "LIB-0009",
+   "start": 1.0,
+   "dur": 2.6,
+   "text": "There are 4 kinds of dogs. Which one is yours?",
+   "proof": true
+  },
+  {
+   "src": "LIB-0051",
+   "start": 1.6,
+   "dur": 2.8,
+   "text": "1. The patrol dog"
+  },
+  {
+   "src": "LIB-0052",
+   "start": 4.0,
+   "dur": 2.8,
+   "text": "2. The sniffer"
+  },
+  {
+   "src": "LIB-0065",
+   "start": 1.5,
+   "dur": 2.8,
+   "text": "3. The wrestler"
+  },
+  {
+   "src": "LIB-0003",
+   "start": 5.0,
+   "dur": 2.8,
+   "text": "4. The snuggler"
+  },
+  {
+   "src": "LIB-0003",
+   "start": 8.0,
+   "dur": 2.4,
+   "text": "Tell us yours in the comments"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1UfdqRAwPkpbtv0X8H3Aw9WS7Q6JHCG6o",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-08 12 PM, Eden post 96052f8b-a1ad-48db-8f6f-586e0daf06bc. Track gameshow."
+}

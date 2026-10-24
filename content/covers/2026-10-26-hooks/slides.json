@@ -1,0 +1,86 @@
+{
+ "story": true,
+ "note": "Hook test covers (Alex, Oct 24): curiosity gap plus emotion. 1080x1920, card inside the center 1080x1440.",
+ "slides": [
+  {
+   "date": "2026-10-26",
+   "post": "cbcca856",
+   "eyebrow": "After drop off",
+   "title": "Where your dog ==*goes*== next",
+   "titleSize": 96,
+   "photo": "photos/H01.jpg"
+  },
+  {
+   "date": "2026-10-27",
+   "post": "b6ba9f2a",
+   "eyebrow": "Home alone?",
+   "title": "Waiting by the ==*door*==?",
+   "titleSize": 96,
+   "photo": "photos/H02.jpg"
+  },
+  {
+   "date": "2026-10-29",
+   "post": "a948e36a",
+   "eyebrow": "Watch till the end",
+   "title": "When she ==*kneels*== down",
+   "titleSize": 96,
+   "photo": "photos/H03.jpg"
+  },
+  {
+   "date": "2026-10-30",
+   "post": "4d7d0309",
+   "eyebrow": "A new dog, day one",
+   "title": "It's not ==*play*== first",
+   "titleSize": 96,
+   "photo": "photos/H04.jpg"
+  },
+  {
+   "date": "2026-11-01",
+   "post": "7afb9b9a",
+   "eyebrow": "Is your dog shy?",
+   "title": "One ==*friend*== at a time",
+   "titleSize": 96,
+   "photo": "photos/H05.jpg"
+  },
+  {
+   "date": "2026-11-02",
+   "post": "79c68f71",
+   "eyebrow": "Every parent asks",
+   "title": "Will my dog ==*miss*== me?",
+   "titleSize": 96,
+   "photo": "photos/H06.jpg"
+  },
+  {
+   "date": "2026-11-03",
+   "post": "fd941493",
+   "eyebrow": "2 PM on a workday",
+   "title": "What's your dog ==*doing*==?",
+   "titleSize": 96,
+   "photo": "photos/H07.jpg"
+  },
+  {
+   "date": "2026-11-05",
+   "post": "4615a7ec",
+   "eyebrow": "Our favorite part",
+   "title": "The 3 second ==*hello*==",
+   "titleSize": 96,
+   "photo": "photos/H08.jpg"
+  },
+  {
+   "date": "2026-11-06",
+   "post": "c85fa587",
+   "eyebrow": "Packing for a stay",
+   "title": "The odd thing we ==*ask*==",
+   "titleSize": 96,
+   "photo": "photos/H09.jpg"
+  },
+  {
+   "date": "2026-11-08",
+   "post": "96052f8b",
+   "eyebrow": "Quick quiz",
+   "title": "Which ==*kind*== is yours?",
+   "titleSize": 96,
+   "photo": "photos/H10.jpg"
+  }
+ ]
+}

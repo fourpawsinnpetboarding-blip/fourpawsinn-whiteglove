@@ -1,0 +1,43 @@
+{
+ "pillar": "Joy: watch till the end",
+ "hook": "The best part of our day lasts 3 seconds",
+ "clips": [
+  {
+   "src": "LIB-0032",
+   "start": 6.0,
+   "dur": 2.6,
+   "text": "The best part of our day lasts 3 seconds",
+   "proof": true
+  },
+  {
+   "src": "LIB-0031",
+   "start": 0.3,
+   "dur": 2.6,
+   "text": "Wait for it"
+  },
+  {
+   "src": "LIB-0022",
+   "start": 30.0,
+   "dur": 3.0,
+   "text": "This part"
+  },
+  {
+   "src": "LIB-0033",
+   "start": 11.0,
+   "dur": 3.0,
+   "text": "The hello. Every single morning."
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1pRmmEZ185HOSwBhTcmHaR2NDoMEKbGY4",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-05 12 PM, Eden post 4615a7ec-3fdb-4703-b08d-4b3f05996e7c. Track feelin."
+}

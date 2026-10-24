@@ -1,5 +1,7 @@
 # Hook rules (first frame and first line)
 
+**Rule one (Alex, Oct 24, 2026): every hook carries emotion AND a curiosity gap.** Name a feeling the dog parent already has (guilt about leaving, worry their dog is bored, joy at the hello, fear their dog is too shy, pride in who their dog is), and open a question the first 3 seconds do not answer. The last clip before the end card answers it. Test plan and scorecard: `strategy/operating-system/hook-test-oct-nov-2026.md`.
+
 Source: Devin Jatho's teardown of a Hormozi reel (instagram.com/p/Dc24oGkA-Ip), sent by Alex Oct 8, 2026. Applies to every Four Paws Inn reel, static, and carousel cover from Claude and Codex.
 
 ## Visual hook (the first frame)

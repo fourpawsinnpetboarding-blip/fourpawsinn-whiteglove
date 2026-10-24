@@ -1,0 +1,43 @@
+{
+ "pillar": "Guilt: leaving them",
+ "hook": "Every parent asks us this at drop off",
+ "clips": [
+  {
+   "src": "LIB-0033",
+   "start": 9.5,
+   "dur": 3.0,
+   "text": "Every parent asks us this at drop off",
+   "proof": true
+  },
+  {
+   "src": "LIB-0028",
+   "start": 13.0,
+   "dur": 3.0,
+   "text": "Will my dog miss me?"
+  },
+  {
+   "src": "LIB-0006",
+   "start": 0.8,
+   "dur": 3.0,
+   "text": "Honest answer? Yes, at first."
+  },
+  {
+   "src": "LIB-0018",
+   "start": 20.0,
+   "dur": 3.2,
+   "text": "Then they find a friend"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Pull up. Text us.",
+   "We bring your dog to your car.",
+   "9 AM to 12 PM or 4 PM to 6:30 PM"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:17LE5oeo4bHuDA2j6t_p-a9nLS-SePOtL",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-02 12 PM, Eden post 79c68f71-3d66-407b-a3fe-76e86cf7c874. Track riley."
+}

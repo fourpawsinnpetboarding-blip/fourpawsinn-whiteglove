@@ -1,0 +1,43 @@
+{
+ "pillar": "Guilt: leaving them",
+ "hook": "What your dog does after you drive away",
+ "clips": [
+  {
+   "src": "LIB-0026",
+   "start": 11.6,
+   "dur": 3.0,
+   "text": "What your dog does after you drive away",
+   "proof": true
+  },
+  {
+   "src": "LIB-0028",
+   "start": 13.0,
+   "dur": 3.0,
+   "text": "First, a calm hello at your car"
+  },
+  {
+   "src": "LIB-0006",
+   "start": 0.8,
+   "dur": 3.0,
+   "text": "Then they walk in like they live here"
+  },
+  {
+   "src": "LIB-0063",
+   "start": 19.5,
+   "dur": 3.2,
+   "text": "And this is the rest of their day"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Pull up. Text us.",
+   "We bring your dog to your car.",
+   "9 AM to 12 PM or 4 PM to 6:30 PM"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1swfFhmh5_bnNRNuoiYYNIUbhS4Ehw8p0",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-26 12 PM, Eden post cbcca856-e4cb-4194-ad2a-ae83cb22014b. Track heartwarming."
+}

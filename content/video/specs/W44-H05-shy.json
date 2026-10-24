@@ -1,0 +1,43 @@
+{
+ "pillar": "Shy dog: identity",
+ "hook": "Your shy dog does not need a crowd on day one",
+ "clips": [
+  {
+   "src": "LIB-0054",
+   "start": 3.3,
+   "dur": 2.6,
+   "text": "Your shy dog does not need a crowd on day one",
+   "proof": true
+  },
+  {
+   "src": "LIB-0025",
+   "start": 5.0,
+   "dur": 3.0,
+   "text": "They need one person first"
+  },
+  {
+   "src": "LIB-0022",
+   "start": 29.5,
+   "dur": 3.2,
+   "text": "Someone who gets down on their level"
+  },
+  {
+   "src": "LIB-0018",
+   "start": 20.0,
+   "dur": 3.2,
+   "text": "Then one new friend at a time"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1RZhQd2_cFcqM8gyeT-6XWYgOxdgym33V",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-01 12 PM, Eden post 7afb9b9a-a7e0-461d-89b5-08d06889bf1d. Track porch."
+}

@@ -1,0 +1,43 @@
+{
+ "pillar": "Joy: watch till the end",
+ "hook": "Watch what happens when she kneels down",
+ "clips": [
+  {
+   "src": "LIB-0023",
+   "start": 0.3,
+   "dur": 2.7,
+   "text": "Watch what happens when she kneels down",
+   "proof": true
+  },
+  {
+   "src": "LIB-0023",
+   "start": 3.0,
+   "dur": 3.2,
+   "text": "He comes straight to her"
+  },
+  {
+   "src": "LIB-0003",
+   "start": 4.5,
+   "dur": 3.0,
+   "text": "Same thing, every morning"
+  },
+  {
+   "src": "LIB-0026",
+   "start": 12.0,
+   "dur": 3.0,
+   "text": "This is the face we see all day"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1StP9HxbYbqhEYq4LuU9lRfExzopKc8Pc",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-29 12 PM, Eden post a948e36a-27d1-4650-ba81-905d09c06cbd. Track sunshine."
+}

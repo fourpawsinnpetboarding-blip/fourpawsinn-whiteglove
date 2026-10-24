@@ -1,0 +1,43 @@
+{
+ "pillar": "Secret: not what you think",
+ "hook": "Most parents pack this wrong for boarding",
+ "clips": [
+  {
+   "src": "LIB-0041",
+   "start": 7.5,
+   "dur": 3.0,
+   "text": "Most parents pack this wrong for boarding",
+   "proof": true
+  },
+  {
+   "src": "LIB-0042",
+   "start": 10.5,
+   "dur": 3.0,
+   "text": "One meal per Ziploc bag"
+  },
+  {
+   "src": "LIB-0043",
+   "start": 12.5,
+   "dur": 3.5,
+   "text": "Same food as home. Same routine."
+  },
+  {
+   "src": "LIB-0009",
+   "start": 10.0,
+   "dur": 2.6,
+   "text": "So mealtime feels a little like home"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1ag4h_NviFXunl2NnsRfZVKiIlDhl-J5O",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-06 12 PM, Eden post c85fa587-34ce-4855-a2e1-77f65103a65b. Track lounge. Version B (Trial Reel)."
+}

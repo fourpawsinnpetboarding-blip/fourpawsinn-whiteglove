@@ -1,0 +1,43 @@
+{
+ "pillar": "Secret: not what you think",
+ "hook": "The first thing we do with a new dog is not play",
+ "clips": [
+  {
+   "src": "LIB-0019",
+   "start": 0.3,
+   "dur": 3.0,
+   "text": "The first thing we do with a new dog is not play",
+   "proof": true
+  },
+  {
+   "src": "LIB-0019",
+   "start": 3.4,
+   "dur": 2.9,
+   "text": "It is this. Quiet time with us."
+  },
+  {
+   "src": "LIB-0052",
+   "start": 3.0,
+   "dur": 3.0,
+   "text": "Then they explore at their own pace"
+  },
+  {
+   "src": "LIB-0024",
+   "start": 30.0,
+   "dur": 3.2,
+   "text": "Then they meet the group"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:1qqXyqNnH3SCfU7MEuRcibnUsL1HWnk6S",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-30 12 PM, Eden post 4d7d0309-bf6a-4ced-a86d-3a1c9ad06250. Track beetle."
+}

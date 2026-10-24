@@ -1,0 +1,49 @@
+{
+ "pillar": "Bored at home",
+ "hook": "It is 2 PM. Your dog has been home alone since 8.",
+ "clips": [
+  {
+   "src": "LIB-0055",
+   "start": 0.6,
+   "dur": 2.6,
+   "text": "It is 2 PM. Your dog has been home alone since 8.",
+   "proof": true
+  },
+  {
+   "src": "LIB-0024",
+   "start": 3.0,
+   "dur": 3.0,
+   "text": "Not staring at the door"
+  },
+  {
+   "src": "LIB-0051",
+   "start": 1.6,
+   "dur": 3.0,
+   "text": "Making the rounds"
+  },
+  {
+   "src": "LIB-0053",
+   "start": 0.3,
+   "dur": 2.2,
+   "text": "Chasing a new friend"
+  },
+  {
+   "src": "LIB-0065",
+   "start": 4.0,
+   "dur": 3.0,
+   "text": "Then a little tug of war"
+  }
+ ],
+ "end": {
+  "dur": 4.0,
+  "lines": [
+   "Send us your dates",
+   "Tell us about your dog",
+   "Miramar and Pembroke Pines"
+  ]
+ },
+ "audio": "mute",
+ "music": "drive:19671tLTItNhDjuMoxcnZ7yAWoCVoxivX",
+ "music_volume": 0.7,
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-11-03 12 PM, Eden post fd941493-0dfd-490f-b43f-059bd80b9892. Track monkeys. Version B (Trial Reel)."
+}
