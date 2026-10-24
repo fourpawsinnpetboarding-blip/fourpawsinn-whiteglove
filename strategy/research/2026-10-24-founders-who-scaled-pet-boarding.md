@@ -32,3 +32,17 @@ Exact revenue in each founder's early years is not public. These are the closest
 Talk to people who did it. Phil Miller (Pawville, Wilmington NC) is the closest match: one location, bought and fixed, scaled, PE deal. Franchise FDDs (Item 19) give real unit economics for Hounds Town and Dogtopia.
 
 Sources: franchisetimes.com (Hounds Town), 1851franchise.com, houndstownusa.com, campbowwow.com history, franchising.com (Ganahl), en.wikipedia.org/wiki/Heidi_Ganahl, acquiringminds.co (Phil Miller), wilmingtonbiz.com (Pawville), theglobeandmail.com (Dogtopia), bizbuysell.com, bridgebook.io, saltcreekadvisory.com, yourexitvalue.com, businesswire.com (Trivest PRHG).
+
+## Handwritten letter to Phil Miller (Alex, Oct 24, 2026)
+Address to confirm (Codex): only verified Pawville address is Pawville Veterinary Clinic, Scotts Hill, 10340 Highway 17, Wilmington, NC 28411. Envelope: "Attn: Phil Miller, personal."
+
+Dear Phil,
+My name is Alex Chiong. My wife Amanda and I run Four Paws Inn, a home style dog boarding business in Miramar, Florida.
+I came across your story about buying a small pet store and growing Pawville into what it is today. It stuck with me, because I am standing where you once stood. One location that works, a small team, and a plan to grow into more than one.
+I know your time is valuable, so my ask is small. Would you give me 20 minutes on the phone? I would love to hear about your first two years: what you focused on before your second location, and how you knew you were ready for it.
+I am not selling anything. I just want to learn from someone who has done it the right way.
+Thank you for reading this.
+Alex Chiong, Four Paws Inn, Miramar, Florida. [cell] | alex@chiongenterprise.com
+
+Follow up: short email 2 weeks after mailing if no reply.
+Call prep questions: revenue and occupancy when you opened location 2; who ran location 1 when you left; how you financed it (SBA, seller notes, cash); how you picked locations (zoning); what you'd do differently; how the PE deal came about.
