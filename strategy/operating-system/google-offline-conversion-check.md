@@ -145,3 +145,24 @@ Qualified ad call lengths: 12, 16, 24, 26, 33, 38, 43, 47, 168, 210, 219s. Not a
 Qualified to junk stays about 1 to 1 at every cutoff, so a higher cutoff only throws away real customers. 45s (set Oct 11 from 7 days of data) cuts 7 of 11 qualified calls. Decision: lower Calls from ads (p) call length to 20 seconds (drops hang ups, keeps 9 of 11 qualified). Keep Count = One. Real fix: score every call in CallRail (thumbs up or down), owner Amanda.
 
 Oct 11 2026: Alex set Calls from ads (p) call length to 20 seconds (Count stays One).
+
+## Call quality re-check, Oct 25, 2026 (Claude, read only)
+Source: Codex's export in Drive ADS DATA (2026-10-gads-monthly, Oct 1 2025 to Oct 23 2026). No CallRail export with Qualified vs Not a Lead tags is in the folder (only a diagnostics screenshot), so the qualified call count cannot be computed yet. Codex row added.
+
+One live campaign: Performance Max "South Florida's Trusted Pet Boarding", $90 a day, Target CPA. All other campaigns paused all year.
+
+| Month | Spend | Conversions | Cost per conv | Clicks | Cost per click | Search impr share | Lost to budget |
+|---|---|---|---|---|---|---|---|
+| May 2026 | $3,631.95 | 171 | $21.24 | 1,068 | $3.40 | 49% | 15% |
+| Jun 2026 | $2,736.11 | 165 | $16.58 | 986 | $2.77 | 35% | 15% |
+| Jul 2026 | $2,736.28 | 94 | $29.11 | 576 | $4.75 | 17% | 56% |
+| Aug 2026 | $2,736.46 | 74 | $36.98 | 624 | $4.39 | 12% | 72% |
+| Sep 2026 | $2,736.28 | 55 | $49.75 | 577 | $4.74 | under 10% | 89% |
+| Oct 1 to 23 | $2,081.92 | 35 | $59.48 | 290 | $7.18 | under 10% | 85% |
+
+Read:
+1. Same money, a third of the results. Cost per conversion went from $16.58 (June) to $59.48 (October), 3.6 times worse. Clicks per month fell by about 70%; cost per click went from $2.77 to $7.18.
+2. The Oct 11 change (count calls once, 20 second minimum) explains some of October's drop in counted calls, but the slide started in July, before that change.
+3. Search impression share fell from about 49% to under 10%, and 85 to 89% of the lost share is "budget". At today's cost per click, $90 a day buys a small slice of the searches. The Oct 24 hypothesis ("we already show for most searches, so more budget is wasted") is WRONG for this account.
+4. Cost per qualified call vs the $188 baseline: not computable until the CallRail qualified export lands.
+Next: the full audit (strategy/operating-system/google-ads-audit-oct-2026.md) must find why cost per click doubled in July (bid target change, asset or policy limits, competitor entry, location or conversion goal change). Read only; no change without Alex.
