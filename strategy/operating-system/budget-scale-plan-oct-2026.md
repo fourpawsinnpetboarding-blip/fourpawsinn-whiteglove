@@ -1,5 +1,9 @@
 # Meta budget scale plan (Alex, Oct 25, 2026)
 
+**ON HOLD (Alex, Oct 25, same evening): "Let's not increase the ads. Let's stay where we're at. $4,500 is a lot more than I'm used to."** No budget increases. Meta stays at current budgets (about $148 a day). The steps below are not active; any increase needs a new yes.
+
+Meta spend, live from Windsor: September about $40 a day (about $1,200). October 1 to 24: $1,849.92; October projected about $2,700 to $2,900. Google Ads about $3,000 a month (Alex).
+
 Alex: "Open the budget if you have to. I need to play a bigger game. I've kept the same budget for almost 2 years. I'm afraid to spend but wanting to increase revenue."
 
 ## The math (scoreboard Oct 19, creative refresh Oct 22)
