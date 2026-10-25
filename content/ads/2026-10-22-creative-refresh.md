@@ -109,3 +109,10 @@ Alex: "Trim down the budget, cut the ads that aren't performing well, then put t
 | Static Reviews Refresh twin (52664788365724) | $53.18 | 0 | none | Paused |
 | Card Style Round 1 (52665003929724) | $36.62 | 0 | none | Kept at $25 for the Mon Oct 26 3-2-2 flexible ad |
 Meta total: $148 a day to $82.60 a day (about $4,500 to about $2,500 a month). Next review Oct 29: Card Style 3-2-2 and the winner's CPL after the 20% raise.
+
+## One campaign, $40 a day (Alex, Oct 25, 2026, October cap)
+Alex: "October is our slowest month, about $18,000 vs $25,000 in September. I cannot pass $2,000 in October, under $2,500 for sure. Stay within $40 a day. Cut everything that's not working."
+- Paused Card Style ad set 52665003929724 ($36.62, 0 leads). The Monday 3-2-2 build is cancelled.
+- Winner campaign 52586440813324 (Static Reviews, ad 52586440815124, $17.78 CPL) set to $40 a day. It is the only active campaign.
+- All other ad sets paused: R1 52660845527724, R2 52661716488724, R3 52664709285324, Newspaper 52664769169324, Static Reviews twin 52664788365724, Card Style 52665003929724.
+- October Meta spend: $1,849.92 through Oct 24. At $40 a day for Oct 25 to 31 the month lands near $2,130. The Oct 29 review lowers the daily budget if needed so October lands at or under $2,000.
