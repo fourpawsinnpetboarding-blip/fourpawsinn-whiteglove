@@ -41,5 +41,6 @@ Source: GHL read only audit, Oct 14 2026. This file is the locked definition. Do
 
 ## Operator notes (Claude)
 1. Coverage math: 80% inside 15 minutes for 12 hours a day, 7 days a week, needs a named person holding GHL every hour. Draw the handoff schedule before Oct 16 or the test measures who happened to see the phone.
-2. Measurement: Windsor's GHL feed only shows the last message per conversation, not every timestamp. The 15 minute number needs GHL message level data (the same source as the Oct 14 audit). Lead last word can be read from Windsor.
+2. **Correction (Alex, Oct 25, 2026): "Waiting on our reply" and "lead last word" are NOT missed leads.** They count every thread where the client spoke last, including booked clients saying thanks, emoji reactions and questions already handled. Alex has not missed a lead. Report it only as "threads where the client spoke last", list the open leads by name only after checking each one, and never call the raw count unanswered or missed.
+3. Measurement: Windsor's GHL feed only shows the last message per conversation, not every timestamp. The 15 minute number needs GHL message level data (the same source as the Oct 14 audit). Lead last word can be read from Windsor.
 3. Stage cleanup (117 to Qualified, 364 to Lost) does not touch reply times. Do it before Oct 16 so Test 2 starts on a clean pipeline.

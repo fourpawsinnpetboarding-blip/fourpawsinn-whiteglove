@@ -25,7 +25,8 @@ Raise by about 20% at a time, every 3 days, so Meta's learning does not reset. N
 
 ## Gates (all must pass before each step)
 1. CPL on new spend at or under $25 over the last 3 days.
-2. Speed to lead holds: fewer than 10 leads waiting on our reply in GHL. More leads that nobody answers is wasted money.
+2. Lead to booked holds at 10% or better on leads from the scaled ad sets (GHL Won / new leads, 14 day window).
+   Note (Alex, Oct 25): the old "waiting on our reply" count is NOT a missed lead count. Windsor only sees the last message per thread, so it counts booked clients saying thanks and emoji reactions. Alex has not missed a lead. Never use that number as a gate or call those missed leads.
 3. Lead quality: at least 1 Won booking from the scaled ad sets per week once spend passes $200 a day.
 
 ## Kill rule
