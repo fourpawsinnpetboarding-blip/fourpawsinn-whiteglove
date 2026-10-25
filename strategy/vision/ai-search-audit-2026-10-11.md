@@ -74,3 +74,17 @@ On the Home and About pages, use the editor search for each of these and replace
 2. "119", "190", "80" five star reviews -> "215 Google reviews, 4.9 stars"
 3. "Pembroke Pines" as our location -> "Miramar" (keep it where it says we serve Pembroke Pines)
 Then Publish.
+
+## Re-check, Oct 25, 2026 (before and after)
+| Query | Oct 11 | Oct 25 |
+|---|---|---|
+| "best dog boarding in Miramar FL" | Four Paws Inn not named (Yelp lists, Holly Acres, Dogstown, Country Inn, PAWZ) | **Four Paws Inn is the top answer**, "best supported Miramar, FL option", 4.9, cage free, supervised pool time, daily updates, correct Miramar address. Other results were Dogtopia Miramar, San Diego (wrong state). |
+| "cage free dog boarding Pembroke Pines Miramar home boarding reviews" | Only result, but flagged as conflicting, "treat as self reported" | **Strongest match**, from the Google Business listing. Rover sitters, Elizabeth's (Yellow Pages) and Royal Dog House listed as alternatives. Still a caution note on the March 2026 press release (70% repeat client claim "could not verify"). |
+
+Still wrong in what AI reads:
+1. **Review count 189** (Google listing snapshot). Real: 230+ (232 on Oct 11 via the GBP API). Likely a stale cached copy; it should update on its own.
+2. **Price "$50 to $65, rates vary"**, almost certainly the Google Business Profile price range field. Real: $60 a day under 50 lb, $75 over. Fix: edit the GBP price range (Claude can do it through Windsor with Alex's yes; listing edits are not covered by the GBP post exception).
+3. **Press release "165 five star reviews"** (kdhnews.com, March 2026) still surfaces. Cannot edit; it will fade as newer sources outrank it.
+4. **"20+ years experience"** appears in the listing summary. Alex to confirm it is true or remove it from the GBP description.
+
+Codex row 386e83be (Wix Home and About editor text): **NOT done.** Still Request, blocked since Oct 15 (Codex reached the Wix login page without access). Needs a Wix editor login Codex can use, or Alex does the 3 find and replace edits himself (5 minutes).
