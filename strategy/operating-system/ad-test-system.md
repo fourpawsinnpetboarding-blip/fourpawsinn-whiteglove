@@ -1,5 +1,20 @@
 # Ad test system: find what works cheap, then go hard (Alex, Oct 25, 2026)
 
+**FINAL PLAN (Alex chose B, Oct 25, after Codex's review).** Claude and Codex agree.
+- **Oct 25 to 31:** Static Reviews (campaign 52586440813324) alone at $40 a day. October Meta lands near $2,130 (Oct 1 to 24: about $1,850). No test in October.
+- **Nov 1:** Static Reviews $30 a day plus ONE challenger at $10 a day, in its own ad set, same audience, lead form and objective. Total $40 a day.
+- **Challenger 1:** "A week away. A home for your dog." as one 3-2-2 flexible ad: 3 real photos (home comfort, personal attention, customer proof), 2 primary texts (the worry of leaving your dog for several days; the care routine), 2 headlines. No discount. Why: longer stays dropped sharply in October (Codex booking analysis) and Thanksgiving and Christmas are long stay weeks. Creatives built Oct 30 for Alex's approval.
+- **Checkpoints:** $50 spent with 0 leads: stop, check tracking and delayed results, do not restart on its own. $100 with 5+ leads ($20 CPL): promising, not proven. Under 5 leads at $100: compare lead quality and booking economics with Static Reviews, then recommend stop or an approved extension.
+- **Track per test:** spend, unique leads, qualified leads, requested dates, stay length, quotes, deposits, booked value; travel within 7 days, within 30 days, later. Future date leads are not failures yet.
+- **Scaling:** a promising challenger stays at $10 while quality and bookings are checked. A replacement must beat Static Reviews on useful inquiries and booking economics, not just CPL. Any 20% increase is proposed to Alex no sooner than every 3 days, never automatic. Judge cost per paid booking, booked stay value, then contribution after care costs. Booked value is not cash or profit.
+- **One test at a time.** No splitting $10 across several tests.
+
+Approval line (challenger creatives): PENDING (built Oct 30).
+
+---
+Earlier draft below (superseded where it conflicts):
+
+
 Alex: "October is the worst month of the year for us. I cannot lose money. But I want to break records in November and December. I want to know what ads are working and then go hard on those ads."
 
 ## The shape
@@ -32,4 +47,4 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 ## Test log
 | Start | Test | Ad set / ad | Spend | Leads | CPL | Result |
 |---|---|---|---|---|---|---|
-| Oct 26 | 3-2-2 flexible ad | 52665003929724 / tbd | | | | |
+| Nov 1 | Holiday stay challenger, 3-2-2 flexible ad | tbd | | | | |
