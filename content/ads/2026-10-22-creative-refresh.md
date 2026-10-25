@@ -99,3 +99,13 @@ The updated twin of the winner, on its own budget, next to the untouched origina
 Source: Charley Tichenor's 3-2-2 setup (Skool reel DezA7ZuMY2t). One flexible ad: 3 creatives of the same format, 2 meaningfully different primary texts, 2 headlines = 12 combinations in one learning pool, Meta pushes spend to the best mix.
 Why: Card Style Test runs 5 separate ads on $25 a day (about $5 each), which splits learning 5 ways.
 Build Mon Oct 26 after the numbers: the 3 lowest CPL card statics from AD40 to AD44; texts A drop off ease, B 230+ Google reviews proof; headlines "Home dog boarding in Miramar" and "$60 a day. No holiday fees." Same ad set 52665003929724, $25 a day, no new spend. Pause the old 5 once it is active. Static Reviews untouched. Check Oct 29.
+
+## Trim and shift (Alex, Oct 25, 2026)
+Alex: "Trim down the budget, cut the ads that aren't performing well, then put the 20% on the performing well ads." Data Oct 18 to 24 (Windsor):
+| Ad set | Spend | Leads | CPL | Action |
+|---|---|---|---|---|
+| Static Reviews winner (campaign 52586440813324) | $319.96 | 18 | $17.78 | Budget $48 to $57.60 (+20%) |
+| Newspaper Styles Round 1 (52664769169324) | $112.72 | 3 | $37.57 | Paused (over $30 kill line after 3 days) |
+| Static Reviews Refresh twin (52664788365724) | $53.18 | 0 | none | Paused |
+| Card Style Round 1 (52665003929724) | $36.62 | 0 | none | Kept at $25 for the Mon Oct 26 3-2-2 flexible ad |
+Meta total: $148 a day to $82.60 a day (about $4,500 to about $2,500 a month). Next review Oct 29: Card Style 3-2-2 and the winner's CPL after the 20% raise.

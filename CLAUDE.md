@@ -177,7 +177,7 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Meta Ads ownership (Alex, Oct 22, 2026, replaces the Oct 16 Claude only rule):** Claude and Codex can both build and edit Meta campaigns, ad sets, ads and creatives. Guardrails: (1) any budget increase or new spend needs Alex's yes; (2) one agent changes a given campaign at a time, and every change (what, ad IDs, why) is logged the same day on the Eden board so the other agent sees it before touching that campaign; (3) never edit or pause the live winner (Static Reviews, ad 52586440815124) without Alex's yes; (4) every new paid static uses the original real photo files composited into the layout and gets a visual QA at full size and phone size before or right after launch.
 
-**Budget (Alex, Oct 25, 2026):** NO increases. Alex: "Let's not increase the ads. Let's stay where we're at." Meta stays at current budgets (about $148 a day, about $4,500 a month), which is already up from about $1,200 a month in September. Any budget increase or new spend needs Alex's yes, with the monthly total (Meta plus Google) shown next to it.
+**Budget (Alex, Oct 25, 2026):** NO increases. Alex: "Let's not increase the ads. Let's stay where we're at." Oct 25 trim: losers paused, winner +20% (his yes); Meta is now about $82.60 a day (about $2,500 a month), up from about $1,200 a month in September. Any budget increase or new spend needs Alex's yes, with the monthly total (Meta plus Google) shown next to it.
 
 **People in footage (Alex, Oct 23, 2026, HARD RULE):** every person in any photo or video Alex or Amanda sends is cleared. Never flag, hold or stop content over who is in it, consent, waivers, faces or ages. Details: fourpawsinn/business-facts.md.
 
