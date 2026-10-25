@@ -13,13 +13,15 @@ Alex: "Open the budget if you have to. I need to play a bigger game. I've kept t
 
 Each $130 spent returns $300 or more on the first stay alone, before repeat stays. Kennel space is not the limit. Spend is.
 
-## The steps (authorized by Alex, cap $250 a day)
-| Step | When | Change | Daily total |
+## The steps (Alex, Oct 25: "Let's only bump up 20%." Cap $250 a day)
+Every step is +20% on an ad set that passes the gates, never more. Steps every 3 days.
+| Step | When | Change | Daily total (if both pass) |
 |---|---|---|---|
-| 1 | Mon Oct 26 | Card Style Test ad set (3-2-2 flexible ad) $25 to $50; Static Reviews Refresh twin $25 to $50 | about $198 |
-| 2 | Thu Oct 29 | If gates pass: +20% on each scaled ad set | about $215 |
-| 3 | Sun Nov 1 | If gates pass: +20% again | about $235 |
-| 4 | Wed Nov 4 | If gates pass: to the cap | $250 |
+| 1 | Mon Oct 26 | Card Style Test (3-2-2 flexible ad) and Static Reviews Refresh: $25 to $30 each | about $158 |
+| 2 | Thu Oct 29 | +20%: $30 to $36 | about $170 |
+| 3 | Sun Nov 1 | +20%: $36 to $43 | about $184 |
+| 4 | Wed Nov 4 | +20%: $43 to $52 | about $202 |
+Then keep stepping 20% every 3 days while the gates pass, up to the $250 a day cap.
 
 Raise by about 20% at a time, every 3 days, so Meta's learning does not reset. Never raise the budget of the original winner Static Reviews (ad 52586440815124); scale through its twin.
 
@@ -37,3 +39,4 @@ Needs a new yes from Alex, with the 2 week numbers (spend, leads, Won bookings, 
 
 ## Log
 - Oct 25: plan written, step 1 scheduled for Mon Oct 26 with the 3-2-2 build.
+- Oct 25: Alex set the step size to 20% only. Step 1 is $25 to $30 per qualifying ad set.
