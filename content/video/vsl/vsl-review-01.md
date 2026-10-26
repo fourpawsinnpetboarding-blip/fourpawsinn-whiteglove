@@ -56,3 +56,25 @@ Cut downs from the same edit:
 2. The raw A roll from the Mar 12 shoot (in Drive: VSL / VSL_A.ROLL_Summer) and the new VSL_Summer upload, for any lines Amanda already said that fit v2.
 3. Lines Amanda has not said yet (price, proof, the new hook wording) need either a short reshoot with Amanda (about 10 minutes, phone on a tripod) or on screen text over B-roll. Reshoot is better. Alex decides.
 4. Rule checks before live: no "safe", no health claims, no dashes on screen, licensed music with credit, Codex review row.
+
+## Frame review of the finished file (Oct 26, Drive 1thbX51ykXEPPgAWhRIblSA15VMUAsIHh)
+File: 2:20, 1920x1080 (horizontal), 24 fps, loudness -16.6 LUFS (fine for web), about 34 cuts (one every 4 seconds).
+
+**What the picture does well**
+1. Clean brand design: cream, pink highlight, serif headlines, chapter labels at the bottom. It looks premium and on brand.
+2. Good headline cards: "Before you leave them...", "The right pack. Not the biggest.", "Care without surprises." The opening card is a better hook than the spoken one.
+3. Real footage only: the car handoff, the yard, the house, Amanda with dogs.
+
+**What the picture gets wrong**
+1. **The footage is tiny.** Every phone clip sits in a small card on the right, filling about a fifth of the screen. Amanda's face, which is the trust, is the size of a thumbnail. On a phone (where every lead watches) she is about an inch tall.
+2. **Wrong shape for where it will live.** Leads open it on a phone from a text, and ads run in vertical feeds. A horizontal frame plays as a thin strip there.
+3. **One layout for 2:20.** Card left, clip right, over and over, except the yard shots at about 1:20 to 1:36 (full frame, and the best looking part of the video). The eye has nothing new to react to.
+4. **No captions of what Amanda says.** The cards are titles, not her words. Most people watch with the sound off, so the actual message is lost.
+5. **No price card and no review card** (same as the script notes above).
+
+**v2 picture rules**
+1. Master in vertical 9:16, footage full screen, Amanda's face big. Make the 16:9 website and YouTube version from the same edit with a soft blurred fill on the sides.
+2. Word by word captions of Amanda's lines, plus the existing headline cards used only as short chapter breaks (1 second, then back to full frame footage).
+3. Change the frame every 2 to 3 seconds: close up, wide, dog point of view, Amanda to camera.
+4. Add 2 new cards: a Google review card (230+ reviews) and a price card.
+5. Keep the brand design system exactly as Codex built it.
