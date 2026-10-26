@@ -72,3 +72,19 @@ Why manual first: if leads do not book trials when Amanda offers them by hand, a
 
 ## DECISION Oct 12 (Alex, overrides pushback 1 and 2)
 The first overnight stay is REQUIRED for every new dog, paid in full at the normal rate. Main target is leads without dates: book and collect the overnight now so the lead is closed, the ad cost is recovered, and the client becomes a 2 time client. Also required before a first holiday or long stay. Returning clients exempt. Scripts rewritten. Cap of 6 overnights a week stays until Amanda says the team can take more.
+
+## Phase 1 review, Oct 26, 2026 (Claude)
+**Result: no go. Phase 1 closes. No Phase 2 build.**
+
+| Count since Oct 12 | Number | Source |
+|---|---|---|
+| `boarding-ready-offered` tags | 28+ contacts (26 in Oct 12 to 18, plus Stacey Oct 19 and Daniel Gonzalez Oct 22) | GHL via Windsor, scoreboards Oct 19 and Oct 26 |
+| `trial-booked` | 0 | same |
+| `trial-passed` / `trial-not-approved` | 0 / 0 | same |
+| Later full bookings from a trial | 0 | same |
+
+1. The rule said: fewer than 3 trials from the first 20 offers means rewrite the script. Result: 0 of 20+.
+2. No rewrite: Alex retired the required first overnight on Oct 17, and business-facts now bans any trial deal or free night in any script. The offer is gone, so the test is over.
+3. What it taught us: a paid required overnight for no date leads did not close. Leads without dates book when their dates come, so the job is follow up timing, not a gate.
+4. Open cleanup (Codex, GHL row): the tag `boarding-ready-offered` was still being added after Oct 17 (Stacey Oct 19, Daniel Gonzalez Oct 22). Find the workflow or snippet that adds it, plus `night-free`, back it up, turn it off, and confirm no message goes out with it. The money sheet Trial flag is no longer needed.
+5. Scoreboard: the Boarding Ready line is removed from the Monday report after this review.
