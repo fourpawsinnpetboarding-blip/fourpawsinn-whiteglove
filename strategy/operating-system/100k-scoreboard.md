@@ -102,3 +102,13 @@ Once items 1 to 7 are real, this tells us exactly how many leads, and how much a
 | Boarding revenue ($6,140 logged, $384 average) | Slow |
 | Board and Train (0 paid reservations) | Stalled |
 | Content (3 a day, 9 new ads) | On pace |
+
+## Status, Oct 26, 2026 (report: `strategy/reports/scoreboard-2026-10-26.md`)
+| Road | Status |
+|---|---|
+| Ads (18 leads, CPL $37.47; one ad at $40 a day from Oct 25) | Slow |
+| Leads (about 21 real new) | Slow |
+| Speed and close (2 of 21 booked in week one, no missed leads) | On pace |
+| Boarding revenue ($5,205 logged, $289 average, about $18K October) | Slow |
+| Board and Train (0 paid reservations) | Stalled |
+| Content (Codex leads, one noon post a day) | On pace |
