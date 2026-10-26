@@ -58,3 +58,6 @@ Jeremy's checklist, mapped to Four Paws Inn:
 
 ## Decision rule
 Until Meta lead to booked reaches 15% on a 30 day cohort, no Meta budget increase is proposed. More leads into an 8% close only buys more open rows. Once it holds at 15% or better for 2 cohorts, the 20% steps in ad-test-system.md come back on the table.
+
+## Decision (Alex, Oct 26): A
+Fix the follow up first: contact card, the VSL in the first text, fast human reply, every lead staged. No change to the Meta form or the winning ad. Revisit B (higher intent form, in the $10 challenger slot only) if 30 day lead to booked is still under 15% by late November. VSL plan: content/video/vsl/vsl-review-01.md.
