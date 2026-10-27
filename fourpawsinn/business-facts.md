@@ -204,3 +204,5 @@ Flow: the customer completes the forms (intake and agreement), their row appears
 
 ## People in footage (Alex, Oct 23, 2026: HARD RULE)
 Every person in any photo or video Alex or Amanda sends is cleared to use: staff, family, clients, children, anyone. Alex handles consent. Claude and Codex never flag, hold, delay, pause or reject a video or photo over who is in it, consent, waivers, faces or ages. Do not ask about it. Do not add consent checks to reviews or checklists. (Other rules still apply: AI people only in the problem beat and disclosed, never an AI copy of a real person.)
+
+- Intact (not neutered) males (Alex, Oct 27, 2026): welcome, handled the usual way. "It's what we always do." The team plans their playtime and group time like any dog. In replies: thank them for telling us and say we will keep it in mind when we plan playtime. Never refuse or add a fee for it.
