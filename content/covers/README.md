@@ -9,6 +9,15 @@ Alex: "I want a very intentional reel, especially the cover image. It must be cl
 4. Host the JPEG on Eden and attach it with `eden_update_scheduled_post`, `perPlatform.instagram.coverUrl` and `perPlatform.facebook.coverUrl` (same URL). The video itself is unchanged.
 5. Wed and Sat carousels already lead with a card, so the whole grid matches.
 
+## The look, spelled out (Alex, Oct 27: for Codex and anyone new)
+1. Cream background, #FAF7F3.
+2. One white card in the middle with rounded corners, a thick charcoal border (#353532) and a hard offset shadow down and to the right. No soft blur.
+3. Eyebrow at the top of the card: a small dot, then a short UPPERCASE label in spaced letters on a pink (#E6A0A3) bar. 2 to 4 words, for example "SUPERVISED POOL TIME", "WATCH TILL THE END".
+4. Headline: big, bold, charcoal, 6 words or fewer. One key word in italic serif with a pink highlight bar behind it, for example "Tiny dog. Big *pool*." Markup in slides.json: ==*pool*==.
+5. A real still frame from the reel in a rounded frame with the same border and shadow. Never AI.
+6. Footer under the card: "FOUR PAWS INN" left, "MIRAMAR, FL" right, small spaced capitals.
+7. No reel publishes without its cover attached. Check the grid at phone size before air time.
+
 ## Rule: the grid reads as one page
 - Same frame on every tile: cream page, white card, charcoal border and shadow, eyebrow on top, bold title, photo below.
 - No photo repeats within 9 tiles (one screen of the profile).
