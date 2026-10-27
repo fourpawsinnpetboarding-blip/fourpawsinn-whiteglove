@@ -100,3 +100,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Totals: $60 = $300 ($240 with pickup before 10 AM Nov 3). Puppy $80 = $400 ($320).
 - Codex row 5dbe8476.
 - Update (Alex, Oct 27): no puppy rate for Rolex, one off. Quoted $60 a day: $300, or $240 with pickup before 10 AM Nov 3. $75 deposit, all 3 payment options. Puppy rate stays $80 for everyone else.
+- Oct 27 (Erika, Jax): asked to come today and for the address. Reply: 2 PM today open, address only after she confirms; otherwise any Tuesday by appointment, her time or time frame. Pattern: tours are by appointment, the address goes out only with a confirmed time. Codex row 6fde71c0.
