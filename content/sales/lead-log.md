@@ -99,3 +99,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Reply drafted: ask age (sets the rate: puppy $80 vs $60), ask for vaccine records, total after age is known, optional Tuesday tour mentioned once.
 - Totals: $60 = $300 ($240 with pickup before 10 AM Nov 3). Puppy $80 = $400 ($320).
 - Codex row 5dbe8476.
+- Update (Alex, Oct 27): no puppy rate for Rolex, one off. Quoted $60 a day: $300, or $240 with pickup before 10 AM Nov 3. $75 deposit, all 3 payment options. Puppy rate stays $80 for everyone else.
