@@ -26,3 +26,6 @@ Alex: "I want a very intentional reel, especially the cover image. It must be cl
 
 ## Week of Oct 24
 Covers attached to reels b667ea3c (Oct 24), 8cb51a58 (Oct 25), cbcca856 (Oct 26), b6ba9f2a (Oct 27), a948e36a (Oct 29), 4d7d0309 (Oct 30), 7afb9b9a (Nov 1). Carousels Oct 28 (Happy parents) and Oct 31 (Pickup moment).
+
+## Cover rows on the Eden board (Alex, Oct 27)
+Every noon reel gets one "Cover:" row on the Eden board: date, post id, suggested eyebrow and title. Codex corrects the words there; Claude renders, attaches and marks it Done before air time. The daily board check adds a row for any reel in the next 7 days that has none.
