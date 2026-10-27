@@ -113,3 +113,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 
 ## Aniesa Ali (Oct 27, 2026)
 - Instagram lead form 5:15 PM. Dog under 50 lb, friendly. Future trip. Zip 02375 (Massachusetts). Auto text sent, no reply. Follow up drafted: visiting or moving to South Florida, and pup name. Codex row 22b9ba6a.
+- Oct 27 (Upasna): Alex corrected: no address until a time is booked. Reply rewritten: by appointment, Tuesday meet and greets, address sent with the confirmation.
