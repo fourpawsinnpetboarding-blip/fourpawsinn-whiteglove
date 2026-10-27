@@ -109,3 +109,7 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Codex row 89ed0293.
 - Oct 27 3:55 PM (Dayana, Mocha): asked which Tuesdays are open for a tour. Reply: next Tue Nov 3 and later Tuesdays open, she picks a time or window; one soft line that the $75 deposit holds the Thanksgiving spot. Deposit still not paid.
 - Oct 27 4:18 PM (Upasna): Simba is the dog (Shih Tzu look), Toru is the cat. Usually travels 4 to 5 days, asked for a special price for both. Alex: sibling rate $5 off and cat $35. Quoted $55 + $35 = $90 a day: 5 days $450 ($360 with early pickup), 4 days $360 ($270). No dates yet.
+- Oct 27 4:20 PM (Upasna): Simba not neutered (intact male, no aggression per owner), Toru neutered. Asked for address; reply gives address, windows, curbside note. Open: Alex to set the intact male group policy.
+
+## Aniesa Ali (Oct 27, 2026)
+- Instagram lead form 5:15 PM. Dog under 50 lb, friendly. Future trip. Zip 02375 (Massachusetts). Auto text sent, no reply. Follow up drafted: visiting or moving to South Florida, and pup name. Codex row 22b9ba6a.
