@@ -1,43 +1,42 @@
 {
  "pillar": "Joy: watch till the end",
- "hook": "Watch what happens when she kneels down",
+ "hook": "A quiet moment together",
  "clips": [
   {
    "src": "LIB-0023",
    "start": 0.3,
    "dur": 2.7,
-   "text": "Watch what happens when she kneels down",
+   "text": "A quiet moment together",
    "proof": true
   },
   {
    "src": "LIB-0023",
    "start": 3.0,
    "dur": 3.2,
-   "text": "He comes straight to her"
+   "text": "Time to connect"
   },
   {
    "src": "LIB-0003",
    "start": 4.5,
    "dur": 3.0,
-   "text": "Same thing, every morning"
+   "text": "One on one attention"
   },
   {
    "src": "LIB-0026",
    "start": 12.0,
    "dur": 3.0,
-   "text": "This is the face we see all day"
+   "text": "Care at their pace"
   }
  ],
  "end": {
   "dur": 4.0,
   "lines": [
    "Send us your dates",
-   "Tell us about your dog",
    "Miramar and Pembroke Pines"
   ]
  },
  "audio": "mute",
  "music": "drive:1StP9HxbYbqhEYq4LuU9lRfExzopKc8Pc",
  "music_volume": 0.7,
- "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-29 12 PM, Eden post a948e36a-27d1-4650-ba81-905d09c06cbd. Track sunshine."
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-29 12 PM, Eden post a948e36a-27d1-4650-ba81-905d09c06cbd. Track sunshine. Codex review Oct 26 applied Oct 27: removed unshown claims (comes straight to her, every morning, all day)."
 }

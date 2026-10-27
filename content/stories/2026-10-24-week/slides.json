@@ -32,22 +32,22 @@
   },
   {
    "date": "2026-10-27",
-   "type": "Meet and greet",
-   "eyebrow": "It's Tuesday",
-   "title": "Meet and greets are ==*today*==.",
+   "type": "Tour",
+   "eyebrow": "Tuesdays at the Inn",
+   "title": "Want to see the ==*home*==?",
    "titleSize": 94,
    "photo": "../../carousels/2026-10-23-five-questions/photos/home-front.jpg",
-   "lead": "**9 AM to 7 PM. Totally optional.** Reply to set a time."
+   "lead": "**Optional tours on Tuesdays, 9 AM to 7 PM.** Reply to set a time."
   },
   {
    "date": "2026-10-28",
    "type": "Value: FAQ",
    "eyebrow": "Asked every week",
-   "title": "What costs ==*extra*==?",
+   "title": "==*Included*== in your stay",
    "list": [
-    "**Nothing.** Play, toys and supervised pool time are included.",
-    "**A video update** of your dog each day.",
-    "**$60 a day** under 50 lb. $75 over."
+    "**Play, toys** and supervised pool time.",
+    "**One video update** of your dog each day.",
+    "**No hidden fees.** The price you see is the price you pay."
    ],
    "note": "Reply with your dates for your total."
   },
@@ -64,10 +64,10 @@
    "date": "2026-10-30",
    "type": "Timing",
    "eyebrow": "Holiday travel",
-   "title": "Thanksgiving is ==*4 weeks*== away.",
+   "title": "Thanksgiving is ==*less than 4 weeks*== away.",
    "titleSize": 94,
    "photo": "../../brand/apple-maps-cover-yard-1600x1040.jpg",
-   "lead": "**Holiday dates fill first.** Reply with your dates."
+   "lead": "**Planning a holiday trip?** Reply with your dates."
   }
  ]
 }
