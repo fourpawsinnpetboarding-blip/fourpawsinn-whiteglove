@@ -107,3 +107,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Meta lead form 12:09 PM. Simba, under 50 lb, friendly and social. Future trip, not sure yet. OK with pricing.
 - Auto first text went out; she replied "Simba". Reply drafted: breed, age, trip timing; optional Tuesday tour once. No price yet (she already agreed to it on the form).
 - Codex row 89ed0293.
+- Oct 27 3:55 PM (Dayana, Mocha): asked which Tuesdays are open for a tour. Reply: next Tue Nov 3 and later Tuesdays open, she picks a time or window; one soft line that the $75 deposit holds the Thanksgiving spot. Deposit still not paid.
