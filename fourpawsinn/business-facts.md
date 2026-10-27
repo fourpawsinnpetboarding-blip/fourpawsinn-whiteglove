@@ -41,7 +41,7 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 | Second dog | $5 per day off |
 | Third dog and more | $5 per day off each additional dog (Alex, Oct 12, 2026) |
 | Last day | Free if picked up before 10:00 AM |
-| Cats | $40 per day (Alex kept the live cat page price, Oct 11, 2026). For multiple cats or long stays, say the team will confirm the total. |
+| Cats | $35 per day when quoting (Alex, Oct 27, 2026: we move between $35 and $40; quote $35). The live cat page showed $40 (Oct 11). Sibling rate applies: $5 a day off each additional pet, dogs and cats together (Alex, Oct 27: "we absolutely charge the five dollar day discount for siblings, we always do"). Example: Shih Tzu plus cat = $55 + $35 = $90 a day. For multiple cats or long stays, the team confirms the total. |
 | Cat page | https://optin.fourpawsinn.co/cats (Alex, Oct 15, 2026). Cats get a private room with a yard window and a bird feeder outside; we provide litter box, toys, cat posts and beds; owners bring food (no per meal bags needed) and their preferred litter. |
 | Private suite | Per dog, per day: $80 for dogs 50 lb and under, $100 for dogs over 50 lb. The second dog gets the usual $5 a day off (Alex, Oct 20, 2026). Siblings share one suite. Example: Dionne, a 50 lb and an 89 lb dog = $80 + $95 = $175 a day. |
 

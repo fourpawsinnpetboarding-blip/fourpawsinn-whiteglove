@@ -108,3 +108,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Auto first text went out; she replied "Simba". Reply drafted: breed, age, trip timing; optional Tuesday tour once. No price yet (she already agreed to it on the form).
 - Codex row 89ed0293.
 - Oct 27 3:55 PM (Dayana, Mocha): asked which Tuesdays are open for a tour. Reply: next Tue Nov 3 and later Tuesdays open, she picks a time or window; one soft line that the $75 deposit holds the Thanksgiving spot. Deposit still not paid.
+- Oct 27 4:18 PM (Upasna): Simba is the dog (Shih Tzu look), Toru is the cat. Usually travels 4 to 5 days, asked for a special price for both. Alex: sibling rate $5 off and cat $35. Quoted $55 + $35 = $90 a day: 5 days $450 ($360 with early pickup), 4 days $360 ($270). No dates yet.
