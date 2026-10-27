@@ -61,15 +61,18 @@ Copy: `content/seo/pages-2026-10-11.md`, `content/seo/pages-2026-10-13.md`, `con
 4. ~~What to pack for your dog's boarding stay~~ (published Oct 20)
 5. ~~Dog boarding near Hollywood, FL~~ (published Oct 20)
 6. ~~Exotic pet boarding in Miramar (team confirms price)~~ (published Oct 20)
-7. Boarding for dogs who are selective with other dogs
-8. Large dog boarding in Miramar (over 50 lb, $75 a day)
-9. Boarding two dogs together: how the second dog discount works
+7. ~~Boarding for dogs who are selective with other dogs~~ (published Oct 27)
+8. ~~Large dog boarding in Miramar (over 50 lb, $75 a day)~~ (published Oct 27)
+9. ~~Boarding two dogs together: how the multi dog rate works~~ (published Oct 27)
 10. Dog boarding near Plantation, FL
 11. Dog sitter at home or dog boarding: how to choose
 12. Last minute dog boarding in Miramar: what to do this week
 13. Private suites for shy or reactive dogs in Miramar (per dog: $80, or $100 over 50 lb)
 14. First time boarding your dog: what to expect
 15. Dog boarding near Hallandale Beach, FL
+16. Dog boarding near Sunrise, FL
+17. Curbside drop off: why we meet you at the car
+18. Dog boarding near Fort Lauderdale (Miramar home, short drive)
 
 Done: Cooper City, Davie, holiday dates (Oct 13), Weston, cost guide, cage free guide, puppy, Pembroke Pines and Southwest Ranches, senior. Cat boarding already has a live post (39505de5).
 
@@ -104,3 +107,14 @@ Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts
 | 5 | Lead follow up | GHL workflow rewrite still BLOCKED (row 8bfc16be): the GHL editor won't load for Codex. Meta Text 1 swap in progress (row 15eb12de) |
 | 6 | Partners | List done (27). Drop offs: Alex or Amanda |
 | 7 | Community | Week 3 drafts: `content/community/answers-2026-10-week3.md`. Week 2, answer 1 fixed (the retired required overnight) |
+
+## Status Oct 27 (Tuesday sprint)
+
+| # | Action | Status |
+|---|---|---|
+| 1 | Pages | 15 published total. 3 this week: selective dogs (3ded9cc6), large dogs (8da896f7), two dogs together (9db38447). 3 new backlog ideas added (16 to 18). Copy follows Codex's Oct 26 review (group care only when a good fit, one video update each day) |
+| 2 | GBP posts | Week of Nov 2 written: `content/gbp/2026-11-02-week.md`. Week of Oct 26: Mon posted and corrected in place, Wed and Fri corrected before air time |
+| 3 | Directory sites | Batch 1 in progress (row 6b61b075). Chamber cancelled (Alex, Oct 20) |
+| 5 | Lead follow up | Bottleneck plan (Alex chose A, Oct 26): Codex rows a72c2a69 (do our texts land) and 7e811c18 (stage 57 open leads). GHL workflow rewrite row 8bfc16be status unchanged |
+| 6 | Partners | List done (27). Drop offs: Alex or Amanda |
+| 7 | Community | Week 4 drafts: `content/community/answers-2026-10-week4.md` |
