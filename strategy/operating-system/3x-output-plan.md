@@ -118,3 +118,4 @@ Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts
 | 5 | Lead follow up | Bottleneck plan (Alex chose A, Oct 26): Codex rows a72c2a69 (do our texts land) and 7e811c18 (stage 57 open leads). GHL workflow rewrite row 8bfc16be status unchanged |
 | 6 | Partners | List done (27). Drop offs: Alex or Amanda |
 | 7 | Community | Week 4 drafts: `content/community/answers-2026-10-week4.md` |
+- Oct 27: Alex said yes to posting the week 4 community answers himself when a real neighbor asks.
