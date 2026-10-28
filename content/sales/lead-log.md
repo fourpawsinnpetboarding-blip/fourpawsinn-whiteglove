@@ -115,3 +115,6 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Instagram lead form 5:15 PM. Dog under 50 lb, friendly. Future trip. Zip 02375 (Massachusetts). Auto text sent, no reply. Follow up drafted: visiting or moving to South Florida, and pup name. Codex row 22b9ba6a.
 - Oct 27 (Upasna): Alex corrected: no address until a time is booked. Reply rewritten: by appointment, Tuesday meet and greets, address sent with the confirmation.
 - Oct 27 (Upasna): Alex corrected again: give the address, plus a note that meet and greets are by scheduled appointment.
+
+## Kevin Pena, Achilles (Oct 28, 2026)
+- Returning client, Rottweiler puppy. Asked for daytime care tomorrow 10 to 6. Reply: overnight only, drop off tomorrow, pick up before 10 AM next day free, $60 total (Alex: small dog rate, not puppy $80). Pattern: when someone asks for daycare, offer the overnight with the free before 10 AM pickup, same price, no "we don't do daycare" line. Codex row c627faad.
