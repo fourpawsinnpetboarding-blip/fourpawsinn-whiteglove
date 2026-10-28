@@ -117,4 +117,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Oct 27 (Upasna): Alex corrected again: give the address, plus a note that meet and greets are by scheduled appointment.
 
 ## Kevin Pena, Achilles (Oct 28, 2026)
-- Returning client, Rottweiler puppy. Asked for daytime care tomorrow 10 to 6. Reply: yes, day stays are charged the same as a day of boarding, $60 (Alex: small dog rate, not puppy $80). Optional add: keep him overnight and pick up before 10 AM, still $60. Correction (Alex, Oct 28): we DO take day stays; there is just no separate daycare rate. Never tell a lead "overnight only". Codex row c627faad.
+- Returning client, Rottweiler puppy. Asked for daytime care tomorrow 10 to 6. Reply: yes, we can take him for the day. We only have one price, the overnight boarding rate, and day stays pay that rate. Puppy rate is normally $80; Alex is giving him the $60 small dog rate. No overnight upsell in the text. Rule (Alex, Oct 28): we take day stays rarely, at the overnight rate; never say "overnight only" (the lead walks). Codex row c627faad.
