@@ -63,3 +63,6 @@ Alex: "I want good reviews, playtime with the dogs, trigger people's emotions: t
 ## Status
 - Night Stories, week of Oct 24: all 7 scheduled at 6:30 PM (ids in `2026-10-24-week/README.md`).
 - Morning Stories: Codex starts Oct 24 at 10:00 AM (`strategy/agent-prompts/codex-morning-stories-2026-10-23.md`).
+
+## Rule: media swaps on Stories (Claude, Oct 28, 2026)
+Replacing a Story image in Eden with eden_update_scheduled_post can drop the Story setting and turn it into a feed post. Every media swap on a Story must pass perPlatform.instagram.story = true in the same call, then read the post back and confirm instagramStory is true. Caught by Codex on Oct 27 (3 Stories affected, all fixed before air).
