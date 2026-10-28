@@ -124,3 +124,6 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 
 ### Oct 28: Liliana Liscano, Bijou (half day trial)
 - Bijou is friendly, anxious at times, not aggressive. Asked for a half day Oct 30, 11 AM to 5 PM. Reply: yes, charged as one day at her rate; one on one time first; option to stay the night, same price if picked up before 10 AM. Codex row 5811ae3c.
+
+### Oct 28: Blanca Lopez, 2 small dachshunds (Wix "Need advice" form)
+- 1 night Fri Oct 30. Reply by SMS from GHL, not email (texts get answered; only GHL replies count for Test 2). Quote $115 with pickup before 10 AM Sat. Asked names and ages. Codex row cb45ab13 also checks if the Wix form feeds GHL.
