@@ -118,3 +118,9 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 
 ## Kevin Pena, Achilles (Oct 28, 2026)
 - Returning client, Rottweiler puppy. Asked for daytime care tomorrow 10 to 6. Reply: yes, we can take him for the day. We only have one price, the overnight boarding rate, and day stays pay that rate. Puppy rate is normally $80; Alex is giving him the $60 small dog rate. Last line: he is welcome to stay the night, same price if picked up before 10 AM. Rule (Alex, Oct 28): we take day stays rarely, at the overnight rate; never say "overnight only" (the lead walks). Codex row c627faad.
+
+### Oct 28: Marielle De Pena, Mambo (mini schnauzer, 11 yrs, 22 lb)
+- Nov 21 to 28. Asked for the Tuesday tour at 1 PM or 4 PM. Reply: confirm Tue Nov 3 at 1 PM, ask her to text her ETA. No price yet (senior rate $80 when she asks). Codex row 5672833b.
+
+### Oct 28: Liliana Liscano, Bijou (half day trial)
+- Bijou is friendly, anxious at times, not aggressive. Asked for a half day Oct 30, 11 AM to 5 PM. Reply: yes, charged as one day at her rate; one on one time first; option to stay the night, same price if picked up before 10 AM. Codex row 5811ae3c.
