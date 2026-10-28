@@ -126,4 +126,7 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 - Bijou is friendly, anxious at times, not aggressive. Asked for a half day Oct 30, 11 AM to 5 PM. Reply: yes, charged as one day at her rate; one on one time first; option to stay the night, same price if picked up before 10 AM. Codex row 5811ae3c.
 
 ### Oct 28: Blanca Lopez, 2 small dachshunds (Wix "Need advice" form)
-- 1 night Fri Oct 30. Reply by SMS from GHL, not email (texts get answered; only GHL replies count for Test 2). Quote $115 with pickup before 10 AM Sat. Asked names and ages. Codex row cb45ab13 also checks if the Wix form feeds GHL.
+- 1 night Fri Oct 30. Reply by EMAIL (Alex, Oct 28: email converts well for him). Quote $115 with pickup before 10 AM Sat. Asked names and ages. Codex row cb45ab13 also checks if the Wix form feeds GHL.
+
+## Reply channel rule (Alex, Oct 28, 2026)
+If the lead contacted us by email or a website form with an email, reply by email: Alex converts well on email. Leads who text or come from Meta forms get a text. Email replies can be a little longer than texts: warm greeting, the quote, one question, a sign off from Amanda.
