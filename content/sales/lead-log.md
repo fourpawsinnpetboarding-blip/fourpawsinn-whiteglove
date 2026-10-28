@@ -130,3 +130,4 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 
 ## Reply channel rule (Alex, Oct 28, 2026)
 If the lead contacted us by email or a website form with an email, reply by email: Alex converts well on email. Leads who text or come from Meta forms get a text. Email replies can be a little longer than texts: warm greeting, the quote, one question, a sign off from Amanda.
+Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the saved signature turned on (includeSignature). End the body at "Warmly," and type no name, phone or sign off block: the footer already has the name, phone and everything else.
