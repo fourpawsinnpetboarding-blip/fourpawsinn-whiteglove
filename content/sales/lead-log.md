@@ -131,3 +131,7 @@ When a lead needs a custom plan (daycare askers, tough work schedules, regular w
 ## Reply channel rule (Alex, Oct 28, 2026)
 If the lead contacted us by email or a website form with an email, reply by email: Alex converts well on email. Leads who text or come from Meta forms get a text. Email replies can be a little longer than texts: warm greeting, the quote, one question, a sign off from Amanda.
 Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the saved signature turned on (includeSignature). End the body at "Warmly," and type no name, phone or sign off block: the footer already has the name, phone and everything else.
+
+### Oct 29: Liliana (Bijou) confirmed, Aubrey Westbrook (Oct 30 to Nov 2)
+- Liliana's Oct 28 text went out with the "$[60 or 75]" placeholder still in it. Lesson: never leave a bracket in a draft Alex will paste; ask for the missing fact first or give two finished versions. Correction text sent with the confirmation.
+- Confirmation text pattern (Alex, Oct 29): booking steps (intake form, agreement email to sign, payment before drop off), the welcome guide link for what to bring and arrival (we come to the car), vaccines can be sent anytime, no rush, we keep them on file. Codex rows 5811ae3c, 8e48dfcf.
