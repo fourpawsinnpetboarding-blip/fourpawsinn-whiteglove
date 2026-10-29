@@ -12,24 +12,24 @@
   {
    "src": "LIB-0019",
    "start": 3.4,
-   "dur": 2.9,
+   "dur": 3.0,
    "text": "It is this. Quiet time with us."
   },
   {
    "src": "LIB-0052",
    "start": 3.0,
-   "dur": 3.0,
+   "dur": 3.4,
    "text": "Then they explore at their own pace"
   },
   {
    "src": "LIB-0024",
-   "start": 30.0,
-   "dur": 3.2,
-   "text": "Then they meet the group"
+   "start": 36.5,
+   "dur": 4.2,
+   "text": "Introductions when group care fits your dog"
   }
  ],
  "end": {
-  "dur": 4.0,
+  "dur": 4.2,
   "lines": [
    "Send us your dates",
    "Tell us about your dog",
@@ -39,5 +39,5 @@
  "audio": "mute",
  "music": "drive:1qqXyqNnH3SCfU7MEuRcibnUsL1HWnk6S",
  "music_volume": 0.7,
- "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-30 12 PM, Eden post 4d7d0309-bf6a-4ced-a86d-3a1c9ad06250. Track beetle."
+ "note": "Hook test (Alex, Oct 24): curiosity gap plus emotion. Feed 2026-10-30 12 PM, Eden post 4d7d0309-bf6a-4ced-a86d-3a1c9ad06250. Track beetle. Oct 29: Codex fix, last line 'Introductions when group care fits your dog'; Juno narration mixed in after render (narration-standard.md)."
 }
