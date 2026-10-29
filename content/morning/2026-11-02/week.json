@@ -1,0 +1,309 @@
+{
+  "week": "2026-11-02",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-11-02",
+      "scheduledAtIso": "2026-11-02T07:30:00-05:00",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "Meet the teacher night, for your dog. Pushes the Tuesday meet and greet.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "layout": "a",
+          "kicker": "Pet parent psychology",
+          "title": "Every school has a *meet the teacher* night.",
+          "sub": "Your dog's boarding should too. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "You would never skip it for your kid.",
+          "body": "You want to see the room. Meet the person. Ask your questions first."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Your dog deserves the same.",
+          "body": "Meet and greets at Four Paws Inn are on Tuesdays. Meet us. Ask us anything."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Pick the time that fits.",
+          "body": "Tuesdays, 9:00 AM to 1:30 PM, or 6:30 PM to 8:00 PM."
+        },
+        {
+          "type": "quote",
+          "theme": "pink",
+          "quote": "Had a great first experience with four paws inn. They were able to give me a tour of the home plus walked my dog frequently.",
+          "name": "John S."
+        },
+        {
+          "type": "cta",
+          "theme": "charcoal",
+          "kicker": "Want a meet and greet?",
+          "title": "Tell us about your *dog.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Every school has a meet the teacher night.\n\nYou would never skip it for your kid. You want to see the room, meet the person, and ask your questions first.\n\nYour dog deserves the same.\n\nMeet and greets at Four Paws Inn are on Tuesdays, 9:00 AM to 1:30 PM and 6:30 PM to 8:00 PM. Send us a message to set one up.\n\nJohn S. wrote in his Google review: \"Had a great first experience with four paws inn. They were able to give me a tour of the home plus walked my dog frequently.\"\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenPostId": "48d75eea-aa96-486d-92be-31ca5b6068e0",
+      "status": "scheduled"
+    },
+    {
+      "day": "Tue",
+      "date": "2026-11-03",
+      "scheduledAtIso": "2026-11-03T07:30:00-05:00",
+      "format": "static",
+      "pillar": "Fun facts",
+      "angle": "Rest is part of a dog's day. Share and save bait.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "cream",
+          "layout": "b",
+          "kicker": "Fun fact",
+          "stat": "12 to 14",
+          "label": "hours a day the average adult dog *sleeps.*",
+          "vs": {
+            "value": "Even more",
+            "label": "Puppies and senior dogs often sleep more."
+          },
+          "source": "AKC"
+        }
+      ],
+      "caption": "The average adult dog sleeps 12 to 14 hours a day. Puppies and senior dogs often sleep even more.\n\nSo a good day for your dog has plenty of naps, not just play.\n\nTell us how your dog rests at home. Where do they nap? When? With what toy or blanket?\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "d5b378a8-1dcc-4364-9b88-edcbe809e857",
+      "status": "scheduled"
+    },
+    {
+      "day": "Wed",
+      "date": "2026-11-04",
+      "scheduledAtIso": "2026-11-04T07:30:00-05:00",
+      "format": "static",
+      "pillar": "Reviews",
+      "angle": "Home fit vs big facility. Real review, Marcella M.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "pink",
+          "layout": "c",
+          "head": "A better *fit* at home.",
+          "quote": "...We knew the home environment was a better fit for our neurotic dachshund & terrier than a traditional boarding facility.",
+          "name": "Marcella M."
+        }
+      ],
+      "caption": "Some dogs fit a home better than a big facility. Marcella M. knew it about her dachshund and terrier.\n\nHere is what she wrote in her Google review.\n\nFour Paws Inn is cage free home boarding in Miramar. Your dog stays in a real home, not a kennel.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #CageFree #DogBoarding",
+      "files": [
+        "png/wed-01.png"
+      ],
+      "edenPostId": "aeb06c71-baa9-457c-8456-faa8c649b44a",
+      "status": "scheduled"
+    },
+    {
+      "day": "Thu",
+      "date": "2026-11-05",
+      "scheduledAtIso": "2026-11-05T07:30:00-05:00",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "Why dogs follow you everywhere. Velcro dogs.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "layout": "c",
+          "kicker": "Dog behavior",
+          "title": "Why does your dog *follow* you everywhere?",
+          "sub": "Even to the bathroom. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "It starts when they are young.",
+          "body": "Puppies can bond to their people the way they bond to a mother.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "You taught them, too.",
+          "body": "Pets or treats when they are near teach them that near is good.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Some breeds were made for it.",
+          "body": "Herding and working breeds were bred to stay close to people.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "04",
+          "title": "The AKC calls them Velcro dogs.",
+          "body": "They like to stay close. It is not always a problem. It can just be love.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Is yours a Velcro dog?",
+          "title": "Tell us about your *dog.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Why does your dog follow you everywhere? Even to the bathroom?\n\n1. Puppies can bond to their people the way they bond to a mother.\n2. Pets or treats when they are near teach them that near is good.\n3. Herding and working breeds were bred to stay close to people.\n\nThe AKC calls them Velcro dogs. They like to stay close.\n\nIs your dog a Velcro dog? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogBehavior #MiramarDogs #DogBoarding",
+      "files": [
+        "png/thu-01.png",
+        "png/thu-02.png",
+        "png/thu-03.png",
+        "png/thu-04.png",
+        "png/thu-05.png",
+        "png/thu-06.png"
+      ],
+      "edenPostId": "09114d26-e9f2-49d1-bb20-c10a84f0bde8",
+      "status": "scheduled"
+    },
+    {
+      "day": "Fri",
+      "date": "2026-11-06",
+      "scheduledAtIso": "2026-11-06T07:30:00-05:00",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "Daily update as the report card. Authority and trust.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "charcoal",
+          "layout": "b",
+          "kicker": "For the pet parent who worries",
+          "title": "Every parent loves a *report card.*",
+          "sub": "Ours comes every day. Photos and videos of your dog, included with every stay."
+        }
+      ],
+      "caption": "Every parent loves a report card.\n\nYours comes every day. Photo and video updates of your dog are included with every stay.\n\nNo guessing. Just a look at how your dog is doing while you are away.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "117a279e-2f76-4c8b-a57b-b032e134cab6",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-11-07",
+      "scheduledAtIso": "2026-11-07T07:30:00-05:00",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "Two breed surprises. Share bait.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "pink",
+          "layout": "a",
+          "kicker": "Fun facts",
+          "title": "2 breeds. 2 *surprises.*",
+          "sub": "Both true. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Some dogs have six toes.",
+          "body": "Norwegian Lundehunds have six toes on each foot. The breed was made to hunt puffins on rocky cliffs.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Some dogs blush.",
+          "body": "Pharaoh Hounds have no black pigment in their skin. Their nose and ears turn rosy pink when they are happy.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "cream",
+          "kicker": "Which breed is yours?",
+          "title": "Tell us about your *dog.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates",
+          "layout": "c"
+        }
+      ],
+      "caption": "2 breeds. 2 surprises. Both true.\n\n1. Norwegian Lundehunds have six toes on each foot. The breed was made to hunt puffins on rocky cliffs.\n2. Pharaoh Hounds blush. Their nose and ears turn rosy pink when they are happy.\n\nWhich one surprised you? Tell us below.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\nSource: American Kennel Club\n\n#FourPawsInn #DogFacts #MiramarDogs #DogBoarding",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png"
+      ],
+      "edenPostId": "1938d802-5589-4283-b6ed-043c006d7a38",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sun",
+      "date": "2026-11-08",
+      "scheduledAtIso": "2026-11-08T07:30:00-05:00",
+      "format": "static",
+      "pillar": "Review wall",
+      "angle": "Three reviews, one word: definitely.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "layout": "b",
+          "title": "Three families said *definitely.*",
+          "quotes": [
+            {
+              "text": "I got updates about him everyday. I will definitely be coming back!",
+              "name": "Kiana M."
+            },
+            {
+              "text": "We couldn’t be happier with the care our puppy Zero received!... We’ll definitely be using them again!",
+              "name": "Camila V."
+            },
+            {
+              "text": "Our pups were happy, well cared for, and came home relaxed. Highly recommend and will definitely be back!",
+              "name": "Jayleen J."
+            }
+          ]
+        }
+      ],
+      "caption": "Three families. One word. Definitely.\n\nKiana, Camila and Jayleen all wrote it in their Google reviews.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "b79038c8-4fe7-46a0-a737-38dfca9c80e9",
+      "status": "scheduled"
+    }
+  ]
+}
