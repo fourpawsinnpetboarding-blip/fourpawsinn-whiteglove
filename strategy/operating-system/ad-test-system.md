@@ -48,3 +48,8 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 | Start | Test | Ad set / ad | Spend | Leads | CPL | Result |
 |---|---|---|---|---|---|---|
 | Nov 1 | Holiday stay challenger, 3-2-2 flexible ad | tbd | | | | |
+
+## Oct 29 budget review (Claude, scheduled run, Windsor cached data)
+- October Meta spend Oct 1 to 28: $2,028.59. Projected October at $40 a day for Oct 29 to 31: about $2,150 (about $2,175 if Meta overspends the daily budget). Under the $2,250 trigger, so NOTHING changed.
+- Static Reviews (New Dog Ad, 52586440813324) Oct 25 to 28: $170.15, 7 leads, $24.31 CPL vs $17.78 before. Worse with the full budget, on a small sample (Oct 28 may still be partial in the cache).
+- Nov 1 challenger: creatives due Oct 30, approval line still PENDING. Nothing launches without Alex's yes.
