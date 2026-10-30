@@ -1,0 +1,33 @@
+{
+ "ad": true,
+ "slides": [
+  {
+   "id": "HC1-HOME",
+   "eyebrow": "A week away?",
+   "title": "A ==*home*== for your dog.",
+   "titleSize": 84,
+   "photo": "photos/indoors-real-bed.jpg",
+   "lead": "**No kennels.** One video update each day. $60 a day under 50 lb.",
+   "button": "Check your dates"
+  },
+  {
+   "id": "HC2-ATTENTION",
+   "eyebrow": "One on one time",
+   "title": "Someone who ==*knows*== your dog.",
+   "titleSize": 80,
+   "photo": "photos/LIB-0023_3.jpg",
+   "lead": "**Slow intros. Play. Rest.** One video update each day. 230+ Google reviews.",
+   "button": "Check your dates"
+  },
+  {
+   "id": "HC3-REVIEW",
+   "eyebrow": "Real Google review",
+   "quote": "Pups did not want to leave at all.",
+   "quoteSize": 56,
+   "by": "Elaine P.",
+   "photo": "photos/lab-pool.jpg",
+   "lead": "**230+ Google reviews.** $60 a day under 50 lb.",
+   "button": "Check your dates"
+  }
+ ]
+}
