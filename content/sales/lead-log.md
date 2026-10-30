@@ -135,3 +135,6 @@ Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the sav
 ### Oct 29: Liliana (Bijou) confirmed, Aubrey Westbrook (Oct 30 to Nov 2)
 - Liliana's Oct 28 text went out with the "$[60 or 75]" placeholder still in it. Lesson: never leave a bracket in a draft Alex will paste; ask for the missing fact first or give two finished versions. Correction text sent with the confirmation.
 - Confirmation text pattern (Alex, Oct 29): booking steps (intake form, agreement email to sign, payment before drop off), the welcome guide link for what to bring and arrival (we come to the car), vaccines can be sent anytime, no rush, we keep them on file. Codex rows 5811ae3c, 8e48dfcf.
+
+### Oct 30: Daniel Gonzalez, 70 lb dog
+- Answered the first overnight offer with his dog's weight. Reply: $75 a day for dogs over 50 lb, pick a night Mon to Thu, asked the dog's name. Codex row added.
