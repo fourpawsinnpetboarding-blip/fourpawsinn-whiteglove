@@ -25,3 +25,41 @@ Decision (Alex, Oct 27): use Higgsfield stock voices for narration and hook test
 1. Listen once with eyes closed: does it sound like a person, not a reading?
 2. Check the volume: voice clear on a phone speaker, music never covers a word.
 3. No "safe", no health claims, no dashes on screen.
+
+## Voice casting by content type (Alex, Oct 30, 2026)
+Alex: "We now use Higgsfield voice and we borrow different voices depending on the content. Faster pacing, high and low tones, or pauses to build tension."
+Higgsfield voices are the default narration for every format. They replace Alex and Amanda's real voices in reels, which are now optional.
+
+| Format | Voice energy | Starting voices (test, then lock) |
+|---|---|---|
+| Pack breakdown (reading dogs) | Calm coach, low and steady, short pauses before each "look" | Male: Marcus, Gideon or Harrison. Female: Juno |
+| A care day narrated | Warm, conversational, a little fast | Juno (used Oct 30), Maya or Chloe |
+| 3 signals in 30 seconds | Bright and fast, a lift on each label | Pixie, Zoe or Kayla |
+| Story or emotion (first night, a shy dog) | Soft and slow, longer pauses, warm close | Naomi, Tamsin or Isla |
+| Offer or holiday dates (end card) | Clear and confident, even pace | Juno or Harrison |
+Rule: one voice per series, so viewers learn it. A new series can take a new voice. Codex picks the format; Claude casts the voice and logs it in the spec ("voice": name and id).
+
+## How to build tension with the voice
+1. **Hook (0 to 3 s):** fast, about 3 words a second, pitch up. Cut every pause before the first word.
+2. **Build:** a short beat (0.3 to 0.5 s) before each "look" or "watch". Pull the music up 2 to 3 dB under the pause, then duck it for the line.
+3. **Key moment:** a longer pause (0.6 to 0.9 s) with a freeze frame, then a lower, slower line.
+4. **Payoff:** warm and slower. Let the music swell back after the last word.
+5. **Never invent danger** or a cliffhanger the footage doesn't support (Codex, Oct 29).
+
+## Production pipeline (works in the cloud session, proven Oct 29)
+1. Write the lines one per row in the spec. Mark each line hook, build, key or payoff.
+2. Generate each line separately: Higgsfield generate_audio_batch, model seed_audio, voice_type preset, voice_id from the table. Each line is its own file, so timing is exact.
+   Pitch and speed can be set per line (speech_rate, pitch_rate), so hooks go faster and higher and payoffs slower and lower.
+3. Render the video with scripts/video-engine/render.py (music only).
+4. The container's network blocks Higgsfield's file hosts. Mix in the Higgsfield sandbox instead:
+   - Upload the base video to Eden storage (eden_prepare_scheduling_media_upload, then curl PUT).
+   - In the sandbox, curl the base from public.eden.so and each line from its result URL.
+   - Mix with ffmpeg:
+     - Trim the silence at the start of each line, then place it with adelay.
+     - Even out the voice with acompressor (threshold 0.04, ratio 4, makeup 2.5).
+     - Duck the music under the voice with sidechaincompress (threshold 0.01, ratio 20, attack 10, release 450).
+     - Finish with loudnorm to -14 LUFS.
+   - Upload the result with media_upload, PUT from the sandbox, then media_confirm.
+   - Pull it into Eden with eden_import_scheduling_media from the Higgsfield URL.
+5. Audio QA in the sandbox: transcribe the final mix with faster-whisper (model small). The transcript must match the script word for word. The Oct 29 mix first read "play" as "plet"; fixed by spacing the lines and compressing the voice. A person still does one listen before air time (Codex or Alex).
+6. Caption: add "Voiceover: AI voice." and the music credit.

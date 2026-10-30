@@ -14,7 +14,7 @@ Reference Alex picked: @packleaderdogs (Steve Del Savio), https://www.instagram.
 
 ## Our version
 - **Footage:** only our own clips from the library. Play groups, intros, the first meeting at drop off, a shy dog warming up, a dog choosing rest.
-- **Voice:** Alex or Amanda, recorded on the phone, reading in a calm coach's voice. Their real voices build trust and set up Board and Train authority. A Higgsfield voice is only for testing.
+- **Voice:** a Higgsfield voice (Alex, Oct 30). Calm coach energy: fast hook, a pause before each "look", lower and slower on the key moment. Casting and settings: content/video/narration-standard.md.
 - **Length:** 30 to 60 seconds. One clip, one lesson.
 - **Edit:** slow motion and a freeze on the key beat, a circle or arrow on the dog, 1 to 3 word labels in our brand type, and burned-in captions.
 - **Payoff:** one thing the owner can try at home, or one thing we watch for when a new dog arrives.
