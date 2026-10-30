@@ -137,4 +137,4 @@ Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the sav
 - Confirmation text pattern (Alex, Oct 29): booking steps (intake form, agreement email to sign, payment before drop off), the welcome guide link for what to bring and arrival (we come to the car), vaccines can be sent anytime, no rush, we keep them on file. Codex rows 5811ae3c, 8e48dfcf.
 
 ### Oct 30: Daniel Gonzalez, 70 lb dog
-- Answered the first overnight offer with his dog's weight. Reply: $75 a day for dogs over 50 lb, pick a night Mon to Thu, asked the dog's name. Codex row added.
+- Answered the first overnight offer with his dog's weight. Reply (Alex: "we need so much more details about the dog"): $75 a day over 50 lb, then the dog questions: name, breed, age, neutered, play with other dogs (gentle, rough, shy), new people, energy, anything we should know. Then ask for a night Mon to Thu. Rule: a weight alone is never enough; get the dog first. Codex row 70caf45b.
