@@ -138,3 +138,6 @@ Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the sav
 
 ### Oct 30: Daniel Gonzalez, 70 lb dog
 - Answered the first overnight offer with his dog's weight. Reply (Alex: "we need so much more details about the dog"): $75 a day over 50 lb, then the dog questions: name, breed, age, neutered, play with other dogs (gentle, rough, shy), new people, energy, anything we should know. Then ask for a night Mon to Thu. Rule: a weight alone is never enough; get the dog first. Codex row 70caf45b.
+
+### Oct 31: Jesus Alverio, Jason (Nov 6 to 8)
+- Drop off 9 to 9:30 AM Nov 6, pick up 6 to 6:30 PM Nov 8, so 3 days charged. Weight not in the screenshot, so two finished versions were given ($180 under 50 lb, $225 over), with no placeholders. Booking steps, the optional Tuesday meet and greet, and payment options were included. Codex row added.
