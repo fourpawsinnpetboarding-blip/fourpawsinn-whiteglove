@@ -146,7 +146,7 @@ RULE (Alex, Oct 31, said strongly): when we don't know the dog yet, the next rep
 
 ## THE SALES ORDER (Alex, Oct 31, 2026, hard rule for every lead)
 "Don't ask for money immediately without asking questions, getting to know the pet. THEN you show our value so the customer knows why they're spending money and what it will be spent on."
-1. **Get to know the pet first.** Name, breed, age, weight, neutered or spayed, play with other dogs, new people, energy, anything we should know. No price or deposit in this message.
+1. **Get to know the pet first.** Name, breed, age, weight, play with other dogs, new people, energy, anything we should know. No price or deposit in this message.
 2. **Show the value, fitted to what they told us.** What their dog's stay looks like here: a real home, no kennels, outside to play about every hour, supervised pool time, one on one time first and slow intros, a calm house to sleep in, one video update each day, no hidden fees, curbside drop off. Tie it to their dog ("Since Jason is shy with new people, we start with one on one time").
 3. **Only then the price.** The full stay total, the before 10 AM pickup rule, the 3 ways to pay, and the optional Tuesday meet and greet.
 4. **Booking steps and deposit only after they say yes.**
@@ -160,4 +160,6 @@ RULE: before step 1 of the sales order, check whether the lead has a completed s
 
 ### Oct 31: Roberto Bastidas, new Meta lead (dog over 50 lb)
 - GHL form: dog over 50 lb, travel within 7 days. Auto first text already sent (tag meta-first-text-sent). No name, breed, age, dates or notes. No past bookings, so new client.
-- Reply by text (Meta lead): ask the dates, then the dog questions (name, breed, age, neutered or spayed, play with other dogs, anything to know). Weight already known, so not asked. No price yet. Codex row 585687e1.
+- Reply by text (Meta lead): ask the dates, then the dog questions (name, breed, age, play with other dogs, anything to know). Weight already known, so not asked. No price yet. Codex row 585687e1.
+
+RULE (Alex, Oct 31): stop asking if the dog is neutered or spayed. Not in any reply. If the owner tells us, note it and handle intact males the usual way.

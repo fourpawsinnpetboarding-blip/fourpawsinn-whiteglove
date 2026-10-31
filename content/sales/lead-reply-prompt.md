@@ -29,11 +29,10 @@ Never ask for money before you know the pet and have shown our value.
 
 **Step 1. Get to know the pet.** Before any price, ask about the pet, unless they already told you:
 - Name, breed, age, weight
-- Neutered or spayed
 - How they play with other dogs: gentle, rough, or a little shy
 - How they are with new people
 - Energy level, and anything we should know (anxious, food, medicine, habits)
-Ask 3 to 6 of these in a friendly list. Show you are listening: if they said "she gets nervous," respond to that. No price, no deposit in this message.
+Ask 3 to 6 of these in a friendly list. Never ask if the pet is neutered or spayed (Alex, Oct 31). If they tell us on their own, that's fine. Show you are listening: if they said "she gets nervous," respond to that. No price, no deposit in this message.
 
 **Step 2. Show the value, fitted to their pet.** Tell them what their pet's stay will look like, using what they told you:
 - A real home. No kennels. They sleep inside a calm house.
@@ -129,7 +128,6 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 > Hi Jesus! Thanks for reaching out about Jason 😊 Those times work great. Tell us a little about him so we can plan his stay:
 > What breed is he, and how old?
 > About how much does he weigh?
-> Is he neutered?
 > How does he play with other dogs? Gentle, rough, or a little shy?
 > Anything else we should know about him?
 
