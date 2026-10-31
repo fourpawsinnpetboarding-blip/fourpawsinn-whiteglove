@@ -55,7 +55,7 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Nov 1 challenger: creatives due Oct 30, approval line still PENDING. Nothing launches without Alex's yes.
 
 ## Oct 31 review (Claude, Alex asked, Windsor data, Oct 31 partial)
-- October Meta total: $2,129.43 so far (New Dog Ad $1,273.42 / 66 leads; Round 1 Concept $651.21 / 27; Newspaper $113.65 / 3; Static Refresh $54.21 / 0; Card Style $36.94 / 0). 99 form leads, $21.51 blended CPL (form leads only, DM leads from ai_studio not counted). Lands near $2,135, under the $2,500 cap.
+- October Meta total: $2,129.43 so far (New Dog Ad $1,273.42 / 66 leads; Round 1 Concept $651.21 / 27; Newspaper $113.65 / 3; Static Refresh $54.21 / 0; Card Style $36.94 / 0). 96 form leads, $22.18 blended CPL (form leads only, DM leads from ai_studio not counted). Lands near $2,135, under the $2,500 cap.
 - Static Reviews (ad 52586440815124) Oct 25 to 31: $266.27, 8 leads, $33.28 CPL. Split: Oct 25 to 27 $134.75 / 6 leads ($22.46); Oct 28 to 31 $131.52 / 2 leads ($65.76).
 - GHL check: 8 Facebook form contacts Oct 25 to 31 (italyalmafi, Marcia, Noraivis, Mark, Upasna, Aniesa, Sondra, Roberto) match Meta's 8, so tracking is fine. The drop is real.
 - Where it broke: CPM steady ($27 to $32), clicks steady (20 to 36 a day), CTR slid from 3.4% to about 2.5%, and leads per click fell from about 4.5% to about 1.5%. People still click; fewer finish the form. Causes to check: ad fatigue after weeks on one creative, a form change, Halloween week.
