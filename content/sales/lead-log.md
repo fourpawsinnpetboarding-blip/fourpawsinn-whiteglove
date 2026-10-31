@@ -140,4 +140,6 @@ Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the sav
 - Answered the first overnight offer with his dog's weight. Reply (Alex: "we need so much more details about the dog"): $75 a day over 50 lb, then the dog questions: name, breed, age, neutered, play with other dogs (gentle, rough, shy), new people, energy, anything we should know. Then ask for a night Mon to Thu. Rule: a weight alone is never enough; get the dog first. Codex row 70caf45b.
 
 ### Oct 31: Jesus Alverio, Jason (Nov 6 to 8)
-- Drop off 9 to 9:30 AM Nov 6, pick up 6 to 6:30 PM Nov 8, so 3 days charged. Weight not in the screenshot, so two finished versions were given ($180 under 50 lb, $225 over), with no placeholders. Booking steps, the optional Tuesday meet and greet, and payment options were included. Codex row added.
+- Drop off 9 to 9:30 AM Nov 6, pick up 6 to 6:30 PM Nov 8, so 3 days charged. CORRECTED (Alex, Oct 31): the first reply must ask about the dog, not quote. Reply sent: times confirmed, then questions about Jason. Price and booking steps come after he answers. Codex row added.
+
+RULE (Alex, Oct 31, said strongly): when we don't know the dog yet, the next reply asks about the dog. Breed, age, weight, neutered or spayed, play with other dogs, new people, energy, anything we should know. No quote, no booking steps until he answers. Applies to every lead.
