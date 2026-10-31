@@ -155,3 +155,5 @@ A reply that jumps to step 3 or 4 is wrong, even if it's accurate.
 ### Oct 31: Jem Zimmer (Louis and Chanel) and Jesus Alverio (Jason), both Nov 6 to 8
 - Alex replied late. Both replies open with a short sorry, then "I just confirmed we have room" (Alex: availability confirmed; November and December are filling). One honest urgency line, then the pet questions (sales order step 1). No price yet.
 - Urgency pattern (Alex, Oct 31): after a delay, lead with "I just confirmed availability" for holiday months. Only when the team has actually checked the calendar.
+- CORRECTION (Alex, Oct 31): Jem Zimmer is a RETURNING client (Louis and Chanel stayed June 25 to 28, 2026). Returning clients get no pet questions. Welcome them back, confirm the dates, and ask only "anything new with them since your last stay?" Jesus Alverio has inquiries but no completed stay, so he keeps the questions.
+RULE: before step 1 of the sales order, check whether the lead has a completed stay (GHL Won, or the booking sheet). Returning = skip the questions and the value pitch: welcome back, confirm, anything changed, then the total.
