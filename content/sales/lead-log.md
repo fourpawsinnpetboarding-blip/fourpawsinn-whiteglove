@@ -151,3 +151,7 @@ RULE (Alex, Oct 31, said strongly): when we don't know the dog yet, the next rep
 3. **Only then the price.** The full stay total, the before 10 AM pickup rule, the 3 ways to pay, and the optional Tuesday meet and greet.
 4. **Booking steps and deposit only after they say yes.**
 A reply that jumps to step 3 or 4 is wrong, even if it's accurate.
+
+### Oct 31: Jem Zimmer (Louis and Chanel) and Jesus Alverio (Jason), both Nov 6 to 8
+- Alex replied late. Both replies open with a short sorry, then "I just confirmed we have room" (Alex: availability confirmed; November and December are filling). One honest urgency line, then the pet questions (sales order step 1). No price yet.
+- Urgency pattern (Alex, Oct 31): after a delay, lead with "I just confirmed availability" for holiday months. Only when the team has actually checked the calendar.
