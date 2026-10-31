@@ -157,3 +157,7 @@ A reply that jumps to step 3 or 4 is wrong, even if it's accurate.
 - Urgency pattern (Alex, Oct 31): after a delay, lead with "I just confirmed availability" for holiday months. Only when the team has actually checked the calendar.
 - CORRECTION (Alex, Oct 31): Jem Zimmer is a RETURNING client (Louis and Chanel stayed June 25 to 28, 2026). Returning clients get no pet questions. Welcome them back, confirm the dates, and ask only "anything new with them since your last stay?" Jesus Alverio has inquiries but no completed stay, so he keeps the questions.
 RULE: before step 1 of the sales order, check whether the lead has a completed stay (GHL Won, or the booking sheet). Returning = skip the questions and the value pitch: welcome back, confirm, anything changed, then the total.
+
+### Oct 31: Roberto Bastidas, new Meta lead (dog over 50 lb)
+- GHL form: dog over 50 lb, travel within 7 days. Auto first text already sent (tag meta-first-text-sent). No name, breed, age, dates or notes. No past bookings, so new client.
+- Reply by text (Meta lead): ask the dates, then the dog questions (name, breed, age, neutered or spayed, play with other dogs, anything to know). Weight already known, so not asked. No price yet. Codex row 585687e1.
