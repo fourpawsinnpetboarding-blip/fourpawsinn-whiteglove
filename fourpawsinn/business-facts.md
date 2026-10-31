@@ -208,3 +208,5 @@ Every person in any photo or video Alex or Amanda sends is cleared to use: staff
 - Intact (not neutered) males (Alex, Oct 27, 2026): welcome, handled the usual way. "It's what we always do." The team plans their playtime and group time like any dog. In replies: thank them for telling us and say we will keep it in mind when we plan playtime. Never refuse or add a fee for it.
 
 - Address (Alex, Oct 27, 2026, corrected same day): the address can be shared when a lead asks. Always add that visits and meet and greets are by scheduled appointment, never drop in, because we are a home. Say it warmly.
+
+- Sales order (Alex, Oct 31, 2026, hard rule): 1) questions about the pet, 2) our value fitted to that pet, 3) price, 4) booking steps and deposit after their yes. Never ask for money before steps 1 and 2. Full text: content/sales/lead-log.md, THE SALES ORDER.

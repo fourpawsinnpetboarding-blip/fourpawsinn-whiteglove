@@ -143,3 +143,11 @@ Email drafts (Alex, Oct 28): create them in the Four Paws Inn Gmail with the sav
 - Drop off 9 to 9:30 AM Nov 6, pick up 6 to 6:30 PM Nov 8, so 3 days charged. CORRECTED (Alex, Oct 31): the first reply must ask about the dog, not quote. Reply sent: times confirmed, then questions about Jason. Price and booking steps come after he answers. Codex row added.
 
 RULE (Alex, Oct 31, said strongly): when we don't know the dog yet, the next reply asks about the dog. Breed, age, weight, neutered or spayed, play with other dogs, new people, energy, anything we should know. No quote, no booking steps until he answers. Applies to every lead.
+
+## THE SALES ORDER (Alex, Oct 31, 2026, hard rule for every lead)
+"Don't ask for money immediately without asking questions, getting to know the pet. THEN you show our value so the customer knows why they're spending money and what it will be spent on."
+1. **Get to know the pet first.** Name, breed, age, weight, neutered or spayed, play with other dogs, new people, energy, anything we should know. No price or deposit in this message.
+2. **Show the value, fitted to what they told us.** What their dog's stay looks like here: a real home, no kennels, outside to play about every hour, supervised pool time, one on one time first and slow intros, a calm house to sleep in, one video update each day, no hidden fees, curbside drop off. Tie it to their dog ("Since Jason is shy with new people, we start with one on one time").
+3. **Only then the price.** The full stay total, the before 10 AM pickup rule, the 3 ways to pay, and the optional Tuesday meet and greet.
+4. **Booking steps and deposit only after they say yes.**
+A reply that jumps to step 3 or 4 is wrong, even if it's accurate.
