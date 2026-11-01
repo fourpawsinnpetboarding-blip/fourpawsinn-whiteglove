@@ -50,3 +50,9 @@ Spend divided by won bookings whose GHL source is that channel. Google spend is 
 - Meta got worse as spend went up: $874 bought 11 bookings in August; $2,130 bought 4 in October. More budget on form fill optimization bought weaker leads.
 - Caveat: 128 Meta form leads are still open with holiday dates, so October Meta will improve somewhat.
 - Booked value is not cash or profit.
+
+## Alex's correction (Nov 1): Meta is cold, Google is searching
+- Google catches people already searching for a sitter (demand capture). Meta shows up in feeds of people who weren't looking (demand creation). Meta leads take longer to book.
+- The data agrees: the oldest cohort (August, 3 months old) is Meta's best at $79 a booking. Newer cohorts haven't had time.
+- New rule: judge Google on bookings in 30 days; judge Meta on bookings from each month's leads after 60 and 90 days (cohort cost per booking). Recheck October's Meta cohort on Dec 31.
+- Why Meta still matters for 3x: Google is capped by how many people in Broward search each month. Meta is how we reach past that cap. Meta only pays off with follow up: the 128 open leads, plus a day 1, 3, 7, 14 and 30 sequence.
