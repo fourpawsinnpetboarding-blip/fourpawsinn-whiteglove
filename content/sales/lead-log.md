@@ -174,3 +174,10 @@ RULE (price objection on the Meta form): don't bring up the form answer. Keep ge
 - CORRECTION (Alex, Nov 1): no drop offs on Dec 24. Christmas guests drop off Dec 23, 9 AM to 12 PM. Elvia was told "Christmas Eve drop off 9 AM to 12 PM" in our first text, so she gets a correction. New total Dec 23 to 27: 5 days, $575 if both adults, deposit $143.75; pickup before 10 AM Dec 27 = $460.
 - Nov 1 (Alex): Christmas week is FULL right now; other families have deposits pending. Only a paid deposit reserves a spot. Alex follows up with the pending families and gets back to Elvia by Nov 2. Reply to Elvia: apology for the mistake, Dec 23 drop off correction, full with pending deposits, answer by tomorrow, deposit is the only hold.
 RULE (Alex, Nov 1): holiday availability is confirmed by Alex before any lead is told there is room. A spot is held only by a paid deposit, never by a promise.
+
+## HARD RULE: TWO PRICES IN EVERY QUOTE (Alex, Nov 1, 2026)
+"You will always price two pricing, before 10 AM and after 10 AM. You will always let the customer know." We lost money on Mikey's stay because only one price was given, and almost did again.
+- Every quote shows both totals, labeled: "Pick up after 10 AM: $X" first, then "Pick up before 10 AM: $Y".
+- Even when the client already gave a pickup time: show both, then say which one is theirs.
+- Deposit = 25% of the after 10 AM total.
+- Written into CLAUDE.md (gate 6), fourpawsinn/business-facts.md and content/sales/lead-reply-prompt.md (rules, checklist item 0, example).

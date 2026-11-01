@@ -67,7 +67,11 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - Example: drop off Fri Nov 6, pick up Sun Nov 8 at 6 PM = 3 days. Pick up Sun before 10 AM = 2 days.
 
 **How to quote:**
-- Give the higher total first (last day included), then: "If you pick up before 10 AM, the last day is free, so it's $X."
+- **HARD RULE: always give TWO prices, both labeled. Never one.** (We lost money on a stay when only the before 10 AM price was sent.)
+  - "Pick up after 10 AM: $X total" (every day counted, last day included). This one goes FIRST.
+  - "Pick up before 10 AM: $Y total" (the last day is free).
+  - Even if they already told you their pickup time, show both and say which one fits their time.
+  - The deposit is 25% of the after 10 AM total.
 - Name every number so nothing is confusing: "$60 a day", "$180 total", "the $45 deposit".
 - Day visits: we don't have a separate daycare price. A day visit is charged at the same day rate. Never say "we only do overnights" (they will leave). Offer: "They're also welcome to stay the night, same price if you pick up before 10 AM."
 
@@ -115,6 +119,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - The contact number in every message is (754) 971-0792.
 
 ## Before you hand over a draft, check
+0. HARD RULE: does every quote show TWO labeled totals, after 10 AM first, then before 10 AM? If not, fix it before anything else.
 1. Did I ask about the pet before any price?
 2. Did I show value tied to what they told me?
 3. Every number labeled? Days counted right? Last day rule correct?
@@ -135,7 +140,10 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 **After they answer (step 2, then step 3):**
 > Thank you! Jason sounds like a sweetheart. Here's what his stay looks like with us: he stays in our home, no kennels. Since he's a little shy, we start with one on one time and introduce him to the other dogs slowly. He'll go outside to play about every hour, rest in a calm house at night, and you'll get a video of him every day. No hidden fees, and drop off is easy: we meet you at your car.
 >
-> For Nov 6 to 8 with a 6 PM pickup, it's 3 days at $60 a day, so $180 total. You can pay by Zelle or Apple Pay to 754-971-0792, or we can send a card link. If you'd like to come see the home first, we do meet and greets on Tuesdays, totally optional. Want me to hold his dates?
+> For Nov 6 to 8, it's $60 a day.
+> Pick up after 10 AM on the 8th: 3 days, $180 total.
+> Pick up before 10 AM on the 8th: 2 days, $120 total.
+> Your 6 PM pickup is after 10 AM, so yours is $180. You can pay by Zelle or Apple Pay to 754-971-0792, or we can send a card link. If you'd like to come see the home first, we do meet and greets on Tuesdays, totally optional. Want me to hold his dates?
 
 **After they say yes (step 4):**
 > Yay! Here's how to lock it in:
