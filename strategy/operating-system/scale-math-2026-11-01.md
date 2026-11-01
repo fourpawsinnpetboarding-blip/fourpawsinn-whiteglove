@@ -64,3 +64,21 @@ Campaign "South Florida's Trusted Pet Boarding": spend $2,642.85, 6,162 impressi
 - Read: when we show, we rank well (Alex: number 1 in 30 miles). The budget runs out before most searches happen. More budget buys more searches. Roughly 57,000 eligible impressions a month vs our 6,162.
 - Expect cost per click to rise as budget rises, so scale in steps and judge cost per booking in GHL (October $111, ceiling $150).
 - Free alternative: tighten the 30 mile radius so the same $3,000 covers the closest searchers fully.
+
+## Google search terms audit (Windsor, last 30 days, Nov 1)
+The campaign "South Florida's Trusted Pet Boarding" is **Performance Max**, not plain Search. Of $2,643 spent, $1,825 shows search terms; the other about $818 ran on Maps, YouTube, Display and Gmail.
+
+| Search type | Spend | Share | Clicks | Google "conversions" |
+|---|---|---|---|---|
+| Pet stores (Petco, PetSmart, pet shops, botanicas) | $522 | 29% | 56 | 8 |
+| Boarding, sitter, kennel, dog hotel | $377 | 21% | 94 | 6.5 |
+| Shelters, adoption, surrender my dog | $343 | 19% | 47 | 7 |
+| Competitor names (Pet Paradise, Country Inn, Hounds Town, Central Bark) | $260 | 14% | 27 | 6 |
+| Groomers, vets, pet spas | $206 | 11% | 22 | 4 |
+| Four Paws Inn by name | $69 | 4% | 27 | 1 |
+| Other | $48 | 3% | 18 | 0 |
+
+- About **$1,070 a month (59% of search spend)** went to people looking for a pet store, a shelter, a vet or a groomer. Only about 35% went to boarding searches and competitor names.
+- Google counts "conversions" on searches like "where can I surrender my dog", so its 52 conversions are not bookings. Its conversion goal needs checking.
+- So the 81% "lost to budget" is a share of all these searches, junk included. It does NOT mean 8 of 10 boarding leads are lost.
+- Fix before scaling: negative keywords for stores, shelters, adoption, vets and groomers (Windsor push_negative_keywords, campaign level, reversible).
