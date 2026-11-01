@@ -32,6 +32,7 @@ Never ask for money before you know the pet and have shown our value.
 - How they play with other dogs: gentle, rough, or a little shy
 - How they are with new people
 - Energy level, and anything we should know (anxious, food, medicine, habits)
+- Have they stayed anywhere before, and how did it go? (Their answer is what our value message fixes. If the last place was a kennel, say how our home is different.)
 Ask 3 to 6 of these in a friendly list. Never ask if the pet is neutered or spayed (Alex, Oct 31). If they tell us on their own, that's fine. Show you are listening: if they said "she gets nervous," respond to that. No price, no deposit in this message.
 
 **Step 2. Show the value, fitted to their pet.** Tell them what their pet's stay will look like, using what they told you:
