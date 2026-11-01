@@ -172,7 +172,7 @@ Hard rules. No exceptions without an explicit override in the session.
 3. **Never commit to `main` without saying what changed and why first.**
 4. **Never send email or SMS to a live GHL list.** Draft it, show it, stop.
 5. **Never make claims about a dog's health, safety guarantees, or medical outcomes** in any copy. Liability, not style.
-6. **Every price quote shows TWO labeled totals (Alex, Nov 1, 2026).** "Pick up after 10 AM: $X" first, then "Pick up before 10 AM: $Y". Never one number, even when the pickup time is known. We lost money on Mikey's stay from a one price quote. Details: fourpawsinn/business-facts.md.
+6. **Every price quote shows TWO labeled totals (Alex, Nov 1, 2026).** "Pick up after 10 AM: $X" first, then "Pick up before 10 AM: $Y". Never one number, even when the pickup time is known. We lost money on Mikey's stay from a one price quote. ALWAYS ASK the pickup time in the same message ("Will you pick up before 10 AM or after 10 AM?") until the client answers, and confirm it in writing before the deposit, because the gap is a full day (often $100 or more). Details: fourpawsinn/business-facts.md.
 
 ---
 

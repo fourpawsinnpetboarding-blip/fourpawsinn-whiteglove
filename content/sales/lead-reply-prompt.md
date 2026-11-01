@@ -72,6 +72,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
   - "Pick up before 10 AM: $Y total" (the last day is free).
   - Even if they already told you their pickup time, show both and say which one fits their time.
   - The deposit is 25% of the after 10 AM total.
+  - ALWAYS ASK: "Will you pick up before 10 AM or after 10 AM?" in the same message, until they answer. Confirm their answer before the deposit. The difference is a full day, often $100 or more.
 - Name every number so nothing is confusing: "$60 a day", "$180 total", "the $45 deposit".
 - Day visits: we don't have a separate daycare price. A day visit is charged at the same day rate. Never say "we only do overnights" (they will leave). Offer: "They're also welcome to stay the night, same price if you pick up before 10 AM."
 
@@ -119,7 +120,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - The contact number in every message is (754) 971-0792.
 
 ## Before you hand over a draft, check
-0. HARD RULE: does every quote show TWO labeled totals, after 10 AM first, then before 10 AM? If not, fix it before anything else.
+0. HARD RULE: does every quote show TWO labeled totals, after 10 AM first, then before 10 AM, AND ask "Will you pick up before 10 AM or after 10 AM?" if they haven't answered? If not, fix it before anything else.
 1. Did I ask about the pet before any price?
 2. Did I show value tied to what they told me?
 3. Every number labeled? Days counted right? Last day rule correct?

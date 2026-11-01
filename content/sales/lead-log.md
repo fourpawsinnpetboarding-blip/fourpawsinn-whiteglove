@@ -180,4 +180,5 @@ RULE (Alex, Nov 1): holiday availability is confirmed by Alex before any lead is
 - Every quote shows both totals, labeled: "Pick up after 10 AM: $X" first, then "Pick up before 10 AM: $Y".
 - Even when the client already gave a pickup time: show both, then say which one is theirs.
 - Deposit = 25% of the after 10 AM total.
+- ALWAYS ASK "Will you pick up before 10 AM or after 10 AM?" in the same message until they answer, and confirm it before the deposit (Alex, Nov 1: "absolutely crucial, that is 100 something dollars").
 - Written into CLAUDE.md (gate 6), fourpawsinn/business-facts.md and content/sales/lead-reply-prompt.md (rules, checklist item 0, example).
