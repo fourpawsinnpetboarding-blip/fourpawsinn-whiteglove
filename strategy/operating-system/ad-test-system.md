@@ -61,3 +61,8 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Where it broke: CPM steady ($27 to $32), clicks steady (20 to 36 a day), CTR slid from 3.4% to about 2.5%, and leads per click fell from about 4.5% to about 1.5%. People still click; fewer finish the form. Causes to check: ad fatigue after weeks on one creative, a form change, Halloween week.
 - Small leftover ads in the same campaign spend about $1 a day with 0 leads. Minor.
 - No changes made. Recommendation to Alex: approve the Nov 1 challenger now. The winner is fading, so the backup test matters more, not less.
+
+## Nov 1: Codex campaign at $200 a day (reported by Alex)
+- Alex told Claude that Codex launched a new campaign at $200 a day for 7 days. Not visible in Windsor yet (Nov 1 data not cached). Codex asked to log the IDs on the Eden board (row 3adfc15c).
+- Against the cap: the plan was $40 a day (about $1,200 for November). This test alone is $1,400 in 7 days; with Static Reviews at $40 a day the week is about $1,680.
+- Claude's $10 challenger is on hold so two tests don't overlap. Claude does not touch Codex's campaign. Waiting on Alex: keep $200 a day with stop rules, or cut to $60 a day.
