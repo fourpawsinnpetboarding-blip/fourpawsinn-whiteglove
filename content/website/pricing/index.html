@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing | Four Paws Inn</title>
+<meta name="description" content="Cage free home dog boarding in Miramar, Florida. Simple daily prices, no hidden fees.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FAF7F3;--pink:#E6A0A3;--pinkdk:#c97b7f;--char:#353532;--soft:#F3E7E3;--white:#fff;--book:https://www.fourpawsinn.co}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--char);font-family:Montserrat,Arial,sans-serif;line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:800;line-height:1.12}
+.btn{display:inline-block;background:var(--pink);color:var(--char);font-weight:700;text-decoration:none;padding:14px 26px;border-radius:999px;transition:.2s}
+.btn:hover{background:var(--pinkdk);color:#fff}
+.btn.ghost{background:transparent;border:2px solid var(--char)}
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:56px 0 64px}
+.hero h1{font-size:clamp(34px,5vw,54px)}
+.hero p{font-size:19px;margin:18px 0 26px;max-width:470px}
+.proof{margin-top:18px;font-weight:600;font-size:15px}
+.proof span{color:var(--pinkdk)}
+.circles{position:relative;height:440px}
+.c{position:absolute;border-radius:50%;background-size:cover;background-position:center;border:8px solid var(--cream);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.c1{width:300px;height:300px;right:0;top:0;background-image:url(https://static.wixstatic.com/media/45e1ca_5e38cfe4cd11467ea16fb98983fbbb36~mv2.jpg/v1/fill/w_640,h_640,al_c,q_80/a.jpg)}
+.c2{width:250px;height:250px;left:0;bottom:0;background-image:url(https://static.wixstatic.com/media/45e1ca_7c8085dd38e44a94954dca9748cceddd~mv2.jpg/v1/fill/w_540,h_540,al_c,q_80/a.jpg)}
+.blob{position:absolute;border-radius:50%;background:var(--pink);opacity:.45}
+.b1{width:120px;height:120px;left:60px;top:30px}
+.b2{width:70px;height:70px;right:40px;bottom:30px;opacity:.3;background:var(--char)}
+/* expect */
+.expect{background:var(--char);color:var(--cream)}
+.expect .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;padding:64px 20px}
+.expect h2{font-size:40px;color:#fff;margin-bottom:18px}
+.expect li{list-style:none;padding:9px 0 9px 34px;position:relative;font-size:17px}
+.expect li:before{content:"";position:absolute;left:0;top:13px;width:18px;height:18px;border-radius:50%;background:var(--pink)}
+.expect .pic{height:340px;border-radius:50%;background:url(https://static.wixstatic.com/media/45e1ca_bb54fcd81ffe4b5a887932dc1f45e182~mv2.jpg/v1/fill/w_700,h_700,al_c,q_80/a.jpg) center/cover;border:8px solid var(--pink);aspect-ratio:1;max-width:340px;justify-self:center;width:100%}
+/* pricing */
+.pricing{padding:72px 0}
+.pricing .box{background:var(--soft);border-radius:18px;padding:48px 28px}
+.eyebrow{text-align:center;color:var(--pinkdk);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:14px}
+.pricing h2{text-align:center;font-size:44px;margin:6px 0 34px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.card{background:#fff;border-radius:16px;padding:30px 26px;display:flex;flex-direction:column;border:2px solid transparent;position:relative}
+.card.rec{border-color:var(--pink);box-shadow:0 14px 34px rgba(230,160,163,.35)}
+.tag{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--char);color:#fff;font-size:12px;font-weight:700;letter-spacing:.08em;padding:6px 14px;border-radius:999px}
+.card h3{font-size:26px;text-align:center}
+.who{text-align:center;font-size:14px;margin:6px 0 16px;min-height:42px}
+.price{text-align:center;font-family:"Playfair Display",Georgia,serif;font-weight:800;font-size:42px;line-height:1}
+.price small{font-family:Montserrat,sans-serif;font-size:15px;font-weight:600}
+.sub{text-align:center;font-size:14px;margin:8px 0 18px;min-height:22px}
+.inc{font-weight:700;font-size:14px;margin-bottom:6px}
+.card ul{list-style:none;flex:1;margin-bottom:22px}
+.card li{padding:6px 0 6px 26px;position:relative;font-size:15px}
+.card li:before{content:"\2713";position:absolute;left:0;color:var(--pinkdk);font-weight:800}
+.card .btn{text-align:center}
+.notes{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 28px;margin-top:28px;font-size:15px;font-weight:600}
+.notes span:before{content:"\2022  ";color:var(--pinkdk)}
+/* includes */
+.every{background:#fff;padding:64px 0;text-align:center}
+.every h2{font-size:38px;margin-bottom:30px}
+.grid4{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:0 auto 30px}
+.grid4 div{background:var(--cream);border-radius:14px;padding:22px 18px;font-weight:600}
+.grid4 b{display:block;font-family:"Playfair Display",Georgia,serif;font-size:22px;margin-bottom:4px}
+/* training */
+.train{padding:64px 0}
+.train .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:center}
+.train .pic{aspect-ratio:1;border-radius:50%;background:url(https://static.wixstatic.com/media/45e1ca_74328a29b258479ebc82b8cde7eebe85~mv2.jpg/v1/fill/w_700,h_700,al_c,q_80/a.jpg) center/cover;max-width:340px;width:100%;justify-self:center;border:8px solid var(--soft)}
+.train h2{font-size:38px;margin:6px 0 14px}
+.train p{font-size:17px;margin-bottom:22px}
+/* faq */
+.faq{background:var(--soft);padding:64px 0}
+.faq h2{text-align:center;font-size:40px;margin-bottom:26px}
+.faq details{background:#fff;border-radius:12px;margin:0 auto 12px;max-width:800px;padding:18px 22px}
+.faq summary{font-weight:700;cursor:pointer;font-size:17px}
+.faq details p{margin-top:10px}
+.final{text-align:center;padding:64px 20px}
+.final h2{font-size:40px;margin-bottom:18px}
+footer{background:var(--char);color:var(--cream);text-align:center;padding:26px;font-size:14px}
+@media (max-width:860px){
+ .hero,.expect .wrap,.train .wrap{grid-template-columns:1fr}
+ .circles{height:330px;max-width:380px;margin:0 auto;width:100%}
+ .c1{width:220px;height:220px}.c2{width:190px;height:190px}
+ .cards,.grid4{grid-template-columns:1fr}
+ .card.rec{order:-1}
+ .pricing h2,.every h2,.faq h2,.final h2{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<section class="wrap hero">
+  <div>
+    <h1>Cage Free Home Boarding in Miramar</h1>
+    <p>Your dog stays in our home, not a kennel. They play, rest and make friends while you are away.</p>
+    <a class="btn" href="https://www.fourpawsinn.co">Check My Dates</a>
+    <div class="proof"><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 stars from 231 Google reviews</div>
+  </div>
+  <div class="circles">
+    <div class="blob b1"></div><div class="blob b2"></div>
+    <div class="c c1" role="img" aria-label="Dogs playing by the pool at Four Paws Inn"></div>
+    <div class="c c2" role="img" aria-label="Two dogs resting on the sofa at Four Paws Inn"></div>
+  </div>
+</section>
+
+<section class="expect">
+  <div class="wrap">
+    <div>
+      <h2>What to Expect</h2>
+      <ul>
+        <li>Your dog lives in our home. No kennels, no cages.</li>
+        <li>Outside to play every hour, with supervised pool time.</li>
+        <li>Small groups. New dogs meet the pack slowly.</li>
+        <li>One video update each day, so you can see them.</li>
+        <li>Easy drop off. Text us on the way and we come to your car.</li>
+      </ul>
+    </div>
+    <div class="pic" role="img" aria-label="A dog swimming in the Four Paws Inn pool"></div>
+  </div>
+</section>
+
+<section class="wrap pricing">
+  <div class="box">
+    <div class="eyebrow">Simple daily prices</div>
+    <h2>Pick Your Stay</h2>
+    <div class="cards">
+      <div class="card rec">
+        <div class="tag">MOST POPULAR</div>
+        <h3>Home Boarding</h3>
+        <div class="who">For most dogs. Free roam in our home with a small group.</div>
+        <div class="price">$60<small> a day</small></div>
+        <div class="sub">Under 50 lb. Over 50 lb: $75 a day.</div>
+        <div class="inc">Includes:</div>
+        <ul>
+          <li>Free roam in our home, no kennels</li>
+          <li>Outside to play every hour</li>
+          <li>Supervised pool time</li>
+          <li>Slow intros to a small group</li>
+          <li>One video update each day</li>
+        </ul>
+        <a class="btn" href="https://www.fourpawsinn.co">Check My Dates</a>
+      </div>
+      <div class="card">
+        <h3>Private Suite</h3>
+        <div class="who">For dogs who like their own space.</div>
+        <div class="price">$80<small> a day</small></div>
+        <div class="sub">50 lb and under. Over 50 lb: $100 a day.</div>
+        <div class="inc">Includes:</div>
+        <ul>
+          <li>A private suite of their own</li>
+          <li>Siblings share one suite</li>
+          <li>One on one time with our team</li>
+          <li>One video update each day</li>
+        </ul>
+        <a class="btn ghost" href="https://optin.fourpawsinn.co/private-suite">See the Suite</a>
+      </div>
+      <div class="card">
+        <h3>Puppy and Senior</h3>
+        <div class="who">For young puppies and older dogs.</div>
+        <div class="price">$80<small> a day</small></div>
+        <div class="sub">Dogs about 9 months and up pay the normal rate.</div>
+        <div class="inc">Includes:</div>
+        <ul>
+          <li>Everything in Home Boarding</li>
+          <li>Tell us their routine and we follow it</li>
+          <li>Rest time in a calm house</li>
+          <li>One video update each day</li>
+        </ul>
+        <a class="btn ghost" href="https://www.fourpawsinn.co">Check My Dates</a>
+      </div>
+    </div>
+    <div class="notes">
+      <span>$5 a day off each extra pet</span>
+      <span>Last day free if you pick up before 10 AM</span>
+      <span>No hidden fees</span>
+      <span><a href="https://optin.fourpawsinn.co/cats">Cats welcome too</a></span>
+    </div>
+  </div>
+</section>
+
+<section class="every">
+  <div class="wrap">
+    <h2>Every Stay Includes</h2>
+    <div class="grid4">
+      <div><b>A real home</b>No kennels. Dogs sleep inside a calm house.</div>
+      <div><b>Play every hour</b>Outside time all day, plus the pool.</div>
+      <div><b>A daily video</b>One video update each day, every stay.</div>
+      <div><b>Slow intros</b>One on one time first, then the group.</div>
+      <div><b>No hidden fees</b>The price we quote is the price you pay.</div>
+      <div><b>Curbside drop off</b>We meet you at your car.</div>
+    </div>
+    <a class="btn" href="https://www.fourpawsinn.co">Check My Dates</a>
+  </div>
+</section>
+
+<section class="train">
+  <div class="wrap">
+    <div class="pic" role="img" aria-label="A golden retriever at Four Paws Inn"></div>
+    <div>
+      <div class="eyebrow" style="text-align:left">Coming soon</div>
+      <h2>Board and Train</h2>
+      <p>Your dog stays with us for 21 days and works with a pro trainer every day. Leash walking, manners and coming when called. At pick up, we show you how to keep it going. Join the founding class waitlist to hear first.</p>
+      <a class="btn" href="https://training.fourpawsinn.co">Join the Waitlist</a>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2>FAQs</h2>
+    <details><summary>How do you charge?</summary><p>By the day. Every day your dog is with us counts, drop off day and pick up day too. If you pick up before 10 AM, the last day is free.</p></details>
+    <details><summary>When can I drop off and pick up?</summary><p>9 AM to 12 PM, or 4 PM to 6:30 PM, 7 days a week.</p></details>
+    <details><summary>Do I need a meet and greet first?</summary><p>No. It is totally optional. If you want to see the home first, we do meet and greets on Tuesdays by appointment.</p></details>
+    <details><summary>How do I book?</summary><p>Fill out our guest form, sign our agreement by email, and pay a 25% deposit to hold your dates. The rest is paid before drop off.</p></details>
+    <details><summary>What vaccines does my dog need?</summary><p>Vaccines must be current. Send the records anytime and we keep them on file.</p></details>
+    <details><summary>What should I bring?</summary><p>We send you our welcome guide after you book. It covers what to bring and how drop off works.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <h2>Ready for a Stay?</h2>
+  <a class="btn" href="https://www.fourpawsinn.co">Check My Dates</a>
+</section>
+
+<footer>Four Paws Inn &middot; Miramar, Florida &middot; Cage free home boarding</footer>
+</body>
+</html>
