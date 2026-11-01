@@ -73,3 +73,10 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Google Ads is not connected to Windsor, so Claude cannot see its spend, leads or cost per booking. Alex to connect it (Windsor connect link sent Nov 1).
 - Google won 59 bookings Aug to Oct in GHL (Google, Google Ads, Google Organic), more than Meta's 38. Judge both on cost per booking, target $100 or less.
 - Rough cost per booking (Aug to Oct, GHL source tags, attribution is loose): Google Ads about $200 (about 15 bookings a month tagged Google or Google Ads on $3,000). Meta October about $530 ($2,130 for 4 tagged bookings). Google optimizes on bookings; Meta optimizes on form fills. Proposed fix: point Meta at the qualified lead event already sent through CAPI (tag meta_qualifiedlead_sent), Alex's yes first.
+
+## Nov 1: Google budget raised (Alex: "Raise it")
+- Campaign "South Florida's Trusted Pet Boarding" (22073294281, account 733-336-4600): daily budget $90 to **$130** via Windsor set_campaign_budget. Undo: set it back to 90000000 micros.
+- Why: search impression share 10.7%, 80.9% lost to budget (last 30 days). Last 7 days spent $82.80 a day.
+- Paid total now about $270 a day: Meta $140 (Static Reviews $40, Codex test $100) plus Google $130. About $8,100 a month at this pace.
+- Rule: every Monday check impression share and Google cost per booking in GHL. Under $150 a booking: propose another 30% to Alex. Over $150: stop raising.
+- Other Google campaigns (Competitors, Performance Max 2, Search 4) are paused and untouched.
