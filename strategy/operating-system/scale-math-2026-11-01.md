@@ -56,3 +56,11 @@ Spend divided by won bookings whose GHL source is that channel. Google spend is 
 - The data agrees: the oldest cohort (August, 3 months old) is Meta's best at $79 a booking. Newer cohorts haven't had time.
 - New rule: judge Google on bookings in 30 days; judge Meta on bookings from each month's leads after 60 and 90 days (cohort cost per booking). Recheck October's Meta cohort on Dec 31.
 - Why Meta still matters for 3x: Google is capped by how many people in Broward search each month. Meta is how we reach past that cap. Meta only pays off with follow up: the 128 open leads, plus a day 1, 3, 7, 14 and 30 sequence.
+
+## Google impression share (Windsor, last 30 days, pulled Nov 1)
+Campaign "South Florida's Trusted Pet Boarding": spend $2,642.85, 6,162 impressions, 416 clicks (6.8% CTR, $6.35 per click), 52 Google conversions ($50.82 each).
+- Search impression share: **10.7%**. We show for about 1 in 9 eligible searches.
+- Lost to budget: **80.9%**. Lost to rank: 12.5%.
+- Read: when we show, we rank well (Alex: number 1 in 30 miles). The budget runs out before most searches happen. More budget buys more searches. Roughly 57,000 eligible impressions a month vs our 6,162.
+- Expect cost per click to rise as budget rises, so scale in steps and judge cost per booking in GHL (October $111, ceiling $150).
+- Free alternative: tighten the 30 mile radius so the same $3,000 covers the closest searchers fully.
