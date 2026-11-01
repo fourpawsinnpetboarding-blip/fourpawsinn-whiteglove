@@ -168,3 +168,6 @@ RULE (price objection on the Meta form): don't bring up the form answer. Keep ge
 
 ### Oct 31: Jesus Alverio, Jason said YES
 - Value message plus $225 quote (3 days at $75, 6 PM pickup) answered "Yes sounds good to me!!!!!". The sales order worked: questions, value, price, yes. Booking steps sent: guest form, agreement, $56.25 deposit, $168.75 balance before drop off, welcome link, vaccines anytime. Codex row added.
+
+### Nov 1: Elvia Andarza, Pepa plus a second dog (Dec 24 to 27, Texas visitor)
+- Two dogs: a dachshund and a Chihuahua. Planning, will confirm in about 3 weeks, asked if a deposit saves a spot. Reply: yes, 25%; one honest Christmas week line; total shown as "if both are adults" ($115 a day, $460, deposit $115, $345 with a before 10 AM pickup); asked the second name, ages and how they do with other dogs. Meet and greet skipped (they live in Texas). Codex row added.
