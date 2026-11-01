@@ -67,3 +67,8 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Against the cap: the plan was $40 a day (about $1,200 for November). This test alone is $1,400 in 7 days; with Static Reviews at $40 a day the week is about $1,680.
 - Claude's $10 challenger is on hold so two tests don't overlap. Claude does not touch Codex's campaign. Waiting on Alex: keep $200 a day with stop rules, or cut to $60 a day.
 - **DECISION (Alex, Nov 1): option A.** Codex's test runs at $100 a day for 7 days (Nov 1 to 7). Static Reviews stays $40 a day. Meta about $140 a day, about $980 for the week. Stop rules: $100 with 0 leads, stop; day 3 CPL over $30, stop; day 7 judge cost per booking vs Static Reviews before any scale. Claude's $10 challenger waits until this test ends. Approval line (challenger creatives): ON HOLD, replaced this week by Codex's test.
+
+## Nov 1: Google at $100 a day (Alex)
+- Alex: "Google set to 100 a day." Paid total now about $240 a day: Meta $140 (Static Reviews $40 plus Codex test $100) and Google $100. About $1,680 a week, about $7,200 a month at this pace.
+- Google Ads is not connected to Windsor, so Claude cannot see its spend, leads or cost per booking. Alex to connect it (Windsor connect link sent Nov 1).
+- Google won 59 bookings Aug to Oct in GHL (Google, Google Ads, Google Organic), more than Meta's 38. Judge both on cost per booking, target $100 or less.
