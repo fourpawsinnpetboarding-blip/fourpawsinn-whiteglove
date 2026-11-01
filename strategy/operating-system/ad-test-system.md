@@ -80,3 +80,10 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Paid total now about $270 a day: Meta $140 (Static Reviews $40, Codex test $100) plus Google $130. About $8,100 a month at this pace.
 - Rule: every Monday check impression share and Google cost per booking in GHL. Under $150 a booking: propose another 30% to Alex. Over $150: stop raising.
 - Other Google campaigns (Competitors, Performance Max 2, Search 4) are paused and untouched.
+
+## Nov 1 (later): Google back to $90 plus 48 negative keywords (Alex: yes)
+- The search terms audit (scale-math-2026-11-01.md) showed 59% of Google search spend on pet stores, shelters, vets and groomers, so the "81% lost to budget" was mostly junk. Budget set back from $130 to **$90 a day** on campaign 22073294281.
+- Added 48 campaign level negative keywords: shelter(s), adopt, adoption, adopcion, adopción, adoptar, surrender, rescue(s), pound(s), perrera, refugio(s), abandonados, sanctuary, "humane society", humansociety, aspca, "animal services", "animal service", "animal care", petco, petsmart, "pet shop", "pet store", "pet stores", "pet supermarket", botanica, venta, "woof gang", groomer(s), grooming, vet(s), veterinary, veterinarian, clinic, "animal hospital", banfield, vca, "pet spa", "pet salon", "dog food", jobs, hiring. Competitor names left open.
+- Undo: remove_negative_keywords on the same campaign.
+- Paid total about $230 a day: Meta $140, Google $90.
+- Next: Nov 9 check of search terms, GHL bookings from Google, cost per booking. Then point Google's conversion goal at real bookings only (needs a look at the conversion settings).
