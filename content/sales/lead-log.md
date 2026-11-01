@@ -171,3 +171,4 @@ RULE (price objection on the Meta form): don't bring up the form answer. Keep ge
 
 ### Nov 1: Elvia Andarza, Pepa plus a second dog (Dec 24 to 27, Texas visitor)
 - Two dogs: a dachshund and a Chihuahua. Planning, will confirm in about 3 weeks, asked if a deposit saves a spot. Reply: yes, 25%; one honest Christmas week line; total shown as "if both are adults" ($115 a day, $460, deposit $115, $345 with a before 10 AM pickup); asked the second name, ages and how they do with other dogs. Meet and greet skipped (they live in Texas). Codex row added.
+- CORRECTION (Alex, Nov 1): no drop offs on Dec 24. Christmas guests drop off Dec 23, 9 AM to 12 PM. Elvia was told "Christmas Eve drop off 9 AM to 12 PM" in our first text, so she gets a correction. New total Dec 23 to 27: 5 days, $575 if both adults, deposit $143.75; pickup before 10 AM Dec 27 = $460.

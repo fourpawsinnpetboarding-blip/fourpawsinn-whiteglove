@@ -254,7 +254,7 @@
 - **Short hook:** "Drop off times, every day."
 
 **Q27. "What about the holidays?"**
-> What about the holidays? Holidays fill up first, so book as early as you can. On Christmas Eve, drop off is 9 AM to 12 PM only. There's no afternoon window that day.
+> What about the holidays? Holidays fill up first, so book as early as you can. For Christmas, drop off is on December 23, from 9 AM to 12 PM. We don't take drop offs on December 24.
 
 - **Short hook:** "Christmas boarding: read this first."
 
