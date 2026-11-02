@@ -116,7 +116,7 @@ Once items 1 to 7 are real, this tells us exactly how many leads, and how much a
 ## Status, Nov 2, 2026 (report: `strategy/reports/scoreboard-2026-11-02.md`)
 | Road | Status |
 |---|---|
-| Ads (Meta 11 leads, $35 CPL; Google $147 per booking; paid $970 a week) | Slow |
+| Ads (Meta 11 leads, $35 CPL; Google $146 per booking; paid $970 a week) | Slow |
 | Leads (about 10 new still open) | Slow |
 | Speed and close (14 won this week, $3,575; speed data unavailable) | On pace |
 | Boarding revenue ($3,575 booked this week, $255 average; $36K Nov 9 pace missed) | Slow |
