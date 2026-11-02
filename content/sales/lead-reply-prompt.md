@@ -118,7 +118,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 
 ## Channel
 - If they texted, reply by text.
-- If they emailed or used a website form, reply by email. The email footer already has our name and phone, so end with "Warmly," and no sign off block.
+- If they emailed or used a website form, reply by email. The email footer already has "Warmly," our name and phone, so end with the last sentence. No sign off, no "Warmly," (Alex, Nov 2).
 - The contact number in every message is (754) 971-0792.
 
 ## Before you hand over a draft, check
