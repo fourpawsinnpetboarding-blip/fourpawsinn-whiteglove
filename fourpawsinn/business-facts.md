@@ -47,6 +47,10 @@ This is the single source of truth for Four Paws Inn facts used by the reusable 
 
 Four Paws Inn charges by day, never by night.
 
+## Puppy minimum age and shots (OPEN, Alex Nov 2, 2026)
+- Alex: "Maybe 3 months. The shots, I don't know what they take at that age; some have to wait till they're older." Not a confirmed policy. Until Alex and Amanda confirm a youngest age and the exact shots required, never state an age or a shot list to a client. Say: "Puppies can stay once their puppy shots are done. Send me the records and we'll check." Any medical question goes to "please ask your vet."
+
+
 ## Booking and care policies
 
 - A 25% deposit reserves the dates.
