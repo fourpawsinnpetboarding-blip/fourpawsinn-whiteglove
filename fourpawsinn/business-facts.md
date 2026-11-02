@@ -55,6 +55,7 @@ Four Paws Inn charges by day, never by night.
 ## Booking and care policies
 
 - A 25% deposit reserves the dates.
+- Holiday hold before a trial overnight (Alex, Nov 2, 2026): when holiday spots are nearly gone, a new dog who still needs a first overnight MAY pay the 25% deposit now to hold the spot. Tell them upfront: we are almost booked and past clients are calling. The deposit is not refundable, but if the stay does not work out (not a fit for the group and no suite), it becomes credit for any stay within one year. Past clients who have stayed before can take a holiday spot without a trial overnight. This replaces 'no deposit until she passes' for holiday holds.
 - Payment methods (Alex, Oct 20, 2026): Zelle to 754-971-0792, Apple Pay to 754-971-0792, or credit card (Alex sends a card payment link on request). Deposit is 25% of the full stay with the last day included; if they pick up before 10 AM, the last day comes off the remaining balance.
 - Full payment is due before drop-off (Alex, Oct 15, 2026). The deposit reserves the stay; the rest is paid before the dog arrives.
 - Vaccines must be current.
