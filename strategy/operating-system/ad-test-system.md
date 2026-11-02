@@ -87,3 +87,8 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Undo: remove_negative_keywords on the same campaign.
 - Paid total about $230 a day: Meta $140, Google $90.
 - Next: Nov 9 check of search terms, GHL bookings from Google, cost per booking. Then point Google's conversion goal at real bookings only (needs a look at the conversion settings).
+
+## Nov 2: Meta test day 1 check (scheduled)
+- Codex test (52666799589524, Realm reviews): lifetime budget $700 over Nov 1 to 8 (Codex lowered it from $1,400 on Nov 1, Alex confirmed). Nov 1: $107.78, 4 leads, $26.95 CPL. Sean review ad carries it (4 leads on $90); Elaine review ad $18, 0 leads, 1.2% CTR.
+- Static Reviews (52586440813324): $40 a day, active (Codex readback).
+- No stop needed. Next check Wed Nov 4 (day 3).
