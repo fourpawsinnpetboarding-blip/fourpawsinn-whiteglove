@@ -15,3 +15,13 @@ Lead names and phone numbers stay out of this git repo. The working lists live i
 ## Nov 2 run
 - 344 stagnant leads: 88 where the lead wrote last (11 STOP, 5 declined, 5 spam removed), 242 where we wrote last.
 - Batch 1 (about 45 personal texts) handed to Alex Nov 2. Batch 2: the 30 newest "we wrote last" leads, Nov 3.
+
+## Rules from Alex (Nov 2)
+- Before texting a stagnant lead, check the thread was not moved to another channel. Some conversations were transferred (example: a lead whose form we already had). When unsure, ask Alex.
+- Texts are very short and personal: 1 or 2 lines, their name, their dog's name, one question. Claude writes them; Alex sends.
+
+## How Alex sends a batch (10 minutes for 20 texts)
+1. Open GHL, then Conversations.
+2. Search the person's name.
+3. Paste the text from the batch file, check the name, send.
+4. Next. When someone replies, screenshot it to Claude for the next message.
