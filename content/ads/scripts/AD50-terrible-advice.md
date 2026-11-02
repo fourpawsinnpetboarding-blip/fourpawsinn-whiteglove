@@ -8,15 +8,20 @@ Reference: Adley Kinsman ad for goviralish.com (saved on the Eden swipe board, N
 - 45 to 60 seconds. Shorter than Adley's 110 because our ask is smaller (send dates, not buy a course).
 - Film each of the 3 hooks below at the start, so one shoot gives 3 Trial Reel versions.
 
-## Script (Hook A)
+## Script (Hook A): Adley's transcript, beat for beat, for Four Paws Inn (Alex, Nov 2)
+Amanda lying down, a dog's head in the bottom of the frame, POV selfie, talking to the screen. DOG = the name of the dog in the shot (fill in before filming).
 **Pinned top box, whole video:** "Just book the cheapest boarding" is terrible advice
 
-1. HOOK: "'Just book the cheapest boarding' is terrible advice, okay? Cheap is not always the answer."
-2. WHO: "I'm Amanda. My husband Alex and I run Four Paws Inn, a cage free home for dogs in Miramar. We have 231 Google reviews and a 4.9 star rating."
-3. WHY: "Here's why. If your dog spends the trip in a kennel row, you didn't save money. You paid for a week of stress, theirs and yours."
-4. WHAT: "Here, your dog lives in our home. No kennels. They go outside to play every hour, and you get a video of them every day."
-5. PROOF: "Don't believe me? Ask Elaine, whose pups didn't want to leave. Or Sean, who told us he feels at peace leaving his dog with us. Or Marcella, who picked a home over a big facility for her two little dogs."
-6. CTA: "So before you book the cheapest place, tap the button, send us your dates and tell us about your dog. We can't wait to meet them."
+1. "'Just book the cheapest boarding' is terrible advice for anyone leaving their dog this holiday, okay? Cheap is not always the answer. That's what DOG says. But she's gonna tell you what is, okay?"
+2. "For context, I'm Amanda, this is DOG, and I'm the owner of Four Paws Inn. We have over 230 Google reviews and a 4.9 star rating, one of the most loved dog boarding homes in South Florida."
+3. "And me saying cheap isn't the answer, that's coming from someone who cares for dogs in our home every single day."
+4. "Here's why cheap is not always the answer. If your dog comes home and doesn't want to go back, why would you book that again? You wouldn't do that with your kids, so why do it with your dog?"
+5. "The right move for most of you is to find a place your dog actually wants to go back to. Because when your dog is happy, you can actually enjoy your trip."
+6. "Here, your dog lives in our home. No kennels. They play outside every hour, and you get a video of them every day."
+7. "DOG says if you don't believe me, just ask Elaine, whose pups didn't want to leave. Or Sean, who feels at peace every time he leaves his dog with us. Or Marcella, who picked a home over a big facility for her two little dogs."
+8. "So before you book the cheapest place and hope for the best, let us show you what a real home stay looks like. Sounds good? DOG, tell them to tap the button. They tap the button, send us their dates and tell us about their dog. We can't wait to meet them."
+
+Fact note: say "over 230 Google reviews and a 4.9 star rating", NOT "230 five star reviews". Not every review is five stars, and an ad that overstates it can be called out.
 
 ## Hook versions (Trial Reels first, winner to Meta)
 - A: "Just book the cheapest boarding" is terrible advice
