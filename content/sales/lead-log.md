@@ -197,3 +197,4 @@ PRACTICE (Alex, Nov 2): a trial overnight before a holiday is charged at the nor
 ### Nov 2: Cory Smith, Dakota (Shepherd mix puppy, 5 months, 30 lb), Wix intake form
 - Form gave the dog details but no dates. Separation anxiety, never boarded, potty training, fed 8 AM and 1 PM. Reply by EMAIL (website form): care plan fitted to her (one on one first, slow intros, her feeding times, daily video), ask dates, pickup before or after 10 AM, vaccine records from both vets; puppy rate $80 a day, both totals once dates arrive. Gmail draft created, sent only after Alex's yes. Codex row added.
 - RULE UPDATE (Alex, Nov 2): the fourpawsinnpetboarding@gmail.com signature already includes "Warmly," and all the details. Email drafts end at the last sentence: no "Warmly," and no sign off. (Replaces the Oct 28 "end at Warmly," rule.)
+- Nov 2: email SENT to Cory on Alex's 'send' (Gmail message 1a19d707a8f7f8f5).
