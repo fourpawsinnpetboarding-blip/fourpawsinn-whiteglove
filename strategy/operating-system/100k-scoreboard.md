@@ -112,3 +112,13 @@ Once items 1 to 7 are real, this tells us exactly how many leads, and how much a
 | Boarding revenue ($5,205 logged, $289 average, about $18K October) | Slow |
 | Board and Train (0 paid reservations) | Stalled |
 | Content (Codex leads, one noon post a day) | On pace |
+
+## Status, Nov 2, 2026 (report: `strategy/reports/scoreboard-2026-11-02.md`)
+| Road | Status |
+|---|---|
+| Ads (Meta 11 leads, $35 CPL; Google $147 per booking; paid $970 a week) | Slow |
+| Leads (about 10 new still open) | Slow |
+| Speed and close (14 won this week, $3,575; speed data unavailable) | On pace |
+| Boarding revenue ($3,575 booked this week, $255 average; $36K Nov 9 pace missed) | Slow |
+| Board and Train (0 paid reservations, Oct 31 goal missed) | Stalled |
+| Content (Codex leads, noon post a day; 6 extra 7:30 AM posts waiting on Alex) | On pace |
