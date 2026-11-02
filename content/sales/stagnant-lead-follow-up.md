@@ -25,3 +25,6 @@ Lead names and phone numbers stay out of this git repo. The working lists live i
 2. Search the person's name.
 3. Paste the text from the batch file, check the name, send.
 4. Next. When someone replies, screenshot it to Claude for the next message.
+
+## Exception (Alex, Nov 2): Codex sends batch 1
+Alex chose option A: Codex sends batch 1 from GHL, one person at a time, exactly as written, skip list honored. One time exception to "Codex never texts leads"; future batches need Alex's yes again. Replies come back to Claude for the next message; Codex never quotes prices or confirms availability. Eden row: "SEND: stagnant lead follow up texts, batch 1".
