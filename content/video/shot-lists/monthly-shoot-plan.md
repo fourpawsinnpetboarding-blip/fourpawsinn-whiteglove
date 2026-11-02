@@ -54,3 +54,9 @@ Every reel opens on the most exciting second of the clip with words on screen. E
 - Real dogs, real home. Licensed stock only for non-dog B roll. Never repost other creators.
 - Everyone in footage Alex or Amanda sends is cleared. Never hold a video over people or consent.
 - No dog counts, no "safe", no health claims, no dashes in on-screen text.
+
+## UPDATE Nov 2, 2026: Content Day system (Alex)
+Alex: "One or two content days, bang out everything: long form, short form, organic ads, reels, hooks, B roll. Organized, efficient, same routine every time."
+- Lives in Eden: board "CONTENT DAYS: run of show" with the doc "CONTENT DAY PLAYBOOK" and its embedded table "Content Day shot list" (35 shots, grouped by Content Day 1 and 2, ordered by the dogs' daily blocks: 8 AM release, 9 AM regulars and arrivals, 10 AM inside, 11 AM pool, 1 PM nap time = talking, 3 PM naps and details, 4 PM pickups, 8 PM bedtime).
+- Rhythm: 1st and 3rd Sunday every month. First two: Sun Nov 8 and Sun Nov 15.
+- This table replaces the shot list above as the working list; the blocks above remain the source for the reel series.
