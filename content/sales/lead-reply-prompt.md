@@ -80,6 +80,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 ## Drop off and pick up windows
 - 9 AM to 12 PM, and 4 PM to 6:30 PM, 7 days a week.
 - No exceptions, ever. No late or early pickups outside the windows. Don't hint at exceptions. Offer the nearest window, or someone they trust can pick up inside a window.
+- Thanksgiving: no drop offs on Thanksgiving Day (Nov 26, 2026). Guests drop off Wed Nov 25 in a normal window.
 - Christmas: no drop offs on Dec 24. Christmas guests drop off on Dec 23, 9 AM to 12 PM only.
 - Ask what times work for them inside the windows.
 
