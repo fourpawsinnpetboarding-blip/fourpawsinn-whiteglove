@@ -182,3 +182,8 @@ RULE (Alex, Nov 1): holiday availability is confirmed by Alex before any lead is
 - Deposit = 25% of the after 10 AM total.
 - ALWAYS ASK "Will you pick up before 10 AM or after 10 AM?" in the same message until they answer, and confirm it before the deposit (Alex, Nov 1: "absolutely crucial, that is 100 something dollars").
 - Written into CLAUDE.md (gate 6), fourpawsinn/business-facts.md and content/sales/lead-reply-prompt.md (rules, checklist item 0, example).
+
+### Nov 2: missed call lead, female German Shepherd, Thanksgiving 3 nights
+- Asked price per day. Thanksgiving is booked out. Alex: German Shepherds can be hard in our group setup, but this one may be great, so don't scare her off.
+- Play: answer the daily price, ask about the dog, then offer ONE first overnight before Thanksgiving at the normal daily rate. If she settles into the pack, we make room for her Thanksgiving stay. Private suite is the backup, if one is free (check first).
+- PRACTICE (Alex, Nov 2): when a new dog might not fit the group, or holidays are full, offer a first overnight at the normal rate before the big stay. Never say why it's the breed (no breed talk with clients). Never promise an outcome; say "slow, careful intros". Codex row added.
