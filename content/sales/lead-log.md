@@ -208,3 +208,7 @@ PRACTICE (Alex, Nov 2): a trial overnight before a holiday is charged at the nor
 - Reply: slow start for shy dogs, the 6:30 ask with the reason, both windows, two totals at $60 a day (after 10 AM $540, before 10 AM $480), pickup time question, booking steps with the $135 deposit (25% of $540), payment options, optional Tuesday meet and greet, asked if she has stayed anywhere before.
 - Rule update: Alex allows a drop off up to 7 PM in rare cases when he says so. The windows stay 9 AM to 12 PM and 4 PM to 6:30 PM; never offer 7 PM first.
 - Nov 3, she replied: will aim for 6:30 PM on Nov 20 (earlier if she can't), pick up AFTER 10 AM on Nov 28. Confirmed in writing: $540 total, $135 deposit, pick up inside 10 AM to 12 PM or 4 PM to 6:30 PM. Deposit already asked once, so the reply only restates the amount, no second ask. Asked her dog's name.
+
+## FLAGS: Thanksgiving dates (Alex, Nov 3 rule: no Nov 26, avoid Nov 24 to 27)
+- Vanilla (German Shepherd): told Nov 2 to drop off Wed Nov 25. FLAG for Alex: keep Nov 25 or move to Mon Nov 23.
+- Erika Mand (Jax): dates Nov 23 to 27, pick up Nov 27. FLAG for Alex: keep Nov 27 or move to Sat Nov 28.
