@@ -200,3 +200,10 @@ PRACTICE (Alex, Nov 2): a trial overnight before a holiday is charged at the nor
 - RULE UPDATE (Alex, Nov 2): the fourpawsinnpetboarding@gmail.com signature already includes "Warmly," and all the details. Email drafts end at the last sentence: no "Warmly," and no sign off. (Replaces the Oct 28 "end at Warmly," rule.)
 - Nov 2: email SENT to Cory on Alex's 'send' (Gmail message 1a19d707a8f7f8f5).
 - EMAIL SIGNATURE NOTE (Nov 2): the new hello@ / amanda@ signature ("Four Paws Inn, Team": logo, Alex & Amanda Chiong, Owners, hello@fourpawsinn.co, 754 971 0792, fourpawsinn.co) has NO "Warmly,". Rule: drafts from fourpawsinnpetboarding@gmail.com end at the last sentence (that signature has "Warmly,"); drafts from amanda@ / hello@ end with "Warmly," on its own line.
+
+## Shamika D. (GHL SMS, Nov 3, 2026)
+- Dog: 2 year old, 20 lb miniature schnauzer mix, female, spayed. Rescued from the Humane Society a few months ago, may have been a service animal, doesn't bark, very shy ("scared of her own shadow"). Boarded before: not answered yet.
+- Dates: Nov 20 to Nov 28. Asked for a 7 PM drop off on Nov 20.
+- Alex (Nov 3): ask for 6:30 PM because late arrivals wind the group back up during the evening routine (out to burn energy, then settle). We can stretch to 7 PM, never later. Morning 9 AM to 12 PM is the other option. We have space; lay out the whole booking process.
+- Reply: slow start for shy dogs, the 6:30 ask with the reason, both windows, two totals at $60 a day (after 10 AM $540, before 10 AM $480), pickup time question, booking steps with the $135 deposit (25% of $540), payment options, optional Tuesday meet and greet, asked if she has stayed anywhere before.
+- Rule update: Alex allows a drop off up to 7 PM in rare cases when he says so. The windows stay 9 AM to 12 PM and 4 PM to 6:30 PM; never offer 7 PM first.
