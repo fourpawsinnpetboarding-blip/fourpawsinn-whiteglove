@@ -64,17 +64,30 @@ Copy: `content/seo/pages-2026-10-11.md`, `content/seo/pages-2026-10-13.md`, `con
 7. ~~Boarding for dogs who are selective with other dogs~~ (published Oct 27)
 8. ~~Large dog boarding in Miramar (over 50 lb, $75 a day)~~ (published Oct 27)
 9. ~~Boarding two dogs together: how the multi dog rate works~~ (published Oct 27)
-10. Dog boarding near Plantation, FL
-11. Dog sitter at home or dog boarding: how to choose
-12. Last minute dog boarding in Miramar: what to do this week
+10. ~~Dog boarding near Plantation, FL~~ (published Nov 3)
+11. ~~Dog sitter at home or dog boarding: how to choose~~ (published Nov 3)
+12. ~~Last minute dog boarding in Miramar: what to do this week~~ (published Nov 3)
 13. Private suites for shy or reactive dogs in Miramar (per dog: $80, or $100 over 50 lb)
 14. First time boarding your dog: what to expect
 15. Dog boarding near Hallandale Beach, FL
 16. Dog boarding near Sunrise, FL
 17. Curbside drop off: why we meet you at the car
 18. Dog boarding near Fort Lauderdale (Miramar home, short drive)
+19. Dog boarding near Coral Springs, FL
+20. How to get your dog ready for their first overnight away
+21. Boarding over Christmas in Broward: drop off Dec 23, how to hold dates
 
 Done: Cooper City, Davie, holiday dates (Oct 13), Weston, cost guide, cage free guide, puppy, Pembroke Pines and Southwest Ranches, senior. Cat boarding already has a live post (39505de5).
+
+## Pages published Nov 3, 2026
+
+| Post id | Page |
+|---|---|
+| e00e9097-e570-42dd-914d-0b903f096dec | Dog Boarding Near Plantation, FL |
+| 069af3f8-9148-48d6-9c7d-2f2deb409330 | Dog Sitter at Home or Dog Boarding: How to Choose |
+| b0b4c996-a5b8-451b-a915-eedc52289e4b | Last Minute Dog Boarding in Miramar: What to Do This Week |
+
+Copy: `content/seo/pages-2026-11-03.md`. No fixed price tables on these pages (Codex Oct 31 review: prices change, every quote needs two totals).
 
 ## Weekly process (the Tuesday sprint, Claude)
 
@@ -119,3 +132,14 @@ Alex's answer, Oct 11, 2026: "Yes" to publishing 3 website pages and 3 GBP posts
 | 6 | Partners | List done (27). Drop offs: Alex or Amanda |
 | 7 | Community | Week 4 drafts: `content/community/answers-2026-10-week4.md` |
 - Oct 27: Alex said yes to posting the week 4 community answers himself when a real neighbor asks.
+
+## Status Nov 3 (Tuesday sprint)
+
+| # | Action | Status |
+|---|---|---|
+| 1 | Pages | 18 published total. 3 this week: Plantation (e00e9097), sitter or boarding (069af3f8), last minute (b0b4c996). 3 new backlog ideas added (19 to 21) |
+| 2 | GBP posts | Week of Nov 9 written: `content/gbp/2026-11-09-week.md` (Codex review row 0dbe266e). Week of Nov 2: Mon posted, Wed and Fri go out on schedule |
+| 3 | Directory sites | Batch 1 still in progress (row 6b61b075) |
+| 5 | Lead follow up | Day 1, 3, 7, 14 texts and daily call list now in the 40K November prompt for Codex (strategy/operating-system/codex-prompt-40k-november.md) |
+| 6 | Partners | List done (27). Drop offs: Alex or Amanda |
+| 7 | Community | Week of Nov 9 drafts: `content/community/answers-2026-11-week2.md` |
