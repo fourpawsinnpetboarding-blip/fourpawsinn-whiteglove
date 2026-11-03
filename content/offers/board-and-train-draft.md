@@ -26,7 +26,7 @@ Known facts: training.fourpawsinn.co is a 21 day program application page. Score
 If they need to think: "Totally fair. Can I hold the date until [day after tomorrow]?"
 
 ## 3. First message to 10 past clients
-Hi [Name], it's Alex from Four Paws Inn. We're opening a waitlist for a new 2 week Board and Train program, and our past families hear about it first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Want me to save [dog name] a spot on the list? No payment to join.
+Hi [Name], it's Amanda from Four Paws Inn. We're opening a waitlist for a new 2 week Board and Train program, and our past families hear about it first. Your dog stays with us like always, plus daily training on things like leash walking and manners. Want me to save [dog name] a spot on the list? No payment to join.
 
 ## Notes for Alex
 - Picking the 10: dogs you already know, owners who mentioned pulling, jumping or recall, and clients who book long stays.

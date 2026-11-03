@@ -36,15 +36,15 @@ Stop rules stay: $100 spent with 0 leads, stop; CPL over $35 after 3 days, cut; 
 
 ## Past client text (Alex sends by hand; no prices; personal)
 Version 1 (dog stayed before):
-> Hi [first name], it's Alex from Four Paws Inn. We miss [dog name]! Holiday dates are filling up fast this year. Any trips coming up in November or December? I'd love to save [dog name] a spot.
+> Hi [first name], it's Amanda from Four Paws Inn. We miss [dog name]! Holiday dates are filling up fast this year. Any trips coming up in November or December? I'd love to save [dog name] a spot.
 
 Version 2 (short):
-> Hi [first name], Alex here from Four Paws Inn 😊 Planning any travel this holiday season? [Dog name] is always welcome back. Just send me your dates.
+> Hi [first name], Amanda here from Four Paws Inn 😊 Planning any travel this holiday season? [Dog name] is always welcome back. Just send me your dates.
 Fill the brackets before sending. Never send with a bracket left in.
 
 ## Call script for open leads (2 minutes)
-1. "Hi [name], it's Alex from Four Paws Inn. You asked about boarding for [dog]. Do you still need a place for your trip?"
+1. "Hi [name], it's Amanda from Four Paws Inn. You asked about boarding for [dog]. Do you still need a place for your trip?"
 2. If yes: dates, then the dog questions (sales order step 1).
 3. Then what the stay looks like, then both prices: after 10 AM and before 10 AM. Ask which pickup time.
 4. "Want me to hold the dates? The deposit is what saves the spot."
-5. If no answer: one text right after: "Hi [name], it's Alex from Four Paws Inn. Just called about [dog]'s stay. Text me your dates anytime."
+5. If no answer: one text right after: "Hi [name], it's Amanda from Four Paws Inn. Just called about [dog]'s stay. Text me your dates anytime."

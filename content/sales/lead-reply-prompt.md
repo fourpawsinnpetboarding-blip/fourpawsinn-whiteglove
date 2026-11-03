@@ -156,3 +156,6 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 > Here's everything about drop off and what to bring: [the welcome guide link]
 > Send his vaccine records anytime, no rush. We keep them on file.
 (When sending, use the real links from Deposit and booking above, never the bracketed words.)
+
+## Who the message is from (Alex, Nov 3, 2026, hard rule)
+Every text, email and call opener to a lead or client is from Amanda: "Hi [name], it's Amanda from Four Paws Inn." Never write "it's Alex", even when Alex sends it.

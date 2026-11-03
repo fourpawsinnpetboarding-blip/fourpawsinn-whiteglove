@@ -20,7 +20,7 @@ We think we are in the marketing business. The data says we are in the follow up
 | Data habit: 5 minutes morning and night | Bank app and GHL leads before Instagram | Personal |
 
 ## Lead call script (from the doc's phone section, made ours)
-1. "Hi [name], it's Alex from Four Paws Inn. You just filled out our form. I've got a minute, can I ask a couple quick questions about your pup?"
+1. "Hi [name], it's Amanda from Four Paws Inn. You just filled out our form. I've got a minute, can I ask a couple quick questions about your pup?"
 2. If they open with "how much?": "Great question, and I'll give it to you. What's your pup's name?" Then size, dates, how they do with other dogs. Then the price.
 3. "As you can imagine, this time of year gets busy, so let's get you on the calendar."
 4. A or B: "Is a drop off in the morning, 9 to 12, or the afternoon, 4 to 6:30, better for you?"
