@@ -80,7 +80,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 ## Drop off and pick up windows
 - 9 AM to 12 PM, and 4 PM to 6:30 PM, 7 days a week.
 - No exceptions, ever. No late or early pickups outside the windows. Don't hint at exceptions. Offer the nearest window, or someone they trust can pick up inside a window.
-- Thanksgiving (Alex, Nov 3, hard rule): no drop offs or pick ups on Thu Nov 26. Nov 27 is fine. Avoid Nov 24 and 25: if a client asks for those, do not confirm it, flag it to Alex and wait. Suggest drop off on or before Mon Nov 23 and pick up on or after Fri Nov 27.
+- Thanksgiving (Alex, Nov 3, hard rule): no drop offs or pick ups on Thu Nov 26. Every other day that week is normal. Suggest drop off by Wed Nov 25 and pick up Fri Nov 27 or later.
 - Christmas: no drop offs on Dec 24. Christmas guests drop off on Dec 23, 9 AM to 12 PM only.
 - Ask what times work for them inside the windows.
 

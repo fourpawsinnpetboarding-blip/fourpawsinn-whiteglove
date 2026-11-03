@@ -210,7 +210,7 @@ PRACTICE (Alex, Nov 2): a trial overnight before a holiday is charged at the nor
 - Nov 3, she replied: will aim for 6:30 PM on Nov 20 (earlier if she can't), pick up AFTER 10 AM on Nov 28. Confirmed in writing: $540 total, $135 deposit, pick up inside 10 AM to 12 PM or 4 PM to 6:30 PM. Deposit already asked once, so the reply only restates the amount, no second ask. Asked her dog's name.
 
 ## FLAGS: Thanksgiving dates (Alex, Nov 3 rule: no Nov 26, avoid Nov 24 to 27)
-- Vanilla (German Shepherd): told Nov 2 to drop off Wed Nov 25. FLAG for Alex: keep Nov 25 or move to Mon Nov 23.
+- Vanilla (German Shepherd): drop off Wed Nov 25 is FINE (Alex, Nov 3: only Nov 26 is blocked). No flag.
 - CORRECTION: the Nov 23 to 27 dates belong to Dayana R (Mocha), not Erika. Alex, Nov 3: Nov 27 is fine. Dayana: drop off Mon Nov 23, pick up Fri Nov 27, meet and greet Tue Nov 10 around 4 PM. Erika (Jax) is Nov 23 to 28, no flag.
 
 - Nov 3 (Dayana): took Tue Nov 10 around 4 PM for the meet and greet; dates Nov 23 to 27. Reply confirms the visit, asks for an ETA an hour before, restates both totals and asks pickup time. Deposit already asked before, so no second ask.
