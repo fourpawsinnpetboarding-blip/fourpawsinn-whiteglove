@@ -174,3 +174,6 @@ Tell the client only these steps, all done from their phone:
 3. Send the deposit. Once the form, the signed agreement and the deposit are in, you're all set.
 4. After the deposit, look out for one more email with everything to bring and what to expect.
 Never explain the back end to the client (Codex, the booking sheet, how the welcome email is sent).
+
+## Billing days (Alex, Nov 3, 2026, hard rule)
+Drop off day = a full day at any time. Pick up day: checkout 9 AM to 10 AM is free, 30 minute grace max. Any pick up after that is one more full day. When a quote has an evening pick up, say it in the text: "Picking up Thursday evening counts as a second day." Never write anything that sounds like the evening is included.
