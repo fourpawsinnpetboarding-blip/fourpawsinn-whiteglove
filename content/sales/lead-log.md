@@ -211,4 +211,6 @@ PRACTICE (Alex, Nov 2): a trial overnight before a holiday is charged at the nor
 
 ## FLAGS: Thanksgiving dates (Alex, Nov 3 rule: no Nov 26, avoid Nov 24 to 27)
 - Vanilla (German Shepherd): told Nov 2 to drop off Wed Nov 25. FLAG for Alex: keep Nov 25 or move to Mon Nov 23.
-- Erika Mand (Jax): dates Nov 23 to 27, pick up Nov 27. FLAG for Alex: keep Nov 27 or move to Sat Nov 28.
+- CORRECTION: the Nov 23 to 27 dates belong to Dayana R (Mocha), not Erika. Alex, Nov 3: Nov 27 is fine. Dayana: drop off Mon Nov 23, pick up Fri Nov 27, meet and greet Tue Nov 10 around 4 PM. Erika (Jax) is Nov 23 to 28, no flag.
+
+- Nov 3 (Dayana): took Tue Nov 10 around 4 PM for the meet and greet; dates Nov 23 to 27. Reply confirms the visit, asks for an ETA an hour before, restates both totals and asks pickup time. Deposit already asked before, so no second ask.
