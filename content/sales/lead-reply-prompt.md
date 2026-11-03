@@ -166,3 +166,11 @@ Before writing any reply, check the lead for three things and act on them:
 2. **What they skipped.** If our last message asked something they didn't answer (boarded before, pickup time), ask it again, once, at the end.
 3. **The fit risk.** A shy or never boarded dog on a long or holiday stay: tell Alex in one line and suggest a first overnight before the big stay (normal rate). Alex decides; never put it in the client text without his yes.
 Then tell Alex in one line each what you added and why.
+
+## How to explain the booking steps to a client (Alex, Nov 3, 2026)
+Tell the client only these steps, all done from their phone:
+1. Fill out the guest form (link).
+2. You'll get an email right after to sign our boarding agreement.
+3. Send the deposit. Once the form, the signed agreement and the deposit are in, you're all set.
+4. After the deposit, look out for one more email with everything to bring and what to expect.
+Never explain the back end to the client (Codex, the booking sheet, how the welcome email is sent).
