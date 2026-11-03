@@ -132,3 +132,8 @@ Booked stays: Windsor has no CAPI booking field per ad, so ranking is by leads o
 Decision against the Oct 11 rule (10+ leads under $10 each moves to the main campaign): NO video qualifies. Best concept (C4 Drop off) cost $33.03 per lead, about 2x Static Reviews. Nothing moves into the main campaign. R1 and R2 stay paused (already paused Oct 22). Static Reviews keeps running untouched.
 
 Lesson: the drop off MESSAGE wins across formats (best video concept, best old static ad at $9.37 earlier), but video as a format costs about 2x a strong static on this audience. Next video tests should use the Hook Lab first second rules (strategy/operating-system/hook-lab.md) before more money goes behind them.
+
+## Nov 3 fix: Nov 5 reel 4615a7ec (Codex review Oct 31)
+- Re-cut and swapped in the same post (media 13393410). Caption at 20.75s now "ONE VIDEO UPDATE EACH DAY". The $60/$75/$80/$40 pricing card (22.0 to 24.2s) is covered by "Clear daily pricing. Ask us for your dog's quote." Caption at 27.5s now "230+ GOOGLE REVIEWS". Post caption: "One video update each day".
+- Still open: narration says "200+ local families" and "daily video updates"; review cards unchanged; soundtrack license unknown.
+- Lesson: never put fixed prices on a reel card. Prices change and every quote needs two totals.
