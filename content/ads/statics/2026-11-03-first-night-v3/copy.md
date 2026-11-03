@@ -18,3 +18,12 @@ Ad texts A (kid analogy) and B (call our bluff) are the same as v2: content/ads/
 - AD68: 'Do it the right way' opens a question; the close answers it (1 night now).
 - Ad text A: 'strangers' changed to 'people they've never met... they'd meet them first. So should your dog.'
 - AD66, AD67, AD69, AD70 approved as is.
+
+## v4 (Alex, Nov 3 evening)
+- AUTHORITY on every ad: a full width proof strip above the button: 5 stars, 4.9, 230+ Google reviews, family run, Miramar. Ad texts A and C both say "a family run home in Miramar with 230+ Google reviews and a 4.9 star rating."
+- AD68 replaced: "Holidays are for regulars." / "One $60 night makes your dog a regular. Regulars get the holidays." / "Become a regular."
+- NEW AD71: "Turned away for the holidays?" / "It happens when your dog has never stayed with us. Holiday spots go to regulars." / "Don't get left out."
+- NEW AD72: "Not fair to your dog." / "Scrambling for a sitter the week of your trip? One night now makes your dog a regular." / "Be ready this time."
+- Ad text C (AD68, AD69, AD71, AD72): "Every holiday, families ask us for a spot and we have to say no. Their dog has never stayed with us. Holiday spots at Four Paws Inn go to our regulars. Becoming one takes one night. Spend $60 now and your dog has a second home for the holidays to come. Skip it, and you're scrambling for a sitter the week of your trip. That's not fair to your dog. Four Paws Inn is a family run home in Miramar with 230+ Google reviews and a 4.9 star rating. Send us a date for their first night."
+- Headline: "Holidays go to regulars. 4.9 stars, 230+ reviews."
+- Not used: "highest rated" (needs a check against every local competitor before we can say it; the review count and stars are the verified version) and "forever" (we can't promise a spot every future holiday; "for the holidays to come" instead).
