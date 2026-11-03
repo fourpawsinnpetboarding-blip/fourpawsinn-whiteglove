@@ -2,10 +2,10 @@ const fs=require("fs"),path=require("path");const {chromium}=require("playwright
 const F=(n)=>fs.readFileSync(path.join(__dirname,"../../../../scripts/morning-posts/fonts",n)).toString("base64");
 const ph=(n)=>fs.readFileSync(path.join(__dirname,"photos",n)).toString("base64");
 const ads=[
- {id:"AD61-NOT-WITH-YOUR-KID",a:"NOT WITH",b:"YOUR KID.",sub:"You'd never leave them with strangers for a week. So don't do it to your dog.",c:"TRY 1 NIGHT",d:"FIRST.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"couch-husky.jpg",pos:"30% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
+ {id:"AD61-NOT-WITH-YOUR-KID",a:"NOT WITH",b:"YOUR KID.",sub:"You'd never leave them for a week with people they've never met. So let your dog meet us first.",c:"TRY 1 NIGHT",d:"FIRST.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"couch-husky.jpg",pos:"30% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD66-FIRST-SLEEPOVER",a:"FIRST",b:"SLEEPOVER.",sub:"Your kid had one. Give your dog one too, before the holiday trip.",c:"1 NIGHT.",d:"FROM $60.",tag:"BEFORE THE HOLIDAYS  •  MIRAMAR",photo:"puppy-bed.jpg",pos:"30% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD67-MEET-THE-SITTER",a:"MEET THE",b:"SITTER FIRST.",sub:"You would for your kid. Do it for your dog: one night before you travel.",c:"THEN TRAVEL",d:"CALM.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"kneel-indoor.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
- {id:"AD68-FIRST-NIGHT-ON-CHRISTMAS",a:"FIRST NIGHT",b:"ON CHRISTMAS?",sub:"New place, new faces, and you're gone for days. Do one night now.",c:"1 NIGHT NOW.",d:"FROM $60.",tag:"BEFORE THE HOLIDAYS  •  MIRAMAR",photo:"hug-white-dog.jpg",pos:"35% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
+ {id:"AD68-FIRST-NIGHT-ON-CHRISTMAS",a:"FIRST NIGHT",b:"ON CHRISTMAS?",sub:"New place, new faces, and you're gone for days. Do it the right way.",c:"1 NIGHT NOW.",d:"FROM $60.",tag:"BEFORE THE HOLIDAYS  •  MIRAMAR",photo:"hug-white-dog.jpg",pos:"35% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD69-NEW-DOG-NOT-ON-HOLIDAYS",a:"NEW DOG?",b:"NOT ON HOLIDAYS.",sub:"Holiday spots go to dogs who have stayed with us before.",c:"BOOK 1 NIGHT",d:"NOW.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"yard-lab.jpg",pos:"78% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD70-A-WEEK-ON-DAY-ONE",a:"A WEEK AWAY",b:"ON DAY ONE?",sub:"You'd never do that to your kid. Start your dog with one night.",c:"START WITH",d:"1 NIGHT.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"lab-pool.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60}
 ];
