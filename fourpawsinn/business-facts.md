@@ -218,3 +218,4 @@ Every person in any photo or video Alex or Amanda sends is cleared to use: staff
 - Address (Alex, Oct 27, 2026, corrected same day): the address can be shared when a lead asks. Always add that visits and meet and greets are by scheduled appointment, never drop in, because we are a home. Say it warmly.
 
 - Sales order (Alex, Oct 31, 2026, hard rule): 1) questions about the pet, 2) our value fitted to that pet, 3) price, 4) booking steps and deposit after their yes. Never ask for money before steps 1 and 2. Full text: content/sales/lead-log.md, THE SALES ORDER.
+- Google Ads call conversion length (Alex, Nov 3, 2026): a call counts as a conversion at 20 seconds. Alex did NOT approve 60 seconds. Never change it without Alex.

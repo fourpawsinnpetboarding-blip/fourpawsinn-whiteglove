@@ -62,7 +62,7 @@ Codex: build this as a daily scoreboard (a GHL dashboard or a sheet) and post ye
 - Spend about $3,000 a month. October cost per booking in GHL: **$111**. Last week: $146. Google brings more bookings than Meta.
 - The campaign is Performance Max. In the last 30 days, about 59% of search spend went to pet stores, shelters, vets and groomers. 48 negative keywords went in on Nov 1. First clean week reads Nov 9.
 - Impression share 10.7%, 80.9% lost to budget. Some of that is junk searches, so it does not mean 8 of 10 boarding leads are lost.
-- Google counts "conversions" on searches like "surrender my dog". Its 52 conversions are not bookings. Codex: check the conversion goal is a real lead (form or call over 60 seconds), not a page view.
+- Google counts "conversions" on searches like "surrender my dog". Its 52 conversions are not bookings. Codex: check the conversion goal is a real lead (a form, or a call of 20 seconds or more, which is the current setting Alex chose; do not change it to 60), not a page view.
 - Scale rule: after Nov 9, raise budget 20% at a time if cost per booking stays under $150. Alex's yes each step.
 - Test idea: a plain Search campaign on boarding words only (boarding, dog hotel, kennel, pet sitter, competitor names) next to PMax, so we control the searches.
 
