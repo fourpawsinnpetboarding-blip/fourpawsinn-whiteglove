@@ -159,3 +159,10 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 
 ## Who the message is from (Alex, Nov 3, 2026, hard rule)
 Every text, email and call opener to a lead or client is from Amanda: "Hi [name], it's Amanda from Four Paws Inn." Never write "it's Alex", even when Alex sends it.
+
+## Read the dog, then add strategy (Alex, Nov 3, 2026: "That's taking the lead")
+Before writing any reply, check the lead for three things and act on them:
+1. **The worry they told us** (shy, rescue, anxious, never boarded). Answer it first, in one or two calm lines about how we start slow. Never promise an outcome.
+2. **What they skipped.** If our last message asked something they didn't answer (boarded before, pickup time), ask it again, once, at the end.
+3. **The fit risk.** A shy or never boarded dog on a long or holiday stay: tell Alex in one line and suggest a first overnight before the big stay (normal rate). Alex decides; never put it in the client text without his yes.
+Then tell Alex in one line each what you added and why.
