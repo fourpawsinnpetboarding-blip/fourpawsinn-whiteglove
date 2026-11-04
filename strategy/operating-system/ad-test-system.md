@@ -108,3 +108,16 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Nov 4, ~11 PM ET: First Sleepover AD73 to AD80 LIVE (Alex: "Publish all and go live $20 budget", before Codex's review; Codex review row stays open for post-launch notes). Same 8 ad ids, new images (Amanda in all 8, $60 conditions strip), text A/B from content/ads/statics/2026-11-04-first-sleepover/copy.md, headline "Give your dog a first sleepover. 230+ Google reviews." Ads renamed AD73 to AD80. Campaign 52668233014324 enabled at $20 a day, ad set 52668233146524 enabled. Static Reviews 52586440813324 set from $30 to $20 a day (winner ad not touched). Total Meta stays $40 a day.
   - AD73 52668234231924, AD74 52668234380724, AD75 52668234527124, AD76 52668234583324, AD77 52668234596924, AD78 52668234611724, AD79 52668234626524, AD80 52668234641724.
   - Stop rules unchanged: $100 spent with 0 leads, stop. Over $30 a lead after 3 days, cut. First read Fri Nov 6 (scheduled check).
+
+## Nov 4, 2026: Day 3 checkpoint (Nov 1 to 3, Windsor + GHL)
+| Campaign | Spend | Meta leads | CPL |
+|---|---|---|---|
+| Codex Realm Reviews test (approved $100/day) | $252.50 | 6 | $42.08 |
+| - Sean Review (Realm film) | $198.04 | 6 | $33.01 |
+| - Elaine Review, Elaine Care Opening V1, V5 Review Carousel | $54.46 | 0 | none |
+| Static Reviews ("New Dog Ad" campaign) | $145.01 | 1 | $145.01 |
+| First Night / Sleepover challenger | $4.06 | 0 | none (paused most of the window) |
+| Total Meta | $401.57 | 7 | $57.37 |
+- GHL match: 7 Meta tagged new contacts Nov 1 to 3, same as Meta's 7. Only Carmen Cruz carries meta-prompt-entry (Static Reviews); the other 6 have source_facebook or source_instagram with no campaign attribution, most likely Realm.
+- Rule hit: Realm CPL over $30 by day 3. Alex told; stop Request row 88b3b2bd added for Codex (Codex owns that campaign).
+- Static Reviews, October's winner ($19.48), is at $145 a lead this month. Not touched (needs Alex's yes).
