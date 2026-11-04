@@ -45,3 +45,14 @@ Headline: "Give your dog a first sleepover. 4.9 stars, 230+ reviews." Button: Ge
 - $60 = one night for a dog under 50 lb with a pick up before 10 AM; "from $60" because over 50 lb is $75 and puppies $80.
 - No safety or health claims, no dashes, no discounts.
 - Launch: after Codex's review, swap these into the 8 paused ads in campaign 52668233014324 and turn it back on at $10 a day.
+
+
+## v2 (Codex final review notes, Nov 4, applied)
+1. $60 conditions in the ad text: "One night is $60 for dogs under 50 lb with pick up before 10 AM. Other sizes and puppies have different rates."
+2. Four Paws Inn logo and name added top left of every image.
+3. Trial encouraged, not mandatory; new line "A first night is not a holiday reservation; a deposit holds your dates." No promise of holiday space.
+4. Rating: the Google Business Profile API returns an all time average of 5 (rounded) with 232 reviews; business-facts says 4.9+. Since the exact decimal can't be confirmed from the API, the badge and copy show 5 stars and "230+ Google reviews" with no number. Alex or Codex can add 4.9 or 5.0 after checking the live profile.
+5. Amanda (confirmed from iphone-contact-poster-amanda.jpg) now in AD78 (H06 frame) and AD80 (bright contact poster photo, replaces the dark H02). AD75 moved to the Lab pool photo.
+6. Softened: "Your dog will love it too" to "It helps your dog too"; "feels easy" to "feels easier"; "It makes the big trip easier" to "It can make the big trip easier"; text A "your dog already knows us" to "your dog has already been here".
+Headline now: "Give your dog a first sleepover. 230+ Google reviews."
+Codex picked AD73 First Sleepover and AD77 New to Us as strongest.
