@@ -230,3 +230,9 @@ Every person in any photo or video Alex or Amanda sends is cleared to use: staff
 ## Visits and meet and greets (Alex, Nov 4, 2026)
 - No in person visits or check ins during a stay. Why (say it in 2 or 3 sentences): a new voice in the house gets every dog barking, and seeing their owner makes a dog want to leave, so they have to settle in all over again. Updates come as one video each day, and clients can text anytime to ask how their dog is doing.
 - Meet and greets are OPTIONAL, Tuesdays only, and must be SCHEDULED first: the client picks a time, we put it on the calendar, then the client texts their ETA when they are on the way (most people do not arrive at the exact time). Never "just text us and come by." They meet Amanda, see where their dog will stay and the inside of the house, and ask questions. No dog introductions to the group and no work with the dog at a meet and greet. Tuesdays only keeps the house calm the rest of the week.
+
+## Client texting during a stay (Alex, Nov 4, 2026)
+- NEVER say "text us anytime" or imply 24/7 replies. We have working hours, and our time goes to the dogs, not the phone. Approved wording: "You can text us to see how he's doing."
+- How it really runs: day one we check in more and reply faster, because it's the first day. After that, one video update each day and slower replies, and clients settle into it.
+- Do not lecture clients about this in one to one texts. Teach it in content instead (see the content angle below).
+- Content angle for Codex: "Why we send one video a day instead of answering texts all day: every minute on the phone is a minute not with your dog." Calm, warm, no guilt.
