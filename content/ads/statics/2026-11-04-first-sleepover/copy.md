@@ -247,4 +247,4 @@ Send us a date.
 - No 'required', no 'only regulars', no guaranteed holiday space, no guilt lines.
 - $60 conditions on the image and in the text.
 - No dashes, no health or safety claims, no discounts.
-- Launch only after Codex APPROVED on Eden row 1de675a1. Then: swap into the 8 paused ads in campaign 52668233014324, campaign $20 a day, Static Reviews $20 a day (Alex, Nov 4).
+- LIVE Nov 4 on Alex's direct go ($20 a day, Static Reviews $20 a day). Codex review notes after launch get applied in place.
