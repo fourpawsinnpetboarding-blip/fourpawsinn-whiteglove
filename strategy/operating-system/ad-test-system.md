@@ -92,3 +92,13 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Codex test (52666799589524, Realm reviews): lifetime budget $700 over Nov 1 to 8 (Codex lowered it from $1,400 on Nov 1, Alex confirmed). Nov 1: $107.78, 4 leads, $26.95 CPL. Sean review ad carries it (4 leads on $90); Elaine review ad $18, 0 leads, 1.2% CTR.
 - Static Reviews (52586440813324): $40 a day, active (Codex readback).
 - No stop needed. Next check Wed Nov 4 (day 3).
+
+## Nov 4, 2026: First Night challenger LIVE (Claude, Alex "Do it. Go live", Nov 3)
+- New campaign 52668233014324 "FPI First Night Hooks | $10 a day challenger | Nov 2026", OUTCOME_LEADS, campaign budget $10 a day, lowest cost.
+- Ad set 52668233146524: duplicate of the Static Reviews ad set 52586440814124 (same targeting, instant form, QUALITY_LEAD).
+- 8 ads, each built from the Static Reviews creative (same lead form and button), with a new image, text and headline "Holidays go to regulars. 4.9 stars, 230+ reviews." Advantage+ creative turned off (the account is not eligible).
+  - Text A (kid analogy): AD61 52668234231924, AD66 52668234380724, AD67 52668234527124, AD70 52668234583324
+  - Text C (regulars / frustrated parent): AD68 52668234596924, AD69 52668234611724, AD71 52668234626524, AD72 52668234641724
+- Static Reviews campaign 52586440813324 set from $40 to $30 a day (the approved $30 + $10 = $40 plan). Winner ad 52586440815124 not touched.
+- Codex's Realm Reviews test campaign is separate and unchanged.
+- Stop rules: $100 spent with 0 leads, stop. Over $30 a lead after 3 days, cut the losing ads. First read Fri Nov 6. Creative files: content/ads/statics/2026-11-03-first-night-v3.
