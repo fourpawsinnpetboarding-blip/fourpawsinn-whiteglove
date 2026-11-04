@@ -10,7 +10,7 @@ const ads=[
  {id:"AD77-NEW-TO-US",a:"NEW",b:"TO US?",sub:"Start with one night. Your dog gets to know our home and our team.",c:"WE'D LOVE",d:"TO MEET THEM.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"yard-lab.jpg",pos:"78% 50%",btn:"BOOK THEIR FIRST SLEEPOVER",bs:56},
  {id:"AD78-START-SMALL",a:"A WEEK AWAY",b:"ON DAY ONE?",sub:"Start with one night first. It can make the big trip easier.",c:"START",d:"SMALL.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"kneel-indoor.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST SLEEPOVER",bs:56},
  {id:"AD79-SECOND-HOME",a:"THEIR",b:"SECOND HOME.",sub:"One night now, so your dog already knows us when the holidays come.",c:"COME",d:"SAY HI.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"h08.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST SLEEPOVER",bs:56},
- {id:"AD80-PRACTICE-NIGHT",a:"PRACTICE",b:"NIGHT.",sub:"Try one night before the holidays. No pressure, just a fun first stay.",c:"FROM",d:"$60.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"amanda-poster.jpg",pos:"50% 60%",btn:"BOOK THEIR FIRST SLEEPOVER",bs:56}
+ {id:"AD80-PRACTICE-NIGHT",a:"PRACTICE",b:"NIGHT.",sub:"New dogs start with one night before the holidays. A fun first stay.",c:"FROM",d:"$60.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"amanda-poster.jpg",pos:"50% 60%",btn:"BOOK THEIR FIRST SLEEPOVER",bs:56}
 ];
 const html=(x)=>`<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:"DM Sans";src:url(data:font/woff2;base64,${F("DMSans-normal.woff2")}) format("woff2");font-weight:100 1000;}

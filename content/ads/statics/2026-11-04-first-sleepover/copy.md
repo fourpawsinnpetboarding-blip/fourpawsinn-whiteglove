@@ -56,3 +56,6 @@ Headline: "Give your dog a first sleepover. 4.9 stars, 230+ reviews." Button: Ge
 6. Softened: "Your dog will love it too" to "It helps your dog too"; "feels easy" to "feels easier"; "It makes the big trip easier" to "It can make the big trip easier"; text A "your dog already knows us" to "your dog has already been here".
 Headline now: "Give your dog a first sleepover. 230+ Google reviews."
 Codex picked AD73 First Sleepover and AD77 New to Us as strongest.
+
+## v3 (Alex, Nov 4, final): first night is REQUIRED for new dogs before a holiday stay
+Alex overrode the 'not mandatory' note; all other Codex notes stay. Text A adds: 'New dogs do one first night with us before any holiday stay.' Text B: 'Before any holiday stay, new dogs do one first night with us.' (replaces 'It's not required'). AD80 line: 'New dogs start with one night before the holidays. A fun first stay.' Still: a first night is not a holiday reservation; a deposit holds dates. No guilt, no guaranteed space.
