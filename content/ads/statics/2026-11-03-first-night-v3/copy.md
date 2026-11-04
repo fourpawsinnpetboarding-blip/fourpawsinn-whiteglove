@@ -27,3 +27,9 @@ Ad texts A (kid analogy) and B (call our bluff) are the same as v2: content/ads/
 - Ad text C (AD68, AD69, AD71, AD72): "Every holiday, families ask us for a spot and we have to say no. Their dog has never stayed with us. Holiday spots at Four Paws Inn go to our regulars. Becoming one takes one night. Spend $60 now and your dog has a second home for the holidays to come. Skip it, and you're scrambling for a sitter the week of your trip. That's not fair to your dog. Four Paws Inn is a family run home in Miramar with 230+ Google reviews and a 4.9 star rating. Send us a date for their first night."
 - Headline: "Holidays go to regulars. 4.9 stars, 230+ reviews."
 - Not used: "highest rated" (needs a check against every local competitor before we can say it; the review count and stars are the verified version) and "forever" (we can't promise a spot every future holiday; "for the holidays to come" instead).
+
+## v5 (Codex review, Nov 4, applied live)
+- Rating now a large badge at the top of the photo (5 stars 4.9, 230+ GOOGLE REVIEWS). Verified: 232 Google reviews (GBP via Windsor, Nov 4).
+- AD66 photo: sharp H03 still instead of the soft puppy photo.
+- Holiday wording kept as Alex's rule ("holiday spots go to dogs who have stayed with us before"), pending his A or B on the two new dogs already booked for Thanksgiving.
+- "Versions look similar": by design they share one frame (Alex asked for the kid concept on all), but there are 3 angles: kid analogy (AD61, AD66, AD67, AD70), holiday rule (AD68, AD69) and the frustrated parent (AD71, AD72). The day 2 read will show which angle wins.

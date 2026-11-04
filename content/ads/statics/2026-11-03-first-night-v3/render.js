@@ -3,7 +3,7 @@ const F=(n)=>fs.readFileSync(path.join(__dirname,"../../../../scripts/morning-po
 const ph=(n)=>fs.readFileSync(path.join(__dirname,"photos",n)).toString("base64");
 const ads=[
  {id:"AD61-NOT-WITH-YOUR-KID",a:"NOT WITH",b:"YOUR KID.",sub:"You'd never leave them for a week with people they've never met. So let your dog meet us first.",c:"TRY 1 NIGHT",d:"FIRST.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"couch-husky.jpg",pos:"30% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
- {id:"AD66-FIRST-SLEEPOVER",a:"FIRST",b:"SLEEPOVER.",sub:"Your kid had one. Give your dog one too, before the holiday trip.",c:"1 NIGHT.",d:"FROM $60.",tag:"BEFORE THE HOLIDAYS  •  MIRAMAR",photo:"puppy-bed.jpg",pos:"30% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
+ {id:"AD66-FIRST-SLEEPOVER",a:"FIRST",b:"SLEEPOVER.",sub:"Your kid had one. Give your dog one too, before the holiday trip.",c:"1 NIGHT.",d:"FROM $60.",tag:"BEFORE THE HOLIDAYS  •  MIRAMAR",photo:"h03-lab.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD67-MEET-THE-SITTER",a:"MEET THE",b:"SITTER FIRST.",sub:"You would for your kid. Do it for your dog: one night before you travel.",c:"THEN TRAVEL",d:"CALM.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"kneel-indoor.jpg",pos:"50% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
  {id:"AD68-HOLIDAYS-ARE-FOR-REGULARS",a:"HOLIDAYS ARE",b:"FOR REGULARS.",sub:"One $60 night makes your dog a regular. Regulars get the holidays.",c:"BECOME",d:"A REGULAR.",tag:"FIRST NIGHT FROM $60  •  MIRAMAR",photo:"hug-white-dog.jpg",pos:"35% 50%",btn:"BOOK THEIR FIRST NIGHT",bs:60},
 
@@ -25,9 +25,10 @@ body{width:1080px;height:1350px;background:#FAF7F3;font-family:"DM Sans";color:#
 .tag{display:inline-block;margin-top:26px;font-weight:800;font-size:27px;letter-spacing:.06em;background:#fff;padding:10px 18px;border-radius:999px;border:3px solid #353532}
 .rule{width:80px;height:4px;background:#353532;margin:48px 0 18px}
 .by{font-size:24px;font-weight:600;display:flex;flex-direction:column;gap:4px}.by b{font-weight:800;font-size:30px}.stars{font-size:34px;letter-spacing:.06em;color:#353532}.stars b{font-size:34px}
-.ph{position:absolute;right:44px;top:120px;width:430px;height:800px;border:8px solid #353532;border-radius:48px;box-shadow:16px 16px 0 #353532;overflow:hidden;background:#ddd}
+.ph{position:absolute;right:44px;top:190px;width:430px;height:780px;border:8px solid #353532;border-radius:48px;box-shadow:16px 16px 0 #353532;overflow:hidden;background:#ddd}
 .ph img{width:100%;height:100%;object-fit:cover;object-position:78% 50%}
-.proof{position:absolute;left:46px;right:46px;bottom:232px;text-align:center;font-weight:700;font-size:25px;letter-spacing:.03em;padding:14px 0;border-top:3px solid #353532;border-bottom:3px solid #353532;white-space:nowrap}.proof b{font-weight:900}.proof .st{color:#353532;letter-spacing:.04em;font-size:28px}
+.badge{position:absolute;right:30px;top:58px;width:458px;background:#fff;border:6px solid #353532;border-radius:22px;box-shadow:10px 10px 0 #353532;padding:14px 10px 12px;text-align:center;z-index:5}.badge .st{font-size:46px;font-weight:900;color:#353532;letter-spacing:.04em;line-height:1}.badge .st b{font-size:52px}.badge .rv{font-weight:900;font-size:30px;letter-spacing:.06em;margin-top:6px}
+.proofx{position:absolute;left:46px;right:46px;bottom:232px;text-align:center;font-weight:700;font-size:25px;letter-spacing:.03em;padding:14px 0;border-top:3px solid #353532;border-bottom:3px solid #353532;white-space:nowrap}.proof b{font-weight:900}.proof .st{color:#353532;letter-spacing:.04em;font-size:28px}
 .btn{position:absolute;left:46px;right:46px;bottom:64px;height:146px;background:#E6A0A3;border:8px solid #353532;border-radius:999px;box-shadow:12px 12px 0 #353532;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:74px;letter-spacing:.04em;color:#353532}
 </style></head><body>
 <div class="left">
@@ -38,7 +39,7 @@ body{width:1080px;height:1350px;background:#FAF7F3;font-family:"DM Sans";color:#
 
 </div>
 <div class="ph"><img src="data:image/jpeg;base64,${ph(x.photo)}" style="object-position:${x.pos||"50% 50%"}"></div>
-<div class="proof"><span class="st">★★★★★</span> <b>4.9</b> &nbsp;•&nbsp; <b>230+ GOOGLE REVIEWS</b> &nbsp;•&nbsp; FAMILY RUN, MIRAMAR</div>
+<div class="badge"><div class="st">★★★★★ <b>4.9</b></div><div class="rv">230+ GOOGLE REVIEWS</div></div>
 <div class="btn" style="font-size:${x.bs||74}px">${x.btn||"SEND YOUR DATES"}</div>
 </body></html>`;
 (async()=>{fs.mkdirSync(path.join(__dirname,"png"),{recursive:true});const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});

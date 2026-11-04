@@ -102,3 +102,4 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Static Reviews campaign 52586440813324 set from $40 to $30 a day (the approved $30 + $10 = $40 plan). Winner ad 52586440815124 not touched.
 - Codex's Realm Reviews test campaign is separate and unchanged.
 - Stop rules: $100 spent with 0 leads, stop. Over $30 a lead after 3 days, cut the losing ads. First read Fri Nov 6. Creative files: content/ads/statics/2026-11-03-first-night-v3.
+- Nov 4 (same night, before any real spend): images swapped on all 8 live ads after Codex's review. Rating badge (5 stars, 4.9, 230+ Google reviews) moved to a large card at the top of the photo, next to the headline. AD66 photo replaced with a sharp still (H03, team member with a Lab). Review count verified in Google Business Profile: 232 reviews. Ad text and lead form unchanged.
