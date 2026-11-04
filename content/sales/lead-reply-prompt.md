@@ -118,6 +118,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 
 ## Channel
 - If they texted, reply by text.
+- Read the thread like a person (Alex, Nov 4). Greet only in the FIRST message of a conversation. Once we have replied, never open with "Good morning", "Hi" or their name again, and never echo their greeting back. Start straight with the answer ("Great questions." or the first answer). Use their name only when it helps, never in every message. Match their tone and length. Repeated greetings and names read as AI.
 - If they emailed or used a website form, reply by email. The email footer already has "Warmly," our name and phone, so end with the last sentence. No sign off, no "Warmly," (Alex, Nov 2). Same for hello@fourpawsinn.co: the footer covers it, end at the last sentence (Alex, Nov 3).
 - The contact number in every message is (754) 971-0792.
 
