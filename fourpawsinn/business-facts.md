@@ -226,3 +226,7 @@ Every person in any photo or video Alex or Amanda sends is cleared to use: staff
 
 - Sales order (Alex, Oct 31, 2026, hard rule): 1) questions about the pet, 2) our value fitted to that pet, 3) price, 4) booking steps and deposit after their yes. Never ask for money before steps 1 and 2. Full text: content/sales/lead-log.md, THE SALES ORDER.
 - Google Ads call conversion length (Alex, Nov 3, 2026): a call counts as a conversion at 20 seconds. Alex did NOT approve 60 seconds. Never change it without Alex.
+
+## Visits and meet and greets (Alex, Nov 4, 2026)
+- No in person visits or check ins during a stay. Why (say it in 2 or 3 sentences): a new voice in the house gets every dog barking, and seeing their owner makes a dog want to leave, so they have to settle in all over again. Updates come as one video each day, and clients can text anytime to ask how their dog is doing.
+- Meet and greets are OPTIONAL, Tuesdays only, by appointment: the client sends a time and their ETA before coming. They meet Amanda, see where their dog will stay and the inside of the house, and ask questions. No dog introductions to the group and no work with the dog at a meet and greet. Tuesdays only keeps the house calm the rest of the week.
