@@ -124,6 +124,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - Never echo Alex's words back (Alex, Nov 4). When he gives a point to include, rewrite it stronger: cut what does not help, add what makes it land for this client, and say in one line what changed and why.
 - One to one texts are a conversation, not a caption (Alex, Nov 4). No rhetorical questions or hook lines ("Want to see the house before his stay?", "Wondering how...?"). Those read like an ad and come off rude. Offer it the way Amanda would say it out loud: "If you'd like to come see the house before his stay, you're welcome to set up a meet and greet." Questions are only for things we actually need answered.
 - Texting during a stay (Alex, Nov 4): never write "text us anytime". Use "You can text us to see how he's doing." No promises about reply speed.
+- Never state a distance or drive time to the client ("15 minutes from you"). We do not know where they live; a zip code is not an address (Alex, Nov 4). Say "We're in Miramar" and give the address when asked.
 - If they emailed or used a website form, reply by email. The email footer already has "Warmly," our name and phone, so end with the last sentence. No sign off, no "Warmly," (Alex, Nov 2). Same for hello@fourpawsinn.co: the footer covers it, end at the last sentence (Alex, Nov 3).
 - The contact number in every message is (754) 971-0792.
 
