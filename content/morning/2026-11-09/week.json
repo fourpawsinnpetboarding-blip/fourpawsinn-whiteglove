@@ -1,0 +1,313 @@
+{
+  "week": "2026-11-09",
+  "slot": "07:30 America/New_York",
+  "owner": "Claude (morning). Codex owns the 18:30 slot.",
+  "platforms": [
+    "instagram",
+    "facebook"
+  ],
+  "posts": [
+    {
+      "day": "Mon",
+      "date": "2026-11-09",
+      "format": "carousel",
+      "pillar": "Parent psychology",
+      "angle": "How was your day? Fine. Parents want details, dogs cannot give them, daily updates do.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "How was your day? *Fine.*",
+          "sub": "Every parent knows this one. Swipe."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "You want the details.",
+          "body": "Who did they sit with? What did they eat? Did they laugh?"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Your dog cannot tell you.",
+          "body": "No words. Just a wagging tail at pickup."
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "So we show you.",
+          "body": "Daily photo and video updates are included with every stay. No guessing."
+        },
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "quote": "During the time my dog was there I received multiple videos of her having a good time.",
+          "name": "Steven F."
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Going out of town?",
+          "title": "Skip the *fine.*",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "How was your day? Fine.\n\nEvery parent knows that answer. You want the real story.\n\nYour dog cannot tell you about their day. So we show you. Daily photo and video updates are included with every stay.\n\nSteven F. wrote it in his Google review. He got multiple videos of his dog having a good time.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-11-09T07:30:00-05:00",
+      "files": [
+        "png/mon-01.png",
+        "png/mon-02.png",
+        "png/mon-03.png",
+        "png/mon-04.png",
+        "png/mon-05.png",
+        "png/mon-06.png"
+      ],
+      "edenPostId": "08f9c653-037f-4bdf-ad74-ec9dd68af173",
+      "status": "scheduled"
+    },
+    {
+      "day": "Tue",
+      "date": "2026-11-10",
+      "format": "static",
+      "pillar": "Fun facts",
+      "angle": "Taste buds. Dogs have about 1,700, people about 9,000. Share bait.",
+      "slides": [
+        {
+          "type": "stat",
+          "theme": "pink",
+          "kicker": "Fun fact",
+          "stat": "1,700",
+          "label": "taste buds on your dog's *tongue.*",
+          "vs": {
+            "value": "9,000",
+            "label": "That is about how many you have."
+          },
+          "source": "AKC"
+        }
+      ],
+      "caption": "Your dog has about 1,700 taste buds. You have about 9,000.\n\nThat is the AKC number. It helps explain why dogs gulp food first and ask questions later.\n\nFood is a big deal to dogs. That is why we ask you to bring their food in a Ziploc bag, one meal per bag. Same food as home.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-11-10T07:30:00-05:00",
+      "files": [
+        "png/tue-01.png"
+      ],
+      "edenPostId": "e6ced7ca-cc77-46d2-8ed7-004f6d1741c2",
+      "status": "scheduled"
+    },
+    {
+      "day": "Wed",
+      "date": "2026-11-11",
+      "format": "carousel",
+      "pillar": "Dog behavior science",
+      "angle": "The puppy dog eyes muscle. Portsmouth study in PNAS 2019. Calm drop offs.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Dog science",
+          "title": "Why you cannot say no to those *eyes.*",
+          "sub": "There is a muscle for that. Swipe.",
+          "layout": "c"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "Dogs have a special eyebrow muscle.",
+          "body": "It lifts the inner part of the brow. It makes the eyes look bigger.",
+          "source": "PNAS, 2019"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Wolves mostly do not.",
+          "body": "Researchers at the University of Portsmouth compared the two. Dogs had the muscle. Wolves mostly did not.",
+          "source": "PNAS, 2019"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "It may be a gift for us.",
+          "body": "Scientists think people may have favored dogs with this look. That is a theory, not proof.",
+          "source": "PNAS, 2019"
+        },
+        {
+          "type": "point",
+          "theme": "charcoal",
+          "num": "04",
+          "title": "So at drop off, the eyes come out.",
+          "body": "Stay calm. Keep it short. We take it from here.",
+          "layout": "b"
+        },
+        {
+          "type": "cta",
+          "theme": "pink",
+          "kicker": "Boarding soon?",
+          "title": "Tell us about *your* dog.",
+          "body": "Cage free home boarding in Miramar. Serving Pembroke Pines and Broward.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "Why you cannot say no to those eyes.\n\nResearchers at the University of Portsmouth found that dogs have a small muscle that lifts the inner brow. Wolves mostly do not have it. The study was published in PNAS in 2019.\n\nScientists think people may have favored dogs with this look. That is a theory, not proof.\n\nSo at drop off, the eyes may come out. Stay calm and keep it short. We take it from here.\n\nSource: PNAS, 2019, University of Portsmouth.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-11-11T07:30:00-05:00",
+      "files": [
+        "png/wed-01.png",
+        "png/wed-02.png",
+        "png/wed-03.png",
+        "png/wed-04.png",
+        "png/wed-05.png",
+        "png/wed-06.png"
+      ],
+      "edenPostId": "27f8792d-d3f5-42af-95d9-a357ea1b9a93",
+      "status": "scheduled"
+    },
+    {
+      "day": "Thu",
+      "date": "2026-11-12",
+      "format": "static",
+      "pillar": "Reviews",
+      "angle": "Megan M. review. Daily videos and updates from Amanda.",
+      "slides": [
+        {
+          "type": "quote",
+          "theme": "charcoal",
+          "head": "Updates *every day.*",
+          "quote": "Four Paws Inn provided the best boarding experience! Amanda sent me daily videos, updates... and provided amazing care for our Loki.",
+          "name": "Megan M."
+        }
+      ],
+      "caption": "Megan M. wrote this in her Google review after her dog Loki stayed with us.\n\nDaily videos and updates are included with every stay at Four Paws Inn.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-11-12T07:30:00-05:00",
+      "files": [
+        "png/thu-01.png"
+      ],
+      "edenPostId": "cda01fe0-6e14-4e2a-81e8-3bcb78b7633e",
+      "status": "scheduled"
+    },
+    {
+      "day": "Fri",
+      "date": "2026-11-13",
+      "format": "static",
+      "pillar": "Parent psychology",
+      "angle": "Landing and turning off airplane mode. First thing you do is check on home.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "cream",
+          "kicker": "Pet parent psychology",
+          "title": "Landing is when you *check* on them.",
+          "sub": "Every parent turns off airplane mode and texts home. With daily updates, there is a video waiting.",
+          "layout": "c"
+        }
+      ],
+      "caption": "You land. You turn off airplane mode. The first thing you do is check on home.\n\nParents do it. Dog parents do it too.\n\nDaily photo and video updates are included with every stay, so you are not guessing from the gate.\n\nTraveling this weekend? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-11-13T07:30:00-05:00",
+      "files": [
+        "png/fri-01.png"
+      ],
+      "edenPostId": "9d24a4ea-81e9-4592-840c-99977fd1a0cd",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sat",
+      "date": "2026-11-14",
+      "format": "carousel",
+      "pillar": "Fun facts",
+      "angle": "3 dog facts that sound fake: Chaser, Chow tongue, Lundehund toes. Weekend share bait.",
+      "slides": [
+        {
+          "type": "hook",
+          "theme": "pink",
+          "kicker": "Dog facts",
+          "title": "3 dog facts that sound *fake.*",
+          "sub": "All true. Swipe.",
+          "layout": "b"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "01",
+          "title": "One dog learned 1,000 words.",
+          "body": "A border collie named Chaser learned the names of more than 1,000 toys.",
+          "source": "Peer reviewed"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "02",
+          "title": "Some tongues are blue black.",
+          "body": "The Chow Chow has a blue black tongue. It is part of the breed.",
+          "source": "AKC"
+        },
+        {
+          "type": "point",
+          "theme": "cream",
+          "num": "03",
+          "title": "Some dogs have six toes.",
+          "body": "The Norwegian Lundehund has six toes on each foot.",
+          "source": "AKC"
+        },
+        {
+          "type": "cta",
+          "theme": "charcoal",
+          "kicker": "Which one surprised you?",
+          "title": "Tell us in the *comments.*",
+          "body": "Then send us your dates and tell us about your dog.",
+          "button": "Send us your dates"
+        }
+      ],
+      "caption": "3 dog facts that sound fake. All true.\n\n1. A border collie named Chaser learned the names of more than 1,000 toys.\n2. The Chow Chow has a blue black tongue.\n3. The Norwegian Lundehund has six toes on each foot.\n\nWhich one surprised you? Tell us below.\n\nSources: Behavioural Processes journal, 2011. American Kennel Club.\n\nIf you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogFacts #DogBoarding",
+      "scheduledAtIso": "2026-11-14T07:30:00-05:00",
+      "files": [
+        "png/sat-01.png",
+        "png/sat-02.png",
+        "png/sat-03.png",
+        "png/sat-04.png",
+        "png/sat-05.png"
+      ],
+      "edenPostId": "92486940-8576-492e-bbc9-b4b1f286e4a4",
+      "status": "scheduled"
+    },
+    {
+      "day": "Sun",
+      "date": "2026-11-15",
+      "format": "static",
+      "pillar": "Review wall",
+      "angle": "Three short quotes: care, daily videos, easy drop off.",
+      "slides": [
+        {
+          "type": "wall",
+          "theme": "cream",
+          "title": "What families *say* after a stay:",
+          "quotes": [
+            {
+              "text": "Excellent care, great communication, and a loving team. My dog always enjoys his stay.",
+              "name": "Madelin E."
+            },
+            {
+              "text": "Very clean and nice ppl. Left my dog for 9 days and received a Video every day.",
+              "name": "Mandy P."
+            },
+            {
+              "text": "I'm so, so glad to have found Four Paws Inn! ... drop off and pick up was seamless.",
+              "name": "Angie A."
+            }
+          ]
+        }
+      ],
+      "caption": "Three Google reviews. Three families who came back.\n\nGreat care. A video every day. Easy drop off and pick up.\n\nPlanning a trip? If you're near Miramar or Pembroke Pines and need boarding, send us your dates and tell us about your dog.\n\n#FourPawsInn #MiramarDogs #DogBoarding #PembrokePines",
+      "scheduledAtIso": "2026-11-15T07:30:00-05:00",
+      "files": [
+        "png/sun-01.png"
+      ],
+      "edenPostId": "b8dbac13-9341-4107-bc1f-d7d23f0aafd2",
+      "status": "scheduled"
+    }
+  ]
+}

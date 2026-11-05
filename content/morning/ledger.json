@@ -34,6 +34,32 @@
         "sniff walks",
         "pet sitter handover checklist"
       ]
+    },
+    "2026-11-09": {
+      "topics": [
+        "how was your day: fine, daily updates",
+        "taste buds 1,700 vs 9,000",
+        "puppy dog eyes muscle",
+        "review: Megan M. daily videos",
+        "landing and checking on home",
+        "3 fake sounding facts: Chaser, Chow tongue, Lundehund toes",
+        "review wall: care, daily video, easy drop off"
+      ],
+      "facts_used": [
+        "AKC: about 1,700 taste buds vs 9,000",
+        "PNAS 2019, Univ of Portsmouth: dog inner brow muscle, wolves mostly lack it",
+        "Behavioural Processes 2011: Chaser, 1,000+ toy names",
+        "AKC: Chow Chow blue black tongue",
+        "AKC: Norwegian Lundehund six toes per foot"
+      ],
+      "reviewers_used": [
+        "Steven F.",
+        "Megan M.",
+        "Madelin E.",
+        "Mandy P.",
+        "Angie A."
+      ],
+      "note": "Eden history was visible only from 2026-10-01 (100 post cap). Reviewer names inside the 2026-10-28 four image wall could not be read."
     }
   }
 }
