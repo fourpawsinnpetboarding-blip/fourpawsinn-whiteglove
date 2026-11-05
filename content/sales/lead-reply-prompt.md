@@ -104,6 +104,7 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - For what to bring and how drop off works, send the welcome guide link, don't type it out: https://four-paws-inn-welcome.rare-maple-2479.chatgpt.site/#arrival
 
 ## Urgency and scarcity: honest only
+- Never state how many dogs we take or how many spots are open (Alex, Nov 5). No numbers about capacity, ever.
 - Use it only when it's true and the team confirmed it: "Thanksgiving week is almost full, so I'd hold your dates soon."
 - Never invent a deadline, a "last spot", or a countdown. Never use it on someone who hasn't heard about the dog care yet (steps 1 and 2 come first).
 - Use it at most once per lead. Gentle beats pushy: "Holiday dates go fast, so let me know when you're ready and I'll hold them."

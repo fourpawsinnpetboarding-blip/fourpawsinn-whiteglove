@@ -52,7 +52,7 @@ Do not use em dashes or stray hyphens in anything he will send, publish, or past
 | Market | Miramar and Broward County, South Florida |
 | Revenue | ~$30,000 per month |
 | Profit | ~$20,000 per month |
-| Capacity | 60 dogs |
+| Capacity | 60 dogs (internal only, never in content or messages; holidays open, Alex Nov 5) |
 | Social proof | 231 Google reviews, 4.9+ stars (Google Business Profile, Oct 11 2026) |
 | Near term target | $100,000 per month |
 | Long term target | $1M+ per month ecosystem |
@@ -171,7 +171,7 @@ Hard rules. No exceptions without an explicit override in the session.
 2. **Never touch `.env` contents.** Do not print, log, commit, or paste secrets into chat.
 3. **Never commit to `main` without saying what changed and why first.**
 4. **Never send email or SMS to a live GHL list.** Draft it, show it, stop. Exception (Alex, Nov 4, 2026): Codex sends Alex-approved past client and stuck lead texts in daily batches of 25 on a cleaned list.
-5b. **No false scarcity in client messages.** Use true urgency only ("filling up fast", "spots are held once the deposit is in"). Never state a spot count that is not real.
+5b. **Never state how many dogs we take** (Alex, Nov 5, 2026). No capacity number, dog count or spot count in any content, ad, caption, email or text. Holiday capacity is open: never turn a holiday booking away for space. Urgency in Claude drafts stays true: "holiday dates book fast", "your dates are held once the deposit is in". Alex may add a "one or two spots left" line himself when he sends; Claude does not write invented spot counts into client messages or content.
 5. **Never make claims about a dog's health, safety guarantees, or medical outcomes** in any copy. Liability, not style.
 6. **Every price quote shows TWO labeled totals (Alex, Nov 1, 2026).** "Pick up after 10 AM: $X" first, then "Pick up before 10 AM: $Y". Never one number, even when the pickup time is known. We lost money on Mikey's stay from a one price quote. ALWAYS ASK the pickup time in the same message ("Will you pick up before 10 AM or after 10 AM?") until the client answers, and confirm it in writing before the deposit, because the gap is a full day (often $100 or more). Details: fourpawsinn/business-facts.md.
 
@@ -199,7 +199,7 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Credits and volume (Alex, Oct 23, 2026, replaces the Oct 20 one at a time rule):** push testing volume 2x to 3x. Use Higgsfield credits for AI hook clips (people only, never AI dogs), Amanda lip sync and Stories. Weekly cap about 3 AI clips (about 105 credits) plus Amanda lip sync, never more without Alex, logged in strategy/operating-system/growth-push-oct-2026.md. Extra volume goes to Trial Reels, not the main feed. Test first (Alex, Oct 23): from the week of Nov 2 every noon reel is tested as 2 or 3 Trial Reel hook versions and only the winner is published to the feed. No ManyChat: DATES comments and DMs get a human reply in GHL.
 
-**Lead update routine (Alex, Oct 17, 2026):** every time Claude writes or reviews a reply to a lead or client, Claude adds an Eden board Request row for Codex in the same turn, without being asked. One row per lead: name and phone, pet name, breed, age, weight, dates, price quoted, stage, and care notes (shy, vaccines needed, follow up date). Codex updates the GHL contact and opportunity and marks the row Done. Update (Alex, Nov 4, 2026): Codex now texts past clients and stuck leads from GHL as Amanda, using only Alex-approved words, on a cleaned list (no STOP, DND or wrong numbers), 25 a day in business hours; details on Eden row f723d188. Claude says "Codex row added" at the end of the reply.
+**Lead update routine (Alex, Oct 17, 2026):** every time Claude writes or reviews a reply to a lead or client, Claude adds an Eden board Request row for Codex once the reply is out: when Alex says it was sent, or pastes the lead's next message (Alex chose this, Nov 5, 2026). Drafts that never go out get no row. One row per lead: name and phone, pet name, breed, age, weight, dates, price quoted, stage, and care notes (shy, vaccines needed, follow up date). Codex updates the GHL contact and opportunity and marks the row Done. Update (Alex, Nov 4, 2026): Codex now texts past clients and stuck leads from GHL as Amanda, using only Alex-approved words, on a cleaned list (no STOP, DND or wrong numbers), 25 a day in business hours; details on Eden row f723d188. Claude says "Codex row added" at the end of the reply.
 
 ## 11. Tool stack
 
