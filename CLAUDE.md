@@ -201,6 +201,8 @@ Hard rules. No exceptions without an explicit override in the session.
 
 **Lead update routine (Alex, Oct 17, 2026):** every time Claude writes or reviews a reply to a lead or client, Claude adds an Eden board Request row for Codex once the reply is out: when Alex says it was sent, or pastes the lead's next message (Alex chose this, Nov 5, 2026). Drafts that never go out get no row. One row per lead: name and phone, pet name, breed, age, weight, dates, price quoted, stage, and care notes (shy, vaccines needed, follow up date). Codex updates the GHL contact and opportunity and marks the row Done. Update (Alex, Nov 4, 2026): Codex now texts past clients and stuck leads from GHL as Amanda, using only Alex-approved words, on a cleaned list (no STOP, DND or wrong numbers), 25 a day in business hours; details on Eden row f723d188. Claude says "Codex row added" at the end of the reply.
 
+**Personal email (Alex, Nov 5, 2026):** anything for Alexander personally (health, personal finance, personal taxes, family, personal accounts) uses alex@chiongenterprise.com, never a Four Paws inbox. Claude can only send from hello@fourpawsinn.co, so for personal emails Claude puts alex@chiongenterprise.com in CC and asks the other side to reply there, and never puts personal details in Four Paws systems (Eden board, repo, GHL). Better: connect alex@chiongenterprise.com as Claude's Gmail for personal work when Alex sets it up.
+
 ## 11. Tool stack
 
 - **CRM and automation:** GoHighLevel. Central hub for CRM, email, SMS, landing pages, workflows.
