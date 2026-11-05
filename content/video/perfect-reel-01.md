@@ -31,5 +31,18 @@ Music: "Heartwarming", Kevin MacLeod, CC BY 4.0, credit in the caption. Loudness
 4. Check the hook frame at full size: 6 elements or fewer, text never covers the dog.
 5. One reel built this way beats ten built fast. Volume only after a format is proven.
 
+## Pacing and hook gate (Alex, Nov 5, 2026: "Do not just make content to make content. We are always trying to improve.")
+Every reel passes all of these before it is scheduled. If one fails, fix it or flag it to Codex. Do not ship it as is.
+1. **Hook on screen by frame 1.** Overlay text of 6 words or fewer, readable in under 1.5 s. The title card is gone by 2.5 s.
+2. **Voice or action starts by 1.0 s.** No silent opening, no logo, no slow fade in.
+3. **No dead air over 1.5 s.** No gap longer than 1.5 s without new words, a new shot or a visible action.
+4. **New shot every 1.5 to 3 s.** A clip that runs longer must have motion that changes the frame.
+5. **Length fits the idea.** Feed reels 12 to 30 s. Over 30 s needs a reason, written on the Codex row.
+6. **Captions are short.** 3 words or fewer per chunk, with the spoken word highlighted, kept off the dog's face.
+7. **Speed check.** Real footage can play up to 1.2x if people and dogs still move naturally. Voice up to 1.2x if whisper still reads every word.
+8. **The payoff lands before 80% of the runtime.** The end card is only the ask.
+
+Why, from Eden (Nov 5): this quarter's dog reel outliers run 5 to 21 s (Remi yard patrol, 21 s, 49.8x; Vinnie Somma calm greeting, 18 s, 300x, contrasting on screen labels). Our own best reel is 12.8 s (this file). Our Instagram reels hold 100 to 300 views at 0.25% engagement, against a peer cohort at 3.7%. Codex's research board ("Four Paws Research: Ads, Trainers & YouTube") is read before every edit.
+
 ## Score it (48 h after it posts, Wed Oct 28)
 Average watch time vs 12.5 s baseline, 3 second hold, shares plus saves plus comments per 1,000 views vs 18.5, comments answering "water lover or not".
