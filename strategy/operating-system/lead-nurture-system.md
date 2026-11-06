@@ -104,3 +104,9 @@ You're all set! Here's everything you need for drop off day: https://four-paws-i
 - Contact rate: leads who reply at least once. Target 50%.
 - Meet and greets booked from quiet and cold leads.
 - Bookings from leads older than 7 days (the money we were leaving behind).
+
+## Decisions (Alex, Nov 6, 2026)
+1. **All draft texts above are approved.** Codex may send them as written.
+2. **Speed to lead is option B, with a limit.** A GHL workflow sends the approved first text (A1) automatically within 5 minutes of every new form, word for word. It is a fixed template, NOT GHL's AI conversation bot. The moment a lead replies, a person takes over (Alex or Amanda, with Claude drafting).
+3. **No AI auto replies yet.** Alex wants to watch a live AI conversation play out from a bird's eye view before trusting it. Before any AI reply goes live, run a shadow test: the AI writes what it would say on real conversations, Alex reads them side by side with what we actually sent, and decides.
+4. **Monday scoreboard, 10 minutes,** every week, sent by Claude.
