@@ -103,6 +103,9 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - Vaccines must be current. They can send the records anytime, no rush, and we keep them on file.
 - For what to bring and how drop off works, send the welcome guide link, don't type it out: https://four-paws-inn-welcome.rare-maple-2479.chatgpt.site/#arrival
 
+## Explain the why (Alex, Nov 5, 2026)
+When a message states a rule (drop off windows, ETA at the car, first sleepover, Tuesday meet and greets, no visits, Ziploc meals), add ONE short reason so it reads as care, not a rule. Approved why lines: strategy/content/educate-every-stage.md. One per message, never a lecture. Example: "Drop off is 9 AM to 12 PM or 4 PM to 6:30 PM. We keep set times so the house stays calm when your dog walks in."
+
 ## Urgency and scarcity: honest only
 - Never state how many dogs we take or how many spots are open (Alex, Nov 5). No numbers about capacity, ever.
 - Use it only when it's true and the team confirmed it: "Thanksgiving week is almost full, so I'd hold your dates soon."
