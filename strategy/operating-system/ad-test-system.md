@@ -123,3 +123,15 @@ Why these numbers: under about 2 to 3 times the target cost, a zero is just bad 
 - Static Reviews, October's winner ($19.48), is at $145 a lead this month. Not touched (needs Alex's yes).
 - DECISION Nov 4, ~9:30 AM ET (Alex: "I need you to decide", Claude chose A): Static Reviews campaign 52586440813324 PAUSED ($145 a lead Nov 1 to 3; winner ad 52586440815124 kept intact for a later restart). First Sleepover campaign 52668233014324 raised from $20 to $40 a day. Total Meta (Claude side) stays $40 a day. Guardrails: stop at $100 spent with 0 leads; cut ads over $30 a lead after 3 days; restart Static Reviews if Sleepover is over $30 a lead by Nov 7.
 - Nov 4 afternoon: Meta ads playbook adopted (strategy/operating-system/meta-ads-playbook-2026-11-04.md). FREEZE: no edits to live campaigns Nov 5 to 11 (every edit restarts learning). Claude's earlier same-day moves stand as the last change (Static Reviews paused, First Sleepover $40/day). Realm stop request withdrawn: Realm reports qualified-lead results, so its CPL is not comparable to lead results; it ends on its own Nov 8 ($84.92 left). Never judge by campaign names; read the Budget column. New hooks: Trial Reels first, then batches of 2 in a new challenger ad set. Correction to playbook hook 1: use "229 five-star Google reviews" (verified Nov 4, 232 total), not the old "173".
+
+## Sequential retargeting (Alex, Nov 6, 2026)
+Goal: show our own leads and video watchers the next video in a sequence instead of only cold ads. Plan:
+1. Now (no spend, no live campaign touched, allowed during the freeze): Codex builds custom audiences in Meta Ads Manager:
+   - V1: watched 50%+ of any Four Paws video, last 30 days
+   - LEADS14: opened or submitted the Fall and Holiday Boarding 2026 instant form, last 14 days
+   - LEADS90: same, last 90 days
+   - SITE30: fourpawsinn.co visitors, last 30 days (pixel)
+   - CLIENTS: GHL customer list upload (booked and past clients), used as an EXCLUSION
+2. Nov 12 (after the freeze): Claude creates one paused ad set, audience LEADS90 + V1 + SITE30, excluding CLIENTS, Advantage+ audience expansion OFF, with 3 nurture videos (drop off at the car, one on one time, reviews). Budget: option A moves $5 a day from the $10 challenger, total stays $40 a day (needs Alex's A).
+3. Read after 7 days: cost per lead from warm audiences vs cold, and meet and greets booked.
+Why it was not set up before: the Oct 25 budget plan allowed only Static Reviews plus one challenger, our warm audiences are small (Meta needs about 100+ people to deliver), conversion tracking was being fixed (conversion-tracking-fix.md), and we had no nurture videos. Claude should have proposed it anyway.
