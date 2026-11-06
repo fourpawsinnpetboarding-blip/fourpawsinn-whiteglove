@@ -135,3 +135,6 @@ Goal: show our own leads and video watchers the next video in a sequence instead
 2. Nov 12 (after the freeze): Claude creates one paused ad set, audience LEADS90 + V1 + SITE30, excluding CLIENTS, Advantage+ audience expansion OFF, with 3 nurture videos (drop off at the car, one on one time, reviews). Budget: option A moves $5 a day from the $10 challenger, total stays $40 a day (needs Alex's A).
 3. Read after 7 days: cost per lead from warm audiences vs cold, and meet and greets booked.
 Why it was not set up before: the Oct 25 budget plan allowed only Static Reviews plus one challenger, our warm audiences are small (Meta needs about 100+ people to deliver), conversion tracking was being fixed (conversion-tracking-fix.md), and we had no nurture videos. Claude should have proposed it anyway.
+
+### Decision (Alex, Nov 6, 2026): option B for retargeting
+Warm retargeting ad set gets NEW spend of $5 a day from Thu Nov 12 (Static Reviews and challenger budgets unchanged). Meta daily cap becomes $45. Added Meta spend Nov 12 to 30: 19 days x $5 = $95. Claude builds it paused on Nov 12, checks audience sizes from Codex's row (4d8cc9be), then enables it and logs the ad set id here and on the Eden board.
