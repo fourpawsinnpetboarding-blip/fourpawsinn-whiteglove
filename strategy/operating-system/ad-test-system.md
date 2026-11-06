@@ -138,3 +138,6 @@ Why it was not set up before: the Oct 25 budget plan allowed only Static Reviews
 
 ### Decision (Alex, Nov 6, 2026): option B for retargeting
 Warm retargeting ad set gets NEW spend of $5 a day from Thu Nov 12 (Static Reviews and challenger budgets unchanged). Meta daily cap becomes $45. Added Meta spend Nov 12 to 30: 19 days x $5 = $95. Claude builds it paused on Nov 12, checks audience sizes from Codex's row (4d8cc9be), then enables it and logs the ad set id here and on the Eden board.
+
+## Day 3 check, First Sleepover (Nov 6, 2026, 10:17 AM ET, Windsor Nov 4 to 6)
+Campaign 52668233014324: $95.11 spent, 2 leads, $47.56 a lead. AD73 First Sleepover $14.11, 1 lead, 1.9% CTR. AD74 Meet Us First $54.54, 1 lead, 1.9% CTR (Meta put most spend here). AD75 to AD80: $26.46 combined, 0 leads. Guardrails: no ad has hit $100 with 0 leads; the "$30 a lead after 3 days" cut rule and the "restart Static Reviews if Sleepover is over $30 by Nov 7" rule are both triggered, but the playbook FREEZE (no live edits Nov 5 to 11) is the newer decision. No change made. Asked Alex to choose.
