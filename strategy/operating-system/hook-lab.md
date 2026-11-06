@@ -85,3 +85,14 @@ What we don't copy: her carousels (they don't work for her either), and her cour
 - Reels average 60K views. The best reel teaches her testing method: 12 hook versions of the same video, about $5 each to 1,000 people, the retention graph picks the winner. Same method we adopted (Trial Reels).
 Correction to the @adley note: on a BUSINESS page, carousels win when they sell and end with a comment keyword. So our Wed and Sat card carousels stay, and every one ends with "Comment DATES and we'll check your week."
 For Four Paws Inn: bio CTA "DM 'DATES' to check your week", every carousel's last slide and caption ends with Comment DATES. No ManyChat (Alex, Oct 23: lead volume is small enough for a human reply in GHL). Reply to every DATES comment and DM within the hour, following content/sales/lead-log.md pacing.
+
+## Adley Kinsman "Billion View formula" (Alex shared Nov 6, 2026)
+Source: https://www.instagram.com/reel/C-72603ONE_/ (1.17M views, 13.8x his baseline, 78s).
+1. **Opening shot:** take an object people tie to one feeling and do the opposite to it. It must cause an emotion AND open a curiosity gap in the first 3 seconds.
+2. **Anchor:** the second beat sets something aside that only makes sense later. Its only job is retention.
+3. **Process:** show the steps while the question stays open.
+4. **Reveal:** the payoff ties back to the anchor and lands the product.
+Four Paws versions (true to business-facts, no harm to any dog, no fear, no safety claims; Codex picks):
+- **The crate:** Amanda folds up a dog crate and carries it out the door. Anchor: she sets the latch on the counter. Process: drop off at the car, the house, the yard. Reveal: dogs napping on the couch, the latch is now a keychain on our tote. "Cage free means no crate. Not even one."
+- **The missed calls:** a phone screen full of "Mom" missed calls (the owner's worry). Anchor: a plain Ziploc meal bag on the table. Process: one on one time, play, nap. Reveal: the owner's phone gets the daily video; the Ziploc was dinner, same as home.
+- **The packed suitcase:** a suitcase zipped shut, the dog staring at it (vacation joy vs the dog's view). Anchor: the dog's leash hung on the suitcase. Process: curbside hand off. Reveal: the same leash at pickup, the dog running to the car.
