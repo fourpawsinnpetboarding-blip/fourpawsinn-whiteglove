@@ -103,6 +103,14 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - Vaccines must be current. They can send the records anytime, no rush, and we keep them on file.
 - For what to bring and how drop off works, send the welcome guide link, don't type it out: https://four-paws-inn-welcome.rare-maple-2479.chatgpt.site/#arrival
 
+## Belief based selling (Cole Gordon, adopted Nov 6, 2026)
+Prevent objections before the price instead of fighting them after. Before quoting, make sure the lead has felt: (1) the worry is real, (2) a kennel or random sitter won't fix it, (3) picking wrong ruins the trip, (4) they can picture their dog happy here (daily video, real home, one on one), (5) their partner is on board, (6) it's worth the money, (7) now is the time (true urgency only).
+- "I need to think about it": "On a scale of 1 to 10, how sure are you this is the right fit for Max?" If below 10: "What would make it a 10?" Then answer that one thing (meet and greet, first sleepover, slow intros).
+- "I need to ask my partner": "Of course! Want me to send you a short video you can show them?" Then invite both to a Tuesday meet and greet.
+- "It's a lot": never discount. Restate the value in one line, mention the before 10 AM pickup saves a day, and that 25% holds the dates.
+- Commit to the process before the price: "Here's how it works: I learn about Max, I tell you how his stay would go, then I send the total."
+Full playbook: strategy/premium/four-paws-premium-playbook.md.
+
 ## Explain the why (Alex, Nov 5, 2026)
 When a message states a rule (drop off windows, ETA at the car, first sleepover, Tuesday meet and greets, no visits, Ziploc meals), add ONE short reason so it reads as care, not a rule. Approved why lines: strategy/content/educate-every-stage.md. One per message, never a lecture. Example: "Drop off is 9 AM to 12 PM or 4 PM to 6:30 PM. We keep set times so the house stays calm when your dog walks in."
 
