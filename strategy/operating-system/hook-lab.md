@@ -96,3 +96,8 @@ Four Paws versions (true to business-facts, no harm to any dog, no fear, no safe
 - **The crate:** Amanda folds up a dog crate and carries it out the door. Anchor: she sets the latch on the counter. Process: drop off at the car, the house, the yard. Reveal: dogs napping on the couch, the latch is now a keychain on our tote. "Cage free means no crate. Not even one."
 - **The missed calls:** a phone screen full of "Mom" missed calls (the owner's worry). Anchor: a plain Ziploc meal bag on the table. Process: one on one time, play, nap. Reveal: the owner's phone gets the daily video; the Ziploc was dinner, same as home.
 - **The packed suitcase:** a suitcase zipped shut, the dog staring at it (vacation joy vs the dog's view). Anchor: the dog's leash hung on the suitcase. Process: curbside hand off. Reveal: the same leash at pickup, the dog running to the car.
+
+## Nov 6 research (premium pet brands night)
+- **The morning line up:** the dogs sitting still at the back door waiting for breakfast, Amanda names three of them on camera, one fact on screen (AKC cited). Never say how many dogs. Model: @themalamuteman, 3.49M views, 113x.
+- **Uncut bedtime:** one take, Amanda brushing or tucking in a guest dog on a bed at night, talking to them softly. No cuts, no music swell. Model: Wally uncut, 23.7M views, 65x. Fills the night footage gap.
+- **The guilt line, in the owner's voice:** a real client on camera at pickup: "I used to feel so guilty leaving her home alone all day." Then the yard, the group, the nap. Model: Dogtopia creator reel, 143.7K views, 46x vs their own promo reels at 0.8x.

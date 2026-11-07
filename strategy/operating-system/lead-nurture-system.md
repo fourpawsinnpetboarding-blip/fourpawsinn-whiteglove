@@ -84,6 +84,9 @@ Any questions about the stay? Happy to help. Here's what our families say: (revi
 **D2, day 4**
 A lot of families like to see the home before they book. Meet and greets are on Tuesdays. Want me to save you a time?
 
+**D3, day 7 after the quote (owner voice, added Nov 6 research)**
+A lot of our families tell us the hardest part was the guilt of leaving their pup. Here's what a day here looks like: https://youtu.be/6Vs58pWcQLI Want me to hold your dates?
+
 **F1, after the deposit**
 You're all set! Here's everything you need for drop off day: https://four-paws-inn-welcome.rare-maple-2479.chatgpt.site/#arrival
 
