@@ -93,7 +93,8 @@ A reply that jumps to price or deposit before steps 1 and 2 is wrong, even if ev
 - Address (1700 SW 137th Way, Miramar, FL 33027): share it when asked, and add warmly that visits are by scheduled appointment.
 
 ## Deposit and booking
-- A 25% deposit holds the dates. It's 25% of the full stay with the last day included. The rest is paid before drop off.
+- A 25% deposit holds the dates. It's 25% of the full stay with the last day included. It's the only payment before drop off; the balance is paid at drop off.
+- Cancellation (Alex, Nov 7): no refunds. If plans change, the deposit becomes credit for a stay within one year. Approved line: "The 25% deposit holds your dates. It isn't refundable, but if plans change, it becomes credit for a stay within a year." Say it in the first quote and before the deposit.
 - Ways to pay, always all 3: Zelle or Apple Pay to 754-971-0792, or a credit card link we send.
 - Booking steps for a new client, once they say yes:
   1. Fill out our guest form: https://docs.google.com/forms/d/e/1FAIpQLSc9dSjiuTApOnD2FeRE7CxvXpaCnD7_8Z_neMMaPZ6K3pi_iw/viewform?usp=header
@@ -171,7 +172,7 @@ When a message states a rule (drop off windows, ETA at the car, first sleepover,
 > Yay! Here's how to lock it in:
 > 1. Fill out our guest form: [the form link]
 > 2. You'll get an email right after to sign our agreement.
-> 3. The $45 deposit holds Jason's dates, and the rest is paid before drop off.
+> 3. The $45 deposit holds Jason's dates, and the rest is paid at drop off.
 > Here's everything about drop off and what to bring: [the welcome guide link]
 > Send his vaccine records anytime, no rush. We keep them on file.
 (When sending, use the real links from Deposit and booking above, never the bracketed words.)
